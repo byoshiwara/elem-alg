@@ -251,7 +251,7 @@
     <introduction><p>For Problems 7<ndash/>8, fill in the tables. What do you notice? Explain.</p></introduction>
 
 <exercise number="7"><statement><p><ol label="a" cols="3">
-    <li><m>y = \dfrac{x}{8}</m>
+    <li><p><m>y = \dfrac{x}{8}</m></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>x</m></cell>
@@ -306,7 +306,7 @@
                     <cell><m></m></cell></row>
             </tabular></sidebyside></li>
     </ol></p></statement>
-    <answer><p>a, b, and c: <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <answer><p>a, b, and c: </p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>x</m></cell>
                     <cell><m>y</m></cell></row>
@@ -322,7 +322,7 @@
                 <row> 
                     <cell><m>16</m></cell>
                     <cell><m>2</m></cell></row>
-            </tabular></sidebyside></p>
+            </tabular></sidebyside>
             <p>The three tables have identical values.</p></answer></exercise>
 
 <exercise number="8"><statement><p><ol label="a" cols="3">
@@ -418,7 +418,7 @@
 
         <li>Let <m>R</m> stand for the temperature in Ridgecrest and <m>S</m> for the temperature in Sunnyvale. Write an equation for <m>S</m> in terms of <m>R</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><!--<image source="images/hp-1-1-9.png"/>-->
+            <sidebyside width="40%">
     <image xml:id="hp-1-1-9">
         <description>grid</description>
         <latex-image>
@@ -470,7 +470,7 @@
     <li>Add <m>15\degree</m> to Ridgecrest's temperature to find Sunnyvale's temperature.</li>
     <li>Temperature in Sunnyvale <m>=</m> Temperature in Ridgecrest <m>+15</m></li>
     <li><m>S=R+15</m></li>
-    <li><p><sidebyside width="40%"><!--<image source="images/hp-1-1-9ans.png"/>-->
+    <li><sidebyside width="40%">
     <image xml:id="hp-1-1-9ans">
         <description>line</description>
         <latex-image>
@@ -494,7 +494,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></li>
+    </sidebyside></li>
 </ol></p></answer></exercise>
 
 <exercise number="10"><statement><p>Jerome is driving from his home in White Falls to his parents' home in Castle Heights, 200 miles away. Fill in the table.</p>
@@ -638,7 +638,7 @@
         <li>Divide the total bill by 3 to get Milton's share.</li>
         <li>Milton's share <m>= \dfrac{\text{total bill}}{3}</m></li>
         <li><m>s=\dfrac{b}{3}</m></li>
-        <li><p><sidebyside width="40%"><!--<image source="images/hp-1-1-11ans.png"/>-->
+        <li><sidebyside width="40%">
     <image xml:id="hp-1-1-11ans">
         <description>line</description>
         <latex-image>
@@ -662,7 +662,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-        </sidebyside></p></li>
+        </sidebyside></li>
     </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>Nutrition experts tell us that no more than 30% of the calories we consume should come from fat. Fill in the table with the fat calories allowed daily for various calorie levels.</p>
@@ -1024,7 +1024,7 @@
             </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><sidebyside cols="2" widths="50% 35%" margins="0% 10%"><p><ol label="a">
+<exercise number="18"><statement><sidebyside widths="50% 35%" margins="0% 10%"><p><ol label="a">
     <li><p>Read the graph at right to fill in the table.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -1077,7 +1077,7 @@
             <li>Fill in the table. Plot the points and connect them with a smooth curve.</li>
     </ol></p></introduction>
 
-<exercise number="19"><statement><p>
+<exercise number="19"><statement>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -1095,8 +1095,8 @@
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></sidebyside></p>
-        <sidebyside width="90%"><!--<image source="images/hp-1-1-19.png"/>-->
+                    </tabular></sidebyside>
+        <sidebyside width="90%">
     <image xml:id="hp-1-1-19">
         <description>grid</description>
         <latex-image>

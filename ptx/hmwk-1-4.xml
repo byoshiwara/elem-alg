@@ -66,27 +66,27 @@
 <exercisegroup cols="3">
     <introduction><p>For Problems 4<ndash/>12, solve and check your solution.</p></introduction>
 
-<exercise number="4"><statement><m>x-3=11</m></statement></exercise>
+<exercise number="4"><statement><p><m>x-3=11</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>10.6=7.8+y</m></statement>
-<answer><m>y=2.8</m></answer></exercise>
+<exercise number="5"><statement><p><m>10.6=7.8+y</m></p></statement>
+<answer><p><m>y=2.8</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>3y=108</m></statement></exercise>
+<exercise number="6"><statement><p><m>3y=108</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>42=3.5b</m></statement>
-<answer><m>b=12</m></answer></exercise>
+<exercise number="7"><statement><p><m>42=3.5b</m></p></statement>
+<answer><p><m>b=12</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>2.6=\dfrac{a}{1.5}</m></statement></exercise>
+<exercise number="8"><statement><p><m>2.6=\dfrac{a}{1.5}</m></p></statement></exercise>
 
-<exercise number="9"><statement><m>x-4=0</m></statement>
-<answer><m>x=4</m></answer></exercise>
+<exercise number="9"><statement><p><m>x-4=0</m></p></statement>
+<answer><p><m>x=4</m></p></answer></exercise>
 
-<exercise number="10"><statement><m>34x=212</m></statement></exercise>
+<exercise number="10"><statement><p><m>34x=212</m></p></statement></exercise>
 
-<exercise number="11"><statement><m>6z=20</m></statement>
-<answer><m>z=\dfrac{10}{3}</m></answer></exercise>
+<exercise number="11"><statement><p><m>6z=20</m></p></statement>
+<answer><p><m>z=\dfrac{10}{3}</m></p></answer></exercise>
 
-<exercise number="12"><statement><m>9=k+9</m></statement></exercise>
+<exercise number="12"><statement><p><m>9=k+9</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup>
@@ -105,7 +105,7 @@
 <exercise number="15"><statement><p>How long will it take a cyclist traveling at 13 miles an hour to cover 234 miles?</p></statement>
 <answer><p><ol label="a">
     <li><m>d=rt; ~234=13t</m> </li>
-    <li><m>t=18</m>; It takes 18 hours.</li></ol></p></answer></exercise>
+    <li><p><m>t=18</m>; It takes 18 hours.</p></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>A roll of carpet contains 400 square feet of carpet. If the roll is 16 feet wide, how long is the piece of carpet?</p></statement></exercise>
 </exercisegroup>
@@ -119,17 +119,17 @@
         </md></p></assemblage></introduction>
 
 <exercise number="17"><statement><p>Sarah drove 7 miles farther to her high school reunion than Jenni drove. If Sarah drove 26 miles, how far did Jenni drive?</p></statement>
-<answer><m>x+7=26</m></answer></exercise>
+<answer><p><m>x+7=26</m></p></answer></exercise>
 
 <exercise number="18"><statement><p>Lurline and Rozik live 26 miles apart. They meet at a theme park between their homes. If Lurline drove 7 miles to the park, how far did Rozik drive?</p></statement></exercise>
 
 <exercise number="19"><statement><p>Doris is training for a triathlon. This week she averaged 26 miles per day on her bicycle. If she rode every day, what was her total mileage?</p></statement>
-<answer><m>\dfrac{x}{7}=26</m></answer></exercise>
+<answer><p><m>\dfrac{x}{7}=26</m></p></answer></exercise>
 
 <exercise number="20"><statement><p>Glynnis jogged the same route every day this week for a total of 26 miles. How long is her route?</p></statement></exercise>
 
 <exercise number="21"><statement><p>Astrid divided her supply of colored pencils among the 26 children in her class, and each child got 7 pencils. How many pencils does she have?</p></statement>
-<answer><m>\dfrac{x}{26}=7</m></answer></exercise>
+<answer><p><m>\dfrac{x}{26}=7</m></p></answer></exercise>
 
 <exercise number="22"><statement><p>Ariel lost 7 of the beads on her necklace, and now there are 26. How many were there originally?</p></statement></exercise>
 </exercisegroup>

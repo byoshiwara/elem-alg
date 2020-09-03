@@ -31,14 +31,13 @@
 
 <p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
 
-<reading-questions>
+
     <exercise number="1"><statement><p>What are integers?</p></statement>
     <answer><p>The natural numbers, zero, and the negatives of the natural numbers.</p></answer></exercise>
-</reading-questions>
 
 <p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of <m>-6</m> lies to the left of the graph of <m>-2</m>. Therefore, <m>-6</m> is less than <m>-2</m>, or, equivalently, <m>-2</m> is greater than <m>-6</m>.</p> 
 
-<sidebyside width="80%"><!--<image source="images/fig-2-1-2.png"><description>number line</description></image>-->
+<sidebyside width="80%">
     <image xml:id="fig-2-1-2"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -155,6 +154,8 @@ Thus, the sign of the sum is the same as the sign of the two terms. To find the 
 </subsection>
 
 <subsection><title>Adding Two Numbers with Opposite Signs</title><idx><h>number line</h><h>adding numbers with the opposite signs</h></idx>
+
+<introduction>
 <p>Suppose you have debts of $9, and assets of $6. (Your "assets" are your possessions.) What is your net worth?  We can model this situation by the sum
 	<me>-9+(+6)</me>
 where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
@@ -194,14 +195,13 @@ where debts are represented by negative numbers and assets by positive numbers. 
  <solution><p><ol label="a">
  	<li>The two numbers have opposite signs, so we subtract 5 from 9 to get 4, then make the answer positive, because <m>+9</m> has a larger absolute value than <m>-5</m>. Thus, <m>(-5)+(+9)=4.</m></li>
 	<li>We subtract 5 from 9 to get 4, then make the answer negative, because <m>-9 </m> has a larger absolute value than <m>+5</m>. Thus,<m>(+5)+(-9)=-4.</m></li></ol></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="2"><statement><p>What is the <term>absolute value</term><idx>absolute value</idx> of a number?</p></statement>
     	<answer><p>The unsigned part of the number.</p></answer></exercise>
     <exercise number="3"><statement><p>When we add two numbers with opposite signs, we <fillin characters="6"/> their absolute values.</p></statement>
     	<answer><p>subtract</p></answer></exercise>
-</reading-questions>
-
 <p>We now have two rules for adding signed numbers.</p>
 
 <assemblage><title>Rules for Adding Integers</title>
@@ -213,6 +213,8 @@ where debts are represented by negative numbers and assets by positive numbers. 
 <p><ol label="1">
 	<li>To add two numbers with the same sign, add their absolute values. The sum has the same sign as the numbers.</li>
 	<li>To add two numbers with opposite signs, subtract their absolute values. The sum has the same sign as the number with the larger absolute value.</li></ol></p></assemblage>
+</subsubsection>
+
 </subsection>
 
 <subsection><title>Subtracting a Positive Number</title>
@@ -258,12 +260,14 @@ where debts are represented by negative numbers and assets by positive numbers. 
 
 <subsection><title>Subtracting a Negative Number</title>
 <idx><h>number line</h><h>subtracting a negative number</h></idx>
+
+<introduction>
 <p>When we add a negative number we move to the left on the number line. There are only two directions we can move on a number line, so when we subtract a negative number we must move to the right.</p>
 
 <assemblage><title>Subtracting a negative number</title>
 	<p>Compare the graphs for adding <m>-3</m> and subtracting <m>-3</m><ul>
-	<li>Addition:	<m>~~~~5+(-3)~~~~</m>   Move 3 units to the left, to get 2.
-		<sidebyside width="75%"><!--<image source="images/fig-2-1-8.png"><description>number line</description></image>-->
+	<li><p>Addition:	<m>~~~~5+(-3)~~~~</m>   Move 3 units to the left, to get 2.</p>
+		<sidebyside width="75%">
     <image xml:id="fig-2-1-8"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -282,8 +286,8 @@ where debts are represented by negative numbers and assets by positive numbers. 
 		\filldraw[red] (5,0) circle (.2);
 		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(-3,0) node[above, midway, scale=.9]{$-3$};
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
-	<li>Subtraction:  <m>~~~~5-(-3)~~~~</m>   Move 3 units to the right, to get 8. 
-		<sidebyside width="75%"><!--<image source="images/fig-2-1-9.png"><description>number line</description></image>-->
+	<li><p>Subtraction:  <m>~~~~5-(-3)~~~~</m>   Move 3 units to the right, to get 8. </p>
+		<sidebyside width="75%">
     <image xml:id="fig-2-1-9"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -307,13 +311,17 @@ where debts are represented by negative numbers and assets by positive numbers. 
 <p>Notice that
 	<me>5-(-3)=8 ~~~~~ \text{and} ~~~~~5+(+3)=8</me>
 Subtracting a negative number has the same result as adding the positive number with the same absolute value. Thus, to subtract a negative number, we add its opposite.</p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
     	<answer><p>False.  If <m>x=-3</m>, then <m>-x=3</m>.</p></answer></exercise>
     <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> with the same absolute value.</p></statement>
     	<answer><p>adding a positive number</p></answer></exercise>
-</reading-questions>
+</subsubsection>
+</subsection>
+
+<subsection><title>Subtracting Signed Numbers</title>
 
 <p>From the examples above, we see that to subtract any number, positive or negative, we add its opposite. We can do this in steps as follows.</p>
 
@@ -499,24 +507,26 @@ Based on the pattern in these calculations, the following rule seems reasonable.
 </subsubsection>
 </subsection>
 
+
 <subsection><title>Dividing Signed Numbers</title>
 <idx><h>signed number</h><h>division of</h></idx>
 <idx><h>division</h><h>of signed numbers</h></idx>
 <idx><h>quotient</h><h>of signed numbers</h></idx>
 
+<introduction>
 <p>Division is the inverse operation for multiplication. For example, we know that
-	<me>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</me>
+    <me>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</me>
 Thus, every division fact can be converted into an equivalent multiplication fact. For example,
-	<me>\text{The division fact}~~\dfrac{\blert{400}}{16}=25~~~~\text{is equivalent to}~~~~16 \cdot 25 = \blert{400}</me>
+    <me>\text{The division fact}~~\dfrac{\blert{400}}{16}=25~~~~\text{is equivalent to}~~~~16 \cdot 25 = \blert{400}</me>
 Note that the numerator in the division fact becomes the product in the multiplication fact. The same relationship between multiplication and division holds for negative numbers as well.</p>
 
 <example><statement><p>Rewrite each division fact as a multiplication fact.<ol label="a" cols="2">
-	<li><m>\dfrac{-144}{64}=-2.25</m></li>
-	<li><m>-36 \div \dfrac{-3}{8}=96</m></li></ol></p></statement>
+    <li><m>\dfrac{-144}{64}=-2.25</m></li>
+    <li><m>-36 \div \dfrac{-3}{8}=96</m></li></ol></p></statement>
 
 <solution><p>The numerator in each division fact becomes the product in the multiplication fact.<ol label="a" cols="2">
-	<li><m>-144=-2.25(64)</m></li>
-	<li><m>-36= \dfrac{-3}{8}(96)</m></li></ol></p></solution></example>
+    <li><m>-144=-2.25(64)</m></li>
+    <li><m>-36= \dfrac{-3}{8}(96)</m></li></ol></p></solution></example>
 
 <p>The Example above illustrates the rules for division of signed numbers.</p>
 
@@ -525,46 +535,50 @@ Note that the numerator in the division fact becomes the product in the multipli
 <idx><h>division</h><h>of signed numbers</h></idx>
 <idx><h>quotient</h><h>of signed numbers</h></idx>
 <p><ol label="a">
-	<li>The quotient of two numbers with opposite signs is a negative number.</li>
-	<li>The quotient of two numbers with the same sign is a positive number.</li></ol></p></assemblage>
+    <li>The quotient of two numbers with opposite signs is a negative number.</li>
+    <li>The quotient of two numbers with the same sign is a positive number.</li></ol></p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="6"><statement><p>Which of these is a product?<ol label="a" cols="4">
-    		<li><m>3+(-4)</m></li>
-    		<li><m>-3-4</m></li>
-    		<li><m>-3(-4)</m></li>
-    		<li><m>3-(-4)</m></li></ol></p></statement>
-    	<answer><p>c</p></answer></exercise>
+            <li><m>3+(-4)</m></li>
+            <li><m>-3-4</m></li>
+            <li><m>-3(-4)</m></li>
+            <li><m>3-(-4)</m></li></ol></p></statement>
+        <answer><p>c</p></answer></exercise>
     <exercise number="6"><statement><p>Rewrite the division fact <m>\dfrac{48}{D}=Q</m> as a multiplication fact.
-	</p></statement>
-    	<answer><p><m>DQ=48</m></p></answer></exercise>
-</reading-questions>
+    </p></statement>
+        <answer><p><m>DQ=48</m></p></answer></exercise>
+
 
 <p>Remember that a fraction can be thought of as a division. For example, <m>\dfrac{3}{4}</m> means <m>3 \div 4</m>, or 0.75. What about negative fractions? <ul>
-	<li>Because the quotient of two numbers with unlike signs is negative, the fractions <m>\dfrac{-3}{4}</m> and <m>\dfrac{3}{-4}</m> both represent the negative number <m>-\dfrac{3}{4}</m>. </li>
-	<li>On the other hand, <m>\dfrac{-3}{-4}</m> is equal to the positive number <m>\dfrac{3}{4}</m>.</li></ul></p>
+    <li>Because the quotient of two numbers with unlike signs is negative, the fractions <m>\dfrac{-3}{4}</m> and <m>\dfrac{3}{-4}</m> both represent the negative number <m>-\dfrac{3}{4}</m>. </li>
+    <li>On the other hand, <m>\dfrac{-3}{-4}</m> is equal to the positive number <m>\dfrac{3}{4}</m>.</li></ul></p>
 
 <p>For many of the calculations in algebra, it is more convenient to write a negative fraction with the minus sign in the numerator, like this: <m>\dfrac{-3}{4}</m>.</p> 
 
 <assemblage><title>Standard Form for Fractions</title>
 <idx><h>standard form</h><h>of writing negative fractions</h></idx><idx><h>fractions</h><h>standard form for writing negative fraction</h></idx>
 <p>A negative fraction is written in <term>standard form</term> when the minus sign is in the numerator:  <m>\dfrac{-a}{b}</m>.
-	<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
+    <me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
 The standard form for a positive fraction has positive numerator and denominator.
-	<me>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</me></p></assemblage>
+    <me>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</me></p></assemblage>
+</subsubsection>
 </subsection>
 
 <subsection><title>Quotients Involving Zero</title>
 <idx><h>quotient</h><h>involving zero</h></idx>
 <idx><h>division</h><h>involving zero</h></idx>
-<p>	What is the meaning of an expression such as <m>\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
-	<me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
+
+<introduction>
+<p> What is the meaning of an expression such as <m>\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
+    <me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
 What number can we substitute for the question mark to make <m>~2 \cdot \alert{?} = 0~</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
-	<me>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</me>
+    <me>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</me>
 In general, 0 divided by any (non-zero) number is 0.</p>
 
 <p>Now consider a quotient with zero in the denominator, such as <m>\dfrac{2}{0}</m>.
-	<me>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</me>
+    <me>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</me>
 What number can we substitute for the question mark to make <m>~0 \cdot \alert{?} = 2~</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term><idx><h>undefined</h><h>quotient</h></idx>. In general, we cannot divide any number by zero.<idx><h>undefined</h><h>division by zero</h></idx></p>
 
 <assemblage><title>Quotients Involving Zero</title>
@@ -575,20 +589,22 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
 <me>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</me></p></assemblage>
 
 <example><statement><p><ol label="a" cols="2">
-	<li><m>6 \div 0~~</m> is undefined.</li>
-	<li><m>0 \div 8=0</m></li></ol></p></statement></example>
+    <li><m>6 \div 0~~</m> is undefined.</li>
+    <li><m>0 \div 8=0</m></li></ol></p></statement></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="8"><statement><p>Which of these is undefined?  <m>~\dfrac{-6}{0}~</m> or <m>~\dfrac{0}{-6}~</m>?</p></statement>
-    	<answer><m>\dfrac{-6}{0}</m></answer></exercise>
-</reading-questions>
+        <answer><p><m>\dfrac{-6}{0}</m></p></answer></exercise>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 2.1.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 
 <exercise number="1"><statement><p>Graph the numbers on the number line:  <m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p>
-<sidebyside width="70%"><!--<image source="images/sw-2-1-1.png"><description>number line</description></image>-->
+<sidebyside width="70%">
     <image xml:id="sw-2-1-1"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -610,21 +626,22 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
 <exercisegroup><introduction><p>Replace the comma in each pair by the proper symbol, <m>\lt,~\gt,~</m> or <m>=</m>.</p></introduction>
 
 <exercise number="3"><statement><p><ol label="a" cols="2">
-	<li><m>0,~-4</m></li>
-	<li><m>-5,~-9</m></li>
-	<li><m>-2\frac{5}{8}~,-2\frac{1}{8}</m></li>
-	<li><m>13.6,~13.66</m></li></ol></p></statement></exercise>
+    <li><m>0,~-4</m></li>
+    <li><m>-5,~-9</m></li>
+    <li><m>-2\frac{5}{8}~,-2\frac{1}{8}</m></li>
+    <li><m>13.6,~13.66</m></li></ol></p></statement></exercise>
 
 <exercise number="4"><statement><p><ol label="a" cols="2">
-	<li><m>3,~-7</m></li>
-	<li><m>-1,~-6</m></li>
-	<li><m>-3~,-3\frac{3}{4}</m></li>
-	<li><m>-18.4,~-19.6</m></li></ol></p></statement></exercise>
+    <li><m>3,~-7</m></li>
+    <li><m>-1,~-6</m></li>
+    <li><m>-3~,-3\frac{3}{4}</m></li>
+    <li><m>-18.4,~-19.6</m></li></ol></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1">
-	<li><sidebyside width="70%"><image xml:id="sw-2-1-1ans"><description>number line</description><latex-image>
+<solutions><title>Answers to Skills Warm-Up</title>
+<conclusion><p><ol label="1">
+    <li><sidebyside width="70%"><image xml:id="sw-2-1-1ans"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -663,177 +680,213 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
         \filldraw[red] (-2,0) circle (.15) node[below, yshift=-3, scale=.9] {$-2$};
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li><p><ol label="a" cols="4">
-		<li><m>\gt</m></li>
-		<li><m>\gt</m></li>
-		<li><m>\lt</m></li>
-		<li><m>\lt</m></li></ol></p></li>
-	<li><p><ol label="a" cols="4">
-		<li><m>\gt</m></li>
-		<li><m>\gt</m></li>
-		<li><m>\gt</m></li>
-		<li><m>\gt</m></li></ol></p></li></ol></p>
-</subsubsection>
+        <li><m>\gt</m></li>
+        <li><m>\gt</m></li>
+        <li><m>\lt</m></li>
+        <li><m>\lt</m></li></ol></p></li>
+    <li><p><ol label="a" cols="4">
+        <li><m>\gt</m></li>
+        <li><m>\gt</m></li>
+        <li><m>\gt</m></li>
+        <li><m>\gt</m></li></ol></p></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Sums and Differences</title>
-<exercises>
+<introduction>
+<activity><title>Sums and Differences</title>
+<p><ol label="1">
+    <li>
+        <p>Illustrate each sum on a number line, then give the answer.<ol label="a">
+            <li><p><m>2+4=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+            <li><p><m>(-4)+(-7)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+            <li><p><m>(-6)+(-3)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+        </ol></p>
+    </li>
+    <li>
+        <p>Illustrate each sum on a number line, then give the answer.<ol label="a">
+            <li><p><m>(+5)+(-3)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+            <li><p><m>(-7)+(+2)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+            <li><p><m>(-5)+(+9)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+        </ol></p>
+    </li>
+    <li>
+        <p>Fill in the blanks.
+            <ol label="a">
+            <li><p>The sum of two positive numbers is <fillin characters="12"/>.</p></li>
+            <li><p>The sum of two negative numbers is <fillin characters="12"/>.</p></li>
+            <li><p>To add two numbers with opposite signs, <fillin characters="12"/> their absolute values. The sum has the same sign as the number with the <fillin characters="12"/> absolute value.</p></li>
+        </ol></p>
+    </li>
+    <li>
+        <p>Find the following sums.<ol label="a" cols="2">
+            <li><m>(-9)+(-9)</m></li>
+            <li><m>(-14)+(-11)</m></li>
+            <li><m>4+(-12)</m></li>
+            <li><m>15+(-9)</m></li>
+            <li><m>-6+(-3)</m></li>
+            <li><m>-8+(+3)</m></li>
+            <li><m>-7+19</m></li>
+            <li><m>18+(-10)</m></li>
+            <li><m>5+(-5)</m></li>
+            <li><m>-5+(-5)</m></li>
+        </ol></p>
+    </li>
+    <li>
+        <p>Illustrate each sum on a number line, then give the answer.<ol label="a">
+            <li><p><m>2-(-6)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+            <li><p><m>-7-(-4)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+            <li><p><m>-3-(-7)=</m></p>
+            <sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></li>
+        </ol></p>
+    </li>
+    <li>
+        <p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a">
+            <li><m>3-(-9)=</m></li>
+            <li><m>-4-(-7)=</m></li>
+            <li><m>-8-(-2)=</m></li>
+        </ol></p>
+    </li>
+</ol></p>
 
-<exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
-	<li><p><m>2+4=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
-	<li><p><m>(-4)+(-7)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
-	<li><p><m>(-6)+(-3)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+</activity>
 
-<exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
-	<li><p><m>(+5)+(-3)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
-	<li><p><m>(-7)+(+2)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
-	<li><p><m>(-5)+(+9)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+<activity><title>Products and Quotients</title>
+<p><ol label="1">
+	<li>
+		<p>Write the product <m>5(-4)</m> as a repeated addition, and compute the product.</p>
+	</li>
+	<li>
+		<p>Compute the products.<ol label="a" cols="2">
+		    <li><m>5(-4)</m></li>
+		    <li><m>\dfrac{-3}{4} \cdot \dfrac{1}{2}</m></li>
+		    <li><m>(-3)(-3)</m></li>
+		    <li><m>\dfrac{-5}{3} \cdot \dfrac{-3}{10}</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Use the relationship between products and quotients to complete each statement. No calculation is necessary!<ol label="a">
+		    <li><p><m>\dfrac{8190}{26} = <fillin characters="6"/>~~</m> because <m>~~26 \cdot 315 = 8190</m></p></li>
+		    <li><p><m>62 \cdot <fillin characters="6"/>=83.7~~</m> because <m>~~\dfrac{83.7}{62} = 1.35</m></p></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Find each quotient by rewriting the division as an equivalent multiplication fact.<ol label="a" cols="2">
+		    <li><m>\dfrac{6}{3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+		    <li><m>\dfrac{6}{-3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+		    <li><m>\dfrac{-6}{3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+		    <li><m>\dfrac{-6}{-3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Compute the quotients.<ol label="a" cols="2">
+		    <li><m>\dfrac{-25}{-5}</m></li>
+		    <li><m>\dfrac{32}{-8}</m></li>
+		    <li><m>-27 \div 9</m></li>
+		    <li><m>-42 \div (-7)</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Fill in the blanks.<ol label="a">
+		    <li>The product or quotient of two numbers with the same sign is <fillin characters="8"/>.</li>
+		    <li>The product or quotient of two numbers with opposite signs is <fillin characters="8"/>.</li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Find the quotient if it exists.<ol label="a" cols="2">
+		    <li><m>\dfrac{0}{18}</m></li>
+		    <li><m>\dfrac{13}{0}</m></li>
+		    <li><m>-9 \div 0</m></li>
+		    <li><m>0 \div (-2)</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+		    <li><p>Use your calculator to verify that  <m>-\dfrac{2}{5} = \dfrac{-2}{5} = \dfrac{2}{-5}</m></p></li>
+		    <li><p>Does <m>-\dfrac{2}{5} = \dfrac{-2}{-5}</m> ?</p></li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<exercise><statement><p>Fill in the blanks.<ol label="a">
-	<li>The sum of two positive numbers is <fillin characters="12"/>.</li>                                      .
-	<li>The sum of two negative numbers is <fillin characters="12"/>.</li>                                       .
-	<li>To add two numbers with opposite signs, <fillin characters="12"/> their absolute values. The sum has the same sign as the number with the <fillin characters="12"/> absolute value.</li></ol></p></statement></exercise>
+</activity>
 
-<exercise><statement><p>Find the following sums.<ol label="a" cols="2">
-	<li><m>(-9)+(-9)</m></li>
-	<li><m>(-14)+(-11)</m></li>
-	<li><m>4+(-12)</m></li>
-	<li><m>15+(-9)</m></li>
-	<li><m>-6+(-3)</m></li>
-	<li><m>-8+(+3)</m></li>
-	<li><m>-7+19</m></li>
-	<li><m>18+(-10)</m></li>
-	<li><m>5+(-5)</m></li>
-	<li><m>-5+(-5)</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
-	<li><p><m>2-(-6)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
-	<li><p><m>-7-(-4)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
-	<li><p><m>-3-(-7)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a">
-	<li><m>3-(-9)=</m></li>
-	<li><m>-4-(-7)=</m></li>
-	<li><m>-8-(-2)=</m></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
-
-<subsubsection><title>Activity 2: Products and Quotients</title>
-<exercises>
-
-<exercise><statement><p>Write the product <m>5(-4)</m> as a repeated addition, and compute the product.</p></statement></exercise>
-
-<exercise><statement><p>Compute the products.<ol label="a" cols="2">
-	<li><m>5(-4)</m></li>
-	<li><m>\dfrac{-3}{4} \cdot \dfrac{1}{2}</m></li>
-	<li><m>(-3)(-3)</m></li>
-	<li><m>\dfrac{-5}{3} \cdot \dfrac{-3}{10}</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Use the relationship between products and quotients to complete each statement. No calculation is necessary!<ol label="a">
-	<li><p><m>\dfrac{8190}{26} = <fillin characters="6"/>~~</m> because <m>~~26 \cdot 315 = 8190</m></p></li>
-	<li><p><m>62 \cdot <fillin characters="6"/>=83.7~~</m> because <m>~~\dfrac{83.7}{62} = 1.35</m></p></li>
-</ol></p></statement></exercise>
-
-<exercise><statement><p>Find each quotient by rewriting the division as an equivalent multiplication fact.<ol label="a" cols="2">
-	<li><m>\dfrac{6}{3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
-	<li><m>\dfrac{6}{-3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
-	<li><m>\dfrac{-6}{3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
-	<li><m>\dfrac{-6}{-3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
-</ol></p></statement></exercise>
-
-<exercise><statement><p>Compute the quotients.<ol label="a" cols="2">
-	<li><m>\dfrac{-25}{-5}</m></li>
-	<li><m>\dfrac{32}{-8}</m></li>
-	<li><m>-27 \div 9</m></li>
-	<li><m>-42 \div (-7)</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Fill in the blanks.<ol label="a">
-	<li>The product or quotient of two numbers with the same sign is <fillin characters="8"/>.</li>
-	<li>The product or quotient of two numbers with opposite signs is <fillin characters="8"/>.</li></ol></p>
-</statement></exercise>
-
-<exercise><statement><p>Find the quotient if it exists.<ol label="a" cols="2">
-	<li><m>\dfrac{0}{18}</m></li>
-	<li><m>\dfrac{13}{0}</m></li>
-	<li><m>-9 \div 0</m></li>
-	<li><m>0 \div (-2)</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p><ol label="a">
-	<li><p>Use your calculator to verify that  <m>-\dfrac{2}{5} = \dfrac{-2}{5} = \dfrac{2}{-5}</m></p></li>
-	<li><p>Does <m>-\dfrac{2}{5} = \dfrac{-2}{-5}</m> ?</p></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives>
+<introduction><p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Illustrating sums and differences on a number line</li>
     <li>Performing operations on signed numbers</li>
-	<li>Writing a subtraction as an equivalent addition</li></ul></p></assemblage>
+    <li>Writing a subtraction as an equivalent addition</li></ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>   
+<ol label="1">
     <li>Delbert says that "two negatives make a positive." For which operations is he correct, and for which is he incorrect?</li>
-	<li>How do we convert a subtraction of signed numbers into an addition? Give an example.</li>
-	<li><p>True or false:<ol label="a" cols="2"> 
-		<li><m>\dfrac{2}{-2} = 0</m></li>
-		<li><m>\dfrac{2}{0} = 0</m></li>
-		<li><m>-2-2 = 0</m></li>
-		<li><m>-2(-2) = 0</m></li></ol></p></li>	
-	<li>Does the negative sign in a fraction such as <m>~-\dfrac{5}{2}~</m> apply to the numerator, the denominator, or both?</li></ol></p></assemblage>
+    <li>How do we convert a subtraction of signed numbers into an addition? Give an example.</li>
+    <li><p>True or false:<ol label="a" cols="2"> 
+        <li><m>\dfrac{2}{-2} = 0</m></li>
+        <li><m>\dfrac{2}{0} = 0</m></li>
+        <li><m>-2-2 = 0</m></li>
+        <li><m>-2(-2) = 0</m></li></ol></p></li>    
+    <li>Does the negative sign in a fraction such as <m>~-\dfrac{5}{2}~</m> apply to the numerator, the denominator, or both?</li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 
 <exercises>
 <exercisegroup><introduction><p>Perform the operations.</p></introduction>
 
-<exercise><statement><p><ol lable="a" cols="2">
-	<li><m>8+(-4)</m></li>
-	<li><m>8-(-4)</m></li>
-	<li><m>-8-4</m></li>
-	<li><m>-8-(-4)</m></li></ol></p></statement></exercise>
+<exercise><statement><p><ol label="a" cols="2">
+    <li><m>8+(-4)</m></li>
+    <li><m>8-(-4)</m></li>
+    <li><m>-8-4</m></li>
+    <li><m>-8-(-4)</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol lable="a" cols="2">
-	<li><m>8(-4)</m></li>
-	<li><m>-8(-4)</m></li>
-	<li><m>\dfrac{-8}{-4}</m></li>
-	<li><m>\dfrac{8}{-4}</m></li></ol></p></statement></exercise>
+<exercise><statement><p><ol label="a" cols="2">
+    <li><m>8(-4)</m></li>
+    <li><m>-8(-4)</m></li>
+    <li><m>\dfrac{-8}{-4}</m></li>
+    <li><m>\dfrac{8}{-4}</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>Solve.</p></introduction>
 
-<exercise><statement><m>7+x=-8</m></statement></exercise>
+<exercise><statement><p><m>7+x=-8</m></p></statement></exercise>
 
-<exercise><statement><m>-2x=12</m></statement></exercise>
+<exercise><statement><p><m>-2x=12</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1">
+<solutions><title>Answers to Homework Preview</title><conclusion><p> <ol label = "1">
 <li><p><ol label="a" cols="4">
-	<li><m>4</m></li>
-	<li><m>12</m></li>
-	<li><m>-12</m></li>
-	<li><m>-4</m></li></ol></p></li>
+    <li><m>4</m></li>
+    <li><m>12</m></li>
+    <li><m>-12</m></li>
+    <li><m>-4</m></li></ol></p></li>
 <li><p><ol label="a" cols="4">
-	<li><m>-32</m></li>
-	<li><m>32</m></li>
-	<li><m>2</m></li>
-	<li><m>-2</m></li></ol></p></li>
+    <li><m>-32</m></li>
+    <li><m>32</m></li>
+    <li><m>2</m></li>
+    <li><m>-2</m></li></ol></p></li>
 <li><m>-15</m></li>
-<li><m>-6</m></li></ol></p></subsubsection>
+<li><m>-6</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 

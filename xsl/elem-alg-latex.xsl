@@ -35,7 +35,16 @@
 <xsl:param name="exercise.worksheet.answer" select="'no'" />
 
 
+<!--<xsl:param name="latex.print" select="'yes'"/> -->
+<!-- Intend output for rendering by pdflatex -->
+<xsl:output method="text" />
 
-<xsl:param name="latex.print" select="'yes'"/>
+<!-- "assemblage" -->
+<!-- Boxed title -->
+<xsl:template match="assemblage" mode="tcb-style">
+    <xsl:text>enhanced, arc=2ex, colback=violet!5, colframe=violet!75!black,&#xa;</xsl:text>
+    <xsl:text>colbacktitle=violet!75!black, coltitle=white, boxed title style={sharp corners, frame hidden},&#xa;</xsl:text>
+    <xsl:text>fonttitle=\bfseries, attach boxed title to top left={xshift=4mm,yshift=-3mm}, top=3mm,&#xa;</xsl:text>
+</xsl:template>
 
 </xsl:stylesheet>

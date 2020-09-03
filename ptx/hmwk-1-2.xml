@@ -7,27 +7,27 @@
     <introduction><p>For Problems 1<ndash/>10, write the word phrase as an algebraic expression.</p></introduction>
 
 <exercise number="1"><statement><p>Product of 4 and <m>y</m></p></statement>
-<answer><m>4y</m></answer></exercise>
+<answer><p><m>4y</m></p></answer></exercise>
 
 <exercise number="2"><statement><p>Twice <m>b</m></p></statement></exercise>
 
 <exercise number="3"><statement><p>115% of <m>g</m></p></statement>
-<answer><m>1.15g</m></answer></exercise>
+<answer><p><m>1.15g</m></p></answer></exercise>
 
 <exercise number="4"><statement><p><m>t</m> decreased by 5</p></statement></exercise>
 
 <exercise number="5"><statement><p>The quotient of 7 and <m>w</m></p></statement>
-<answer><m>\dfrac{7}{w}</m></answer></exercise>
+<answer><p><m>\dfrac{7}{w}</m></p></answer></exercise>
 
 <exercise number="6"><statement><p>4 divided into <m>B</m></p></statement></exercise>
 
 <exercise number="7"><statement><p>20 more than <m>T</m></p></statement>
-<answer><m>T+20</m></answer></exercise>
+<answer><p><m>T+20</m></p></answer></exercise>
 
 <exercise number="8"><statement><p>16 reduced by <m>p</m></p></statement></exercise>
 
 <exercise number="9"><statement><p>The ratio of 15 to <m>M</m></p></statement>
-<answer><m>\dfrac{15}{M}</m></answer></exercise>
+<answer><p><m>\dfrac{15}{M}</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>The difference of <m>R</m> and 3.5</p></statement></exercise>
 </exercisegroup>
@@ -49,7 +49,7 @@
 <exercise number="12"><statement><p>Each package of sodas contains 6 cans. If Antoine bought <m>n</m> packages of sodas, how many cans did he buy?</p></statement></exercise>
 
 <exercise number="13"><statement><p>Lizette and Patrick together own 6 cats. If Lizette owns <m>n</m> cats, how many cats does Patrick own?</p></statement>
-    <answer><m>6-n</m></answer></exercise>
+    <answer><p><m>6-n</m></p></answer></exercise>
 
 <exercise number="14"><statement><p>Mitra divided 6 cupcakes among <m>n</m> children.  How much of a cupcake did each child get?
 </p></statement></exercise>
@@ -59,25 +59,25 @@
     <introduction><p>For Problems 15<ndash/>17, write an algebraic expression for the area or perimeter of the figure. Include units in your answers. The dimensions are given in inches.</p></introduction>
 
 <exercise number="15"><statement><sidebyside width="80%"><image source="images/hp-1-2-15.png"/></sidebyside><p>area =</p></statement>
-<answer><m>2x</m></answer></exercise>
+<answer><p><m>2x</m></p></answer></exercise>
 
 <exercise number="16"><statement><sidebyside width="70%"><image source="images/hp-1-2-16.png"/></sidebyside><p>perimeter =</p></statement></exercise>
 
 <exercise number="17"><statement><sidebyside width="90%"><image source="images/hp-1-2-17.png"/></sidebyside>
     <p>area = </p></statement>
-<answer><m>2v</m></answer></exercise>
+<answer><p><m>2v</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="18"><statement><p><ol label="a">
-    <li><p>Which of these expressions says "one-sixth of <m>x</m>" ?</p>
-        <me> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</me></li>
-    <li><p>Which of these expressions says "6% of <m>x</m>" ?</p>
-        <me> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</me></li>
+    <li><p>Which of these expressions says "one-sixth of <m>x</m>" ?
+        <me> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</me></p></li>
+    <li><p>Which of these expressions says "6% of <m>x</m>" ?
+        <me> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</me></p></li>
 </ol></p></statement></exercise>
 
 <exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol label="a">    
     <li>If <m>m</m> stands for Francine's spending money, write an expression for the amount she saves.</li>
-    <li>Evaluate the expression to complete the table.
+    <li><p>Evaluate the expression to complete the table.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Spending money (dollars)</cell>
@@ -109,7 +109,7 @@
 
 <exercise number="20"><statement><p>Delbert wants to enlarge his class photograph. Its height is <m>\dfrac{1}{4}</m> of its width. The enlarged photo should have the same shape as the original.<ol label="a"> 
     <li>If <m>W</m> stands for the width of the enlargement, write an expression for its height.</li>
-    <li>Evaluate the expression to complete the table.
+    <li><p>Evaluate the expression to complete the table.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Width of photo (inches)</cell>
@@ -126,7 +126,7 @@
 
  <exercise number="21"><statement><p>If the governor vetoes a bill passed by the State Assembly, <m>\dfrac{2}{3}</m> of the members present must vote for the bill in order to overturn the veto.<ol label="a">  
     <li>If <m>p</m> stands for the number of Assembly members present, write an expression for the number of votes needed to overturn a veto.</li>
-    <li>Evaluate the expression to complete the table.
+    <li><p>Evaluate the expression to complete the table.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Members present</cell>
@@ -158,7 +158,7 @@
 
 <exercise number="22"><statement><p>Marla's investment club buys some stock. She will get <m>\dfrac{3}{5}</m> of the dividends.<ol label="a">  
     <li>If <m>D</m> stands for the stock dividends, write an expression for Marla's share.</li>
-    <li>Evaluate the expression to complete the table.
+    <li><p>Evaluate the expression to complete the table.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Stock dividend</cell>
@@ -177,22 +177,22 @@
     <introduction><p>For Problems 23<ndash/>30, choose a variable for the unknown quantity and translate the phrase into an algebraic expression.  </p></introduction>
 
 <exercise number="23"><statement><p>The product of the ticket price and $15</p></statement>
-<answer><m>15p</m></answer></exercise>
+<answer><p><m>15p</m></p></answer></exercise>
 
 <exercise number="24"><statement><p>Three times the cost of a light bulb</p></statement></exercise>
 
 <exercise number="25"><statement><p>Three-fifths of the savings account balance</p></statement>
-<answer><m>\dfrac{3}{5}b</m></answer></exercise>
+<answer><p><m>\dfrac{3}{5}b</m></p></answer></exercise>
 
 <exercise number="26"><statement><p>The price of the pizza divided by 6</p></statement></exercise>
 
 <exercise number="27"><statement><p>The weight of the copper in ounces divided by 16</p></statement>
-<answer><m>\dfrac{w}{16}</m></answer></exercise>
+<answer><p><m>\dfrac{w}{16}</m></p></answer></exercise>
 
 <exercise number="28"><statement><p>9% of the school buses</p></statement></exercise>
 
 <exercise number="29"><statement><p>$16 less than the cost of the vaccine</p></statement>
-<answer><m>c-16</m></answer></exercise>
+<answer><p><m>c-16</m></p></answer></exercise>
 
 <exercise number="30"><statement><p>The total cost of 32 identical computers</p></statement></exercise>
 </exercisegroup>

@@ -5,82 +5,82 @@
     <title>Chapter 1 Summary and Review</title>
 
 <subsection><title>Lesson 1.1 Variables</title><p><ul>
-	<li>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</li>  
-	<li>We can use a table, a graph, or an equation to compare the values of two related variables.</li>
-	<li>A formula relating two variables is a type of <term>equation</term>, and an equation is just a statement that two quantities are equal.</li>
+    <li>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</li>  
+    <li>We can use a table, a graph, or an equation to compare the values of two related variables.</li>
+    <li>A formula relating two variables is a type of <term>equation</term>, and an equation is just a statement that two quantities are equal.</li>
 </ul></p></subsection>
 
 <subsection><title>Lesson 1.2 Algebraic Expressions</title><p><ul>
-	<li>An <term>algebraic expression</term> is any meaningful combination of numbers, variables, and operation symbols.</li>
-	<li><assemblage><title>Commutative Laws</title>
-	<p>Addition:  If <m>a</m> and <m>b</m> are numbers, then
+    <li>An <term>algebraic expression</term> is any meaningful combination of numbers, variables, and operation symbols.</li>
+    <li><assemblage><title>Commutative Laws</title>
+    <p>Addition:  If <m>a</m> and <m>b</m> are numbers, then
         <me>\blert{a+b = b+a}</me></p>
     <p>Multiplication:  If <m>a</m> and <m>b</m> are numbers, then
         <me>\blert{a \cdot b = b \cdot a}</me></p></assemblage></li>
 
     <li>Subtraction and division are not commutative; the order of the numbers matters in a difference or a quotient.</li>
     <li><assemblage><title>To write an algebraic expression</title><p><ol label="1">
-    	<li>Identify the unknown quantity and write a short phrase to describe it.</li>
-    	<li>Choose a variable to represent the unknown quantity.</li>
-    	<li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage></li>
+        <li>Identify the unknown quantity and write a short phrase to describe it.</li>
+        <li>Choose a variable to represent the unknown quantity.</li>
+        <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage></li>
 
-   	<li>The process of substituting a specific value for the variable into an expression is called <term>evaluating</term> the expression.</li>
-	<li>An equation is a mathematical statement that two algebraic expressions are equal. A <term>formula</term> is an equation that relates two or more variables.</li>
-	<li><assemblage><title>Some Useful Algebraic Formulas</title><p><ol label="1">
-		<li>distance <m>=</m> rate <m>\times</m> time  <m>~~~~~~\blert{d=rt}</m></li>
-		<li>profit <m>=</m> revenue <m>-</m> cost     <m>~~~~~~\blert{P=R-C}</m></li>
-		<li>interest <m>=</m> principal <m>\times</m> interest rate <m>\times</m> time <m>~~~~~~\blert{I=Prt}</m></li>
-		<li>part <m>=</m> percentage rate <m>\times</m> whole   <m>~~~~~~\blert{P=rW}</m></li>
-		<li>average score <m>= \dfrac{\text{sum of scores}}{\text{number of scores}}</m>   <m>~~~~~~\blert{A=\dfrac{S}{n}}</m></li>
-	</ol></p></assemblage></li>
+    <li>The process of substituting a specific value for the variable into an expression is called <term>evaluating</term> the expression.</li>
+    <li>An equation is a mathematical statement that two algebraic expressions are equal. A <term>formula</term> is an equation that relates two or more variables.</li>
+    <li><assemblage><title>Some Useful Algebraic Formulas</title><p><ol label="1">
+        <li>distance <m>=</m> rate <m>\times</m> time  <m>~~~~~~\blert{d=rt}</m></li>
+        <li>profit <m>=</m> revenue <m>-</m> cost     <m>~~~~~~\blert{P=R-C}</m></li>
+        <li>interest <m>=</m> principal <m>\times</m> interest rate <m>\times</m> time <m>~~~~~~\blert{I=Prt}</m></li>
+        <li>part <m>=</m> percentage rate <m>\times</m> whole   <m>~~~~~~\blert{P=rW}</m></li>
+        <li>average score <m>= \dfrac{\text{sum of scores}}{\text{number of scores}}</m>   <m>~~~~~~\blert{A=\dfrac{S}{n}}</m></li>
+    </ol></p></assemblage></li>
 </ul></p></subsection>
 
 <subsection><title>Lesson 1.3 Equations and Graphs</title><p><ul>
-	<li>A <term>graph</term> is a way of visualizing an algebraic equation in two variables. The first or <term>input</term> variable is displayed on the horizontal axis and the second or <term>output</term> variable is displayed on the vertical axis.</li>  
-	<li>Each point on a graph has two <term>coordinates</term>, which designate the position of the point.</li>
-	<li>An ordered pair of numbers that make an equation true is called a <term>solution</term> of the equation. Each point on the graph of an equation represents a solution of the equation.</li>
-	<li>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</li>
-	<li><assemblage><title>To graph an equation</title><p><ol label="1">
-    	<li>Make a table of values.</li>
-    	<li>Choose scales for the axes.</li>
-    	<li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage></li>
+    <li>A <term>graph</term> is a way of visualizing an algebraic equation in two variables. The first or <term>input</term> variable is displayed on the horizontal axis and the second or <term>output</term> variable is displayed on the vertical axis.</li>  
+    <li>Each point on a graph has two <term>coordinates</term>, which designate the position of the point.</li>
+    <li>An ordered pair of numbers that make an equation true is called a <term>solution</term> of the equation. Each point on the graph of an equation represents a solution of the equation.</li>
+    <li>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</li>
+    <li><assemblage><title>To graph an equation</title><p><ol label="1">
+        <li>Make a table of values.</li>
+        <li>Choose scales for the axes.</li>
+        <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage></li>
     <li>We can use a graph to evaluate an algebraic expression or to solve an equation.</li>
 </ul></p></subsection>
 
 <subsection><title>Lesson 1.4 Solving Equations</title><p><ul>
-	<li>To solve an equation algebraically, we use <term>inverse</term>, or opposite, operations.</li>
-	<li><assemblage><title>To solve an equation algebraically</title><p><ol label="1">
-		<li>Ask yourself what operation has been performed on the variable.</li>
-		<li>Perform the opposite operation on both sides of the equation in order to isolate the variable.</li>
-		</ol></p></assemblage></li>
-	<li><assemblage><title>Operations for solving an equation</title><p><ol label="1">
-		<li>We can add or subtract the same number from both sides.</li>
-		<li>We can multiply or divide both sides by the same number, as long as 
-		that number is not zero.</li></ol></p></assemblage></li>
-	<li><assemblage><title>Properties of Equality</title><p><ul>
-		<li>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
-			<me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></li> 
-		<li>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
-			<me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></li></ul></p></assemblage></li>
-	<li>Many practical problems can be solved by first writing an equation that describes or <term>models</term> the problem, and then solving the equation.</li>
-	<li><assemblage><title>Steps for solving an applied problem:</title><p><ol label="1">
-		<li>Identify the unknown quantity and choose a variable to represent it.</li>
-		<li>Find some quantity that can be described in two different ways, and write an equation using the variable to model the problem situation.</li>
-		<li>Solve the equation and answer the question in the problem.</li></ol></p></assemblage></li></ul></p>
-	</subsection>
+    <li>To solve an equation algebraically, we use <term>inverse</term>, or opposite, operations.</li>
+    <li><assemblage><title>To solve an equation algebraically</title><p><ol label="1">
+        <li>Ask yourself what operation has been performed on the variable.</li>
+        <li>Perform the opposite operation on both sides of the equation in order to isolate the variable.</li>
+        </ol></p></assemblage></li>
+    <li><assemblage><title>Operations for solving an equation</title><p><ol label="1">
+        <li>We can add or subtract the same number from both sides.</li>
+        <li>We can multiply or divide both sides by the same number, as long as 
+        that number is not zero.</li></ol></p></assemblage></li>
+    <li><assemblage><title>Properties of Equality</title><p><ul>
+        <li>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
+            <me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></li> 
+        <li>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
+            <me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></li></ul></p></assemblage></li>
+    <li>Many practical problems can be solved by first writing an equation that describes or <term>models</term> the problem, and then solving the equation.</li>
+    <li><assemblage><title>Steps for solving an applied problem:</title><p><ol label="1">
+        <li>Identify the unknown quantity and choose a variable to represent it.</li>
+        <li>Find some quantity that can be described in two different ways, and write an equation using the variable to model the problem situation.</li>
+        <li>Solve the equation and answer the question in the problem.</li></ol></p></assemblage></li></ul></p>
+    </subsection>
 
 <subsection><title>Lesson 1.5 Order of Operations</title><p><ul>
-	<li><assemblage><title>Associative Laws</title><p><ul>
-		<li>Addition:  If <m>a, b</m> and <m>c</m> are any numbers, then
-			<me>\blert{(a+b)+c = a+(b+c)}</me></li>
-		<li>Multiplication:  If <m>a, b</m> and <m>c</m> are any numbers, then
-			<me>\blert{(a \cdot b) \cdot c = a \cdot (b \cdot c)}</me></li></ul></p></assemblage></li>
-	<li>The associative laws do not hold for subtraction or division.</li>
-	<li><assemblage><title>Order of Operations</title><p><ol label="1">
-		<li>First, perform any operations that appear inside parentheses, or above or below a fraction bar.</li>
-		<li>Next, perform all multiplications and divisions in order from left to right.</li>
-		<li>Finally, perform all additions and subtractions in order from left to right.</li></ol></p></assemblage></li>
-	<li>When using a calculator, you must enclose in parentheses any expression that appears above or below a fraction bar.</li></ul></p></subsection>
+    <li><assemblage><title>Associative Laws</title><p><ul>
+        <li>Addition:  If <m>a, b</m> and <m>c</m> are any numbers, then
+            <me>\blert{(a+b)+c = a+(b+c)}</me></li>
+        <li>Multiplication:  If <m>a, b</m> and <m>c</m> are any numbers, then
+            <me>\blert{(a \cdot b) \cdot c = a \cdot (b \cdot c)}</me></li></ul></p></assemblage></li>
+    <li>The associative laws do not hold for subtraction or division.</li>
+    <li><assemblage><title>Order of Operations</title><p><ol label="1">
+        <li>First, perform any operations that appear inside parentheses, or above or below a fraction bar.</li>
+        <li>Next, perform all multiplications and divisions in order from left to right.</li>
+        <li>Finally, perform all additions and subtractions in order from left to right.</li></ol></p></assemblage></li>
+    <li>When using a calculator, you must enclose in parentheses any expression that appears above or below a fraction bar.</li></ul></p></subsection>
 
 <subsection><title>Review Questions</title>
 <p>Use complete sentences to answer the questions.<ol label = "1">
@@ -88,59 +88,59 @@
 <li> What is a variable?  Give an example.</li>
 <li>What is the difference between an algebraic expression and an equation?</li>
 <li><p><ol label = "a">
-	<li>Write as an algebraic expression "<m>p</m> subtracted from <m>w</m>."</li>
-	<li>Evaluate your expression for <m>p=5.6</m> and <m>w=56</m>.</li></ol></p></li>
+    <li>Write as an algebraic expression "<m>p</m> subtracted from <m>w</m>."</li>
+    <li>Evaluate your expression for <m>p=5.6</m> and <m>w=56</m>.</li></ol></p></li>
 <li><p><ol label = "a">
-	<li>Write as an algebraic expression "<m>m</m> divided by <m>g</m>."</li>
-	<li>Evaluate your expression for <m>m=12</m> and <m>g=192</m>.</li></ol></p></li>
+    <li>Write as an algebraic expression "<m>m</m> divided by <m>g</m>."</li>
+    <li>Evaluate your expression for <m>m=12</m> and <m>g=192</m>.</li></ol></p></li>
 <li><p>State a formula from this chapter for each of the variables below.<ol label = "a">
-	<li>Distance:  <m>~~d=</m></li>  	
-	<li>Profit:  <m>~~P=</m></li>  
-	<li>Interest:  <m>~~I=</m></li>      	
-	<li>Percentage or part:  <m>~~P=</m></li>    
-	<li>Average value:  <m>~~A=</m></li></ol></p></li>    
+    <li>Distance:  <m>~~d=</m></li>     
+    <li>Profit:  <m>~~P=</m></li>  
+    <li>Interest:  <m>~~I=</m></li>         
+    <li>Percentage or part:  <m>~~P=</m></li>    
+    <li>Average value:  <m>~~A=</m></li></ol></p></li>    
 <li>State formulas for the perimeter and area of a rectangle, and for the area and circumference of a circle.</li>
 <li>When we construct the graph of an equation, which variable is displayed on which axis?</li>
 <li>Write a paragraph explaining how the following terms are related to an equation in two variables:  solution, coordinates, ordered pair.</li>
 <li>State the order of operations for simplifying algebraic expressions.</li></ol></p></subsection>
 
-<subsection><title>Review Problems</title>
-<exercises>
+<exercises><title>Review Problems</title>
 
-<exercise number="1"><statement><p>Martha can travel 22 miles on a gallon of gasoline. Fill in the table with the distance Martha can drive on various amounts of gasoline.
+<exercise number="1"><statement><p>Martha can travel 22 miles on a gallon of gasoline. Fill in the table with the distance Martha can drive on various amounts of gasoline.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Gallons of gas</cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>11</m></cell>
-                        <cell><m>12</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell></row>
-                    <row> 
-                        <cell>Miles driven</cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside><ol label="a">
+    <row bottom="minor"> 
+            <cell>Gallons of gas</cell>
+            <cell><m>3</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>11</m></cell>
+            <cell><m>12</m></cell></row>
+        <row> 
+            <cell>Calculation</cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell></row>
+        <row> 
+            <cell>Miles driven</cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell></row>
+        </tabular></sidebyside>
+    <p><ol label="a">
     <li>Explain in words how to find the distance Martha can drive.</li>
-	<li><p>Write your explanation as a mathematical sentence:</p>
-		<p><m>\text{Miles driven} = </m></p></li>
-	<li>Let <m>g</m> stand for the number of gallons of gas in Martha's car and <m>m</m> for the number of miles she can drive.  Write an equation for <m>m</m> in terms of <m>g</m>.</li>
-	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
-		<sidebyside width="45%"><!--<image source="images/cr1-1.png"><description>grid</description></image>-->
+    <li><p>Write your explanation as a mathematical sentence:</p>
+        <p><m>\text{Miles driven} = </m></p></li>
+    <li>Let <m>g</m> stand for the number of gallons of gas in Martha's car and <m>m</m> for the number of miles she can drive.  Write an equation for <m>m</m> in terms of <m>g</m>.</li>
+    <li><p>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.</p>
+        <sidebyside width="45%">
     <image xml:id="cr1-1">
         <description>grid</description>
         <latex-image>
@@ -163,8 +163,8 @@
     </latex-image>
     </image>
         </sidebyside></li>
-	</ol></p></statement>
-	<answer><p><ol label="a">
+    </ol></p></statement>
+    <answer><p><ol label="a">
         <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
                         <cell>Gallons of gas</cell>
@@ -185,7 +185,7 @@
                     </tabular></sidebyside></li>
         <li>Multiply the number of gallons by 22</li>
         <li><m>m=22g</m></li>
-        <li><sidebyside width="45%"><!--<image source="images/cr1-1ans.png"><description>graph</description></image>-->
+        <li><sidebyside width="45%">
     <image xml:id="cr1-1ans">
         <description>line</description>
         <latex-image>
@@ -210,40 +210,41 @@
     </image>
         </sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Mariel has a 200-page history assignment to read. Fill in the table with the number of pages Mariel has left to read after completing a certain number of pages.
+<exercise number="2"><statement><p>Mariel has a 200-page history assignment to read. Fill in the table with the number of pages Mariel has left to read after completing a certain number of pages.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Pages read</cell>
-                        <cell><m>20</m></cell>
-                        <cell><m>50</m></cell>
-                        <cell><m>85</m></cell>
-                        <cell><m>110</m></cell>
-                        <cell><m>135</m></cell>
-                        <cell><m>180</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell></row>
-                    <row> 
-                        <cell>Pages left</cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside><ol label="a">
+    <row bottom="minor"> 
+            <cell>Pages read</cell>
+            <cell><m>20</m></cell>
+            <cell><m>50</m></cell>
+            <cell><m>85</m></cell>
+            <cell><m>110</m></cell>
+            <cell><m>135</m></cell>
+            <cell><m>180</m></cell></row>
+        <row> 
+            <cell>Calculation</cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell></row>
+        <row> 
+            <cell>Pages left</cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell><m>\hphantom{00}</m></cell></row>
+        </tabular></sidebyside>
+    <p><ol label="a">
     <li>Explain in words how to find the number of pages left to read.</li>
-	<li><p>Write your explanation as a mathematical sentence:</p>
-		<p><m>\text{Pages left} = </m></p></li>
-	<li>Let <m>r</m> stand for the number of pages Mariel has already read and <m>l</m> for the number of pages she has left to read.  Write an equation for <m>l</m> in terms of <m>r</m>.</li>
-	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
-		<sidebyside width="45%"><!--<image source="images/cr1-2.png"><description>grid</description></image>-->
+    <li><p>Write your explanation as a mathematical sentence:</p>
+        <p><m>\text{Pages left} = </m></p></li>
+    <li>Let <m>r</m> stand for the number of pages Mariel has already read and <m>l</m> for the number of pages she has left to read.  Write an equation for <m>l</m> in terms of <m>r</m>.</li>
+    <li><p>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.</p>
+        <sidebyside width="45%">
     <image xml:id="cr1-2">
         <description>grid</description>
         <latex-image>
@@ -264,10 +265,10 @@
     </latex-image>
     </image>
         </sidebyside></li>
-	</ol></p></statement></exercise>
+    </ol></p></statement></exercise>
 
 <exercise number="3"><statement><p>Find the pattern and fill in the table. Then write an equation for the second variable in terms of the first.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>0.5</m></cell>
@@ -307,10 +308,10 @@
                         <cell><m>1.5</m></cell>
                         <cell><m>1.875</m></cell></row>
                     </tabular></sidebyside>
-                    <m>y=\dfrac{x}{4}</m></answer></exercise>
+                    <p><m>y=\dfrac{x}{4}</m></p></answer></exercise>
 
 <exercise number="4"><statement><p>Use the graph to fill in the table. Then write an equation for the second variable in terms of the first.</p>
- 	<sidebyside widths="50% 30%" margins="0% 20%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+    <sidebyside widths="50% 30%" margins="0% 20%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
@@ -357,52 +358,52 @@
     <introduction><p>For Problems 5<ndash/>12, write an algebraic expression for the phrase.</p></introduction>    
 
 <exercise number="5"><statement><p>Five greater than <m>z</m></p></statement>
-<answer><m>z+5</m></answer></exercise> 	
+<answer><p><m>z+5</m></p></answer></exercise>  
 
 <exercise number="6"><statement><p>28% of <m>t</m></p></statement></exercise>
 
 <exercise number="7"><statement><p>Sixty dollars less than first-class air fare</p></statement>
-<answer><m>f-60</m></answer></exercise> 
+<answer><p><m>f-60</m></p></answer></exercise> 
 
 <exercise number="8"><statement><p>The quotient of the volume of the sphere and 6</p></statement></exercise>
 
 <exercise number="9"><statement><p>Six degrees hotter than yesterday's temperature</p></statement>
-<answer><m>y+6</m></answer></exercise>
+<answer><p><m>y+6</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>The cost of the gasoline divided three ways</p></statement></exercise>
 
 <exercise number="11"><statement><p>8% of the total bill</p></statement>
-<answer><m>0.08b</m></answer></exercise>
+<answer><p><m>0.08b</m></p></answer></exercise>
 
 <exercise number="12"><statement><p>Five inches less than the height of the triangle</p></statement></exercise>
 </exercisegroup>
 
 <exercise number="13"><statement><p><ol label="a">
-	<li>Write an expression for the distance traveled in <m>t</m> seconds by a car moving at 88 feet per second.</li>
-	<li>How far will the car travel in 5 seconds? In half a second? In half a minute?</li></ol></p></statement>
+    <li>Write an expression for the distance traveled in <m>t</m> seconds by a car moving at 88 feet per second.</li>
+    <li>How far will the car travel in 5 seconds? In half a second? In half a minute?</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>d=88t</m></li>
     <li>440 ft; 44 ft; 2640 ft</li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a">
-	<li>Write an expression for the distance you can travel in 3 hours at a speed of <m>r</m> miles per hour.</li>
-	<li>How far can you travel in 3 hours on a bicycle at a speed of 6 miles per hour? On a motorboat at a speed of 20 miles per hour?</li></ol></p></statement></exercise>
+    <li>Write an expression for the distance you can travel in 3 hours at a speed of <m>r</m> miles per hour.</li>
+    <li>How far can you travel in 3 hours on a bicycle at a speed of 6 miles per hour? On a motorboat at a speed of 20 miles per hour?</li></ol></p></statement></exercise>
 
 <exercise number="15"><statement><p><ol label="a">
-	<li>Write an expression for the amount of interest earned in <m>t</m> years by $500 deposited in an account that pays 7% annual interest.</li>
-	<li>How much interest will the account earn after 1 year? After 2 years? After 5 years?</li></ol></p></statement>
+    <li>Write an expression for the amount of interest earned in <m>t</m> years by $500 deposited in an account that pays 7% annual interest.</li>
+    <li>How much interest will the account earn after 1 year? After 2 years? After 5 years?</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>I=35t</m></li>
     <li>$35; $70; $175</li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol label="a">
-	<li>Write an expression for the amount of interest earned in two years by $1500 deposited in an account that pays interest rate <m>r</m>.</li>
-	<li>How much interest will the money earn at 6% interest? At 8.3% interest?</li></ol></p></statement></exercise>
+    <li>Write an expression for the amount of interest earned in two years by $1500 deposited in an account that pays interest rate <m>r</m>.</li>
+    <li>How much interest will the money earn at 6% interest? At 8.3% interest?</li></ol></p></statement></exercise>
 
 <exercise number="17"><statement><p>Rachel has saved $60 to help pay for her books this semester. Let <m>b</m> stand for the price of her books, and <m>n</m> for the amount she still needs. <ol label="a">
-	<li>Write an equation for <m>n</m> in terms of <m>b</m>.</li>
-	<li>Fill in the table.
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li>Write an equation for <m>n</m> in terms of <m>b</m>.</li>
+    <li><p>Fill in the table.</p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>100</m></cell>
@@ -439,8 +440,8 @@
                     </tabular></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p>Matt wants to travel 360 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours, where <m>t=\dfrac{360}{r}</m>.<ol label="a">
-	<li>Fill in the table.
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Fill in the table.</p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>10</m></cell>
@@ -463,8 +464,8 @@
     <li>Choose appropriate scales for the axes and graph your equation.</li></ol></p></statement></exercise>
 
 <exercise number="19"><statement><p>On a typical evening, there are twice as many non-smokers as smokers in a popular restaurant.<ol label="a">
-	<li>Write an equation for the number of non-smokers, <m>n</m>, in terms of the number of smokers, <m>s</m>.</li>
-	<li>Make a table of values and graph your equation.</li></ol></p></statement>
+    <li>Write an equation for the number of non-smokers, <m>n</m>, in terms of the number of smokers, <m>s</m>.</li>
+    <li>Make a table of values and graph your equation.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>n=2s</m></li>
     <li><sidebyside widths="25% 40%" valigns="middle middle" margins="0% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -506,9 +507,9 @@
             </sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>Match each equation with its graph.<ol label="a" cols="3">
-	<li><m>y=8-x</m></li>
-	<li><m>y=x+8</m></li>
-	<li><m>y=8x</m></li></ol></p>
+    <li><m>y=8-x</m></li>
+    <li><m>y=x+8</m></li>
+    <li><m>y=8x</m></li></ol></p>
 <sidebyside><!--<image source="images/cr1-20.png"><description>graphs</description></image>-->
     <image xml:id="cr1-20">
         <description>graphs of lines</description>
@@ -567,10 +568,10 @@
 
 <exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation <m>~y=\dfrac{5}{2}x</m>.
 <ol label="a" cols="4">
-	<li><m>(4,10)</m></li>
-	<li><m>(5,2)</m></li>
-	<li><m>(1.8,4.5)</m></li>
-	<li><m>(3,7.5)</m></li></ol></p></statement>
+    <li><m>(4,10)</m></li>
+    <li><m>(5,2)</m></li>
+    <li><m>(1.8,4.5)</m></li>
+    <li><m>(3,7.5)</m></li></ol></p></statement>
 <answer><p>a, c, d</p></answer></exercise>
 
 <exercise number="22"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
@@ -609,15 +610,15 @@
 </p></introduction>
 
 <exercise number="23"><statement><p><m>~\dfrac{t}{6}=3</m><ol label="a" cols="2">
-	<li><m>t=18</m></li>
-	<li><m>t=2</m></li></ol></p></statement>
+    <li><m>t=18</m></li>
+    <li><m>t=2</m></li></ol></p></statement>
 <answer><p><ol label="a">
     <li>yes</li>
     <li>no</li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>~8x=36.8</m><ol label="a" cols="2">
-	<li><m>z=28.8</m></li>
-	<li><m>z=4.6</m></li></ol></p></statement></exercise>
+    <li><m>z=28.8</m></li>
+    <li><m>z=4.6</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3">
@@ -643,9 +644,9 @@
     <introduction><p>For Problems 31<ndash/>32, solve the equation graphically.</p></introduction>
 
 <exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
-	<li><m>1.25x=40</m></li>
-	<li><m>30=1.25x</m></li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr1-31.png"><description>graph</description></image>-->
+    <li><m>1.25x=40</m></li>
+    <li><m>30=1.25x</m></li></ol></p>
+<sidebyside width="40%">
     <image xml:id="cr1-31">
         <description>line</description>
         <latex-image>
@@ -675,10 +676,10 @@
     <li>32</li>
     <li>24</li></ol></p></answer></exercise>
 
-<exercise number="32"><statement>The graph of <p><m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
-	<li><m>\dfrac{24}{x}=6</m></li>
-	<li><m>1.5=\dfrac{24}{x}</m></li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr1-32.png"><description>graph</description></image>-->
+<exercise number="32"><statement><p>The graph of <m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
+    <li><m>\dfrac{24}{x}=6</m></li>
+    <li><m>1.5=\dfrac{24}{x}</m></li></ol></p>
+<sidebyside width="40%">
     <image xml:id="cr1-32">
         <description>curve</description>
         <latex-image>
@@ -745,12 +746,12 @@
     <introduction><p>For Problems 43<ndash/>46, write an algebraic expression for the phrase.</p></introduction>
     
 <exercise number="43"><statement><p>Four pages longer than half the length of the first draft</p></statement>
-<answer><m>\dfrac{1}{2}d+4</m></answer></exercise> 	
+<answer><p><m>\dfrac{1}{2}d+4</m></p></answer></exercise>  
 
 <exercise number="44"><statement><p>$100 short of twice last year's price</p></statement></exercise>
 
 <exercise number="45"><statement><p>Three times the sum of the length and 5.6</p></statement>
-<answer><m>3(l+5.6)</m></answer></exercise> 
+<answer><p><m>3(l+5.6)</m></p></answer></exercise> 
 
 <exercise number="46"><statement><p>73% of the difference of Robin's weight and 100 pounds</p></statement></exercise>
 </exercisegroup>
@@ -775,5 +776,4 @@
 <exercise number="52"><statement><p>If an object is thrown downwards with initial speed <m>v</m>, then after <m>t</m> seconds it will fall a distance given in feet by <m>t(16t+v)</m>. How far will a penny fall in 2 seconds if it is thrown at a speed of 10 feet per second?</p></statement></exercise>
 
 </exercises>
-</subsection>
 </section>
