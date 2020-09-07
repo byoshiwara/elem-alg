@@ -6,6 +6,7 @@
 
 <subsection><title>Ratios</title><idx><h>ratio</h></idx>
 
+<introduction>
 <p>A <term>ratio</term><idx><h>ratio</h></idx> is a type of quotient used to compare two numerical quantities.</p>
 
 <p>For example, suppose the ratio of pupils to computers at a local elementary school is 10 to 3. This means that for every 10 pupils in the school there are 3 computers. We often display a ratio as a fraction, like this: 
@@ -31,19 +32,21 @@
 <example><statement><p>A small circuit board measures 4.2 centimeters long by 2.4 centimeters wide. What is the ratio of its length to its width?</p></statement>
 
 <solution><p>The ratio of length to width is <m>\dfrac{4.2~ \text{cm}}{2.4~ \text{cm}}</m>, or 1.75, as you can verify with your calculator.  (Can you express this ratio as a common fraction?)</p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>What is a ratio?</p></statement>
     	<answer><p>A type of quotient comparing two quantities</p></answer></exercise>
     <exercise number="2"><statement><p>When do we express a ratio as a decimal fraction?</p></statement>
     	<answer><p>When the numbers being compared are decimal numbers</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Rates</title>
 
-<assemblage><title>Rate</title><idx><h>rate</h></idx>
-    <p>A <term>rate</term><idx><h>rate</h></idx> is a ratio that compares two quantities with different units.</p></assemblage>
+<definition><title>Rate</title><idx><h>rate</h></idx>
+    <statement><p>A <term>rate</term><idx><h>rate</h></idx> is a ratio that compares two quantities with different units.</p></statement>
+</definition>
 
 <p>You are already familiar with many rates. If you say that your average speed was 50 miles per hour, or that apples cost 89 cents per pound, you are using rates. Because per usually indicates division,
 	<md>
@@ -58,9 +61,11 @@
 
 <subsection><title>Proportions</title><idx><h>proportion</h></idx>
 
-<assemblage><title>Proportion</title>
+<introduction>
+<definition><title>Proportion</title>
 <idx><h>proportion</h></idx>
-    <p>A <term>proportion</term><idx><h>proportion</h></idx> is a statement that two ratios are equal.</p></assemblage>
+    <statement><p>A <term>proportion</term><idx><h>proportion</h></idx> is a statement that two ratios are equal.</p></statement>
+</definition>
 
 <p>Thus, a proportion is an equation in which both sides are ratios. Here are some proportions: 
 	<me>\dfrac{6}{9}=\dfrac{8}{12}~~~~~~\text{and}~~~~~~\dfrac{3.2}{8}=\dfrac{1}{2.5}</me>
@@ -74,8 +79,8 @@ Now we can divide both sides by 5 to get the answer,
 	<me>x=\dfrac{42}{5}=8.4</me></p>
 
 <assemblage><title>Look Ahead</title>
-<p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:
-    <sidebyside width="15%"><!--<image source="images/fig-3-2-1.png"><description>graphic</description></image>-->
+<p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:</p>
+    <sidebyside width="15%">
     <image xml:id="fig-3-2-1"><description>cross-multiplying</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -95,7 +100,7 @@ Now we can divide both sides by 5 to get the answer,
         \node[left] at (0,-.8) {$42\quad={}$};
         \node[right] at (0,-.8) {$5x$};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
-Then we complete the solution as before.</p></assemblage>
+<p>Then we complete the solution as before.</p></assemblage>
 
 <assemblage><title>Property of Proportions</title>
 <idx><h>proportion</h><h>property of</h></idx><idx><h>proportion</h><h>cross-multiply</h></idx><idx><h>cross-multiply</h><see>proportion</see></idx>
@@ -111,20 +116,22 @@ Then we complete the solution as before.</p></assemblage>
 We can check the solution by substituting <m>x=5.25</m> into the original proportion.</p></solution></example>
 
 <warning><p>Cross-mutiplying works only for solving proportions! Do not try to use cross-multiplying on other types of equations, or for other operations on fractions. In particular, do not use cross-multiplying when multiplying fractions or adding fractions.</p></warning>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>What is a rate?</p></statement>
     	<answer><p>A ratio that compares quantities with different units</p></answer></exercise>
     <exercise number="4"><statement><p>What is a proportion?</p></statement>
     	<answer><p>A statement that two ratios are equal</p></answer></exercise>
     <exercise number="5"><statement><p>What is the short-cut for solving a proportion called?</p></statement>
     	<answer><p>Cross-multiplying</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Proportional Variables</title>
 <idx><h>proportional variables</h></idx>
 
+<introduction>
 <p>Suppose that grape juice costs 80 cents per quart, and complete the table.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -205,47 +212,49 @@ The graph of this equation is a straight line that passes through the origin, as
 <p>If two variables are proportional, they are related by the equation
 	<me>y=kx</me>
 where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant of proportionality</h></idx>.</p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="6"><statement><p>What are proportional variables?</p></statement>
     	<answer><p>Variables whose ratio is always the same</p></answer></exercise>
     <exercise number="7"><statement><p>If  and  are proportional, what equation do they satisfy?</p></statement>
     	<answer><p><m>y=kx</m></p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 3.2.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="4"><introduction><p>Convert each common fraction to a decimal, and each decimal to a common fraction.</p></introduction>
 
-<exercise number="1"><statement><m>\dfrac{3}{8}</m></statement>
-<answer><m>0.375</m></answer></exercise>
+<exercise number="1"><statement><p><m>\dfrac{3}{8}</m></p></statement>
+<answer><p><m>0.375</m></p></answer></exercise>
 
-<exercise number="2"><statement><m>\dfrac{7}{5}</m></statement>
-<answer><m>1.4</m></answer></exercise>
+<exercise number="2"><statement><p><m>\dfrac{7}{5}</m></p></statement>
+<answer><p><m>1.4</m></p></answer></exercise>
 
-<exercise number="3"><statement><m>\dfrac{4}{3}</m></statement>
-<answer><m>1.\overline{3}</m></answer></exercise>
+<exercise number="3"><statement><p><m>\dfrac{4}{3}</m></p></statement>
+<answer><p><m>1.\overline{3}</m></p></answer></exercise>
 
-<exercise number="4"><statement><m>\dfrac{5}{12}</m></statement>
-<answer><m>0.41\overline{6}</m></answer></exercise>
+<exercise number="4"><statement><p><m>\dfrac{5}{12}</m></p></statement>
+<answer><p><m>0.41\overline{6}</m></p></answer></exercise>
 
-<exercise number="5"><statement><m>0.04</m></statement>
-<answer><m>\dfrac{1}{25}</m></answer></exercise>
+<exercise number="5"><statement><p><m>0.04</m></p></statement>
+<answer><p><m>\dfrac{1}{25}</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>0.\overline{6}</m></statement>
-<answer><m>\dfrac{2}{3}</m></answer></exercise>
+<exercise number="6"><statement><p><m>0.\overline{6}</m></p></statement>
+<answer><p><m>\dfrac{2}{3}</m></p></answer></exercise>
 
-<exercise number="7"><statement><m>1.875</m></statement>
-<answer><m>\dfrac{15}{8}</m></answer></exercise>
+<exercise number="7"><statement><p><m>1.875</m></p></statement>
+<answer><p><m>\dfrac{15}{8}</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>2.2</m></statement>
-<answer><m>\dfrac{11}{5}</m></answer></exercise>
+<exercise number="8"><statement><p><m>2.2</m></p></statement>
+<answer><p><m>\dfrac{11}{5}</m></p></answer></exercise>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="4">
+<solutions><title>Answers to Skills Warm-Up</title>
+<conclusion><p><ol label="1" cols="4">
     <li><m>0.375</m></li>
     <li><m>1.4</m></li>
     <li><m>1.\overline{3}</m></li>
@@ -254,110 +263,129 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
     <li><m>\dfrac{2}{3}</m></li>
     <li><m>\dfrac{15}{8}</m></li>
     <li><m>\dfrac{11}{5}</m></li>
-    </ol></p></subsubsection>
+    </ol></p></conclusion>
+</solutions>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Ratios and Rates</title>
+<introduction>
+<activity><title>Ratios and Rates</title>
 
-<exercises>
-<exercise><statement><p>On a Saturday evening, a restaurant found that 84 of its customers asked for the nonsmoking section, and 35 customers preferred the smoking section.<ol label="a">
-   <li>What was the ratio of smokers to nonsmokers?</li>
-    <li> Write the ratio in simplest form.</li></ol></p></statement></exercise>
+<p><ol label="1">
+    <li>
+        <p>On a Saturday evening, a restaurant found that 84 of its customers asked for the nonsmoking section, and 35 customers preferred the smoking section.
+        <ol label="a">
+           <li>What was the ratio of smokers to nonsmokers?</li>
+            <li> Write the ratio in simplest form.</li>
+        </ol></p>
+    </li>
+    <li>
+        <p>Major Motors budgeted $5.6 million for research and development (R&amp;D) next year and $3.5 million for advertising.  What is the ratio of the amount budgeted for advertising to the amount budgeted for R&amp;D</p>
+    </li>
+    <li>
+        <p>Bita made $240 for 25 hours of work last week.  Express her rate of pay as a ratio, and then as a rate.</p>
+    </li>
+</ol></p>
+</activity>
 
-<exercise><statement><p>Major Motors budgeted $5.6 million for research and development (R&amp;D) next year and $3.5 million for advertising.  What is the ratio of the amount budgeted for advertising to the amount budgeted for R&amp;D</p></statement></exercise>
+<activity><title>Proportions</title>
 
-<exercise><statement><p>Bita made $240 for 25 hours of work last week.  Express her rate of pay as a ratio, and then as a rate.</p></statement></exercise>
-</exercises>
-</subsubsection>
+<p><ol label="1">
+    <li>
+        <p>Solve <m>~~\dfrac{q}{32} = \dfrac{1.25}{4}</m></p>
+    </li>
+    <li>
+        <p>If Sarah can drive 390 miles on 15 gallons of gas, how much gas will she need to travel 800 miles?</p>
+        <p><m>\blert{\text{Assign a variable:}}</m></p>
+        <p><m>\blert{\text{Write a proportion:}}</m></p>
+        <p><m>\blert{\text{Solve the proportion:}}</m></p>
+        <p><m>\blert{\text{Solution:}}</m></p>
+    </li>
+</ol></p>
 
-<subsubsection><title>Activity 2: Proportions</title>
+</activity>
 
-<exercises>
-<exercise><statement><p>Solve <m>~~\dfrac{q}{32} = \dfrac{1.25}{4}</m></p></statement></exercise>
+<activity><title>Proportional Variables</title>
 
-<exercise><statement><p>If Sarah can drive 390 miles on 15 gallons of gas, how much gas will she need to travel 800 miles?</p>
-    <p><m>\blert{\text{Assign a variable:}}</m></p>
-    <p><m>\blert{\text{Write a proportion:}}</m></p>
-    <p><m>\blert{\text{Solve the proportion:}}</m></p>
-    <p><m>\blert{\text{Solution:}}</m></p></statement></exercise>
-</exercises>
-</subsubsection>
+<p><ol label="1">
+    <li>
+        <sidebyside widths = "55% 40%">
+            <stack><p>The table below shows the price, <m>p</m>, for <m>q</m> quarts of SereniTea. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{Price}}{\text{Quarts}}</m> for each data point.</p>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Quarts</cell>
+                    <cell>Total Price</cell>
+                    <cell><m>\dfrac{\text{Price}}{\text{Quarts}}</m></cell></row>
+                <row> 
+                    <cell><m>4</m></cell>
+                    <cell>$6.00</cell>
+                    <cell><m>\dfrac{6.00}{4} = ?</m></cell></row>
+                <row>
+                    <cell><m>6</m></cell>
+                     <cell>$9.00</cell>
+                     <cell><m>\dfrac{9.00}{6} = ?</m></cell></row>
+                <row>     
+                    <cell><m>9</m></cell>
+                    <cell>$13.50</cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+                <row>
+                    <cell><m>12</m></cell>
+                    <cell>$18.00</cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+                <row>    
+                    <cell><m>15</m></cell>
+                    <cell>$22.50</cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+            </tabular></stack>
 
-<subsubsection><title>Activity 3: Proportional Variables</title>
+            <image source="images/act-3-2-1.png"><description>grid</description></image>
+        </sidebyside>
+    </li>
+    <li>
+        <sidebyside widths = "55% 40%">
+            <stack><p>The table below shows the population, <m>P</m>, of a new suburb <m>t</m> years after it was built. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{People}}{\text{Year}}</m> for each data point.</p>
 
-<exercises>
-<exercise><statement><sidebyside widths = "55% 40%"><p>The table below shows the price, <m>p</m>, for <m>q</m> quarts of SereniTea. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{Price}}{\text{Quarts}}</m> for each data point.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell>Quarts</cell>
-                        <cell>Total Price</cell>
-                        <cell><m>\dfrac{\text{Price}}{\text{Quarts}}</m></cell></row>
-                    <row> 
-                        <cell><m>4</m></cell>
-                        <cell>$6.00</cell>
-                        <cell><m>\dfrac{6.00}{4} = ?</m></cell></row>
-                    <row>
-                        <cell><m>6</m></cell>
-                         <cell>$9.00</cell>
-                         <cell><m>\dfrac{9.00}{6} = ?</m></cell></row>
-                    <row>     
-                        <cell><m>9</m></cell>
-                        <cell>$13.50</cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>12</m></cell>
-                        <cell>$18.00</cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>    
-                        <cell><m>15</m></cell>
-                        <cell>$22.50</cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-        <image source="images/act-3-2-1.png"><description>grid</description></image></sidebyside>
-</statement></exercise>
-
-<exercise><statement><sidebyside widths = "55% 40%"><p>The table below shows the population, <m>P</m>, of a new suburb <m>t</m> years after it was built. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{People}}{\text{Year}}</m> for each data point.
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell>Years</cell>
-                        <cell>Population</cell>
-                        <cell><m>\dfrac{\text{People}}{\text{Year}}</m></cell></row>
-                    <row> 
-                        <cell><m>1</m></cell>
-                        <cell>10</cell>
-                        <cell><m>\dfrac{10}{1} = ?</m></cell></row>
-                    <row>
-                        <cell><m>2</m></cell>
-                         <cell>20</cell>
-                         <cell><m>\dfrac{20}{2} = ?</m></cell></row>
-                    <row>     
-                        <cell><m>3</m></cell>
-                        <cell>40</cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>4</m></cell>
-                        <cell>80</cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>    
-                        <cell><m>5</m></cell>
-                        <cell>160</cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Years</cell>
+                    <cell>Population</cell>
+                    <cell><m>\dfrac{\text{People}}{\text{Year}}</m></cell></row>
+                <row> 
+                    <cell><m>1</m></cell>
+                    <cell>10</cell>
+                    <cell><m>\dfrac{10}{1} = ?</m></cell></row>
+                <row>
+                    <cell><m>2</m></cell>
+                     <cell>20</cell>
+                     <cell><m>\dfrac{20}{2} = ?</m></cell></row>
+                <row>     
+                    <cell><m>3</m></cell>
+                    <cell>40</cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+                <row>
+                    <cell><m>4</m></cell>
+                    <cell>80</cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+                <row>    
+                    <cell><m>5</m></cell>
+                    <cell>160</cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+            </tabular></stack>
         <image source="images/act-3-2-2.png"><description>grid</description></image></sidebyside>
-</statement></exercise>
-
-<exercise><statement><p>At this point, can you make a conjecture (educated guess) about the graphs of proportional variables? To help you decide if your conjecture is true, continue with the graphs in parts 4 and 5.</p>
-<p><m>\blert{\text{Conjecture:}}</m></p></statement></exercise>
-
-<exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol label="a">
-    <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
-        <me>T=\hphantom{0000}</me></p></li>
-    <li><p>Use your equation to fill in the second column of the table.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    </li>
+    <li>
+        <p>At this point, can you make a conjecture (educated guess) about the graphs of proportional variables? To help you decide if your conjecture is true, continue with the graphs in parts 4 and 5.</p>
+        <p><m>\blert{\text{Conjecture:}}</m></p>
+    </li>
+    <li>
+        <p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
+        <sidebyside widths = "50% 45%" valigns="middle middle">
+            <p><ol label="a">
+                <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
+                    <me>T=\hphantom{0000}</me></p></li>
+                <li><p>Use your equation to fill in the second column of the table.</p>
+                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Units</cell>
                         <cell>Tuition</cell>
@@ -382,18 +410,20 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>12</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li>Graph the equation on the grid.</li>
-    <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p></stack>
-    <image source="images/act-3-2-3.png"><description>grid</description></image></sidebyside>
-</statement></exercise>
-
-<exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol label="a">
-    <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
-        <me>D=\hphantom{0000}</me></p></li>
-    <li><p>Use your equation to fill in the second column of the table.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li>Graph the equation on the grid.</li>
+            <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p>
+            <image source="images/act-3-2-3.png"><description>grid</description></image>
+        </sidebyside>
+    </li>
+    <li>
+        <p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
+        <sidebyside widths = "50% 45%" valigns="middle middle">
+            <stack><p><ol label="a">
+                <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
+                    <me>D=\hphantom{0000}</me></p></li>
+                <li><p>Use your equation to fill in the second column of the table.</p>
+                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Hours</cell>
                         <cell>Distance</cell>
@@ -418,43 +448,52 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>16</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li>Graph the equation on the grid.</li>
-    <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p></stack>
-    <image source="images/act-3-2-4.png"><description>grid</description></image></sidebyside>
-</statement></exercise>
+                    </tabular></sidebyside></li>
+                <li>Graph the equation on the grid.</li>
+                <li>Are the variables proportional? Compute their ratios to decide.</li>
+            </ol></p></stack>
+            <image source="images/act-3-2-4.png"><description>grid</description></image>
+        </sidebyside>
+    </li>
+    <li>
+        <p>Revise your conjecture about the graphs of proportional variables so that it applies to the graphs on this page as well.</p>
+        <p> Hint: Look at the two graphs of proportional variables. What is the <m>y</m>-intercept of both graphs?</p>
+        <p><m>\blert{\text{Revised Conjecture:}}</m></p>
+    </li>
+</ol></p>
 
-<exercise><statement><p>Revise your conjecture about the graphs of proportional variables so that it applies to the graphs on this page as well.</p>
-<p> Hint: Look at the two graphs of proportional variables. What is the <m>y</m>-intercept of both graphs?</p>
-<p><m>\blert{\text{Revised Conjecture:}}</m></p></statement></exercise>
-
-</exercises>
-</subsubsection>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives>
+<introduction><p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Comparing two quantities with a ratio or rate</li>
     <li>Solving a proportion</li>
     <li>Writing a proportion to model a problem</li>
-    <li>Recognizing proportional variables</li></ul></p></assemblage>
+    <li>Recognizing proportional variables</li></ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>
+<ol label="1">
     <li>In Activity 1, Problem 2, did you express the ratio as a common fraction or as a decimal fraction?  Why?</li>
     <li>In Activity 2, Problem 3, did you use miles or gallons in the numerators of your ratios?  Could you have used the other unit?</li>
-    <li>In Activity 3, what did you learn about the graphs of proportional variables?</li></ol></p></assemblage>
+    <li>In Activity 3, what did you learn about the graphs of proportional variables?</li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 <exercises>
 
 <exercise><statement><p>A cake recipe asks for <m>2\frac{1}{2}</m> cups of flour and <m>\frac{3}{4}</m> cup of brown sugar. What is the ratio of flour to brown sugar?</p></statement></exercise>
 
-<exercise><statement><p>Decide whether the two variables are proportional: 
+<exercise><statement><p>Decide whether the two variables are proportional: </p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -468,18 +507,18 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>8</m></cell>
                         <cell><m>16</m></cell>
                         <cell><m>25.6</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></sidebyside></statement></exercise>
 
 <exercise><statement><p>Write and solve a proportion to answer the question:</p>
 
 <p>On a map of Chesterfield County, 1 inch represents <m>4\frac{1}{2}</m> miles. If Richmond and Petersburg are <m>6\frac{2}{3}</m> inches apart on the map, what is the actual distance between the two towns?</p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="3">
+<solutions><title>Answers to Homework Preview</title><conclusion><p> <ol label = "1" cols="3">
     <li><m>\dfrac{10}{3}</m></li>
     <li>Yes</li>
-    <li><m>\dfrac{1}{9/2} = \dfrac{20/3}{x};~~</m> 30 mi</li></ol></p>
-</subsubsection>
+    <li><m>\dfrac{1}{9/2} = \dfrac{20/3}{x};~~</m> 30 mi</li></ol></p></conclusion>
+</solutions>
 
 </subsection>
 <xi:include href="./hmwk-3-2.xml" />

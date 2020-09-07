@@ -12,7 +12,7 @@
         \amp 3x+y=10
         \end{aligned}
     </m></p></statement>
-<answer><m>(2,4)</m></answer></exercise> 
+<answer><p><m>(2,4)</m></p></answer></exercise> 
 
 <exercise number="2"><statement><p>
     <m>\begin{aligned}[t]
@@ -27,7 +27,7 @@
         \amp x+1=3y
         \end{aligned}
     </m></p></statement>
-<answer><m>(5,2)</m></answer></exercise>
+<answer><p><m>(5,2)</m></p></answer></exercise>
 
 <exercise number="4"><statement><p>
     <m>\begin{aligned}[t]
@@ -42,7 +42,7 @@
         \amp 2r+7s=-8
         \end{aligned}
     </m></p></statement>
-<answer><m>\left(\dfrac{2}{3}, \dfrac{-4}{3}\right)</m></answer></exercise>
+<answer><p><m>\left(\dfrac{2}{3}, \dfrac{-4}{3}\right)</m></p></answer></exercise>
 
 <exercise number="6"><statement><p>
     <m>\begin{aligned}[t]
@@ -60,7 +60,7 @@
         \amp x-y=1
         \end{aligned}
     </m></p></statement>
-<answer><m>(3,2)</m></answer></exercise> 
+<answer><p><m>(3,2)</m></p></answer></exercise> 
 
 <exercise number="8"><statement><p>
     <m>\begin{aligned}[t]
@@ -75,7 +75,7 @@
         \amp x+y=3
         \end{aligned}
     </m></p></statement>
-<answer><m>(1,2)</m></answer></exercise>
+<answer><p><m>(1,2)</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>
     <m>\begin{aligned}[t]
@@ -89,7 +89,7 @@
         \amp 2x+3y=-1\\
         \amp 3x+5y=-2
         \end{aligned}</m></p></statement>
-<answer><m>(1,-1)</m></answer></exercise>
+<answer><p><m>(1,-1)</m></p></answer></exercise>
 
 <exercise number="12"><statement><p>
     <m>\begin{aligned}[t]

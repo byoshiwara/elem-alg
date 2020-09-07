@@ -6,7 +6,7 @@
 <exercise number="1"><statement><p>The perimeter of a rectangle of length <m>l</m> and width <m>w</m> is given by 
 	<me>P=2l+2w</me> 
 Find the perimeter of a rectangular meeting hall with dimensions 8.5 meters by 6.4 meters.</p></statement>
-<answer>29.8 meters</answer></exercise>
+<answer><p>29.8 meters</p></answer></exercise>
 
 <exercise number="2"><statement><p>The area of a trapezoid with bases <m>B</m> and <m>b</m> and height <m>h</m> is given by 
 	<me>A=\dfrac{1}{2}(B+b)h</me> 
@@ -15,7 +15,7 @@ Find the area of a trapezoid whose bases are 9 centimeters and 7 centimeters and
 <exercise number="3"><statement><p>If a company sells <m>n</m> items at a cost of <m>c</m> dollars each and sells them at a price of <m>p</m> dollars each, the company's profit is given by 
 	<me>P=n(p-c)</me> 
 Find the profit earned by a manufacturer of bicycle equipment by selling 300 bicycle helmets that cost $32 each to produce and sell for $50 apiece.</p></statement>
-<answer>$5400</answer></exercise>
+<answer><p>$5400</p></answer></exercise>
 
 <exercise number="4"><statement><p>The temperature in degrees Celsius (<m>\degree</m>C) is given by 
 	<me>C=\dfrac{5}{9}(F-32)</me>,  
@@ -23,15 +23,15 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, simplify by following the order of operations.</p></introduction>
 
-<exercise number="5"><statement><m>-18-[8-12-(-4)]</m></statement>
-<answer><m>-18</m></answer></exercise>
+<exercise number="5"><statement><p><m>-18-[8-12-(-4)]</m></p></statement>
+<answer><p><m>-18</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>3-(-6+2)+(-1-4)</m></statement></exercise>
+<exercise number="6"><statement><p><m>3-(-6+2)+(-1-4)</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>-7+[-8-(-2)]-[6+(-4)]</m></statement>
-<answer><m>-15</m></answer></exercise>
+<exercise number="7"><statement><p><m>-7+[-8-(-2)]-[6+(-4)]</m></p></statement>
+<answer><p><m>-15</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>0-[5-(-1)]+[-6-3]</m></statement></exercise>
+<exercise number="8"><statement><p><m>0-[5-(-1)]+[-6-3]</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="9"><statement><p>Find each product.<ol label="a" cols="2">
@@ -100,22 +100,22 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li><m>24-6 \div (-2)</m></li>
 	<li><m>24 \div (-6) \div (-2)</m></li>
 	<li><m>24 \div (-6 \div 2)</m></li></ol></p></statement>
-<answer></answer></exercise>
+</exercise>
 
 <exercisegroup><introduction><p>For Problems 17<ndash/>22, evaluate for the given values.</p></introduction>
 
 <exercise number="17"><statement><p><m>15-x-y~~~~</m> for <m>x=-6,~y=8</m></p></statement>
-<answer><m>13</m></answer></exercise>
+<answer><p><m>13</m></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>p-(4-m)~~~~</m> for <m>p=-2,~m=-6</m></p></statement></exercise>
 
 <exercise number="19"><statement><p><m>12x-3xy~~~~</m> for <m>x=-3,~y=2</m></p></statement>
-<answer><m>-18</m></answer></exercise>
+<answer><p><m>-18</m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>\dfrac{y-3}{x-4}~~~~</m> for <m>x=-9,~y=2</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>\dfrac{1}{2}t(t-1)~~~~</m> for <m>t=\dfrac{2}{3}</m></p></statement>
-<answer><m>-\dfrac{1}{9}</m></answer></exercise>
+<answer><p><m>-\dfrac{1}{9}</m></p></answer></exercise>
 
 <exercise number="22"><statement><p><m>\dfrac{x-m}{s}~~~~</m> for <m>x=4,~m=\dfrac{9}{4},~s=\dfrac{3}{2}</m></p></statement></exercise>
 </exercisegroup>
@@ -163,7 +163,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><m>2x+10</m></answer></exercise>
+<answer><p><m>2x+10</m></p></answer></exercise>
 
 <exercise number="26"><statement><sidebyside width="75%"><!--<image source="images/hp-2-2-26.png"><description>rectangle</description></image>-->
     <image xml:id="hp-2-2-26">
@@ -195,7 +195,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="27"><statement><p>Salewa saved $5000 to live on while going to school full time. She spends $200 per week on living expenses.<ol label="a">
 	<li>How much of Salewa's savings will be left after 3 weeks?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
-	<li>Fill in the table below.
+	<li><p>Fill in the table below.</p>
 		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Number of weeks</cell>
@@ -234,7 +234,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="28"><statement><p>To calculate how much state income tax she owes, Francine subtracts $2000 from her income, and then takes 12% of the result.<ol label="a">
 	<li>What is Francine's state income tax if her income is $8000?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
-	<li>Fill in the table below.
+	<li><p>Fill in the table below.</p>
 		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Income</cell>

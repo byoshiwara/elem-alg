@@ -100,8 +100,7 @@ are given by the formula
 <li>Does every parabola have two <m>x</m>-interepts?  Why or why not?</li></ol></p>
 </subsection>
 
-<subsection><title>Review Problems</title>
-<exercises>
+<exercises><title>Review Problems</title>
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6, solve by extraction of roots. Round to thousandths any answers that are irrational numbers.</p></introduction>
 
 <exercise number="1"><statement><p><m>9x^2-4=0</m></p></statement>
@@ -512,6 +511,4 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 </exercisegroup>
 
 </exercises>
-</subsection>
-</section>	
-
+</section>

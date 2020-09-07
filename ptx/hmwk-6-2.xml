@@ -6,12 +6,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>3, apply the zero-factor principle to find the solutions.
 </p></introduction>
 
- <exercise number="1"><statement><m>(x+1)(x-4)=0</m></statement>
+ <exercise number="1"><statement><p><m>(x+1)(x-4)=0</m></p></statement>
  <answer><p><m>-1, ~4</m></p></answer></exercise>
 
- <exercise number="2"><statement><m>0=p(p+7)</m></statement></exercise>
+ <exercise number="2"><statement><p><m>0=p(p+7)</m></p></statement></exercise>
 
- <exercise number="3"><statement><m>(2v+3)(4v-1)=0</m></statement>
+ <exercise number="3"><statement><p><m>(2v+3)(4v-1)=0</m></p></statement>
  <answer><p><m>\dfrac{-3}{2}, ~\dfrac{1}{4} </m></p></answer></exercise>
 </exercisegroup>
 
@@ -217,7 +217,7 @@
 <exercise number="27"><statement><p>The revenue you can earn by making and selling <m>n</m> jade bracelets is given in dollars by 
     <me>R=-2n^2+80n</me><ol label="a">
     <li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
-    <li><p>Complete the table and sketch a graph.
+    <li><p>Complete the table and sketch a graph.</p>
     <sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
         <col halign="center"/>
                     <row bottom="minor">
@@ -249,7 +249,6 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                    
                 </tabular>
-    <!--    <image source="images/hp-6-2-27.png"><description>grid</description></image>-->
     <image xml:id="hp-6-2-27">
         <description>grid</description>
         <latex-image>
@@ -271,7 +270,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></p></li>
+</sidebyside></li>
 <li>What is the maximum revenue that you can earn? How many bracelets should you make in order to earn that revenue?</li>
 <li>How much revenue will you earn if you charge $40 for a bracelet?</li></ol></p></statement>
 <answer><p><ol label="a">
@@ -307,7 +306,7 @@
 <exercise number="28"><statement><p>The height in feet of a football <m>t</m> seconds after being kicked from the ground is given by
 	<me>h=-16t^2+80t</me><ol label="a">
 	<li>Factor the expression for <m>h</m>.</li>
-	<li><p>Complete the table and sketch a graph.
+	<li><p>Complete the table and sketch a graph.</p>
 	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 		<col halign="center"/> <col halign="center"/>
                     <row bottom="minor">
@@ -335,7 +334,6 @@
                         <cell><m>5</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                    
                 </tabular>
-        <!--<image source="images/hp-6-2-28.png"><description>grid</description></image>-->
     <image xml:id="hp-6-2-28">
         <description>grid</description>
         <latex-image>
@@ -357,7 +355,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></li>
+    </sidebyside></li>
 	<li>What is the maximum height of the football? When does it reach this height?</li>
 	<li>When does the football fall back to the ground?</li></ol></p></statement></exercise>
 

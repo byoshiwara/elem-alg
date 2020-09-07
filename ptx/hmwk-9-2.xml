@@ -90,15 +90,15 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, simplify.</p></introduction>
 
-<exercise number="11"><statement><m>(a^{-4}c^2)^{-3}</m></statement>
+<exercise number="11"><statement><p><m>(a^{-4}c^2)^{-3}</m></p></statement>
 <answer><p><m>\dfrac{a^{12}}{c^6} </m></p></answer></exercise>
 
-<exercise number="12"><statement><m>(2u^2)^{-3}(u^{-4})^2</m></statement></exercise>
+<exercise number="12"><statement><p><m>(2u^2)^{-3}(u^{-4})^2</m></p></statement></exercise>
 
-<exercise number="13"><statement><m>\dfrac{5k^{-3}(k^4)^{-3}}{6k^{-5}}</m></statement>
+<exercise number="13"><statement><p><m>\dfrac{5k^{-3}(k^4)^{-3}}{6k^{-5}}</m></p></statement>
 <answer><p><m>\dfrac{5}{6k^{10}} </m></p></answer></exercise>
 
-<exercise number="14"><statement><m>\left(\dfrac{2p^{-3}}{p^2}\right)^{-2}</m></statement></exercise>
+<exercise number="14"><statement><p><m>\left(\dfrac{2p^{-3}}{p^2}\right)^{-2}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Mental Exercise: For Problems 15<ndash/>16, simplify each quotient without using pencil, paper, or calculator.  Write your answer as a power of 10.</p></introduction>
@@ -153,15 +153,15 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, use scientific notation to compute.</p></introduction>
 
-<exercise number="21"><statement><m>(2,000,000)(0.000~07)</m></statement>
+<exercise number="21"><statement><p><m>(2,000,000)(0.000~07)</m></p></statement>
 <answer><p>140</p></answer></exercise>
 
-<exercise number="22"><statement><m>0.000~036 \div 0.000~9</m></statement></exercise>
+<exercise number="22"><statement><p><m>0.000~036 \div 0.000~9</m></p></statement></exercise>
 
-<exercise number="23"><statement><m>\dfrac{(80,000,000,000)(0.000~6)}{20,000}</m></statement>
+<exercise number="23"><statement><p><m>\dfrac{(80,000,000,000)(0.000~6)}{20,000}</m></p></statement>
 <answer><p>2400</p></answer></exercise>
 
-<exercise number="24"><statement><m>\dfrac{(0.000~000~25)(90,000,000)}{(1,500,000)(0.000~000~2)}</m></statement></exercise>
+<exercise number="24"><statement><p><m>\dfrac{(0.000~000~25)(90,000,000)}{(1,500,000)(0.000~000~2)}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 25<ndash/>28, suppose that each of the following numbers is written in scientific notation. Decide whether the exponent on 10 is positive or negative.</p></introduction>

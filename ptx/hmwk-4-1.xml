@@ -6,15 +6,15 @@
  <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, use the distributive law to remove parentheses. For some of these exercises you will use the distributive law in the form
 	<me>\blert{(b+c)a=ba+ca}</me></p></introduction>
 
- <exercise number="1"><statement><m>5(2y-3)</m></statement>
+ <exercise number="1"><statement><p><m>5(2y-3)</m></p></statement>
  <answer><p><m>10y-15</m></p></answer></exercise>
 
- <exercise number="2"><statement><m>-2(4x+8)</m></statement></exercise>
+ <exercise number="2"><statement><p><m>-2(4x+8)</m></p></statement></exercise>
 
- <exercise number="3"><statement><m>-(5b-3)</m></statement>
+ <exercise number="3"><statement><p><m>-(5b-3)</m></p></statement>
  <answer><p><m>-5b+3</m></p></answer></exercise>
 
- <exercise number="4"><statement><m>(-6+2t))-6)</m></statement></exercise>
+ <exercise number="4"><statement><p><m>(-6+2t))-6)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, simplify each product. Which product in each pair requires the distributive law?</p></introduction>
@@ -47,38 +47,38 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12, simplify and combine like terms.</p></introduction>
 
-<exercise number="9"><statement><m>-6(x+1)+2x</m></statement>
+<exercise number="9"><statement><p><m>-6(x+1)+2x</m></p></statement>
  <answer><p><m>-4x-6</m></p></answer></exercise>
 
- <exercise number="10"><statement><m>5-2(4x-9)+9x</m></statement></exercise>
+ <exercise number="10"><statement><p><m>5-2(4x-9)+9x</m></p></statement></exercise>
 
- <exercise number="11"><statement><m>-4(3+2z)+2z-3(2z+1)</m></statement>
+ <exercise number="11"><statement><p><m>-4(3+2z)+2z-3(2z+1)</m></p></statement>
  <answer><p><m>-12z-15</m></p></answer></exercise>
 
- <exercise number="12"><statement><m>3(-3a-4)-3a-4(3a-4)</m></statement></exercise>
+ <exercise number="12"><statement><p><m>3(-3a-4)-3a-4(3a-4)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>20, solve the equation or inequality.</p></introduction>
 
-<exercise number="13"><statement><m>6(3y-4)=-60</m></statement>
+<exercise number="13"><statement><p><m>6(3y-4)=-60</m></p></statement>
  <answer><p><m>y=-2</m></p></answer></exercise>
 
- <exercise number="14"><statement><m>5w-64=-2(3w-1)</m></statement></exercise>
+ <exercise number="14"><statement><p><m>5w-64=-2(3w-1)</m></p></statement></exercise>
 
- <exercise number="15"><statement><m>-22c+5(3c+4) \gt -2(4-3t)</m></statement>
+ <exercise number="15"><statement><p><m>-22c+5(3c+4) \gt -2(4-3t)</m></p></statement>
  <answer><p><m>c=0</m></p></answer></exercise>
 
- <exercise number="16"><statement><m>6-4(2a+3) \ge 6a + 2</m></statement></exercise>
+ <exercise number="16"><statement><p><m>6-4(2a+3) \ge 6a + 2</m></p></statement></exercise>
 
- <exercise number="17"><statement><m>4-3(2t-4) \gt -2(4-3t)</m></statement>
+ <exercise number="17"><statement><p><m>4-3(2t-4) \gt -2(4-3t)</m></p></statement>
  <answer><p><m>t \lt 2</m></p></answer></exercise>
 
- <exercise number="18"><statement><m>0.25(x+3)-0.45(x-3)=0.30</m></statement></exercise>
+ <exercise number="18"><statement><p><m>0.25(x+3)-0.45(x-3)=0.30</m></p></statement></exercise>
 
- <exercise number="19"><statement><m>\dfrac{a}{a+2}=\dfrac{2}{3}</m></statement>
+ <exercise number="19"><statement><p><m>\dfrac{a}{a+2}=\dfrac{2}{3}</m></p></statement>
  <answer><p><m>a=4</m></p></answer></exercise>
 
- <exercise number="20"><statement><m>\dfrac{0.3}{0.5} = \dfrac{b+2}{12-b}</m></statement></exercise>
+ <exercise number="20"><statement><p><m>\dfrac{0.3}{0.5} = \dfrac{b+2}{12-b}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="21"><statement><p>Choose a value for the variable and show that the following pairs of expressions are not equivalent.<ol label="a" cols="2">

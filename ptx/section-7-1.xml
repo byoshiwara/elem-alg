@@ -210,21 +210,21 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 <exercises>
 <exercisegroup cols="2"><introduction><p>Replace the comma in each pair by the proper symbol: <m>~\gt,~ \lt,~</m> or <m>~=</m>.</p></introduction>
 
-<exercise number="1"><statement><m>(-2)^3,~-2^3</m></statement></exercise>
+<exercise number="1"><statement><p><m>(-2)^3,~-2^3</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>-5^4,~(-5)^4</m></statement></exercise>
+<exercise number="2"><statement><p><m>-5^4,~(-5)^4</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>7-3^2,~4^2</m></statement></exercise>
+<exercise number="3"><statement><p><m>7-3^2,~4^2</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>2+4^3,~6^3</m></statement></exercise>
+<exercise number="4"><statement><p><m>2+4^3,~6^3</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>4 \cdot 2^3,~8^3</m></statement></exercise>
+<exercise number="5"><statement><p><m>4 \cdot 2^3,~8^3</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>2 \cdot 5^2,~10^2</m></statement></exercise>
+<exercise number="6"><statement><p><m>2 \cdot 5^2,~10^2</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>\dfrac{1}{2},~\left(\dfrac{1}{2}\right)^2</m></statement></exercise>
+<exercise number="7"><statement><p><m>\dfrac{1}{2},~\left(\dfrac{1}{2}\right)^2</m></p></statement></exercise>
 
-<exercise number="8"><statement><m>\dfrac{3}{4},~\left(\dfrac{3}{4}\right)^2</m></statement></exercise>
+<exercise number="8"><statement><p><m>\dfrac{3}{4},~\left(\dfrac{3}{4}\right)^2</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 

@@ -181,17 +181,17 @@ Finally, we multiply the powers together to get
 <exercisegroup cols="3"><introduction><p>Simplify each expression according to the order of operations.</p>
 </introduction>
 
-<exercise number="1"><statement><m>10-6^2</m></statement></exercise>
+<exercise number="1"><statement><p><m>10-6^2</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>10(-6^2)</m></statement></exercise>
+<exercise number="2"><statement><p><m>10(-6^2)</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>(10-6)^2</m></statement></exercise>
+<exercise number="3"><statement><p><m>(10-6)^2</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>2 \cdot 5^2-3^2</m></statement></exercise>
+<exercise number="4"><statement><p><m>2 \cdot 5^2-3^2</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>-2 \cdot 5^2(-3^2)</m></statement></exercise>
+<exercise number="5"><statement><p><m>-2 \cdot 5^2(-3^2)</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>-2^2-(5-3)^2</m></statement></exercise>
+<exercise number="6"><statement><p><m>-2^2-(5-3)^2</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 

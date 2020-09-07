@@ -278,17 +278,17 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 <exercises>
 <exercisegroup cols="3"><introduction><p>Factor completely.</p></introduction>
 
-<exercise number="1"><statement><m>x^2-4</m></statement></exercise>
+<exercise number="1"><statement><p><m>x^2-4</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>x^2-4x</m></statement></exercise>
+<exercise number="2"><statement><p><m>x^2-4x</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>x^2-4x+4</m></statement></exercise>
+<exercise number="3"><statement><p><m>x^2-4x+4</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>4x^2-1</m></statement></exercise>
+<exercise number="4"><statement><p><m>4x^2-1</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>4x^2-4x</m></statement></exercise>
+<exercise number="5"><statement><p><m>4x^2-4x</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>4x^2+4x+1</m></statement></exercise>
+<exercise number="6"><statement><p><m>4x^2+4x+1</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
@@ -403,13 +403,13 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 
 <exercisegroup cols="2"><introduction><p>Reduce.</p></introduction>
 
-<exercise><statement><m>~~\dfrac{20s^3t^2}{12st^3}</m></statement></exercise>
+<exercise><statement><p><m>~~\dfrac{20s^3t^2}{12st^3}</m></p></statement></exercise>
 
-<exercise><statement><m>~~\dfrac{x^2-4x}{2x}</m></statement></exercise>
+<exercise><statement><p><m>~~\dfrac{x^2-4x}{2x}</m></p></statement></exercise>
 
-<exercise><statement><m>~~\dfrac{a^2-9}{3a-9}</m></statement></exercise>
+<exercise><statement><p><m>~~\dfrac{a^2-9}{3a-9}</m></p></statement></exercise>
 
-<exercise><statement><m>~~\dfrac{b-2}{2b^2-3b-2}</m></statement></exercise>
+<exercise><statement><p><m>~~\dfrac{b-2}{2b^2-3b-2}</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 

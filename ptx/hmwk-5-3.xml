@@ -6,7 +6,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, write an expression for the shaded area in the combination of squares and circles.</p></introduction>
 
  <exercise number="1"><statement><sidebyside width="40%"><image source="images/hp-5-3-1"><description>square</description></image></sidebyside></statement>
- <answer><m>16w^2-36t^2</m></answer></exercise>
+ <answer><p><m>16w^2-36t^2</m></p></answer></exercise>
 
  <exercise number="2"><statement><sidebyside width="40%"><image source="images/hp-5-3-2"><description>circle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -15,7 +15,7 @@
 </p></introduction>
 
  <exercise number="3"><statement><sidebyside width="40%"><image source="images/hp-5-3-3"><description>sphere</description></image></sidebyside></statement>
- <answer><m>\dfrac{32 \pi h^3}{3}</m></answer></exercise>
+ <answer><p><m>\dfrac{32 \pi h^3}{3}</m></p></answer></exercise>
 
  <exercise number="4"><statement><sidebyside width="40%"><image source="images/hp-5-3-4"><description>box</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -23,7 +23,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, Find an expression for the surface area of each box. (Hint:  Each box has six faces: top and bottom, front and back, left and right. Find the areas of all six faces, then add them.)</p></introduction>
 
  <exercise number="5"><statement><sidebyside width="50%"><image source="images/hp-5-3-5"><description>box</description></image></sidebyside></statement>
- <answer><m>22a^2</m></answer></exercise>
+ <answer><p><m>22a^2</m></p></answer></exercise>
 
  <exercise number="6"><statement><sidebyside width="50%"><image source="images/hp-5-3-6"><description>box</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -31,17 +31,17 @@
 <exercisegroup cols="3"><introduction><p>For Problems 7<ndash/>11, find the unknown side or sides of the right triangles.</p></introduction>
 
  <exercise number="7"><statement><sidebyside width="70%"><image source="images/hp-5-3-7"><description>triangle</description></image></sidebyside></statement>
- <answer><m>8</m></answer></exercise>
+ <answer><p><m>8</m></p></answer></exercise>
 
  <exercise number="8"><statement><sidebyside width="90%"><image source="images/hp-5-3-8"><description>triangle</description></image></sidebyside></statement></exercise>
 
  <exercise number="9"><statement><sidebyside width="60%"><image source="images/hp-5-3-9"><description>triangle</description></image></sidebyside></statement>
- <answer><m>\sqrt{68}</m></answer></exercise>
+ <answer><p><m>\sqrt{68}</m></p></answer></exercise>
 
  <exercise number="10"><statement><sidebyside width="75%"><image source="images/hp-5-3-10"><description>triangle</description></image></sidebyside></statement></exercise>
 
  <exercise number="11"><statement><sidebyside width="60%"><image source="images/hp-5-3-11"><description>triangle</description></image></sidebyside></statement>
- <answer><m>k=5\sqrt{2},~ 3k=15\sqrt{2}</m></answer></exercise>
+ <answer><p><m>k=5\sqrt{2},~ 3k=15\sqrt{2}</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 12<ndash/>14, decide whether a triangle with the given sides is a right triangle.</p></introduction>
@@ -145,17 +145,17 @@
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>22, solve the formula for the variable indicated.</p></introduction>
 
 <exercise number="19"><statement><p><m>v=lwh~~~~~~~~</m> for <m>~w~</m></p></statement>
-<answer><m>w=\dfrac{v}{lh}</m></answer></exercise>
+<answer><p><m>w=\dfrac{v}{lh}</m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>E=\dfrac{mv^2}{2}~~~~~~~~</m> for <m>~m~</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>A=\dfrac{h}{2}(b+c)~~~~~~~~</m> for <m>~h~</m></p></statement>
-<answer><m>h=\dfrac{2A}{b+c}</m></answer></exercise>
+<answer><p><m>h=\dfrac{2A}{b+c}</m></p></answer></exercise>
 
 <exercise number="22"><statement><p><m>F=\dfrac{9}{5}C+32~~~~~~~~</m> for <m>~C~</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>A=\pi rh + 2\pi r^2~~~~~~~~</m> for <m>~h~</m></p></statement>
-<answer><m>h=\dfrac{A-2\pi r^2}{\pi r}</m></answer></exercise>
+<answer><p><m>h=\dfrac{A-2\pi r^2}{\pi r}</m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>\dfrac{x}{a}+\dfrac{y}{b}=1~~~~~~~~</m> for <m>~x~</m></p></statement></exercise>
 </exercisegroup>

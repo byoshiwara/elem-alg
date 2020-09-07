@@ -7,21 +7,21 @@
     <li>Write the equation in slope-intercept form.</li>  
     <li>State the slope and <m>y</m>-intercept of the graph.</li></ol></p></introduction>
 
-<exercise number="1"><statement><m>y=3x+4</m></statement>
+<exercise number="1"><statement><p><m>y=3x+4</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>y=3x+4</m></p></li>
     <li><p>slope 3 and <m>y</m>-intercept <m>(0,4) </m>.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><m>6x+3y=6</m></statement></exercise>
+<exercise number="2"><statement><p><m>6x+3y=6</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>2x-3y=6</m></statement>
+<exercise number="3"><statement><p><m>2x-3y=6</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>y=\dfrac{2}{3} x-2</m></p></li>
     <li><p>slope <m>\dfrac{2}{3}</m> and <m>y</m>-intercept <m>(0,-2) </m>.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><m>5x=4y</m></statement></exercise>
+<exercise number="4"><statement><p><m>5x=4y</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, <ol label="a">  
@@ -148,9 +148,9 @@
 
 <exercise number="9"><statement>
     <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
-        <ol label="I">
-            <li><p><m>y=2x-6</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <stack><p><ol label="I">
+            <li><p><m>y=2x-6</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -165,9 +165,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=2x+1</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=2x+1</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -182,9 +182,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=2x+3</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=2x+3</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -199,7 +199,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></sidebyside></li></ol></p>
+                </stack>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer><p><ol label="a">
@@ -234,9 +235,9 @@
 
 <exercise number="10"><statement>
     <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
-        <ol label="I">
-            <li><p><m>y=\dfrac{-3}{2}x-4</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <stack><p><ol label="I">
+            <li><p><m>y=\dfrac{-3}{2}x-4</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -251,9 +252,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{-3}{2}x+2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=\dfrac{-3}{2}x+2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -268,9 +269,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{-3}{2}x+6</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=\dfrac{-3}{2}x+6</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -285,15 +286,17 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></sidebyside></li></ol>
+                </p></stack>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 
 <exercise number="11"><statement>
     <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
+        <stack><p>
         <ol label="I">
-            <li><p><m>y=\dfrac{1}{4}x+2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <li><p><m>y=\dfrac{1}{4}x+2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -308,9 +311,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{1}{2}x+2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=\dfrac{1}{2}x+2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -325,9 +328,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=x+2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=x+2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -342,7 +345,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></sidebyside></li></ol>
+                </p></stack>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer><p><ol label="a">
@@ -377,9 +381,10 @@
 
 <exercise number="12"><statement>
     <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
+        <stack><p>
         <ol label="I">
-            <li><p><m>y=-3x-2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <li><p><m>y=-3x-2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -394,9 +399,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=-2x-2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=-2x-2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -411,9 +416,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{-5}{3}x-2</m>
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+            <li><p><m>y=\dfrac{-5}{3}x-2</m></p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -428,7 +433,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></sidebyside></li></ol>
+                </p></stack>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 </exercisegroup>
@@ -438,7 +444,7 @@
 	<li>Compute the slope of the line.</li>
 	<li>Put the equation in slope-intercept form.</li></ol></p></introduction>
 
-<exercise number="13"><statement><p><m>3x+4y=12</m>
+<exercise number="13"><statement><p><m>3x+4y=12</m></p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -448,7 +454,7 @@
                         <cell><m>y</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular></sidebyside>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>(0,3) </m>, <m>~(4,0) </m></p><sidebyside>
@@ -480,7 +486,7 @@
     <li><p><m>y=\dfrac{-3}{4}x+3</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><m>y+3x-8=0</m>
+<exercise number="14"><statement><p><m>y+3x-8=0</m></p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -490,7 +496,7 @@
                         <cell><m>y</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular></sidebyside>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>

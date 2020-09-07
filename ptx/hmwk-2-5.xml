@@ -5,59 +5,59 @@
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>4, add or subtract like terms.</p></introduction>
 
-<exercise number="1"><statement><m>-6x+2x</m></statement>
+<exercise number="1"><statement><p><m>-6x+2x</m></p></statement>
 <answer><p><m>-4x</m></p></answer></exercise>
 
-<exercise number="2"><statement><m>-7.6a-5.2a</m></statement></exercise>
+<exercise number="2"><statement><p><m>-7.6a-5.2a</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>3t-4t+2t</m></statement>
+<exercise number="3"><statement><p><m>3t-4t+2t</m></p></statement>
 <answer><p><m>t</m></p></answer></exercise>
 
-<exercise number="4"><statement><m>3bc-(-4bc)-8bc</m></statement></exercise>
+<exercise number="4"><statement><p><m>3bc-(-4bc)-8bc</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>In Problems 5<ndash/>6, combine like terms.</p></introduction>
 
-<exercise number="5"><statement><m>3+4y-(-8y)-7</m></statement>
+<exercise number="5"><statement><p><m>3+4y-(-8y)-7</m></p></statement>
 <answer><p><m>12y-4</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>-2st-2+5s-6st-(-4s)</m></statement></exercise>
+<exercise number="6"><statement><p><m>-2st-2+5s-6st-(-4s)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>In Problems 7<ndash/>10, simplify and combine like terms.</p></introduction>
 
-<exercise number="7"><statement><m>4x+(5x-2)</m></statement>
+<exercise number="7"><statement><p><m>4x+(5x-2)</m></p></statement>
 <answer><p><m>9x-2</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>22y-34-(16y-24)</m></statement></exercise>
+<exercise number="8"><statement><p><m>22y-34-(16y-24)</m></p></statement></exercise>
 
-<exercise number="9"><statement><m>6a-5-2a-(2a-5)</m></statement>
+<exercise number="9"><statement><p><m>6a-5-2a-(2a-5)</m></p></statement>
 <answer><p><m>2a</m></p></answer></exercise>
 
-<exercise number="10"><statement><m>(-2-3b)-(2b-4)</m></statement></exercise>
+<exercise number="10"><statement><p><m>(-2-3b)-(2b-4)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>In Problems 11<ndash/>16, solve the equation or inequality.</p></introduction>
 
-<exercise number="11"><statement><m>4m-3=2m+5</m></statement>
+<exercise number="11"><statement><p><m>4m-3=2m+5</m></p></statement>
 <answer><p>4</p></answer></exercise>
 
-<exercise number="12"><statement><m>15-9t=33-5t</m></statement></exercise>
+<exercise number="12"><statement><p><m>15-9t=33-5t</m></p></statement></exercise>
 
-<exercise number="13"><statement><m>-6s=3s</m></statement>
+<exercise number="13"><statement><p><m>-6s=3s</m></p></statement>
 <answer><p>0</p></answer></exercise>
 
-<exercise number="14"><statement><m>3x+5 \gt 2x+3</m></statement></exercise>
+<exercise number="14"><statement><p><m>3x+5 \gt 2x+3</m></p></statement></exercise>
 
-<exercise number="15"><statement><m>-8g+35=9g-13+g</m></statement>
+<exercise number="15"><statement><p><m>-8g+35=9g-13+g</m></p></statement>
 <answer><p><m>\dfrac{8}{3} </m></p></answer></exercise>
 
-<exercise number="16"><statement><m>-15y+5-2y-4 \ge -12y+21</m></statement></exercise>
+<exercise number="16"><statement><p><m>-15y+5-2y-4 \ge -12y+21</m></p></statement></exercise>
 
-<exercise number="17"><statement><m>-2-3w+5w \le 4w-44</m></statement>
+<exercise number="17"><statement><p><m>-2-3w+5w \le 4w-44</m></p></statement>
 <answer><p><m>w \ge 21</m></p></answer></exercise>
 
-<exercise number="18"><statement><m>-5p-4+3p=2+7p+3</m></statement></exercise>
+<exercise number="18"><statement><p><m>-5p-4+3p=2+7p+3</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="19"><statement><p><ol label="a">

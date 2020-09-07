@@ -80,7 +80,7 @@
 
 <exercisegroup cols="2">
 
-<exercise number="3"><statement><p>Choose two points from the table and compute the slope of the line.
+<exercise number="3"><statement><p>Choose two points from the table and compute the slope of the line.</p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -95,7 +95,7 @@
                         <cell><m>60</m></cell>
                         <cell><m>90</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="90%"><!--<image source="images/hp-3-3-3.png"><description>graph</description></image>-->
+    <sidebyside width="90%">
     <image xml:id="hp-3-3-3">
         <description>graph of line</description>
         <latex-image>
@@ -118,11 +118,11 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></statement>
+    </sidebyside></statement>
  <answer><p><m>15 </m></p></answer></exercise>  
  
  <exercise number="4"><statement><p>Graph the line and compute its slope.
- 	<me>y=-12x+32</me>
+ 	<me>y=-12x+32</me></p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -137,7 +137,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="70%"><!--<image source="images/hp-3-3-4.png"><description>grid</description></image>-->
+    <sidebyside width="70%">
     <image xml:id="hp-3-3-4">
         <description>grid</description>
         <latex-image>
@@ -159,7 +159,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></statement></exercise>
+    </sidebyside></statement></exercise>
 </exercisegroup> 
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, find the slope of the line. Illustrate <m>\Delta x</m> and <m>\Delta y</m> on the graph.</p></introduction>

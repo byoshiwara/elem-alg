@@ -6,6 +6,7 @@
 <subsection><title>What is an Exponent?</title>
 <idx><h>exponent</h></idx>
 
+<introduction>
 <p>The area of a rectangle <idx><h>area</h><h>of rectangle</h></idx> is given by the formula <m>A=lw</m>. The variable <m>l</m> stands for the length of the rectangle, and <m>w</m> stands for for its width. The area tells us how many square tiles, one unit on a side, will fit inside the rectangle, as shown below.</p>
 <sidebyside width="90%"><image source="images/fig-5-1-1"><description>box</description></image></sidebyside> 
 
@@ -17,11 +18,12 @@
 <sidebyside widths="70% 20%"><p>A <term>cube</term><idx><h>cube</h></idx> is a box whose length, width, and height are all equal, so its volume is given by
 	<me>V=s \cdot s \cdot s</me></p>  
 <image source="images/fig-5-1-2"><description>cube</description></image></sidebyside>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>What is the formula for the volume of a box?</p></statement>
     	<answer><p><m>V=lwh</m></p></answer></exercise>
-</reading-questions>
+
 
 <p>Finding the area of a square or the volume of a cube involves repeated multiplication by the same number. We indicate repeated multiplication with a symbol called an <term>exponent</term>.</p>
 
@@ -61,11 +63,12 @@
 <p>An <term>exponent</term> indicates repeated multiplication.  
 <me>a^n = a \cdot a \cdot a \cdot \cdots \cdot a ~~~~~~~~ (n ~ \text{factors of}~ a)</me>  
 where <m>n</m> is a positive integer.</p></assemblage>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="2"><statement><p>What does an exponent tell us?</p></statement>
     	<answer><p>How many times a particular factor occurs in an expression</p></answer></exercise>
-</reading-questions>
+
 
 <example><statement><p>Compute the following powers. <ol label="a" cols ="2">
 	<li><m>6^2 = 6 \cdot 6 = 36</m></li>
@@ -81,11 +84,13 @@ where <m>n</m> is a positive integer.</p></assemblage>
 		<mrow>5^3~~\text{means}~~5 \cdot 5 \cdot 5,~~\text{and is read  "5 cubed"  or  "the cube of 5"}</mrow></md>
 These names come from the formulas for the area, <m>A</m>, of a square with side <m>s</m> and the volume, <m>V</m>, of a cube with edge <m>s</m>:
 	<me>A=s^2~~~~~~\text{and}~~~~~~V=s^3</me></p></assemblage>
+</subsubsection>
 </subsection>
 
 <subsection><title>Powers of Negative Numbers</title>
 <idx><h>power</h><h>of negative number</h></idx>
 
+<introduction>
 <assemblage><idx><h>power</h><h>of negative number</h></idx>
 <p>To show that a negative number is raised to a power, we enclose the negative number in parentheses.</p></assemblage>
 
@@ -109,14 +114,16 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 	<li>Only 4 is squared:  <m>~~-(4)^2 = -(4)(4) = -16</m></li>
 	<li><p>Only 4 is squared, and the entire expression appears within parentheses:  
 		<me>(-4^2) = (-4 \cdot 4 )=-16</me></p></li></ol></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>How do we indicate that a negative number should be raised to a power?</p></statement>
     	<answer><p>We enclose the negative number in parentheses.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Using a Calculator</title>
+
 
 <p>Scientific calculators usually have a key labeled <m>\boxed{~x^y~}</m> or <m>\boxed{~y^x~}</m>, called the power key, for computing powers. To compute <m>7^4</m> using the power key, we enter
 	<me>7~~\boxed{~y^x~}~~4~~\boxed{~=~}</me>
@@ -146,6 +153,7 @@ The first sequence tells the calculator to square 3, then make the result negati
 <subsection><title>Powers of Variables</title>
 <idx><h>power</h><h>of a variable</h></idx>
 
+<introduction>
 <p>We can also use exponents with variables. We must be careful to distinguish between a product of a variable and a power of a variable.</p>
 
 <assemblage><idx><h>power</h><h>of a variable</h></idx>
@@ -158,15 +166,17 @@ The first sequence tells the calculator to square 3, then make the result negati
         <mrow> \text{but}~~~~~~4x \amp = x+x+x+x</mrow></md>            
 The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal for all values of <m>x</m>.  
 (Can you think of one value of <m>x</m> for which they are equal?)</p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>What is the difference between an exponent and a coefficient?</p></statement>
     	<answer><p>An exponent indicates repeated multiplication, while a coefficient indicates repeated addition.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Order of Operations</title>
 
+<introduction>
 <p>How do exponents fit into the order of operations? </p>
 
 <example xml:id="Example-5-1-5"><statement><p>Compare the expressions <m>2x^3</m> and <m>(2x)^3</m>.</p></statement>
@@ -186,7 +196,7 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 <assemblage><title>Look Closer</title>
 <p>Think about the operations in <xref ref="Example-5-1-5" text="type-global"/>.<ul>
 	<li>To evaluate <m>2x^3</m>, we compute the power <m>x^3</m> first, and then the product, <m>2 \cdot x^3</m>.</li>
-	<li>To evaluate <m>(2x)^3</m>, we compute the product <m>2 \cdot x</m> inside parentheses first, and then compute the power.</li></ul></p>/</assemblage>
+	<li>To evaluate <m>(2x)^3</m>, we compute the product <m>2 \cdot x</m> inside parentheses first, and then compute the power.</li></ul></p></assemblage>
 
 <p>When simplifying an expression, we perform powers before multiplications, but after operations within parentheses.  Thus, we include exponents in the order of operations as follows.</p>
 
@@ -205,11 +215,12 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 	<md><mrow>-2(8\blert{-3 \cdot 4})^2 \amp =-2(\blert{8-12})^2 \amp \amp \blert{\text{Multiply first, then subtract.}}</mrow>
         <mrow>\amp =-2(\blert{-4})^2   \amp \amp \blert{\text{Compute the power, then multiply.}}</mrow>
         <mrow>\amp = -2(16)=-32</mrow></md></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="5"><statement><p>In the order of operations, when do we evaluate powers?</p></statement>
     	<answer><p>After operations inside parentheses</p></answer></exercise>
-</reading-questions>
+
 
 <p>It is especially important to follow the order of operations when evaluating an expression.</p>
 
@@ -233,11 +244,13 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
     <li><p>When we replace <m>x</m> by <m>\alert{-6}</m>, for clarity we also change the existing parentheses to brackets.
     	<md><mrow>(2x)^2 \amp =[2(\alert{-6})]^2 \amp \amp \blert{\text{Multiply inside brackets first.}}</mrow>
             <mrow>\amp = [-12]^2=144</mrow></md></p></li></ol></p></solution></example>
+</subsubsection>
 </subsection>
 
 <subsection><title>Like Terms</title>
 <idx><h>like terms</h><h>involving exponents</h></idx>
 
+<introduction>
 <p>In Chapter 2 we learned how to add or subtract like terms. For example,
 	<md><mrow>8x-3x \amp = 5x</mrow>
         <mrow>\text{but}~~~~~~8x-3y\amp ~~~~~~~~~~\text{cannot be simplified}</mrow></md>     
@@ -260,11 +273,12 @@ We can also combine like powers of the same variable. For instance,
 
 <warning><p>When adding like terms, we do not add the exponents. For example,
 	<me>4x^2 + 3x^2 = 7x^4 ~~~~~~~~~~\alert{\text{is incorrect!}}</me></p></warning>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="6"><statement><p>How do we combine like terms?</p></statement>
     	<answer><p>We add the coefficients and leave the powers unchanged.</p></answer></exercise>
-</reading-questions>
+
 
 <p>In the next Example we compare adding expressions and multiplying expressions.</p>
 
@@ -279,263 +293,313 @@ We can also combine like powers of the same variable. For instance,
 			<me>3 \cdot a \cdot 5 \cdot a</me>
 		We use the commutative law to rearrange the factors and multiply to find
 			<me>3 \cdot 5 \cdot a \cdot a = 15a^2</me></p></li></ol></p></solution></example>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 5.1.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Follow the order of operations to simplify each expression.</p></introduction>
 
-<exercise number="1"><statement><m>-2[-3(-5)-8(4)]</m></statement></exercise>
+<exercise number="1"><statement><p><m>-2[-3(-5)-8(4)]</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>[-8+6(-4)(-3)][5-(-2)]</m></statement></exercise>
+<exercise number="2"><statement><p><m>[-8+6(-4)(-3)][5-(-2)]</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{4}{3}(-6)(6-9)(6-9)</m></statement></exercise>
+<exercise number="3"><statement><p><m>\dfrac{4}{3}(-6)(6-9)(6-9)</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>\dfrac{3}{8}(-7-5)(-4-4)</m></statement></exercise>
+<exercise number="4"><statement><p><m>\dfrac{3}{8}(-7-5)(-4-4)</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>-2.4(-3)+(8-4.5)(-7.2)</m></statement></exercise>
+<exercise number="5"><statement><p><m>-2.4(-3)+(8-4.5)(-7.2)</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>-9.6-3.2(-8-2.4)(-3)</m></statement></exercise>
+<exercise number="6"><statement><p><m>-9.6-3.2(-8-2.4)(-3)</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="2">
+<solutions><title>Answers to Skills Warm-Up</title>
+<conclusion><p><ol label="1" cols="2">
     <li><m>34</m></li>
     <li><m>448</m></li>
     <li><m>-72</m></li>
     <li><m>-36</m></li>
     <li><m>-18</m></li>
-    <li><m>-109.44</m></li></ol></p>
-</subsubsection>
+    <li><m>-109.44</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Exponents</title>
-<exercises>
-<exercise><statement><p><ol label="a">
-	<li><p>Compute the squares of all the integers from one to ten.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>1^2</m></cell>
-                        <cell><m>2^2</m></cell>
-                        <cell><m>3^2</m></cell>
-                        <cell><m>4^2</m></cell>
-                        <cell><m>5^2</m></cell>
-                        <cell><m>6^2</m></cell>
-                    	<cell><m>7^2</m></cell>
-                        <cell><m>8^2</m></cell>
-                        <cell><m>9^2</m></cell>
-                        <cell><m>10^2</m></cell></row>
-                    <row> 
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                    	<cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+<introduction>
+<activity><title>Exponents</title>
 
-<li><p>Compute the cubes of all the integers from one to ten.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>1^3</m></cell>
-                        <cell><m>2^3</m></cell>
-                        <cell><m>3^3</m></cell>
-                        <cell><m>4^3</m></cell>
-                        <cell><m>5^3</m></cell>
-                        <cell><m>6^3</m></cell>
-                    	<cell><m>7^3</m></cell>
-                        <cell><m>8^3</m></cell>
-                        <cell><m>9^3</m></cell>
-                        <cell><m>10^3</m></cell></row>
-                    <row> 
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                    	<cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement></exercise>
+<p><ol label="1">
+	<li>
+		<p><ol label="a">
+			<li><p>Compute the squares of all the integers from one to ten.</p>
+			<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>1^2</m></cell>
+                    <cell><m>2^2</m></cell>
+                    <cell><m>3^2</m></cell>
+                    <cell><m>4^2</m></cell>
+                    <cell><m>5^2</m></cell>
+                    <cell><m>6^2</m></cell>
+                	<cell><m>7^2</m></cell>
+                    <cell><m>8^2</m></cell>
+                    <cell><m>9^2</m></cell>
+                    <cell><m>10^2</m></cell></row>
+                <row> 
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                	<cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+                </tabular></sidebyside></li>
 
-<exercise><statement><p><ol label="a">
-<li><p>Compute all the powers of <m>2</m> up to <m>2^{10}</m>.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>2^1</m></cell>
-                        <cell><m>2^2</m></cell>
-                        <cell><m>2^3</m></cell>
-                        <cell><m>2^4</m></cell>
-                        <cell><m>2^5</m></cell>
-                        <cell><m>2^6</m></cell>
-                    	<cell><m>2^7</m></cell>
-                        <cell><m>2^8</m></cell>
-                        <cell><m>2^9</m></cell>
-                        <cell><m>2^{10}</m></cell></row>
-                    <row> 
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                    	<cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
-<li><p>Compute all the powers of <m>3</m> up to <m>3^{10}</m>.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>3^1</m></cell>
-                        <cell><m>3^2</m></cell>
-                        <cell><m>3^3</m></cell>
-                        <cell><m>3^4</m></cell>
-                        <cell><m>3^5</m></cell>
-                        <cell><m>3^6</m></cell>
-                    	<cell><m>3^7</m></cell>
-                        <cell><m>3^8</m></cell>
-                        <cell><m>3^9</m></cell>
-                        <cell><m>3^{10}</m></cell></row>
-                    <row> 
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                    	<cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement></exercise>
+			<li><p>Compute the cubes of all the integers from one to ten.</p>
+				<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>1^3</m></cell>
+                    <cell><m>2^3</m></cell>
+                    <cell><m>3^3</m></cell>
+                    <cell><m>4^3</m></cell>
+                    <cell><m>5^3</m></cell>
+                    <cell><m>6^3</m></cell>
+                	<cell><m>7^3</m></cell>
+                    <cell><m>8^3</m></cell>
+                    <cell><m>9^3</m></cell>
+                    <cell><m>10^3</m></cell></row>
+                <row> 
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                	<cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+            </tabular></sidebyside></li>
+        </ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+			<li><p>Compute all the powers of <m>2</m> up to <m>2^{10}</m>.</p>
+			<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>2^1</m></cell>
+                    <cell><m>2^2</m></cell>
+                    <cell><m>2^3</m></cell>
+                    <cell><m>2^4</m></cell>
+                    <cell><m>2^5</m></cell>
+                    <cell><m>2^6</m></cell>
+                	<cell><m>2^7</m></cell>
+                    <cell><m>2^8</m></cell>
+                    <cell><m>2^9</m></cell>
+                    <cell><m>2^{10}</m></cell></row>
+                <row> 
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                	<cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+                </tabular></sidebyside></li>
+			<li><p>Compute all the powers of <m>3</m> up to <m>3^{10}</m>.</p>
+			<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>3^1</m></cell>
+                    <cell><m>3^2</m></cell>
+                    <cell><m>3^3</m></cell>
+                    <cell><m>3^4</m></cell>
+                    <cell><m>3^5</m></cell>
+                    <cell><m>3^6</m></cell>
+                	<cell><m>3^7</m></cell>
+                    <cell><m>3^8</m></cell>
+                    <cell><m>3^9</m></cell>
+                    <cell><m>3^{10}</m></cell></row>
+                <row> 
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                	<cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+          </tabular></sidebyside></li>
+      </ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+			<li><p>Compute all the powers of <m>10</m> up to <m>10^5</m>.</p></li>
+			<li><p>Describe how to write down the number <m>10^{24}</m></p></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+			<li><p>Explain the difference between <m>4(3)</m> and <m>3^4</m>.</p></li>
+			<li><p>Explain the difference between <m>4x</m> and <m>x^4</m>.</p></li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<exercise><statement><p><ol label="a">
-<li><p>Compute all the powers of <m>10</m> up to <m>10^5</m>.</p></li>
-<li><p>Describe how to write down the number <m>10^{24}</m></p></li></ol></p></statement></exercise>
+</activity>
 
-<exercise><statement><p><ol label="a">
-<li><p>Explain the difference between <m>4(3)</m> and <m>3^4</m>.</p></li>
-<li><p>Explain the difference between <m>4x</m> and <m>x^4</m>.</p></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+<activity><title>Computing Powers</title>
 
-<subsubsection><title>Activity 2: Computing Powers</title>
-<exercises>
-<exercise><statement><sidebyside widths="60% 22%" valigns="middle middle" margins="0% 10%"><p><ol label="a">
-    <li>Find the area of a square whose side is <m>2\frac{1}{2}</m> centimeters long.</li>
-    <li>Find the volume of a cube whose base is the square in part (a).</li></ol></p>
-<image xml:id="cube-side-2-and-half">
-        <description>cube of side 2.5</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} 
-        \def\s{2.5};
-        \def\b{0.9};
-        \coordinate (A) at (\s,0);
-        \coordinate (B) at (\s,\s);
-        \coordinate (C) at (0,\s);
-        \draw[magenta!80!black,ultra thick] (0,0) rectangle (B);
-        \draw[magenta!80!black,ultra thick] (A)--++(\b,\b)--++(C) -- ++($-1*(A)$)--++(-\b,-\b);
-        \draw[magenta!80!black,ultra thick] (B)--++(\b,\b);
-        \node[below] at ({\s/2},0) {$2.5$};
-        \node[left] at (0,{\s/2}) {$2.5$};
-        \node[right] at ({\b/2+\s},{\b/3}) {$2.5$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement></exercise>
+<p><ol label="1">
+	<li>
+		<sidebyside widths="60% 22%" valigns="middle middle" margins="0% 10%"><p><ol label="a">
+		    <li>Find the area of a square whose side is <m>2\frac{1}{2}</m> centimeters long.</li>
+		    <li>Find the volume of a cube whose base is the square in part (a).</li></ol></p>
+				<image xml:id="cube-side-2-and-half">
+		        <description>cube of side 2.5</description>
+		        <latex-image>
+		        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+		        <![CDATA[\tikzset{%
+		        }
+		        \begin{tikzpicture} 
+		        \def\s{2.5};
+		        \def\b{0.9};
+		        \coordinate (A) at (\s,0);
+		        \coordinate (B) at (\s,\s);
+		        \coordinate (C) at (0,\s);
+		        \draw[magenta!80!black,ultra thick] (0,0) rectangle (B);
+		        \draw[magenta!80!black,ultra thick] (A)--++(\b,\b)--++(C) -- ++($-1*(A)$)--++(-\b,-\b);
+		        \draw[magenta!80!black,ultra thick] (B)--++(\b,\b);
+		        \node[below] at ({\s/2},0) {$2.5$};
+		        \node[left] at (0,{\s/2}) {$2.5$};
+		        \node[right] at ({\b/2+\s},{\b/3}) {$2.5$};
+		        \end{tikzpicture}]]>
+		    </latex-image>
+		    </image>
+		</sidebyside>
+	</li>
+	<li>
+		<p>Compute each power of a signed number. <ol label="a" cols="3">
+			<li><m>(-2)^1</m></li>
+			<li><m>(-2)^2</m></li>
+			<li><m>(-2)^3</m></li>
+			<li><m>(-2)^4</m></li>
+			<li><m>(-2)^5</m></li>
+			<li><m>(-2)^6</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Do you see a pattern developing in Problem 2?  What is the connection between the exponent and the sign of the answer?</p>
+		<p>The sign of the power is <fillin characters="10"/> if the exponent is <fillin characters="10"/> .</p>
+	</li>
+	<li>
+		<p>Use a calculator to compute each power.<ol label="a" cols="2">
+			<li><m>(-1.1)^4</m></li>
+			<li><m>(-2.3)^3</m></li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<exercise><statement><p>Compute each power of a signed number. <ol label="a" cols="3">
-	<li><m>(-2)^1</m></li>
-	<li><m>(-2)^2</m></li>
-	<li><m>(-2)^3</m></li>
-	<li><m>(-2)^4</m></li>
-	<li><m>(-2)^5</m></li>
-	<li><m>(-2)^6</m></li></ol></p></statement></exercise>
+</activity>
 
-<exercise><statement><p>Do you see a pattern developing in Problem 2?  What is the connection between the exponent and the sign of the answer?</p>
-<p>The sign of the power is <fillin characters="10"/> if the exponent is <fillin characters="10"/> .</p></statement></exercise>
+<activity><title>Order of Operations</title>
 
-<exercise><statement><p>Use a calculator to compute each power.<ol label="a" cols="2">
-	<li><m>(-1.1)^4</m></li>
-	<li><m>(-2.3)^3</m></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+<p><ol label="1">
+	<li>
+		<p><ol label="a">
+			<li><p>Write each expression as a repeated addition or multiplication.
+				<md><mrow>a^5 = <fillin characters="20"/></mrow>
+					<mrow>5a = <fillin characters="20"/></mrow></md></p></li>
+			<li>Evaluate each expression above for <m>a=3</m>.</li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Compare the expressions by writing them without exponents. 
+			<ol label="a">
+				<li><p><m>3ab^4 = </m></p>
+					<p><m>3(ab)^4 = </m></p></li>
+				<li><p><m>a+5b^2 = </m></p>
+					<p><m>(a+5b)^2 = </m></p></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Simplify <m>~~9-5\cdot 2^3</m></p>
+	</li>
+	<li>
+		<p>Evaluate each expression for <m>t=-3</m>.
+		<ol label="a">
+			<li><m>-3t^2-3</m></li>
+			<li><m>-t^3-3t</m></li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<subsubsection><title>Activity 3: Order of Operations</title>
+</activity>
 
-<exercises>
-<exercise><statement><p><ol label="a">
-	<li><p>Write each expression as a repeated addition or multiplication.
-		<md><mrow>a^5 = <fillin characters="20"/></mrow>
-			<mrow>5a = <fillin characters="20"/></mrow></md></p></li>
-	<li>Evaluate each expression above for <m>a=3</m>.</li></ol></p></statement></exercise>
+<activity><title>Like Terms</title>
 
-<exercise><statement><p>Compare the expressions by writing them without exponents. <ol label="a">
-	<li><p><m>3ab^4 = </m></p>
-		<p><m>3(ab)^4 = </m></p></li>
-	<li><p><m>a+5b^2 = </m></p>
-		<p><m>(a+5b)^2 = </m></p></li></ol></p></statement></exercise>
+<p><ol label="1">
+	<li>
+		<p>Combine like terms if possible.<ol label="a">
+			<li><m>12v-6v^2</m></li>
+			<li><m>-4h^2-4h^2</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Simplify the expression by adding or subtracting like terms.
+		<ol label="a">
+			<li><m>(2m^4-4m^3+3m-1)+(m^3+4m^2-6m+2)</m></li>
+			<li><p><m>(4x^2+2x-5)-(2x^2-3x-2)~~~~</m>(Be careful with the signs!)</p></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>It costs The Cookie Company <m>200+2x</m> dollars to produce <m>x</m> bags of cookies per week, and they earn <m>8x-0.01x^2</m> dollars from the sale of <m>x</m> bags of cookies.
+		<ol label="a">
+			<li>Write an expression for the profit earned by The Cookie Company on <m>x</m> bags of cookies.</li>
+			<li>Find the company's profit on 300 bags of cookies, and on 600 bags.</li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<exercise><statement><p>Simplify <m>~~9-5\cdot 2^3</m></p></statement></exercise>
-
-<exercise><statement><p>Evaluate each expression for <m>t=-3</m>.<ol label="a">
-	<li><m>-3t^2-3</m></li>
-	<li><m>-t^3-3t</m></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
-
-<subsubsection><title>Activity 4: Like Terms</title>
-
-<exercises>
-<exercise><statement><p>Combine like terms if possible.<ol label="a">
-	<li><m>12v-6v^2</m></li>
-	<li><m>-4h^2-4h^2</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Simplify the expression by adding or subtracting like terms.<ol label="a">
-	<li><m>(2m^4-4m^3+3m-1)+(m^3+4m^2-6m+2)</m></li>
-	<li><p><m>(4x^2+2x-5)-(2x^2-3x-2)~~~~</m>(Be careful with the signs!)</p></li></ol></p></statement></exercise>
-
-<exercise><statement><p>It costs The Cookie Company <m>200+2x</m> dollars to produce <m>x</m> bags of cookies per week, and they earn <m>8x-0.01x^2</m> dollars from the sale of <m>x</m> bags of cookies.<ol label="a">
-	<li>Write an expression for the profit earned by The Cookie Company on <m>x</m> bags of cookies.</li>
-	<li>Find the company's profit on 300 bags of cookies, and on 600 bags.</li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Computing powers</li>
 	<li>Simplifying expressions involving exponents</li>
 	<li>Evaluating expressions involving exponents</li>
 	<li>Combining like terms</li>
-</ul></p></assemblage>
+</ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>   
+<ol label="1">
     <li>In Activity 1, which is bigger, <m>10^2</m> or <m>2^{10}</m>?  What is the smallest value of <m>n</m> for 
 	which <m>2^n</m> is bigger than <m>n^2</m>?</li>
 	<li>In Activity 2, what are the units of area?  What are the units of volume?</li>
 	<li>Why is it incorrect to evaluate <m>t^2</m> for <m>t=-3</m> by entering <m>-3^2</m> into your calculator?</li> 
 	<li>In Activity 4, what is wrong with this statement?
-		<me>(4x^2+2x-5)-(2x^2-3x-2) = 4x^2+2x-5 -2x^3-3x-2</me></li></ol></p></assemblage>
+		<me>(4x^2+2x-5)-(2x^2-3x-2) = 4x^2+2x-5 -2x^3-3x-2</me></li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 
 <exercises>
 <exercise><statement><p>Simplify.<ol label="a" cols="3">
@@ -557,7 +621,7 @@ We can also combine like powers of the same variable. For instance,
 	<li><m>5xt^2-3xt-(-2x^2t)+(-xt-xt^2)</m></li></ol></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1">
+<solutions><title>Answers to Homework Preview</title><conclusion><p> <ol label = "1">
     <li><p><ol label="a" cols="3">
     	<li><m>-12</m></li>
     	<li><m>32</m></li>
@@ -572,7 +636,8 @@ We can also combine like powers of the same variable. For instance,
     <li><p><ol label="a" cols="2">
     	<li><m>a^3+2a^2-a</m></li>
     	<li><m>4xt^2-4xt+2x^2t</m></li></ol></p></li>
-</ol></p></subsubsection>	
+</ol></p></conclusion>
+</solutions>
 </subsection>
 
 <xi:include href="./hmwk-5-1.xml" />

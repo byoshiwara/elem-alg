@@ -27,7 +27,7 @@
 
 <exercisegroup><introduction><p>Solve Problems 4<ndash/>5 about mixtures. (No variables are needed!)</p></introduction>
 
-<exercise number="4"><statement><p>The chemistry department has 80 students, of whom 35% are women. The physics department has 60 students, of whom 15% are women.
+<exercise number="4"><statement><p>The chemistry department has 80 students, of whom 35% are women. The physics department has 60 students, of whom 15% are women.</p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="18%"></col><col width="20%"></col>             
                     <row bottom="minor">
@@ -51,12 +51,12 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                 </tabular></sidebyside>
-	<ol label="a">
+	<p><ol label="a">
 	<li>How many chemistry students are women? How many physics students are women?</li>
 	<li>How many students are there in both departments? How many of them are women?</li>
 	<li>What percent of the students in chemistry and physics are women?</li></ol></p></statement></exercise>
 
-<exercise number="5"><statement><p>Pipette, a French chemistry student, has 30 milliliters of a 50% solution of acid. She wants to reduce the strength by adding 12 milliliters of a 15% solution of the same acid.
+<exercise number="5"><statement><p>Pipette, a French chemistry student, has 30 milliliters of a 50% solution of acid. She wants to reduce the strength by adding 12 milliliters of a 15% solution of the same acid.</p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="17%"></col>             
                     <row bottom="minor">
@@ -79,7 +79,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                </tabular></sidebyside></p>
+                </tabular></sidebyside>
     <p><ol label="a">
 	<li>How much acid is in the 30 milliliters of 50% solution? How much acid is in the 12 milliliters of 15% solution?</li>
 	<li>How much acid is in the mixture? How many milliliters of the mixture are there?</li>
@@ -122,13 +122,13 @@
 	<li>Solve your system and answer the question in the problem.</li></ol></p></statement></exercise>
 
 <exercise number="7"><statement><p>A newspaper poll of 400 people stated that 58% were in favor of a recycling program. It also said that 50% of the men and 70% of the women polled favored the program. How many women were polled?</p></statement>
-<answer>160</answer></exercise>
+<answer><p>160</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Solve Problems 8<ndash/>9 about motion.</p></introduction>
 
 <exercise number="8"><statement><p>Delbert and Francine leave Cedar Rapids at the same time and drive in opposite directions for 6 hours.<ol label="a">  
-    <li><p>Choose variables for Delbert and Francine's speeds and fill in the table.  
+    <li><p>Choose variables for Delbert and Francine's speeds and fill in the table.  </p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -143,7 +143,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></sidebyside></li>
     <li>Make a sketch showing Cedar Rapids, Delbert, and Francine. Label your sketch with the distance that each traveled.</li>
     <li>Francine drove 5 miles per hour slower than Delbert. After 6 hours, they are 570 miles apart.  Write two equations about the problem.</li>
     <li>Solve your system to find Delbert's and Francine's speeds.</li></ol></p></statement></exercise>

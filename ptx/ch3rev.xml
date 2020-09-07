@@ -104,8 +104,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <li>What is the difference between a line whose slope is zero and a line whose slope is undefined?</li></ol></p>
 </subsection>
 
-<subsection><title>Review Problems</title>
-<exercises>
+<exercises><title>Review Problems</title>
+
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, find the <m>x</m>-and <m>y</m>-intercepts of the line, then graph the line.</p></introduction>
 
@@ -276,8 +276,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, use the graph to find the slope of each line, and illustrate <m>\Delta x</m> and <m>\Delta y</m> on the graph.</p></introduction>
 
-<exercise number="17"><statement><m>3x+2y=-7</m>
-	<sidebyside width="90%"><!--<image source="images/cr3-17.png"><description>graph</description></image>-->
+<exercise number="17"><statement><p><m>3x+2y=-7</m></p>
+	<sidebyside width="90%">
     <image xml:id="cr3-17">
         <description>graph of line</description>
         <latex-image>
@@ -305,8 +305,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	</sidebyside></statement>
 <answer><p><m>\dfrac{-3}{2} </m></p></answer></exercise>
 
-<exercise number="18"><statement><m>3y=5x</m>
-	<sidebyside width="90%"><!--<image source="images/cr3-18.png"><description>graph</description></image>-->
+<exercise number="18"><statement><p><m>3y=5x</m></p>
+	<sidebyside width="90%">
     <image xml:id="cr3-18">
         <description>graph of ine</description>
         <latex-image>
@@ -345,7 +345,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	<li>Use the intercepts to graph the line.</li>
 	<li>Use the intercepts to find the slope of the line.</li></ol></p></introduction>
 
-<exercise number="21"><statement><m>6x-3y=18</m>
+<exercise number="21"><statement><p><m>6x-3y=18</m></p>
 	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
 	<li><p><m>(0,-6) </m>, <m>~(3,0) </m></p></li>
@@ -378,10 +378,10 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	<li><p><m>m=2</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><m>4y+9x=36</m>
+<exercise number="22"><statement><p><m>4y+9x=36</m></p>
 	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 
-<exercise number="23"><statement><m>\dfrac{x}{2}-\dfrac{y}{3}=1</m>
+<exercise number="23"><statement><p><m>\dfrac{x}{2}-\dfrac{y}{3}=1</m></p>
 	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
 	<li><p><m>(2,0) </m>, <m>~(0,-3) </m></p></li>
@@ -414,7 +414,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	<li><p><m>m=\dfrac{3}{2} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><m>y=3x-8</m>
+<exercise number="24"><statement><p><m>y=3x-8</m></p>
 	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
@@ -487,7 +487,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
     <li>Find the slope and <m>y</m>-intercept of the line.</li>
     <li>Graph the line using the slope-intercept method.</li></ol></p></introduction>
 
-<exercise number="27"><statement><m>2y+5x=-10</m>
+<exercise number="27"><statement><p><m>2y+5x=-10</m></p>
     <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>\dfrac{-5}{2} </m>, <m>~b=-5</m></p></li>
@@ -519,10 +519,10 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><m>y+3x=0</m>
+<exercise number="28"><statement><p><m>y+3x=0</m></p>
     <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 
-<exercise number="29"><statement><m>3x=4y-8</m>
+<exercise number="29"><statement><p><m>3x=4y-8</m></p>
     <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>\dfrac{3}{4} </m>, <m>~b=2</m></p></li>
@@ -554,7 +554,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement><m>\dfrac{x}{4}-\dfrac{y}{5}=1</m>
+<exercise number="30"><statement><p><m>\dfrac{x}{4}-\dfrac{y}{5}=1</m></p>
     <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
@@ -578,7 +578,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 
 <exercisegroup cols="2"><introduction><p>For Problems 35<ndash/>36, graph the line with the given slope and passing through the given point.</p></introduction>
 
-<exercise number="35"><statement><m>m=-\dfrac{3}{4},~~(2,-1)</m>
+<exercise number="35"><statement><p><m>m=-\dfrac{3}{4},~~(2,-1)</m></p>
 	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="cr3-35ans">
@@ -605,22 +605,22 @@ where <m>h</m> is the number of hours since they started draining the pool for t
     </image>
 </sidebyside></answer></exercise>
 
-<exercise number="36"><statement><m>m=\dfrac{1}{3},~~(0,-3)</m>
+<exercise number="36"><statement><p><m>m=\dfrac{1}{3},~~(0,-3)</m></p>
 	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>40, find the slope of the line segment joining the points.
 </p></introduction>
 
-<exercise number="37"><statement><m>(-1,4),~ (3,-2)</m></statement>
+<exercise number="37"><statement><p><m>(-1,4),~ (3,-2)</m></p></statement>
 <answer><p><m>\dfrac{-3}{2} </m></p></answer></exercise>
 
-<exercise number="38"><statement><m>(5,0),~ (2,-6)</m></statement></exercise>
+<exercise number="38"><statement><p><m>(5,0),~ (2,-6)</m></p></statement></exercise>
 
-<exercise number="39"><statement><m>(6.2,1.4),~ (-2.1,4.8)</m></statement>
+<exercise number="39"><statement><p><m>(6.2,1.4),~ (-2.1,4.8)</m></p></statement>
 <answer><p><m>-0.4</m></p></answer></exercise>
 
-<exercise number="40"><statement><m>(0,-6.4),~ (-5.6,3.2)</m></statement></exercise>
+<exercise number="40"><statement><p><m>(0,-6.4),~ (-5.6,3.2)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 41<ndash/>42, find the slope of the line described.</p></introduction>
@@ -672,7 +672,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercisegroup cols="2"><introduction><p>For Problems 51<ndash/>58, use the most convenient method to graph the equation.</p>
 </introduction>
 
-<exercise number="51"><statement><m>4x-3y=12</m></statement>
+<exercise number="51"><statement><p><m>4x-3y=12</m></p></statement>
 <answer><sidebyside width="55%" margins="0% 45%">
     <image xml:id="cr3-51ans">
         <description>line</description>
@@ -694,10 +694,10 @@ where <m>h</m> is the number of hours since they started draining the pool for t
     </image>
 </sidebyside></answer></exercise>
 
-<exercise number="52"><statement><m>\dfrac{x}{6}-\dfrac{y}{12}=1</m></statement></exercise>
+<exercise number="52"><statement><p><m>\dfrac{x}{6}-\dfrac{y}{12}=1</m></p></statement></exercise>
 
-<exercise number="53"><statement><m>50x=40y-20,000</m></statement>
-<answer><sidebyside width="60%" margins="0% 40%">>
+<exercise number="53"><statement><p><m>50x=40y-20,000</m></p></statement>
+<answer><sidebyside width="60%" margins="0% 40%">
     <image xml:id="cr3-53ans">
         <description>line</description>
         <latex-image>
@@ -718,10 +718,10 @@ where <m>h</m> is the number of hours since they started draining the pool for t
     </image>
 </sidebyside></answer></exercise>
 
-<exercise number="54"><statement><m>1.4x+2.1y=8.4</m></statement></exercise>
+<exercise number="54"><statement><p><m>1.4x+2.1y=8.4</m></p></statement></exercise>
 
-<exercise number="55"><statement><m>3x-4y=0</m></statement>
-<answer><sidebyside width="80%" margins="0% 20%">>
+<exercise number="55"><statement><p><m>3x-4y=0</m></p></statement>
+<answer><sidebyside width="80%" margins="0% 20%">
     <image xml:id="cr3-55ans">
         <description>line</description>
         <latex-image>
@@ -742,10 +742,10 @@ where <m>h</m> is the number of hours since they started draining the pool for t
     </image>
 </sidebyside></answer></exercise>
 
-<exercise number="56"><statement><m>x=-4y</m></statement></exercise>
+<exercise number="56"><statement><p><m>x=-4y</m></p></statement></exercise>
 
-<exercise number="57"><statement><m>4x=-12</m></statement>
-<answer><sidebyside width="70%" margins="0% 30%">>
+<exercise number="57"><statement><p><m>4x=-12</m></p></statement>
+<answer><sidebyside width="70%" margins="0% 30%">
     <image xml:id="cr3-57ans">
         <description>line</description>
         <latex-image>
@@ -766,17 +766,8 @@ where <m>h</m> is the number of hours since they started draining the pool for t
     </image>
 </sidebyside></answer></exercise>
 
-<exercise number="58"><statement><m>2y-x=0</m></statement></exercise>
+<exercise number="58"><statement><p><m>2y-x=0</m></p></statement></exercise>
 </exercisegroup>
 
 </exercises>
-</subsection>
 </section>
-
-
-
-
-
-
-
-

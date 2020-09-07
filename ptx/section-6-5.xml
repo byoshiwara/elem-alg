@@ -4,8 +4,8 @@
 <section xml:id="The-Quadratic-Formula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Quadratic Formula</title>
 <idx><h>quadratic formula</h></idx>
 
-<subsection>
-<sidebyside widths="65% 30%" valigns="middle middle"><p>The graph of the equation
+<introduction>
+<sidebyside widths="65% 30%" valigns="middle middle" margins="0% 0%"><p>The graph of the equation
 	<me>y=x^2+2x-5</me>
 is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at approximately 1.5 and 3.5. To find their exact values, we must solve the equation
 	<me>x^2+2x-5=0</me></p>
@@ -31,10 +31,11 @@ is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at 
 	
 <p>But, as you can check, the trinomial <m>x^2+2x-5</m> cannot be factored.</p>	
 <p>So far we know two methods for solving quadratic equations:  extracting roots and factoring. Neither of these methods applies to every quadratic equation. In this Lesson we consider a technique that works on all quadratic equations.</p>
-</subsection>
+</introduction>
 
 <subsection><title>Using the Quadratic Formula</title>
 
+<introduction>
 <p>The graph of the quadratic equation  
 	<me>y=ax^2+bx+c</me>
 depends upon its coefficients, <idx><h>coefficient</h><h>of quadratic equation</h></idx> <m>a,~b,</m> and <m>c</m>. In particular, the <m>x</m>-intercepts of the graph are determined by the values of these coefficients.  In fact, there is a formula that uses the coefficients to calculate the solutions of the equation <m>ax^2+bx+c=0</m>.  It is called the <term>quadratic formula</term>.</p>
@@ -62,19 +63,21 @@ We substitute the values of <m>a,~b,</m> and <m>c</m> into the quadratic formula
 	<md><mrow>\dfrac{-2 + \sqrt{24}}{2} \amp \approx \dfrac{-2+4.90}{2} = 1.50</mrow>
 		<mrow>\dfrac{-2 - \sqrt{24}}{2} \amp \approx \dfrac{-2-4.90}{2} = -3.50</mrow></md>
 These values are very close to our estimates from the graph.</p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>What should you do if a quadratic equation cannot be solved by factoring?</p></statement>
     <answer><p>Use the quadratic formula.</p></answer></exercise>
-</reading-questions>
+
 
 <warning><p>Before we use the quadratic formula, we must write the equation in standard form so that we can identify the coefficients <m>a,~b,</m> and <m>c</m>.</p></warning>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>How do we find the values of <m>a,~b,</m> and <m>c</m> in the quadratic formula?
 </p></statement>
     <answer><p>They are the coefficients of <m>x^2</m> and <m>x</m> and the constant term, respectively.</p></answer></exercise>
-</reading-questions>
+
 
 <p>If some of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</p>
 
@@ -97,20 +100,23 @@ These values are very close to our estimates from the graph.</p></solution></exa
 			<md><mrow>\dfrac{-6 + \sqrt{52}}{2} \amp \approx \dfrac{-6+7.21}{2} = 0.605</mrow>
 		<mrow>\dfrac{-6 - \sqrt{52}}{2} \amp \approx \dfrac{-6-7.21}{2} = -6.605</mrow></md>
 		To two decimal places the solutions are <m>0.61</m> and <m>-6.61</m>.</p></li></ol></p></solution></example>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>If the coefficients in a quadratic equation are fractions, what should you do?
 </p></statement>
     <answer><p>Multiply each term of the equation by their LCD.</p></answer></exercise>
-</reading-questions>
+
 
 <p>Of course, if a quadratic equation can be solved by factoring, then the quadratic formula will give the same solutions. You can use whichever technique seems faster for a particular equation.</p>
+</subsubsection>
 </subsection>
 
 <subsection><title>Non-Real Solutions</title>
 <idx><h>non-real</h><h>solutions</h></idx>
 
-<sidebyside widths="60% 30%"><p>The graph of 
+<introduction>
+<sidebyside widths="60% 30%" margins="0% 0%"><p>The graph of 
 	<me>y=x^2-4x+5</me>
 has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, we can use the quadratic formula to solve the equation
 	<me>x^2-4x+5=0</me></p>
@@ -150,12 +156,13 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
 	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
 	<li>If both solutions are non-real <idx><h>non-real</h></idx> complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>If a quadratic equation has no real solutions, what does that tell you about 
 	the graph?</p></statement>
     <answer><p>It has no <m>x</m>-intercepts.</p></answer></exercise>
-</reading-questions>
+
 
 <example><statement><p>How many <m>x</m>-intercepts does the parabola have?<ol label="a" cols="2">
 	<li><m>y=x^2+5</m></li>
@@ -173,124 +180,143 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 			<mrow> x-3=0~~~~x-3 \amp = 0</mrow>
 			<mrow> x=3~~~~x \amp = 3</mrow></md>
 		This parabola has one <m>x</m>-intercept, <m>(3,0)</m>.</p></li></ol></p></solution></example>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="5"><statement><p>If the solutions of a quadratic equation are equal, what does that tell you 
 	about the graph?
 </p></statement>
     <answer><p>The graph has one <m>x</m>-intercept, which is also its vertex.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 6.5.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve each equation by the easiest method.</p></introduction>
 
-<exercise number="1"><statement><m>x^2=36</m></statement></exercise>
+<exercise number="1"><statement><p><m>x^2=36</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>x^2-9x=36</m></statement></exercise>
+<exercise number="2"><statement><p><m>x^2-9x=36</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>x^2-9x=0</m></statement></exercise>
+<exercise number="3"><statement><p><m>x^2-9x=0</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>9x^2-36=0</m></statement></exercise>
+<exercise number="4"><statement><p><m>9x^2-36=0</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>3x^2-24x-36=0</m></statement></exercise>
+<exercise number="5"><statement><p><m>3x^2-24x-36=0</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>3x^2=31x-36</m></statement></exercise>
+<exercise number="6"><statement><p><m>3x^2=31x-36</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<solutions><title>Answers to Skills Warm-Up</title><conclusion><p><ol label="1" cols="2">
 	<li><m>6,~-6</m></li>
 	<li><m>12,~-3</m></li>
 	<li><m>0,~9</m></li>
 	<li><m>2,~-2</m></li>
 	<li><m>2,~6</m></li>
-	<li><m>\dfrac{4}{3},~9</m></li></ol></p></subsubsection>
+	<li><m>\dfrac{4}{3},~9</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Using the Quadratic Formula</title>
-<exercises>
+<introduction>
+<activity><title>Using the Quadratic Formula</title>
 
-<exercise><statement><p><ol label="a">
-	<li><p>Use the quadratic formula to solve <m>~~2x^2=7-4x</m></p>
+<p><ol label="1">
+	<li>
+		<p><ol label="a">
+			<li><p>Use the quadratic formula to solve <m>~~2x^2=7-4x</m></p>
 
-	<p><m>\blert{\text{Write the equation in standard form. }}</m></p>
+			<p><m>\blert{\text{Write the equation in standard form. }}</m></p>
 
-	<p><m>\blert{\text{Identify the coefficients.}~~a =<fillin characters="6"/>,~~b=<fillin characters="6"/>,~~c=<fillin characters="6"/>}</m></p>
+			<p><m>\blert{\text{Identify the coefficients.}~~a =<fillin characters="6"/>,~~b=<fillin characters="6"/>,~~c=<fillin characters="6"/>}</m></p>
 
-	<p><m>\blert{\text{Substitute the values of} ~a,~b,~\text{and}~c~\text{into the quadratic formula:}}</m>
-		<me>x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}=\hphantom{000000000000000000000000000000}</me></p>
+			<p><m>\blert{\text{Substitute the values of} ~a,~b,~\text{and}~c~\text{into the quadratic formula:}}</m>
+				<me>x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}=\hphantom{000000000000000000000000000000}</me></p>
 
-	<p><m>\blert{\text{Simplify the expression.}}</m></p></li>
-	
-	<li><p>Find decimal approximations to two decimal places for the solutions.</p>
-	
-	<p><m>\blert{\text{Use a calculator to approximate each solution.}}</m></p></li></ol></p></statement></exercise>
+			<p><m>\blert{\text{Simplify the expression.}}</m></p></li>
+			
+			<li><p>Find decimal approximations to two decimal places for the solutions.</p>
+			
+			<p><m>\blert{\text{Use a calculator to approximate each solution.}}</m></p></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+			<li><p>Solve the equation <m>~~x^2-\dfrac{x}{3} = \dfrac{4}{3}~~</m>  by factoring. (Hint:  Clear the fractions first!)</p></li>
+			<li>Solve the same equation using the quadratic formula.</li>
+		</ol></p>
+	</li>
+</ol></p>
+</activity>
 
-<exercise><statement><p><ol label="a">
-	<li><p>Solve the equation <m>~~x^2-\dfrac{x}{3} = \dfrac{4}{3}~~</m>  by factoring. (Hint:  Clear the fractions first!)</p></li>
-	<li>Solve the same equation using the quadratic formula.</li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+<activity><title>Application to Graphing</title>
 
-<subsubsection><title>Activity 2: Application to Graphing</title>
-<exercises>
-
-<exercise><statement><p><ol label="a">
-	<li><p>Here are equations for three parabolas.  Factor each formula if possible.<ol label="i">
-		<li><m>y=x^2-4x+3</m></li>
-		<li><m>y=x^2-4x+4</m></li>
-		<li><m>y=x^2-4x+5</m></li></ol></p></li>
-	<li><sidebyside widths="50% 30%"><p>Match each equation from part (a) with one of the graphs shown.  Explain your reasoning.</p>
-	<image source="images/act-6-5-1.png"><description>grid</description></image></sidebyside></li></ol></p>
-</statement></exercise>
-
-<exercise><statement><p>Find the <m>x</m>-intercepts of each parabola.<ol label="a" cols="2">
-	<li><m>y=-x^2+2x-1</m></li>
-	<li><m>y=2x^2+4x+3</m></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+<p><ol label="1">
+	<li>
+		<p><ol label="a">
+			<li><p>Here are equations for three parabolas.  Factor each formula if possible.<ol label="i">
+				<li><m>y=x^2-4x+3</m></li>
+				<li><m>y=x^2-4x+4</m></li>
+				<li><m>y=x^2-4x+5</m></li></ol></p></li>
+			<li><sidebyside widths="50% 30%"><p>Match each equation from part (a) with one of the graphs shown.  Explain your reasoning.</p>
+			<image source="images/act-6-5-1.png"><description>grid</description></image></sidebyside></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Find the <m>x</m>-intercepts of each parabola.<ol label="a" cols="2">
+			<li><m>y=-x^2+2x-1</m></li>
+			<li><m>y=2x^2+4x+3</m></li>
+		</ol></p>
+	</li>
+</ol></p>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Using the quadratic formula to solve equations</li>
 	<li>Solving applied problems using the quadratic formula</li>
 	<li>Using the quadratic formula to find the <m>x</m>-intercepts of a parabola</li>
 	<li>Determining how many <m>x</m>-intercepts the graph has</li>
-</ul></p></assemblage>
+</ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>
+<ol label="1">
     <li>In Activity 1, can we simplify <m>\sqrt{b^2-4ac}</m> to <m>\sqrt{b^2} - \sqrt{4ac}</m>?</li>
 	<li>In Activity 1, Problem 2, why is it helpful to clear fractions from the equation before applying the quadratic formula?</li>
 	<li>In Activity 2, Problem 2, how can we find the <m>x</m>-intercepts if the equation does not factor?</li>
-</ol></p></assemblage>
+</ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve. Give your answers as:<ol label="a">
 	<li>exact values.</li>
 	<li>approximations to three decimal places.</li></ol></p></introduction>
 
-<exercise><statement><m>x^2+2x-2=0</m></statement></exercise>
+<exercise><statement><p><m>x^2+2x-2=0</m></p></statement></exercise>
 
-<exercise><statement><m>2x^2-3x=1</m></statement></exercise>
+<exercise><statement><p><m>2x^2-3x=1</m></p></statement></exercise>
 
-<exercise><statement><m>\dfrac{x^2}{4} - \dfrac{2x}{3} + \dfrac{1}{3} = 0</m></statement></exercise>
+<exercise><statement><p><m>\dfrac{x^2}{4} - \dfrac{2x}{3} + \dfrac{1}{3} = 0</m></p></statement></exercise>
 
-<exercise><statement><m>3x^2+8x+6=0</m></statement></exercise>
+<exercise><statement><p><m>3x^2+8x+6=0</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1" cols="2">
+<solutions><title>Answers to Homework Preview</title>
+<conclusion><p><ol label = "1" cols="2">
 	<li><p><ol label="a">
 		<li><m>\dfrac{-2 \pm \sqrt{12}}{2}</m></li>
 		<li><m>-2.732,~0.732</m></li></ol></p></li>
@@ -301,9 +327,9 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 		<li><m>2, ~\dfrac{2}{3}</m></li>
 		<li><m>2,~0.667</m></li></ol></p></li>
 	<li><p><ol label="a">
-		<li>No real solutions</li></ol></p></li></ol></p></subsubsection>
+		<li>No real solutions</li></ol></p></li></ol></p></conclusion>
+</solutions>
 </subsection>
-
 
 <xi:include href="./hmwk-6-5.xml" />
 </section>

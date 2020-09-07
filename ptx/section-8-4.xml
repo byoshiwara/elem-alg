@@ -226,13 +226,13 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 <exercisegroup cols="2"><introduction><p>Write each expression as a single fraction in simplest form.</p>
 </introduction>
 
-<exercise number="1"><statement><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></statement></exercise>
+<exercise number="1"><statement><p><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></statement></exercise>
+<exercise number="2"><statement><p><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></statement></exercise>
+<exercise number="3"><statement><p><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></statement></exercise>
+<exercise number="4"><statement><p><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 

@@ -22,12 +22,12 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 3<ndash/>5, decide which graphing technique, the intercept method or the slope-intercept method, would be easier to use. Explain why you made the choice you did.</p></introduction>
 
-<exercise number="3"><statement><m>3x-2y=18</m></statement>
+<exercise number="3"><statement><p><m>3x-2y=18</m></p></statement>
 <answer><p>Intercept method</p></answer></exercise>
 
-<exercise number="4"><statement><m>y=\dfrac{5x}{3}-8</m></statement></exercise>
+<exercise number="4"><statement><p><m>y=\dfrac{5x}{3}-8</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>y=\dfrac{-5}{6}x</m></statement>
+<exercise number="5"><statement><p><m>y=\dfrac{-5}{6}x</m></p></statement>
 <answer><p>Slope-intercept method</p></answer></exercise>
 </exercisegroup>
 
@@ -47,7 +47,7 @@
         \amp 2y-5x=10
         \end{aligned}</m></p>
     <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
- <answer><m>(-4,-5)</m></answer></exercise>
+ <answer><p><m>(-4,-5)</m></p></answer></exercise>
 
  <exercise number="8"><statement><p>
     <m>\begin{aligned}[t]
@@ -63,7 +63,7 @@
         \amp y=-2x-1
         \end{aligned}</m></p>
     <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
- <answer><m>(-2,3)</m></answer></exercise>
+ <answer><p><m>(-2,3)</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 10<ndash/>11, decide whether the system is dependent or inconsistent.
@@ -84,16 +84,16 @@
  <answer><p>Inconsistent</p></answer></exercise>
 </exercisegroup>
 
-<exercise number="12"><statement><p>Without graphing, explain how you can tell that the system has no solution.</p>
+<exercise number="12"><statement><p>Without graphing, explain how you can tell that the system has no solution.
  	<md><mrow>x+y=4</mrow>
- 		<mrow>2x+2y=12</mrow></md></statement></exercise>
+ 		<mrow>2x+2y=12</mrow></md></p></statement></exercise>
 
 <exercise number="13"><statement><p>Delbert has accepted a sales job and is offered a choice of two salary plans. Under Plan A he receives $20,000 a year plus a 3% commission on his sales. Plan B offers a $15,000 annual salary plus a 5% commission.<ol label="a">
 	<li><p>Let <m>x</m> stand for the amount of Delbert's sales in one year. Write equations for his total annual earnings, <m>E</m>, under each plan.
  	<md><mrow>\text{Plan A:}~~~E =</mrow>
  		<mrow>\text{Plan B:}~~~E =</mrow></md></p></li>
- 	<li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.
- 		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+ 	<li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.</p>
+ 		<sidebyside widths="40% 40%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Earnings Under Plan A</cell></row>
@@ -157,7 +157,7 @@
                     <row>
                         <cell><m>400</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular></sidebyside></p></li>
+                </tabular></sidebyside></li>
     <li><p>Graph both of your equations on the grid. (Both axes are scaled in thousands of dollars.)</p>
     	<sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-13">
@@ -187,7 +187,7 @@
 	<li>For what sales amount do the two plans result in equal earnings for Delbert?</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><p>Plan A: <m>E=0.03x+20,000</m>; Plan B: <m>E=0.05x+15,000</m></p></li>
-    <li><p><sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <li><sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Earnings Under Plan A</cell>
@@ -228,7 +228,7 @@
                         <cell><m>400</m></cell>
                         <cell><m>32,000</m></cell>
                         <cell><m>35,000</m></cell></row>                      
-                </tabular></sidebyside></p></li>
+                </tabular></sidebyside></li>
     <li></li>
     <li>$250,000</li></ol></p></answer></exercise>
 
@@ -236,7 +236,7 @@
     <li><p>Let <m>x</m> stand for the number of clarinets Orpheus manufactures. Write equations for the total cost, <m>C</m>, of producing <m>x</m> clarinets, and the revenue, <m>R</m>, earned from selling <m>x</m> clarinets.
     <md><mrow>\text{Cost}~~~C =</mrow>
         <mrow>\text{Revenue}~~~R =</mrow></md></p></li>
-    <li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.
+    <li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.</p>
         <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -301,7 +301,7 @@
                     <row>
                         <cell><m>400</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular></sidebyside></p></li>
+                </tabular></sidebyside></li>
     <li><p>Graph both of your equations on the grid. (The vertical axis is scaled in thousands of dollars.)</p>
         <sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-14">

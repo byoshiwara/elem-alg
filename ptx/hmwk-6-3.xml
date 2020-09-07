@@ -18,17 +18,17 @@
             <cell  bottom="major" ><p><m>~~~~?~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell right="major"><p><m>x</m></p></cell>
             <cell  bottom="major" right="major" ><p><m>x^2</m></p></cell>
             <cell  bottom="major" right="major"><p><m>6x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell right="major"><p><m>?</m></p></cell>
             <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
             <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
     </tabular></sidebyside></statement>
-    <answer><ol label="a"><li>
+    <answer><p><ol label="a"><li>
     <sidebyside><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
@@ -39,18 +39,18 @@
             <cell  bottom="major"><p><m>\alert{6}</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell right="major"><p><m>x</m></p></cell>
             <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
             <cell  bottom="major" right="major"><p><m>6x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>\alert{5}</m></p></cell>
+            <cell right="major"><p><m>\alert{5}</m></p></cell>
             <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
             <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
     </tabular></sidebyside></li>
     <li><p><m>(x+5)(x+6)=x^2+11x+30</m></p></li>     
- </ol>
+ </ol></p>
  </answer></exercise>
 
  <exercise number="2"><statement>
@@ -64,12 +64,12 @@
             <cell  bottom="major"><p><m>~~~~-3~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell right="major"><p><m>x</m></p></cell>
             <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
             <cell  bottom="major" right="major"><p><m>-3x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell right="major"><p><m>?</m></p></cell>
             <cell  bottom="major" right="major"><p><m>?</m></p></cell>
             <cell  bottom="major" right="major"><p><m>27</m></p></cell>
         </row>
@@ -86,17 +86,17 @@
             <cell  bottom="major"><p><m>~~~~?~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell right="major"><p><m>?</m></p></cell>
             <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
             <cell  bottom="major" right="major"><p><m>2x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell right="major"><p><m>?</m></p></cell>
             <cell  bottom="major" right="major"><p><m>?</m></p></cell>
             <cell  bottom="major" right="major"><p><m>16</m></p></cell>
         </row>
     </tabular></sidebyside></statement>
-    <answer><ol label="a"><li>
+    <answer><p><ol label="a"><li>
     <sidebyside><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
@@ -107,18 +107,18 @@
             <cell  bottom="major"><p><m>\alert{2}</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>\alert{x}</m></p></cell>
+            <cell right="major"><p><m>\alert{x}</m></p></cell>
             <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
             <cell  bottom="major" right="major"><p><m>2x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><p><m>\alert{8}</m></p></cell>
+            <cell right="major"><p><m>\alert{8}</m></p></cell>
             <cell  bottom="major" right="major"><p><m>\alert{8x}</m></p></cell>
             <cell  bottom="major" right="major"><p><m>16</m></p></cell>
         </row>
     </tabular></sidebyside></li>
     <li><p><m>(x+8)(x+2)=x^2+10x+26</m></p></li>     
-</ol>
+</ol></p>
  </answer></exercise>
 </exercisegroup>
 
@@ -291,7 +291,7 @@
             <cell bottom="major"><m>w+3</m></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>w</m></cell>
+            <cell right="major"><m>w</m></cell>
             <cell bottom="major" right="major"></cell>
         </row>
     </tabular></sidebyside></li>  
@@ -363,7 +363,7 @@ How many hours does it take to build a transformer if it costs $80 to produce?</
             <cell bottom="major"><m>2w+3</m></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>w</m></cell>
+            <cell right="major"><m>w</m></cell>
             <cell bottom="major" right="major"></cell>
         </row>
     </tabular></sidebyside></li>

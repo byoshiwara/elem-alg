@@ -85,50 +85,50 @@ Fill in the middle column first. Then use the table to help you answer the quest
 
 <exercisegroup cols="3"><introduction><p>For Problems 3<ndash/>17, solve.</p></introduction>
 
-<exercise number="3"><statement><m>6x-13=5</m></statement>
+<exercise number="3"><statement><p><m>6x-13=5</m></p></statement>
 <answer><p><m>x=3</m></p></answer></exercise>
 
-<exercise number="4"><statement><m>\dfrac{2a}{5}=8</m></statement></exercise>
+<exercise number="4"><statement><p><m>\dfrac{2a}{5}=8</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>\dfrac{x}{4}+2=3</m></statement>
+<exercise number="5"><statement><p><m>\dfrac{x}{4}+2=3</m></p></statement>
 <answer><p><m>x=4</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>6x+5=5</m></statement></exercise>
+<exercise number="6"><statement><p><m>6x+5=5</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>24=4(p-7)</m></statement>
+<exercise number="7"><statement><p><m>24=4(p-7)</m></p></statement>
 <answer><p><m>p=13</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>0=\dfrac{5z}{7}</m></statement></exercise>
+<exercise number="8"><statement><p><m>0=\dfrac{5z}{7}</m></p></statement></exercise>
 
-<exercise number="9"><statement><m>\dfrac{k+4}{5}=9</m></statement>
+<exercise number="9"><statement><p><m>\dfrac{k+4}{5}=9</m></p></statement>
 <answer><p><m>k=41</m></p></answer></exercise>
 
-<exercise number="10"><statement><m>\dfrac{2x}{3}-5=7</m></statement></exercise>
+<exercise number="10"><statement><p><m>\dfrac{2x}{3}-5=7</m></p></statement></exercise>
 
-<exercise number="11"><statement><m>7=\dfrac{4b-3}{3}</m></statement>
+<exercise number="11"><statement><p><m>7=\dfrac{4b-3}{3}</m></p></statement>
 <answer><p><m>b=6</m></p></answer></exercise>
 
-<exercise number="12"><statement><m>3c-7=-13</m></statement></exercise>
+<exercise number="12"><statement><p><m>3c-7=-13</m></p></statement></exercise>
 
-<exercise number="13"><statement><m>-5=-2-3t</m></statement>
+<exercise number="13"><statement><p><m>-5=-2-3t</m></p></statement>
 <answer><p><m>t=1</m></p></answer></exercise>
 
-<exercise number="14"><statement><m>-3(2h-6)=-12</m></statement></exercise>
+<exercise number="14"><statement><p><m>-3(2h-6)=-12</m></p></statement></exercise>
 
-<exercise number="15"><statement><m>1-\dfrac{b}{3}=-5</m></statement>
+<exercise number="15"><statement><p><m>1-\dfrac{b}{3}=-5</m></p></statement>
 <answer><p><m>b=18</m></p></answer></exercise>
 
-<exercise number="16"><statement><m>\dfrac{3y}{5}+2=-4</m></statement></exercise>
+<exercise number="16"><statement><p><m>\dfrac{3y}{5}+2=-4</m></p></statement></exercise>
 
-<exercise number="17"><statement><m>\dfrac{5x}{2}+10=0</m></statement>
+<exercise number="17"><statement><p><m>\dfrac{5x}{2}+10=0</m></p></statement>
 <answer><p><m>x=-4</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 18<ndash/>19, solve.</p></introduction>
 
-<exercise number="18"><statement><m>11.8w-37.8=120.32</m></statement></exercise>
+<exercise number="18"><statement><p><m>11.8w-37.8=120.32</m></p></statement></exercise>
 
-<exercise number="19"><statement><m>9.7(2.6+v)=58.2</m></statement>
+<exercise number="19"><statement><p><m>9.7(2.6+v)=58.2</m></p></statement>
 <answer><p><m>x=3.4</m></p></answer></exercise>
 </exercisegroup>
 
@@ -138,9 +138,9 @@ Fill in the middle column first. Then use the table to help you answer the quest
     <li>Give at least one value of the variable that is a solution, and one value 
         that is not a solution.</li></ol></p></introduction>
 
-<exercise number="20"><statement><m>x+10 \le 5</m></statement></exercise>
+<exercise number="20"><statement><p><m>x+10 \le 5</m></p></statement></exercise>
 
-<exercise number="21"><statement><m>-3y \lt 15</m></statement>
+<exercise number="21"><statement><p><m>-3y \lt 15</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>y\gt -5</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-21ans">
@@ -166,9 +166,9 @@ Fill in the middle column first. Then use the table to help you answer the quest
     <li><p><m>y=-4.9</m> is a solution, <m>y=-5</m> is not.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><m>\dfrac{x}{3} \le 4</m></statement></exercise>
+<exercise number="22"><statement><p><m>\dfrac{x}{3} \le 4</m></p></statement></exercise>
 
-<exercise number="23"><statement><m>2x+3 \gt 7</m></statement>
+<exercise number="23"><statement><p><m>2x+3 \gt 7</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>x\gt 2</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-23ans">
@@ -194,9 +194,9 @@ Fill in the middle column first. Then use the table to help you answer the quest
     <li><p><m>x=-7</m> is a solution, <m>x=-6</m> is not.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><m>-3x+2 \le 11</m></statement></exercise>
+<exercise number="24"><statement><p><m>-3x+2 \le 11</m></p></statement></exercise>
 
-<exercise number="25"><statement><m>-3 \gt \dfrac{2x}{3}+1</m></statement>
+<exercise number="25"><statement><p><m>-3 \gt \dfrac{2x}{3}+1</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>x \lt -6</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-25ans">
@@ -222,9 +222,9 @@ Fill in the middle column first. Then use the table to help you answer the quest
     <li><p><m>x=-7</m> is a solution, <m>x=-6</m> is not.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="26"><statement><m>-3 \le 3x \le 12</m></statement></exercise>
+<exercise number="26"><statement><p><m>-3 \le 3x \le 12</m></p></statement></exercise>
 
-<exercise number="27"><statement><m>23 \gt 9-2b \ge 13</m></statement>
+<exercise number="27"><statement><p><m>23 \gt 9-2b \ge 13</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>-7 \lt b \le -2</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-27ans">
@@ -251,11 +251,11 @@ Fill in the middle column first. Then use the table to help you answer the quest
     <li><p><m>b=-2</m> is a solution, <m>b=-7</m> is not.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><m>-8 \le \dfrac{5w+3}{4} \lt -3</m></statement></exercise>
+<exercise number="28"><statement><p><m>-8 \le \dfrac{5w+3}{4} \lt -3</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="29"><statement><p>Delbert is thinking of a number. If he multiplies the number by 5 and then subtracts 6, the result is 29. What is the number?</p></statement>
-<answer></answer></exercise>
+<answer><p>7</p></answer></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 30<ndash/>31, find the error in the "solution," then write a corrected solution.</p></introduction>
 
@@ -273,13 +273,13 @@ Fill in the middle column first. Then use the table to help you answer the quest
                 2x \amp = -10 \\
                 x \amp =-5               
                 \end{aligned}</m></p></statement>
-<answer></answer></exercise>
+<answer><p>In the first step, the left side of the equation should be <m>-6_2x</m>, and the correct solution <m>x=-3</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 32<ndash/>33, use the graphs to answer the questions.</p></introduction>
 
-<exercise number="32"><statement><p>Francine's new puppy weighed 3.8 pounds when she brought it home, and it should gain approximately 0.6 pound per week. The graph shows the puppy's weight, <m>W</m>, after <m>t</m> weeks.
-	<sidebyside width="50%"><!--<image source="images/hp-2-4-32.png"><description>graph</description></image>-->
+<exercise number="32"><statement><p>Francine's new puppy weighed 3.8 pounds when she brought it home, and it should gain approximately 0.6 pound per week. The graph shows the puppy's weight, <m>W</m>, after <m>t</m> weeks.</p>
+	<sidebyside width="50%">
     <image xml:id="hp-2-4-32">
         <description>line on grid</description>
         <latex-image>
@@ -303,15 +303,15 @@ Fill in the middle column first. Then use the table to help you answer the quest
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside><ol label="a">  
+    </sidebyside><p><ol label="a">  
 	<li>Estimate the puppy's weight after 8 weeks.</li>
 	<li>Estimate how long it will take for the puppy to reach 26 pounds.</li>
 	<li>Write an algebraic equation for <m>W</m> in terms of <m>t</m>.</li>
 	<li>Write and solve an equation to verify your answer to part (b).</li></ol></p></statement></exercise>
 
 <exercise number="33"><statement><p>Marvin's telephone company charges $13 a month plus $0.15 per minute. The graph  
-shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
-	<sidebyside width="50%"><!--<image source="images/hp-2-4-33.png"><description>graph</description></image>-->
+shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.</p>
+	<sidebyside width="50%">
     <image xml:id="hp-2-4-33">
         <description>line on grid</description>
         <latex-image>
@@ -335,7 +335,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside><ol label="a">
+    </sidebyside><p><ol label="a">
 	<li>Estimate Marvin's phone bill if he talks for 45 minutes.</li>
 	<li>Estimate the number of minutes Marvin talked if his phone bill is $25.</li>
 	<li>Write an algebraic equation for <m>P</m> in terms of <m>m</m>.</li>

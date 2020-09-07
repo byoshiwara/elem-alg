@@ -11,6 +11,7 @@
 
 <subsection><title>What is a Square Root?</title>
 
+<introduction>
 <p>Suppose we would like to draw a square whose area is 25 square inches. How long should each side of the square be?</p> 
 
 <p>Because the formula for the area of a square is <m>A=s^2</m>, the side <m>s</m> should satisfy the equation <m>s^2=25</m>. We want a number whose square is 25. As you can probably guess, the length of the square should be 5 inches, because <m>5^2=25</m>. We say that 5 is a <term>square root</term> of 25.</p>
@@ -32,16 +33,18 @@
 <p>5 is not the only square root of 25, because <m>(-5)^2=25</m> as well. Thus, 25 has two square roots, <m>5</m> and <m>-5</m>.</p></assemblage>
 
 <assemblage><p>Every positive number has two square roots, one positive and one negative.</p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>What is the square root of a number <m>n</m>?</p></statement>
     	<answer><p>A number whose square is <m>n</m></p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Radicals</title>
 <idx><h>radical</h></idx>
 
+<introduction>
 <p>The positive square root of a number is called the <term>principal square root</term><idx><h>principal square root</h></idx><idx><h>square root</h><h>principal</h></idx>. The symbol <m>\sqrt{\hphantom{00}}</m> denotes the positive or principal square root. Thus, we may write
 	<me>\sqrt{25} = 5~~~~~~\text{and}~~~~~~\sqrt{144}=12</me>
 The symbol <m>\sqrt{\hphantom{00}}</m> is called a <term>radical</term><idx><h>radical sign (<m>\sqrt{\hphantom{1} \vphantom{1}} \thinspace </m>)</h></idx> sign, and the number inside is called the <term>radicand</term><idx><h>radicand</h></idx>.  Square roots are often called <term>radicals</term><idx><h>radical</h></idx>.</p>
@@ -55,14 +58,19 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 <example><statement><p> Find each square root.<ol label="a" cols="2">
 	<li><m>-\sqrt{81} = -9</m></li>
 	<li><m>\pm \sqrt{\dfrac{64}{121}} = \pm \dfrac{8}{11}</m></li></ol></p></statement></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="2"><statement><p>What is the positive square root of a number called?</p></statement>
     	<answer><p>The principal square root</p></answer></exercise>
     <exercise number="3"><statement><p>What is a radicand?</p></statement>
     	<answer><p>The number inside a radical sign</p></answer></exercise>
-</reading-questions>
+</subsubsection>
+</subsection>
 
+<subsection><title>Square Root of a Negative Number</title>
+
+<introduction>
 <p>Every positive number has two square roots, and zero has exactly one square root. What about the square root of a negative number? For example, can we find <m>\sqrt{-4}</m>?</p>  
 
 <p>The answer is No, because the square of any number is positive (or zero). Try this yourself: The only reasonable candidates for <m>\sqrt{-4}</m> are <m>2</m> and <m>-2</m>, but
@@ -70,15 +78,17 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
          <mrow>(-2)^2 \amp = \underline{\hphantom{000000}}</mrow></md> </p>
 
 <assemblage><p>We cannot find the square root of a negative number.  We say that the square root of a negative number is <term>undefined</term><idx><h>square root</h><h>undefined</h></idx><idx><h>square root</h><h>undefined</h><seealso>complex number</seealso></idx>.</p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>How do we find the square root of a negative number?</p></statement>
     	<answer><p>The square root of a negative number is undefined.</p></answer></exercise>
- </reading-questions>
+</subsubsection>
  </subsection>
 
  <subsection><title>Rational and Irrational Numbers</title>
  
+ <introduction>
  <assemblage><title>Rational Number</title>
  <idx><h>rational number</h></idx>
  <p>A <term>rational number</term> is one that can be expressed as a quotient (or ratio) of two integers, where the denominator is not zero.</p></assemblage>
@@ -86,13 +96,18 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
  <p>The term "rational" has nothing to do with being reasonable or logical; it comes from the word ratio.  Thus, any fraction such as
  	<me>\dfrac{2}{3},~~~  \dfrac{-4}{7},~~~ \text{or}~~~ \dfrac{15}{8}</me>
 is a rational number. Integers are also rational numbers, because any integer can be written as a fraction with a denominator of 1. (For example, <m>6= \dfrac{6}{1}</m>). All of the numbers we have encountered before this chapter are rational numbers.</p>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="5"><statement><p>What is a rational number?</p></statement>
     	<answer><p>One that can be expressed as a quotient of two integers</p></answer></exercise>
- </reading-questions>
+</subsubsection>
+</subsection>
 
- <p>Every fraction can be written in decimal form.</p>
+<subsection><title>Decimal Form</title>
+
+<introduction>
+<p>Every fraction can be written in decimal form.</p>
 
 <assemblage><title>Decimal Form of a Rational Number</title>
 <idx><h>rational number</h><h>decimal form</h></idx>
@@ -107,12 +122,17 @@ is a rational number. Integers are also rational numbers, because any integer ca
 <solution><p><ol label="a">
 	<li>We can use a calculator or long division to divide the numerator by the denominatorto find <m>\dfrac{3}{4}=0.75</m>.</li>
 	<li>We divide 4 by 11 to find <m>\dfrac{4}{11}=0.363636 \ldots = 0.\overline{36}</m>. The line over the digits 36 is called a repeater bar, and it indicates that those digits are repeated forever.</li></ol></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="6"><statement><p>How can you recognize a rational number in its decimal form?</p></statement>
     	<answer><p>It either terminates or repeats a pattern.</p></answer></exercise>
- </reading-questions>
+</subsubsection>
+</subsection>
 
+<subsection><title>Real Numbers</title>
+
+<introduction>
 <p>What about the decimal form for <m>\sqrt{5}</m>? If you use a calculator with an eight-digit display, you will find
 	<me>\sqrt{5} \approx 2.236~ 068</me>
  However, this number is only an approximation, and not the exact value of <m>\sqrt{5}</m>. (Try squaring <m>2.236~ 068</m>  and you will see that     
@@ -124,8 +144,8 @@ is a rational number. Integers are also rational numbers, because any integer ca
   	<p>An <term>irrational number</term> is one that cannot be expressed as a quotient of two integers.</p></assemblage> 
 
  <assemblage><title>Look Closer</title>
- <p>There is no terminating decimal fraction that gives the exact value of <m>\sqrt{5}</m>. The decimal representation of an irrational number never ends, and does not repeat any pattern! The best we can do is round off the decimal form and give an approximate value. Nonetheless, an irrational number still has a precise location on the number line, just as a rational number does. The figure below shows the locations of several rational and irrational numbers on a number line. 
- <sidebyside width="80%"><!--<image source="images/fig-5-2-1.png"><description>number line</description></image>-->
+ <p>There is no terminating decimal fraction that gives the exact value of <m>\sqrt{5}</m>. The decimal representation of an irrational number never ends, and does not repeat any pattern! The best we can do is round off the decimal form and give an approximate value. Nonetheless, an irrational number still has a precise location on the number line, just as a rational number does. The figure below shows the locations of several rational and irrational numbers on a number line. </p>
+ <sidebyside width="80%">
     <image xml:id="fig-5-2-1"><description>numberline</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -140,16 +160,17 @@ is a rational number. Integers are also rational numbers, because any integer ca
 		\filldraw[red] ({15/4)},0) circle (1mm) node[above, yshift=3] {$\displaystyle\frac{15}{4}$};
 		\filldraw[red] ({sqrt(5)},0) circle (1mm) node[above, yshift=3] {$\sqrt{5}$};
 		\filldraw[red] ({sqrt(36)},0) circle (1mm) node[above, yshift=3] {$\sqrt{36}$};
-        \end{tikzpicture}]]></latex-image></image></sidebyside></p></assemblage> 
+        \end{tikzpicture}]]></latex-image></image></sidebyside></assemblage> 
 
  <assemblage><title>Real Numbers</title>
  <idx><h>real number</h></idx>
  <p>Each point on a number line corresponds either to a rational number or an irrational number, and these numbers fill up the number line completely. The rational and irrational numbers together make up the <term>real numbers</term>, and the number line is sometimes called the <term>real line</term><idx><h>real line</h></idx><idx><h>real line</h><seealso>number line</seealso></idx>.</p></assemblage>
+</introduction>
 
- <reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="7"><statement><p>What are the rational and irrational numbers together called?</p></statement>
     	<answer><p>The real numbers</p></answer></exercise>
- </reading-questions>
+
 
  <p>It is important that you understand the distinction between an exact value and an approximation.</p>
 
@@ -163,10 +184,12 @@ is a rational number. Integers are also rational numbers, because any integer ca
 </example>
 
 <p>Of course, even though many radicals are irrational numbers, some radicals, such as <m>\sqrt{16}=4</m> and <m>\sqrt{\dfrac{9}{25}}</m>, represent integers or fractions. Integers such as 9 and 25, whose square roots are whole numbers, are called <term>perfect squares</term><idx><h>perfect square</h></idx><idx><h>square</h><h>perfect</h></idx>.</p>
+</subsubsection>
 </subsection>
 
 <subsection><title>Order of Operations</title>
 
+<introduction>
 <p>When we evaluate algebraic expressions that involve radicals, we must follow the order of operations as usual.  Square roots occupy the same position as exponents in the order of operations: They are computed after parentheses but before multiplication.</p>
 
 <example xml:id="Example-5-2-5"><statement><p>Find a decimal approximation to three decimal places for <m>8-2\sqrt{7}</m>.</p></statement>
@@ -192,15 +215,18 @@ Rounding to three decimal places gives 2.708</p></solution></example>
 <li>Compute all indicated powers and roots.</li>
 <li>Perform all multiplications and divisions in the order in which they occur from left to right.</li>
 <li>Perform additions and subtractions in order from left to right.</li></ol></p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="8"><statement><p>When do we evaluate roots in the order of operations?</p></statement>
     	<answer><p>After parentheses but before products and quotients</p></answer></exercise>
- </reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Cube Roots</title>
 <idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
+
+<introduction>
 <p>Imagine a cube whose volume is 64 cubic inches. What is the length, <m>c</m>, of one side of this cube? Because the volume of a cube is given by the formula <m>V=c^3</m>, we must find a number that satisfies
 	<me>c^3=64</me>
 We are looking for a number <m>c</m> whose cube is 64. With a little trial and error we can soon discover that <m>c=4</m>. The number <m>c</m> is called the <term>cube root</term> of 64, and is denoted by <m>\sqrt[3]{64}</m>.</p>    
@@ -219,39 +245,41 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <p>Every number has exactly one cube root. The cube root of a positive number is positive, and the cube root of a negative number is negative.</p></assemblage>
 
 <p>Just as with square roots, some cube roots are irrational numbers and some are not. Cube roots are treated the same as square roots in the order of operations.</p>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="9"><statement><p>What is the cube root of a number <m>n</m>?</p></statement>
     	<answer><p>A number whose cube is <m>n</m></p></answer></exercise>
     <exercise number="10"><statement><p>How many cube roots does a negative number have?</p></statement>
     	<answer><p>One</p></answer></exercise>
- </reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 5.2.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve the equation for <m>x</m>.</p></introduction>
 
-<exercise number="1"><statement><m>3x+5=17</m></statement></exercise>
+<exercise number="1"><statement><p><m>3x+5=17</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>3x+k=17</m></statement></exercise>
+<exercise number="2"><statement><p><m>3x+k=17</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{x}{4}-9=-4</m></statement></exercise>
+<exercise number="3"><statement><p><m>\dfrac{x}{4}-9=-4</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>\dfrac{x}{4}-m=-4</m></statement></exercise>
+<exercise number="4"><statement><p><m>\dfrac{x}{4}-m=-4</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>2x-3=4x+7</m></statement></exercise>
+<exercise number="5"><statement><p><m>2x-3=4x+7</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>2x-c=4x+7)</m></statement></exercise>
+<exercise number="6"><statement><p><m>2x-c=4x+7)</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>6x+1=3(2-x)</m></statement></exercise>
+<exercise number="7"><statement><p><m>6x+1=3(2-x)</m></p></statement></exercise>
 
-<exercise number="8"><statement><m>bx+1=3(2-x)</m></statement></exercise>
+<exercise number="8"><statement><p><m>bx+1=3(2-x)</m></p></statement></exercise>
 </exercisegroup>
 </exercises> 
 
-<subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="2">
+<solutions><title>Answers to Skills Warm-Up</title>
+<conclusion><p><ol label="1" cols="2">
     <li><m>4</m></li>
     <li><m>\dfrac{17-k}{3}</m></li>
     <li><m>20</m></li>
@@ -259,131 +287,166 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
     <li><m>-5</m></li>
     <li><m>\dfrac{-c-7}{2}</m></li>
 	<li><m>\dfrac{5}{9}</m></li>
-	<li><m>\dfrac{5}{b+3}</m></li></ol></p>
-</subsubsection>
+	<li><m>\dfrac{5}{b+3}</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Roots and Radicals</title>
-<exercises>
+<introduction>
+<activity><title>Roots and Radicals</title>
 
-<exercise><statement><p>Find two square roots for each number.<ol label="a" cols="2">
-	<li><m>225</m></li>
-	<li><m>\dfrac{4}{9}</m></li></ol></p></statement></exercise>
+<p><ol label="1">
+	<li>
+		<p>Find two square roots for each number.<ol label="a" cols="2">
+			<li><m>225</m></li>
+			<li><m>\dfrac{4}{9}</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Simplify each radical, if possible.<ol label="a" cols="2">
+			<li><m>\sqrt{64}</m></li>
+			<li><m>\sqrt{-64}</m></li>
+			<li><m>-\sqrt{64}</m></li>
+			<li><m>\pm \sqrt{-64}</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Evaluate each cube root. (Use a calculator if necessary.)<ol label="a" cols="2">
+			<li><m>\sqrt[3]{8}</m></li>
+			<li><m>\sqrt[3]{-125}</m></li>
+			<li><m>\sqrt[3]{-1}</m></li>
+			<li><m>\sqrt[3]{50}</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a" >
+			<li>If <m>~p=\sqrt{d}~</m>, then <m>~d= <fillin characters="10"/></m></li>
+			<li>If <m>~v^2=k~</m>, then <m>~v= <fillin characters="10"/></m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a" >
+			<li>Explain why the square root of a negative number is undefined.</li>
+			<li>If <m>x \gt 0</m>, explain the difference between <m>\sqrt{-x}</m>  and <m>-\sqrt{x}</m>.</li>
+			<li>Explain why you can always simplify <m>\sqrt{x}~\sqrt{x}</m>, as long as <m>x</m> is non-negative.</li>
+			<li>Explain why you can always simplify <m>\dfrac{x}{\sqrt{x}}</m>, as long as <m>x</m> is positive. </li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a" >
+			<li>Make a list of the squares of all the integers from 1 to 20. These are the first 20 perfect squares. Now make a list of square roots for these perfect squares.</li>  
+			<li>Make a list of the cubes of all the integers from 1 to 10. These are the first 10 perfect cubes. Now make a list of cube roots for these perfect cubes.  </li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<exercise><statement><p>Simplify each radical, if possible.<ol label="a" cols="2">
-	<li><m>\sqrt{64}</m></li>
-	<li><m>\sqrt{-64}</m></li>
-	<li><m>-\sqrt{64}</m></li>
-	<li><m>\pm \sqrt{-64}</m></li></ol></p></statement></exercise>
+</activity>
 
-<exercise><statement><p>Evaluate each cube root. (Use a calculator if necessary.)<ol label="a" cols="2">
-	<li><m>\sqrt[3]{8}</m></li>
-	<li><m>\sqrt[3]{-125}</m></li>
-	<li><m>\sqrt[3]{-1}</m></li>
-	<li><m>\sqrt[3]{50}</m></li></ol></p></statement></exercise>
+<activity><title> Rational Numbers</title>
 
-<exercise><statement><p><ol label="a" >
-	<li>If <m>~p=\sqrt{d}~</m>, then <m>~d= <fillin characters="10"/></m></li>
-	<li>If <m>~v^2=k~</m>, then <m>~v= <fillin characters="10"/></m></li></ol></p></statement></exercise>
+<p><ol label="1">
+	<li>
+		<p>Find the decimal form for each rational number. Does it terminate?<ol label="a" cols="2">
+			<li><m>\dfrac{2}{3}</m></li>
+			<li><m>\dfrac{5}{2}</m></li>
+			<li><m>\dfrac{13}{27}</m></li>
+			<li><m>\dfrac{962}{2000}</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Give a decimal equivalent for each radical, and identify it as rational or irrational. If necessary, round your answers to three decimal places.</p>
+		<sidebyside><tabular>             
+            <row>
+                <cell><m>\sqrt{1}= <fillin characters="15"/></m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\sqrt{6}= <fillin characters="15"/></m></cell></row>
+            <row>
+                <cell><m>\sqrt{2}= <fillin characters="15"/></m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\sqrt{7}= <fillin characters="15"/></m></cell></row>
+            <row> 
+                <cell><m>\sqrt{3}= <fillin characters="15"/></m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\sqrt{8}= <fillin characters="15"/></m></cell></row>
+            <row>
+                <cell><m>\sqrt{4}= <fillin characters="15"/></m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\sqrt{9}= <fillin characters="15"/></m></cell></row>
+            <row>
+                <cell><m>\sqrt{5}= <fillin characters="15"/></m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\sqrt{10}= <fillin characters="15"/></m></cell></row>
+        </tabular></sidebyside>
+	</li>
+	<li>
+		<p>True or False.<ol label="a" >
+			<li>If a number is irrational, it cannot be an integer.</li>
+			<li>Every real number is either rational or irrational.</li>
+			<li>Irrational numbers do not have an exact location on the number line.</li>
+			<li>We cannot find an exact decimal equivalent for an irrational number.</li>
+			<li>2.8 is only an approximation for <m>\sqrt{8}</m>;  the exact value is 2.828427125.</li>
+			<li><m>\sqrt{17}</m> appears somewhere between 16 and 18 on the number line.</li>
+		</ol></p>
+	</li>
+</ol></p>
 
-<exercise><statement><p><ol label="a" >
-	<li>Explain why the square root of a negative number is undefined.</li>
-	<li>If <m>x \gt 0</m>, explain the difference between <m>\sqrt{-x}</m>  and <m>-\sqrt{x}</m>.</li>
-	<li>Explain why you can always simplify <m>\sqrt{x}~\sqrt{x}</m>, as long as <m>x</m> is non-negative.</li>
-	<li>Explain why you can always simplify <m>\dfrac{x}{\sqrt{x}}</m>, as long as <m>x</m> is positive. </li></ol></p>
-</statement></exercise>
+</activity>
 
-<exercise><statement><p><ol label="a" >
-	<li>Make a list of the squares of all the integers from 1 to 20. These are the first 20 perfect squares. Now make a list of square roots for these perfect squares.</li>  
-	<li>Make a list of the cubes of all the integers from 1 to 10. These are the first 10 perfect cubes. Now make a list of cube roots for these perfect cubes.  </li></ol></p>
-</statement></exercise>
-</exercises>
-</subsubsection>
+<activity><title>Order of Operations</title>
 
-<subsubsection><title>Activity 2: Rational Numbers</title>
-<exercises>
-
-<exercise><statement><p>Find the decimal form for each rational number. Does it terminate?<ol label="a" cols="2">
-	<li><m>\dfrac{2}{3}</m></li>
-	<li><m>\dfrac{5}{2}</m></li>
-	<li><m>\dfrac{13}{27}</m></li>
-	<li><m>\dfrac{962}{2000}</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Give a decimal equivalent for each radical, and identify it as rational or irrational. If necessary, round your answers to three decimal places.
-	<sidebyside><tabular>             
-                    <row>
-                        <cell><m>\sqrt{1}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{6}= <fillin characters="15"/></m></cell></row>
-                    <row>
-                        <cell><m>\sqrt{2}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{7}= <fillin characters="15"/></m></cell></row>
-                    <row> 
-                        <cell><m>\sqrt{3}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{8}= <fillin characters="15"/></m></cell></row>
-                    <row>
-                        <cell><m>\sqrt{4}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{9}= <fillin characters="15"/></m></cell></row>
-                    <row>
-                        <cell><m>\sqrt{5}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{10}= <fillin characters="15"/></m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise> 
-
-<exercise><statement><p>True or False.<ol label="a" >
-	<li>If a number is irrational, it cannot be an integer.</li>
-	<li>Every real number is either rational or irrational.</li>
-	<li>Irrational numbers do not have an exact location on the number line.</li>
-	<li>We cannot find an exact decimal equivalent for an irrational number.</li>
-	<li>2.8 is only an approximation for <m>\sqrt{8}</m>;  the exact value is 2.828427125.</li>
-	<li><m>\sqrt{17}</m> appears somewhere between 16 and 18 on the number line.</li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
-
-<subsubsection><title>Activity 3: Order of Operations</title>
-
-<exercises>
-<exercise><statement><p>A radical symbol acts like parentheses to group operations. Any operations that appear under a radical should be performed before evaluating the root.<ol label="a" >
-	<li>Simplify <m>~~\sqrt{6^2-4(3)}</m></li>     
-	<li>Approximate your answer to part (a) to three decimal places.</li>
-	<li><p>Explain why the following is incorrect:
-			<md><mrow> \sqrt{6^2-4(3)} \amp = \sqrt{6^2}-\sqrt{4(3)}</mrow>
+<p><ol label="1">
+	<li>
+		<p>A radical symbol acts like parentheses to group operations. Any operations that appear under a radical should be performed before evaluating the root.
+		<ol label="a" >
+			<li>Simplify <m>~~\sqrt{6^2-4(3)}</m></li>     
+			<li>Approximate your answer to part (a) to three decimal places.</li>
+			<li><p>Explain why the following is incorrect:
+				<md><mrow> \sqrt{6^2-4(3)} \amp = \sqrt{6^2}-\sqrt{4(3)}</mrow>
 				<mrow>\amp = \sqrt{36} - \sqrt{12}</mrow>
-				<mrow>\amp \approx 6-3.464 = 2.536</mrow></md></p></li></ol></p></statement></exercise>             
+				<mrow>\amp \approx 6-3.464 = 2.536</mrow></md>
+			</p></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+			<li><p>Simplify <m>~~5-3\sqrt{16+2(-3)}</m></p></li>
+			<li>Approximate your answer to part (a) to three decimal places.</li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Evaluate <m>~~2x^2-\sqrt{9-x}~~</m> for <m>x=-3</m>.</p>
+	</li>
+</ol></p>
 
-<exercise><statement><p><ol label="a">
-	<li><p>Simplify <m>~~5-3\sqrt{16+2(-3)}</m></p></li>
-	<li>Approximate your answer to part (a) to three decimal places.</li></ol></p></statement></exercise>
-
-<exercise><statement><p>Evaluate <m>~~2x^2-\sqrt{9-x}~~</m> for <m>x=-3</m>.</p></statement></exercise>
-</exercises>
-</subsubsection>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Computing square roots and cube roots</li>
 	<li>Using radical notation</li>
 	<li>Distinguishing between rational and irrational numbers</li>
 	<li>Distinguishing between exact values and approximations</li>
 	<li>Simplifying expressions involving radicals</li>
-</ul></p></assemblage>
+</ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>  
+<ol label="1">
     <li>Explain why you don't need a calculator to evaluate <m>~\dfrac{23}{\sqrt{23}}</m>.</li>
 	<li>Explain why you cannot write down an exact decimal form for <m>\sqrt{6}</m>.</li>
-	<li>Explain why  <m>~\sqrt{3^2+4^2} \not= 3+4</m>.</li></ol></p></assemblage>
+	<li>Explain why  <m>~\sqrt{3^2+4^2} \not= 3+4</m>.</li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 
 <exercises>
 <exercise><statement><p>Simplify.<ol label="a">
@@ -407,8 +470,8 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 	<li><m>\sqrt{x}+\sqrt{y}-\sqrt(x+y)</m></li></ol></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title>
-<p> <ol label = "1">
+<solutions><title>Answers to Homework Preview</title>
+<conclusion><p><ol label = "1">
     <li><p><ol label="a" cols="3">
     	<li><m>-7</m></li>
     	<li><m>-216</m></li>
@@ -424,9 +487,9 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
     <li><p><ol label="a" cols="3">
     	<li><m>5.83</m></li>
     	<li><m>30</m></li>
-    	<li><m>1.14</m></li></ol></p></li></ol></p></subsubsection>	
+    	<li><m>1.14</m></li></ol></p></li></ol></p></conclusion>
+</solutions>	
 </subsection>
 
 <xi:include href="./hmwk-5-2.xml" />
 </section>
-

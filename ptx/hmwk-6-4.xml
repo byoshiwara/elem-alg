@@ -5,12 +5,12 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, without graphing, find the <m>x</m>-intercepts of the graph of the equation.</p></introduction>
 
-<exercise number="1"><statement><m>y=(x-3)(2x+5)</m></statement>
+<exercise number="1"><statement><p><m>y=(x-3)(2x+5)</m></p></statement>
 <answer><p><m>\left(\dfrac{-5}{2},0 \right) </m>, <m>~(3,0) </m></p></answer></exercise>
 
-<exercise number="2"><statement><m>y=2x^2-6x</m></statement></exercise>
+<exercise number="2"><statement><p><m>y=2x^2-6x</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>y=8x-3x^2</m></statement>
+<exercise number="3"><statement><p><m>y=8x-3x^2</m></p></statement>
 <answer><p><m>\left(\dfrac{8}{3},0 \right) </m>, <m>~(0,0) </m></p></answer></exercise>
 </exercisegroup>
 
@@ -371,8 +371,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
-    <li><p>Sketch a graph of the equation on the grid.
-    <sidebyside width="45%"><!--<image source="images/hp-6-4-15.png"><description>grid</description></image>-->
+    <li><p>Sketch a graph of the equation on the grid.</p>
+    <sidebyside width="45%">
     <image xml:id="hp-6-4-15">
         <description>grid</description>
         <latex-image>
@@ -395,7 +395,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></li>
+    </sidebyside></li>
     <li>Use the graph to estimate the height of the rock after 1.75 seconds. Verify your answer algebraically by substituting <m>t=1.75</m> into the equation for <m>h</m>.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><sidebyside width="45%" margins="0% 55%">

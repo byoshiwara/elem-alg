@@ -7,7 +7,7 @@
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the line.</li>
     <li>Use the intercept method to graph the line.</li></ol></p></introduction>
 
-<exercise number="1"><statement><m>2x+4y=8</m>
+<exercise number="1"><statement><p><m>2x+4y=8</m></p>
     <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement>
 <answer><p><ol label="a">
@@ -39,11 +39,11 @@
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><m>x+2y+10=0</m>
+<exercise number="2"><statement><p><m>x+2y+10=0</m></p>
     <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
-<exercise number="3"><statement><m>2x=14+7y</m>
+<exercise number="3"><statement><p><m>2x=14+7y</m></p>
     <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement>
 <answer><p><ol label="a">
@@ -75,12 +75,12 @@
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><m>y=-4x+8</m>
+<exercise number="4"><statement><p><m>y=-4x+8</m></p>
     <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
-<exercise number="5"><statement><m>\dfrac{x}{20}+\dfrac{y}{30}=1</m>
-    <sidebyside width="95%"><!--<image source="images/hp-3-1-5.png"><description>grid</description></image>-->
+<exercise number="5"><statement><p><m>\dfrac{x}{20}+\dfrac{y}{30}=1</m></p>
+    <sidebyside width="95%">
     <image xml:id="hp-3-1-5">
         <description>50 by 50 grid</description>
         <latex-image>
@@ -132,8 +132,8 @@
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="6"><statement><m>3x-2y=120</m>
-    <sidebyside width="95%"><!--<image source="images/hp-3-1-6.png"><description>grid</description></image>-->
+<exercise number="6"><statement><p><m>3x-2y=120</m></p>
+    <sidebyside width="95%">
     <image xml:id="hp-3-1-6">
         <description>100 by 100 grid</description>
         <latex-image>
@@ -159,7 +159,7 @@
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 7<ndash/>12, match each equation with its graph. (More than one equation may describe the same graph.)</p>
-<sidebyside widths="32% 32% 32%" margins="0% 0%"><!--<image source="images/hp-3-1-7.png"><description>graphs</description></image>-->
+<sidebyside widths="32% 32% 32%" margins="0% 0%">
     <image xml:id="p-3-1-7a">
         <description>line</description>
         <latex-image>
@@ -227,7 +227,7 @@
     </latex-image>
     </image>
 </sidebyside>
-<sidebyside widths="32% 32% 32%" margins="0% 0%"><!--<image source="images/hp-3-1-7.png"><description>graphs</description></image>-->
+<sidebyside widths="32% 32% 32%" margins="0% 0%">
     <image xml:id="p-3-1-7d">
         <description>line</description>
         <latex-image>
@@ -296,20 +296,20 @@
     </image>
 </sidebyside></introduction>
 
-<exercise number="7"><statement><m>2x+3y=12</m></statement>
+<exercise number="7"><statement><p><m>2x+3y=12</m></p></statement>
 <answer><p>d</p></answer></exercise>
 
-<exercise number="8"><statement><m>2x-3y=12</m></statement></exercise>
+<exercise number="8"><statement><p><m>2x-3y=12</m></p></statement></exercise>
 
-<exercise number="9"><statement><m>3x-2y=12</m></statement>
+<exercise number="9"><statement><p><m>3x-2y=12</m></p></statement>
 <answer><p>c</p></answer></exercise>
 
-<exercise number="10"><statement><m>-3x-2y=12</m></statement></exercise>
+<exercise number="10"><statement><p><m>-3x-2y=12</m></p></statement></exercise>
 
-<exercise number="11"><statement><m>\dfrac{x}{6}-\dfrac{y}{4}=1</m></statement>
+<exercise number="11"><statement><p><m>\dfrac{x}{6}-\dfrac{y}{4}=1</m></p></statement>
 <answer><p>a</p></answer></exercise>
 
-<exercise number="12"><statement><m>\dfrac{x}{4}-\dfrac{y}{6}=1</m></statement></exercise>
+<exercise number="12"><statement><p><m>\dfrac{x}{4}-\dfrac{y}{6}=1</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>18, solve each pair of equations. In part (b) of each problem, your answer will involve the constant <m>k</m>.</p></introduction>
@@ -351,8 +351,8 @@
 	<li><m>9+kx=-1</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="19"><statement><p>During spring break, Francine took the train to San Francisco and then bicycled home.  The graph below left shows Francine's distance <m>d</m> from home, in miles, after cycling for <m>h</m> hours. Use the graph to answer the questions.
-	<sidebyside width="40%"><!--<image source="images/hp-3-1-19.png"><description>graph</description></image>-->
+<exercise number="19"><statement><p>During spring break, Francine took the train to San Francisco and then bicycled home.  The graph below left shows Francine's distance <m>d</m> from home, in miles, after cycling for <m>h</m> hours. Use the graph to answer the questions.</p>
+	<sidebyside width="40%">
     <image xml:id="hp-3-1-19">
         <description>graph of line</description>
         <latex-image>
@@ -377,7 +377,7 @@
     </latex-image>
     </image>
 	</sidebyside>
-<ol label="a">
+<p><ol label="a">
 	<li>How far is it from San Francisco to Francine's home?</li>
 	<li>How many hours did Francine cycle to get home?</li>
 	<li>After cycling for 12 hours, how far is Francine from home?</li>

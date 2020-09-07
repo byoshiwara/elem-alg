@@ -441,13 +441,13 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <exercises>
 <exercisegroup ><introduction><p>Mental exercise: Find the other factor of each quadratic trinomial without using pencil, paper, or calculator.</p></introduction>
 
-<exercise number="1"><statement><m>b^2+8b-240 = (b-12)(<fillin characters="6"/>)</m></statement></exercise>
+<exercise number="1"><statement><p><m>b^2+8b-240 = (b-12)(<fillin characters="6"/>)</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>n^2-97n-300 = (n-100)(<fillin characters="6"/>)</m></statement></exercise>
+<exercise number="2"><statement><p><m>n^2-97n-300 = (n-100)(<fillin characters="6"/>)</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>3u^2-17u-6 = (u-6)(<fillin characters="6"/>)</m></statement></exercise>
+<exercise number="3"><statement><p><m>3u^2-17u-6 = (u-6)(<fillin characters="6"/>)</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>2t^2-21t+54 = (t-6)(<fillin characters="6"/>)</m></statement></exercise>
+<exercise number="4"><statement><p><m>2t^2-21t+54 = (t-6)(<fillin characters="6"/>)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Use the given areas to find the length and width of each rectangle.</p></introduction>
@@ -620,9 +620,9 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 
 <exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Factor using the box method.</p></introduction>
 
-<exercise><statement><m>2x^2-x-36</m></statement></exercise>
+<exercise><statement><p><m>2x^2-x-36</m></p></statement></exercise>
 
-<exercise><statement><m>4t^2-21t-18</m></statement></exercise>
+<exercise><statement><p><m>4t^2-21t-18</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 

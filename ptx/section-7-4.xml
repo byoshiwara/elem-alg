@@ -159,17 +159,17 @@ Thus,
 <exercises>
 <exercisegroup cols="3"><introduction><p>Express each product as a polynomial.</p></introduction>
 
-<exercise number="1"><statement><m>(z-3)^2</m></statement></exercise>
+<exercise number="1"><statement><p><m>(z-3)^2</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>(x+4)^2</m></statement></exercise>
+<exercise number="2"><statement><p><m>(x+4)^2</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>(3a+5)^2</m></statement></exercise>
+<exercise number="3"><statement><p><m>(3a+5)^2</m></p></statement></exercise>
 
-<exercise number="4"><statement><m>(2b-7)^2</m></statement></exercise>
+<exercise number="4"><statement><p><m>(2b-7)^2</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>(2n-5)(2n+5)</m></statement></exercise>
+<exercise number="5"><statement><p><m>(2n-5)(2n+5)</m></p></statement></exercise>
 
-<exercise number="6"><statement><m>(4m+9)(4m-9)</m></statement></exercise>
+<exercise number="6"><statement><p><m>(4m+9)(4m-9)</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 

@@ -122,72 +122,72 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>10, reduce the fraction if possible.</p></introduction>
 
-<exercise number="3"><statement><m>\dfrac{a+3}{b+3}</m></statement>
+<exercise number="3"><statement><p><m>\dfrac{a+3}{b+3}</m></p></statement>
 <answer><p>Cannot be reduced</p></answer></exercise>
 
-<exercise number="4"><statement><m>\dfrac{5x+7}{5x}</m></statement></exercise>
+<exercise number="4"><statement><p><m>\dfrac{5x+7}{5x}</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>\dfrac{10+2y}{2y}</m></statement>
+<exercise number="5"><statement><p><m>\dfrac{10+2y}{2y}</m></p></statement>
 <answer><p><m>\dfrac{5+y}{y} </m></p></answer></exercise>
 
-<exercise number="6"><statement><m>\dfrac{3x^2-1}{1-3x^2}</m></statement></exercise>
+<exercise number="6"><statement><p><m>\dfrac{3x^2-1}{1-3x^2}</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>\dfrac{v-2}{v^2-4}</m></statement>
+<exercise number="7"><statement><p><m>\dfrac{v-2}{v^2-4}</m></p></statement>
 <answer><p><m>\dfrac{1}{v+2} </m></p></answer></exercise>
 
-<exercise number="8"><statement><m>\dfrac{q^5-q^4}{q^4}</m></statement></exercise>
+<exercise number="8"><statement><p><m>\dfrac{q^5-q^4}{q^4}</m></p></statement></exercise>
 
-<exercise number="9"><statement><m>\dfrac{-3x}{6x^2+9x}</m></statement>
+<exercise number="9"><statement><p><m>\dfrac{-3x}{6x^2+9x}</m></p></statement>
 <answer><p><m>\dfrac{-1}{2x+3} </m></p></answer></exercise>
 
-<exercise number="10"><statement><m>\dfrac{x^2+5x+6}{x^2-4}</m></statement></exercise>
+<exercise number="10"><statement><p><m>\dfrac{x^2+5x+6}{x^2-4}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>16, <ol label="a">
     <li>add the fractions,</li>
     <li>multiply the fractions.</li></ol></p></introduction>
 
-<exercise number="11"><statement><m>\dfrac{3}{8},~\dfrac{5}{12}</m></statement>
+<exercise number="11"><statement><p><m>\dfrac{3}{8},~\dfrac{5}{12}</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>\dfrac{19}{24} </m></p></li>
     <li><p><m>\dfrac{5}{32} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><m>\dfrac{2}{x},~\dfrac{1}{x+2}</m></statement></exercise>
+<exercise number="12"><statement><p><m>\dfrac{2}{x},~\dfrac{1}{x+2}</m></p></statement></exercise>
 
-<exercise number="13"><statement><m>\dfrac{3x}{2x+2},~\dfrac{x+1}{6x}</m></statement>
+<exercise number="13"><statement><p><m>\dfrac{3x}{2x+2},~\dfrac{x+1}{6x}</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>\dfrac{10x^2+2x+1}{6x(x+1)} </m></p></li>
     <li><p><m>\dfrac{1}{4} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><m>\dfrac{x+1}{x-1},~\dfrac{1}{x^2-1}</m></statement></exercise>
+<exercise number="14"><statement><p><m>\dfrac{x+1}{x-1},~\dfrac{1}{x^2-1}</m></p></statement></exercise>
 
-<exercise number="15"><statement><m>2,~\dfrac{1}{x}</m></statement>
+<exercise number="15"><statement><p><m>2,~\dfrac{1}{x}</m></p></statement>
 <answer><p><ol label="a">
     <li><p><m>\dfrac{2x+1}{x} </m></p></li>
     <li><p><m>\dfrac{2}{x} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><m>x,~\dfrac{1}{x+2}</m></statement></exercise>
+<exercise number="16"><statement><p><m>x,~\dfrac{1}{x+2}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>22,  write the expression as a single fraction in lowest terms.</p></introduction>
 
-<exercise number="17"><statement><m>\dfrac{4c^2d}{3}\div(6cd^2)</m></statement>
+<exercise number="17"><statement><p><m>\dfrac{4c^2d}{3}\div(6cd^2)</m></p></statement>
 <answer><p><m>\dfrac{2c}{9d} </m></p></answer></exercise>
 
-<exercise number="18"><statement><m>\dfrac{u^2-2uv}{uv} \div \dfrac{3u-6v}{2uv}</m></statement></exercise>
+<exercise number="18"><statement><p><m>\dfrac{u^2-2uv}{uv} \div \dfrac{3u-6v}{2uv}</m></p></statement></exercise>
 
-<exercise number="19"><statement><m>\dfrac{2m^2-m-1}{m+1}-\dfrac{m^2-m}{m+1}</m></statement>
+<exercise number="19"><statement><p><m>\dfrac{2m^2-m-1}{m+1}-\dfrac{m^2-m}{m+1}</m></p></statement>
 <answer><p><m>m-1 </m></p></answer></exercise>
 
-<exercise number="20"><statement><m>\dfrac{3}{2p}+\dfrac{7}{6p^2}</m></statement></exercise>
+<exercise number="20"><statement><p><m>\dfrac{3}{2p}+\dfrac{7}{6p^2}</m></p></statement></exercise>
 
-<exercise number="21"><statement><m>\dfrac{5q}{q-3}-\dfrac{7}{q}+3</m></statement>
+<exercise number="21"><statement><p><m>\dfrac{5q}{q-3}-\dfrac{7}{q}+3</m></p></statement>
 <answer><p><m>\dfrac{8q^2-16q+21}{q(q-3)} </m></p></answer></exercise>
 
-<exercise number="22"><statement><m>\dfrac{2w}{w^2-4}+\dfrac{4}{w^2+4w+4}</m></statement></exercise>
+<exercise number="22"><statement><p><m>\dfrac{2w}{w^2-4}+\dfrac{4}{w^2+4w+4}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="23"><statement><p>On Saturday mornings, Olive takes her motorboat 5 miles upstream to the general store for supplies and then returns home. The current in the river is 2 miles per hour. Let <m>x</m> represent Olive's speed in still water, and write algebraic fractions to answer each question.<ol label="a">
@@ -208,15 +208,15 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>28, solve the equation.</p></introduction>
 
-<exercise number="25"><statement><m>q-\dfrac{16}{q}=6</m></statement>
+<exercise number="25"><statement><p><m>q-\dfrac{16}{q}=6</m></p></statement>
 <answer><p><m>-2, ~8</m></p></answer></exercise>
 
-<exercise number="26"><statement><m>\dfrac{2-x}{5x} =\dfrac{4}{15x}-\dfrac{1}{6}</m></statement></exercise>
+<exercise number="26"><statement><p><m>\dfrac{2-x}{5x} =\dfrac{4}{15x}-\dfrac{1}{6}</m></p></statement></exercise>
 
-<exercise number="27"><statement><m>\dfrac{9}{m+2}+\dfrac{2}{m}=2</m></statement>
+<exercise number="27"><statement><p><m>\dfrac{9}{m+2}+\dfrac{2}{m}=2</m></p></statement>
 <answer><p><m>\dfrac{-1}{2}, ~4 </m></p></answer></exercise>
 
-<exercise number="28"><statement><m>\dfrac{15}{x^2-3x}+\dfrac{4}{x}=\dfrac{5}{x-3}</m></statement></exercise>
+<exercise number="28"><statement><p><m>\dfrac{15}{x^2-3x}+\dfrac{4}{x}=\dfrac{5}{x-3}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>30, solve solve for the indicated variable.</p>

@@ -27,20 +27,20 @@
 <exercisegroup cols="2"><introduction><p>For Problems 4<ndash/>9, give a decimal approximation rounded to thousandths.
 </p></introduction>
 
-<exercise number="4"><statement><m>5\sqrt{3}</m></statement></exercise>
+<exercise number="4"><statement><p><m>5\sqrt{3}</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>\dfrac{-2}{3}\sqrt{21}</m></statement>
-<answer><m>-3.055</m></answer></exercise>
+<exercise number="5"><statement><p><m>\dfrac{-2}{3}\sqrt{21}</m></p></statement>
+<answer><p><m>-3.055</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>-3+2\sqrt{6}</m></statement></exercise>
+<exercise number="6"><statement><p><m>-3+2\sqrt{6}</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>2+6\sqrt[3]{-25}</m></statement>
-<answer><m>-15.544</m></answer></exercise>
+<exercise number="7"><statement><p><m>2+6\sqrt[3]{-25}</m></p></statement>
+<answer><p><m>-15.544</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>\dfrac{8-2\sqrt{2}}{4}</m></statement></exercise>
+<exercise number="8"><statement><p><m>\dfrac{8-2\sqrt{2}}{4}</m></p></statement></exercise>
 
-<exercise number="9"><statement><m>3\sqrt{3}-3\sqrt{5}</m></statement>
-<answer><m>-1.512</m></answer></exercise>
+<exercise number="9"><statement><p><m>3\sqrt{3}-3\sqrt{5}</m></p></statement>
+<answer><p><m>-1.512</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 10<ndash/>12, choose the best approximation. Do not use a calculator!
@@ -116,21 +116,21 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, put each set of numbers in order from smallest to largest.Try not to use a calculator.</p></introduction>
 
-<exercise number="19"><statement><m>\dfrac{5}{4},~ 2, ~\sqrt{8},~ 2.3</m></statement>
-<answer><m>\dfrac{5}{4},~ 2,~ 2.3,~ \sqrt{8}</m></answer></exercise>
+<exercise number="19"><statement><p><m>\dfrac{5}{4},~ 2, ~\sqrt{8},~ 2.3</m></p></statement>
+<answer><p><m>\dfrac{5}{4},~ 2,~ 2.3,~ \sqrt{8}</m></p></answer></exercise>
 
-<exercise number="20"><statement><m>2\sqrt{3},~ 3,~ \dfrac{23}{6},~ \sqrt{6}</m></statement></exercise>
+<exercise number="20"><statement><p><m>2\sqrt{3},~ 3,~ \dfrac{23}{6},~ \sqrt{6}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>23, evaluate the expression for the given values of <m>x</m>. Round your answers to three decimal places if necessary.</p></introduction>
 
-<exercise number="21"><statement><m>\sqrt{x^2-4}~~~~~~~~x=3, \sqrt{5}, -2</m></statement>
-<answer><m>\sqrt{5} \approx 2.236,~1,~0</m></answer></exercise>
+<exercise number="21"><statement><p><m>\sqrt{x^2-4}~~~~~~~~x=3, \sqrt{5}, -2</m></p></statement>
+<answer><p><m>\sqrt{5} \approx 2.236,~1,~0</m></p></answer></exercise>
 
-<exercise number="22"><statement><m>\sqrt{x}-\sqrt{x-3}~~~~~~~~x=1, 4, 100</m></statement></exercise>
+<exercise number="22"><statement><p><m>\sqrt{x}-\sqrt{x-3}~~~~~~~~x=1, 4, 100</m></p></statement></exercise>
 
-<exercise number="23"><statement><m>2x^2-4x~~~~~~~~x=-3, \sqrt{2}, \dfrac{1}{4}</m></statement>
-<answer><m>30,~4-4\sqrt{2} \approx -1.657,~\dfrac{-7}{8}</m></answer></exercise>
+<exercise number="23"><statement><p><m>2x^2-4x~~~~~~~~x=-3, \sqrt{2}, \dfrac{1}{4}</m></p></statement>
+<answer><p><m>30,~4-4\sqrt{2} \approx -1.657,~\dfrac{-7}{8}</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="24"><statement><p>The distance <m>m</m> in miles that you can see on a clear day from a height of <m>h</m> miles is given by the formula  
@@ -145,7 +145,7 @@
 <exercise number="26"><statement><p>What is a rational number? An irrational number? Give examples of each.</p></statement></exercise>
 
 <exercise number="27"><statement><p>Give three examples of square roots that represent rational numbers, and three that are irrational.</p></statement>
-<answer><m>\sqrt{4},~\sqrt{9},~\sqrt{64};~\sqrt{2},~\sqrt{6},~\sqrt{11}</m></answer></exercise>
+<answer><p><m>\sqrt{4},~\sqrt{9},~\sqrt{64};~\sqrt{2},~\sqrt{6},~\sqrt{11}</m></p></answer></exercise>
 
 <exercise number="28"><statement><p>Identify each number as rational or irrational.<ol label="a" cols="3">
 <li><m>\sqrt{6}</m></li>
@@ -157,7 +157,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>32, decide whether the two expressions are equivalent by completing the table.</p></introduction>
 
-<exercise number="29"><statement><p>Does  <m>~(a+b)^2=a^2+b^2~</m>?
+<exercise number="29"><statement><p>Does  <m>~(a+b)^2=a^2+b^2~</m>?</p>
 <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>a</m></cell>
@@ -199,10 +199,10 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></sidebyside></p></statement>
+                </tabular></sidebyside></statement>
 <answer><p>No</p></answer></exercise>
 
-<exercise number="30"><statement><p>Does  <m>~\sqrt{a^2+b^2}=a+b~</m>?
+<exercise number="30"><statement><p>Does  <m>~\sqrt{a^2+b^2}=a+b~</m>?</p>
 <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>a</m></cell>
@@ -244,9 +244,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></sidebyside></p></statement></exercise>
+                </tabular></sidebyside></statement></exercise>
 
-<exercise number="31"><statement><p>Does  <m>~\sqrt{a+b}=\sqrt{a}+\sqrt{b}~</m>?
+<exercise number="31"><statement><p>Does  <m>~\sqrt{a+b}=\sqrt{a}+\sqrt{b}~</m>?</p>
 <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>a</m></cell>
@@ -288,10 +288,10 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></sidebyside></p></statement>
+                </tabular></sidebyside></statement>
 <answer><p>No</p></answer></exercise>
 
-<exercise number="32"><statement><p>Does  <m>(\sqrt{a}+\sqrt{b})^2=a+b~</m>?
+<exercise number="32"><statement><p>Does  <m>(\sqrt{a}+\sqrt{b})^2=a+b~</m>?</p>
 <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>a</m></cell>
@@ -333,7 +333,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></sidebyside></p></statement></exercise>
+                </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 
 </exercises>
