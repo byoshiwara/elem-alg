@@ -126,9 +126,9 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 
 
 <p>Scientific calculators usually have a key labeled <m>\boxed{~x^y~}</m> or <m>\boxed{~y^x~}</m>, called the power key, for computing powers. To compute <m>7^4</m> using the power key, we enter
-	<me>7~~\boxed{~y^x~}~~4~~\boxed{~=~}</me>
-Graphing calculators have a caret key, <m>\boxed{~\text{^}~}</m>, for entering powers. On a graphing calculator, we enter <m>7^4</m> as
-	<me>7~~\boxed{~\text{^}~}~~4~~\boxed{\text{ENTER}}</me>
+    <me>7~~\boxed{~y^x~}~~4~~\boxed{~=~}</me>
+Graphing calculators have a caret key, <m>\boxed{~\^~}</m>, for entering powers. On a graphing calculator, we enter <m>7^4</m> as
+    <me>7~~\boxed{~\^~}~~4~~\boxed{\text{ENTER}}</me>
 Also, many calculators have a key labeled <m>\boxed{~x^2~}</m> for computing squares of numbers.</p>
 
 <example><statement><p>Use a calculator to compute the powers.<ol label="a" cols="2">
@@ -137,12 +137,12 @@ Also, many calculators have a key labeled <m>\boxed{~x^2~}</m> for computing squ
 
 <solution><p><ol label="a">
 	<li>We enter the following key strokes:
-		<me>1.2~~\boxed{~y^x~}~~3~~\boxed{~=~}~~~~\text{or}~~~~ 1.2~~\boxed{~\text{^}~}~~3~~\boxed{\text{ENTER}}</me> 
+		<me>1.2~~\boxed{~y^x~}~~3~~\boxed{~=~}~~~~\text{or}~~~~ 1.2~~\boxed{~\^~}~~3~~\boxed{\text{ENTER}}</me> 
 	to find that <m>(1.2)^3=1.728</m>.</li>
 	<li>If your calculator has a <m>\boxed{~+/-~}</m> key, you can enter
 		<me>12~~\boxed{~+/-~}~~\boxed{~y^x~}~~4~~\boxed{~=~}</me>
 	to find that <m>(-12)^4=20,736</m>.  On a graphing calculator, we enter
-	<me>\boxed{~(~}~~\boxed{~-~}~~12~~\boxed{~)~}~~\boxed{~\text{^}~}~~4</me></li></ol></p></solution></example>
+	<me>\boxed{~(~}~~\boxed{~-~}~~12~~\boxed{~)~}~~\boxed{~\^~}~~4</me></li></ol></p></solution></example>
 
 <warning><p>When using a calculator to compute a power of a negative number, we must remember to enclose the number in parentheses. For example, which sequence will calculate the square of <m>-3</m>?
 	<md><mrow>\boxed{~-~}~~3~~\boxed{~x^2~}~=~-9 \amp \amp \blert{\text{Exponent applies only to 3.}}</mrow>

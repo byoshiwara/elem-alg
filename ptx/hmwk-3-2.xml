@@ -176,9 +176,9 @@
 </sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>w=7.5h</m></p></li>
-    <li><sidebyside width="45^" margins="0% 55%">
+    <li><sidebyside width="45%" margins="0% 55%">
     <image xml:id="hp-3-2-23ans">
-        <description>triangle</description>
+        <description>line through origin</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

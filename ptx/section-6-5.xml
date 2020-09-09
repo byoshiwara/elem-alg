@@ -120,7 +120,6 @@ These values are very close to our estimates from the graph.</p></solution></exa
 	<me>y=x^2-4x+5</me>
 has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, we can use the quadratic formula to solve the equation
 	<me>x^2-4x+5=0</me></p>
-<!--<image source="images/fig-6-5-2.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-5-2"><description>parabola with no x-intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

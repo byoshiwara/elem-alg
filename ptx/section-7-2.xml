@@ -8,6 +8,7 @@
 <subsection><title>Products of Powers</title>
 <idx><h>product</h><h>of polynomials</h></idx>
 
+<introduction>
 <p>Suppose we would like to multiply two powers together. For instance, consider the product <m>(x^3)(x^4)</m>,  which can be written as
 	<me>(x^3)(x^4)=xxx \cdot xxxx = x^7</me>
 because <m>x</m> occurs as a factor 7 times. We see that the number of <m>x</m>'s in the product is the sum of the number of <m>x</m>'s in each factor.</p>
@@ -28,20 +29,22 @@ These observations illustrate the following rule.</p>
 <warning><p>Each product below is <m>\alert{\text{incorrect}}.</m>
 	<md><mrow> 3^4 \cdot 3^3 \amp \rightarrow 9^7  \amp \amp \blert{\text{The base does not change.The correct product is}~3^7.}</mrow> 
 		<mrow> t^3 \cdot t^5 \amp \rightarrow t^{15}  \amp \amp \blert{\text{We add the exponents.The correct product is}~t^8.}</mrow></md></p></warning>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p><ol label="a">
     	<li>How do we simplify the product of two powers with the same base?</li>
 		<li>How do we simplify the product of two powers with different bases?</li></ol></p></statement>
     <answer><p><ol label="a">
     	<li>We add the exponents and leave the base unchanged.</li>
     	<li>We cannot simplify the product.</li></ol></p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Products of Monomials</title>
 <idx><h>product</h><h>of monomials</h></idx>
 
+<introduction>
 <p>We can use the first law of exponents to multiply two monomials together.</p>
 
 <example><statement><p>Multiply  <m>~~(2x^2y)(5x^4y^3)</m></p></statement>
@@ -50,16 +53,19 @@ These observations illustrate the following rule.</p>
 	<me>(2x^2y)(5x^4y^3) = (2)(5)~x^2x^4~yy^3</me>
  We multiply the coefficients together, and use the first law of exponents to find the products of the variable factors.                               
  <me>(2)(5)~x^2x^4~yy^3 = 10x^6y^4</me></p></solution></example>
+</introduction>
 
- <reading-questions>
+ <subsubsection><title>Reading Questions</title>
     <exercise number="2"><statement><p>Which law of algebra allows us to rearrange the factors in a product?
 </p></statement>
     <answer><p>The associative law</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Multiplying by a Monomial</title>
 <idx><h>multiplying</h><h>by a monomial</h></idx>
+
+<introduction>
 <p>To multiply a polynomial by a monomial, we use the distributive law.</p>
 
 <example><statement><p>Multiply  <m>~~-3xy^2(4x^2-2xy+2)</m></p></statement>
@@ -69,12 +75,13 @@ These observations illustrate the following rule.</p>
 		<mrow>\amp = -3 \cdot 4 \cdot x \cdot x^2 \cdot y^2 -3(-2) \cdot x \cdot x \cdot y^2 \cdot y-3 \cdot 2 \cdot xy^2</mrow>
 		<mrow> \amp = -12x^3y^2+6x^2y^3-6xy^2</mrow></md> 
 To simplify each term, we group together the coefficients and powers with the same base.</p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>Which algebraic law do we use when we multiply a polynomial by a monomial?
 </p></statement>
     <answer><p>The distributive law</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Products of Polynomials</title>
@@ -82,6 +89,7 @@ To simplify each term, we group together the coefficients and powers with the sa
 <idx><h>multiplying</h><h>polynomials</h></idx>
 <idx><h>polynomial</h><h>multiplying</h></idx>
 
+<introduction>
 <p>In Chapter 5 we found the product of two binomials using the "FOIL" method, a special case of the distributive law. We can also use the distributive law to help us compute products of two or more polynomials.</p>  
 
 <example xml:id="Example-7-2-4"><statement><p>Multiply  <m>~~(2x-1)(3x^2-x+2)</m></p></statement>
@@ -90,11 +98,12 @@ To simplify each term, we group together the coefficients and powers with the sa
 	<md><mrow>(\blert{2x}\alert{-1})(3x^2-x+2) \amp = \blert{2x}(3x^2)+\blert{2x}(-x)+\blert{2x}(2)\alert{-1}(3x^2)\alert{-1}(-x)\alert{-1}(2)</mrow>
 		<mrow> \amp = 6x^3-2x^2+4x-3x^2+x-2 ~~~~~~ \blert{\text{Combine like terms.}}</mrow>
 		<mrow> \amp = 6x^3-5x^2+5x-2</mrow></md></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Question</title>
     <exercise number="4"><statement><p>How many terms are there in the product of two trinomials?</p></statement>
     <answer><p>Nine</p></answer></exercise>
-</reading-questions>
+
 
 <assemblage><title>Look Closer</title>
 <p>If a product contains both polynomial and monomial factors, it is a good idea to multiply the polynomial factors together first, and save the monomial factor for last.</p></assemblage>
@@ -106,12 +115,13 @@ To simplify each term, we group together the coefficients and powers with the sa
 		<mrow> \amp = 2x(3x^2+x-10)</mrow></md> 
 Next we use the distributive law to multiply the result by <m>2x</m>.
 	<me>2x(3x^2+x-10) = 6x^3+2x^2-20x</me></p></solution></example>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Question</title>
     <exercise number="5"><statement><p>To compute the product <m>3a(a+6)(4a-1)</m>, which factors should we 
 	multiply first?</p></statement>
     <answer><p>The binomial factors</p></answer></exercise>
-</reading-questions>
+
 
 <p>In a product of three or more polynomials, we start by multiplying together any two of the three factors.</p>
 
@@ -123,9 +133,11 @@ Next we use the distributive law to multiply the result by <m>2x</m>.
 Now we use the distributive law to multiply each term of the trinomial by each term of the binomial, as shown in <xref ref="Example-7-2-4" text="type-global"/>. 
 	<md><mrow>(3a-1)(2a^2+a-6) \amp = 6a^3+3a^2-18a-2a^2-a+6~~~~ \blert{\text{Combine like terms.}}</mrow>
 		<mrow> \amp = 6a^3+a^2-19a+6</mrow></md></p></solution></example>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 7.2.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Simplify.</p></introduction>
 
@@ -144,60 +156,75 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="4">
+<solutions><title>Answers to Skills Warm-Up</title><conclusion><p><ol label="1" cols="4">
 	<li><m>4^2-3b-12</m></li>
 	<li><m>4x^2+6</m></li>
 	<li><m>-6x^2+27x+6</m></li>
 	<li><m>3a-8</m></li>
 	<li><m>-8t^2+12t-4</m></li>
-	<li><m>-30w^2+25w+30</m></li></ol></p></subsubsection>
+	<li><m>-30w^2+25w+30</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Products of Monomials</title>
-<exercises>
+<introduction>
+<activity><title>Products of Monomials</title>
+<p><ol>
+	<li>
+		<p>Use the first law of exponents to find each product.<ol label="a" cols="3">
+			<li><m>k^2 \cdot k^8</m></li>
+			<li><m>y^3(y^3)</m></li>
+			<li><m>a^4 \cdot a^9</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Multiply.<ol label="a" cols="2">
+			<li><m>2x^2y(-3x^2y^2)</m></li>
+			<li><m>-3a^4b(-4a^3b)</m></li>
+		</ol></p>
+	</li>
+</ol></p>
+</activity>
 
-<exercise><statement><p>Use the first law of exponents to find each product.<ol label="a" cols="3">
-	<li><m>k^2 \cdot k^8</m></li>
-	<li><m>y^3(y^3)</m></li>
-	<li><m>a^4 \cdot a^9</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Multiply.<ol label="a" cols="2">
-	<li><m>2x^2y(-3x^2y^2)</m></li>
-	<li><m>-3a^4b(-4a^3b)</m></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
-
-<subsubsection><title>Activity 1: Products of Polynomials</title>
-<exercises>
-
-<exercise><statement><p>Multiply <m>~(3x+2)(3x^2+4x-2)</m></p></statement></exercise>
-
-<exercise><statement><p>Multiply <m>~s^2t^2(2s+1)(3s-1)</m></p></statement></exercise>
-
-<exercise><statement><p>Multiply <m>~(x+2)(3x-2)(2x-1)</m></p></statement></exercise>
-</exercises>
-</subsubsection>
+<activity><title>Products of Polynomials</title>
+<p><ol label="1">
+	<li>
+		<p>Multiply <m>~(3x+2)(3x^2+4x-2)</m></p>
+	</li>
+	<li>
+		<p>Multiply <m>~s^2t^2(2s+1)(3s-1)</m></p>
+	</li>
+	<li>
+		<p>Multiply <m>~(x+2)(3x-2)(2x-1)</m></p>
+	</li>
+</ol></p>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Applying the first law of exponents</li>
 	<li>Multiplying a polynomial by a monomial</li>
-	<li>Computing the product of two or more polynomials</li></ul></p></assemblage>
+	<li>Computing the product of two or more polynomials</li></ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes> 
+<ol label="1">
     <li>What is wrong with the statement <m>5^7 \cdot 5^8 = 25^{15}</m> ?</li>
 	<li>What is the difference between the expressions <m>6x^4)(-2x^4)</m> and <m>6x^4-2x^4</m> ?</li> 
 	<li>In Activity 2 Problem 2, which of the three factors did you multiply together first?</li>
-	<li>In Activity 2 Problem 3, which of the three factors did you multiply together first?</li></ol></p></assemblage>
+	<li>In Activity 2 Problem 3, which of the three factors did you multiply together first?</li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 <exercises>
 
 <exercisegroup><introduction><p>Simplify.</p></introduction>
@@ -219,14 +246,15 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title>
+<solutions><title>Answers to Homework Preview</title><conclusion>
 <p><ol label = "1">
 	<li><m>3b^2-3b^3</m></li>
 	<li><m>b^2-3b^3</m></li>
 	<li><m>4b^5-8b^4</m></li>
 	<li><m>-18x^2y^3-12x^3y^2+30x^2y^2</m></li>
 	<li><m>6z^3-10z^2t-24zt^2+40t^3</m></li>
-	<li><m>-12x^5+46x^4-14x^3</m></li></ol></p></subsubsection>
+	<li><m>-12x^5+46x^4-14x^3</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <xi:include href="./hmwk-7-2.xml" />

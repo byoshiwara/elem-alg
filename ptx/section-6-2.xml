@@ -15,7 +15,7 @@
 <p>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</p></assemblage>
 
 <p>For example, if a snack bar sells 30 sandwiches at $4.25 each, their revenue from sandwiches is 
-	<me>\text{Revenue} = ($4.25~ \text{per sandwich}) \cdot (30~ \text{sandwiches}) = $127.50</me></p>
+	<me>\text{Revenue} = (\$4.25~ \text{per sandwich}) \cdot (30~ \text{sandwiches}) = \$127.50</me></p>
 
 <assemblage><title>Look Ahead</title>
 <p>Usually, the number of items that consumers will buy depends on the price of the item: the higher a company sets the price, the fewer items it is likely to sell. How does a company's revenue depend upon the price it charges? A good way to study such a problem is to consider the graph of the equation for revenue.</p></assemblage>

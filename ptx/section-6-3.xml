@@ -240,7 +240,6 @@ where <m>h</m> is in feet. The figure below shows a graph of the equation.</p>
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
 		}
 		\draw[samples=65,domain=0:10,smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{240/25+16/25*\x-16/25*(\x/2)^2});
-		\end{tikzpicture}
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>From the graph, we see that it takes the book 5 seconds to reach the ground. Because <m>h=0</m> when the book reaches the ground, 5 is one of the solutions of the quadratic equation 

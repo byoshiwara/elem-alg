@@ -484,8 +484,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 		\node[left] at (-1.1,-1.5) {$m+5$};
 		\node[right] at (0,-1.5) {$m$};
 		\node[above] at (-1,0) {$8$};
-		\end{tikzpicture}
-        \end{tikzpicture}]]>
+       \end{tikzpicture}]]>
     </latex-image>
     </image>
 </sidebyside></statement>

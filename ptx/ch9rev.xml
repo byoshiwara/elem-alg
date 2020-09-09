@@ -106,8 +106,7 @@ between 1 and 10 and a power of 10.</li>
 <li>How do we solve a radical equation?</li></ol></p>
 </subsection>
 
-<subsection><title>Review Problems</title>
-<exercises>
+<exercises><title>Review Problems</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>8, simplify the expression.</p></introduction>
 
@@ -417,5 +416,4 @@ where <m>h</m> is the altitude of the satellite in miles, and <m>R</m> is the ra
 
 
 </exercises>
-</subsection>
 </section>

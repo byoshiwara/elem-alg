@@ -7,7 +7,7 @@
 <idx><h>equation</h><h>with radicals</h></idx>
 <idx><h>radical</h><h>equation</h></idx>
 
-<p>When an object falls from a height of <m>h</m> meters, the time it takes to reach the ground is given in seconds by
+<introduction><p>When an object falls from a height of <m>h</m> meters, the time it takes to reach the ground is given in seconds by
 	<me>t=\sqrt{\dfrac{h}{4.9}}</me>
 This equation is called a <term>radical equation</term>, because an unknown value, <m>h</m>, appears under a radical sign.</p> 
 
@@ -50,11 +50,12 @@ The Sears Tower is about 442 meters tall.</p></solution></example>
 	<li>Isolate the radical on one side of the equation.</li>
 	<li>Square both sides of the equation.</li>
 	<li>Continue as usual to solve for the variable.</li></ol></p></assemblage>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>What is a radical equation?</p></statement>
     <answer><p>One in which the variable appears under a radical.</p></answer></exercise>
-</reading-questions>
+
 
 <example><statement><p>Solve the radical equation <m>~~\sqrt{x-3} = 4</m></p></statement>
 
@@ -63,12 +64,13 @@ The Sears Tower is about 442 meters tall.</p></solution></example>
 		<mrow>x-3 \amp = 16</mrow>
 		<mrow>x \amp = 19</mrow></md>
 You can check that <m>x=19</m> satisfies the original equation.</p></solution></example>
+</subsubsection>
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
 <idx><h>extraneous solution</h></idx>
 
-<p>The technique of squaring both sides may introduce <term>extraneous solutions</term>. (Recall that an extraneous solution is a value that is not a solution to the original equation.) For example, consider the equation
+<introduction><p>The technique of squaring both sides may introduce <term>extraneous solutions</term>. (Recall that an extraneous solution is a value that is not a solution to the original equation.) For example, consider the equation
 	<me>\sqrt{x+2}=-3</me>
 Squaring both sides gives us
 	<md><mrow>(\sqrt{x+2})^2 \amp =(-3)^2</mrow>
@@ -77,12 +79,13 @@ Squaring both sides gives us
 However, if we substitute  into the original equation, we see that it is not a solution.
 	<me>\sqrt{\blert{7}+2} = \sqrt{9} = 3 \not= -3</me>
 The value <m>x=7</m> is a solution to the squared equation, but not to the original equation. In this case, the original equation has no solution.</p>  
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="2"><statement><p>When we solve a radical equation, what causes extraneous solutions to be 
 	introduced?</p></statement>
     <answer><p>Squaring both sides of the equation.</p></answer></exercise>
-</reading-questions>
+
 
 <assemblage><title>Extraneous Solutions</title>
 <idx><h>extraneous solution</h></idx>
@@ -114,12 +117,13 @@ Thus, <m>x=2</m> is an extraneous solution. The only solution to the original eq
  
 <warning><p>When squaring both sides of an equation, we must be careful to square the entire expression on either side of the equal sign. It is incorrect to square each term separately. Thus, in <xref ref="Example-9-5-3" text="type-global"/>, it would not be correct to write
 	<me> ( \sqrt{8-2x})^2 = x^2-4^2 ~~~~~~~~~~~~\alert{\text{Incorrect!}}</me></p></warning>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>True or false: to solve a radical equation, we should square each term of 	
 	the equation. Explain.</p></statement>
     <answer><p>False.  We should square each side of the equation.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Equations with Cube Roots</title>
@@ -127,7 +131,7 @@ Thus, <m>x=2</m> is an extraneous solution. The only solution to the original eq
 <idx><h>cube root</h><h>equation</h></idx>
 <idx><h>cube root</h><h>equation</h><seealso>equation</seealso></idx>
 
-<p>	We can also solve equations in which the variable appears under a cube root.</p>  
+<introduction><p>	We can also solve equations in which the variable appears under a cube root.</p>  
 
 <example><statement><p>Solve the equation <m>~~15-2\sqrt[3]{x-4} = 9</m></p></statement>
 
@@ -144,18 +148,19 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>. We do not hav
 	<md><mrow>15-2\sqrt[3]{\alert{31}-4} \amp = 15-2\sqrt[3]{27} </mrow>
 		<mrow> \amp = 15-2(3)</mrow>
 		<mrow> \amp = 15-6=9 \amp \amp \blert{\text{The solution checks.}}</mrow></md></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>How can we solve an equation if the variable appears under a cube root?
 </p></statement>
     <answer><p>Isolate the cube root, then cube both sides.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Extraction of Roots</title>
 <idx><h>extraction of roots</h></idx>
 
-<p>	Now we'll compare solving radical equations, where we square both sides, with quadratic equations, where we may be able to take square roots of both sides.</p>
+<introduction><p>	Now we'll compare solving radical equations, where we square both sides, with quadratic equations, where we may be able to take square roots of both sides.</p>
 
 <example><statement><p>Solve by extraction of roots <m>~~2(3x-1)^2 = 36</m></p></statement>
 
@@ -168,14 +173,16 @@ Now we solve each equation, to find two solutions.
 		<mrow>3x \amp = 1 +3\sqrt{2} \amp 3x  \amp = 1 -3\sqrt{2}</mrow>
 		<mrow>x \amp = \dfrac{1 +3\sqrt{2}}{2} \amp  x \amp = \dfrac{1 -3\sqrt{2}}{2}</mrow></md>
 We write the solutions as <m>~\dfrac{1 \pm 3\sqrt{2}}{2}</m>.</p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="5"><statement><p>Is it true that <m>1+3\sqrt{2} = 4\sqrt{2}</m>?  Why or why not?</p></statement>
     <answer><p>No.  <m>1</m> and <m>3\sqrt{2}</m> are not like terms.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 9.5.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Square each expression.</p></introduction>
                              
@@ -223,7 +230,7 @@ We write the solutions as <m>~\dfrac{1 \pm 3\sqrt{2}}{2}</m>.</p></solution></ex
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title>
+<solutions><title>Answers to Skills Warm-Up</title><conclusion>
 <p><ol label="1" cols="2">
     <li><p><ol label="a">
     	<li><m>9x^2</m></li>
@@ -242,24 +249,27 @@ We write the solutions as <m>~\dfrac{1 \pm 3\sqrt{2}}{2}</m>.</p></solution></ex
     	<li><m>8x-24</m></li></ol></p></li>
     <li><p><ol label="a">
     	<li><m>x=1+4\sqrt{x-3}</m></li>
-    	<li><m>4x-3+12\sqrt{x-3}</m></li></ol></p></li></ol></p></subsubsection>
+    	<li><m>4x-3+12\sqrt{x-3}</m></li></ol></p></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
-<subsection>
-<subsubsection><title>Activity 1: Solving Radical Equations</title>
-<exercises>
-<exercisegroup><introduction><p>After solving a radical equation, remember to check for extraneous solutions.</p></introduction>
+<subsection><title>Lesson</title> <introduction>
+<activity><title>Solving Radical Equations</title>
+<p>After solving a radical equation, remember to check for extraneous solutions.</p>
+<p><ol label="1">
+    <li>
+        <p>Solve <m>~\sqrt{x-6}=2</m></p>
+    </li>
+    <li>
+        <p>Solve <m>~\sqrt{x-3}+5=x</m></p>
+    </li>
+    <li>
+        <p>Solve <m>~3\sqrt[3]{4x-1}=-15</m></p>
+    </li>
+</ol></p>
+</activity>
 
-<exercise><statement><p>Solve <m>~\sqrt{x-6}=2</m></p></statement></exercise>
-
-<exercise><statement><p>Solve <m>~\sqrt{x-3}+5=x</m></p></statement></exercise>
-
-<exercise><statement><p>Solve <m>~3\sqrt[3]{4x-1}=-15</m></p></statement></exercise>
-</exercisegroup>
-</exercises>
-</subsubsection>
-
-<subsubsection><title>Activity 2: Roller Coasters</title>
+<activity><title>Roller Coasters</title>
 
 <p>You have been commissioned to design a new roller coaster for an amusement park. The roller coaster should be more spectacular than all existing roller coasters, and in particular it should include a vertical loop.  In order to stay on the track through the loop, the cars must travel at a speed given (in miles per hour) by
 	<me>v=\sqrt{89.3r}</me>
@@ -285,22 +295,25 @@ where <m>r</m> is the radius of the loop in feet.</p>
                         <cell>Six Flags Great Adventure, Gurnee, Illinois</cell></row>
                     </tabular></sidebyside>
 
-<exercises>
-<exercise><statement><sidebyside widths="60% 30%"><stack><p>Evaluate the formula to find the speed the cars must reach on each roller coaster. Because the vertical loops used in roller coasters are not perfect circles, the total height of the loop is about 2.5 times its radius.</p> 
+<p><ol label="1">
+    <li>
+        <sidebyside widths="60% 30%"><stack><p>Evaluate the formula to find the speed the cars must reach on each roller coaster. Because the vertical loops used in roller coasters are not perfect circles, the total height of the loop is about 2.5 times its radius.</p> 
 
-<p>Viper:</p>
+        <p>Viper:</p>
 
-<p>Gash:</p>
+        <p>Gash:</p>
 
-<p>Shockwave:</p></stack>
+        <p>Shockwave:</p></stack>
 
-<image source="images/act-9-5-1.png"><description>loop</description></image></sidebyside></statement></exercise>
+        <image source="images/act-9-5-1.png"><description>loop</description></image></sidebyside>
+    </li>
+    <li>
+        <p>You would like your roller coaster to have a vertical loop that is 200 feet tall. How fast must the cars travel?</p>
+    </li>
+    <li>
+        <p>Now suppose you know the maximum speed possible for the cars on a particular roller coaster. Can you calculate the height of the tallest vertical loop the cars can negotiate? Here are the speeds of three of the world's fastest roller coasters.</p>
 
-<exercise><statement><p>You would like your roller coaster to have a vertical loop that is 200 feet tall. How fast must the cars travel?</p></statement></exercise>
-
-<exercise><statement><p>Now suppose you know the maximum speed possible for the cars on a particular roller coaster. Can you calculate the height of the tallest vertical loop the cars can negotiate? Here are the speeds of three of the world's fastest roller coasters.</p>
-
-<sidebyside><tabular top="none" halign="left" right="none" left="none" bottom="none">              
+        <sidebyside><tabular top="none" halign="left" right="none" left="none" bottom="none">              
                     <row bottom="minor">
                         <cell>Speed</cell>
                         <cell halign="center">Roller Coaster</cell>
@@ -319,43 +332,53 @@ where <m>r</m> is the radius of the loop in feet.</p>
                         <cell>Buffalo Bill's, Jean, Nevada</cell></row>
                     </tabular></sidebyside>
 
-<p>Calculate the maximum loop height possible for each roller coaster.</p>
+        <p>Calculate the maximum loop height possible for each roller coaster.</p>
 
-<p>Desperado:</p>
+        <p>Desperado:</p>
 
-<p>Steel Phantom:</p>
+        <p>Steel Phantom:</p>
 
-<p>Fujiyama:</p></statement></exercise>
-</exercises>
-</subsubsection>
+        <p>Fujiyama:</p>
+    </li>
+</ol></p>
+</activity>
 
-<subsubsection><title>Activity 3: Quadratic Equations</title>
+<activity><title>Quadratic Equations</title>
 
-<exercises>
-<exercise><statement><p>Solve  <m>~~(2x+1)^2=8</m></p></statement></exercise>
-
-<exercise><statement><p>Solve  <m>~~3x^2-6x+2=0~~</m> and simplify the solutions.</p></statement></exercise>
-</exercises>
-</subsubsection>
+<p><ol label="1">
+    <li>
+        <p>Solve  <m>~~(2x+1)^2=8</m></p>
+    </li>
+    <li>
+        <p>Solve  <m>~~3x^2-6x+2=0~~</m> and simplify the solutions.</p>
+    </li>
+</ol></p>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Solving radical equations</li>
 	<li>Checking for extraneous solutions</li>
-	<li>Simplifying solutions of quadratic equations</li></ul></p></assemblage>
+	<li>Simplifying solutions of quadratic equations</li></ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>  
+<ol label="1">
     <li>What operation might introduce extraneous solutions?</li>
 	<li>What is wrong with this strategy:  To solve an equation with a variable under a square root, square each term of the equation.</li>
 	<li>How many solutions does the equation <m>~x^2=64~</m> have?  How many solutions does <m>~x^3=-64~</m> have?</li>
-</ol></p></assemblage>
+</ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve.</p></introduction>
 
@@ -376,14 +399,16 @@ where <m>r</m> is the radius of the loop in feet.</p>
 <exercise><statement><p>Solve  <m>~~2x^2-4x-5=0~~</m> and simplify your answer.</p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title>
+<solutions><title>Answers to Homework Preview</title><conclusion>
 <p><ol label = "1" cols="2">
     <li><m>x=20</m></li>
     <li><m>x=14</m></li>
     <li>No solution</li>
     <li><m>t=10</m></li>
     <li><m>x=\dfrac{3 \pm \sqrt{5}}{2}</m></li>
-    <li><m>x=\dfrac{2 \pm \sqrt{14}}{2}</m></li></ol></p></subsubsection>
+    <li><m>x=\dfrac{2 \pm \sqrt{14}}{2}</m></li></ol></p>
+</conclusion>
+</solutions>
 </subsection>
 
 <xi:include href="./hmwk-9-5.xml" />

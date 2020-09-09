@@ -32,6 +32,7 @@ You can check that <m>x=200</m> does satisfy the equation.</p></solution></examp
 <idx><h>equation</h><h>clearing fractions</h></idx>
 <idx><h>lowest common denominator</h><h>clearing fractions</h></idx>
 
+<introduction>
 <p>If an equation contains more than one fraction, we multiply both sides of the equation by the LCD of all the fractions. This will clear all the denominators at once.</p>
    
 <example xml:id="Example-8-4-2"><statement><p>Solve <m>~~\dfrac{x}{3} -2 = \dfrac{4}{5} + \dfrac{x}{5}</m></p></statement>
@@ -47,17 +48,19 @@ Now we can proceed as usual to complete the solution.
 		<mrow>x \amp = 21</mrow></md></p></solution></example>
 
 <warning><p>In <xref ref="Example-8-4-2" text="type-global"/>, note that we multiplied each term by the LCD, 15, including terms that are not fractions, namely 2 in this example. Be sure to multiply each term of the equation by the LCD.</p></warning>  
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>When clearing fractions, which terms of the equation should we multiply 
 	by the LCD?</p></statement>
     <answer><p>Every term</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Variables in the Denominator</title>
 <idx><h>fractions</h><h>solving equations with variable in denominator</h></idx>
 
+<introduction>
 <p>Equations that involve algebraic fractions can also be solved using an LCD.</p>
 
 <example xml:id="Example-8-4-3"><statement><p>Solve  <m>~~\dfrac{3}{4} = 8- \dfrac{2x+11}{x-5}</m></p></statement>
@@ -72,20 +75,23 @@ We proceed as usual to complete the solution. First we use the distributive law 
 		<mrow>-21x \amp = -189</mrow>
 		<mrow>x \amp = 9</mrow></md>
 The solution is <m>x=9</m>. You can check that <m>x=9</m> satisfies the original equation.</p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="2"><statement><p>How do we "clear" the fractions from an equation?</p></statement>
     <answer><p>Multiply both sides by the LCD.</p></answer></exercise>
-</reading-questions>
+
 
 <assemblage><title>Look Ahead</title>
 <p>	Remember that we do not obtain an equivalent equation if we multiply both sides of an equation by zero. In <xref ref="Example-8-4-3" text="type-global"/> we multiplied by <m>4(x-5)</m>. Is it possible that <m>4(x-5)</m> equals zero? After solving, we found that <m>x=9</m>, so <m>4(x-5) = 16</m>, which is not zero, and the multiplication step was valid. The next example illustrates what can go wrong if we multiply by zero.</p></assemblage>
+</subsubsection>
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
 <idx><h>extraneous solution</h></idx>
 <idx><h>solution</h><h>extraneous</h><see>extraneous solution</see></idx>
 
+<introduction>
 <example xml:id="Example-8-4-4"><statement><p>Solve  <m>~~6 +\dfrac{4}{x-3} = \dfrac{x+1}{x-3}</m></p></statement>
 
 <solution><p>We multiply both sides of the equation by the LCD, <m>x-3</m>, to clear the fractions.
@@ -103,26 +109,29 @@ The solution appears to be <m>x=3</m>. But we have a problem, because the LCD, <
 Because division by zero is undefined, 3 is not a solution after all. The original equation does not have a solution.</p></solution></example>
 
 <p>In <xref ref="Example-8-4-4" text="type-global"/>, when we multiplied both sides of the equation by zero we found a false solution for the equation.  Such solutions are called <term>extraneous solutions</term><idx><h>extraneous solution</h></idx>. There is always a danger that an extraneous solution may be introduced when we multiply by an expression that contains the variable.</p>  
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>When might an extraneous solution be introduced?</p></statement>
     <answer><p>When we multiply by an expression that contains the variable.</p></answer></exercise>
-</reading-questions>
+
 
 <assemblage><idx><h>extraneous solution</h></idx>
 <p>We should always check for extraneous solutions when solving equations that involve algebraic fractions.</p></assemblage>
 
 <p>To check a solution, we substitute it into the original equation. If a possible solution causes any of the denominators in the equation to equal zero, then that solution is extraneous.<idx><h>extraneous solution</h></idx></p>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>How do we check for extraneous solutions?</p></statement>
     <answer><p>See if it causes any of the denominators in the equation to equal zero.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Formulas</title>
 <idx><h>formula</h><h>solving formula with algebraic fractions for a variable</h></idx>
 
+<introduction>
 <p>	We can also solve formulas that involve algebraic fractions.</p>
 
 <example><statement><p>Solve for <m>P</m>: <m>~~\dfrac{1}{T} = \dfrac{PR}{A-P}</m></p></statement>
@@ -137,12 +146,13 @@ We now have two unlike terms that contain the desired variable. To proceed, we f
 		<mrow>\dfrac{A}{\blert{1+RT}} \amp = \dfrac{P\cancel{(1+RT)}}{\blert{\cancel{1+RT}}}</mrow></md>
 Thus, the new version of the formula is
 	<me>P=\dfrac{A}{1+RT}</me></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="5"><statement><p>When solving a formula, what should we do if there are two terms that 
 	contain the variable?</p></statement>
     <answer><p>Factor out the variable.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -221,6 +231,7 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 8.4.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Write each expression as a single fraction in simplest form.</p>
@@ -236,16 +247,17 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title>
+<solutions><title>Answers to Skills Warm-Up</title><conclusion>
 <p><ol label="1" cols="2">
     <li><m>\dfrac{3x-4}{x^2-2x}</m></li>
     <li><m>\dfrac{4-x}{x^2-2x}</m></li>
     <li><m>\dfrac{2}{x^2-2x}</m></li>
-    <li><m>\dfrac{x}{2x-4}</m></li></ol></p></subsubsection>
+    <li><m>\dfrac{x}{2x-4}</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
-<subsection>
-<subsubsection><title>Activity 1: Using a Graph</title>
+<subsection><title>Lesson</title> <introduction>
+<activity><title>Using a Graph</title>
 
 <p>A new health club opened up, and the manager kept track of the number of active members over its first few months of operation. The equation below gives the number <m>N</m> of active members, in hundreds, <m>t</m> months after the club opened.</p> 
 <sidebyside widths="50% 45%" valigns="middle middle"><p>
@@ -253,40 +265,35 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 The graph of this equation is shown at right.<ol label="a">
 	<li>Use the equation to find out in which months the club had 200 active members.</li>
 	<li>Verify your answers on the graph.</li></ol></p>
-<image source="images/act-8-4-1"><description>graph</description></image></sidebyside></subsubsection>
+<image source="images/act-8-4-1"><description>graph</description></image></sidebyside>
+</activity>
 
-<subsubsection><title>Activity 2: Using Algebra</title>
+<activity><title>Using Algebra</title>
 
-<exercises>
-<exercise><statement><p>Solve  <m>~~\dfrac{x^2}{2} + \dfrac{5x}{4} = 3~~</m> by first clearing the fractions.</p>
-</statement></exercise>
+<p><ol label="1">
+	<li>
+		<p>Solve  <m>~~\dfrac{x^2}{2} + \dfrac{5x}{4} = 3~~</m> by first clearing the fractions.</p>
+	</li>
+	<li>
+		<p>Solve  <m>~~\dfrac{1}{x-2} + \dfrac{2}{x} = 1~~</m> </p>
+		<p><m>\blert{\text{Step 1  Find the LCD for all the fractions in the equation.}}</m></p>
+		<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
+		<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
+	</li>
+	<li>
+		<p>Solve  <m>~~\dfrac{15}{x^2-3x} + \dfrac{4}{x} = \dfrac{5}{x-3}~~</m> </p>
+		<p><m>\blert{\text{Step 1  Factor each denominator and find the LCD for all the fractions in the equation.}}</m></p>
+		<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
+		<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
+		<p><m>\blert{\text{Step 4  Check for extraneous solutions.}}</m></p>
+	</li>
+	<li>
+		<p>Solve the formula <m>~~\dfrac{w}{q} = 1 - \dfrac{T}{H}~~</m> for <m>q</m>. </p>
+	</li>
+</ol></p>
+</activity>
 
-<exercise><statement><p>Solve  <m>~~\dfrac{1}{x-2} + \dfrac{2}{x} = 1~~</m> </p>
-
-<p><m>\blert{\text{Step 1  Find the LCD for all the fractions in the equation.}}</m></p>
-
-<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
-
-<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
-</statement></exercise>
-
-<exercise><statement><p>Solve  <m>~~\dfrac{15}{x^2-3x} + \dfrac{4}{x} = \dfrac{5}{x-3}~~</m> </p>
-
-<p><m>\blert{\text{Step 1  Factor each denominator and find the LCD for all the fractions in the equation.}}</m></p>
-
-<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
-
-<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
-
-<p><m>\blert{\text{Step 4  Check for extraneous solutions.}}</m></p>
-</statement></exercise>
-
-<exercise><statement><p>Solve the formula <m>~~\dfrac{w}{q} = 1 - \dfrac{T}{H}~~</m> for <m>q</m>. </p></statement>
-</exercise>
-</exercises>
-</subsubsection>
-
-<subsubsection><title>Activity 3: Work Problem</title>
+<activity><title>Work Problem</title>
 
 <p>	In this application, the work being done is the water flowing into (or out of) the reservoir, so the work rate is the flow rate of water through the pipes.</p>
 
@@ -304,7 +311,7 @@ The graph of this equation is shown at right.<ol label="a">
 
 <li><p>Consider the time period described in the problem when both pipes are open. Fill in the table.</p>  
 
-	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m></m></cell>
                         <cell>Flow rate</cell>
@@ -320,32 +327,39 @@ The graph of this equation is shown at right.<ol label="a">
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></sidebyside></li>
 
 <li><p>Write an equation:</p>
 
 	<p><m>\blert{\text{Fraction of reservoir filled}} - \blert{\text{Fraction of reservoir drained}} = \blert{\text{One whole reservoir}}</m></p></li>
 
-<li>Solve your equation.</li></ol></p></subsubsection>
+<li>Solve your equation.</li></ol></p>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Solving equations with fractions</li>
 	<li>Identifying extraneous solutions</li>
 	<li>Solving motion problems</li>
-	<li>Solving work problems</li></ul></p></assemblage>
+	<li>Solving work problems</li></ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>  
+<ol label="1">
     <li>In Activity 1, part (b), explain how you used the graph.</li>
 	<li>In Activity 2, Problem 2, what was the LCD?</li>
-	<li>In Activity 2, Problem 4, what was the LCD?</li></ol></p></assemblage>
+	<li>In Activity 2, Problem 4, what was the LCD?</li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 <exercises>
 
 <exercise><statement><p>Solve <m>~~~\dfrac{3x}{4}-1=2x+\dfrac{9}{2}</m></p></statement></exercise>
@@ -357,12 +371,13 @@ The graph of this equation is shown at right.<ol label="a">
 <exercise><statement><p>Solve <m>~~~R=\dfrac{cd}{c+d}~~</m> for <m>c</m></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title>
+<solutions><title>Answers to Homework Preview</title><conclusion>
 <p><ol label = "1" cols="2">
     <li><m>\dfrac{-22}{5}</m></li>
     <li><m>-3</m></li>
     <li><m>\dfrac{-3}{2}</m></li>
-	<li><m>c=\dfrac{dR}{d-R}</m></li></ol></p></subsubsection>
+	<li><m>c=\dfrac{dR}{d-R}</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 

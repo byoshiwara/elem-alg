@@ -274,7 +274,6 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[samples=65,domain={-sqrt(12)}:{sqrt(12)},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{2+(\x)^2});
-        \end{tikzpicture}
         \end{tikzpicture}]]>
     </latex-image>
     </image>
@@ -345,7 +344,7 @@ where <m>r</m> is the radius of the pizza.</p>
     <sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
         <li><p>Complete the table of values and graph the equation on the grid at right.</p>
         <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-            <col halign="center"/>
+            <col halign="center"/><col halign="center"/>
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>C</m></cell></row>
@@ -403,7 +402,7 @@ where <m>r</m> is the radius of the pizza.</p>
 <answer><sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
         <li>
         <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-            <col halign="center"/>
+            <col halign="center"/><col halign="center"/>
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>C</m></cell></row>
@@ -435,7 +434,6 @@ where <m>r</m> is the radius of the pizza.</p>
     <li><p>$2.25</p></li>
     <li><p>8 in.</p></li>
     <li><p>The cost of a 6" radius pizza is $9.</p></li></ol></p></stack>
-    <!--<image source="images/hp-6-1-25.png"><description>grid</description></image>-->
     <image xml:id="hp-6-1-25aans">
         <description>parabola</description>
         <latex-image>
@@ -466,7 +464,7 @@ where <m>r</m> is the radius of the pizza.</p>
 <sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
 		<li><p>Complete the table of values and graph the equation on the grid at right.</p>
 		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-			<col halign="center"/>
+			<col halign="center"/><col halign="center"/>
                     <row bottom="minor">
                         <cell>Velocity (kph)</cell>
                         <cell>Distance (meters)</cell></row>
@@ -542,7 +540,7 @@ where <m>r</m> is the radius of the pizza.</p>
 <sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
 		<li><p>Complete the table of values and sketch a graph of the equation.</p>
 		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-			<col halign="center"/>
+			<col halign="center"/><col halign="center"/>
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>h</m></cell></row>
@@ -577,7 +575,6 @@ where <m>r</m> is the radius of the pizza.</p>
     <li>What is the height of the stone after 2 seconds? Locate this point on your graph.</li>
 	<li>Use the graph to find out when the height of the stone is 75 feet.</li>  
 	<li>Write an equation you could solve to answer the question in part (c).</li></ol></p></stack>
-	<!--<image source="images/hp-6-1-30.png"><description>grid</description></image>-->
     <image xml:id="hp-6-1-30">
         <description>grid</description>
         <latex-image>

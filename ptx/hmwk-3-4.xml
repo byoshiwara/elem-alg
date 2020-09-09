@@ -632,8 +632,6 @@
         }
         \draw[black] (.15,2) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$40$};
         \draw[red,very thick, ->, >=stealth'] (0,-12)--(28/3,2);
-        \end{tikzpicture}
-
         \end{tikzpicture}]]>
     </latex-image>
     </image>

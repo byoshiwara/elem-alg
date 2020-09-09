@@ -36,14 +36,6 @@ Elementary Algebra
 
 
     <xi:include href="./backmatter.xml" />       
-    <!-- Index follows appendices, preceded only colophon -->
-<!--    <index>
-        <index-list />
-    </index>
--->
-    <colophon>
-        <p>This book was authored in PreTeXt.</p>
-    </colophon>
 
     </book>
 </pretext>

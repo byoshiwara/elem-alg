@@ -112,8 +112,6 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
          \draw[black] ({.15},\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[samples=65,domain={-sqrt(10)}:{sqrt(10)},smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(\x)^2-4});
-        \end{tikzpicture}
-        \newline
         \end{tikzpicture}]]></latex-image></image></sidebyside></solution></example>
 </introduction>
 

@@ -219,7 +219,7 @@
     <li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
     <li><p>Complete the table and sketch a graph.</p>
     <sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-        <col halign="center"/>
+        <col halign="center"/><col /><col halign="center"/>
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell>Price per Bracelet</cell>

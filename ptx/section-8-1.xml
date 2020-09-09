@@ -8,6 +8,7 @@
 <idx><h>algebraic fraction</h><seealso>fractions</seealso></idx>
 <idx><h>fractions</h><h>algebraic</h><see>algebraic fraction</see></idx>
 
+<introduction>
 <p>Variables may occur in the numerator or the denominator of a fraction, or both.</p>
 
 <example><statement><p>Choose variables and write a fraction for each situation.<ol label="a">
@@ -42,14 +43,15 @@
 		<mrow> \amp = \dfrac{17}{2}</mrow></md></p></li>
 	<li>Because we cannot divide by zero, a fraction is undefined if its denominator is zero. This fraction is undefined for <m>a=\alert{2}</m>, because <m>~\dfrac{\alert{2}^2+1}{\alert{2}-2}=\dfrac{5}{0}</m>.</li></ol></p>
 </solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="1"><statement><p>What is an algebraic fraction? Give an example.</p></statement>
     <answer><p>A fraction in which both numerator and denominator are polynomials.</p></answer></exercise>
     <exercise number="2"><statement><p>What values of the variable must we exclude when working with algebraic 
 	fractions?</p></statement>
     <answer><p> Any values that make the denominator equal to zero.</p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Applications of Algebraic Fractions</title>
@@ -94,7 +96,6 @@ This expression is an algebraic fraction. </p>
                         <cell><m>2000</m></cell>
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
-    <!--<image source="images/fig-8-1-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-8-1-ex3"><description>curve</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -120,6 +121,7 @@ This expression is an algebraic fraction. </p>
 <idx><h>algebraic fraction</h><h>reducing</h></idx>
 <idx><h>fractions</h><h>reducing</h></idx>
 
+<introduction>
 <p>	We can <term>reduce</term> a fraction if we can divide both numerator and denominator by a common factor.  In algebra, it is helpful to think of factoring out the common factor first.  For example,
 	<me>\dfrac{27}{36} = \dfrac{\cancel{9} \cdot 3}{\cancel{9} \cdot 4} = \dfrac{3}{4}</me>
 where we have divided both numerator and denominator by 9. The new fraction has the same value as the old one, namely 0.75, but it is simpler (the numbers are smaller.) Reducing is an application of the fundamental principle of fractions.</p>
@@ -153,11 +155,12 @@ The reduced fraction is <m>\dfrac{6}{5b}</m>.</p></solution></example>
 	<me>\dfrac{8x+4}{4} = \dfrac{4(2x+1)}{4}</me>
 We see that 4 is a factor of the numerator, so we can divide top and bottom of the fraction by 4 to get 
 	<me>\dfrac{\cancel{4}(2x+1)}{\cancel{4}} = \dfrac{1(2x+1)}{1} = 2x+1</me></p></solution></example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="3"><statement><p>What does "canceling" mean when we reduce a fraction?</p></statement>
     <answer><p>Dividing out common factors.</p></answer></exercise>
-</reading-questions>
+
 
 <warning><idx><h>canceling to reduce a fraction</h></idx>
 <p>We can cancel common factors (expressions that are multiplied together), but not common terms (expressions that are added or subtracted). Use your calculator to decide which calculation in each pair is correct. (In the second pair, choose a value for the variable and evaluate.) <ol label="1">
@@ -206,18 +209,20 @@ We see that 4 is a factor of the numerator, so we can divide top and bottom of t
 <p>	Suppose we'd like to evaluate the fraction in <xref ref="Example-8-1-6" text="type-global"/> for <m>x=478</m>. Instead of substituting 478 into the original fraction, it is much simpler to use the reduced fraction, and get
 	<me>\dfrac{x}{2}=\dfrac{\alert{478}}{2} = 239</me>
 This the whole point of reducing a fraction: to get a simpler but equivalent expression.</p></assemblage>
+</subsubsection>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="4"><statement><p>Why is it a good idea to reduce an algebraic fraction when possible?
 </p></statement>
     <answer><p>To get a simpler but equivalent expression. </p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Negative of a Binomial</title>
 <idx><h>negative</h><h>of a binomial</h></idx>
 <idx><h>opposite of a binomial</h></idx>
 
+<introduction>
 <p>How can we deal with negative factors in a fraction? First, we consider some facts about the negative, or <term>opposite</term>, of an expression.</p>
 
 <assemblage><p>A fraction is a negative number if either its numerator or its denominator is negative, but not both. For example, 
@@ -227,13 +232,16 @@ However, the fraction <m>\dfrac{-2}{-3}</m> is a positive number, because the qu
 <assemblage><title>Look Closer</title>
 <idx><h>fractions</h><h>standard form for writing negative fraction</h></idx>
 <p>In algebra, we prefer to write such a fraction with the negative sign in the numerator, so that the standard form for the opposite of <m>~\dfrac{2}{3}~</m> is <m>~\dfrac{-2}{3}</m>.</p></assemblage>  
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="5"><statement><p>Does a negative sign in front of a fraction apply to the numerator, the 
 	denominator, or both?</p></statement>
     <answer><p>Either the numerator or the denominator, but not both. </p></answer></exercise>
-</reading-questions>
+</subsubsection>
+</subsection>
 
+<subsection><title>The Opposite of a Binomial</title><introduction>
 <p>To find the opposite, or negative, of a binomial (or any other algebraic expression) we multiply the expression by <m>-1</m>.</p>
 
 <assemblage><title>Negative of a Binomial</title>
@@ -267,14 +275,16 @@ Here is an example of how opposites can arise in algebraic fractions.</p></assem
 We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-x)</m>.  Thus,
 	<me>\dfrac{2(x-2y)}{3(2y-x)} = \dfrac{-2\cancel{(2y-x)}}{3\cancel{(2y-x)}} = \dfrac{-2}{3}</me></p></solution>
 </example>
+</introduction>
 
-<reading-questions>
+<subsubsection><title>Reading Questions</title>
     <exercise number="6"><statement><p>What do we get when we divide an expression by its opposite?</p></statement>
     <answer><p><m>-1</m></p></answer></exercise>
-</reading-questions>
+</subsubsection>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
+<assemblage><title>Good work!</title><p>You've finished the Reading assignment for Section 8.1.  Now try the Skills Warm-Up Exercises before the next class meeting.</p></assemblage>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Factor completely.</p></introduction>
 
@@ -292,29 +302,32 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<solutions><title>Answers to Skills Warm-Up</title><conclusion><p><ol label="1" cols="2">
 	<li><m>(x-2)(x+2)</m></li>
 	<li><m>x(x-4)</m></li>
 	<li><m>(x-2)^2</m></li>
 	<li><m>(2x-1)(2x+1)</m></li>
 	<li><m>4x(x-1)</m></li>
-	<li><m>(2x+1)^2</m></li></ol></p></subsubsection>
+	<li><m>(2x+1)^2</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 
-<subsection>
-<subsubsection><title>Activity 1: Algebraic Fractions</title>
-<exercises>
-
-<exercise><statement><p><ol label="a">
-	<li>Evaluate <m>~\dfrac{z-1}{2z+3~}</m> for <m>z=-3</m>.</li>
-	<li>For what value of <m>z</m> is the fraction undefined?</li></ol></p></statement></exercise>
-
-<exercise><statement><p>Recall the average cost of producing a filter in the Example about Evergreen Technology:
+<subsection><title>Lesson</title> <introduction>
+<activity><title>Algebraic Fractions</title>
+<p><ol label="1">
+	<li>
+		<p><ol label="a">
+			<li>Evaluate <m>~\dfrac{z-1}{2z+3~}</m> for <m>z=-3</m>.</li>
+			<li>For what value of <m>z</m> is the fraction undefined?</li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Recall the average cost of producing a filter in the Example about Evergreen Technology:
 		<me>\text{Average Cost} = \dfrac{5000+50x}{x}</me>
-	Use the table and graph of average cost to help you answer the questions.</p>
+		Use the table and graph of average cost to help you answer the questions.</p>
 
-<sidebyside widths="25% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+		<sidebyside widths="25% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>A</m></cell></row>
@@ -343,56 +356,73 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
                         <cell><m>2000</m></cell>
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
-   <image source="images/fig-8-1-ex3"><description>curve</description></image></sidebyside>
-<p><ol label="a">
-	<li>Approximately how many filters should Envirogreen produce for the average cost to be $75?</li>
-	<li>What happens to the average cost per filter as <m>x</m> increases?</li>
-	<li>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</li>
-	<li>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? (Hint:  Use the formula   Profit <m>=</m> Revenue <m>-</m> Cost)</li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+		   <image source="images/fig-8-1-ex3"><description>curve</description></image></sidebyside>
+			<p><ol label="a">
+			<li>Approximately how many filters should Envirogreen produce for the average cost to be $75?</li>
+			<li>What happens to the average cost per filter as <m>x</m> increases?</li>
+			<li>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</li>
+			<li>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? (Hint:  Use the formula   Profit <m>=</m> Revenue <m>-</m> Cost)</li>
+		</ol></p>
+	</li>
+</ol></p>
+</activity>
 
-<subsubsection><title>Activity 2: Reducing Fractions</title>
-<exercises>
-
-<exercise><statement><p>Explain why each calculation is incorrect.<ol label="a">
-	<li><m>\dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}</m></li>
-	<li><m>\dfrac{2x+5}{2} \rightarrow x+5</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p><ol label="a">
-	<li>Reduce <m>~\dfrac{12x-18}{16x-24}</m></li>
-	<li>If you evaluate <m>~\dfrac{12x-18}{16x-24}~</m> for <m>x=-17</m>, what do you expect to get?</li></ol></p></statement></exercise>
-
-<exercise><statement><p>Reduce <m>~\dfrac{x^2-x-6}{x^2-9}</m></p></statement></exercise>
-
-<exercise><statement><p>Find the opposite of each binomial.<ol label="a" cols="2">
-	<li><m>2a+3b</m></li>
-	<li><m>-x+1</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Reduce if possible.<ol label="a" cols="2">
-	<li><m>\dfrac{-x+1}{1-x}</m></li>
-	<li><m>\dfrac{1+x}{1-x}</m></li>
-	<li><m>\dfrac{2a-3b}{3b-2a}</m></li>
-	<li><m>\dfrac{2a-3b}{2b-3a}</m></li></ol></p></statement></exercise>
-</exercises>
-</subsubsection>
+<activity><title>Reducing Fractions</title>
+<p><ol label="1">
+	<li>
+		<p>Explain why each calculation is incorrect.<ol label="a">
+			<li><m>\dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}</m></li>
+			<li><m>\dfrac{2x+5}{2} \rightarrow x+5</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p><ol label="a">
+			<li>Reduce <m>~\dfrac{12x-18}{16x-24}</m></li>
+			<li>If you evaluate <m>~\dfrac{12x-18}{16x-24}~</m> for <m>x=-17</m>, what do you expect to get?</li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Reduce <m>~\dfrac{x^2-x-6}{x^2-9}</m></p>
+	</li>
+	<li>
+		<p>Find the opposite of each binomial.<ol label="a" cols="2">
+			<li><m>2a+3b</m></li>
+			<li><m>-x+1</m></li>
+		</ol></p>
+	</li>
+	<li>
+		<p>Reduce if possible.<ol label="a" cols="2">
+			<li><m>\dfrac{-x+1}{1-x}</m></li>
+			<li><m>\dfrac{1+x}{1-x}</m></li>
+			<li><m>\dfrac{2a-3b}{3b-2a}</m></li>
+			<li><m>\dfrac{2a-3b}{2b-3a}</m></li>
+		</ol></p>
+	</li>
+</ol></p>
+</activity>
+</introduction>
 
 <subsubsection><title>Wrap-Up</title>
 
-<assemblage><title>Objectives</title>
-<p>In this Lesson we practiced the following skills:<ul>
+<objectives><introduction>
+<p>In this Lesson we practiced the following skills:</p></introduction>
+<ul>
     <li>Evaluating algebraic fractions</li>
-	<li>Reducing algebraic fractions</li></ul></p></assemblage>
+	<li>Reducing algebraic fractions</li></ul>
+</objectives>
 
-<assemblage><title>Questions</title>   
-<p><ol label="1">
+<p>Questions to answer before the Homework Preview.</p>
+<outcomes>  
+<ol label="1">
     <li>In Activity 1, Problem 2d, what was the average cost per filter?</li>
 	<li>In Activity 2, Problem 3, can we cancel the <m>x^2</m>'s?  Why or why not?</li>
-	<li>In Activity 2, Problem 4, which numerator is the opposite of its denominator?</li></ol></p></assemblage>
+	<li>In Activity 2, Problem 4, which numerator is the opposite of its denominator?</li></ol>
+</outcomes>
 </subsubsection>
 </subsection>
 
 <subsection><title>Homework Preview</title>
+<p>Here are exercises to try before the end of the class meeting.</p>
 <exercises>
 
 <exercise><statement><p>The chess club will have 4 men and an unknown number  of women.  What fraction of the club will be men?</p></statement></exercise>
@@ -413,7 +443,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title>
+<solutions><title>Answers to Homework Preview</title><conclusion>
 <p><ol label = "1" cols="2">
 	<li><m>\dfrac{4}{4+w}</m></li>
 	<li><p><ol label="a" cols="2">
@@ -422,9 +452,9 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 	<li><m>\dfrac{5s^2}{3t}</m></li>
 	<li><m>\dfrac{x-4}{2}</m></li>
 	<li><m>\dfrac{a+3}{3}</m></li>
-	<li><m>\dfrac{1}{2b+1}</m></li></ol></p></subsubsection>
+	<li><m>\dfrac{1}{2b+1}</m></li></ol></p></conclusion>
+</solutions>
 </subsection>
 
 <xi:include href="./hmwk-8-1.xml" />
 </section>
-

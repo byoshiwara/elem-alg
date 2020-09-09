@@ -57,7 +57,7 @@
 <exercise number="21"><statement><p>A small lake in a state park has become polluted by runoff from a factory upstream. The cost for removing <m>p</m> percent of the pollution from the lake is given, in thousands of dollars, by
     <me>C=\dfrac{25p}{100-p}</me>
 How much of the pollution can be removed for $25,000?</p></statement>
-<answer>50%</answer></exercise>
+<answer><p>50%</p></answer></exercise>
 
 <exercise number="22"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol label="a">
 	<li>What is Pete's batting average so far? (Batting average is the fraction of at-bats that resulted in hits.)</li>

@@ -20,7 +20,7 @@
         \foreach \x in  {-10, -5, ..., 10} {
          \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below]   {$\x$};
         }
-        \node[below,text=bold] at (0,-1.3) {\textbf{A Number Line}};
+        \node[below] at (0,-1.3) {\textbf{A Number Line}};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term><idx><h>natural number</h></idx> or <term>counting numbers</term><idx>counting number</idx>. The <term>whole numbers</term><idx><h>whole number</h></idx> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
@@ -158,7 +158,7 @@ Thus, the sign of the sum is the same as the sign of the two terms. To find the 
 <introduction>
 <p>Suppose you have debts of $9, and assets of $6. (Your "assets" are your possessions.) What is your net worth?  We can model this situation by the sum
 	<me>-9+(+6)</me>
-where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
+where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-\$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
 
 <assemblage><title>The sum of two numbers with opposite signs</title>
 	<p>Illustrate the sum <m>(-9)+(+6)</m> on a number line.<ol label="1">
@@ -660,7 +660,6 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
         \filldraw[red] (-5/3,0) circle (.15) node[above, yshift=3, scale=.9] {$\frac{-5}{3}$}; 
          \filldraw[red] (0,0) circle (.15);
         \filldraw[red] (21/4,0) circle (.15) node[above, yshift=3, scale=.9] {$5\frac{1}{4}$};
-         \end{tikzpicture}
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li><sidebyside width="70%"><image xml:id="sw-2-1-2ans"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

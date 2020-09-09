@@ -79,8 +79,7 @@
 <li>Explain the difference between the sum of two squares and the square of a binomial. Give examples.</li>
 <li>When you are trying to factor a polynomial, what is the best way to start?</li></ol></p></subsection>
 
-<subsection><title>Review Problems</title>
-<exercises>
+<exercises><title>Review Problems</title>
 
 <exercise number="1"><statement><p>Write the polynomial in descending powers of the variable and state the degree of the polynomial.<ol label="a" cols="2">
 	<li><m>1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\dfrac{x^6}{720}</m></li>
@@ -201,7 +200,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, divide.</p></introduction>
 
 <exercise number="25"><statement><p><m>\dfrac{-21x^4y^3}{3xy^3}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-7x^3</m></p></answer></exercise>
 
 <exercise number="26"><statement><p><m>\dfrac{3a^2b}{6a^4b^3}</m></p></statement></exercise>
 </exercisegroup>
@@ -277,7 +276,10 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>10a^4</m></li>
+    <li><m>6a^6</m></li>
+</ol></p></answer></exercise>
 
 <exercise number="46"><statement>
     <sidebyside width="45%"><!--<image source="images/cr7-46.png"><description>rectangle</description></image>-->
@@ -312,7 +314,10 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>8m+2n</m></li>
+    <li><m>3m^2+5mn-2n^2</m></li>
+</ol></p></answer></exercise>
 
 <exercise number="48"><statement>
     <sidebyside width="65%"><!--<image source="images/cr7-48.png"><description>rectangle</description></image>-->
@@ -492,5 +497,4 @@
 </exercisegroup>
 
 </exercises>
-</subsection> 
 </section> 
