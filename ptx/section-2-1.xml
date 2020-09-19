@@ -4,7 +4,7 @@
 <section xml:id="Signed-Numbers"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Signed Numbers</title>
 <idx><h>signed number</h></idx>
 <subsection><title>Types of Numbers</title>
-
+<introduction>
 <p>Numbers greater than zero are called <term>positive numbers</term><idx><h>positive numbers</h></idx>, and numbers less than zero are <term>negative numbers</term><idx><h>negative numbers</h></idx>. We use a <term>number line</term><idx><h>number line</h></idx> to illustrate relationships among numbers.</p>
 
 <sidebyside width="70%"><!--<image source="images/fig-2-1-1.png"><description>number line</description></image>-->
@@ -30,7 +30,8 @@
     <me> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
 
 <p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
-
+</introduction>
+<subsubsection><title>Reading Questions</title>
 
     <exercise number="1"><statement><p>What are integers?</p></statement>
     <answer><p>The natural numbers, zero, and the negatives of the natural numbers.</p></answer></exercise>
@@ -88,6 +89,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 <solution><p><ol label="a">
 	<li>Negative altitudes correspond to feet below sea level, and 94 feet is farther below sea level than 81 feet.  Therefore, <m>-91</m> feet is the lower altitude.</li>
 	<li><p><m>-94 \lt -81</m>, or <m>-81 \gt -94</m></p></li></ol></p></solution></example>
+</subsubsection>
 </subsection>
 
 <subsection><title>Adding Two Numbers with the Same Sign</title>
