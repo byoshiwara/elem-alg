@@ -50,7 +50,7 @@
     <li>the perimeter,</li>
     <li>the area.</li></ol></p></introduction>
 
-<exercise number="7"><statement><sidebyside width="50%"><!--<image source="images/hp-7-2-7.png"><description>rectangle</description></image>-->
+<exercise number="7"><statement><sidebyside width="50%"><!--<image source="photos/hp-7-2-7.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-2-7">
         <description>square</description>
         <latex-image>
@@ -69,7 +69,7 @@
     <li><p><m>48w^5</m></p></li>
     <li><p><m>144w^{10}</m></p></li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-8.png"><description>rectangle</description></image>-->
+<exercise number="8"><statement><sidebyside width="80%"><!--<image source="photos/hp-7-2-8.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-2-8">
         <description>rectangle</description>
         <latex-image>
@@ -90,7 +90,7 @@
     <li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
     <li>Use the distributive law to compute the product.</li></ol></p></introduction>
 
-<exercise number="9"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-9.png"><description>rectangle</description></image>-->
+<exercise number="9"><statement><sidebyside width="80%"><!--<image source="photos/hp-7-2-9.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-2-9">
         <description>rectangle</description>
         <latex-image>
@@ -111,7 +111,7 @@
     <li><p><m>2a(5a+3)</m></p></li>
     <li><p><m>10a^2+6a</m></p></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-10.png"><description>rectangle</description></image>-->
+<exercise number="10"><statement><sidebyside width="80%"><!--<image source="photos/hp-7-2-10.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-2-10">
         <description>rectangle</description>
         <latex-image>

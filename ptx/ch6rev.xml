@@ -236,7 +236,7 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 <li>If the width of a particular such rectangle is <m>w</m> inches, write an equation for its area, <m>A</m>, in terms of <m>w</m>.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>w</m>, and graph your equation.</li>  
 <li>If the area of one of these rectangles is 48 square inches, find its width. Locate the point corresponding to this rectangle on your graph.</li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr6-39.png"><description>grid</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/cr6-39.png"><description>grid</description></image>-->
     <image xml:id="cr6-39">
         <description>grid</description>
         <latex-image>
@@ -294,7 +294,7 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 where <m>s</m> is the length of one side of the triangle. Rewrite the formula for the area using an approximation to three decimal places.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>s</m>, and graph your equation.</li>  
 <li>If the area of a particular equilateral triangle is 15.6 square inches, find the length of its side. Locate the point corresponding to this triangle on your graph.</li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr6-40.png"><description>grid</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/cr6-40.png"><description>grid</description></image>-->
     <image xml:id="cr6-40">
         <description>grid</description>
         <latex-image>
@@ -325,7 +325,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     <li>Sketch the graph.</li></ol></p></introduction>
 
 <exercise number="41"><statement><p><m>y=\dfrac{1}{2}x^2</m></p>
-<sidebyside width="80%"><!--<image source="images/cr6-41.png"><description>grid</description></image>-->
+<sidebyside width="80%"><!--<image source="photos/cr6-41.png"><description>grid</description></image>-->
     <image xml:id="cr6-41">
         <description>grid</description>
         <latex-image>
@@ -378,7 +378,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     </ol></p></answer></exercise>
 
 <exercise number="42"><statement><p><m>y=x^2-4</m></p>
-<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="80%"><image source="photos/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="43"><statement><p><m>y=x^2-9x</m></p>
 <sidebyside width="80%">
@@ -434,10 +434,10 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     </ol></p></answer></exercise>
 
 <exercise number="44"><statement><p><m>y=-2x^2-4x</m></p>
-<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="80%"><image source="photos/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="45"><statement><p><m>y=x^2+6x</m></p>
-<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>(-6,0), (0,0)</m>; <m>(0,0)</m></p></li>
     <li><p><m>(-3,-9)</m></p></li>
@@ -467,12 +467,12 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     </ol></p></answer></exercise>
 
 <exercise number="46"><statement><p><m>y=x^2+3x-4</m></p>
-<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, find the unknown sides of the right triangle.</p></introduction>
 
-<exercise number="47"><statement><sidebyside width="40%"><!--<image source="images/cr6-47.png"><description>triangle</description></image>-->
+<exercise number="47"><statement><sidebyside width="40%"><!--<image source="photos/cr6-47.png"><description>triangle</description></image>-->
     <image xml:id="cr6-47">
         <description>triangle</description>
         <latex-image>
@@ -492,7 +492,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 </sidebyside></statement>
 <answer><p><m>m=3.9</m>, <m>m+5=8.9</m></p></answer></exercise>
 
-<exercise number="48"><statement><sidebyside width="60%"><!--<image source="images/cr6-48.png"><description>triangle</description></image>-->
+<exercise number="48"><statement><sidebyside width="60%"><!--<image source="photos/cr6-48.png"><description>triangle</description></image>-->
     <image xml:id="cr6-48">
         <description>triangle</description>
         <latex-image>

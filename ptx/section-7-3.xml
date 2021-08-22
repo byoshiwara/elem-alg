@@ -562,7 +562,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <p><m>\blert{\text{Step 2}~~}</m> Compute the diagonal product:
 	<me>D=</me></p></stack>
-<image source="images/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
+<image source="photos/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
 
 <p><m>\blert{\text{Step 3}~~}</m> List all possible factors of <m>D</m>, and compute the sum of each pair of 
 factors. The factors must have opposite signs. (Complete each pair of factors below.)</p>
@@ -588,7 +588,7 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 <p><m>\blert{\text{Step 5}~~}</m>Factor the top row of the rectangle, and write the result at the top.  Finally, factor the bottom row, and write the result on the left. The correct factorization is
 	<me>4x^2+4x-3 =  \hphantom{0000}</me></p>
 </stack>
-<image source="images/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
+<image source="photos/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
 </subsubsection>
 
 <subsubsection><title>Wrap-Up</title>

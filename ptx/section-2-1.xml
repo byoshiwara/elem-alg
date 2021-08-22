@@ -7,7 +7,7 @@
 
 <p>Numbers greater than zero are called <term>positive numbers</term><idx><h>positive numbers</h></idx>, and numbers less than zero are <term>negative numbers</term><idx><h>negative numbers</h></idx>. We use a <term>number line</term><idx><h>number line</h></idx> to illustrate relationships among numbers.</p>
 
-<sidebyside width="70%"><!--<image source="images/fig-2-1-1.png"><description>number line</description></image>-->
+<sidebyside width="70%"><!--<image source="photos/fig-2-1-1.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-1"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -38,7 +38,7 @@
 
 <p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of <m>-6</m> lies to the left of the graph of <m>-2</m>. Therefore, <m>-6</m> is less than <m>-2</m>, or, equivalently, <m>-2</m> is greater than <m>-6</m>.</p> 
 
-<sidebyside width="80%"><!--<image source="images/fig-2-1-2.png"><description>number line</description></image>-->
+<sidebyside width="80%"><!--<image source="photos/fig-2-1-2.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-2"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -67,7 +67,7 @@
         <mrow>-2 \gt -6 \amp ~~~~ \text{means}~~~~  {-2}~~ \text{is greater than}~~ {-6}</mrow></md>
 The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smaller number.</p>
 
-<sidebyside width="65%"><!--<image source="images/fig-2-1-3.png"><description>graphic</description></image>-->
+<sidebyside width="65%"><!--<image source="photos/fig-2-1-3.png"><description>graphic</description></image>-->
     <image xml:id="fig-2-1-3"><description>graphic with inequality symbols</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -100,7 +100,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 	<li>Graph the first number, <m>+5</m>, as shown below.</li>  
 	<li>Move <m>3</m> units in the positive direction, or to the right.</li>  
 	<li>This brings us to the sum, which is <m>+8</m>.  Thus, <m>5+3=8</m>.</li></ol></p> 
-<sidebyside width="75%"><!--<image source="images/fig-2-1-4.png"><description>number line</description></image>-->
+<sidebyside width="75%"><!--<image source="photos/fig-2-1-4.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-4"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -124,7 +124,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 	<li>Graph the first number, <m>-5</m>, as shown below.</li>  
 	<li>Move <m>3</m> units in the negative direction, or to the left.</li>  
 	<li>This brings us to the sum, <m>-8</m>, as expected.  Thus, <m>(-5)+(-3)=-8</m>.</li></ol></p> 
-<sidebyside width="75%"><!--<image source="images/fig-2-1-5.png"><description>number line</description></image>-->
+<sidebyside width="75%"><!--<image source="photos/fig-2-1-5.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-5"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -164,7 +164,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>Graph the first number, <m>-9</m>, as shown below.</li>  
 	<li>Move <m>6</m> units in the positive direction, or to the right.</li>  
 	<li>This brings us to the sum, <m>-3</m>.  Thus, <m>(-9)+(+6)=-3</m>.</li></ol></p> 
-<sidebyside width="75%"><!--<image source="images/fig-2-1-6.png"><description>number line</description></image>-->
+<sidebyside width="75%"><!--<image source="photos/fig-2-1-6.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-6"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -225,7 +225,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>Plot <m>9</m> on the number line.</li>  
 	<li>Move <m>5</m> units in the negative direction, or to the left.</li>  
 	<li>The sum is <m>4</m>.</li></ol></p>
- <sidebyside width="75%"><!--<image source="images/fig-2-1-7.png"><description>number line</description></image>-->
+ <sidebyside width="75%"><!--<image source="photos/fig-2-1-7.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-7"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -248,7 +248,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>Plot <m>9</m> on the number line.</li>  
 	<li>Move <m>5</m> units to the left, to indicate subtraction.</li>  
 	<li>The result is <m>4</m>. The picture is identical to the graph above. </li></ol></p>
-<sidebyside width="75%"><image source="images/fig-2-1-7"><description>number line</description></image>
+<sidebyside width="75%"><image source="photos/fig-2-1-7"><description>number line</description></image>
 </sidebyside>
 </assemblage>
 
@@ -263,7 +263,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 <assemblage><title>Subtracting a negative number</title>
 	<p>Compare the graphs for adding <m>-3</m> and subtracting <m>-3</m><ul>
 	<li>Addition:	<m>~~~~5+(-3)~~~~</m>   Move 3 units to the left, to get 2.
-		<sidebyside width="75%"><!--<image source="images/fig-2-1-8.png"><description>number line</description></image>-->
+		<sidebyside width="75%"><!--<image source="photos/fig-2-1-8.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-8"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -283,7 +283,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(-3,0) node[above, midway, scale=.9]{$-3$};
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
 	<li>Subtraction:  <m>~~~~5-(-3)~~~~</m>   Move 3 units to the right, to get 8. 
-		<sidebyside width="75%"><!--<image source="images/fig-2-1-9.png"><description>number line</description></image>-->
+		<sidebyside width="75%"><!--<image source="photos/fig-2-1-9.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-9"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -331,7 +331,7 @@ Subtracting a negative number has the same result as adding the positive number 
 <p>This rule tells us that we can rewrite every subtraction problem as an addition problem by changing the sign of the second number.</p>
 
 <example><statement><p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a" cols="2">
-    <li><sidebyside width="95%"><!--<image source="images/fig-2-1-ex4a.png"><description>graphic</description></image>-->
+    <li><sidebyside width="95%"><!--<image source="photos/fig-2-1-ex4a.png"><description>graphic</description></image>-->
     <image xml:id="fig-2-1-ex4a"><description>subtracting positive from positive</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -352,7 +352,7 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(B) at (.8,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
-    <li><sidebyside width="95%"><!--<image source="images/fig-2-1-ex4b.png"><description>graphic</description></image>-->
+    <li><sidebyside width="95%"><!--<image source="photos/fig-2-1-ex4b.png"><description>graphic</description></image>-->
     <image xml:id="fig-2-1-ex4b"><description>subtracting positive from negative</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -373,7 +373,7 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(B) at (1,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
-    <li><sidebyside width="80%"><!--<image source="images/fig-2-1-ex4c.png"><description>graphic</description></image>-->
+    <li><sidebyside width="80%"><!--<image source="photos/fig-2-1-ex4c.png"><description>graphic</description></image>-->
     <image xml:id="fig-2-1-ex4c"><description>subtracing negative from positive</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -394,7 +394,7 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(B) at (.9,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
-    <li><sidebyside width="95%"><!--<image source="images/fig-2-1-ex4d.png"><description>graphic</description></image>-->
+    <li><sidebyside width="95%"><!--<image source="photos/fig-2-1-ex4d.png"><description>graphic</description></image>-->
     <image xml:id="fig-2-1-ex4d"><description>subtracting negative from negative</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -588,7 +588,7 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
 <exercises>
 
 <exercise number="1"><statement><p>Graph the numbers on the number line:  <m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p>
-<sidebyside width="70%"><!--<image source="images/sw-2-1-1.png"><description>number line</description></image>-->
+<sidebyside width="70%"><!--<image source="photos/sw-2-1-1.png"><description>number line</description></image>-->
     <image xml:id="sw-2-1-1"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -604,7 +604,7 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
         \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
 
 <exercise number="2"><statement><p>Graph the numbers on the number line:  <m>-4.5,~-2,~-1.4,~0.6,~2</m></p>
-<sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></statement>
+<sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></statement>
 </exercise>
 
 <exercisegroup><introduction><p>Replace the comma in each pair by the proper symbol, <m>\lt,~\gt,~</m> or <m>=</m>.</p></introduction>
@@ -682,19 +682,19 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
 
 <exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
 	<li><p><m>2+4=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
 	<li><p><m>(-4)+(-7)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
 	<li><p><m>(-6)+(-3)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
 	<li><p><m>(+5)+(-3)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
 	<li><p><m>(-7)+(+2)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
 	<li><p><m>(-5)+(+9)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Fill in the blanks.<ol label="a">
 	<li>The sum of two positive numbers is <fillin characters="12"/>.</li>                                      .
@@ -715,11 +715,11 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
 
 <exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
 	<li><p><m>2-(-6)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
 	<li><p><m>-7-(-4)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
 	<li><p><m>-3-(-7)=</m></p>
-	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+	<p><sidebyside width="70%"><image source="photos/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a">
 	<li><m>3-(-9)=</m></li>

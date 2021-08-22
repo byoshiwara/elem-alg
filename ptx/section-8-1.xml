@@ -94,7 +94,7 @@ This expression is an algebraic fraction. </p>
                         <cell><m>2000</m></cell>
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
-    <!--<image source="images/fig-8-1-ex3.png"><description>graph</description></image>-->
+    <!--<image source="photos/fig-8-1-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-8-1-ex3"><description>curve</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -343,7 +343,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
                         <cell><m>2000</m></cell>
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
-   <image source="images/fig-8-1-ex3"><description>curve</description></image></sidebyside>
+   <image source="photos/fig-8-1-ex3"><description>curve</description></image></sidebyside>
 <p><ol label="a">
 	<li>Approximately how many filters should Envirogreen produce for the average cost to be $75?</li>
 	<li>What happens to the average cost per filter as <m>x</m> increases?</li>

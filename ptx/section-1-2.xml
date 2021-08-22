@@ -47,7 +47,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <idx><h>sum</h></idx><idx><h>sum</h><seealso>addition</seealso></idx>
 
 <p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term><idx><h>sum</h></idx> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term><idx><h>term</h><h>of the sum</h></idx> of the sum.</p>
-<!--    <sidebyside width="50%"><image source="images/fig-1-2-1.png"/></sidebyside> -->
+<!--    <sidebyside width="50%"><image source="photos/fig-1-2-1.png"/></sidebyside> -->
     <sidebyside width="42%">
         <image xml:id="fig-1-2-1">
         <description>sums</description>
@@ -106,7 +106,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <assemblage><title>Look Closer</title>
 <p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
-<!--    <sidebyside width="70%"><image source="images/fig-1-2-2.png"/></sidebyside>-->
+<!--    <sidebyside width="70%"><image source="photos/fig-1-2-2.png"/></sidebyside>-->
     <sidebyside width="60%">
         <image xml:id="fig-1-2-2">
         <description>products</description>
@@ -186,7 +186,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <idx><h>difference</h></idx><idx><h>difference</h><seealso>subtraction</seealso></idx>
 
 <p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term><idx><h>difference</h></idx> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term><idx><h>term</h><h></h></idx>.</p>
-<!--    <sidebyside width="70%"><image source="images/fig-1-2-3.png"/></sidebyside>-->
+<!--    <sidebyside width="70%"><image source="photos/fig-1-2-3.png"/></sidebyside>-->
     <sidebyside width="60%">
         <image xml:id="fig-1-2-3">
         <description>differences</description>
@@ -238,7 +238,7 @@ The operation of subtraction is not commutative.</p></warning>
 <idx><h>quotient</h></idx><idx><h>quotient</h><seealso>division</seealso></idx>
 
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
-<!--    <sidebyside width="80%"><image source="images/fig-1-2-4.png"/></sidebyside>-->
+<!--    <sidebyside width="80%"><image source="photos/fig-1-2-4.png"/></sidebyside>-->
     <sidebyside width="60%">
         <image xml:id="fig-1-2-4">
         <description>quotients</description>
@@ -409,7 +409,7 @@ Bert's average score is 15.8.</p></solution></example>
 
 <exercisegroup><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
 
-<exercise number="7"><statement><sidebyside width="35%"><!--<image source="images/sw-1-2-7.png"/>-->
+<exercise number="7"><statement><sidebyside width="35%"><!--<image source="photos/sw-1-2-7.png"/>-->
     <image xml:id="sw-1-2-7"><description>stacks of squares</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -427,7 +427,7 @@ Bert's average score is 15.8.</p></solution></example>
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></statement></exercise>
 
-<exercise number="8"><statement><sidebyside width="35%"><!--<image source="images/sw-1-2-8.png"/>-->
+<exercise number="8"><statement><sidebyside width="35%"><!--<image source="photos/sw-1-2-8.png"/>-->
     <image xml:id="sw-1-2-8"><description>polygonal region with right angles</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

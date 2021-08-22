@@ -134,7 +134,7 @@
 <exercisegroup><introduction><p>For Problems 11<ndash/>12, write an equation relating the variables, make a table of values, and graph your equation on the grid provided.</p></introduction>
 
 <exercise number="11"><statement><p>A new computer station for a graphics design firm costs $2000 and depreciates in value $200 every year. Write and graph an equation that gives the value, <m>V</m>, of the station after <m>t</m> years. Use the grid below.</p>
-    <sidebyside width="50%"><!--<image source="images/cr2-11.png"><description>grid</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/cr2-11.png"><description>grid</description></image>-->
     <image xml:id="cr2-11">
         <description>grid</description>
         <latex-image>
@@ -189,7 +189,7 @@
 </sidebyside></answer></exercise>
 
 <exercise number="12"><statement><p>Ranwa teaches aerobic dance. Her gym pays her $5 for an hour-long class, plus $2 for each paying student in the class. Write and graph an equation that gives Ranwa's pay, <m>P</m>, if there are <m>s</m> students in the class. Use the grid below.</p>
-    <sidebyside width="50%"><!--<image source="images/cr2-12.png"><description>grid</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/cr2-12.png"><description>grid</description></image>-->
     <image xml:id="cr2-12">
         <description>grid</description>
         <latex-image>
@@ -343,7 +343,7 @@
                     </tabular></sidebyside></p></li>
     <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
     <li>Graph your equation on the grid.
-        <sidebyside width="45%"><!--<image source="images/cr2-43.png"><description>grid</description></image>-->
+        <sidebyside width="45%"><!--<image source="photos/cr2-43.png"><description>grid</description></image>-->
     <image xml:id="cr2-43">
         <description>grid</description>
         <latex-image>
@@ -426,13 +426,13 @@
 <exercise number="44"><statement><p>Graph each pair of points on the grid, then find the distance between them.<ol label = "a" cols="2">
 	<li><m>A(-2,-4)</m> and <m>B(-7,-4)</m></li>
 	<li><m>P(6,-2)</m> and <m>Q(6,8)</m></li></ol></p>
-	<sidebyside width="45%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+	<sidebyside width="45%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, make a table of values and graph each equation.
 </p></introduction>
 
 <exercise number="45"><statement><m>y=-2x+7</m>
-<sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="95%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside width="90%">
     <image xml:id="cr2-45ans">
         <description>line</description>
@@ -458,7 +458,7 @@
 </sidebyside></answer></exercise>
 
 <exercise number="46"><statement><m>y=\dfrac{4}{3}x-2</m>
-<sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="95%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, simplify the expression.</p></introduction>
@@ -492,7 +492,7 @@
 <exercise number="55"><statement><p><ol label="a">
     <li><m>-3x+9=24</m></li>
     <li><m>-3x+9=3</m></li></ol></p>
-    <sidebyside width="55%"><!--<image source="images/cr2-55.png"><description>graph</description></image>-->
+    <sidebyside width="55%"><!--<image source="photos/cr2-55.png"><description>graph</description></image>-->
     <image xml:id="cr2-55">
         <description>graph</description>
         <latex-image>
@@ -525,7 +525,7 @@
 <exercise number="56"><statement><p><ol label="a">
     <li><m>24x-1800=-1250</m></li>
     <li><m>24x-1800=500</m></li></ol></p>
-    <sidebyside width="80%"><!--<image source="images/cr2-56.png"><description>graph</description></image>-->
+    <sidebyside width="80%"><!--<image source="photos/cr2-56.png"><description>graph</description></image>-->
     <image xml:id="cr2-56">
         <description>graph</description>
         <latex-image>

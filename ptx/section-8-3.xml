@@ -38,7 +38,7 @@ In words, this says that we can multiply the numerator and denominator of a frac
 
 <p>We can visualize the building process with diagrams. Here are pictures of the original fractions in our example, <m>\dfrac{2}{3}</m> and <m>\dfrac{3}{4}</m>.</p>
 
-<sidebyside widths="35% 35%"><!--<image source="images/fig-8-3-1a.png"><description>rectangles</description></image><image source="images/fig-8-3-1b.png"><description>rectangles</description></image>-->
+<sidebyside widths="35% 35%"><!--<image source="photos/fig-8-3-1a.png"><description>rectangles</description></image><image source="photos/fig-8-3-1b.png"><description>rectangles</description></image>-->
     <image xml:id="fig-8-3-1a"><description>rectangle for 2/3</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -62,7 +62,7 @@ In words, this says that we can multiply the numerator and denominator of a frac
 
 <p>Thirds and fourths are not like fractions -- they are not pieces of the same size. But if we can break up one-third and one-fourth into smaller pieces that are the same size, then we can combine all the pieces. This is what the LCD is for. We can break up both thirds and fourths into twelfths, as shown below.</p>
 
-<sidebyside widths="35% 35%"><!--<image source="images/fig-8-3-2a.png"><description>rectangles</description></image><image source="images/fig-8-3-2b.png"><description>rectangles</description></image>-->
+<sidebyside widths="35% 35%"><!--<image source="photos/fig-8-3-2a.png"><description>rectangles</description></image><image source="photos/fig-8-3-2b.png"><description>rectangles</description></image>-->
     <image xml:id="fig-8-3-2a"><description>rectangle for 8/12</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

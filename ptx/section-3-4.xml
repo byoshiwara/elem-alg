@@ -31,7 +31,7 @@
     <md><mrow>\dfrac{\text{change in temperature}}{\text{change in time}} \amp= \dfrac{\Delta y}{\Delta x}</mrow>
     <mrow> \amp= \dfrac{\text{4 degrees}}{\text{10 minutes}}</mrow></md>
     </p></stack>
-    <image source="images/fig-3-3-ex1"><description>graph</description></image></sidebyside>
+    <image source="photos/fig-3-3-ex1"><description>graph</description></image></sidebyside>
 <p>or <m>m=0.4</m> degrees per minute.</p>
 <p> You can see from either the table or the graph that the <m>y</m>-intercept is the point <m>(0,70)</m>. This means that the initial temperature inside the drying oven was 70 degrees.</p>
 
@@ -88,7 +88,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <example xml:id="Example-3-4-2"><statement><p>Graph the equation <m>~y=\dfrac{3}{4}x-2</m></p></statement>
 
 <solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. 
-	<sidebyside width="40%"><!--<image source="images/fig-3-4-ex2.png"><description>graph</description></image>-->
+	<sidebyside width="40%"><!--<image source="photos/fig-3-4-ex2.png"><description>graph</description></image>-->
     <image xml:id="ig-3-4-ex2"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -253,7 +253,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
     <li>Graph all three equations on the grid.
-    <sidebyside width="50%"><image source="images/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="50%"><image source="photos/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
     <li><p>Find the slope and the <m>y</m>-intercept for each equation.
         <md><mrow>\text{W: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow>
             <mrow>\text{X: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow> 
@@ -301,7 +301,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
     <li>Graph all three equations on the grid.
-    <sidebyside width="50%"><image source="images/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="50%"><image source="photos/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
     <li><p>Find the slope and the <m>y</m>-intercept for each equation.
         <md><mrow>\text{A: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow>
             <mrow>\text{B: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow> 
@@ -341,14 +341,14 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
         \blert{\text{to plot another point.}}
         \end{array}</m></p>
     </li></ol></p>
-    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="48% 50%"><p><ol label="a">
     <li>State the slope and <m>y</m>-intercept of the equation <m>y=-3x+4</m></li>
     <li><p>Graph the equation by the slope-intercept method.</p>  
         <p>Hint:  Write the slope as a fraction,
         <me>m= \dfrac{\Delta y}{\Delta x}=\dfrac{-3}{1} =\dfrac{3}{-1}</me></p></li></ol></p> 
-    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>On Memorial Day weekend, Arturo drives from his home to a cabin on Diamond Lake.  His distance in miles from Diamond Lake after <m>x</m> hours of driving is given by the equation <m>y=450-50x</m>.</p>
 <sidebyside widths="50% 45%" valigns="top top"><p><ol label="a">
@@ -356,7 +356,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 <li>Graph the equation.</li>
 <li><p>What does the <m>y</m>-intercept tell you about the problem?</p>
     <p>What does the slope tell you about the problem?</p></li></ol></p>
-<image source="images/act-3-4-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+<image source="photos/act-3-4-2.png"><description>grid</description></image></sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 
@@ -388,17 +388,17 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
     <li>Graph the line by the slope-intercept method.</li></ol></p></introduction>
 
 <exercise><statement><p><m>12x-8y=16</m></p>
-    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p><m>4x+3y=0</m></p>
-    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>Write the equation for the line in slope-intercept form.</p></introduction>
 
-<exercise><statement><sidebyside width="90%"><image source="images/act-3-4-3.png"><description>grid</description></image></sidebyside></statement></exercise>
+<exercise><statement><sidebyside width="90%"><image source="photos/act-3-4-3.png"><description>grid</description></image></sidebyside></statement></exercise>
 
-<exercise><statement><sidebyside width="90%"><image source="images/act-3-4-4.png"><description>grid</description></image></sidebyside></statement></exercise>
+<exercise><statement><sidebyside width="90%"><image source="photos/act-3-4-4.png"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 </exercises>
 

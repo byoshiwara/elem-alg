@@ -29,7 +29,7 @@
 	<li>Write the equation for the line.</li></ol></p></introduction>
 
 <exercise number="5"><statement>
-	<sidebyside width="90%"><!--<image source="images/hp-3-4-5.png"><description>graph</description></image>-->
+	<sidebyside width="90%"><!--<image source="photos/hp-3-4-5.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-5">
         <description>graph of line</description>
         <latex-image>
@@ -59,7 +59,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement>
-	<sidebyside width="90%"><!--<image source="images/hp-3-4-6.png"><description>graph</description></image>-->
+	<sidebyside width="90%"><!--<image source="photos/hp-3-4-6.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-6">
         <description>graph of ine</description>
         <latex-image>
@@ -85,7 +85,7 @@
     </sidebyside></statement></exercise>
 
 <exercise number="7"><statement>
-	<sidebyside width="90%"><!--<image source="images/hp-3-4-7.png"><description>graph</description></image>-->
+	<sidebyside width="90%"><!--<image source="photos/hp-3-4-7.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-7">
         <description>graph of line</description>
         <latex-image>
@@ -115,7 +115,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="8"><statement>
-	<sidebyside width="90%"><!--<image source="images/hp-3-4-8.png"><description>graph</description></image>-->
+	<sidebyside width="90%"><!--<image source="photos/hp-3-4-8.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-8">
         <description>graph of line</description>
         <latex-image>
@@ -200,7 +200,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
+        <image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer><p><ol label="a">
         <li><sidebyside width="45%" margins="0% 55%">
@@ -286,7 +286,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
+        <image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 
 <exercise number="11"><statement>
@@ -343,7 +343,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
+        <image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer><p><ol label="a">
         <li><sidebyside width="45%" margins="0% 55%">
@@ -429,7 +429,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
+        <image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 </exercisegroup>
 
@@ -449,7 +449,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>(0,3) </m>, <m>~(4,0) </m></p><sidebyside>
     <image xml:id="hp-2-4-13ans">
@@ -491,7 +491,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
@@ -502,7 +502,7 @@
 	<li>Graph the line.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p><m>3x-5y=0</m></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>y=\dfrac{3}{5}x </m></p></li>
     <li><p><m>(0,0) </m>, <m>~\dfrac{3}{5} </m></p></li>
@@ -535,14 +535,14 @@
 </ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><m>5x+4y=0</m></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, graph the equation by using the slope-intercept method.</p></introduction>
 
 <exercise number="17"><statement><p><m>y=3-x</m></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-3-4-17ans">
         <description>line</description>
@@ -569,11 +569,11 @@
 </sidebyside></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=3x-1</m></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise number="19"><statement><p><m>y=\dfrac{3}{4}x+2</m></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-3-4-19ans">
         <description>line</description>
@@ -600,12 +600,12 @@
 </sidebyside></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=-2-\dfrac{4}{3}x</m></p>
-<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
 <exercise number="21"><statement><p>Robin opened a yogurt smoothie shop near campus. The graph shows Robin's profit <m>P</m> after selling <m>s</m> smoothies.</p>
-<sidebyside width="35%"><!--<image source="images/hp-3-4-21.png"><description>graph</description></image>-->
+<sidebyside width="35%"><!--<image source="photos/hp-3-4-21.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-21">
         <description>graph of line</description>
         <latex-image>
@@ -648,7 +648,7 @@
     <li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
 
 <exercise number="22"><statement><p>Serda's score on her driving test is computed by the equation <m>S=120-4n</m>, where <m>n</m> is the number of wrong answers she gives.</p>
-<sidebyside width="40%"><!--<image source="images/hp-3-4-22.png"><description>grid</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/hp-3-4-22.png"><description>grid</description></image>-->
     <image xml:id="hp-3-4-22">
         <description>grid</description>
         <latex-image>
@@ -674,7 +674,7 @@
 </statement></exercise>
 
 <exercise number="23"><statement><p>Greg is monitoring the growth of a new variety of string beans. The height of the vine each day is given in inches by <m>h=18+3d</m> where <m>d=0</m> represents today.</p>
-<sidebyside width="40%"><!--<image source="images/hp-3-4-23.png"><description>grid</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/hp-3-4-23.png"><description>grid</description></image>-->
     <image xml:id="hp-3-4-23">
         <description>grid</description>
         <latex-image>
@@ -728,7 +728,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of questions he answered.</p>
-<sidebyside width="55%"><!--<image source="images/hp-3-4-24.png"><description>grid</description></image>-->
+<sidebyside width="55%"><!--<image source="photos/hp-3-4-24.png"><description>grid</description></image>-->
     <image xml:id="hp-3-4-24">
         <description>grid</description>
         <latex-image>

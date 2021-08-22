@@ -10,7 +10,7 @@
 	<li><m>(3,2)</m></li>
 	<li><m>(-1,-2)</m></li>
 	<li><m>(-3,-6)</m></li></ol></p>
-	<sidebyside width="75%"><!--<image source="images/hp-2-3-1.png"><description>graph</description></image>-->
+	<sidebyside width="75%"><!--<image source="photos/hp-2-3-1.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-1">
         <description>graph</description>
         <latex-image>
@@ -45,7 +45,7 @@
 	<li><m>(4,4)</m></li>
 	<li><m>(0,4)</m></li>
 	<li><m>(-1,-4)</m></li></ol></p>
-	<sidebyside width="75%"><!--<image source="images/hp-2-3-2.png"><description>graph</description></image>-->
+	<sidebyside width="75%"><!--<image source="photos/hp-2-3-2.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-2">
         <description>graph</description>
         <latex-image>
@@ -72,7 +72,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>5, give the coordinates of the labeled points.</p></introduction>
 
-<exercise number="3"><statement><sidebyside width="100%"><!--<image source="images/hp-2-3-3.png"><description>graph</description></image>-->
+<exercise number="3"><statement><sidebyside width="100%"><!--<image source="photos/hp-2-3-3.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-3">
         <description>points on grid</description>
         <latex-image>
@@ -109,7 +109,7 @@
     <li><p><m>(-2,0)</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><sidebyside width="100%"><!--<image source="images/hp-2-3-4.png"><description>graph</description></image>-->
+<exercise number="4"><statement><sidebyside width="100%"><!--<image source="photos/hp-2-3-4.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-4">
         <description>graph</description>
         <latex-image>
@@ -138,7 +138,7 @@
     </image>
 </sidebyside></statement></exercise>
 
-<exercise number="5"><statement><sidebyside width="100%"><!--<image source="images/hp-2-3-5.png"><description>graph</description></image>-->
+<exercise number="5"><statement><sidebyside width="100%"><!--<image source="photos/hp-2-3-5.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-5">
         <description>graph</description>
         <latex-image>
@@ -197,7 +197,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="50%"><!--<image source="images/hp-2-3-6.png"><description>grid</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/hp-2-3-6.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-6">
         <description>grid</description>
         <latex-image>
@@ -238,7 +238,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="50%"><!--<image source="images/hp-2-3-7.png"><description>grid</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/hp-2-3-7.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-7">
         <description>grid</description>
         <latex-image>
@@ -334,7 +334,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
 	<li>Graph your equation, using the values in the table.
-		<sidebyside width="40%"><!--<image source="images/hp-2-3-8.png"><description>grid</description></image>-->
+		<sidebyside width="40%"><!--<image source="photos/hp-2-3-8.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-8">
         <description>grid</description>
         <latex-image>
@@ -362,7 +362,7 @@
 	<li>When will Darren's balance reach $500?</li></ol></p></statement></exercise>
 
 <exercise number="9"><statement><p>Gregory purchased stereo equipment on a monthly installment plan. After <m>m</m> months, Gregory still owes a balance of <m>B</m> dollars.
-	<sidebyside width="40%"><!--<image source="images/hp-2-3-9.png"><description>grid</description></image>-->
+	<sidebyside width="40%"><!--<image source="photos/hp-2-3-9.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-9">
         <description>line on grid</description>
         <latex-image>
@@ -421,7 +421,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-        <sidebyside width="50%"><!--<image source="images/hp-2-3-10.png"><description>grid</description></image>-->
+        <sidebyside width="50%"><!--<image source="photos/hp-2-3-10.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-10">
         <description>grid</description>
         <latex-image>
@@ -465,7 +465,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-        <sidebyside width="50%"><!--<image source="images/hp-2-3-11.png"><description>grid</description></image>-->
+        <sidebyside width="50%"><!--<image source="photos/hp-2-3-11.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-11">
         <description>grid</description>
         <latex-image>
@@ -540,7 +540,7 @@
 <exercisegroup cols = "2"><introduction><p>For Problems 12<ndash/>15, choose four <m>x</m>-values and make a table of values, then graph the equation. Extend your line far enough that it crosses both axes.</p></introduction>
 
 <exercise number="12"><statement><m>y=x+3</m>
-    <sidebyside width="100%"><!--<image source="images/hp-2-3-12.png"><description>grid</description></image>-->
+    <sidebyside width="100%"><!--<image source="photos/hp-2-3-12.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-12">
         <description>grid</description>
         <latex-image>
@@ -564,7 +564,7 @@
     </sidebyside></statement></exercise>
 
 <exercise number="13"><statement><m>y=2x+1</m>
-    <sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-2-3-13ans">
         <description>line on grid</description>
@@ -590,10 +590,10 @@
 </sidebyside></answer></exercise>
 
 <exercise number="14"><statement><m>y=-\dfrac{1}{2}x-5</m>
-    <sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+    <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="15"><statement><m>y=\dfrac{5}{4}x-4</m>
-    <sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-2-3-15ans">
         <description>line on grid</description>
@@ -620,7 +620,7 @@
 </exercisegroup>
 
 <exercise number="16"><statement><p>The graph of <m>y=2x+6</m> is shown below.
-	<sidebyside width="45%"><!--<image source="images/hp-2-3-16.png"><description>grid</description></image>-->
+	<sidebyside width="45%"><!--<image source="photos/hp-2-3-16.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-16">
         <description>line on grid</description>
         <latex-image>
@@ -654,7 +654,7 @@
 <exercisegroup cols = "2"><introduction><p>For Problems 17<ndash/>18, use the graph to solve the equations. Show your solutions on the graph. Then check your solutions algebraically.</p></introduction>
  
 <exercise number="17"><statement>
-	<sidebyside width="100%"><!--<image source="images/hp-2-3-17.png"><description>grid</description></image>-->
+	<sidebyside width="100%"><!--<image source="photos/hp-2-3-17.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-17">
         <description>grid</description>
         <latex-image>
@@ -689,7 +689,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="18"><statement>
-	<sidebyside width="90%"><!--<image source="images/hp-2-3-18.png"><description>grid</description></image>-->
+	<sidebyside width="90%"><!--<image source="photos/hp-2-3-18.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-18">
         <description>grid</description>
         <latex-image>
@@ -722,7 +722,7 @@
 <exercisegroup cols = "2"><introduction><p>For Problems 19<ndash/>20, use the graph to estimate the solution of the equation. Then use a calculator to help you verify the solution algebraically. Do you think your estimate was too big or too small?</p></introduction>
 
 <exercise number="19"><statement><m>37.21-8.4t=24.61</m>
-	<sidebyside width="95%"><!--<image source="images/hp-2-3-19.png"><description>grid</description></image>-->
+	<sidebyside width="95%"><!--<image source="photos/hp-2-3-19.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-19">
         <description>grid</description>
         <latex-image>
@@ -751,7 +751,7 @@
 <answer><p><m>t\approx 1.5</m></p></answer></exercise>
 
 <exercise number="20"><statement><m>-26.4=-3.65+9.1x</m>
-	<sidebyside width="90%"><!--<image source="images/hp-2-3-20.png"><description>grid</description></image>-->
+	<sidebyside width="90%"><!--<image source="photos/hp-2-3-20.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-20">
         <description>grid</description>
         <latex-image>

@@ -66,7 +66,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
 </p></statement></exercise>
 
 <exercise number="23"><statement><p>The rectangle <m>ABCD</m> in the figure is divided into a square and a smaller rectangle, <m>CDEF</m>. The two rectangles <m>ABCD</m> and <m>CDEF</m> are <term>similar</term>, which means that their corresponding sides are proportional. </p>
-<sidebyside width="25%"><!--<image source="images/hp-8-4-23.png"><description>rectangle</description></image>-->
+<sidebyside width="25%"><!--<image source="photos/hp-8-4-23.png"><description>rectangle</description></image>-->
     <image xml:id="hp-8-4-23">
         <description>golden rectangle</description>
         <latex-image>

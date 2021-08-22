@@ -242,7 +242,7 @@
                         <cell><m>4</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                     
                 </tabular>
-    <!--<image source="images/hp-8-1-46.png"><description>grid</description></image>-->
+    <!--<image source="photos/hp-8-1-46.png"><description>grid</description></image>-->
     <image xml:id="hp-8-1-46">
         <description>grid</description>
         <latex-image>
@@ -270,7 +270,7 @@
 <exercise number="47"><statement><sidebyside widths="50% 35%" valigns="middle middle"><p>The crew team can row at a steady pace of 10 miles per hour in still water.  Every afternoon, their training includes a five-mile row upstream on the river. If the current in the river on a given day is <m>v</m> miles per hour, then the time required for this exercise, in minutes, is given by
 	<me>t=\dfrac{300}{10-v}</me>
 Use the graph of this equation shown in the figure to answer questions (a) and (b).</p>
-<!--<image source="images/hp-8-1-47.png"><description>graph</description></image>-->
+<!--<image source="photos/hp-8-1-47.png"><description>graph</description></image>-->
     <image xml:id="hp-8-1-47">
         <description>curve</description>
         <latex-image>

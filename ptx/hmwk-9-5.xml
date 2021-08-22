@@ -20,7 +20,7 @@
 </exercisegroup>
 
 <exercise number="6"><statement><p>Use the graph of <m>y=\sqrt{x}</m> shown below to solve the equations. (You may have to estimate some of the solutions.) Check your answers algebraically.</p>
-<sidebyside width="45%"><!--<image source="images/hp-9-5-6.png"><description>graph</description></image>-->
+<sidebyside width="45%"><!--<image source="photos/hp-9-5-6.png"><description>graph</description></image>-->
     <image xml:id="hp-9-5-6">
         <description>square root graph</description>
         <latex-image>
@@ -53,7 +53,7 @@
 <exercise number="7"><statement><p>The equation for the semicircle shown is  
 	<me>y=\sqrt{9-x^2}</me>
 Find the <m>x</m>-coordinates of two different points on the semicircle that have <m>y</m>-coordinate 2.</p>
-<sidebyside width="40%"><!--<image source="images/hp-9-5-7.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/hp-9-5-7.png"><description>graph</description></image>-->
     <image xml:id="hp-9-5-7">
         <description>semicircle</description>
         <latex-image>
@@ -154,7 +154,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
                         <cell><m>24</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
-    <!-- <image source="images/hp-9-5-21.png"><description>grid</description></image>-->
+    <!-- <image source="photos/hp-9-5-21.png"><description>grid</description></image>-->
     <image xml:id="hp-9-5-21">
         <description>grid</description>
         <latex-image>
@@ -236,7 +236,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
                         <cell><m>16</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
-    <!-- <image source="images/hp-9-5-22.png"><description>grid</description></image>-->
+    <!-- <image source="photos/hp-9-5-22.png"><description>grid</description></image>-->
     <image xml:id="hp-9-5-22">
         <description>grid</description>
         <latex-image>

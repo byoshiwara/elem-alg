@@ -9,7 +9,7 @@
 	<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md> 
 where <m>x</m> is the number of months the refrigerator has been running. We looked for a point on the graphs where the two <m>y</m>-values, which represent the costs, are equal. This point is the intersection point of the graphs, as shown in the figure. The <m>x</m>-coordinate of the intersection point shows that the costs are equal after 50 months.</p>
-	<image source="images/fig-4-2-ex3"><description>graph</description></image></sidebyside>
+	<image source="photos/fig-4-2-ex3"><description>graph</description></image></sidebyside>
 	
 <p>We can also solve the system using algebra.</p>
 
@@ -29,7 +29,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 <idx><h>substitution method</h></idx><idx><h>substitution method</h><seealso>system of equations</seealso></idx>
 
 <p>In <xref ref="Example-4-3-1" text="type-global"/>, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
-<sidebyside width="83%"><!--<image source="images/fig-4-3-1.png"><description>graphic</description></image>-->
+<sidebyside width="83%"><!--<image source="photos/fig-4-3-1.png"><description>graphic</description></image>-->
     <image xml:id="fig-4-3-1"><description>substitution</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -58,7 +58,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 <solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting <m>3x</m> from both sides to get: 
         <me>y=1-3x</me>
 We now substitute the expression <m>1-3x</m> for <m>y</m> in the other equation:
-<sidebyside width="30%"><!--<image source="images/fig-4-3-ex2.png"><description>graphic</description></image>-->
+<sidebyside width="30%"><!--<image source="photos/fig-4-3-ex2.png"><description>graphic</description></image>-->
     <image xml:id="fig-4-3-ex2"><description>substitution</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -232,7 +232,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
          <md><mrow> 6x-2y \amp = 4 </mrow>
              <mrow>\underline{-6x+2y}\amp\underline{{}= 3\vphantom{y}}</mrow>
               <mrow>  0x+0y \amp = 7</mrow></md></p><!--
-<image source="images/fig-4-3-ex6a.png"><description>graph</description></image>-->
+<image source="photos/fig-4-3-ex6a.png"><description>graph</description></image>-->
     <image xml:id="fig-4-3-ex6a"><description>graph of parallel line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -256,7 +256,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
             <md><mrow>-2x+4y \amp = -6</mrow>
                <mrow>\underline{2x-4y}\amp \underline{{}= \hphantom{-}6\vphantom{y}}</mrow>
                 <mrow>0x+0y \amp = 0</mrow></md>  </p>
-<!--<image source="images/fig-4-3-ex6b.png"><description>graph</description></image>-->
+<!--<image source="photos/fig-4-3-ex6b.png"><description>graph</description></image>-->
     <image xml:id="fig-4-3-ex6b"><description>coincident lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

@@ -345,7 +345,7 @@ between 1 and 10 and a power of 10.</li>
 
 <exercisegroup cols="2"><introduction><p>For Problems 65<ndash/>66, find the length of the third side of the right triangle.</p></introduction>
 
-<exercise number="65"><statement><sidebyside width="80%"><!--<image source="images/cr9-65.png"><description>triangles</description></image>-->
+<exercise number="65"><statement><sidebyside width="80%"><!--<image source="photos/cr9-65.png"><description>triangles</description></image>-->
     <image xml:id="cr9-65">
         <description>right triangle</description>
         <latex-image>
@@ -366,7 +366,7 @@ between 1 and 10 and a power of 10.</li>
 </sidebyside></statement>
 <answer><p><m>2\sqrt{10a} </m></p></answer></exercise>
 
-<exercise number="66"><statement><sidebyside width="30%"><!--<image source="images/cr9-66.png"><description>triangles</description></image>-->
+<exercise number="66"><statement><sidebyside width="30%"><!--<image source="photos/cr9-66.png"><description>triangles</description></image>-->
     <image xml:id="cr9-66">
         <description>right triangle</description>
         <latex-image>

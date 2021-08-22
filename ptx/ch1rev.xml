@@ -140,7 +140,7 @@
 		<p><m>\text{Miles driven} = </m></p></li>
 	<li>Let <m>g</m> stand for the number of gallons of gas in Martha's car and <m>m</m> for the number of miles she can drive.  Write an equation for <m>m</m> in terms of <m>g</m>.</li>
 	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
-		<sidebyside width="45%"><!--<image source="images/cr1-1.png"><description>grid</description></image>-->
+		<sidebyside width="45%"><!--<image source="photos/cr1-1.png"><description>grid</description></image>-->
     <image xml:id="cr1-1">
         <description>grid</description>
         <latex-image>
@@ -185,7 +185,7 @@
                     </tabular></sidebyside></li>
         <li>Multiply the number of gallons by 22</li>
         <li><m>m=22g</m></li>
-        <li><sidebyside width="45%"><!--<image source="images/cr1-1ans.png"><description>graph</description></image>-->
+        <li><sidebyside width="45%"><!--<image source="photos/cr1-1ans.png"><description>graph</description></image>-->
     <image xml:id="cr1-1ans">
         <description>line</description>
         <latex-image>
@@ -243,7 +243,7 @@
 		<p><m>\text{Pages left} = </m></p></li>
 	<li>Let <m>r</m> stand for the number of pages Mariel has already read and <m>l</m> for the number of pages she has left to read.  Write an equation for <m>l</m> in terms of <m>r</m>.</li>
 	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
-		<sidebyside width="45%"><!--<image source="images/cr1-2.png"><description>grid</description></image>-->
+		<sidebyside width="45%"><!--<image source="photos/cr1-2.png"><description>grid</description></image>-->
     <image xml:id="cr1-2">
         <description>grid</description>
         <latex-image>
@@ -327,7 +327,7 @@
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular>
     
-<!--<image source="images/cr1-4.png"><description>graph</description></image>-->
+<!--<image source="photos/cr1-4.png"><description>graph</description></image>-->
     <image xml:id="cr1-4">
         <description>line</description>
         <latex-image>
@@ -509,7 +509,7 @@
 	<li><m>y=8-x</m></li>
 	<li><m>y=x+8</m></li>
 	<li><m>y=8x</m></li></ol></p>
-<sidebyside><!--<image source="images/cr1-20.png"><description>graphs</description></image>-->
+<sidebyside><!--<image source="photos/cr1-20.png"><description>graphs</description></image>-->
     <image xml:id="cr1-20">
         <description>graphs of lines</description>
         <latex-image>
@@ -579,7 +579,7 @@
     <li><m>(2,8)</m></li>
     <li><m>(8,3)</m></li>
     <li><m>(6,8)</m></li></ol></p>
-<sidebyside width="35%"><!--<image source="images/cr1-22.png"><description>graphs</description></image>-->
+<sidebyside width="35%"><!--<image source="photos/cr1-22.png"><description>graphs</description></image>-->
     <image xml:id="cr1-22">
         <description>parabola</description>
         <latex-image>
@@ -645,7 +645,7 @@
 <exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
 	<li><m>1.25x=40</m></li>
 	<li><m>30=1.25x</m></li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr1-31.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/cr1-31.png"><description>graph</description></image>-->
     <image xml:id="cr1-31">
         <description>line</description>
         <latex-image>
@@ -678,7 +678,7 @@
 <exercise number="32"><statement>The graph of <p><m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
 	<li><m>\dfrac{24}{x}=6</m></li>
 	<li><m>1.5=\dfrac{24}{x}</m></li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr1-32.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/cr1-32.png"><description>graph</description></image>-->
     <image xml:id="cr1-32">
         <description>curve</description>
         <latex-image>

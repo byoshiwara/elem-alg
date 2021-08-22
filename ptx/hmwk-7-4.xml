@@ -22,7 +22,7 @@
     <li><p>as one large square, using the formula  Area = (length)<m>^2</m>.</p></li></ol></p></introduction>
 
 <exercise number="3"><statement>
-    <sidebyside width="49%"><!--<image source="images/hp-7-4-3.png"><description>rectangle</description></image>-->
+    <sidebyside width="49%"><!--<image source="photos/hp-7-4-3.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-4-3">
         <description>rectangle</description>
         <latex-image>
@@ -46,7 +46,7 @@
     <li><p><m>(x+8)^2</m></p></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement>
-    <sidebyside width="50%"><!--<image source="images/hp-7-4-4.png"><description>rectangle</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/hp-7-4-4.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-4-4">
         <description>rectangle</description>
         <latex-image>
@@ -183,7 +183,7 @@
 <answer><p>No. Let <m>x=1</m>, then <m>(x-1)^2=(-2)^2=4</m>, but <m>x^2-3^2=1-9=-8</m></p></answer></exercise>
 
 <exercise number="42"><statement><p>Use areas to explain why the figure illustrates the product  <m>(a+b)^2 = a^2+2ab+b^2.</m></p>
-<sidebyside width="65%"><!--<image source="images/hp-7-4-42.png"><description>rectangles</description></image>-->
+<sidebyside width="65%"><!--<image source="photos/hp-7-4-42.png"><description>rectangles</description></image>-->
     <image xml:id="hp-7-4-42">
         <description>rectangles</description>
         <latex-image>

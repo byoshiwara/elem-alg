@@ -53,7 +53,7 @@
                         <cell><m>0</m></cell>
                         <cell><m>40(\alert{40})-\alert{40}^2</m></cell></row>                      
                 </tabular></stack>
-        <!--<image source="images/fig-6-2-ex1.png"><description>parabola</description></image>-->
+        <!--<image source="photos/fig-6-2-ex1.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-2-ex1"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -85,7 +85,7 @@
 	<me>R=p(40-p)=40p-p^2</me>
 The graph of this equation is shown again below. </p>
 <sidebyside widths="55% 40%"><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>p=0,~R=0</m>. But there is another point on the graph where <m>R=0</m>;  it has <m>p</m>-coordinate <m>40</m>. If Rick charges 40 dollars an hour, he will not earn any revenue. (Why does this happen?)</p>
-<image source="images/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
+<image source="photos/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
 </subsection>
 
 <subsection><title>The Zero-Factor Principle</title>
@@ -326,7 +326,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>On the grid below, plot the values of  and from your tables and draw a smooth graph of the equation for revenue, <m>R</m>, in terms of <m>p</m>.
-    <sidebyside width="50%"><image source="images/act-6-2-1.png"><description>grid</description></image></sidebyside></li>  
+    <sidebyside width="50%"><image source="photos/act-6-2-1.png"><description>grid</description></image></sidebyside></li>  
     <li>Locate the point on your graph that corresponds to a monthly revenue of $1000.  What are its coordinates?</li>
     <li>Find another point on the graph that corresponds to $1000 monthly revenue.  What price per umbrella produces this revenue?  How many umbrellas will be sold at this price?</li>
     <li>What is the maximum monthly revenue that Raingear can earn from umbrellas?</li>
@@ -416,7 +416,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
                         <cell bottom="minor"><m>10</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></p>
-        <image source="images/cr2-44.png"><description>graph</description></image></sidebyside></p></li>
+        <image source="photos/cr2-44.png"><description>graph</description></image></sidebyside></p></li>
     <li>Use the graph to solve the equation
         <me>\dfrac{1}{2}x^2-4x = -\dfrac{7}{2}</me></li>
     <li>Use the graph to solve the equation

@@ -38,7 +38,7 @@
         y\amp=-3x\\
         y\amp=3x-6
         \end{aligned}</m></p>
-    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
  <exercise number="7"><statement><p>
@@ -46,7 +46,7 @@
         \amp y=\dfrac{3}{4}x-2\\
         \amp 2y-5x=10
         \end{aligned}</m></p>
-    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  <answer><m>(-4,-5)</m></answer></exercise>
 
  <exercise number="8"><statement><p>
@@ -54,7 +54,7 @@
         \amp x+y=4\\
         \amp 3x-3y=12
         \end{aligned}</m></p>
-    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
  <exercise number="9"><statement><p>
@@ -62,7 +62,7 @@
         \amp 2y=-3x\\
         \amp y=-2x-1
         \end{aligned}</m></p>
-    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  <answer><m>(-2,3)</m></answer></exercise>
 </exercisegroup>
 
@@ -159,7 +159,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular></sidebyside></p></li>
     <li><p>Graph both of your equations on the grid. (Both axes are scaled in thousands of dollars.)</p>
-    	<sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
+    	<sidebyside width="40%"><!--<image source="photos/hp-4-2-13.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-13">
         <description>grid</description>
         <latex-image>
@@ -303,7 +303,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular></sidebyside></p></li>
     <li><p>Graph both of your equations on the grid. (The vertical axis is scaled in thousands of dollars.)</p>
-        <sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
+        <sidebyside width="40%"><!--<image source="photos/hp-4-2-13.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-14">
         <description>grid</description>
         <latex-image>
@@ -338,7 +338,7 @@
 	<li>Verify your solution algebraically.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p>A bouquet of 4 roses and 8 carnations costs $14. A bouquet of 6 roses and 9 carnations costs $18. How much do one rose and one carnation cost?</p> 
- 	<sidebyside width="35%"><!--<image source="images/hp-4-2-15.png"><description>grid</description></image>-->
+ 	<sidebyside width="35%"><!--<image source="photos/hp-4-2-15.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-15">
         <description>grid</description>
         <latex-image>
@@ -367,7 +367,7 @@
     <li><m>4(1.5)+8(1)=14;~6(1.5)+9(1)=18</m></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>The vertex angle of an isosceles triangle is <m>15 \degree</m> less than each base angle. (In an isosceles triangle, the base angles are equal.) Find the measure of each angle of the triangle. (Hint:  For your second equation, recall that the sum of the angles in any triangle is <m>180 \degree</m>.</p> 
- 	<sidebyside width="45%"><!--<image source="images/hp-4-2-16.png"><description>grid</description></image>-->
+ 	<sidebyside width="45%"><!--<image source="photos/hp-4-2-16.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-16">
         <description>grid</description>
         <latex-image>

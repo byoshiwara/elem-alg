@@ -19,7 +19,7 @@
 
 <sidebyside width="95%">
 	<idx><h>volume</h><h>formulas</h></idx><idx><h>surface area</h><h>formulas</h></idx>
-	<image source="images/fig-5-3-1"><description>solids</description></image></sidebyside>  
+	<image source="photos/fig-5-3-1"><description>solids</description></image></sidebyside>  
 
 <example><statement><p>At the Red Deer Pub and Microbrewery there is a spherical copper tank in which beer is brewed. If the tank is 4 feet in diameter, how much beer does it hold?</p></statement>
 
@@ -79,7 +79,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 <idx><h>Pythagorean Theorem</h></idx>
 <sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
 <me>a^2 + b^2 = c^2</me></p><!--                  
-<image source="images/fig-5-3-2.png"><description>triangle</description></image>-->
+<image source="photos/fig-5-3-2.png"><description>triangle</description></image>-->
     <image xml:id="fig-5-3-2"><description>right triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -98,7 +98,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 <example><statement><p>The length of a rectangle is 17 centimeters and its diagonal is 20 centimeters long. What is the width of the rectangle?</p></statement>
 
 <solution><sidebyside widths="60% 30%"><p>The diagonal of the rectangle is the hypotenuse of a right triangle, as shown in the figure. We are looking for the width of the rectangle, which forms one of the legs of the right triangle. We use the Pythagorean Theorem.</p>
-<image source="images/fig-5-3-ex3.png"><description>rectangle</description></image></sidebyside>
+<image source="photos/fig-5-3-ex3.png"><description>rectangle</description></image></sidebyside>
 	<md><mrow>a^2 + b^2 \amp = c^2 \amp \amp \blert{\text{Substitute 20 for} ~c~ \text{and 17 for} ~b.}</mrow>
 		<mrow>a^2 + (\alert{17})^2 \amp = (\alert{20})^2 </mrow></md>
 <p>We compute the powers, then solve for <m>a</m>.
@@ -249,7 +249,7 @@ deep?</p></statement></exercise>
 
 <exercise><statement><p><ol label="a">
 	<li><sidebyside widths="60% 25%"><p>The box at right has length <m>l</m>, and its width and height are both <m>w</m>. The box has 6 sides. Write expressions for the area of each face of the box.</p>
-	<image source="images/act-5-3-1.png"><description>box</description></image></sidebyside>
+	<image source="photos/act-5-3-1.png"><description>box</description></image></sidebyside>
 	<p><m>\blert{\text{Top:}}</m></p>
 	<p><m>\blert{\text{Bottom:}}</m></p>
 	<p><m>\blert{\text{Front:}}</m></p>

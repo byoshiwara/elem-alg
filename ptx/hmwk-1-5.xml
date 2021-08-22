@@ -225,7 +225,7 @@
     <me>9-3(2)=9-6=3</me></p></answer></exercise>
 
 <exercise number="38"><statement><p>Think of the region shown below as a rectangle with a smaller rectangle removed, and write an expression for its area. Then simplify your expression to find the area. (The measurements given are in centimeters.)
-    <sidebyside width="38%"><!--<image source="images/hp-1-5-40.png"><description>region</description></image>-->
+    <sidebyside width="38%"><!--<image source="photos/hp-1-5-40.png"><description>region</description></image>-->
     <image xml:id="hp-1-5-40">
         <description>rectangle with rectangular hole</description>
         <latex-image>

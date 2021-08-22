@@ -222,7 +222,7 @@
 	<li>Write an equation for Julio's final grade, <m>g</m>, in terms of his term paper grade, <m>t</m>.</li>
 	<li>What will Julio's final grade be if he earns a grade of 65 on the term paper? What if he earns a grade of 80?</li>
 	<li><p>Use the graph below to estimate what grade Julio must make on the term paper in order to earn afinal grade of 80 in the class.</p>
-	<sidebyside width="60%"><!--<image source="images/hp-4-4-12.png"><description>graph</description></image>-->
+	<sidebyside width="60%"><!--<image source="photos/hp-4-4-12.png"><description>graph</description></image>-->
     <image xml:id="hp-4-4-12"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

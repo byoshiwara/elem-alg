@@ -146,7 +146,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>30, find an algebraic expression for the area of the rectangle. Use the distributive law to write the expression in two ways.</p></introduction>
 
 <exercise number="29"><statement>
-    <sidebyside width="50%"><!--<image source="images/hp-4-1-29.png"><description>rectangle</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/hp-4-1-29.png"><description>rectangle</description></image>-->
     <image xml:id="hp-4-1-29">
         <description>rectangle</description>
         <latex-image>
@@ -166,7 +166,7 @@
 <answer><p><m>5(2x+3):~10x+15</m></p></answer></exercise>
 
 <exercise number="30"><statement>
-    <sidebyside width="65%"><!--<image source="images/hp-4-1-30.png"><description>rectangle</description></image>-->
+    <sidebyside width="65%"><!--<image source="photos/hp-4-1-30.png"><description>rectangle</description></image>-->
     <image xml:id="hp-4-1-30">
         <description>rectangle</description>
         <latex-image>

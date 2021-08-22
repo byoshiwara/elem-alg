@@ -279,7 +279,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercisegroup><introduction><p>For Problems 32<ndash/>33, use the graphs to answer the questions.</p></introduction>
 
 <exercise number="32"><statement><p>Francine's new puppy weighed 3.8 pounds when she brought it home, and it should gain approximately 0.6 pound per week. The graph shows the puppy's weight, <m>W</m>, after <m>t</m> weeks.
-	<sidebyside width="50%"><!--<image source="images/hp-2-4-32.png"><description>graph</description></image>-->
+	<sidebyside width="50%"><!--<image source="photos/hp-2-4-32.png"><description>graph</description></image>-->
     <image xml:id="hp-2-4-32">
         <description>line on grid</description>
         <latex-image>
@@ -311,7 +311,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 
 <exercise number="33"><statement><p>Marvin's telephone company charges $13 a month plus $0.15 per minute. The graph  
 shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
-	<sidebyside width="50%"><!--<image source="images/hp-2-4-33.png"><description>graph</description></image>-->
+	<sidebyside width="50%"><!--<image source="photos/hp-2-4-33.png"><description>graph</description></image>-->
     <image xml:id="hp-2-4-33">
         <description>line on grid</description>
         <latex-image>
@@ -388,7 +388,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 
 <exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>42, write and solve an equation to find the value of <m>x</m>.</p></introduction>
 
-<exercise number="41"><statement><sidebyside width="70%"><!--<image source="images/hp-2-4-41.png"><description>rectangle</description></image>-->
+<exercise number="41"><statement><sidebyside width="70%"><!--<image source="photos/hp-2-4-41.png"><description>rectangle</description></image>-->
     <image xml:id="hp-2-4-41">
         <description>rectangle</description>
         <latex-image>
@@ -415,7 +415,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 </sidebyside></statement>
 <answer><p><m>4x+8=36 </m>; <m>~x=7</m></p></answer></exercise>
 
-<exercise number="42"><statement><sidebyside width="65%"><!--<image source="images/hp-2-4-42.png"><description>triangle</description></image>-->
+<exercise number="42"><statement><sidebyside width="65%"><!--<image source="photos/hp-2-4-42.png"><description>triangle</description></image>-->
     <image xml:id="hp-2-4-42">
         <description>triangle</description>
         <latex-image>

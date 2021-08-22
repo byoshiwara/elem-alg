@@ -150,7 +150,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
-   <!--<image source="images/hp-3-2-23.png"><description>grid</description></image>-->
+   <!--<image source="photos/hp-3-2-23.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-23">
         <description>grid</description>
         <latex-image>
@@ -219,7 +219,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
-<!--<image source="images/hp-3-2-24.png"><description>grid</description></image>-->
+<!--<image source="photos/hp-3-2-24.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-24">
         <description>grid</description>
         <latex-image>
@@ -256,7 +256,7 @@
 <exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
     <li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
     <li>Graph your equation.
-    <sidebyside width="30%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
+    <sidebyside width="30%"><!--<image source="photos/hp-3-2-26.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-26">
         <description>grid</description>
         <latex-image>
@@ -319,7 +319,7 @@
 <ol label="a"> 
     <li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
     <li><p>Graph your equation.</p>
-    <sidebyside width="50%"><!--<image source="images/hp-3-2-27.png"><description>grid</description></image>-->
+    <sidebyside width="50%"><!--<image source="photos/hp-3-2-27.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-27">
         <description>grid</description>
         <latex-image>
@@ -459,7 +459,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
     <li><p>Graph your equation, using the values in your table.</p>
-        <sidebyside width="50%"><!--<image source="images/hp-3-2-29.png"><description>grid</description></image>-->
+        <sidebyside width="50%"><!--<image source="photos/hp-3-2-29.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-29">
         <description>grid</description>
         <latex-image>
@@ -545,7 +545,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
 	<li><p>Graph your equation, using the values in your table.</p>
-		<sidebyside width="50%"><!--<image source="images/hp-3-2-30.png"><description>grid</description></image>-->
+		<sidebyside width="50%"><!--<image source="photos/hp-3-2-30.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-30">
         <description>grid</description>
         <latex-image>

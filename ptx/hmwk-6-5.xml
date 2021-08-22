@@ -69,7 +69,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, the figure is a right triangle. Find the unknown sides.
 </p></introduction>
 
-<exercise number="15"><statement><p><sidebyside width="60%"><!--<image source="images/hp-6-5-15.png"><description>triangle</description></image>-->
+<exercise number="15"><statement><p><sidebyside width="60%"><!--<image source="photos/hp-6-5-15.png"><description>triangle</description></image>-->
     <image xml:id="hp-6-5-15">
         <description>triangle</description>
         <latex-image>
@@ -88,7 +88,7 @@
 </sidebyside></p></statement>
 <answer><p><m>x=8</m>; <m>2x-1=15</m></p></answer></exercise>
 
-<exercise number="16"><statement><p><sidebyside width="40%"><!--<image source="images/hp-6-5-16.png"><description>triangle</description></image>-->
+<exercise number="16"><statement><p><sidebyside width="40%"><!--<image source="photos/hp-6-5-16.png"><description>triangle</description></image>-->
     <image xml:id="hp-6-5-16">
         <description>triangle</description>
         <latex-image>
@@ -113,7 +113,7 @@
 	<li>Sketch the graph.</li></ol></p></introduction>
 
 <exercise number="17"><statement><p><m>y=x^2-2x-2</m></p>
-	<sidebyside width="80%"><image source="images/hp-6-4-9"><description>grid</description></image></sidebyside>
+	<sidebyside width="80%"><image source="photos/hp-6-4-9"><description>grid</description></image></sidebyside>
 </statement>
 <answer><p><ol label="a">
 	<li><p><m>(-0.73,0)</m>, <m>(2.73,0)</m></p></li>
@@ -144,7 +144,7 @@
 	</sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=-3x^2+2x-1</m></p>
-	<sidebyside width="80%"><!--<image source="images/hp-6-5-18.png"><description>grid</description></image>-->
+	<sidebyside width="80%"><!--<image source="photos/hp-6-5-18.png"><description>grid</description></image>-->
     <image xml:id="hp-6-5-18">
         <description>grid</description>
         <latex-image>
@@ -170,7 +170,7 @@
 </statement></exercise>
 
 <exercise number="19"><statement><p><m>y=x^2-4x-1</m></p>
-	<sidebyside width="80%"><!--<image source="images/hp-6-5-19.png"><description>grid</description></image>-->
+	<sidebyside width="80%"><!--<image source="photos/hp-6-5-19.png"><description>grid</description></image>-->
     <image xml:id="hp-6-5-19">
         <description>grid</description>
         <latex-image>
@@ -223,7 +223,7 @@
 	</sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=x^2-0.6x-7.2</m></p>
-	<sidebyside width="80%"><image source="images/hp-6-5-18"><description>grid</description></image></sidebyside>
+	<sidebyside width="80%"><image source="photos/hp-6-5-18"><description>grid</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 

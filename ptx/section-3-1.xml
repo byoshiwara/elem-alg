@@ -15,7 +15,7 @@
 </p><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><stack>  
 <p>We can see that its <m>x</m>-intercept is the point <m>(-8,0)</m>, and its <m>y</m>-intercept is <m>(0,4)</m>.</p> 
 <p>If we have an equation for a line we can find the intercepts of its graph algebraically. In Example 1 we'll use algebra to find the intercepts of this line.</p></stack>
-<!--<image source="images/fig-3-1-1.png"><description>graph</description></image>-->
+<!--<image source="photos/fig-3-1-1.png"><description>graph</description></image>-->
 <image xml:id="fig-3-1-1"><description>graph of line</description><latex-image>
     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
     <![CDATA[\tikzset{%
@@ -109,7 +109,7 @@ The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
                         <cell><m>0</m></cell></row>
                     </tabular>
 
-        <!--<image source="images/fig-3-1-ex2.png"><description>graph</description></image>-->
+        <!--<image source="photos/fig-3-1-ex2.png"><description>graph</description></image>-->
     <image xml:id="fig-3-1-ex2"><description>graph of line and intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -181,7 +181,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 	<li><p>An equation for the temperature is
 		<me>T=-12+2h</me>
 		A graph of the equation is shown below. 
-		<sidebyside width="45%"><!--<image source="images/fig-3-1-ex3.png"><description>graph</description></image>-->
+		<sidebyside width="45%"><!--<image source="photos/fig-3-1-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-3-1-ex3"><description>graph: line and intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -274,7 +274,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>Plot a third point as a check.</li></ol></p>
-    <image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="55% 45%" valigns="middle middle">
 <p><ol label="a">
@@ -293,7 +293,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>Plot a third point as a check.</li></ol></p>
-    <image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement></exercise>  
+    <image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement></exercise>  
 </exercises>
 </subsubsection>
 
@@ -305,7 +305,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 
 The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the amount of rainforest remaining, <m>y</m> (in millions of square kilometers).<ol label="a">  
     <li>If we continue to clear the rainforests at the same rate, the graph will be a straight line. Draw a straight line through the two points in the figure above. Make your line long enough to cross both axes.  
-<sidebyside width="65%"><image source="images/act-3-1-1.png"><description>grid</description></image></sidebyside></li>
+<sidebyside width="65%"><image source="photos/act-3-1-1.png"><description>grid</description></image></sidebyside></li>
     <li><p>Estimate the coordinates of the <m>x</m>- and <m>y</m>-intercepts of your graph.
     <md><mrow> \amp x\text{-intercept:}~~ <fillin characters="10"/></mrow>                             
         <mrow> \amp y\text{-intercept:}~~ <fillin characters="10"/></mrow></md>                            
@@ -329,7 +329,7 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>Explain what each intercept tells us about the vitamins.</li></ol></p>
-    <image source="images/act-3-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/act-3-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 
@@ -356,19 +356,19 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
     <li>Use the intercept method to graph the line.</li></ol></p></introduction>    
 
 <exercise><statement><p><m>3x-5y=15</m></p>
-    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>y=\dfrac{-4}{3}x+8</m></p>
-    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>\dfrac{x}{6} + \dfrac{y}{8} = -1</m></p>
-    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>x - \dfrac{2}{3}y -4 = 0</m></p>
-    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 </exercises>

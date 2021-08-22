@@ -225,7 +225,7 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 
 <sidebyside widths="70% 25%"><stack><p>In this Activity we use a formula for the surface area of a pyramid with a square base, as shown in the figure at right.</p>  
  <p>The pyramid has five faces, namely, the square base and four triangular sides. We know the height, <m>h</m>, of the pyramid, and the length, <m>s</m>, of the base.</p></stack> 
-<image source="images/act-9-4-1.png"><description>pyramid</description></image></sidebyside>
+<image source="photos/act-9-4-1.png"><description>pyramid</description></image></sidebyside>
 
 <p>To calculate the surface area of the pyramid, we add the area of its base and the areas of the four triangular faces.
     <md><mrow>S \amp = \text{(area of base)}~+~4 ~\text{(area of triangular face)}</mrow>
@@ -234,7 +234,7 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 
 <p>Use the formula given above to find the surface area of the Sun Pyramid in Mexico. The pyramid is 210 feet high and has a square base 689 feet on each side.</p>
 
-<sidebyside width="70%"><image source="images/act-9-4-2.png"><description>pyramid</description></image></sidebyside>
+<sidebyside width="70%"><image source="photos/act-9-4-2.png"><description>pyramid</description></image></sidebyside>
 
 <p>Challenge: Can you verify the expression for the area of a triangular face of the pyramid? Begin by finding the altitude of the face.</p>
 </subsubsection>

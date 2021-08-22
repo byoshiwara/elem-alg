@@ -7,7 +7,7 @@
 <idx><h>exponent</h></idx>
 
 <p>The area of a rectangle <idx><h>area</h><h>of rectangle</h></idx> is given by the formula <m>A=lw</m>. The variable <m>l</m> stands for the length of the rectangle, and <m>w</m> stands for for its width. The area tells us how many square tiles, one unit on a side, will fit inside the rectangle, as shown below.</p>
-<sidebyside width="90%"><image source="images/fig-5-1-1"><description>box</description></image></sidebyside> 
+<sidebyside width="90%"><image source="photos/fig-5-1-1"><description>box</description></image></sidebyside> 
 
 <p>Similarly, the volume of a box <idx><h>volume</h><h>of box</h></idx> (measured in cubic units) is given by the formula <m>V=lwh</m>, where <m>l,~w</m>, and <m>h</m> stand for the length, width, and height of the box. The volume tells us how many blocks, one unit on a side, will fit inside the box. The volume of the box shown above is
 	<me>v=lwh = 6 \cdot 4 \cdot 3 =72~\text{cubic units}</me></p>
@@ -16,7 +16,7 @@
 	<me>A=s \cdot s</me></p>     
 <sidebyside widths="70% 20%"><p>A <term>cube</term><idx><h>cube</h></idx> is a box whose length, width, and height are all equal, so its volume is given by
 	<me>V=s \cdot s \cdot s</me></p>  
-<image source="images/fig-5-1-2"><description>cube</description></image></sidebyside>
+<image source="photos/fig-5-1-2"><description>cube</description></image></sidebyside>
 
 <reading-questions>
     <exercise number="1"><statement><p>What is the formula for the volume of a box?</p></statement>
@@ -34,7 +34,7 @@
 <p> The factor <idx><h>factor</h></idx> to which the exponent applies is called the <term>base</term>, and the product is called a <term>power</term> of the base.</p></assemblage> 
 
 <p>For example, </p>
-<sidebyside width="40%"><!--<image source="images/fig-5-1-3.png"><description>exponent</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/fig-5-1-3.png"><description>exponent</description></image>-->
     <image xml:id="fig-5-1-3"><description>meaning of exponent</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -120,8 +120,13 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 
 <p>Scientific calculators usually have a key labeled <m>\boxed{~x^y~}</m> or <m>\boxed{~y^x~}</m>, called the power key, for computing powers. To compute <m>7^4</m> using the power key, we enter
 	<me>7~~\boxed{~y^x~}~~4~~\boxed{~=~}</me>
-Graphing calculators have a caret key, <m>\boxed{~\text{^}~}</m>, for entering powers. On a graphing calculator, we enter <m>7^4</m> as
-	<me>7~~\boxed{~\text{^}~}~~4~~\boxed{\text{ENTER}}</me>
+Graphing calculators have a caret key, <kbd name="circumflex"/>, for entering powers. On a graphing calculator, we enter <m>7^4</m> as</p>
+<p>
+	 7 <kbd name="circumflex"/> 4 <kbd>ENTER</kbd>
+<!-- 	<me>7~~\boxed{~\text{^}~}~~4~~\boxed{\text{ENTER}}</me>
+ -->
+</p>
+<p>
 Also, many calculators have a key labeled <m>\boxed{~x^2~}</m> for computing squares of numbers.</p>
 
 <example><statement><p>Use a calculator to compute the powers.<ol label="a" cols="2">
@@ -129,13 +134,20 @@ Also, many calculators have a key labeled <m>\boxed{~x^2~}</m> for computing squ
 	<li><m>(-12)^4</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
-	<li>We enter the following key strokes:
-		<me>1.2~~\boxed{~y^x~}~~3~~\boxed{~=~}~~~~\text{or}~~~~ 1.2~~\boxed{~\text{^}~}~~3~~\boxed{\text{ENTER}}</me> 
-	to find that <m>(1.2)^3=1.728</m>.</li>
-	<li>If your calculator has a <m>\boxed{~+/-~}</m> key, you can enter
+	<li><p>We enter the following key strokes:</p>
+		<!-- 
+		<me>1.2~~\boxed{~y^x~}~~3~~\boxed{~=~}~~~~\text{or}~~~~ 1.2~~\boxed{~\text{^}~}~~3~~\boxed{\text{ENTER}}</me>  -->
+		<p><m>1.2~~\boxed{~y^x~}~~3~~\boxed{~=~}~~~~</m> or <m>~~~~ 1.2 </m> <kbd name="circumflex"/> <m>~3~</m> <kbd>ENTER</kbd></p>
+	<p>to find that <m>(1.2)^3=1.728</m>.</p></li>
+	<li><p>If your calculator has a <m>\boxed{~+/-~}</m> key, you can enter
 		<me>12~~\boxed{~+/-~}~~\boxed{~y^x~}~~4~~\boxed{~=~}</me>
-	to find that <m>(-12)^4=20,736</m>.  On a graphing calculator, we enter
-	<me>\boxed{~(~}~~\boxed{~-~}~~12~~\boxed{~)~}~~\boxed{~\text{^}~}~~4</me></li></ol></p></solution></example>
+	to find that <m>(-12)^4=20,736</m>.  On a graphing calculator, we enter</p>
+	<!-- 
+	<me>\boxed{~(~}~~\boxed{~-~}~~12~~\boxed{~)~}~~\boxed{~\text{^}~}~~4</me> -->
+	<p>
+		<kbd name="left-paren"/><kbd name="minus"/> 12 <kbd name="right-paren"/> <kbd name="circumflex" /> 4 
+	</p>
+	</li></ol></p></solution></example>
 
 <warning><p>When using a calculator to compute a power of a negative number, we must remember to enclose the number in parentheses. For example, which sequence will calculate the square of <m>-3</m>?
 	<md><mrow>\boxed{~-~}~~3~~\boxed{~x^2~}~=~-9 \amp \amp \blert{\text{Exponent applies only to 3.}}</mrow>

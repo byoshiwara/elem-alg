@@ -88,7 +88,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 <example xml:id="Example-4-2-3"><statement><p>Solve the system in <xref ref="Example-4-2-1" text="type-global"/> by graphing.</p></statement>
 
 <solution><p>The graph of the two equations is shown below. The graph of <m>S</m> has a smaller initial value than <m>E</m>, but it increases more rapidly because its slope is greater. The two graphs intersect at the point labeled <m>P</m>.</p>  
-	<sidebyside width="35%"><!--<image source="images/fig-4-2-ex3.png"><description>graph</description></image>-->
+	<sidebyside width="35%"><!--<image source="photos/fig-4-2-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-ex3"><description>graph of two lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -132,7 +132,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 and the HomeLife policy costs
         <me>H=\dfrac{408}{6}t=68t</me>
 because a semiannual premium covers 6 months. The solution of the system represents the time when the costs of the two policies are equal. The graphs of the two equations are shown below.</p> 
-    <sidebyside width="40%"><!--<image source="images/fig-4-2-ex4.png"><description>graph</description></image>-->
+    <sidebyside width="40%"><!--<image source="photos/fig-4-2-ex4.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-ex4"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -165,7 +165,7 @@ because a semiannual premium covers 6 months. The solution of the system represe
 <solution><p>We graph the first equation by the slope-intercept method: 
 	<me>b=2~~~~~~\text{and}~~~~~~m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{1}</me>
 Its graph is shown below.</p> 
-	<sidebyside width="35%"><!--<image source="images/fig-4-2-ex5.png"><description>graph</description></image>-->
+	<sidebyside width="35%"><!--<image source="photos/fig-4-2-ex5.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-ex5"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -194,7 +194,7 @@ The second equation is the same as the first equation. A system in which the two
 . A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
 
 <p>We have now seen three types of systems. These are illustrated in the figure below. Most of the systems we will study have exactly one solution. Such systems are called <term>consistent and independent</term><idx>consistent and independent</idx>.</p>
-    <sidebyside width="100%"><!--<image source="images/fig-4-2-1.png"><description>graph</description></image>-->
+    <sidebyside width="100%"><!--<image source="photos/fig-4-2-1.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-1"><description>three types of systems</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -293,7 +293,7 @@ We also know that the length is three times the width, or <m>y=3x</m>. These two
 <p>We use the slope-intercept method to graph <m>y=3x</m>:
         <me>b=0 ~~~~~~~~ m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}</me>
 Their graphs are shown below. 
-    <sidebyside width="40%"><!--<image source="images/fig-4-2-ex6.png"><description>graph</description></image>-->
+    <sidebyside width="40%"><!--<image source="photos/fig-4-2-ex6.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-ex6"><description>graph of system</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -388,7 +388,7 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>0</m></cell></row>
                     </tabular></sidebyside></p></stack>
-    <image source="images/act-4-2-1.png"><description>graph</description></image></sidebyside></li>
+    <image source="photos/act-4-2-1.png"><description>graph</description></image></sidebyside></li>
     <li><p>Locate the point where the two graphs intersect.  What are its coordinates?</p>
         <p>Answer the question posed by the biologist.</p></li></ol></p>
 </subsubsection>
@@ -401,7 +401,7 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
     <li>Write an equation about the cost of the books.</li>
     <li>Write a second equation about the number of each type of book.</li>
     <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
-    <image source="images/act-4-2-2.png"><description>graph</description></image></sidebyside>
+    <image source="photos/act-4-2-2.png"><description>graph</description></image></sidebyside>
 </subsubsection>
 
 <subsubsection><title>Activity 3: Inconsistent and Dependent Systems</title>
@@ -433,7 +433,7 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
                     </tabular></sidebyside></p></li>
     <li>To graph the equation for Robert's distance, use the vertical intercept and the slope.</li>
     <li>Locate the point where the two graphs intersect. What are its coordinates?</li></ol></p>
-    <image source="images/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+    <image source="photos/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>Finally, we interpret the solution.<ol label="a">
     <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
@@ -447,7 +447,7 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
         <p>Ruth:    <m>~~~~d=</m></p></li>                                      
     <li>Graph the equations on the grid.</li>  
     <li>What is the solution of this system? What is this type of system called?</li></ol></p>
-    <image source="images/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+    <image source="photos/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol label="a">
     <li><p>Graph the system of equations.
@@ -455,7 +455,7 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
             <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
     Hint:  Use the intercept method to graph the first equation, and the slope-intercept method to graph the second equation.</p></li>
     <li>Is the system inconsistent or dependent?</li></ol></p>
-    <image source="images/grid8k.bmp"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/eight-grid"><description>grid</description></image></sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 
@@ -491,7 +491,7 @@ Explain how you know.</p></statement></exercise>
     <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
         <mrow>2x-3y=12</mrow></md>
 Hint:  Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
-    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>Write a system of equations for the problem:</p>
     <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p></statement></exercise>

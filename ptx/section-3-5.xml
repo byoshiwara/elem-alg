@@ -12,7 +12,7 @@
     <sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
     <md><mrow>m_1 \amp= \dfrac{\Delta y}{\Delta x} =\hphantom{00000} </mrow>
         <mrow>m_2 \amp= \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
-    <!--<image source="images/fig-3-5-1.png"><description>graph</description></image>-->
+    <!--<image source="photos/fig-3-5-1.png"><description>graph</description></image>-->
     <image xml:id="fig-3-5-1"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -41,7 +41,7 @@
 	<sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
     <md><mrow>m_1 \amp= \dfrac{\Delta y}{\Delta x} =\hphantom{00000} </mrow>
         <mrow>m_2 \amp= \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
-	<!--<image source="images/fig-3-5-2.png"><description>graph</description></image>-->
+	<!--<image source="photos/fig-3-5-2.png"><description>graph</description></image>-->
     <image xml:id="fig-3-5-2"><description>perpendicular lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -122,7 +122,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 <example xml:id="Example-3-5-2"><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
 
 <solution><p>Looking at the graph of the line shown below, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
-	<sidebyside width="30%"><image source="images/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
+	<sidebyside width="30%"><image source="photos/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
 <p>In particular, the <m>y</m>-intercept of the line is the point <m>(0,3)</m>, so <m>b=3</m>. As we noted above, the slope of the line is <m>m=0</m>. Substituting these values into the slope-intercept form gives us the equation 
 	<me>y= 0 \cdot x + 3</me>
  or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
@@ -133,7 +133,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 <p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in <xref ref="Example-3-5-2" text="type-global"/>.</p>
 <sidebyside widths="60% 30%" valigns="middle middle" margins="0% 5%"> 
 <p>Look at the graph of the vertical line at right. Every point on the line has <m>x</m>-coordinate <m>-2</m>, no matter what the <m>y</m>-coordinate is. An equation for this line is <m>x=-2</m>. The value of <m>x</m> does not depend upon <m>y</m>; it is constant, so <m>y</m> does not appear in the equation.</p>
-<image source="images/hp-3-3-24"><description>vertical line</description></image></sidebyside></assemblage>
+<image source="photos/hp-3-3-24"><description>vertical line</description></image></sidebyside></assemblage>
 
 <note><p>We make two observations about the examples above.<ul> 
 	<li>The <m>y</m>-intercept of the horizontal line <m>y=3</m> is <m>(0,3)</m>; it has no <m>x</m>-intercept.</li>
@@ -169,7 +169,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
     <me>\Delta y = 5-(-7)=12</me>
 and the distance between points <m>C(\blert{-7}, -3)</m> and <m>D(\blert{-2}, -3)</m> is                
     <me>\Delta x = -2-(-7)=5</me></p>
-<!--<image source="images/fig-3-5-ex3.png"><description>graph</description></image>-->
+<!--<image source="photos/fig-3-5-ex3.png"><description>graph</description></image>-->
 <image xml:id="fig-3-5-ex3"><description>a vertical segment and a horizontal segment</description><latex-image>
     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
     <![CDATA[\tikzset{%
@@ -223,7 +223,7 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 <example><statement><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 0%"><p>Compute the slope of the line segment joining <m>P</m> and <m>R</m> in two ways:<ol label="a">
     <li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using the graph</p></li>
     <li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using coordinates.</p></li></ol></p>
-<!--<image source="images/fig-3-5-ex4.png"><description>graph</description></image>-->
+<!--<image source="photos/fig-3-5-ex4.png"><description>graph</description></image>-->
     <image xml:id="fig-3-5-ex4"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -272,7 +272,7 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 <idx><h>subscript notation</h></idx><idx><h>subscript</h></idx>
     <p>We denote the coordinates of a particular point by <m>(x_1,y_1)</m> and the coordinates of a second point by <m>(x_2,y_2)</m>.</p></assemblage>
 
-<example xml:id="Example-3-5-5"><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>Compute the slope between point <m>D</m> and <m>F</m> in the figure.</p><!--<image source="images/fig-3-5-ex5.png"><description>graph</description></image>-->
+<example xml:id="Example-3-5-5"><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>Compute the slope between point <m>D</m> and <m>F</m> in the figure.</p><!--<image source="photos/fig-3-5-ex5.png"><description>graph</description></image>-->
     <image xml:id="fig-3-5-ex5"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -417,8 +417,8 @@ the same answer as before. The order of the points does not matter, but we must 
 <p><ol label="a">
     <li><p>Sketch a graph of the vertical line passing through <m>(-4,-1)</m>, then find its equation.</p>
         <p>What is the slope of the line?</p>
-        <sidebyside widths="40% 40%"><image source="images/hp-6-5-17.png"><description>grid</description></image>
-        <image source="images/hp-6-5-17.png"><description>grid</description></image></sidebyside></li>
+        <sidebyside widths="40% 40%"><image source="photos/hp-6-5-17.png"><description>grid</description></image>
+        <image source="photos/hp-6-5-17.png"><description>grid</description></image></sidebyside></li>
     <li><p>Sketch a graph of the horizontal line passing through <m>(-4,-1)</m>, then find its equation.</p>
         <p>What is the slope of the line?</p></li></ol></p>
 </subsubsection>
@@ -427,7 +427,7 @@ the same answer as before. The order of the points does not matter, but we must 
 
 <exercises>
 <exercise><statement><sidebyside widths="40% 40%" valigns = "middle middle"><p>Compute the slope of the line segment joining <m>A</m> and <m>C</m> in two ways:</p>
-<image source="images/act-3-5-2.png"><description>line segment</description></image></sidebyside>
+<image source="photos/act-3-5-2.png"><description>line segment</description></image></sidebyside>
 <p><ol label="a">
     <li><p>Using the graph.</p>
     <p>Draw the line through <m>A</m> and <m>C</m>. Use point <m>B</m> to find <m>\Delta y</m> and <m>\Delta x</m>.</p>
@@ -444,7 +444,7 @@ the same answer as before. The order of the points does not matter, but we must 
 </exercise>
 
 <exercise><statement><sidebyside widths="40% 40%" valigns = "middle middle"><p>Follow the steps to compute the slope of the line segment joining <m>H</m> and <m>K</m>.</p>
-<image source="images/act-3-5-3.png"><description>line segment</description></image></sidebyside>
+<image source="photos/act-3-5-3.png"><description>line segment</description></image></sidebyside>
 <p><ol label="a">
     <li><p>Step 1 Let <m>H</m> be the first point and <m>K</m> the second point. Write down their coordinates.
         <md><mrow>H(x_1,y_1) = </mrow>
@@ -489,15 +489,15 @@ the same answer as before. The order of the points does not matter, but we must 
 
 <exercise><statement><p>Sketch a graph of each equation, label the coordinates of its intercept, and state the slope of the line.<ol label="a" cols="2">
     <li><m>y=-6</m>
-    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></li>
     <li><m>x=-8</m>
-    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></li></ol></p>
+    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></li></ol></p>
 </statement></exercise>
 
 <exercise><statement><p>Find the slope of the line through <m>(-2,3)</m> and <m>(1,-5)</m>.  Graph the line.</p>
 <p><m>m = </m></p></statement></exercise>
 
-<sidebyside widths="40% 40%"><image source="images/cr2-44.png"><description>grid</description></image><image source="images/cr2-44.png"><description>grid</description></image></sidebyside>
+<sidebyside widths="40% 40%"><image source="photos/cr2-44.png"><description>grid</description></image><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside>
     
 <exercise><statement><p>Find the slope of the line through <m>(5,-4)</m> and <m>(-2,-4)</m>.  Graph the line.</p>
 <p><m>m = </m></p></statement></exercise>

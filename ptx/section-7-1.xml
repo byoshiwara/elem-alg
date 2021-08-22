@@ -63,7 +63,7 @@ The degree of a polynomial in one variable is the largest exponent that appears 
 <example><statement><p>Write the polynomial <m>x+3x^4-5-2x^2</m> in descending powers.</p></statement>
 
 <solution><p>We start with the highest power. We must be careful to keep the correct sign of each term.</p>
-<sidebyside width="75%"><image source="images/fig-7-1-ex4"><description>graphic</description></image></sidebyside></solution></example>
+<sidebyside width="75%"><image source="photos/fig-7-1-ex4"><description>graphic</description></image></sidebyside></solution></example>
 
 <reading-questions>
     <exercise number="3"><statement><p>What does it mean to write a polynomial in descending powers?</p></statement>
