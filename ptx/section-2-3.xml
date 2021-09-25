@@ -157,7 +157,7 @@
 <example xml:id="Example-2-3-3"><statement><p>The temperature in Nome was <m>-12 \degree</m>F at noon. It has been rising at a rate of <m>2 \degree</m>F per hour all day.<ol label="a">  
     <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
     <li><p>Fill in the table and graph your equation. (Negative values of <m>h</m> represent hours before noon.)</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>-3</m></cell>
@@ -184,7 +184,7 @@
 <solution><p><ol label="a">
     <li>The temperature at <m>h</m> hours after noon is given by <m>T=-12+2h</m>.</li> 
     <li><p>We evaluate the expression for <m>T</m> at each of the <m>h</m>-values in the table.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>-3</m></cell>
@@ -241,7 +241,7 @@
 
 <solution><p> <ol label="a">
     <li><p>We choose <m>x</m>-values that are multiples of 3 and make a table of values.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <sidebyside width="40%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell>
@@ -362,9 +362,9 @@
 <p>Jasmine's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses.<ol label="a">
     <li>Write an equation for Jasmine's electric bill, <m>E</m>, if she uses <m>h</m> kWh of electricity.</li>
     <li><p>Graph your equation.</p>
-        <sidebyside widths="40% 50%"><stack>
-        <p><m>\blert{\text{Make a table of values.}}</m></p>
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+        <sidebyside widths="20% 50%" margins="0% 5%"><stack>
+        <p><m>\blert{\text{Make a table of values.}}</m></p><p></p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
                     <row>
                         <cell bottom="minor"><m>h</m></cell>
                         <cell bottom="minor"><m>E</m></cell></row>
@@ -377,9 +377,30 @@
                     <row>
                         <cell bottom="minor"><m>800</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular> 
+                    </tabular><p></p>
         <p><m>\blert{\text{Plot the points and draw the graph.}}</m></p></stack>
-        <image source="photos/act-2-3-1.png"><description>grid</description></image></sidebyside></li></ol></p>
+        <!--<image source="photos/act-2-3-1.png"><description>grid</description></image>-->
+        <image xml:id="ct-2-3-1">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=0.5, yscale=.35]
+                \draw[cyan] (0,0) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$h$};
+                \draw[black,thick, ->, >=stealth'] (0,-0.2)--(0,11) node[left, xshift=2]{$E$};
+                \foreach \x [evaluate=\x as \xi using int(100*\x] in  {5,10} {
+                 \draw[black, thick] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \foreach \y [evaluate=\y as \yi using int(10*\y] in  {0,5,10} {
+                 \draw[black,thick] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+                }
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+
+        </sidebyside></li></ol></p>
 </subsubsection>
 
 <subsubsection><title>Activity 2: Cartesian Coordinate System</title>
@@ -393,14 +414,40 @@
         <li><m>D~~</m> <fillin characters="12"/></li>
         <li><m>E~~</m> <fillin characters="12"/></li>
         <li><m>F~~</m> <fillin characters="12"/></li></ul></p>
-    <image source="photos/act-2-3-2.png"><description>grid</description></image></sidebyside>
+    <!--<image source="photos/act-2-3-2.png"><description>grid</description></image>-->
+    <image xml:id="act-2-3-2">
+            <description>grid with points</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.5]
+            \coordinate (O) at (0,0);
+            \draw[cyan] (-5,-5) grid (5,5);
+            \draw[black,thick, ->, >=stealth'] (-5,0)--(5.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.6) node[left, xshift=2]{$y$};
+            \foreach \x in  {-5,-4, ...,-1, 1, 2, ...,5} {
+             \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \filldraw[red] (-4,3) circle (2.5pt) node[fill=white, text=black, inner sep=1, above left, xshift=-1, yshift=2] {$A$};
+            \filldraw[red] (0,4) circle (2.5pt) node[fill=white, text=black, inner sep=1, above right, xshift=1, yshift=2] {$B$};
+            \filldraw[red] (4,5) circle (2.5pt) node[fill=white, text=black, inner sep=1, below right, xshift=2, yshift=-1] {$C$};
+            \filldraw[red] (3,0) circle (2.5pt) node[fill=white, text=black, inner sep=1, above right, xshift=1, yshift=2] {$D$};
+            \filldraw[red] (1,-3) circle (2.5pt) node[fill=white, text=black, inner sep=1, below right, xshift=1, yshift=-2] {$E$};
+            \filldraw[red] (-2,-1) circle (2.5pt) node[fill=white, text=black, inner sep=1, below right, xshift=1, yshift=-2] {$F$};
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+
+    </sidebyside>
 </statement></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~y=-2x+6</m>.</p>
     <sidebyside widths="50% 45%" valigns="middle middle">
     <stack><p><ol label="a">
     <li><p>Choose values for <m>x</m> and make a table of values. Choose both positive and negative <m>x</m>-values, as in the suggested table below.
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <tabular top="major" halign="center" right="minor" left="minor">      
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>y</m></cell></row>
@@ -427,7 +474,31 @@
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li> 
     <li>Plot the points and connect them with a straight line.</li></ol></p></stack>
-    <image source="photos/act-2-3-3.png"><description>grid</description></image></sidebyside>
+    <!--<image source="photos/act-2-3-3.png"><description>grid</description></image>-->
+    <image xml:id="act-2-3-3">
+        <description>tall grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid[xstep=1, ystep=1] (10,20);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,21.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,30);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-5, 5, -10, 10,15,20} {
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+
+    </sidebyside>
 </statement></exercise>
 </exercises>
 </subsubsection>
@@ -441,8 +512,8 @@
 
 <exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month.<ol label="a">  
     <li>Write an equation for Francine's financial status, <m>F</m>, in terms of <m>m</m>, months from now.</li>
-    <li><p>Fill in the table. Negative values of <m>m</m> mean months in the past. (Francine's current financial status is <m>-</m>$750.)
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Fill in the table. Negative values of <m>m</m> mean months in the past. (Francine's current financial status is <m>-</m>$750.)</p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>m</m></cell>
                         <cell><m>-5</m></cell>
@@ -461,9 +532,32 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li><p>Graph your equation, using the values in the table.</p>
-        <sidebyside width="60%"><image source="photos/act-2-3-4.png"><description>grid</description></image></sidebyside>
+        <sidebyside width="60%">
+            <!--<image source="photos/act-2-3-4.png"><description>grid</description></image>-->
+            <image xml:id="act-2-3-4">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-5,-10) grid[xstep=1, ystep=1] (15,5);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(16.6,0) node[right]{$m$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,6.6) node[left, xshift=2]{$F$};
+        \foreach \x in  {-5, 5, 10, 15} {
+         \draw[cyan, very thick] (\x,-10) --++(0,15);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \y [evaluate=\y as \yi using int(100*\y] in  {-5, 5, -10} {
+         \draw[cyan, very thick] (-5,\y) --++(20,0);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+        }        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+        </sidebyside>
         <p>Use your graph to answer the questions below, and label the point on the graph that gives the answer.</p></li>
     <li>What will Francine's financial status be 7 months from now?</li>
     <li>When was Francine's financial status <m>-</m>$900?</li></ol></p></statement></exercise>
@@ -492,8 +586,8 @@
 <exercises>
 <exercisegroup cols="2"><introduction><p>Complete the table of values and graph the equation.</p></introduction>
 
-<exercise><statement><p><m>~~y=4-2x</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><m>y=4-2x</m></p>
+    <sidebyside width="70%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-3</m></cell>
@@ -507,11 +601,13 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="90%"><image source="photos/pre-2-3-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="80%">
+        <image source="photos/stangrid10"><description>grid</description></image>
+    </sidebyside>
 </statement></exercise>
 
-<exercise><statement><p><m>~~y=-6+3x</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><m>y=-6+3x</m></p>
+    <sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -525,11 +621,11 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="90%"><image source="photos/pre-2-3-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
-<exercise><statement><p><m>~~y=-2+\dfrac{4}{3}x</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><m>y=-2+\dfrac{4}{3}x</m></p>
+    <sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-3</m></cell>
@@ -543,11 +639,11 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="90%"><image source="photos/pre-2-3-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
-<exercise><statement><p><m>~~y=2-\dfrac{3}{4}x</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><m>y=2-\dfrac{3}{4}x</m></p>
+    <sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-8</m></cell>
@@ -561,16 +657,108 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="90%"><image source="photos/pre-2-3-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
-    <li><sidebyside width="50%"><image source="photos/pre-2-3-2.png"><description>graph</description></image></sidebyside></li>
-    <li><sidebyside width="50%"><image source="photos/pre-2-3-3.png"><description>graph</description></image></sidebyside></li>
-    <li><sidebyside width="50%"><image source="photos/pre-2-3-4.png"><description>graph</description></image></sidebyside></li>
-    <li><sidebyside width="50%"><image source="photos/pre-2-3-5.png"><description>graph</description></image></sidebyside></li></ol></p></subsubsection>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-2.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-2">
+                <description>grid and line</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.2]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[red,thick, <->, >=stealth'] (-3,10)--(7,-10);
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-3.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-3">
+                <description>grid and line</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.2]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[red,thick, <->, >=stealth'] (-4/3,-10)--(16/3,10);
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-4.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-4">
+                <description>grid and line</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.2]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[red,thick, <->, >=stealth'] (-6,-10)--(9,10);
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-5.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-5">
+                <description>grid and line</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.2]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[red,thick, <->, >=stealth'] (-10,19/2)--(10,-11/2);
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside></li></ol></p></subsubsection>
 </subsection>
 
 <xi:include href="./hmwk-2-3.xml" />

@@ -103,29 +103,29 @@ We see that the constant term of the trinomial is the product <m>pq</m>, and the
 
 <solution><p>The factored form looks like   
 	<me>a^2+13a+40=(a+p)(a+q)</me>
-where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>, it may help to list all possible pairs of numbers whose product is 40. Then we can check each pair of numbers to see which pair has a sum of 13.
-<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
-                    <row>
-                        <cell><m>\hphantom{00}\blert{p}\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}\blert{q}\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{00}\blert{p+q}\hphantom{00}</m></cell></row>
-                    <row> 
-                        <cell><m>1</m></cell>
-                        <cell><m>40</m></cell>
-                        <cell><m>41</m></cell></row>
-                    <row> 
-                        <cell><m>2</m></cell>
-                        <cell><m>20</m></cell>
-                        <cell><m>22</m></cell></row>
-                    <row> 
-                        <cell><m>4</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>14</m></cell></row>
-                    <row> 
-                        <cell><m>\blert{5}</m></cell>
-                        <cell><m>\blert{8}</m></cell>
-                        <cell><m>\blert{13}</m></cell></row>
-                    </tabular></sidebyside></p> 
+where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>, it may help to list all possible pairs of numbers whose product is 40. Then we can check each pair of numbers to see which pair has a sum of 13.</p>
+<tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+    <row>
+        <cell><m>\hphantom{00}\blert{p}\hphantom{00}</m></cell>
+        <cell><m>\hphantom{00}\blert{q}\hphantom{00}</m></cell>
+        <cell><m>\hphantom{00}\blert{p+q}\hphantom{00}</m></cell></row>
+    <row> 
+        <cell><m>1</m></cell>
+        <cell><m>40</m></cell>
+        <cell><m>41</m></cell></row>
+    <row> 
+        <cell><m>2</m></cell>
+        <cell><m>20</m></cell>
+        <cell><m>22</m></cell></row>
+    <row> 
+        <cell><m>4</m></cell>
+        <cell><m>10</m></cell>
+        <cell><m>14</m></cell></row>
+    <row> 
+        <cell><m>\blert{5}</m></cell>
+        <cell><m>\blert{8}</m></cell>
+        <cell><m>\blert{13}</m></cell></row>
+    </tabular>
 <p>We see that <m>5 \cdot 8 = 40</m> and <m>5+8=13</m>, so the correct factorization is
 	<me>a^2+13a+40=(a+5)(a+8)</me>
  We can also write the factored form as <m>(a+8)(a+5)</m>;  the order of the factors does not matter. Aside from rearranging the factors, there is only one correct factorization for these quadratic trinomials.</p></solution></example>
@@ -230,7 +230,6 @@ where <m>h</m> is in feet. The figure below shows a graph of the equation.</p>
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
 		}
 		\draw[samples=65,domain=0:10,smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{240/25+16/25*\x-16/25*(\x/2)^2});
-		\end{tikzpicture}
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>From the graph, we see that it takes the book 5 seconds to reach the ground. Because <m>h=0</m> when the book reaches the ground, 5 is one of the solutions of the quadratic equation 

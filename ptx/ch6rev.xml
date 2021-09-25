@@ -437,7 +437,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 <sidebyside width="80%"><image source="photos/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="45"><statement><p><m>y=x^2+6x</m></p>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>(-6,0), (0,0)</m>; <m>(0,0)</m></p></li>
     <li><p><m>(-3,-9)</m></p></li>
@@ -467,7 +467,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     </ol></p></answer></exercise>
 
 <exercise number="46"><statement><p><m>y=x^2+3x-4</m></p>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, find the unknown sides of the right triangle.</p></introduction>
@@ -485,7 +485,6 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 		\node[left] at (-1.1,-1.5) {$m+5$};
 		\node[right] at (0,-1.5) {$m$};
 		\node[above] at (-1,0) {$8$};
-		\end{tikzpicture}
         \end{tikzpicture}]]>
     </latex-image>
     </image>

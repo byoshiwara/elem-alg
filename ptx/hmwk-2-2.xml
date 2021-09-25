@@ -196,7 +196,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li>How much of Salewa's savings will be left after 3 weeks?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
 	<li>Fill in the table below.
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Number of weeks</cell>
                         <cell><m>2</m></cell>
@@ -217,7 +217,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <answer><p><ol label="a">
 	<li>$4400;~ $2600</li>
 	<li>Multiply the number of weeks by $200, then subtract from $5000.</li>
-	<li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Number of weeks</cell>
                         <cell><m>2</m></cell>
@@ -235,12 +235,12 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li>What is Francine's state income tax if her income is $8000?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
 	<li>Fill in the table below.
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Income</cell>
-                        <cell><m>$5000</m></cell>
-                        <cell><m>$7000</m></cell>
-                        <cell><m>$12,000</m></cell></row>
+                        <cell>$5000</cell>
+                        <cell>$7000</cell>
+                        <cell>$12,000</cell></row>
                     <row> 
                         <cell>Calculation</cell>
                         <cell><m>\hphantom{0000}</m></cell>

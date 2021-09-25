@@ -71,8 +71,8 @@ The <m>x</m>-intercept is <m>(-8,0)</m>, as expected.</p></solution></example>
 <subsection><title>The Intercept Method of Graphing</title>
 <idx><h>intercept</h><h>method of graphing</h></idx>
 
-<p>We can use the <m>x</m>- and <m>y</m>-intercepts to graph a linear equation quickly. Instead of choosing several different values of <m>x</m> to find points on the graph, we find the two intercepts and fill in the short table shown below.  By finding the missing values for <m>x</m> and <m>y</m> we are finding the intercepts of the graph.  
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<p>We can use the <m>x</m>- and <m>y</m>-intercepts to graph a linear equation quickly. Instead of choosing several different values of <m>x</m> to find points on the graph, we find the two intercepts and fill in the short table shown below.  By finding the missing values for <m>x</m> and <m>y</m> we are finding the intercepts of the graph.</p>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -82,7 +82,7 @@ The <m>x</m>-intercept is <m>(-8,0)</m>, as expected.</p></solution></example>
                     <row>
                     	<cell><m>\hphantom{0000}</m></cell> 
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular>
 
 <example><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.</p></statement>
 
@@ -152,7 +152,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
     <exercise number="3"><statement><p>How do we graph a line by the intercept method?</p></statement>
     	<answer><p>Draw a line through the two intercepts.</p></answer></exercise>
     <exercise number="4"><statement><p>Make a table that you can use with the intercept method.</p></statement>
-    	<answer><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    	<answer><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -162,9 +162,9 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
                     <row>
                     	<cell><m>\hphantom{0000}</m></cell> 
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p></answer></exercise>
+                    </tabular></answer></exercise>
     <exercise number="5"><statement><p>What is the <m>y</m>-intercept of the line <m>3x+2y=7</m>?</p></statement>
-    	<answer><m>(0,3\dfrac{1}{2})</m></answer></exercise>
+    	<answer><m>\left(0,3\dfrac{1}{2}\right)</m></answer></exercise>
 </reading-questions>
 </subsection>
 
@@ -261,8 +261,8 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 <p><ol label="a">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of 
             <me>3x-2y=12</me></li>
-    <li><p>Graph by the intercept method.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Graph by the intercept method.</p><p></p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -272,16 +272,16 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
                     <row>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>Plot a third point as a check.</li></ol></p>
-    <image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="55% 45%" valigns="middle middle">
 <p><ol label="a">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of 
             <me>2x=5y-10</me></li>
-    <li><p>Graph by the intercept method.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Graph by the intercept method.</p><p></p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -291,9 +291,9 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
                     <row>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>Plot a third point as a check.</li></ol></p>
-    <image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement></exercise>  
+    <image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement></exercise>  
 </exercises>
 </subsubsection>
 
@@ -305,7 +305,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 
 The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the amount of rainforest remaining, <m>y</m> (in millions of square kilometers).<ol label="a">  
     <li>If we continue to clear the rainforests at the same rate, the graph will be a straight line. Draw a straight line through the two points in the figure above. Make your line long enough to cross both axes.  
-<sidebyside width="65%"><image source="photos/act-3-1-1.png"><description>grid</description></image></sidebyside></li>
+<sidebyside width="65%"><image source="photos/act-3-1-2-1"><description>grid</description></image></sidebyside></li>
     <li><p>Estimate the coordinates of the <m>x</m>- and <m>y</m>-intercepts of your graph.
     <md><mrow> \amp x\text{-intercept:}~~ <fillin characters="10"/></mrow>                             
         <mrow> \amp y\text{-intercept:}~~ <fillin characters="10"/></mrow></md>                            
@@ -329,7 +329,23 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>Explain what each intercept tells us about the vitamins.</li></ol></p>
-    <image source="photos/act-3-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <!--<image source="photos/act-3-1-2.png"><description>grid</description></image>-->
+    <image xml:id="act-3-1-2-2">
+            <description>unlabeled grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [xscale=0.5, yscale=.6]
+            \draw[cyan] (0,0) grid (10,10);
+            \foreach \x in  {1,2,...,10} {
+             \draw[black] (\x,.15) --++(0,-.3);
+             \draw[black] (.15,\x) --++(-.3,0);
+            }            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+
+</sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 
@@ -356,19 +372,19 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
     <li>Use the intercept method to graph the line.</li></ol></p></introduction>    
 
 <exercise><statement><p><m>3x-5y=15</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>y=\dfrac{-4}{3}x+8</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>\dfrac{x}{6} + \dfrac{y}{8} = -1</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>x - \dfrac{2}{3}y -4 = 0</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 </exercises>

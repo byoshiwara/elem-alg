@@ -13,16 +13,16 @@
 <p>The exponents in a polynomial must be whole numbers, which means that a polynomial has no radicals containing variables, and no variables in the denominators of fractions.</p></assemblage> 
 
 <example><statement><p>The following expressions are polynomials.</p>
-	<sidebyside><tabular>              
-                    <row>
-                        <cell><m>4x^3+2x^2-7x+5</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\dfrac{1}{2}at^2+vt</m></cell></row>
-                    <row> 
-                        <cell><m>2a^2-6ab+3b^2</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\pi r^2h</m></cell></row>
-                    </tabular></sidebyside></statement></example>
+	<tabular>              
+        <row>
+            <cell><m>4x^3+2x^2-7x+5</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\dfrac{1}{2}at^2+vt</m></cell></row>
+        <row> 
+            <cell><m>2a^2-6ab+3b^2</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\pi r^2h</m></cell></row>
+        </tabular></statement></example>
 
 <assemblage><p>Recall that:  An algebraic expression with only one term is called a <term>monomial</term>. An expression with two terms is called a <term>binomial</term>, and an expression with three terms is a <term>trinomial</term>.</p></assemblage>
 

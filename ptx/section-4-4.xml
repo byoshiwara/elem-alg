@@ -31,8 +31,8 @@
 <activity>
 <statement><p>You have $5000 to invest for one year. You want to put part of the money into bonds that pay 7% interest rate and the rest of the money into stocks, which involve some risk but will pay 12% if the investment is successful.</p>
 <ol label="a">
-    <li><p>Fill in the table.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <li><p>Fill in the table.</p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
                     <row bottom="minor">
                         <cell><p>Amount invested in stocks</p></cell>
@@ -64,7 +64,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>  
+                    </tabular></li>  
 
     <li><p>Now suppose you invest <m>x</m> dollars in the stocks and <m>y</m> dollars in the bonds.
             <md><mrow>\blert{\text{Sum of amounts invested:}~~~~~~x+y=}</mrow>      
@@ -75,8 +75,7 @@
         <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} </me>
     </p></li></ol></statement>
 <answer><p><ol label="a">
-    <li><p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
                     <row bottom="minor">
                         <cell><p>Amount invested in stocks</p></cell>
@@ -108,7 +107,7 @@
                         <cell>$280</cell>
                         <cell>$120</cell>
                         <cell>$400</cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>$5000; <m>0.07x;~0.12y</m></li>
     <li><m>0.07x+0.12y = 345</m></li></ol></p></answer></activity>
 
@@ -124,8 +123,8 @@
 <solution><p>The unknown quantities are the amounts Mort invested in his two accounts.
         <md><mrow>\amp\text{Amount invested in savings:}\amp\amp x</mrow>    
             <mrow>\amp\text{Amount invested in mutual fund:}\amp\amp y</mrow></md></p>
-<p>Do not confuse the amount Mort invested in each account (the principal) with the amount he earned in interest! A table is a good way to keep these amounts straight.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<p>Do not confuse the amount Mort invested in each account (the principal) with the amount he earned in interest! A table is a good way to keep these amounts straight.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>Principal</cell>
@@ -139,7 +138,7 @@
                         <cell><m>y</m></cell>
                         <cell>0.07</cell>
                         <cell><m>0.07y</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular>
 <p>We must write two equations for the problem, one about the principal and one about the interest. <ul>
     <li><p>Equation about Principal: From the statement "He put twice as much money in the savings plan as in the mutual fund," we write the equation
     <md alignment="alignat">
@@ -210,8 +209,8 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <activity>
 <statement><p>In a local city council election, your favored candidate, Justine Honest, ran in a small district with two precincts. Ms. Honest won 30% of the 500 votes cast in Precinct 1 and 70% of the 300 votes cast in Precinct 2. Did Candidate Honest win a majority (more than 50%) of the votes in her district?</p>
 
-<p>Step 1 Fill in the first two rows of the table, using information from the problem and the formula <m>P=rW</m>.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<p>Step 1 Fill in the first two rows of the table, using information from the problem and the formula <m>P=rW</m>.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="20%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -233,7 +232,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                </tabular></sidebyside></p>
+                </tabular>
 
 <p>Step 2 Add down to complete the first and third columns of the table.</p>
 <p>Step 3 Fill in the last entry in the table to answer the question in the problem. Use the formula <m>P=rW</m> again.</p>
@@ -246,9 +245,9 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <sidebyside width="55%"><image source="photos/fig-4-4-2"><description>picture</description></image></sidebyside>
 </statement>
 
-<solution><p>We let <m>x</m> represent the number of milliliters of the 20% solution he needs and <m>y</m> the number of milliliters of the 50% solution. We use a table to organize the information. The first two columns contain the variables and information given in the problem: the number of milliliters of each solution and its strength as a percent.  
+<solution><p>We let <m>x</m> represent the number of milliliters of the 20% solution he needs and <m>y</m> the number of milliliters of the 50% solution. We use a table to organize the information. The first two columns contain the variables and information given in the problem: the number of milliliters of each solution and its strength as a percent.</p>
 	
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="18%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -270,10 +269,10 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
                         <cell><m>45</m></cell>
                         <cell><m>0.40</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                </tabular></sidebyside></p>
+                </tabular>
 
-<p>We fill in the last column of the table by using the formula <m>P=rW</m>. The entries in this last column give the amount of the important ingredient (in this case, milliliters of acid) in each component solution and in the mixture.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<p>We fill in the last column of the table by using the formula <m>P=rW</m>. The entries in this last column give the amount of the important ingredient (in this case, milliliters of acid) in each component solution and in the mixture.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="18%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -295,7 +294,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
                         <cell><m>45</m></cell>
                         <cell><m>0.40</m></cell>
                         <cell><m>\blert{0.40(45)}</m></cell></row>
-                </tabular></sidebyside></p>
+                </tabular>
 
 <p>Now we can write two equations about the mixture problem. The first equation is about the total number of milliliters mixed together. The chemist must mix <m>x</m> milliliters of one solution with <m>y</m> milliliters of the other solution and end up with 45 milliliters of the mixture, so
 	<me>\blert{\text{Total amount of mixture:}}~~~~~~x+y=45</me>
@@ -325,8 +324,8 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
     	<answer><p>Elimination</p></answer></exercise>
 </reading-questions>
 
-<p>Mixture problems are easy to solve if you complete a table first. The rows of the table represent the two components and the final mixture, and the columns are used to calculate the amount of the important ingredient in each. Here is a sample table that you can customize for the specifics of a particular problem.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<p>Mixture problems are easy to solve if you complete a table first. The rows of the table represent the two components and the final mixture, and the columns are used to calculate the amount of the important ingredient in each. Here is a sample table that you can customize for the specifics of a particular problem.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="20%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -348,7 +347,7 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                </tabular></sidebyside></p>	
+                </tabular>
 </subsection>
 
 <subsection><title>Motion</title>
@@ -359,22 +358,22 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 <example xml:id="Example-4-4-3"><statement><p>Geologists can calculate the distance from their seismograph to the epicenter of an earthquake by timing the arrival of the P and S waves. They know that P waves travel at about 5.4 miles per second and S waves travel at 3.0 miles per second. If the P waves arrived 3 minutes before the S waves, how far away is the epicenter of the quake?</p></statement>
 
 <solution><p>Let <m>x</m> represent the distance from the seismograph to the epicenter. The time it took for the waves to arrive is also unknown, so we'll let <m>y</m> be the travel time for the P waves, in seconds. The travel time for the S waves is then <m>y+180</m> seconds.</p>  
-<p>We organize all this information in a table.
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell>Rate</cell>
-                        <cell>Time</cell>
-                        <cell>Distance</cell></row>
-                    <row><cell> P waves</cell>
-                        <cell><m>5.4</m></cell>
-                        <cell><m>y</m></cell>
-                        <cell><m>x</m></cell></row>
-                    <row><cell> S waves</cell>
-                        <cell><m>3.0</m></cell>
-                        <cell><m>y+180</m></cell>
-                        <cell><m>x</m></cell></row>
-                    </tabular></sidebyside></p>
+<p>We organize all this information in a table.</p>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell>Rate</cell>
+            <cell>Time</cell>
+            <cell>Distance</cell></row>
+        <row><cell> P waves</cell>
+            <cell><m>5.4</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>x</m></cell></row>
+        <row><cell> S waves</cell>
+            <cell><m>3.0</m></cell>
+            <cell><m>y+180</m></cell>
+            <cell><m>x</m></cell></row>
+        </tabular>
 <p>We can now write two equations about the problem, one for the P waves and one for the S waves, using the formula <m>RT=D</m>.	
 		<md><mrow>5.4y=x</mrow>
 		<mrow>3.0(y+180)=x</mrow></md>
@@ -452,28 +451,29 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 
 <subsubsection><title>Activity 1: Interest</title>
 
-<p>Jerry invested $2000, part at 4% interest and the remainder at 9%. His yearly income from the 9% investment is $37 more than his income from the 4% investment. How much did he invest at each rate?<ol label="a">
+<p>Jerry invested $2000, part at 4% interest and the remainder at 9%. His yearly income from the 9% investment is $37 more than his income from the 4% investment. How much did he invest at each rate?
+    <ol label="a">
     <li><p>Choose variables for the unknown quantities.</p>
 
         <p>Fill in the table.</p>
 
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell>Principal</cell>
-                        <cell>Interest Rate</cell>
-                        <cell>Interest</cell></row>
-                    <row> 
-                        <cell>First investment</cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell>Second investment</cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <row bottom="minor">
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell>Principal</cell>
+                <cell>Interest Rate</cell>
+                <cell>Interest</cell></row>
+            <row> 
+                <cell>First investment</cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell></row>
+            <row> 
+                <cell>Second investment</cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell></row>
+            </tabular></li>
     <li><p>Write two equations; one about the principal, and one about the interest.</p>
 
         <p><m>\blert{\text{Principal:}}</m></p>
@@ -489,7 +489,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 
 <li><p>Let <m>x</m> represent the number of rural voters and <m>y</m> the number of urban voters. Fill in the table.</p>
 
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>Number of Voters <m>(W)</m></cell>
@@ -510,7 +510,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
 
     <li><p>Add down the first and third columns to write a system of equations.</p>
 
@@ -531,7 +531,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 
         <p>Fill in the table about the steamer. Hint: When you are traveling downstream, the current adds to the speed of the boat. When you are traveling upstream, the current subtracts from the speed of the boat.</p>
 
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>Rate</cell>
@@ -547,7 +547,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><p>Write two equations about the steamer.</p></li>
 
     <li>Solve the system. </li>
@@ -589,14 +589,31 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
-    <li><md><mrow>x+y \amp =2000</mrow>
-            <mrow>0.04x+0.025y \amp = 72.50</mrow></md></li>
-    <li><md><mrow>x+y \amp =3</mrow>
-            <mrow>1.4x+2.2y \amp = 4.6</mrow></md></li>
-    <li><md><mrow>x+y \amp =12</mrow>
-            <mrow>0.5x+0.2y \amp =0.3(12)</mrow></md></li>
-    <li><md><mrow>4x \amp =6y</mrow>
-            <mrow>x \amp =y+2.5</mrow></md></li></ol></p></subsubsection>
+    <li><p><m>
+        \begin{aligned}[t]
+        x+y \amp =2000\\
+        0.04x+0.025y \amp = 72.50
+        \end{aligned}
+    </m></p></li>
+    <li><p><m>
+        \begin{aligned}[t]
+        x+y \amp =3\\
+        1.4x+2.2y \amp = 4.6
+        \end{aligned}
+    </m></p></li>
+    <li><p><m>
+        \begin{aligned}[t]
+        x+y \amp =12\\
+        0.5x+0.2y \amp =0.3(12)
+        \end{aligned}
+    </m></p></li>
+    <li><p><m>
+        \begin{aligned}[t]
+        4x \amp =6y\\
+        x \amp =y+2.5
+        \end{aligned}
+    </m></p></li></ol></p>
+</subsubsection>
 </subsection>
 
 <xi:include href="./hmwk-4-4.xml" />

@@ -119,7 +119,7 @@ has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, 
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-		\begin{tikzpicture}[scale=.5]
+		\begin{tikzpicture}[scale=.6]
 		\draw[cyan] (-1,-2) grid (5,6);
 		\draw[black, thick, ->, >=stealth'] (-1,0)--(6,0) node[right]{$x$};
 		\draw[black, thick, ->, >=stealth'] (0,-2)--(0,7) node[left, xshift=2]{$y$};
@@ -245,7 +245,29 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 		<li><m>y=x^2-4x+4</m></li>
 		<li><m>y=x^2-4x+5</m></li></ol></p></li>
 	<li><sidebyside widths="50% 30%"><p>Match each equation from part (a) with one of the graphs shown.  Explain your reasoning.</p>
-	<image source="photos/act-6-5-1.png"><description>grid</description></image></sidebyside></li></ol></p>
+	<!--<image source="photos/act-6-5-1.png"><description>grid</description></image>-->
+    <image xml:id="act-6-5-2"><description>parabola with no x-intercepts</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.6]
+		\draw[cyan] (-1,-2) grid (5,6);
+		\draw[black, thick, ->, >=stealth'] (-1,0)--(5.7,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-2)--(0,6.7) node[left, xshift=2]{$y$};
+		\foreach \x  in {5} {
+		 \draw[cyan, very thick] (\x,-2)--++(0,8);
+		 \draw[black, thick] (\x,.156) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {3} {
+		 \draw[cyan, very thick] (-1,\x)--++(6,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[samples=65,domain={2-sqrt(7)}:{2+sqrt(7)},smooth,variable=\x,red!80!black, very thick, <->, >=stealth'] plot (\x,{((\x)^2-4*\x +3});
+		\draw[samples=65,domain={2-sqrt(6)}:{2+sqrt(6)},smooth,variable=\x,blue!80!black, very thick, <->, >=stealth'] plot (\x,{((\x)^2-4*\x +4});
+		\draw[samples=65,domain={2-sqrt(5)}:{2+sqrt(5)},smooth,variable=\x,green!70!black, very thick, <->, >=stealth'] plot (\x,{((\x)^2-4*\x +5});
+        \end{tikzpicture}]]>
+    </latex-image></image>
+</sidebyside></li></ol></p>
 </statement></exercise>
 
 <exercise><statement><p>Find the <m>x</m>-intercepts of each parabola.<ol label="a" cols="2">

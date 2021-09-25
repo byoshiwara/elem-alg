@@ -190,7 +190,7 @@
     <li><m>\dfrac{4}{3(a+b)} </m></li></ol></p></answer></exercise>
 
 <exercise number="50"><statement><p>Write an equation that expresses the second variable in terms of the first variable.<ol label="a" cols="2">
-	<li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+	<li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>m</m></cell>
                         <cell><m>K</m></cell></row>
@@ -206,8 +206,8 @@
                     <row>
                         <cell><m>6</m></cell>
                         <cell><m>-4</m></cell></row>                     
-                </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                </tabular></li>
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>H</m></cell></row>
@@ -223,6 +223,6 @@
                     <row>
                         <cell><m>15</m></cell>
                         <cell><m>6</m></cell></row>                     
-                </tabular></sidebyside></li></ol></p></statement></exercise>
+                </tabular></li></ol></p></statement></exercise>
 
 </exercises> 

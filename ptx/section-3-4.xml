@@ -7,7 +7,7 @@
 <idx><h>linear equation</h><h>writing</h></idx>
 
 <p>In <xref ref="Slope">Lesson</xref>, we plotted data for the temperature inside an oven used to cure pottery.</p>
-    <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
+    <sidebyside widths="55% 35%" valigns="middle middle" margins="0% 0%"><stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
         <row bottom="minor">
             <cell>Time, <m>x</m></cell>
             <cell>0</cell>
@@ -26,7 +26,7 @@
             <cell>86</cell>
             <cell>90</cell>
             <cell>94</cell></row>
-        </tabular>
+        </tabular><p></p>
     <p>We computed the slope of the graph, shown in the figure. The slope is 
     <md><mrow>\dfrac{\text{change in temperature}}{\text{change in time}} \amp= \dfrac{\Delta y}{\Delta x}</mrow>
     <mrow> \amp= \dfrac{\text{4 degrees}}{\text{10 minutes}}</mrow></md>
@@ -220,7 +220,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
         <me>X=\hphantom{0000}</me></li>
     <li><p>At the Yardley Institute, the tuition, <m>Y</m>, is $30 per unit. Write an equation <m>Y</m> and fill in the table.
         <me>Y=\hphantom{0000}</me></p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>u</m></cell>
                         <cell><m>W</m></cell>
@@ -251,9 +251,34 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li>Graph all three equations on the grid.
-    <sidebyside width="50%"><image source="photos/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="45%">
+        <!--<image source="photos/act-3-4-1.png"><description>grid</description></image>-->
+        <image xml:id="act-3-4-1-1">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.3]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (0,0) grid (15,20);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(16.6,0) node[right]{$u$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,21.6) node[left, xshift=2]{$y$};
+                \foreach \x  in  {5,10,15} {
+                 \draw[cyan, very thick] (\x,0) --++(0,20);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+                \foreach \y [evaluate=\y as \yi using int(50*\y)] in  {5,10,15,20} {
+                 \draw[cyan, very thick] (0,\y) --++(15,0);
+                 \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+                }
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside></li>
     <li><p>Find the slope and the <m>y</m>-intercept for each equation.
         <md><mrow>\text{W: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow>
             <mrow>\text{X: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow> 
@@ -268,7 +293,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
         <me>B=\hphantom{0000}</me></p></li>
     <li><p>Chaka is traveling in a small plane at 100 miles per hour. Write an equation for Chaka's distance, <m>C</m>,  and fill in the table.
         <me>C=\hphantom{0000}</me></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>A</m></cell>
@@ -299,9 +324,33 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li>Graph all three equations on the grid.
-    <sidebyside width="50%"><image source="photos/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="45%">
+        <image xml:id="act-3-4-1-2">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.3]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (0,0) grid (15,20);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(16.6,0) node[right]{$h$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,21.6) node[left, xshift=2]{$y$};
+                \foreach \x  in  {5,10,15} {
+                 \draw[cyan, very thick] (\x,0) --++(0,20);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+                \foreach \y [evaluate=\y as \yi using int(50*\y)] in  {5,10,15,20} {
+                 \draw[cyan, very thick] (0,\y) --++(15,0);
+                 \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+                }
+                \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside></li>
     <li><p>Find the slope and the <m>y</m>-intercept for each equation.
         <md><mrow>\text{A: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow>
             <mrow>\text{B: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow> 
@@ -324,7 +373,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 
 <subsubsection><title>Activity 2: Slope-Intercept Form</title>
 <exercises>
-<exercise><statement><sidebyside widths="50% 50%" valigns="middle middle"><p><ol label="a">
+<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 0%"><p><ol label="a">
     <li>Write an equation for the line whose <m>y</m>-intercept is <m>(0,-3)</m> and whose slope is <m>\dfrac{-2}{3}</m>.</li>
 
     <li><p>Use the slope-intercept method to graph the equation.</p>
@@ -341,22 +390,46 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
         \blert{\text{to plot another point.}}
         \end{array}</m></p>
     </li></ol></p>
-    <image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/stangrid10"><description>10 by 10 grid</description></image></sidebyside></statement></exercise>
 
-<exercise><statement><sidebyside widths="48% 50%"><p><ol label="a">
+<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 0%"><p><ol label="a">
     <li>State the slope and <m>y</m>-intercept of the equation <m>y=-3x+4</m></li>
     <li><p>Graph the equation by the slope-intercept method.</p>  
         <p>Hint:  Write the slope as a fraction,
         <me>m= \dfrac{\Delta y}{\Delta x}=\dfrac{-3}{1} =\dfrac{3}{-1}</me></p></li></ol></p> 
-    <image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/stangrid10"><description>10 by 10 grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>On Memorial Day weekend, Arturo drives from his home to a cabin on Diamond Lake.  His distance in miles from Diamond Lake after <m>x</m> hours of driving is given by the equation <m>y=450-50x</m>.</p>
-<sidebyside widths="50% 45%" valigns="top top"><p><ol label="a">
+<sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p><ol label="a">
 <li>What are the slope and the <m>y</m>-intercept of the graph of this equation?</li>
 <li>Graph the equation.</li>
 <li><p>What does the <m>y</m>-intercept tell you about the problem?</p>
     <p>What does the slope tell you about the problem?</p></li></ol></p>
-<image source="photos/act-3-4-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+<!--<image source="photos/act-3-4-2.png"><description>grid</description></image>-->
+    <image xml:id="act-3-4-2-3">
+            <description>grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \coordinate (O) at (0,0);
+            \draw[cyan] (0,0) grid (10,10);
+            \draw[black,thick, ->, >=stealth'] (0,0)--(10.9,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.9) node[left, xshift=2]{$y$};
+            \foreach \x  in  {5,10} {
+             \draw[cyan, very thick] (\x,0) --++(0,10);
+             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+            \foreach \y [evaluate=\y as \yi using int(50*\y)] in  {2,4,6,...,10} {
+             \draw[cyan, very thick] (0,\y) --++(10,0);
+             \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+            }
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 
@@ -388,17 +461,57 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
     <li>Graph the line by the slope-intercept method.</li></ol></p></introduction>
 
 <exercise><statement><p><m>12x-8y=16</m></p>
-    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p><m>4x+3y=0</m></p>
-    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>Write the equation for the line in slope-intercept form.</p></introduction>
 
-<exercise><statement><sidebyside width="90%"><image source="photos/act-3-4-3.png"><description>grid</description></image></sidebyside></statement></exercise>
+<exercise><statement><sidebyside width="90%">
+    <image xml:id="prev-3-4-3">
+            <description>line on grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.25]
+            \coordinate (O) at (0,0);
+            \draw[cyan] (-10,-10) grid[step=2] (10,10);
+            \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+            \foreach \x in  {-8,-4,4,8} {
+             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[red,thick, <->, >=stealth'] (-16/3,10)--(10,-3/2);
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
-<exercise><statement><sidebyside width="90%"><image source="photos/act-3-4-4.png"><description>grid</description></image></sidebyside></statement></exercise>
+<exercise><statement><sidebyside width="90%">
+        <image xml:id="prev-3-4-4">
+            <description>line on grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.25]
+            \coordinate (O) at (0,0);
+            \draw[cyan] (-10,-10) grid[step=2] (10,10);
+            \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+            \foreach \x in  {-8,-4,4,8} {
+             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[red,thick, <->, >=stealth'] (-1,-10)--(9,10);
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 </exercises>
 

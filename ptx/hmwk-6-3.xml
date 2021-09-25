@@ -29,7 +29,7 @@
         </row>
     </tabular></sidebyside></statement>
     <answer><ol label="a"><li>
-    <sidebyside><tabular halign="center">
+<tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -48,7 +48,7 @@
             <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
             <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p><m>(x+5)(x+6)=x^2+11x+30</m></p></li>     
  </ol>
  </answer></exercise>
@@ -236,28 +236,28 @@
     <li>Draw a sketch of the floor of an office and label its dimensions.</li>  
     <li>Write an equation for the area, <m>A,</m> of one office in terms of its width.</li>
     <li><p>Complete the table and graph your equation for <m>A</m>.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>w</m></cell>
-                        <cell><m>-6</m></cell>
-                        <cell><m>-5</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell></row>
-                    <row> 
-                        <cell><m>A</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>                
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>w</m></cell>
+            <cell><m>-6</m></cell>
+            <cell><m>-5</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell></row>
+        <row> 
+            <cell><m>A</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>               
     <sidebyside width="45%"><!--<image source="photos/hp-6-3-33.png"><description>grid</description></image>-->
     <image xml:id="hp-6-3-33">
         <description>grid</description>

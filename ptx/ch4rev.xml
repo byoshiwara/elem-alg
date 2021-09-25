@@ -204,7 +204,7 @@ or
         2x-y\amp =4
     \end{aligned}</m>   
 </p>
-        <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+        <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><m>(3,2)</m></answer></exercise>
 
 <exercise number="18"><statement><p>
@@ -213,7 +213,7 @@ or
         \amp y=\dfrac{-2}{3}x-2
     \end{aligned}</m>   
 </p>
-        <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+        <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, solve by substitution.</p></introduction>
@@ -358,7 +358,7 @@ or
 <exercise number="43"><statement><p><ol label="a">
 	<li>Graph the line of slope <m>\dfrac{-5}{3}</m> that passes through the point <m>(-2,1)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
-<sidebyside width="40%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="40%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><sidebyside width="40%" margins="0% 60%">
     <image xml:id="cr4-43ans">
@@ -389,7 +389,7 @@ or
 <exercise number="44"><statement><p><ol label="a">
 	<li>Graph the line of slope <m>\dfrac{6}{5}</m> that passes through the point <m>(-3,-4)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
-<sidebyside width="40%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="40%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, find an equation for the line passing through the two points.</p></introduction>
@@ -400,21 +400,21 @@ or
 <exercise number="46"><statement><m>(0,8),~(4,-2)</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="47"><statement><p>An interior decorator bases her fee on the cost of a remodeling job.  The table below shows her fee, <m>F</m>, for jobs of various costs, <m>C</m>, both given in dollars.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>C</m></cell>
-                        <cell>5000</cell>
-                        <cell>10,000</cell>
-                        <cell>20,000</cell>
-                        <cell>50,000</cell></row>
-                    <row> 
-                        <cell><m>F</m></cell>
-                        <cell>1000</cell>
-                        <cell>1500</cell>
-                        <cell>2500</cell>
-                        <cell>5500</cell></row>
-                    </tabular></sidebyside></p>
+<exercise number="47"><statement><p>An interior decorator bases her fee on the cost of a remodeling job.  The table below shows her fee, <m>F</m>, for jobs of various costs, <m>C</m>, both given in dollars.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <row bottom="minor">
+        <cell><m>C</m></cell>
+        <cell>5000</cell>
+        <cell>10,000</cell>
+        <cell>20,000</cell>
+        <cell>50,000</cell></row>
+    <row> 
+        <cell><m>F</m></cell>
+        <cell>1000</cell>
+        <cell>1500</cell>
+        <cell>2500</cell>
+        <cell>5500</cell></row>
+    </tabular>
 <p><ol label="a">
 	<li>Write a linear equation for <m>F</m> in terms of <m>C</m>.</li>
 	<li>Give the slope of the graph, and explain the meaning of the slope in terms of the decorator's fee.</li></ol></p></statement>
@@ -422,21 +422,21 @@ or
     <li><m>F=500+0.10C</m></li>
     <li><p><m>m=0.10~</m> The decorator charges 10% of the cost of the job (plus a $500 flat fee)></p></li></ol></p></answer></exercise>
 
-<exercise number="48"><statement><p>Auto registration fees in Connie's home state depend on the value of the automobile.  The table below shows the registration fee <m>R</m> for a car whose value is <m>V</m>, both given in dollars.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>V</m></cell>
-                        <cell>5000</cell>
-                        <cell>10,000</cell>
-                        <cell>15,000</cell>
-                        <cell>20,000</cell></row>
-                    <row> 
-                        <cell><m>R</m></cell>
-                        <cell>135</cell>
-                        <cell>235</cell>
-                        <cell>335</cell>
-                        <cell>435</cell></row>
-                    </tabular></sidebyside></p>
+<exercise number="48"><statement><p>Auto registration fees in Connie's home state depend on the value of the automobile.  The table below shows the registration fee <m>R</m> for a car whose value is <m>V</m>, both given in dollars.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <row bottom="minor">
+        <cell><m>V</m></cell>
+        <cell>5000</cell>
+        <cell>10,000</cell>
+        <cell>15,000</cell>
+        <cell>20,000</cell></row>
+    <row> 
+        <cell><m>R</m></cell>
+        <cell>135</cell>
+        <cell>235</cell>
+        <cell>335</cell>
+        <cell>435</cell></row>
+    </tabular>
 <p><ol label="a">
 	<li>Write a linear equation for <m>R</m> in terms of <m>V</m>.</li>
 	<li>Give the slope of the graph, and explain the meaning of the slope in terms of the registration fee.</li></ol></p>
@@ -449,7 +449,7 @@ or
 
 <exercise number="49"><statement><p>The population of Maple Rapids was 4800 in 1982 and had grown to 6780 by 1997.  Assume that the population increases at a constant rate. Express the population <m>P</m> of Maple Rapids in terms of the number of years <m>t</m> since 1982.</p></statement>
 <answer><p><ol label="a">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
@@ -458,7 +458,7 @@ or
                         <cell><m>P</m></cell>
                         <cell><m>4800</m></cell>
                         <cell><m>6780</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><m>P=4800+132t</m></li>
     <li><p><m>m=132~</m> people per year gives the rate of population growth</p></li></ol></p></answer></exercise>
 

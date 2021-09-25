@@ -401,7 +401,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
         <md><mrow>x = </mrow>
             <mrow>y = </mrow></md></p></li>
     <li><p>Complete the table.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>Number of passengers</cell>
@@ -417,7 +417,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><p>Write an equation about the number of passengers:
             <me>\hphantom{0000}</me>
         Write an equation about revenue:

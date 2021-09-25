@@ -155,42 +155,42 @@ if either of these is more useful for the problem.</p>
 
 <solution><p>We let <m>x</m> stand for unknown quantity, the speed of the boat in still water. Then we make a table showing the distance, rate, and time for each part of the trip. We begin by filling in the information given in the problem.</p>
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell>Distance</cell>
-                        <cell>Rate</cell>
-                        <cell>Time</cell></row>
-                    <row> 
-             			<cell>Downstream trip</cell>
-                        <cell><m>18</m></cell>
-                        <cell><m>x+3</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell>Upstream trip</cell>
-                        <cell><m>18</m></cell>
-                        <cell><m>x-3</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <row bottom="minor">
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell>Distance</cell>
+        <cell>Rate</cell>
+        <cell>Time</cell></row>
+    <row> 
+			<cell>Downstream trip</cell>
+        <cell><m>18</m></cell>
+        <cell><m>x+3</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell>Upstream trip</cell>
+        <cell><m>18</m></cell>
+        <cell><m>x-3</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    </tabular>
 <p>We use the formula <m>t = \dfrac{d}{r}</m> to fill in the last column of the table.</p>
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell>Distance</cell>
-                        <cell>Rate</cell>
-                        <cell>Time</cell></row>
-                    <row> 
-             			<cell>Downstream trip</cell>
-                        <cell><m>18</m></cell>
-                        <cell><m>x+3</m></cell>
-                        <cell><m>\blert{\dfrac{18}{x+3}}</m></cell></row>
-                    <row> 
-                        <cell>Upstream trip</cell>
-                        <cell><m>18</m></cell>
-                        <cell><m>x-3</m></cell>
-                        <cell><m>\blert{\dfrac{18}{x-3}}</m></cell></row>
-                    </tabular></sidebyside>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <row bottom="minor">
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell>Distance</cell>
+        <cell>Rate</cell>
+        <cell>Time</cell></row>
+    <row> 
+			<cell>Downstream trip</cell>
+        <cell><m>18</m></cell>
+        <cell><m>x+3</m></cell>
+        <cell><m>\blert{\dfrac{18}{x+3}}</m></cell></row>
+    <row> 
+        <cell>Upstream trip</cell>
+        <cell><m>18</m></cell>
+        <cell><m>x-3</m></cell>
+        <cell><m>\blert{\dfrac{18}{x-3}}</m></cell></row>
+    </tabular>
 
 <p>Notice that we did not use the <m>4\dfrac{1}{2}</m> hours in the table, because it was not the trip upstream or the trip downstream that took <m>4\dfrac{1}{2}</m> hours, but the total trip. We use the <m>4\dfrac{1}{2}</m> to write an equation. The sum of the times for the upstream and downstream trips was <m>4\dfrac{1}{2}</m> or <m>\dfrac{9}{2}</m> hours.
 	<me> \dfrac{18}{x+3}+\dfrac{18}{x-3} = \dfrac{9}{2}</me>
@@ -304,23 +304,23 @@ The graph of this equation is shown at right.<ol label="a">
 
 <li><p>Consider the time period described in the problem when both pipes are open. Fill in the table.</p>  
 
-	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m></m></cell>
-                        <cell>Flow rate</cell>
-                        <cell><m>~~~~</m>Time<m>~~~~</m></cell>
-                        <cell>Fraction of reservoir</cell></row>
-                    <row> 
-                        <cell>Water entering</cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                      <row> 
-                        <cell>Water leaving</cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <row bottom="minor">
+        <cell><m></m></cell>
+        <cell>Flow rate</cell>
+        <cell><m>~~~~</m>Time<m>~~~~</m></cell>
+        <cell>Fraction of reservoir</cell></row>
+    <row> 
+        <cell>Water entering</cell>
+        <cell><m></m></cell>
+        <cell><m></m></cell>
+        <cell><m></m></cell></row>
+      <row> 
+        <cell>Water leaving</cell>
+        <cell><m></m></cell>
+        <cell><m></m></cell>
+        <cell><m></m></cell></row>
+    </tabular></li>
 
 <li><p>Write an equation:</p>
 

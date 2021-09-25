@@ -249,40 +249,41 @@
 <exercise number="41"><statement><p><ol label="a">
 	<li>Complete the table below.</li>	
 	<li>Decide whether the two expressions, <m>(a-b)^2</m> and <m>a^2-b^2</m>, are equivalent.</li></ol></p>
-<p><sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-                    <row bottom="minor">
-                        <cell><m>a</m></cell>
-                        <cell><m>b</m></cell>
-                    	<cell><m>a-b</m></cell>
-                        <cell><m>(a-b)^2</m></cell>
-                        <cell><m>a^2</m></cell>
-                    	<cell><m>b^2</m></cell>
-                        <cell><m>a^2-b^2</m></cell></row>
-                    <row> 
-                        <cell><m>5</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>2</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>-4</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>                                        
-                </tabular></sidebyside></p></statement>
+<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <row bottom="minor">
+        <cell><m>a</m></cell>
+        <cell><m>b</m></cell>
+    	<cell><m>a-b</m></cell>
+        <cell><m>(a-b)^2</m></cell>
+        <cell><m>a^2</m></cell>
+    	<cell><m>b^2</m></cell>
+        <cell><m>a^2-b^2</m></cell></row>
+    <row> 
+        <cell><m>5</m></cell>
+        <cell><m>3</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell><m>2</m></cell>
+        <cell><m>6</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell><m>-4</m></cell>
+        <cell><m>-3</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    </tabular>
+</statement>
 <answer><p>No</p></answer></exercise>
 
 <exercise number="42"><statement><p>Explain why <m>(x-y)^2</m> cannot be simplified to <m>x^2-y^2</m>.</p></statement></exercise>

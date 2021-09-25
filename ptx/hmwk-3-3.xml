@@ -81,7 +81,7 @@
 <exercisegroup cols="2">
 
 <exercise number="3"><statement><p>Choose two points from the table and compute the slope of the line.
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>0</m></cell>
@@ -94,7 +94,7 @@
                         <cell><m>0</m></cell>
                         <cell><m>60</m></cell>
                         <cell><m>90</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
     <sidebyside width="90%"><!--<image source="photos/hp-3-3-3.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-3">
         <description>graph of line</description>
@@ -123,7 +123,7 @@
  
  <exercise number="4"><statement><p>Graph the line and compute its slope.
  	<me>y=-12x+32</me>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-2</m></cell>
@@ -136,7 +136,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
     <sidebyside width="70%"><!--<image source="photos/hp-3-3-4.png"><description>grid</description></image>-->
     <image xml:id="hp-3-3-4">
         <description>grid</description>
@@ -227,9 +227,9 @@
 
 <exercise number="7"><statement><p><m>2x+3y=12</m>
 	<me>(-3,6)~~\text{and}~~(3,2)</me></p>
-<sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
     <li><p><m>(0,4) </m>, <m>~(6,0) </m></p></li>
-    <li><sidebyside>
+    <li><sidebyside width="90%">
     <image xml:id="hp-3-3-7ans">
         <description>triangle</description>
         <latex-image>
@@ -261,13 +261,13 @@
 
 <exercise number="8"><statement><p><m>5x-2y=10</m>
 	<me>(-2,-10)~~\text{and}~~(4,5)</me></p>
-<sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="9"><statement><p><m>x+y=5</m>
 	<me>(-3,8)~~\text{and}~~(8,-3)</me></p>
-<sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
     <li><p><m>(0,5) </m>, <m>~(5,0) </m></p></li>
-    <li><sidebyside>
+    <li><sidebyside width="90%">
     <image xml:id="hp-3-3-9ans">
         <description>triangle</description>
         <latex-image>
@@ -299,7 +299,7 @@
 
 <exercise number="10"><statement><p><m>x-2y=4</m>
 	<me>(6,1)~~\text{and}~~(-4,-4)</me></p>
-<sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="11"><statement><p>A line contains the points <m>(0,0)</m> and <m>(3,2)</m>. What is its slope?</p></statement>
@@ -312,8 +312,8 @@
 
 <exercise number="14"><statement><p>Which line is decreasing: one with slope <m>\dfrac{1}{4}</m> or one with slope <m>-2</m>?</p></statement></exercise>
 
-<exercise number="15"><statement><p>The line shown below has slope <m>\dfrac{5}{2}</m>. If <m>\Delta x = 7</m>, find <m>\Delta y</m>.</p>
-<sidebyside width="15%"><!--<image source="photos/hp-3-3-15.png"><description>segment</description></image>-->
+<exercise number="15"><statement>
+    <sidebyside widths="55% 15%" margins="0% 25%"><p>The line shown below has slope <m>\dfrac{5}{2}</m>. If <m>\Delta x = 7</m>, find <m>\Delta y</m>.</p>
     <image xml:id="hp-3-3-15">
         <description>line segment</description>
         <latex-image>
@@ -330,8 +330,8 @@
 </sidebyside></statement>
 <answer><p><m>\Delta y = 17.5</m></p></answer></exercise>
 
-<exercise number="16"><statement><p>The line shown below has slope <m>-4</m>. If <m>\Delta y=-6</m>, find <m>\Delta x</m>.</p>
-<sidebyside width="20%"><!--<image source="photos/hp-3-3-16.png"><description>segment</description></image>-->
+<exercise number="16"><statement>
+    <sidebyside widths="55% 17%" margins="0% 20%"><p>The line shown below has slope <m>-4</m>. If <m>\Delta y=-6</m>, find <m>\Delta x</m>.</p>
     <image xml:id="hp-3-3-16">
         <description>line segment</description>
         <latex-image>

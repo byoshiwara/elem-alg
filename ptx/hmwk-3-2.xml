@@ -176,9 +176,9 @@
 </sidebyside></statement>
 <answer><p><ol label="a">
     <li><p><m>w=7.5h</m></p></li>
-    <li><sidebyside width="45^" margins="0% 55%">
+    <li><sidebyside width="45%" margins="0% 55%">
     <image xml:id="hp-3-2-23ans">
-        <description>triangle</description>
+        <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -444,7 +444,7 @@
 <exercise number="29"><statement><p><ol label="a">
     <li>State a formula for the circumference of a circle in terms of its radius.</li>
     <li><p>Complete the table.</p> 
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>2</m></cell>
@@ -457,7 +457,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><p>Graph your equation, using the values in your table.</p>
         <sidebyside width="50%"><!--<image source="photos/hp-3-2-29.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-29">
@@ -530,7 +530,7 @@
 <exercise number="30"><statement><p><ol label="a">
 	<li>State a formula for the area of a square in terms of the length of its side.</li>
 	<li><p>Complete the table.</p> 
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>s</m></cell>
                         <cell><m>2</m></cell>
@@ -543,7 +543,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
 	<li><p>Graph your equation, using the values in your table.</p>
 		<sidebyside width="50%"><!--<image source="photos/hp-3-2-30.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-30">
@@ -574,7 +574,7 @@
 <exercise number="31"><statement><p>The following recipe for Cadet Mess Sloppy Joes comes from the West Point Officers Wives' Club Cookbook.</p> 
 
 <p>For 1000 servings:
-<sidebyside><tabular> 
+<tabular> 
                     <row>
                         <cell>310 lb. ground beef</cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -603,7 +603,7 @@
                         <cell>1 qt cider vinegar</cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>28 oz. salt and pepper</cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
 Cook off turkey and beef in oven; place in pots. Braise off chopped peppers and diced onions (turkey will absorb liquid).  Add stock to turkey to moisten well before adding other products. Stir together. Heat till piping hot. Serve on rolls.
 
 <ol label="a">

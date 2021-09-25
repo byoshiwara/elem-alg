@@ -32,7 +32,7 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 
 <solution><p>We would like to know the value of <m>t</m> when <m>S=E</m>. We could use trial-and-error by evaluating both <m>S</m> and <m>E</m> for various values of <m>t</m>. The results of such a search are given in the table below.</p>
 
-<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>10</m></cell>
@@ -54,7 +54,7 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
                         <cell><m>1260</m></cell>
                         <cell><m>1280</m></cell>
                         <cell><m>1300</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular>
 
 <p>We see that when <m>t=50</m>, the total cost of both models is $1300. Thus, at the end of 50 months, or 4 years 2 months, the cost of the standard model equals the cost of the energy-efficient model.</p></solution></example>  
 
@@ -275,8 +275,8 @@ The second equation is the same as the first equation. A system in which the two
 We also know that the length is three times the width, or <m>y=3x</m>. These two equations make a system.
             <md><mrow>2x+2y=28</mrow>
                 <mrow>y=3x</mrow></md></p>
-<p>Step 3 We use the intercept method to graph the first equation, <m>2x+2y=28</m>:
-    <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<p>Step 3 We use the intercept method to graph the first equation, <m>2x+2y=28</m>:</p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell>
@@ -289,10 +289,10 @@ We also know that the length is three times the width, or <m>y=3x</m>. These two
                         <cell><m>14</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>\blert{\text{When}~ y=0,~x=14}</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular>
 <p>We use the slope-intercept method to graph <m>y=3x</m>:
         <me>b=0 ~~~~~~~~ m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}</me>
-Their graphs are shown below. 
+Their graphs are shown below. </p>
     <sidebyside width="40%"><!--<image source="photos/fig-4-2-ex6.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-ex6"><description>graph of system</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -312,8 +312,8 @@ Their graphs are shown below.
         \draw[red!80!black, thick, <->,>=stealth'] (-5/3,-5)--(5,15);
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>x=3.5</m> and <m>y=10.5</m> are a solution to the system by checking that these values make both equations true.</p> 
-<p>Step 4 The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p></p></solution></example>
+<p>The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>x=3.5</m> and <m>y=10.5</m> are a solution to the system by checking that these values make both equations true.</p> 
+<p>Step 4 The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p></solution></example>
 
 <reading-questions>
     <exercise number="6"><statement><p>When might you use a system of equations to solve an applied problem?</p></statement>
@@ -368,7 +368,8 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
         <mrow>(1)\amp</mrow>
         <mrow>(2)\amp</mrow></md></p></li>
     <li><sidebyside widths="50% 50%"><stack><p>Use the intercept method to graph each equation on the grid at right.</p>
-        <p>Equation (1):  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+        <p>Equation (1):</p><p></p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row>
                         <cell bottom="minor"><m>t</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -377,8 +378,9 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
                         <cell bottom="minor"><m>r</m></cell> 
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>0</m></cell></row>
-                    </tabular></sidebyside></p>
-        <p>Equation (2):  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    </tabular>
+        <p></p><p>Equation (2):</p>
+        <p></p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>t</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -387,8 +389,26 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
                         <cell bottom="minor"><m>r</m></cell> 
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>0</m></cell></row>
-                    </tabular></sidebyside></p></stack>
-    <image source="photos/act-4-2-1.png"><description>graph</description></image></sidebyside></li>
+                    </tabular></stack>
+    <!--<image source="photos/act-4-2-1.png"><description>graph</description></image>-->
+    <image xml:id="act-4-2-1">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan] (0,0) grid[step=2] (20,20);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(21.6,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,21.6) node[left, xshift=2]{$r$};
+        \foreach \x  in  {2,4,...,20} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    </sidebyside></li>
     <li><p>Locate the point where the two graphs intersect.  What are its coordinates?</p>
         <p>Answer the question posed by the biologist.</p></li></ol></p>
 </subsubsection>
@@ -401,7 +421,27 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
     <li>Write an equation about the cost of the books.</li>
     <li>Write a second equation about the number of each type of book.</li>
     <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
-    <image source="photos/act-4-2-2.png"><description>graph</description></image></sidebyside>
+    <!--<image source="photos/act-4-2-2.png"><description>graph</description></image>-->
+    <image xml:id="act-4-2-2">
+            <description>grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan] (0,0) grid[step=1] (10,12);
+            \draw[black,thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$t$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,13.) node[left, xshift=2]{$r$};
+            \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,...,10} {
+             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+            }
+            \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,...,12} {
+             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+            } 
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+</sidebyside>
 </subsubsection>
 
 <subsubsection><title>Activity 3: Inconsistent and Dependent Systems</title>
@@ -417,9 +457,9 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
     <li>Together, the two equations form a system:</li></ol></p></statement></exercise>
 
 <exercise><statement><p>Next, we graph both equations on the same axes.</p>
-    <sidebyside widths="50% 50%"><p><ol label="a">
-    <li><p>To graph the equation for Ruth's distance, plot a few points.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+    <sidebyside widths="50% 40%" margins="0% 0%"><p><ol label="a">
+    <li><p>To graph the equation for Ruth's distance, plot a few points.</p><p></p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row>
                         <cell bottom="minor"><m>t</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -430,10 +470,32 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>To graph the equation for Robert's distance, use the vertical intercept and the slope.</li>
     <li>Locate the point where the two graphs intersect. What are its coordinates?</li></ol></p>
-    <image source="photos/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+    <!--<image source="photos/act-4-2-3.png"><description>graph</description></image>-->
+    <image xml:id="act-4-2-3">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.5, yscale=.3]
+        \draw[cyan] (0,0) grid[step=1] (8,18);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,19.) node[left]{$d$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,...,8} {
+         \draw[cyan,very thick] (\x,0)--(\x,18);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \y [evaluate=\y as \xi using int(100*\y)] in  {5,10,15} {
+         \draw[cyan,very thick] (0,\y)--(8,\y);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        } 
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 
 <exercise><statement><p>Finally, we interpret the solution.<ol label="a">
     <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
@@ -441,21 +503,41 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
     <li>Verify that the intersection point is a solution of both equations in the system.</li></ol></p></statement>
 </exercise>
 
-<exercise><statement><sidebyside widths="50% 50%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol label="a">  
+<exercise><statement><sidebyside  widths="50% 35%" margins="0% 0%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol label="a">  
     <li><p>Write a system of equations for this problem:</p>        
         <p>Robert:  <m>~~~d=</m></p>       
         <p>Ruth:    <m>~~~~d=</m></p></li>                                      
     <li>Graph the equations on the grid.</li>  
     <li>What is the solution of this system? What is this type of system called?</li></ol></p>
-    <image source="photos/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+    <image source="photos/act-4-2-3"><description>graph</description></image></sidebyside></statement></exercise>
 
-<exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol label="a">
+<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle"><p><ol label="a">
     <li><p>Graph the system of equations.
         <md><mrow>3x \amp = 2y+6</mrow>
             <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
     Hint:  Use the intercept method to graph the first equation, and the slope-intercept method to graph the second equation.</p></li>
     <li>Is the system inconsistent or dependent?</li></ol></p>
-    <image source="photos/eight-grid"><description>grid</description></image></sidebyside></statement></exercise>
+    <!--<image source="photos/eight-grid"><description>grid</description></image>-->
+    <image xml:id="eight-grid">
+            <description>eight-by-eight grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.35]
+            \draw[cyan] (-8,-8) grid (8,8);
+            \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+            \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+            \foreach \x  in  {-4,4,-8,8} {
+             \draw[cyan, very thick] (\x,-8) --++(0,16);
+             \draw[cyan, very thick] (-8,\x) --++(16,0);
+             \draw[black, thick] (\x,.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             \draw[black,thick] (.2,\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 
@@ -487,11 +569,11 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
         <mrow>2x-y \amp = 1</mrow></md>
 Explain how you know.</p></statement></exercise>
 
-<exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p>Solve the system by graphing.
+<exercise><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p>Solve the system by graphing.
     <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
         <mrow>2x-3y=12</mrow></md>
 Hint:  Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
-    <image source="photos/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>Write a system of equations for the problem:</p>
     <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p></statement></exercise>
@@ -504,8 +586,12 @@ Hint:  Graph the first equation by the slope-intercept method, and the second eq
 <subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
     <li>No</li>
     <li><m>(3,-2)</m></li>
-    <li><md><mrow>x \amp +y  = 18</mrow>
-        <mrow>y \amp = \dfrac{1}{2}x+3</mrow></md></li>
+    <li><p><m>
+        \begin{aligned}[t]
+        x \amp +y  = 18 \\
+        y \amp = \dfrac{1}{2}x+3
+        \end{aligned}
+    </m></p></li>
     <li>Inconsistent</li></ol></p></subsubsection>
 </subsection>
 

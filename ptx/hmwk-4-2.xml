@@ -38,7 +38,7 @@
         y\amp=-3x\\
         y\amp=3x-6
         \end{aligned}</m></p>
-    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
  <exercise number="7"><statement><p>
@@ -46,7 +46,7 @@
         \amp y=\dfrac{3}{4}x-2\\
         \amp 2y-5x=10
         \end{aligned}</m></p>
-    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  <answer><m>(-4,-5)</m></answer></exercise>
 
  <exercise number="8"><statement><p>
@@ -54,7 +54,7 @@
         \amp x+y=4\\
         \amp 3x-3y=12
         \end{aligned}</m></p>
-    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
  <exercise number="9"><statement><p>
@@ -62,7 +62,7 @@
         \amp 2y=-3x\\
         \amp y=-2x-1
         \end{aligned}</m></p>
-    <sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  <answer><m>(-2,3)</m></answer></exercise>
 </exercisegroup>
 
@@ -92,8 +92,8 @@
 	<li><p>Let <m>x</m> stand for the amount of Delbert's sales in one year. Write equations for his total annual earnings, <m>E</m>, under each plan.
  	<md><mrow>\text{Plan A:}~~~E =</mrow>
  		<mrow>\text{Plan B:}~~~E =</mrow></md></p></li>
- 	<li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.
- 		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+ 	<li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.</p><p></p>
+ 		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Earnings Under Plan A</cell></row>
@@ -157,7 +157,7 @@
                     <row>
                         <cell><m>400</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular></sidebyside></p></li>
+                </tabular></li>
     <li><p>Graph both of your equations on the grid. (Both axes are scaled in thousands of dollars.)</p>
     	<sidebyside width="40%"><!--<image source="photos/hp-4-2-13.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-13">
@@ -187,7 +187,7 @@
 	<li>For what sales amount do the two plans result in equal earnings for Delbert?</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><p>Plan A: <m>E=0.03x+20,000</m>; Plan B: <m>E=0.05x+15,000</m></p></li>
-    <li><p><sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <li><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Earnings Under Plan A</cell>
@@ -228,7 +228,7 @@
                         <cell><m>400</m></cell>
                         <cell><m>32,000</m></cell>
                         <cell><m>35,000</m></cell></row>                      
-                </tabular></sidebyside></p></li>
+                </tabular></li>
     <li></li>
     <li>$250,000</li></ol></p></answer></exercise>
 
@@ -361,8 +361,12 @@
     </sidebyside></statement>
 <answer><p><ol label="a">
     <li><p>Cost of one rose: <m>x</m>, cost of one carnation: <m>y</m></p></li>
-    <li><p><md><mrow>4x+8y=14</mrow>
-            <mrow>6x+9y=18</mrow></md></p></li>
+    <li><p><m>
+        \begin{aligned}[t]
+            4x+8y=14\\
+            6x+9y=18
+        \end{aligned}
+        </m></p></li>
     <li><m>(1.50, 1.00)</m></li>  
     <li><m>4(1.5)+8(1)=14;~6(1.5)+9(1)=18</m></li></ol></p></answer></exercise>
 

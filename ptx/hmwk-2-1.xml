@@ -247,7 +247,7 @@
 
 <exercisegroup><introduction><p>For Problems 33<ndash/>40, write and simplify an expression using negative numbers to answer the question.</p></introduction>
 
-<exercise number="33"><statement><p>Thelma's failing company is worth <m>-$1000</m>. She decides to merge with Louise's company, whose net worth is <m>$1500</m>. What is the combined worth of the two companies?</p></statement>
+<exercise number="33"><statement><p>Thelma's failing company is worth <m>-\$1000</m>. She decides to merge with Louise's company, whose net worth is <m>\$1500</m>. What is the combined worth of the two companies?</p></statement>
 <answer>$500</answer></exercise>
 
 <exercise number="34"><statement><p>Emily is at an elevation of <m>-87</m> feet when she begins climbing a mountain. What is her elevation after ascending <m>127</m> feet?</p></statement></exercise>

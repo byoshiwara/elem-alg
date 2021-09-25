@@ -185,7 +185,7 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 
 <solution><p><ol label="a">
 	<li><p>We construct a rectangle with sides <m>3t+2</m> and <m>t+3</m>, as shown below. We see that the product of the two binomials is </p>
-<sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><m>3t^2+9t+2t+6=3t^2+11t+6</m></p>
+<sidebyside widths="60% 30%" margins="0% 10%" valigns="middle middle"><p><m>3t^2+9t+2t+6=3t^2+11t+6</m></p>
 	<tabular halign="center">
         <row><cell ></cell>
             <cell bottom="minor" ><m>~~~~~t~~~~~</m></cell>
@@ -218,7 +218,7 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 
 <assemblage><title>Look Closer</title>
 <p>Look carefully at the rectangle for the product</p>
-<sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><me>(3x+4)(x+2)=3x^2+10x+8</me>
+<sidebyside widths="60% 30%" margins="0% 10%" valigns="middle middle"><p><me>(3x+4)(x+2)=3x^2+10x+8</me>
 Shown at right.</p>
 	<tabular halign="center"><col /><col width="20%"/><col  width="20%"/>
         <row><cell ></cell>
@@ -268,25 +268,25 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <p><m>\blert{\text{Step 3}~~}</m>  To find the two unknown entries, we list all the ways to factor <m>D=24x^2</m>, then choose the factors whose sum is <m>10x</m>. </p>
 
-<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
-                    <row><cell>Factors of </cell>
-                        <cell><m>D=24x^2</m></cell>
-                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
-                    <row><cell><m>x</m></cell>
-                        <cell><m>24x</m></cell>
-                        <cell><m>\hphantom{0000}x+24x=25x</m></cell></row>
-                    <row><cell><m>2x</m></cell>
-                        <cell><m>12x</m></cell>
-                        <cell><m>\hphantom{0000}2x+12x=24x</m></cell></row>
-                    <row><cell><m>3x</m></cell>
-                        <cell><m>8x</m></cell>
-                        <cell><m>\hphantom{0000}3x+8x=11x</m></cell></row>
-                    <row><cell><m>\blert{4x}</m></cell>
-                        <cell><m>\blert{6x}</m></cell>
-                        <cell><m>\hphantom{0000}\blert{4x+6x=10x}</m></cell></row>
-                    </tabular></sidebyside>
+<tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+        <row><cell>Factors of </cell>
+            <cell><m>D=24x^2</m></cell>
+            <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+        <row><cell><m>x</m></cell>
+            <cell><m>24x</m></cell>
+            <cell><m>\hphantom{0000}x+24x=25x</m></cell></row>
+        <row><cell><m>2x</m></cell>
+            <cell><m>12x</m></cell>
+            <cell><m>\hphantom{0000}2x+12x=24x</m></cell></row>
+        <row><cell><m>3x</m></cell>
+            <cell><m>8x</m></cell>
+            <cell><m>\hphantom{0000}3x+8x=11x</m></cell></row>
+        <row><cell><m>\blert{4x}</m></cell>
+            <cell><m>\blert{6x}</m></cell>
+            <cell><m>\hphantom{0000}\blert{4x+6x=10x}</m></cell></row>
+        </tabular>
 
-<sidebyside widths="75% 15%" margins="0% 5%" valigns="top top">
+<sidebyside widths="65% 25%" margins="0% 5%" valigns="top top">
 <p><m>\blert{\text{Step 4}~~}</m>  We see that the last pair of factors, <m>4x</m> and <m>6x</m>, has a sum of <m>10x</m>. We enter these factors in the remaining sub-rectangles. (It doesn't matter which one goes in which spot.) We now have all the sub-rectangles filled in, as shown at right.</p>
 
 <tabular halign="center"><col /><col/><col  />
@@ -331,7 +331,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <example><statement><p>Factor <m>~~2x^2-11x+15</m></p></statement>
 
-<solution><sidebyside widths="70% 15%" margins="0% 15%" valigns="middle middle">
+<solution><sidebyside widths="70% 25%" margins="0% 5%" valigns="middle middle">
 	<p><m>\blert{\text{Step 1}~~}</m>  Enter <m>2x^2</m> and <m>15</m> on the diagonal of the rectangle, as shown in the figure.</p>
 
 <tabular halign="center"><col /><col/><col/>
@@ -350,24 +350,24 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <p><m>\blert{\text{Step 3}~~}</m>  List all possible factors of <m>D</m>, and compute the sum of each pair of 
 			factors.  (Note that both factors must be negative.)</p>
 
-	<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
-                    <row><cell>Factors of </cell>
-                        <cell><m>D=30x^2</m></cell>
-                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
-                    <row><cell><m>-x</m></cell>
-                        <cell><m>-30x</m></cell>
-                        <cell><m>\hphantom{0000}-x-30x=-31x</m></cell></row>
-                    <row><cell><m>-2x</m></cell>
-                        <cell><m>-15x</m></cell>
-                        <cell><m>\hphantom{0000}-2x-15x=-17x</m></cell></row>
-                    <row><cell><m>-3x</m></cell>
-                        <cell><m>-10x</m></cell>
-                        <cell><m>\hphantom{0000}-3x-10x=-13x</m></cell></row>
-                    <row><cell><m>\blert{-5x}</m></cell>
-                        <cell><m>\blert{-6x}</m></cell>
-                        <cell><m>\hphantom{0000}\blert{-5x-6x=-11x}</m></cell></row>
-                    </tabular></sidebyside>
-<sidebyside widths="65% 10%" margins="0% 20%" valigns="middle middle"><stack>
+<tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+    <row><cell>Factors of </cell>
+        <cell><m>D=30x^2</m></cell>
+        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+    <row><cell><m>-x</m></cell>
+        <cell><m>-30x</m></cell>
+        <cell><m>\hphantom{0000}-x-30x=-31x</m></cell></row>
+    <row><cell><m>-2x</m></cell>
+        <cell><m>-15x</m></cell>
+        <cell><m>\hphantom{0000}-2x-15x=-17x</m></cell></row>
+    <row><cell><m>-3x</m></cell>
+        <cell><m>-10x</m></cell>
+        <cell><m>\hphantom{0000}-3x-10x=-13x</m></cell></row>
+    <row><cell><m>\blert{-5x}</m></cell>
+        <cell><m>\blert{-6x}</m></cell>
+        <cell><m>\hphantom{0000}\blert{-5x-6x=-11x}</m></cell></row>
+    </tabular>
+<sidebyside widths="50% 30%" margins="0% 10%" valigns="middle middle"><stack>
     <p>The correct factors are <m>-5x</m> and <m>-6x</m>.</p>
     <p><m>\blert{\text{Step 4}~~}</m>  Enter the factors <m>-5x</m> and <m>-6x</m> into the rectangle.</p></stack> 
 <tabular halign="center"><col /><col/><col/>
@@ -383,7 +383,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
     </tabular></sidebyside>
 <p><m>\blert{\text{Step 5}~~}</m>  Factor <m>2x</m> from the top row of the rectangle, and write the result, <m>x-3</m>, at the top, as shown below.</p>
 
-<sidebyside widths="25% 25%" margins="15% 15%" valigns="middle middle">
+<sidebyside widths="30% 30%" margins="15% 15%" valigns="middle middle">
 
 <tabular halign="center"><col /><col /><col />
         <row><cell ></cell>
@@ -452,41 +452,41 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Use the given areas to find the length and width of each rectangle.</p></introduction>
 
-<exercise number="5"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="5"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~6x^2~~</m></cell>
                         <cell><m>~~9x~~</m></cell>></row>
                     <row> 
                         <cell><m>~~10x~~</m></cell>
                         <cell><m>~~15~~</m></cell>></row>
-                    </tabular></sidebyside></statement></exercise>
+                    </tabular></statement></exercise>
 
-<exercise number="6"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="6"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~8t^2~~</m></cell>
                         <cell><m>~~-14t~~</m></cell>></row>
                     <row> 
                         <cell><m>~~-12t~~</m></cell>
                         <cell><m>~~21~~</m></cell>></row>
-                    </tabular></sidebyside></statement></exercise>
+                    </tabular></statement></exercise>
 
-<exercise number="7"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="7"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~12m^2~~</m></cell>
                         <cell><m>~~-10m~~</m></cell>></row>
                     <row> 
                         <cell><m>~~30m~~</m></cell>
                         <cell><m>~~-25~~</m></cell>></row>
-                    </tabular></sidebyside></statement></exercise>
+                    </tabular></statement></exercise>
 
-<exercise number="8"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="8"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~9a^2~~</m></cell>
                         <cell><m>~~21a~~</m></cell>></row>
                     <row> 
                         <cell><m>~~-21a~~</m></cell>
                         <cell><m>~~-49~~</m></cell>></row>
-                    </tabular></sidebyside></statement></exercise>
+                    </tabular></statement></exercise>
 </exercisegroup>
 </exercises>
 
@@ -566,20 +566,20 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <p><m>\blert{\text{Step 3}~~}</m> List all possible factors of <m>D</m>, and compute the sum of each pair of 
 factors. The factors must have opposite signs. (Complete each pair of factors below.)</p>
-<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
-                    <row><cell>Factors of </cell>
-                        <cell><m>D=30x^2\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
-                    <row><cell><m>-x</m></cell>
-                        <cell><m><fillin characters="10"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row><cell><m>-2x</m></cell>
-                        <cell><m><fillin characters="10"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row><cell><m>-3x</m></cell>
-                        <cell><m><fillin characters="10"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
+<tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+    <row><cell>Factors of </cell>
+        <cell><m>D=30x^2\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+    <row><cell><m>-x</m></cell>
+        <cell><m><fillin characters="10"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row><cell><m>-2x</m></cell>
+        <cell><m><fillin characters="10"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row><cell><m>-3x</m></cell>
+        <cell><m><fillin characters="10"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    </tabular>
 <p>The correct factors are:</p>
 
 <sidebyside widths="70% 25%"><stack>

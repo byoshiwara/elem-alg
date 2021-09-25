@@ -10,7 +10,7 @@
     <p>A <term>rate of change</term> is a type of ratio that measures how one variable changes with respect to another.</p></assemblage>
 
 <example xml:id="example-pottery-oven"><statement><p>In order to fire a particular kind of pottery, the pieces must first be cured by raising the temperature slowly and evenly.  Sonia checks the temperature in the drying oven at ten-minute intervals, and records the following data.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Time, <m>x</m></cell>
                         <cell>0</cell>
@@ -29,7 +29,7 @@
                         <cell>86</cell>
                         <cell>90</cell>
                         <cell>94</cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
 <p>The heat in the oven should not increase any faster than 0.5 degree per minute. Is the temperature in the oven within the safe limits?</p></statement>
 
 <solution><sidebyside widths="65% 35%" valigns="middle middle" margins="0% 0%"><stack><p>A graph of the data is shown at right. </p>
@@ -325,50 +325,78 @@ Be sure to include units with your ratios!</p>
 
 <exercises>
 <exercise><statement><p>The table shows the price, <m>p</m>, for <m>g</m> gallons of gasoline at the pump.</p>
-<sidebyside widths = "55% 40%"><stack><p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell>Gallons</cell>
-                        <cell>Total Price</cell></row>
-                    <row> 
-                        <cell><m>4</m></cell>
-                        <cell>$6.00</cell></row>
-                    <row>
-                        <cell><m>6</m></cell>
-                         <cell>$9.00</cell></row>
-                    <row>     
-                        <cell><m>9</m></cell>
-                        <cell>$13.50</cell></row>
-                    <row>
-                        <cell><m>12</m></cell>
-                        <cell>$18.00</cell></row>
-                    <row>    
-                        <cell><m>15</m></cell>
-                        <cell>$22.50</cell></row>
-                    </tabular></sidebyside><ol label="a">
+<sidebyside widths = "55% 40%" valigns="bottom bottom">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <row bottom="minor">
+                <cell>Gallons</cell>
+                <cell>Total Price</cell></row>
+            <row> 
+                <cell><m>4</m></cell>
+                <cell>$6.00</cell></row>
+            <row>
+                <cell><m>6</m></cell>
+                 <cell>$9.00</cell></row>
+            <row>     
+                <cell><m>9</m></cell>
+                <cell>$13.50</cell></row>
+            <row>
+                <cell><m>12</m></cell>
+                <cell>$18.00</cell></row>
+            <row>    
+                <cell><m>15</m></cell>
+                <cell>$22.50</cell>
+            </row>
+        </tabular>
+        <!--<image source="photos/act-3-3-1"><description>grid</description></image>-->
+        <image xml:id="act-3-3-1-1">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (15,25);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16.6,0) node[right]{$g$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,26.6) node[left, xshift=2]{$p$};
+        \foreach \x  in  {5,10,15} {
+         \draw[cyan, very thick] (\x,0) --++(0,25);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+        \foreach \y  in  {5,10,15,20,25} {
+         \draw[cyan, very thick] (0,\y) --++(15,0);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+    </sidebyside>
+        <p><ol label="a">
     <li>Plot the data on the grid.</li>
     <li><p>Choose two points from the graph and use them to compute the slope.</p>
 
     <p><m>\blert{\text{First point:}}</m></p>                
     <p><m>\blert{\text{Second point:}}</m></p>
 
-    <p><md><mrow>\blert{\text{Change in vertical coordinates:}}~~~~~~\amp \Delta p =</mrow>                
+    <p><md><mrow>\blert{\text{Change in vertical coordinates:}}~~~~~~\amp \Delta p =\amp\amp\hphantom{00000000000}</mrow>                
         <mrow>~~~~~~~~~~~~\blert{\text{Change in horizontal coordinates:}}~~~~~~\amp \Delta g =</mrow>
-        <mrow>\blert{\text{Slope}}~~~~~~~~~~~~~~~~~~ \amp \dfrac{\Delta p}{\Delta g} = </mrow></md></p></li>
+        <mrow>\blert{\text{Slope:}} ~~~~~~\amp \dfrac{\Delta p}{\Delta g} = </mrow></md></p></li>
 
     <li>Illustrate the slope on the graph.</li>
-    <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p></stack>
-        <image source="photos/act-3-3-1.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p>
+    </statement>
+</exercise>
 
-<exercise><statement><p>The table shows the growth in population, <m>P</m>, of a new suburb <m>t</m> years after it was built.</p><sidebyside widths = "55% 40%"><stack><p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p>The table shows the growth in population, <m>P</m>, of a new suburb <m>t</m> years after it was built.</p><sidebyside widths = "55% 35%" valigns="bottom bottom">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Years</cell>
                         <cell>Population</cell>></row>
                     <row> 
                         <cell><m>1</m></cell>
                         <cell>10</cell></row>
-                    <row>
+                    <row> ~/mathbook/pretext/pretext -vv -c latex-image -f svg -d ./ext/photos ./ptx/test-section.xml
                         <cell><m>2</m></cell>
                          <cell>20</cell></row>
                     <row>     
@@ -379,21 +407,24 @@ Be sure to include units with your ratios!</p>
                         <cell>80</cell></row>
                     <row>    
                         <cell><m>5</m></cell>
-                        <cell>160</cell></row>
-                    </tabular></sidebyside><ol label="a">
+                        <cell>160</cell>
+                    </row>
+                </tabular>                    
+        <image source="photos/act-3-2-3-2"><description>grid</description></image></sidebyside>
+        <p><ol label="a">
     <li>Plot the data on the grid.</li>
     <li><p>Choose two points from the graph and use them to compute the slope.</p>
 
     <p><m>\blert{\text{First point:}}</m></p>                
     <p><m>\blert{\text{Second point:}}</m></p>
 
-    <p><md><mrow>\blert{\text{Change in vertical coordinates:}}~~~~~~\amp \Delta P =</mrow>                
+    <p><md><mrow>\blert{\text{Change in vertical coordinates:}}~~~~~~\amp \Delta P =\amp\amp\hphantom{00000000000}</mrow>                
         <mrow>~~~~~~~~~~~~\blert{\text{Change in horizontal coordinates:}}~~~~~~\amp \Delta t =</mrow>
-        <mrow>\blert{\text{Slope}}~~~~~~~~~~~~~~~~~~ \amp \dfrac{\Delta P}{\Delta t} = </mrow></md></p></li>
+        <mrow>\blert{\text{Slope:}}~~~~~~ \amp \dfrac{\Delta P}{\Delta t} = </mrow></md></p></li>
 
     <li>Illustrate the slope on the graph. Is the slope the same between all points?</li>
-    <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p></stack>
-        <image source="photos/act-3-2-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+    <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p>
+    </statement></exercise>
 
 <exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
     <sidebyside widths = "55% 40%"><stack><p><ol label="a">  
@@ -428,10 +459,10 @@ Be sure to include units with your ratios!</p>
 
     <li>Illustrate the slope on the graph.</li>
     <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p></stack>
-        <image source="photos/act-3-2-3.png"><description>grid</description></image></sidebyside></statement></exercise>
+        <image source="photos/act-3-2-3-4"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
-<sidebyside widths = "50% 45%" ><stack><p><ol label="a">
+<sidebyside widths = "50% 40%" ><stack><p><ol label="a">
     <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
         <me>D=\hphantom{0000}</me></p></li>
     <li><p>Use your equation to fill in the table.
@@ -463,7 +494,7 @@ Be sure to include units with your ratios!</p>
 
     <li>Illustrate the slope on the graph.</li>
     <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p></stack>
-        <image source="photos/act-3-2-4.png"><description>grid</description></image></sidebyside></statement></exercise>
+        <image source="photos/act-3-2-3-5"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p><ol label="a">
     <li>Which of the four graphs will give different values for the slope, depending on which points you choose?</li>  
@@ -487,14 +518,127 @@ Be sure to include units with your ratios!</p>
 
 <exercise><statement><p>The value of new office equipment decreases, or depreciates, over time. The graph shows the value, <m>V</m>, in thousands of dollars, of a large copy machine <m>t</m> years after it was purchased.<ol label="a">
     <li><p>Compute the slope of the line by moving from point <m>A</m> to point <m>B</m>.</p>
-    <sidebyside widths = "47% 50%" ><image source="photos/act-3-3-2.png"><description>grid</description></image>
-        <image source="photos/act-3-3-3.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside widths = "47% 47%%" margins="0% 0%">
+        <!--<image source="photos/act-3-3-2.png"><description>grid</description></image>
+        <image source="photos/act-3-3-3.png"><description>grid</description></image>-->
+        <image xml:id="act-3-3-2-1a">
+        <description>decreasing line with labeled deltas</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (10,12);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(11.,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,13.) node[left, xshift=1]{$V$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10} {
+         \draw[cyan, very thick] (\x,0) --++(0,12);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+        \foreach \y [evaluate=\y as \yi using int(2*\y)] in  {5,10} {
+         \draw[cyan, very thick] (0,\y) --++(10,0);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
+        }
+        \draw[black,->, >=stealth'] (2,9)--(4.5,9);
+        \draw[very thick, magenta!90!black, ->, >=stealth'] (0,10)--(10,5);
+        \filldraw[magenta!80!black] (2,9) circle (.15) node[above right, yshift=2, fill=white, inner sep=1] {$A$};
+        \filldraw[magenta!80!black] (8,6) circle (.15) node[above right, xshift=2, fill=white, inner sep=1] {$B$};
+        \draw[black,->, >=stealth'] (2,9)--(4.5,9);
+        \draw[black,->, >=stealth'] (4.5,9) -- (6.5,9) node[above , xshift=-5mm,yshift=2mm,fill=white, inner sep=1]{$\Delta t = 12$};
+        \draw[black,->, >=stealth'] (6.5,9) -- (8,9)  -- (8,7.5) node[right , xshift=1mm, yshift=1mm, fill=white, inner sep=1]{$\Delta V = -6$};
+        \draw[black,->, >=stealth'] (8,9)--(8,6);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        <image xml:id="act-3-3-2-1b">
+        <description>decreasing line with labeled deltas</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (10,12);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(11.,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,13.) node[left, xshift=1]{$V$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10} {
+         \draw[cyan, very thick] (\x,0) --++(0,12);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+        \foreach \y [evaluate=\y as \yi using int(2*\y)] in  {5,10} {
+         \draw[cyan, very thick] (0,\y) --++(10,0);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
+        }
+        \draw[very thick, magenta!90!black, ->, >=stealth'] (0,10)--(10,5);
+        \filldraw[magenta!80!black] (2,9) circle (.15) node[above right, yshift=2, fill=white, inner sep=1] {$A$};
+        \filldraw[magenta!80!black] (8,6) circle (.15) node[above right, xshift=2, fill=white, inner sep=1] {$B$};
+        \draw[black,->, >=stealth'] (8,6)--(6.5,6);
+        \draw[black,->, >=stealth'] (6.5,6) -- (4.5,6) node[below, xshift=2mm,yshift=-1mm,fill=white, inner sep=1]{$\Delta t = -12$};
+        \draw[black,->, >=stealth'] (4.5,6) -- (2,6)  -- (2,7.5) node[left, xshift=-2mm, yshift=-1mm, fill=white, inner sep=1]{$\Delta V = 6$};
+        \draw[black,->, >=stealth'] (2,7.5)--(2,9);
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    </sidebyside></li>
     <li>What does the slope tell you about the value of the machine?</li>
     <li>Compute the slope of the line by moving from point <m>B</m> to point <m>A</m>.</li></ol></p></statement>
 </exercise>
 
 <exercise><statement><p>Find the slope of each line segment. Verify that you get the same answer if you move in the opposite direction. (Each square counts for one unit.)</p>
-    <sidebyside><image source="photos/act-3-3-4.png"><description>grid</description></image></sidebyside></statement>
+<p><ol label="a" cols="3">
+    <li><sidebyside>
+        <image xml:id="act-3-3-2-2a">
+        <description>grid with segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.25]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (14,5);
+        \draw[very thick, magenta!80!black] (1,1)--(13,4);
+        \filldraw[magenta!80!black] (1,1) circle (.15) node[above,yshift=2, fill=white, inner sep=1] {$P$};
+        \filldraw[magenta!80!black] (13,4) circle (.15) node[below, yshift=-2, fill=white, inner sep=1] {$Q$};        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="45%" margins="0% 5%">
+        <image xml:id="acbt-3-3-2-2">
+            <description>grid with line</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.4]
+            \coordinate (O) at (0,0);
+            \draw[cyan] (0,0) grid (4,7);
+            \draw[very thick, magenta!80!black] (1,6)--(3,1);
+            \filldraw[magenta!80!black] (1,6) circle (.15) node[below left,yshift=-2, fill=white, inner sep=1] {$A$};
+            \filldraw[magenta!80!black] (3,1) circle (.15) node[left, xshift=-4, fill=white, inner sep=1] {$B$};                
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="65%" margins="0% 5%">
+        <image xml:id="act-3-3-2-2c">
+        <description>grid with segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (6,6);
+        \draw[very thick, magenta!80!black] (1,5)--(5,1);
+        \filldraw[magenta!80!black] (1,5) circle (.15) node[above left,xshift=-1,yshift=3, fill=white, inner sep=1] {$S$};
+        \filldraw[magenta!80!black] (5,1) circle (.15) node[right, xshift=4, fill=white, inner sep=1] {$T$};       \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
+</ol></p></statement>
 </exercise>
 
 <assemblage><p>It doesn't matter which direction we move along a line to compute its slope; the answer will be the same.</p></assemblage>
@@ -508,17 +652,52 @@ Be sure to include units with your ratios!</p>
 
 <exercises>
 <exercise><statement><p>Calculate the slope of the line <m>~y=\dfrac{2}{3}x-2~</m> shown in the figure:</p>
-    <sidebyside width="45%"><image source="photos/act-3-3-5.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="45%">
+        <image xml:id="act-3-3-3-1">
+                <description>line with labeled points</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.4]
+                \coordinate (O) at (0,0);
+                \draw[cyan] (-5,-6) grid (10,6);
+                \draw[black,thick, ->, >=stealth'] (-5,0)--(11.,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-6)--(0,7.) node[left, xshift=1]{$y$};
+                \foreach \x in  {-5,5,10} {
+                 \draw[cyan, very thick] (\x,-6) --++(0,12);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \y in  {5,-5} {
+                 \draw[cyan, very thick] (-5,\y) --++(15,0);
+                 \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
+                }
+                \draw[very thick, magenta!90!black, <->, >=stealth'] (-5,-16/3)--(10,14/3);
+                \filldraw[magenta!80!black] (-3,-4) circle (.2) node[below right, yshift=-2, fill=white, inner sep=1, text=black] {$P$};
+                \filldraw[magenta!80!black] (0,-2) circle (.2) node[below right, xshift=2, yshift=-2, fill=white, inner sep=1, text=black] {$S$};
+                \filldraw[magenta!80!black] (3,0) circle (.2) node[above left, xshift=-2,yshift=2, fill=white, inner sep=1, text=black] {$Q$};
+                \filldraw[magenta!80!black] (6,2) circle (.2) node[above left, xshift=-2, yshift=2, fill=white, inner sep=1, text=black] {$R$};
+                \draw[black, ->, >=stealth'] (6,2)--(6,.5);
+                \draw[black, ->, >=stealth'] (6,.5)--(6,-2)--(4.5,-2);
+                \draw[black, ->, >=stealth'] (4.5,-2)--(1.9,-2);
+                \draw[black, ->, >=stealth'] (1.9,-2)--(0,-2);
+                \draw[black, ->, >=stealth'] (-3,-4)--(-3,-1.5);
+                \draw[black, ->, >=stealth'] (-3,-1.5)--(-3,0)--(-1.5,0);
+                \draw[black, ->, >=stealth'] (-1.5,0)--(1.1,0);
+                \draw[black, ->, >=stealth'] (1.1,0)--(3,0);    \end{tikzpicture}]]>
+                </latex-image>
+        </image>
+    </sidebyside>
 <p><ol label="a">
     <li>By using the points <m>P(-3,-4)</m> and <m>Q(3,0)</m>.</li>
     <li>By using the points <m>R(6,2)</m> and <m>S(0,-2)</m>.</li>
     <li>Do you get the same value for the slope in each case?</li></ol></p></statement></exercise>
 
 <exercise><statement><p><ol label="a">
-    <li><sidebyside widths="45% 40%" valigns="middle middle"><p>Graph the line 
+    <li><sidebyside widths="45% 40%" valigns="middle middle"><stack><p>Graph the line 
         <me>4x-2y=8</me>    
-        by finding the <m>x</m>- and <m>y</m>-intercepts.
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+        by finding the <m>x</m>- and <m>y</m>-intercepts.</p><p></p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>y</m></cell></row>
@@ -528,8 +707,8 @@ Be sure to include units with your ratios!</p>
                     <row> 
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>0</m></cell></row>
-        </tabular></p>
-        <image source="photos/act-3-3-6.png"><description>grid</description></image></sidebyside></li>
+        </tabular></stack>
+        <image source="photos/fig-2-3-1"><description>grid</description></image></sidebyside></li>
     <li><p>Compute the slope of the line using the <m>x</m>- and <m>y</m>-intercepts.
         <me>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</me></p></li>
     <li><p>Compute the slope of the line using the points <m>(4,4)</m> and <m>(1,-2)</m>
@@ -561,7 +740,7 @@ Be sure to include units with your ratios!</p>
 <exercisegroup cols="2"><introduction><p>Use the intercepts to find the slope of the line. Illustrate the slope on the graph.</p></introduction>
 
 <exercise><statement><p><m>5x-3y=15</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -570,13 +749,13 @@ Be sure to include units with your ratios!</p>
                     <row><cell bottom="minor"><m>y</m></cell>
                     <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                     <cell bottom="minor"><m>0</m></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <p><m>m=\hphantom{0000}</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>y=\dfrac{3}{4}x-6</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -585,13 +764,13 @@ Be sure to include units with your ratios!</p>
                     <row><cell bottom="minor"><m>y</m></cell>
                     <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                     <cell bottom="minor"><m>0</m></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <p><m>m=\hphantom{0000}</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>\dfrac{x}{6}+\dfrac{y}{8} = 1</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -600,13 +779,13 @@ Be sure to include units with your ratios!</p>
                     <row><cell bottom="minor"><m>y</m></cell>
                     <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                     <cell bottom="minor"><m>0</m></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <p><m>m=\hphantom{0000}</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>x+\dfrac{2}{3}y+4=0</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
@@ -615,21 +794,21 @@ Be sure to include units with your ratios!</p>
                     <row><cell bottom="minor"><m>y</m></cell>
                     <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                     <cell bottom="minor"><m>0</m></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <p><m>m=\hphantom{0000}</m></p>
-    <sidebyside><image source="photos/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>Plot the points and find the slope of the line between them.</p></introduction>
 
 <exercise><statement><p><m>(-2,8)</m> and <m>(4,-6)</m></p>
-    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside>
 <p><m>m=\hphantom{0000}</m></p></statement>
 </exercise>
 
 <exercise><statement><p><m>(-7,-3)</m> and <m>(5,9)</m></p>
-    <sidebyside><image source="photos/cr2-44.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside>
 <p><m>m=\hphantom{0000}</m></p></statement>
 </exercise>
 </exercisegroup>

@@ -109,7 +109,7 @@
 
 <exercise number="1"><statement><p>Martha can travel 22 miles on a gallon of gasoline. Fill in the table with the distance Martha can drive on various amounts of gasoline.
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
                         <cell>Gallons of gas</cell>
                         <cell><m>3</m></cell>
@@ -165,7 +165,7 @@
         </sidebyside></li>
 	</ol></p></statement>
 	<answer><p><ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
                         <cell>Gallons of gas</cell>
                         <cell><m>3</m></cell>
@@ -185,7 +185,7 @@
                     </tabular></sidebyside></li>
         <li>Multiply the number of gallons by 22</li>
         <li><m>m=22g</m></li>
-        <li><sidebyside width="45%"><!--<image source="photos/cr1-1ans.png"><description>graph</description></image>-->
+        <li><sidebyside width="45%" margins="0% 5%"><!--<image source="photos/cr1-1ans.png"><description>graph</description></image>-->
     <image xml:id="cr1-1ans">
         <description>line</description>
         <latex-image>
@@ -212,7 +212,7 @@
 
 <exercise number="2"><statement><p>Mariel has a 200-page history assignment to read. Fill in the table with the number of pages Mariel has left to read after completing a certain number of pages.
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
                         <cell>Pages read</cell>
                         <cell><m>20</m></cell>
@@ -267,7 +267,7 @@
 	</ol></p></statement></exercise>
 
 <exercise number="3"><statement><p>Find the pattern and fill in the table. Then write an equation for the second variable in terms of the first.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside width="60%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>0.5</m></cell>
@@ -287,7 +287,7 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular></sidebyside></statement>
-    <answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <answer><sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>0.5</m></cell>
@@ -310,7 +310,7 @@
                     <m>y=\dfrac{x}{4}</m></answer></exercise>
 
 <exercise number="4"><statement><p>Use the graph to fill in the table. Then write an equation for the second variable in terms of the first.</p>
- 	<sidebyside widths="50% 30%" margins="0% 20%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+ 	<sidebyside widths="40% 30%" margins="0% 20%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
@@ -402,7 +402,7 @@
 <exercise number="17"><statement><p>Rachel has saved $60 to help pay for her books this semester. Let <m>b</m> stand for the price of her books, and <m>n</m> for the amount she still needs. <ol label="a">
 	<li>Write an equation for <m>n</m> in terms of <m>b</m>.</li>
 	<li>Fill in the table.
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<sidebyside width="45%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>100</m></cell>
@@ -411,7 +411,7 @@
                         <cell><m>180</m></cell>
                         <cell><m>200</m></cell></row>
                     <row> 
-                        <cell><m>n</m></cell>
+                        <cell><m>b</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
@@ -421,7 +421,7 @@
     <li>Choose appropriate scales for the axes and graph your equation.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>n=b-60</m></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>100</m></cell>
@@ -430,7 +430,7 @@
                         <cell><m>180</m></cell>
                         <cell><m>200</m></cell></row>
                     <row> 
-                        <cell><m>n</m></cell>
+                        <cell><m>b</m></cell>
                         <cell><m>40</m></cell>
                         <cell><m>60</m></cell>
                         <cell><m>90</m></cell>
@@ -440,7 +440,7 @@
 
 <exercise number="18"><statement><p>Matt wants to travel 360 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours, where <m>t=\dfrac{360}{r}</m>.<ol label="a">
 	<li>Fill in the table.
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>10</m></cell>

@@ -541,7 +541,7 @@
 
 <exercise number="12"><statement><m>y=x+3</m>
     <sidebyside width="100%"><!--<image source="photos/hp-2-3-12.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-12">
+    <image xml:id="stangrid10">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -564,7 +564,7 @@
     </sidebyside></statement></exercise>
 
 <exercise number="13"><statement><m>y=2x+1</m>
-    <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-2-3-13ans">
         <description>line on grid</description>
@@ -590,10 +590,10 @@
 </sidebyside></answer></exercise>
 
 <exercise number="14"><statement><m>y=-\dfrac{1}{2}x-5</m>
-    <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+    <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="15"><statement><m>y=\dfrac{5}{4}x-4</m>
-    <sidebyside width="100%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-2-3-15ans">
         <description>line on grid</description>

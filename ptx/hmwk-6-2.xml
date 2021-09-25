@@ -97,31 +97,31 @@
 
 <exercise number="25"><statement><p><ol label="a">
     <li><p>Complete the table of values for the equation <m>y=-x^2+6x</m>, then graph the equation on the grid.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>7</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="50%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></li>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <row bottom="minor">
+        <cell><m>x</m></cell>
+        <cell><m>-1</m></cell>
+        <cell><m>0</m></cell>
+        <cell><m>1</m></cell>
+        <cell><m>2</m></cell>
+        <cell><m>3</m></cell>
+        <cell><m>4</m></cell>
+        <cell><m>5</m></cell>
+        <cell><m>6</m></cell>
+        <cell><m>7</m></cell></row>
+    <row> 
+        <cell><m>y</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    </tabular>
+    <sidebyside width="50%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
     <li>Use your graph to find the solutions of the equation <m>-x^2+6x=5</m>.</li>
     <li>Verify algebraically that your answers to part (a) are really solutions.</li>
     <li>Use your graph to find the solutions of the equation <m>-x^2+6x=0</m>.</li>
@@ -129,30 +129,30 @@
     <li>Compute the product <m>-x(x+6)</m>.  What do you get?</li>  
     <li>What is the value of the expression <m>-x(x+6)</m> when <m>x=0</m>?  When <m>x=6</m>?</li></ol></p></statement>
 <answer><p>a.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>7</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>-7</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>9</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>-7</m></cell></row>
-                    </tabular></sidebyside>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>6</m></cell>
+            <cell><m>7</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>-7</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>9</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-7</m></cell></row>
+        </tabular>
     <sidebyside width="50%">
     <image xml:id="hp-2-3-25ans">
         <description>parabola</description>
@@ -181,31 +181,31 @@
 
 <exercise number="26"><statement><p><ol label="a">
 	<li><p>Complete the table of values for the equation <m>y=x^2+2x-8</m>, then graph the equation on the grid.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-5</m></cell>
-                        <cell><m>-4</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="50%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></li>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>-5</m></cell>
+            <cell><m>-4</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>
+    <sidebyside width="50%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
     <li>Use your graph to find the solutions of the equation <m>x^2+2x-8=7</m>.</li>
 	<li>Verify algebraically that your answers to part (a) are really solutions.</li>
 	<li>Use your graph to find the solutions of the equation <m>x^2+2x-8=0</m>.</li>
@@ -218,37 +218,36 @@
     <me>R=-2n^2+80n</me><ol label="a">
     <li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
     <li><p>Complete the table and sketch a graph.
-    <sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-        <col halign="center"/>
-                    <row bottom="minor">
-                        <cell><m>n</m></cell>
-                        <cell>Price per Bracelet</cell>
-                        <cell><m>R</m></cell></row>
-                    <row> 
-                        <cell><m>0</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>5</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>10</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>20</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>  
-                    <row>
-                        <cell><m>30</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row> 
-                    <row>
-                        <cell><m>40</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>                    
-                </tabular>
+    <sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>n</m></cell>
+            <cell>Price per Bracelet</cell>
+            <cell><m>R</m></cell></row>
+        <row> 
+            <cell><m>0</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row> 
+            <cell><m>5</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row> 
+            <cell><m>10</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell><m>20</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>  
+        <row>
+            <cell><m>30</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row> 
+        <row>
+            <cell><m>40</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>                    
+    </tabular>
     <!--    <image source="photos/hp-6-2-27.png"><description>grid</description></image>-->
     <image xml:id="hp-6-2-27">
         <description>grid</description>
@@ -307,34 +306,34 @@
 <exercise number="28"><statement><p>The height in feet of a football <m>t</m> seconds after being kicked from the ground is given by
 	<me>h=-16t^2+80t</me><ol label="a">
 	<li>Factor the expression for <m>h</m>.</li>
-	<li><p>Complete the table and sketch a graph.
+	<li><p>Complete the table and sketch a graph.</p>
 	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 		<col halign="center"/> <col halign="center"/>
-                    <row bottom="minor">
-                        <cell><m>t</m></cell>
-                    	<cell><m>h</m></cell></row>
-                    <row> 
-                        <cell><m>0</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>1</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>2</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>  
-                    <row>
-                        <cell><m>3</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row> 
-                    <row>
-                        <cell><m>4</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>5</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>                    
-                </tabular>
+        <row bottom="minor">
+            <cell><m>t</m></cell>
+        	<cell><m>h</m></cell></row>
+        <row> 
+            <cell><m>0</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row> 
+            <cell><m>1</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row> 
+            <cell><m>2</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell><m>2.5</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>  
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row> 
+        <row>
+            <cell><m>4</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell><m>5</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>
         <!--<image source="photos/hp-6-2-28.png"><description>grid</description></image>-->
     <image xml:id="hp-6-2-28">
         <description>grid</description>
@@ -357,7 +356,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></li>
+    </sidebyside></li>
 	<li>What is the maximum height of the football? When does it reach this height?</li>
 	<li>When does the football fall back to the ground?</li></ol></p></statement></exercise>
 
@@ -486,7 +485,7 @@
 <exercise number="33"><statement><p><m>y=x</m></p>
 <p><m>y=6-x</m></p>
 <p><m>y=6x-x^2</m></p>
-<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><sidebyside>
     <image xml:id="hp-6-2-33ans">
         <description>two lines and parabola</description>
@@ -516,7 +515,7 @@
 <exercise number="34"><statement><p><m>y=x+3</m></p>
 <p><m>y=3-x</m></p>
 <p><m>y=x^2-9</m></p>
-<sidebyside><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 

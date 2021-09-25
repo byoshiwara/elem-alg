@@ -308,7 +308,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
 
 <exercise><statement><p><ol lable="a" cols="2">
 	<li><p><m>8+3t</m></p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>3t</m></cell>
@@ -327,7 +327,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
     <li><p><m>3(t+8)</m></p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>t+8</m></cell>
@@ -348,7 +348,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
 
   <exercise><statement><p><ol lable="a" cols="2">
 	<li><p><m>6+\dfrac{x}{2}</m></p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>\dfrac{x}{2}</m></cell>
@@ -367,7 +367,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
     <li><p><m>\dfrac{6+x}{2}</m></p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>6+x</m></cell>

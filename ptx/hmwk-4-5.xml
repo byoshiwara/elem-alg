@@ -10,7 +10,7 @@
 </p></introduction>
 
 <exercise number="1"><statement><m>m=-2,~~(-3,4)</m>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><sidebyside>
     <image xml:id="hp-4-5-1ans">
@@ -40,10 +40,10 @@
     <li><m>(1,0)</m></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><m>m=\dfrac{1}{2},~~(4,-3)</m>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="3"><statement><m>m=\dfrac{-2}{3},~~(-6,2)</m>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><sidebyside>
     <image xml:id="hp-4-5-3ans">
@@ -73,10 +73,10 @@
     <li><m>(-3,0)</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><m>m=0,~~(-3,5)</m>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="5"><statement><m>m=\dfrac{-5}{2},~~(6,-10)</m>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><sidebyside>
     <image xml:id="hp-4-5-5ans">
@@ -106,7 +106,7 @@
     <li><m>(2,0)</m></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><m>m=3,~~(1,-1)</m>
-<sidebyside width="90%"><image source="photos/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
@@ -230,12 +230,12 @@
 
 <exercise number="17"><statement><p><ol label="a">
     <li><p>Put the equation <m>2y-3x=5</m> into slope-intercept form, and graph the equation.</p>
-    <sidebyside width="45%"><!--<image source="photos/hp-4-5-17.png"><description>graph</description></image>-->
-    <image xml:id="hp-4-5-17"><description>grid</description><latex-image>
+    <sidebyside width="45%"><!--<image source="photos/hp-4-5-17.pdf"><description>graph</description></image>-->
+    <image xml:id="stangrid8"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.35]
+        \begin{tikzpicture} [scale=.4]
         \draw[cyan] (-8,-8) grid (8,8);
         \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
         \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
@@ -260,7 +260,7 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.35]
+        \begin{tikzpicture} [scale=.4]
         \draw[cyan] (-8,-8) grid (8,8);
         \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
         \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
@@ -281,7 +281,7 @@
 
 <exercise number="18"><statement><p><ol label="a">
 	<li><p>Put the equation <m>x-2y=5</m> into slope-intercept form, and graph the equation.</p>
-	<sidebyside width="45%"><image source="photos/hp-4-5-17"><description>graph</description></image></sidebyside></li>
+	<sidebyside width="45%"><image source="photos/stangrid8"><description>graph</description></image></sidebyside></li>
 	<li>What is the slope of any line that is perpendicular to <m>x-2y=5</m>?</li>
 	<li>On your graph for part (a), sketch by hand a line that is perpendicular to <m>x-2y=5</m> and passes through the point <m>(4,-3)</m>.</li>
 	<li>Use the point-slope formula to write an equation for the line that is perpendicular to the graph of <m>x-2y=5</m> and passes through the point <m>(4,-3)</m>.</li></ol></p></statement></exercise>	 

@@ -407,9 +407,9 @@ Bert's average score is 15.8.</p></solution></example>
 <exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
+<exercisegroup cols="2"><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
 
-<exercise number="7"><statement><sidebyside width="35%"><!--<image source="photos/sw-1-2-7.png"/>-->
+<exercise number="7"><statement><sidebyside width="85%" margins="0% 5%">
     <image xml:id="sw-1-2-7"><description>stacks of squares</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -427,7 +427,7 @@ Bert's average score is 15.8.</p></solution></example>
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></statement></exercise>
 
-<exercise number="8"><statement><sidebyside width="35%"><!--<image source="photos/sw-1-2-8.png"/>-->
+<exercise number="8"><statement><sidebyside width="85%" margins="0% 5%">
     <image xml:id="sw-1-2-8"><description>polygonal region with right angles</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -559,7 +559,7 @@ The sale price is $510.</p>
 <exercises>
 
 <exercise><statement><p>Evaluate the algebraic expression in the Example above to complete the table below showing the sale price for various appliances.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside width="45%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>P</m></cell>
                         <cell><m>120</m></cell>
@@ -675,7 +675,7 @@ The sale price is $510.</p>
 
 <p>Write down the five algebraic formulas from the Reading, as algebraic expressions and in words.</p>
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{00}</m></cell>
                         <cell>Formula</cell>

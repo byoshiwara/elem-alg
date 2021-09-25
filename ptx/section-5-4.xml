@@ -245,10 +245,52 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 	<me>\text{Area} = \text{length} \times \text{width}</me><ol label="a">
 
 <li><sidebyside widths="60% 35%"><p>sum of four small areas <m>=</m> one large area</p>
-	<image source="photos/act-5-4-5.png"><description>rectangles</description></image></sidebyside></li>
+	<!--<image source="photos/act-5-4-5.png"><description>rectangles</description></image>-->
+	<image xml:id="act-5-4-1-3">
+	        <description>rectangles</description>
+	        <latex-image>
+	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+	        <![CDATA[\tikzset{%
+	        }
+	        \begin{tikzpicture} [scale=.5]
+			\def\x{3.7 };
+			\def\l{5};
+			\def\w{2};
+			\draw[magenta!80!black,line width=1mm] (0,0) rectangle (\x,\x);
+			\draw[magenta!80!black,line width=1mm] (0,0) rectangle (\x,-\w);
+			\draw[magenta!80!black,line width=1mm] (\x,0) rectangle +(\l,\x);
+			\draw[magenta!80!black,line width=1mm] (\x,0) rectangle +(\l,-\w);
+			\node at (-.6,\x/2) {$x$};
+			\node at ({\x/2},{\x+.6}) {$x$};
+			\node at ({\x+\l/2},{\x+.6}) {$5$};
+			\node at (-.6,-\w/2) {$2$};
+	        \end{tikzpicture}]]>
+	        </latex-image>
+	</image>
+</sidebyside></li>
 
 <li><sidebyside widths="60% 33%"><p>sum of four small areas <m>=</m> one large area</p>
-	<image source="photos/act-5-4-6.png"><description>rectangles</description></image></sidebyside></li>
+	<!--<image source="photos/act-5-4-6.png"><description>rectangles</description></image>-->
+	<image xml:id="act-5-4-1-3b">
+	        <description>rectangles</description>
+	        <latex-image>
+	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+	        <![CDATA[\tikzset{%
+	        }
+	       \begin{tikzpicture} [scale=.4]
+	       \def\x{2.5 };
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({2*\x},\x);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({2*\x},-3);
+	       \draw[magenta!80!black,line width=1mm] ({2*\x},0) rectangle +(4,\x);
+	       \draw[magenta!80!black,line width=1mm] ({2*\x},0) rectangle +(4,-3);
+	       \node at (-.6,\x/2) {$x$};
+	       \node at ({\x},{\x+.6}) {$2x$};
+	       \node at ({2*\x+2},{\x+.6}) {$4$};
+	       \node at (-.6,-1.5) {$3$};
+	        \end{tikzpicture}]]>
+	        </latex-image>
+	</image>
+</sidebyside></li>
 </ol></p></statement></exercise>
 </exercises>
 </subsubsection>
@@ -258,21 +300,98 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 
 <exercise><statement><p><ol label="a">
 <li><p>Use a rectangle to represent the product <m>~(3x-2)(x-5)</m>.</p>
-<sidebyside width = "30%"><image source="photos/act-5-4-7.png"><description>rectangles</description></image></sidebyside></li>
+<sidebyside width = "30%">
+	<!--<image source="photos/act-5-4-7.png"><description>rectangles</description></image>-->
+		<image xml:id="act-5-4-2-1">
+	        <description>rectangles</description>
+	        <latex-image>
+	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+	        <![CDATA[\tikzset{%
+	        }
+	       \begin{tikzpicture} [scale=.4]
+	       \def\x{2.5 };
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({2*\x},\x);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({2*\x},-3);
+	       \draw[magenta!80!black,line width=1mm] ({2*\x},0) rectangle +(4,\x);
+	       \draw[magenta!80!black,line width=1mm] ({2*\x},0) rectangle +(4,-3);
+	        \end{tikzpicture}]]>
+	        </latex-image>
+		</image>
+</sidebyside></li>
 <li>Write the product as a quadratic trinomial.</li></ol></p></statement></exercise>
 
 <exercise><statement><p><ol label="a">
 	<li><sidebyside widths="50% 35%"><p>Find the linear term in the product
 		<me>(x-6)(2x+3)</me>    	
 		Use the diagram to help you.</p>
-		<image source="photos/act-5-4-8.png"><description>rectangles</description></image></sidebyside></li>
+		<!--<image source="photos/act-5-4-8.png"><description>rectangles</description></image>-->
+	<image xml:id="act-5-4-2-2">
+        <description>rectangles</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+       \begin{tikzpicture} [scale=.4]
+       \def\x{2.5 };
+       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({2*\x},\x);
+       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({2*\x},-3);
+       \draw[magenta!80!black,line width=1mm] ({2*\x},0) rectangle +(4,\x);
+       \draw[magenta!80!black,line width=1mm] ({2*\x},0) rectangle +(4,-3);
+       \node at (-.6,\x/2) {$x$};
+		\node at ({\x},{\x+.6}) {$2x$};
+		\node at ({2*\x+2},{\x+.6}) {$3$};
+		\node[left] at (-.1,-1.5) {$-6$};
+        \end{tikzpicture}]]>
+        </latex-image>
+	</image>
+	</sidebyside></li>
 	<li>Which of the four smaller rectangles make up the linear term?</li></ol></p></statement></exercise>
 
 <exercise><statement><p>Compute the area of each rectangle, then write each product as a quadratic trinomial in two variables.<ol label="a">
 	<li><sidebyside widths="40% 33%" margins="0% 15%"><p><m>(3a-5b)(3a-b)</m></p>
-	<image source="photos/act-5-4-9.png"><description>rectangles</description></image></sidebyside></li>
+	<!--<image source="photos/act-5-4-9.png"><description>rectangles</description></image>-->
+		<image xml:id="act-5-4-2-3a">
+	        <description>rectangles</description>
+	        <latex-image>
+	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+	        <![CDATA[\tikzset{%
+	        }
+	       \begin{tikzpicture} [scale=.4]
+	       \def\x{2.5 };
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({\x},\x);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({\x},-3);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle +(-5,\x);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle +(-5,-3);
+	       \node[left] at (-5.2,\x/2) {$3a$};
+	       \node[left] at (-5.2,-3/2) {$-5b$};
+	       \node at ({\x/2},{\x+.6}) {$-b$};
+	       \node at (-5/2,\x+.6) {$3a$};
+	        \end{tikzpicture}]]>
+	        </latex-image>
+		</image>
+	</sidebyside></li>
 	<li><sidebyside widths="40% 33%" margins="0% 15%"><p><m>(x+4y)^2</m></p>
-	<image source="photos/act-5-4-10.png"><description>rectangles</description></image></sidebyside></li>
+	<!--<image source="photos/act-5-4-10.png"><description>rectangles</description></image>-->
+		<image xml:id="act-5-4-2-3b">
+	        <description>rectangles</description>
+	        <latex-image>
+	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+	        <![CDATA[\tikzset{%
+	        }
+	       \begin{tikzpicture} [scale=.4]
+	       \def\x{2.5 };
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({\x},3);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle ({\x},-\x);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle +(-5,3);
+	       \draw[magenta!80!black,line width=1mm] (0,0) rectangle +(-5,-\x);
+	       \node[left] at (-5.2,3/2) {$x$};
+	       \node[left] at (-5.2,-\x/2) {$4y$};
+	       \node at ({\x/2},{3.7}) {$4y$};
+	       \node at (-5/2,3.7) {$x$};
+	        \end{tikzpicture}]]>
+	        </latex-image>
+		</image>
+	</sidebyside></li>
 </ol></p></statement></exercise>
 </exercises>
 </subsubsection>

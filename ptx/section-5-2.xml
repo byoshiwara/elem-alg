@@ -311,29 +311,30 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 	<li><m>\dfrac{13}{27}</m></li>
 	<li><m>\dfrac{962}{2000}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Give a decimal equivalent for each radical, and identify it as rational or irrational. If necessary, round your answers to three decimal places.
-	<sidebyside><tabular>             
-                    <row>
-                        <cell><m>\sqrt{1}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{6}= <fillin characters="15"/></m></cell></row>
-                    <row>
-                        <cell><m>\sqrt{2}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{7}= <fillin characters="15"/></m></cell></row>
-                    <row> 
-                        <cell><m>\sqrt{3}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{8}= <fillin characters="15"/></m></cell></row>
-                    <row>
-                        <cell><m>\sqrt{4}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{9}= <fillin characters="15"/></m></cell></row>
-                    <row>
-                        <cell><m>\sqrt{5}= <fillin characters="15"/></m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\sqrt{10}= <fillin characters="15"/></m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise> 
+<exercise><statement><p>Give a decimal equivalent for each radical, and identify it as rational or irrational. If necessary, round your answers to three decimal places.</p>
+	<tabular>             
+    <row>
+        <cell><m>\sqrt{1}= <fillin characters="15"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\sqrt{6}= <fillin characters="15"/></m></cell></row>
+    <row>
+        <cell><m>\sqrt{2}= <fillin characters="15"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\sqrt{7}= <fillin characters="15"/></m></cell></row>
+    <row> 
+        <cell><m>\sqrt{3}= <fillin characters="15"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\sqrt{8}= <fillin characters="15"/></m></cell></row>
+    <row>
+        <cell><m>\sqrt{4}= <fillin characters="15"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\sqrt{9}= <fillin characters="15"/></m></cell></row>
+    <row>
+        <cell><m>\sqrt{5}= <fillin characters="15"/></m></cell>
+        <cell><m>\hphantom{0000}</m></cell>
+        <cell><m>\sqrt{10}= <fillin characters="15"/></m></cell></row>
+    </tabular>
+</statement></exercise> 
 
 <exercise><statement><p>True or False.<ol label="a" >
 	<li>If a number is irrational, it cannot be an integer.</li>

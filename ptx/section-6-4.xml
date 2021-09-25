@@ -32,27 +32,27 @@ we set <m>y=0</m> and solve the equation
 				<mrow>x=0~~~~4-x \amp = 0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
 				<mrow>x = 0~~~~x \amp = 4</mrow></md>
 	The <m>x</m>-intercepts are the points <m>(0,0)</m> and <m>(4,0)</m>.</li>
-	<li><sidebyside widths="60% 35%"><stack><p>We make a table of values that includes the <m>x</m>-intercepts.</p>
+	<li><sidebyside widths="60% 35%"><stack><p>We make a table of values that includes the <m>x</m>-intercepts.</p><p></p>
 		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>-5</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>-5</m></cell></row>
-                    </tabular>         
+            <row bottom="minor">
+                <cell><m>x</m></cell>
+                <cell><m>-1</m></cell>
+                <cell><m>0</m></cell>
+                <cell><m>1</m></cell>
+                <cell><m>2</m></cell>
+                <cell><m>3</m></cell>
+                <cell><m>4</m></cell>
+                <cell><m>5</m></cell></row>
+            <row> 
+                <cell><m>y</m></cell>
+                <cell><m>-5</m></cell>
+                <cell><m>0</m></cell>
+                <cell><m>3</m></cell>
+                <cell><m>4</m></cell>
+                <cell><m>3</m></cell>
+                <cell><m>0</m></cell>
+                <cell><m>-5</m></cell></row>
+            </tabular> <p></p>        
         <p>We plot the points and connect them with a parabola, as shown in the figure.</p></stack>
     <!--    <image source="photos/fig-6-4-ex1.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-4-ex1"><description>parabola</description><latex-image>
@@ -302,99 +302,145 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li>Find the <m>x</m>-intercepts and the vertex of each graph.</li></ol></p></introduction>
 
 <exercise><statement><p><m>y=x^2+4</m></p>
-	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>3</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-    <sidebyside width="35%"><image source="photos/act-6-4-1.png"><description>grid</description></image></sidebyside>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>3</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>
+<sidebyside width="35%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside>
    </statement></exercise>
 
   <exercise><statement><p><m>y=x^2-4</m></p>
-	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>3</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-    <sidebyside width="35%"><image source="photos/act-6-4-2.png"><description>grid</description></image></sidebyside>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>3</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>
+    <sidebyside width="35%"><image source="photos/hp-6-1-3"><description>grid</description></image></sidebyside>
    </statement></exercise>
 
 <exercise><statement><p><m>y=4x-x^2</m></p>
-	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-    <sidebyside width="35%"><image source="photos/act-6-4-3.png"><description>grid</description></image></sidebyside>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>5</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>
+    <sidebyside width="35%">
+    	<!--<image source="photos/act-6-4-3.png"><description>grid</description></image>-->
+		<image xml:id="act-6-4-1-3">
+	        <description>grid</description>
+	        <latex-image>
+	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+	        <![CDATA[\tikzset{%
+	        }
+	        \begin{tikzpicture}[scale=.6]
+	        \draw[cyan] (-2,-4) grid (6,6);
+	        \draw[black, thick, ->, >=stealth'] (-2,0)--(6.7,0) node[right]{$x$};
+	        \draw[black, thick, ->, >=stealth'] (0,-4)--(0,6.7) node[left]{$y$};
+	        \foreach \x  in  {5} {
+	        \draw[cyan, very thick] (\x,-4)--++(0,10);
+	         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+	        }
+	        \foreach \x  in  {5} {
+	         \draw[cyan, very thick] (-2,\x)--++(8,0);
+	        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+	        }
+	        \end{tikzpicture}]]>
+	        </latex-image>
+    	</image>    	
+    </sidebyside>
    </statement></exercise>
 
 <exercise><statement><p><m>y=(x-4)^2</m></p>
-	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>7</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-    <sidebyside width="35%"><image source="photos/act-6-4-4.png"><description>grid</description></image></sidebyside>
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>6</m></cell>
+            <cell><m>7</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell>
+            <cell><m>\hphantom{0000}</m></cell></row>
+        </tabular>
+    <sidebyside width="35%">
+    	<!--<image source="photos/act-6-4-4.png"><description>grid</description></image>-->
+		<image xml:id="act-6-4-1-4">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.6]
+        \draw[cyan] (-1,-2) grid (7,10);
+        \draw[black, thick, ->, >=stealth'] (-1,0)--(7.7,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-2)--(0,10.7) node[left]{$y$};
+        \foreach \x  in  {5} {
+        \draw[cyan, very thick] (\x,-2)--++(0,12);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {5,10} {
+         \draw[cyan, very thick] (-1,\x)--++(8,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+    	</image>  
+    </sidebyside>
    </statement></exercise>
 </exercisegroup>
 </exercises>
@@ -410,7 +456,29 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li>Find the vertex of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>
 	<li>Sketch the graph.</li></ol></p>
-	<image source="photos/act-6-4-5.png"><description>grid</description></image></sidebyside></statement></exercise>
+	<!--<image source="photos/act-6-4-5.png"><description>grid</description></image>-->
+	<image xml:id="act-6-4-2-1">
+    <description>grid</description>
+    <latex-image>
+    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+    <![CDATA[\tikzset{%
+    }
+    \begin{tikzpicture}[xscale=.6, yscale=.7]
+	\draw[cyan] (-6,-5) grid (2,5);
+	\draw[black, thick, ->, >=stealth'] (-6,0)--(2.7,0) node[right]{$x$};
+	\draw[black, thick, ->, >=stealth'] (0,-5)--(0,5.7) node[left]{$y$};
+	\foreach \x  in  {-5} {
+	\draw[cyan, very thick] (\x,-5)--++(0,10);
+	\draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+	}
+	\foreach \x [evaluate=\x as \yi using int(2*\x)] in  {5,-5} {
+	\draw[cyan, very thick] (-6,\x)--++(8,0);
+	\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+	}
+    \end{tikzpicture}]]>
+    </latex-image>
+	</image> 
+</sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="50% 35%">
 	<p><ol label="a">
@@ -420,7 +488,30 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li>Find the vertex of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>
 	<li>Sketch the graph.</li></ol></p>
-	<image source="photos/act-6-4-6.png"><description>grid</description></image></sidebyside></statement></exercise>
+	<!--<image source="photos/act-6-4-6.png"><description>grid</description></image>-->
+	<image xml:id="act-6-4-2-2">
+    <description>grid</description>
+    <latex-image>
+    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+    <![CDATA[\tikzset{%
+    }
+    \begin{tikzpicture}[xscale=.6, yscale=.5]
+    \draw[cyan] (-6,-6) grid (4,10);
+    \draw[black, thick, ->, >=stealth'] (-6,0)--(4.7,0) node[right]{$x$};
+    \draw[black, thick, ->, >=stealth'] (0,-6)--(0,10.7) node[left]{$y$};
+    \foreach \x  in  {-5} {
+    \draw[cyan, very thick] (\x,-6)--++(0,10);
+     \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+    }
+    \foreach \x in {5,-5, 10} {
+     \draw[cyan, very thick] (-6,\x)--++(10,0);
+    \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+    }
+    \end{tikzpicture}]]>
+    </latex-image>
+	</image> 
+
+</sidebyside></statement></exercise>
 </exercises>
 </subsubsection>
 

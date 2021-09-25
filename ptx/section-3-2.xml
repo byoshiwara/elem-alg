@@ -127,7 +127,7 @@ We can check the solution by substituting <m>x=5.25</m> into the original propor
 
 <p>Suppose that grape juice costs 80 cents per quart, and complete the table.</p>
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Number of Quarts</cell>
                         <cell>Total Price (cents)</cell>
@@ -148,7 +148,7 @@ We can check the solution by substituting <m>x=5.25</m> into the original propor
                         <cell><m>4</m></cell>
                         <cell><m>320</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
 
 <p>Did you find that the ratio <m>\dfrac{\text{total price}}{\text{number of quarts}}</m>, or price per quart, is the same for each row of the table? This agrees with common sense: The price per quart of grape juice is the same no matter how many quarts you buy.</p>
 
@@ -288,8 +288,8 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 <subsubsection><title>Activity 3: Proportional Variables</title>
 
 <exercises>
-<exercise><statement><sidebyside widths = "55% 40%"><p>The table below shows the price, <m>p</m>, for <m>q</m> quarts of SereniTea. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{Price}}{\text{Quarts}}</m> for each data point.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><sidebyside widths = "55% 40%"><stack><p>The table below shows the price, <m>p</m>, for <m>q</m> quarts of SereniTea. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{Price}}{\text{Quarts}}</m> for each data point.</p><p></p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Quarts</cell>
                         <cell>Total Price</cell>
@@ -314,13 +314,37 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>15</m></cell>
                         <cell>$22.50</cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-        <image source="photos/act-3-2-1.png"><description>grid</description></image></sidebyside>
+                    </tabular>
+                </stack>
+        <!--<image source="photos/act-3-2-1.png"><description>grid</description></image>-->
+        <image xml:id="act-3-2-3-1">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (15,25);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16.6,0) node[right]{$q$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,26.6) node[left, xshift=2]{$p$};
+        \foreach \x  in  {5,10,15} {
+         \draw[cyan, very thick] (\x,0) --++(0,25);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+        \foreach \y  in  {5,10,15,20,25} {
+         \draw[cyan, very thick] (0,\y) --++(15,0);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    </sidebyside>
 </statement></exercise>
 
-<exercise><statement><sidebyside widths = "55% 40%"><p>The table below shows the population, <m>P</m>, of a new suburb <m>t</m> years after it was built. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{People}}{\text{Year}}</m> for each data point.
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><sidebyside widths = "55% 40%"><stack><p>The table below shows the population, <m>P</m>, of a new suburb <m>t</m> years after it was built. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{People}}{\text{Year}}</m> for each data point.</p><p></p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Years</cell>
                         <cell>Population</cell>
@@ -345,19 +369,43 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>5</m></cell>
                         <cell>160</cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p>
-        <image source="photos/act-3-2-2.png"><description>grid</description></image></sidebyside>
+                    </tabular></stack>
+        <!--<image source="photos/act-3-2-2.png"><description>grid</description></image>-->
+        <image xml:id="act-3-2-3-2">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.7, yscale=.35]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (6,20);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(6.6,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,21.6) node[left, xshift=2]{$P$};
+        \foreach \x  in  {2,4,6} {
+         \draw[cyan, very thick] (\x,0) --++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+        \foreach \y [evaluate=\y as \yi using int(10*\y] in  {5,10,15,20} {
+         \draw[cyan, very thick] (0,\y) --++(6,0);
+         \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    </sidebyside>
 </statement></exercise>
 
 <exercise><statement><p>At this point, can you make a conjecture (educated guess) about the graphs of proportional variables? To help you decide if your conjecture is true, continue with the graphs in parts 4 and 5.</p>
 <p><m>\blert{\text{Conjecture:}}</m></p></statement></exercise>
 
 <exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol label="a">
+<sidebyside widths = "50% 45%" valigns="middle middle"><p><ol label="a">
     <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
         <me>T=\hphantom{0000}</me></p></li>
-    <li><p>Use your equation to fill in the second column of the table.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Use your equation to fill in the second column of the table.</p><p></p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Units</cell>
                         <cell>Tuition</cell>
@@ -382,18 +430,40 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>12</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>Graph the equation on the grid.</li>
-    <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p></stack>
-    <image source="photos/act-3-2-3.png"><description>grid</description></image></sidebyside>
+    <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p>
+    <!--<image source="photos/act-3-2-3"><description>grid</description></image>-->
+        <image xml:id="act-3-2-3-4">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (15,20);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16.6,0) node[right]{$u$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,21.6) node[left, xshift=2]{$T$};
+        \foreach \x [evaluate=\x as \yi using int(50*\x] in  {5,10,15} {
+         \draw[cyan, very thick] (\x,0) --++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};\foreach \x [evaluate=\x as \yi using int(50*\x] in  {5,10,15,20} {
+         \draw[cyan, very thick] (0,\x) --++(15,0);
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+        }        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside>
 </statement></exercise>
 
 <exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
 <sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol label="a">
     <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
         <me>D=\hphantom{0000}</me></p></li>
-    <li><p>Use your equation to fill in the second column of the table.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Use your equation to fill in the second column of the table.</p><p></p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Hours</cell>
                         <cell>Distance</cell>
@@ -418,10 +488,33 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>16</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>Graph the equation on the grid.</li>
     <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p></stack>
-    <image source="photos/act-3-2-4.png"><description>grid</description></image></sidebyside>
+    <!--<image source="photos/act-3-2-4.png"><description>grid</description></image>-->
+    <image xml:id="act-3-2-3-5">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (0,0) grid (15,20);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16.6,0) node[right]{$h$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,21.6) node[left, xshift=2]{$D$};
+        \foreach \x [evaluate=\x as \yi using int(50*\x] in  {5,10,15} {
+         \draw[cyan, very thick] (\x,0) --++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[black] (0,.15) --++(0,-.3)  node[below, yshift=-2, fill=white,inner sep=1]{$0$};
+        \foreach \x [evaluate=\x as \yi using int(50*\x] in  {5,10,15,20} {
+         \draw[cyan, very thick] (0,\x) --++(15,0);
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+        }        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside>
 </statement></exercise>
 
 <exercise><statement><p>Revise your conjecture about the graphs of proportional variables so that it applies to the graphs on this page as well.</p>
@@ -454,8 +547,8 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 
 <exercise><statement><p>A cake recipe asks for <m>2\frac{1}{2}</m> cups of flour and <m>\frac{3}{4}</m> cup of brown sugar. What is the ratio of flour to brown sugar?</p></statement></exercise>
 
-<exercise><statement><p>Decide whether the two variables are proportional: 
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p>Decide whether the two variables are proportional: </p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>2</m></cell>
@@ -468,7 +561,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>8</m></cell>
                         <cell><m>16</m></cell>
                         <cell><m>25.6</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></statement></exercise>
 
 <exercise><statement><p>Write and solve a proportion to answer the question:</p>
 

@@ -128,32 +128,32 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 
 <exercise number="21"><statement><p><ol label="a">
     <li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p><sidebyside widths="45% 55%" valigns="middle middle">
-        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>y</m></cell></row>
-                    <row> 
-                        <cell><m>4</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>5</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>6</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>10</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>  
-                    <row>
-                        <cell><m>16</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row> 
-                    <row>
-                        <cell><m>19</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>24</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular>
+<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <row bottom="minor">
+        <cell><m>x</m></cell>
+        <cell><m>y</m></cell></row>
+    <row> 
+        <cell><m>4</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell><m>5</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell><m>6</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row>
+        <cell><m>10</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>  
+    <row>
+        <cell><m>16</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row> 
+    <row>
+        <cell><m>19</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row>
+        <cell><m>24</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>                      
+</tabular>
     <!-- <image source="photos/hp-9-5-21.png"><description>grid</description></image>-->
     <image xml:id="hp-9-5-21">
         <description>grid</description>

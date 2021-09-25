@@ -70,7 +70,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
 
 <example xml:id="Example-6-1-2"><statement><p>Graph <m>~~y=x^2-4</m></p></statement>
 
-<solution><sidebyside widths="60% 30%"><p>We make a table of values and plot the points. The graph is shown at right.
+<solution><sidebyside widths="60% 30%"><stack><p>We make a table of values and plot the points. The graph is shown at right.</p><p></p>
  	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -91,8 +91,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
                     	<cell><m>0</m></cell>
                         <cell><m>5</m></cell></row>
                     </tabular>
-    Note that in this equation, <m>c=-4</m>.</p>
-    <!--<image source="photos/fig-6-1-ex2.png"><description>parabola</description></image>-->
+    <p></p><p>Note that in this equation, <m>c=-4</m>.</p></stack>
     <image xml:id="fig-6-1-ex2"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -109,8 +108,6 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
          \draw[black] ({.15},\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[samples=65,domain={-sqrt(10)}:{sqrt(10)},smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(\x)^2-4});
-        \end{tikzpicture}
-        \newline
         \end{tikzpicture}]]></latex-image></image></sidebyside></solution></example>
 
 <reading-questions>
@@ -133,7 +130,6 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
 
 <assemblage><title>Look Closer</title>
 <sidebyside widths="60% 38%" valigns="middle middle" margins="0% 0%"><p>Remember that every positive number has two square roots, so the equation has two solutions, <m>x=4</m> and <m>x=-4</m>.  We can also see the two solutions on a graph.  The figure at right shows the graph of <m>y=x^2</m> and a horizontal line at <m>y=16</m>. There are two points on the graph with <m>y</m>-coordinate <m>16</m>, and their <m>y</m>-coordinates are <m>4</m> and <m>-4</m>.</p>
-<!--<image source="photos/fig-6-1-2.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-1-2"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -159,7 +155,7 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
 
 <solution><p>For each equation, we find the square root of the right side. (That is, we find a number whose square gives the right side.) Remember that every positive number has two square roots.<ol label="a">
 	<li>Because <m>~~100^2=10,000,~~t=\pm 100</m></li>
-	<li>Because <m>~~(\dfrac{2}{3})^2=\dfrac{4}{9},~~b=\pm \dfrac{2}{3}</m></li>
+	<li>Because <m>~~\left(\dfrac{2}{3}\right)^2=\dfrac{4}{9},~~b=\pm \dfrac{2}{3}</m></li>
 	<li>Because <m>~~0.2^2=0.04,~~h=\pm 0.2</m></li>
 	<li>Because <m>~~17^2=(-17)^2,~~m=\pm 17</m></li></ol></p></solution></example>
 
@@ -172,29 +168,28 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
 <subsection><title>Extraction of Roots</title>
 <idx><h>extraction of roots</h></idx>
 
-<sidebyside widths="55% 35%"><stack><p>The figure at right shows a graph of the quadratic equation <m>y=2x^2-5</m>.</p><p> 
+<sidebyside widths="55% 35%"><stack><p>The figure at right shows a graph of the quadratic equation <m>y=2x^2-5</m>.</p><p></p>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>13</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-5</m></cell>
-                        <cell><m>-3</m></cell>
-                    	<cell><m>3</m></cell>
-                        <cell><m>13</m></cell></row>
-                    </tabular></p>
-    <p>You can see that there are two points on the graph for each <m>y</m>-value greater than <m>-5</m>. For example, the two points with <m>y</m>-coordinate 7 are shown.</p></stack> 
-    <!--<image source="photos/fig-6-1-3.png"><description>parabola</description></image>-->
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-2</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell></row>
+        <row> 
+            <cell><m>y</m></cell>
+            <cell><m>13</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-5</m></cell>
+            <cell><m>-3</m></cell>
+        	<cell><m>3</m></cell>
+            <cell><m>13</m></cell></row>
+        </tabular>
+    <p></p><p>You can see that there are two points on the graph for each <m>y</m>-value greater than <m>-5</m>. For example, the two points with <m>y</m>-coordinate 7 are shown.</p></stack> 
     <image xml:id="fig-6-1-3"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -458,64 +453,104 @@ Because the radius of a cone must be a positive number, we use only the positive
     <li><m>2x^2=8</m></li></ol></p>
 <sidebyside widths="30% 45%" valigns="top top">
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
-                    <row>
-                        <cell bottom="minor"><m>x</m></cell>
-                        <cell bottom="minor"><m>y</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>0</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell bottom="minor"><m>1</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>2</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>3</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>-1</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>-2</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>-3</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular> 
-        <image source="photos/act-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+        <row>
+            <cell bottom="minor"><m>x</m></cell>
+            <cell bottom="minor"><m>y</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>0</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row> 
+            <cell bottom="minor"><m>1</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>2</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>3</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>-1</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>-2</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>-3</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        </tabular> 
+    <image xml:id="prev-6-1-1">
+            <description>grid</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture}[scale=.6]
+            \draw[cyan] (-5,-2) grid (5,10);
+            \draw[black, thick, ->, >=stealth'] (-5,0)--(5.8,0) node[right]{$x$};
+            \draw[black, thick, ->, >=stealth'] (0,-2)--(0,10.8) node[left]{$y$};
+            \foreach \x  in  {-4,-2,2,4} {
+             \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \foreach \x [evaluate=\x as \yi using int(2*\x)] in  {5,10} {
+             \draw[cyan, very thick] (-5,\x)--++(10,0);
+            \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
+            }
+            \end{tikzpicture}]]>
+            </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 
 <exercise><statement><p><ol label="a">
     <li><m>y=8-x^2</m></li>
     <li><m>-1=8-x^2</m></li></ol></p>
 <sidebyside widths="30% 45%" valigns="top top">
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
-                    <row>
-                        <cell bottom="minor"><m>x</m></cell>
-                        <cell bottom="minor"><m>y</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>0</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell bottom="minor"><m>1</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>2</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>3</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>-1</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>-2</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>-3</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular> 
-        <image source="photos/act-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+        <row>
+            <cell bottom="minor"><m>x</m></cell>
+            <cell bottom="minor"><m>y</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>0</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row> 
+            <cell bottom="minor"><m>1</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>2</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>3</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>-1</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>-2</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        <row>
+            <cell bottom="minor"><m>-3</m></cell>
+            <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+        </tabular> 
+       <image xml:id="prev-6-1-2">
+               <description>grid</description>
+               <latex-image>
+               <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+               <![CDATA[\tikzset{%
+               }
+               \begin{tikzpicture}[scale=.6]
+               \draw[cyan] (-5,-2) grid (5,10);
+               \draw[black, thick, ->, >=stealth'] (-5,0)--(5.8,0) node[right]{$x$};
+               \draw[black, thick, ->, >=stealth'] (0,-2)--(0,10.8) node[left]{$y$};
+               \foreach \x  in  {-4,-2,2,4} {
+                \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+               }
+               \foreach \x in  {5,10} {
+                \draw[cyan, very thick] (-5,\x)--++(10,0);
+               \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+               }
+               \end{tikzpicture}]]>
+               </latex-image>
+       </image>
+       </sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>Solve.  Give exact values for your answers. </p></introduction>
