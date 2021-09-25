@@ -315,98 +315,121 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
 </subsection>
 
-<subsection><title>Lesson</title>
+        <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Reading a Graph</title>
+        <subsubsection><title>Activity 1: Reading a Graph</title>
 
-<p>The graph shows the U.S. unemployment rate as a precent of the labor force during the years surrounding the Great Depression.</p>
-<sidebyside width="75%"><image source="photos/act1-1-1.png"><description>graph</description></image></sidebyside>
-<p><ol label="a">
-    <li>What was the unemployment rate in 1930?</li>
-    <li>When did the unemployment rate first reach 15%?</li>
-    <li>When did the unemplyment rate reach its highest value? What was the unemployment rate at that time?</li>
-    <li>After 1930, when was the first time the unemployment rate fell below 10%?</li>
-    <li>During which year did the unemployment rate show the greatest increase? During which year did it show the greatest decrease?</li>
-    <li>Complete the table:
+        <p>The graph shows the U.S. unemployment rate as a precent of the labor force during the years surrounding the Great Depression.</p>
+        <sidebyside width="75%">
+            <!--<image source="photos/act1-1-1.png"><description>graph</description></image>-->
+            <image xml:id="act1-1-1">
+                    <description>graph</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [xscale=1, yscale=.3]
+                    \draw[gray] (0,0) grid (13,25);
+                    \foreach \x [evaluate=\x as \year using int(\x+1929)] in  {0,1,2,...,13} {
+                     \draw[darkgray, thick] (\x,.25) --++(0,-.5)  node[below]   {\year};
+                    }
+                    \foreach \y in  {0,5,10, ..., 25} {
+                     \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\y};
+                     \draw[darkgray, very thick] (0,\y) --++(13,0);
+                    }
+                    \draw [blue, very thick] (0,3.2)-- (1,9)-- (2,16)-- (3,23.5)-- (4,24.9) --(5,21.7)--(6,20) -- (7,17) --(8,14) --(9,19) --(10,17) --(11,14.5) --(12, 9.5) -- (13,4.5);
+                    \node[left, xshift=-1, rotate=90 ] at (-1.,18.5) {Unemployment Rate};
+                    \node at (6,27) {\Large U.S. Unemployment Rate};
+                    \end{tikzpicture}]]>
+                    </latex-image>
+            </image>
+        </sidebyside>
+        <p><ol label="a">
+            <li>What was the unemployment rate in 1930?</li>
+            <li>When did the unemployment rate first reach 15%?</li>
+            <li>When did the unemplyment rate reach its highest value? What was the unemployment rate at that time?</li>
+            <li>After 1930, when was the first time the unemployment rate fell below 10%?</li>
+            <li>During which year did the unemployment rate show the greatest increase? During which year did it show the greatest decrease?</li>
+            <li>Complete the table:
 
-    <sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
-                    <row>
-                        <cell bottom="minor">Year</cell>
-                        <cell bottom="minor"><line>Unemployment</line><line>Rate</line></cell>
-                        <cell bottom="minor"><line>Labor Force</line><line>(Millions)</line></cell>
-                        <cell bottom="minor"><line>Number</line><line>Unemployed</line></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1929</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>48.0</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell bottom="minor"><m>1930</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>48.8</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1931</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>49.6</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1932</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>50.3</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1933</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>51.1</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1934</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>51.9</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1935</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>52.6</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1936</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>53.3</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1937</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>54.1</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1938</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>54.9</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1939</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>55.6</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1940</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>56.2</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1941</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>57.5</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>1942</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>60.4</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
-        <li>During which year did the number of unemployed workers increase the most?</li></ol></p></subsubsection>
+            <sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                            <row>
+                                <cell bottom="minor">Year</cell>
+                                <cell bottom="minor"><line>Unemployment</line><line>Rate</line></cell>
+                                <cell bottom="minor"><line>Labor Force</line><line>(Millions)</line></cell>
+                                <cell bottom="minor"><line>Number</line><line>Unemployed</line></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1929</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>48.0</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row> 
+                                <cell bottom="minor"><m>1930</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>48.8</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1931</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>49.6</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1932</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>50.3</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1933</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>51.1</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1934</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>51.9</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1935</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>52.6</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1936</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>53.3</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1937</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>54.1</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1938</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>54.9</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1939</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>55.6</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1940</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>56.2</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1941</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>57.5</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            <row>
+                                <cell bottom="minor"><m>1942</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                                <cell bottom="minor"><m>60.4</m></cell>
+                                <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                            </tabular></sidebyside></li>
+                <li>During which year did the number of unemployed workers increase the most?</li></ol></p></subsubsection>
 
 <subsubsection><title>Activity 2: Writing Mathematical Sentences</title><idx>mathematical sentence</idx>
 
