@@ -160,13 +160,13 @@
 <exercise number="24"><statement><p><m>\dfrac{x}{a}+\dfrac{y}{b}=1~~~~~~~~</m> for <m>~x~</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 25<ndash/>30, <ol label="a">
+<exercisegroup><introduction><p>For Problems 25<ndash/>30, <ol marker="a">
 	<li>Assign a variable and and write an equation.</li> 
 	<li>Solve your equation and answer the question.</li></ol></p></introduction>
 
 <exercise number="25"><statement><sidebyside widths="60% 30%" valigns="top top"><p>Juliet's balcony is 24 feet above the ground, and there is a 10-foot moat at the base of the wall. How long a ladder will Romeo need to reach the balcony?</p>
 <image source="photos/hp-5-3-25"><description>ladder</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>10^2+24^2=x^2</m></li> 
     <li><p>26 ft</p></li></ol></p></answer></exercise>
 
@@ -174,7 +174,7 @@
 <image source="photos/hp-5-3-26"><description>pyramid</description></image></sidebyside></statement></exercise>
 
 <exercise number="27"><statement><p>A baseball diamond is a square whose sides are 90 feet long. What is the straight-line distance from home plate to second base?</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>90^2+90^2=x^2</m></li> 
     <li><p>127.3 ft</p></li></ol></p></answer></exercise>
 
@@ -182,7 +182,7 @@
 
 <exercise number="29"><statement><sidebyside widths="60% 40%" valigns="top top"><p>A surveyor would like to know the distance across a lake.  She picks a spot <m>P</m> on a line perpendicular to the width of the lake, and measures the two distances shown in the figure at right. How wide is the lake?</p>
 <image source="photos/hp-5-3-29"><description>lake</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>28^2+x^2=84^2</m></li> 
     <li><p>79.2 m</p></li></ol></p></answer></exercise>
 
@@ -205,11 +205,11 @@
 
 <exercisegroup><introduction><p>Problems 35<ndash/>36 use the formulas for volume and surface area.</p></introduction>
 
-<exercise number="35"><statement><p>The dome on the new planetarium is a hemisphere (half a sphere) of radius 40 feet.<ol label="a">  
+<exercise number="35"><statement><p>The dome on the new planetarium is a hemisphere (half a sphere) of radius 40 feet.<ol marker="a">  
     <li>Draw a sketch of the dome, and label its radius.</li>
     <li>How much space is enclosed within the dome?</li>
     <li>What is the surface area of the dome?</li></ol></p></statement>
-<answer><p><ol label="a">  
+<answer><p><ol marker="a">  
     <li><sidebyside width="35%" margins="0% 65%"><!--<image source="photos/hp-3-5-35ans.png"><description>dome</description></image>-->
     <image xml:id="hp-5-3-35ans">
         <description>hemisphere dome</description>
@@ -231,7 +231,7 @@
     <li><p><m>\dfrac{128,000 \pi}{3}</m> cubic feet</p></li>
     <li><p><m>3200 \pi</m> square feet</p></li></ol></p></answer></exercise>
 
-<exercise number="36"><statement><p><ol label="a">
+<exercise number="36"><statement><p><ol marker="a">
     <li>How much sheet steel is needed to make a cylindrical can with radius 5 centimeters and height 16 centimeters? (Hint:  Should you calculate the volume or the surface area of the can?)</li>
     <li>How long is a cylindrical section of concrete pipe if its diameter is 3 feet and its surface area is approximately 848.25 square feet?</li>
     <li>Draw a sketch of the pipe in part (b), and label its dimensions.</li></ol></p></statement></exercise>

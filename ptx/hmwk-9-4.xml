@@ -98,7 +98,7 @@
 <exercise number="28"><statement><p><m>\sqrt{\dfrac{7x}{12}}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="29"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol label="a">
+<exercise number="29"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol marker="a">
 	<li>Write an expression for the height of an equilateral triangle of side <m>w</m>. (See the figure at right.)</li>
 	<li>Write an expression for the area of the triangle in part (a).</li></ol></p>
 	<!--<image source="photos/hp-9-4-29.png"><description>triangle</description></image>-->
@@ -121,12 +121,12 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><p><m>\dfrac{w\sqrt{3}}{2} </m></p></li>
 	<li><p><m>\dfrac{w^2\sqrt{3}}{4} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol label="a">
+<exercise number="30"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol marker="a">
 	<li>Write an expression in terms of <m>k</m> for the height of the pyramid shown at right. </li>
 	<li>Write an expressionin terms of <m>k</m> for the area of the pyramid.</li></ol></p>
 	<image source="photos/hp-9-4-30"><description>pyramid</description></image></sidebyside></statement>

@@ -3,7 +3,7 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.1</title>
 
-  <exercise number="1"><statement><p>Which of the following are quadratic equations?<ol label="a" cols="3">
+  <exercise number="1"><statement><p>Which of the following are quadratic equations?<ol marker="a" cols="3">
   		<li><m>1-4x^2=2x</m></li>
   		<li><m>6a-2a^3=a^2</m></li>
   		<li><m>2b-3=4b-b^2</m></li></ol></p></statement>
@@ -240,20 +240,20 @@
 </answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>8, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>8, <ol marker="a">
 	<li>Graph the parabola in part (a).</li> 
 	<li>Use the graph to solve the equation in part (b).</li></ol></p></introduction>
 
-<exercise number="6"><statement><p><ol label="a">
+<exercise number="6"><statement><p><ol marker="a">
 	<li><m>y=\dfrac{1}{2}x^2</m></li>
 	<li><m>\dfrac{1}{2}x^2=8</m></li></ol></p>
 <sidebyside width="70%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside></statement></exercise>	
 
-<exercise number="7"><statement><p><ol label="a">
+<exercise number="7"><statement><p><ol marker="a">
 	<li><m>y=x^2+2</m></li>
 	<li><m>x^2+2=11</m></li></ol></p>
 <sidebyside width="70%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside></statement><answer><p>
-    <ol label="a">
+    <ol marker="a">
         <li><sidebyside width="70%" margins="0% 30%">
     <image xml:id="hp-6-1-7aans">
         <description>parabola</description>
@@ -282,7 +282,7 @@
     </ol>
 </p></answer></exercise>
 
-<exercise number="8"><statement><p><ol label="a">
+<exercise number="8"><statement><p><ol marker="a">
 	<li><m>y=6-2x^2</m></li>
 	<li><m>6-2x^2=4</m></li></ol></p>
 <sidebyside width="70%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside></statement></exercise>	
@@ -341,7 +341,7 @@
 <exercise number="25"><statement><p>At the Custom Pizza shop you can buy their special smoked chicken pizza in any size you like.The cost, <m>C</m>, of the pizza in dollars is given by the equation 
     <me>C=\dfrac{1}{4}r^2</me>      
 where <m>r</m> is the radius of the pizza.</p>
-<sidebyside widths="60% 40%" valigns="middle middle"><p><ol label="a">
+<sidebyside widths="60% 40%" valigns="middle middle"><p><ol marker="a">
     <li><p>Complete the table of values and graph the equation on the grid at right.</p><p></p>
     <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
     <col halign="center"/><col halign="center"/>
@@ -400,7 +400,7 @@ where <m>r</m> is the radius of the pizza.</p>
 </latex-image>
 </image>
 </sidebyside></statement>
-<answer><sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
+<answer><sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol marker="a">
         <li>
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
             <col halign="center"/><col halign="center"/>
@@ -464,7 +464,7 @@ where <m>r</m> is the radius of the pizza.</p>
 </sidebyside></answer></exercise>
 
 <exercise number="26"><statement><p>The faster a car moves, the more difficult it is to stop. The distance, <m>d</m>, in meters, required to stop a car traveling at velocity <m>v</m>, in kilometers per hour, is given by <m>d=0.005v^2</m>.</p>
-<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
+<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol marker="a">
 		<li><p>Complete the table of values and graph the equation on the grid at right.</p><p></p>
 		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 			<col halign="center"/><col halign="center"/>
@@ -518,16 +518,16 @@ where <m>r</m> is the radius of the pizza.</p>
 
 <exercisegroup><introduction><p>For Problems 27<ndash/>29, use the Pythagorean theorem. Give exact answers, and then approximate values rounded to thousandths.</p></introduction>
 
-<exercise number="27"><statement><p><ol label="a">
+<exercise number="27"><statement><p><ol marker="a">
 	<li>Find the height of an equilateral triangle of side 6 feet, as shown below. (Hint: The altitude divides the base into two segments of equal length.)</li>  
 	<li>Find the area of the triangle in part (a).</li></ol></p>
 	<sidebyside width="25%"><image source="photos/hp-6-1-27"><description>triangle</description></image></sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>\sqrt{27} </m> ft</p></li>
     <li><p><m>3\sqrt{27} </m> sq ft</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p><ol label="a">
+<exercise number="28"><statement><p><ol marker="a">
 	<li>The pyramid shown below has a square base. If <m>k=2</m> centimeters, find the length of the diagonal of the base.</li>
 	<li>Find the height of the pyramid. (Hint: The altitude of the pyramid divides the diagonal of the base into two segments of equal length. Use your answer to part (a).)</li>
 	<li>Find the volume of the pyramid.</li></ol></p>
@@ -539,7 +539,7 @@ where <m>r</m> is the radius of the pizza.</p>
 </exercisegroup>
 
 <exercise number="28"><statement><p>If you drop a stone from a bridge 100 feet above the water, the height of the stone   seconds after you drop it is given in feet by <m>h=100-16t^2</m>.</p> 
-<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
+<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol marker="a">
 		<li><p>Complete the table of values and sketch a graph of the equation.</p>
 		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 			<col halign="center"/><col halign="center"/>

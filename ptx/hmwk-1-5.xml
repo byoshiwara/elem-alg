@@ -56,36 +56,36 @@
 <exercisegroup cols="2">
     <introduction><p>For Problems 17<ndash/>22, evaluate each pair of expressions mentally.</p></introduction>
 
-<exercise number="17"><statement><p><ol label="a">
+<exercise number="17"><statement><p><ol marker="a">
 	<li><m>8+2 \cdot 5</m></li>
 	<li><m>(8+2) \cdot 5</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>18</p></li>
     <li><p>50</p></li></ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol label="a">
+<exercise number="18"><statement><p><ol marker="a">
 	<li><m>\dfrac{24}{2+6}</m></li>
 	<li><m>\dfrac{24}{2}+6</m></li></ol></p></statement></exercise>
 
-<exercise number="19"><statement><p><ol label="a">
+<exercise number="19"><statement><p><ol marker="a">
 	<li><m>(9-4)-3</m></li>
 	<li><m>9-(4-3)</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>2</p></li>
     <li><p>8</p></li></ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol label="a">
+<exercise number="20"><statement><p><ol marker="a">
 	<li><m>6 \cdot 8 - 6</m></li>
 	<li><m>6(8-6)</m></li></ol></p></statement></exercise>
 
-<exercise number="21"><statement><p><ol label="a">
+<exercise number="21"><statement><p><ol marker="a">
 	<li><m>\dfrac{36}{6(3)}</m></li>
 	<li><m>\dfrac{36}{6}(3)</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>2</p></li>
     <li><p>18</p></li></ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol label="a">
+<exercise number="22"><statement><p><ol marker="a">
 	<li><m>(30-5)(5)</m></li>
 	<li><m>30-(5)(5)</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -171,11 +171,11 @@
 <exercise number="30"><statement><p><m>mx+b~~~~~~~~</m>for <m>m=\dfrac{3}{5},~x=\dfrac{2}{3}</m> and <m>b=\dfrac{9}{10}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="31"><statement><p>Consider the expression <m>20-2 \cdot 8 + 1</m>.  How would you change the expression if you wanted: <ol label="a">
+<exercise number="31"><statement><p>Consider the expression <m>20-2 \cdot 8 + 1</m>.  How would you change the expression if you wanted: <ol marker="a">
 	<li>The subtraction performed first?</li>
 	<li>The addition performed first?</li>
 	<li>The multiplication performed first?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>(20-2)\cdot 8+1=145</m></li>
     <li><m>20-2\cdot(8+1)=2</m></li>
     <li><m>20-2\cdot8+1=5</m></li></ol></p></answer></exercise>
@@ -184,10 +184,10 @@
 		<p>"Multiply the sum of 5 and 7 by 4, then divide by the difference of 
 		10 and 8."</p></statement></exercise>
 
-<exercise number="33"><statement><p>Write two algebraic expressions for "the difference  of 20 and 8, divided by the sum of 6 and 4 and 10":<ol label="a">
+<exercise number="33"><statement><p>Write two algebraic expressions for "the difference  of 20 and 8, divided by the sum of 6 and 4 and 10":<ol marker="a">
 	<li>Using a fraction bar</li>
 	<li>Using a division symbol</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{20-8}{6+4+10}</m></li>
     <li><m>(20-8)\div(6+4+10)</m></li></ol></p></answer></exercise>
 

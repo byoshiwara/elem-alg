@@ -19,14 +19,14 @@
         <me>\blert{a \cdot b = b \cdot a}</me></p></assemblage></li>
 
     <li>Subtraction and division are not commutative; the order of the numbers matters in a difference or a quotient.</li>
-    <li><assemblage><title>To write an algebraic expression</title><p><ol label="1">
+    <li><assemblage><title>To write an algebraic expression</title><p><ol marker="1">
     	<li>Identify the unknown quantity and write a short phrase to describe it.</li>
     	<li>Choose a variable to represent the unknown quantity.</li>
     	<li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage></li>
 
    	<li>The process of substituting a specific value for the variable into an expression is called <term>evaluating</term> the expression.</li>
 	<li>An equation is a mathematical statement that two algebraic expressions are equal. A <term>formula</term> is an equation that relates two or more variables.</li>
-	<li><assemblage><title>Some Useful Algebraic Formulas</title><p><ol label="1">
+	<li><assemblage><title>Some Useful Algebraic Formulas</title><p><ol marker="1">
 		<li>distance <m>=</m> rate <m>\times</m> time  <m>~~~~~~\blert{d=rt}</m></li>
 		<li>profit <m>=</m> revenue <m>-</m> cost     <m>~~~~~~\blert{P=R-C}</m></li>
 		<li>interest <m>=</m> principal <m>\times</m> interest rate <m>\times</m> time <m>~~~~~~\blert{I=Prt}</m></li>
@@ -40,7 +40,7 @@
 	<li>Each point on a graph has two <term>coordinates</term>, which designate the position of the point.</li>
 	<li>An ordered pair of numbers that make an equation true is called a <term>solution</term> of the equation. Each point on the graph of an equation represents a solution of the equation.</li>
 	<li>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</li>
-	<li><assemblage><title>To graph an equation</title><p><ol label="1">
+	<li><assemblage><title>To graph an equation</title><p><ol marker="1">
     	<li>Make a table of values.</li>
     	<li>Choose scales for the axes.</li>
     	<li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage></li>
@@ -49,11 +49,11 @@
 
 <subsection><title>Lesson 1.4 Solving Equations</title><p><ul>
 	<li>To solve an equation algebraically, we use <term>inverse</term>, or opposite, operations.</li>
-	<li><assemblage><title>To solve an equation algebraically</title><p><ol label="1">
+	<li><assemblage><title>To solve an equation algebraically</title><p><ol marker="1">
 		<li>Ask yourself what operation has been performed on the variable.</li>
 		<li>Perform the opposite operation on both sides of the equation in order to isolate the variable.</li>
 		</ol></p></assemblage></li>
-	<li><assemblage><title>Operations for solving an equation</title><p><ol label="1">
+	<li><assemblage><title>Operations for solving an equation</title><p><ol marker="1">
 		<li>We can add or subtract the same number from both sides.</li>
 		<li>We can multiply or divide both sides by the same number, as long as 
 		that number is not zero.</li></ol></p></assemblage></li>
@@ -63,7 +63,7 @@
 		<li>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
 			<me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></li></ul></p></assemblage></li>
 	<li>Many practical problems can be solved by first writing an equation that describes or <term>models</term> the problem, and then solving the equation.</li>
-	<li><assemblage><title>Steps for solving an applied problem:</title><p><ol label="1">
+	<li><assemblage><title>Steps for solving an applied problem:</title><p><ol marker="1">
 		<li>Identify the unknown quantity and choose a variable to represent it.</li>
 		<li>Find some quantity that can be described in two different ways, and write an equation using the variable to model the problem situation.</li>
 		<li>Solve the equation and answer the question in the problem.</li></ol></p></assemblage></li></ul></p>
@@ -76,24 +76,24 @@
 		<li>Multiplication:  If <m>a, b</m> and <m>c</m> are any numbers, then
 			<me>\blert{(a \cdot b) \cdot c = a \cdot (b \cdot c)}</me></li></ul></p></assemblage></li>
 	<li>The associative laws do not hold for subtraction or division.</li>
-	<li><assemblage><title>Order of Operations</title><p><ol label="1">
+	<li><assemblage><title>Order of Operations</title><p><ol marker="1">
 		<li>First, perform any operations that appear inside parentheses, or above or below a fraction bar.</li>
 		<li>Next, perform all multiplications and divisions in order from left to right.</li>
 		<li>Finally, perform all additions and subtractions in order from left to right.</li></ol></p></assemblage></li>
 	<li>When using a calculator, you must enclose in parentheses any expression that appears above or below a fraction bar.</li></ul></p></subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol label = "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1">
 
 <li> What is a variable?  Give an example.</li>
 <li>What is the difference between an algebraic expression and an equation?</li>
-<li><p><ol label = "a">
+<li><p><ol marker= "a">
 	<li>Write as an algebraic expression "<m>p</m> subtracted from <m>w</m>."</li>
 	<li>Evaluate your expression for <m>p=5.6</m> and <m>w=56</m>.</li></ol></p></li>
-<li><p><ol label = "a">
+<li><p><ol marker= "a">
 	<li>Write as an algebraic expression "<m>m</m> divided by <m>g</m>."</li>
 	<li>Evaluate your expression for <m>m=12</m> and <m>g=192</m>.</li></ol></p></li>
-<li><p>State a formula from this chapter for each of the variables below.<ol label = "a">
+<li><p>State a formula from this chapter for each of the variables below.<ol marker= "a">
 	<li>Distance:  <m>~~d=</m></li>  	
 	<li>Profit:  <m>~~P=</m></li>  
 	<li>Interest:  <m>~~I=</m></li>      	
@@ -134,7 +134,7 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside><ol label="a">
+                    </tabular></sidebyside><ol marker="a">
     <li>Explain in words how to find the distance Martha can drive.</li>
 	<li><p>Write your explanation as a mathematical sentence:</p>
 		<p><m>\text{Miles driven} = </m></p></li>
@@ -164,7 +164,7 @@
     </image>
         </sidebyside></li>
 	</ol></p></statement>
-	<answer><p><ol label="a">
+	<answer><p><ol marker="a">
         <li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
                         <cell>Gallons of gas</cell>
@@ -237,7 +237,7 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside><ol label="a">
+                    </tabular></sidebyside><ol marker="a">
     <li>Explain in words how to find the number of pages left to read.</li>
 	<li><p>Write your explanation as a mathematical sentence:</p>
 		<p><m>\text{Pages left} = </m></p></li>
@@ -377,29 +377,29 @@
 <exercise number="12"><statement><p>Five inches less than the height of the triangle</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="13"><statement><p><ol label="a">
+<exercise number="13"><statement><p><ol marker="a">
 	<li>Write an expression for the distance traveled in <m>t</m> seconds by a car moving at 88 feet per second.</li>
 	<li>How far will the car travel in 5 seconds? In half a second? In half a minute?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>d=88t</m></li>
     <li>440 ft; 44 ft; 2640 ft</li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol label="a">
+<exercise number="14"><statement><p><ol marker="a">
 	<li>Write an expression for the distance you can travel in 3 hours at a speed of <m>r</m> miles per hour.</li>
 	<li>How far can you travel in 3 hours on a bicycle at a speed of 6 miles per hour? On a motorboat at a speed of 20 miles per hour?</li></ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol label="a">
+<exercise number="15"><statement><p><ol marker="a">
 	<li>Write an expression for the amount of interest earned in <m>t</m> years by $500 deposited in an account that pays 7% annual interest.</li>
 	<li>How much interest will the account earn after 1 year? After 2 years? After 5 years?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>I=35t</m></li>
     <li>$35; $70; $175</li></ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol label="a">
+<exercise number="16"><statement><p><ol marker="a">
 	<li>Write an expression for the amount of interest earned in two years by $1500 deposited in an account that pays interest rate <m>r</m>.</li>
 	<li>How much interest will the money earn at 6% interest? At 8.3% interest?</li></ol></p></statement></exercise>
 
-<exercise number="17"><statement><p>Rachel has saved $60 to help pay for her books this semester. Let <m>b</m> stand for the price of her books, and <m>n</m> for the amount she still needs. <ol label="a">
+<exercise number="17"><statement><p>Rachel has saved $60 to help pay for her books this semester. Let <m>b</m> stand for the price of her books, and <m>n</m> for the amount she still needs. <ol marker="a">
 	<li>Write an equation for <m>n</m> in terms of <m>b</m>.</li>
 	<li>Fill in the table.
 		<sidebyside width="45%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -419,7 +419,7 @@
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular></sidebyside></li>
     <li>Choose appropriate scales for the axes and graph your equation.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>n=b-60</m></li>
     <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -438,7 +438,7 @@
                         <cell><m>140</m></cell></row>
                     </tabular></sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="18"><statement><p>Matt wants to travel 360 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours, where <m>t=\dfrac{360}{r}</m>.<ol label="a">
+<exercise number="18"><statement><p>Matt wants to travel 360 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours, where <m>t=\dfrac{360}{r}</m>.<ol marker="a">
 	<li>Fill in the table.
 		<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -462,10 +462,10 @@
                     </tabular></sidebyside></li>
     <li>Choose appropriate scales for the axes and graph your equation.</li></ol></p></statement></exercise>
 
-<exercise number="19"><statement><p>On a typical evening, there are twice as many non-smokers as smokers in a popular restaurant.<ol label="a">
+<exercise number="19"><statement><p>On a typical evening, there are twice as many non-smokers as smokers in a popular restaurant.<ol marker="a">
 	<li>Write an equation for the number of non-smokers, <m>n</m>, in terms of the number of smokers, <m>s</m>.</li>
 	<li>Make a table of values and graph your equation.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>n=2s</m></li>
     <li><sidebyside widths="25% 40%" valigns="middle middle" margins="0% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -505,7 +505,7 @@
     </image>
             </sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="20"><statement><p>Match each equation with its graph.<ol label="a" cols="3">
+<exercise number="20"><statement><p>Match each equation with its graph.<ol marker="a" cols="3">
 	<li><m>y=8-x</m></li>
 	<li><m>y=x+8</m></li>
 	<li><m>y=8x</m></li></ol></p>
@@ -566,7 +566,7 @@
 </sidebyside></statement></exercise>
 
 <exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation <m>~y=\dfrac{5}{2}x</m>.
-<ol label="a" cols="4">
+<ol marker="a" cols="4">
 	<li><m>(4,10)</m></li>
 	<li><m>(5,2)</m></li>
 	<li><m>(1.8,4.5)</m></li>
@@ -574,7 +574,7 @@
 <answer><p>a, c, d</p></answer></exercise>
 
 <exercise number="22"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
-<ol label="a" cols="4">
+<ol marker="a" cols="4">
     <li><m>(5,0)</m></li>
     <li><m>(2,8)</m></li>
     <li><m>(8,3)</m></li>
@@ -608,14 +608,14 @@
     <introduction><p>For Problems 23<ndash/>24, decide whether the given values are solutions of the equation.
 </p></introduction>
 
-<exercise number="23"><statement><p><m>~\dfrac{t}{6}=3</m><ol label="a" cols="2">
+<exercise number="23"><statement><p><m>~\dfrac{t}{6}=3</m><ol marker="a" cols="2">
 	<li><m>t=18</m></li>
 	<li><m>t=2</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>yes</li>
     <li>no</li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><m>~8x=36.8</m><ol label="a" cols="2">
+<exercise number="24"><statement><p><m>~8x=36.8</m><ol marker="a" cols="2">
 	<li><m>z=28.8</m></li>
 	<li><m>z=4.6</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -642,7 +642,7 @@
 <exercisegroup>
     <introduction><p>For Problems 31<ndash/>32, solve the equation graphically.</p></introduction>
 
-<exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
+<exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol marker="a" cols="2">
 	<li><m>1.25x=40</m></li>
 	<li><m>30=1.25x</m></li></ol></p>
 <sidebyside width="40%"><!--<image source="photos/cr1-31.png"><description>graph</description></image>-->
@@ -671,11 +671,11 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>32</li>
     <li>24</li></ol></p></answer></exercise>
 
-<exercise number="32"><statement>The graph of <p><m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
+<exercise number="32"><statement>The graph of <p><m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol marker="a" cols="2">
 	<li><m>\dfrac{24}{x}=6</m></li>
 	<li><m>1.5=\dfrac{24}{x}</m></li></ol></p>
 <sidebyside width="40%"><!--<image source="photos/cr1-32.png"><description>graph</description></image>-->

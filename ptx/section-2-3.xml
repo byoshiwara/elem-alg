@@ -12,10 +12,10 @@
 
 <p>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</p>
 
-<example><statement><p>At 6 am the temperature was <m>50 \degree</m>, and it has been rising by <m>4 \degree</m> every hour.<ol label="a">  
+<example><statement><p>At 6 am the temperature was <m>50 \degree</m>, and it has been rising by <m>4 \degree</m> every hour.<ol marker="a">  
     <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
     <li>Graph your equation.</li></ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li>We set <m>h=0</m> at 6 am.  At that time, <m>T=50</m>.  Because the temperature is rising by <m>4 \degree</m> every hour, we multiply the number of hours by 4 and add the result to 50 to get the new temperature. Thus, our equation is <m>T=50+4h</m>.</li>
     <li><p>Step 1: We make a table of values for the equation. We choose some values for <m>h</m>, as shown in the first column of the table below. For each value of <m>h</m>, we evaluate the formula for <m>T</m>, and we record these values in the second column of the table.
     <sidebyside><tabular  halign="center" left="minor">              
@@ -154,7 +154,7 @@
 
 <p>Now we can graph an equation that includes negative values.</p>
 
-<example xml:id="Example-2-3-3"><statement><p>The temperature in Nome was <m>-12 \degree</m>F at noon. It has been rising at a rate of <m>2 \degree</m>F per hour all day.<ol label="a">  
+<example xml:id="Example-2-3-3"><statement><p>The temperature in Nome was <m>-12 \degree</m>F at noon. It has been rising at a rate of <m>2 \degree</m>F per hour all day.<ol marker="a">  
     <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
     <li><p>Fill in the table and graph your equation. (Negative values of <m>h</m> represent hours before noon.)</p>
         <sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -181,7 +181,7 @@
     <li>What was the temperature 8 hours before noon?</li>
     <li>When will the temperature reach <m>-12 \degree</m>F?</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li>The temperature at <m>h</m> hours after noon is given by <m>T=-12+2h</m>.</li> 
     <li><p>We evaluate the expression for <m>T</m> at each of the <m>h</m>-values in the table.</p>
         <sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -235,11 +235,11 @@
 <assemblage><title>Graphing Tip #1</title>
 <p>If the <term>coefficient</term> of <m>x</m> (the number multiplying <m>x</m>) is a fraction, we can make our work easier by choosing multiples of the denominator for the <m>x</m>-values. That way we won't have to work with fractions to find the <m>y</m>-values. In the Example below, the coefficient of <m>x</m> is <m>\dfrac{-2}{3}</m>, so we choose multiples of 3 for the <m>x</m>-values.</p></assemblage>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
     <li>Graph  <m>~y=\dfrac{-2}{3}x-4</m></li>
     <li>Use the graph to solve the equation <m>~\dfrac{-2}{3}x-4=-2</m></li></ol></p></statement>
 
-<solution><p> <ol label="a">
+<solution><p> <ol marker="a">
     <li><p>We choose <m>x</m>-values that are multiples of 3 and make a table of values.</p>
         <sidebyside width="40%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -332,7 +332,7 @@
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.</p>
         <assemblage><p>
         <ul cols="2"><li><m>2t+12</m></li>
-        <li><m>12-25</m></li>
+        <li><m>12-2t</m></li>
         <li><m>2(t+12)</m></li>
         <li><m>2t-12</m></li></ul>
 </p></assemblage></introduction>
@@ -347,7 +347,7 @@
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
     <li><m>12-2t</m></li>
     <li><m>2t+12</m></li>
     <li><m>2t-12</m></li>
@@ -359,7 +359,7 @@
 
 <subsubsection><title>Activity 1: Graphing Equations</title>
 
-<p>Jasmine's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses.<ol label="a">
+<p>Jasmine's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses.<ol marker="a">
     <li>Write an equation for Jasmine's electric bill, <m>E</m>, if she uses <m>h</m> kWh of electricity.</li>
     <li><p>Graph your equation.</p>
         <sidebyside widths="20% 50%" margins="0% 5%"><stack>
@@ -445,7 +445,7 @@
 
 <exercise><statement><p>Graph the equation <m>~~y=-2x+6</m>.</p>
     <sidebyside widths="50% 45%" valigns="middle middle">
-    <stack><p><ol label="a">
+    <stack><p><ol marker="a">
     <li><p>Choose values for <m>x</m> and make a table of values. Choose both positive and negative <m>x</m>-values, as in the suggested table below.
     <tabular top="major" halign="center" right="minor" left="minor">      
                     <row>
@@ -506,11 +506,11 @@
 <subsubsection><title>Activity 3: Using a Graph</title>
 <exercises>
 
-<exercise><statement><p>Use the graph in Activity 2 to answer parts (a) and (b). Label the point on the graph that gives the answer.<ol label="a">
+<exercise><statement><p>Use the graph in Activity 2 to answer parts (a) and (b). Label the point on the graph that gives the answer.<ol marker="a">
     <li>Evaluate the expression  <m>~-2x+6~</m> for <m>x=-5</m>.</li> 
     <li>Solve the equation  <m>~-2x+6=10</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month.<ol label="a">  
+<exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month.<ol marker="a">  
     <li>Write an equation for Francine's financial status, <m>F</m>, in terms of <m>m</m>, months from now.</li>
     <li><p>Fill in the table. Negative values of <m>m</m> mean months in the past. (Francine's current financial status is <m>-</m>$750.)</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -573,7 +573,7 @@
     <li>Using a graph to answer questions about a model</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, what are the intervals represented by each grid line on the axes?</li>
     <li>In Activity 2, what is the <m>x</m>-coordinate of the point with <m>y</m>-coordinate 16?</li>
     <li>In Activity 3, problem 2, if you increase the value of <m>m</m>, does <m>F</m> increase or decrease?</li>
@@ -662,7 +662,7 @@
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
     <li><sidebyside width="70%" margins="0% 5%">
         <!--<image source="photos/pre-2-3-2.png"><description>graph</description></image>-->
         <image xml:id="pre-2-3-2">

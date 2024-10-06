@@ -3,7 +3,7 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.3</title>
 
-<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, <ol label="a">
+<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, <ol marker="a">
     <li>Fill in the missing expressions.</li>
     <li>Write the area as a product of binomials, then compute the product.</li></ol></p></introduction>
 
@@ -28,7 +28,7 @@
             <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
     </tabular></sidebyside></statement>
-    <answer><ol label="a"><li>
+    <answer><ol marker="a"><li>
 <tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
@@ -96,7 +96,7 @@
             <cell  bottom="major" right="major"><p><m>16</m></p></cell>
         </row>
     </tabular></sidebyside></statement>
-    <answer><ol label="a"><li>
+    <answer><ol marker="a"><li>
     <sidebyside><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
@@ -132,43 +132,43 @@
 <exercise number="6"><statement><p>40</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>12, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>12, <ol marker="a">
     <li>Factor the quadratic trinomial.</li>
     <li>Solve the quadratic equation.</li></ol></p></introduction>
 
-<exercise number="7"><statement><p><ol label="a">
+<exercise number="7"><statement><p><ol marker="a">
     <li><m>n^2+10n+16</m></li>
     <li><m>n^2+10n+16=0</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>(n+2)(n+8)</m></p></li>
     <li><p><m>-2</m>, <m>-8</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol label="a">
+<exercise number="8"><statement><p><ol marker="a">
     <li><m>h^2+26h+48</m></li>
     <li><m>h^2+26h+48=0</m></li></ol></p></statement></exercise>
 
-<exercise number="9"><statement><p><ol label="a">
+<exercise number="9"><statement><p><ol marker="a">
     <li><m>a^2-8a+12</m></li>
     <li><m>a^2-8a+12=0</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>(a-2)(a-6)</m></p></li>
     <li><p><m>2</m>, <m>6</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol label="a">
+<exercise number="10"><statement><p><ol marker="a">
     <li><m>t^2-15t+36</m></li>
     <li><m>t^2-15t+36=0</m></li></ol></p></statement></exercise>
 
-<exercise number="11"><statement><p><ol label="a">
+<exercise number="11"><statement><p><ol marker="a">
     <li><m>x^2-3x-10</m></li>
     <li><m>x^2-3x-10=0</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>(x+2)(x-5)</m></p></li>
     <li><p><m>-2</m>, <m>5</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol label="a">
+<exercise number="12"><statement><p><ol marker="a">
     <li><m>a^2+8a-20</m></li>
     <li><m>a^2+8a-20=0</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -232,7 +232,7 @@
 <exercise number="32"><statement><p><m>(x-8)^2=12+4(10-6x)</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="33"><statement><p>An architect is designing rectangular offices to be 3 yards longer than they are wide, to allow for storage space. Let <m>w</m> represent the width of one office.<ol label="a">
+<exercise number="33"><statement><p>An architect is designing rectangular offices to be 3 yards longer than they are wide, to allow for storage space. Let <m>w</m> represent the width of one office.<ol marker="a">
     <li>Draw a sketch of the floor of an office and label its dimensions.</li>  
     <li>Write an equation for the area, <m>A,</m> of one office in terms of its width.</li>
     <li><p>Complete the table and graph your equation for <m>A</m>.</p>
@@ -284,7 +284,7 @@
     <li>Each office should have an area of 28 square yards. Write an equation for this requirement.</li>
     <li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li></ol></p>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><sidebyside width="20%" margins="0% 80%"><tabular halign="center">
         <row>
             <cell ></cell>
@@ -350,13 +350,13 @@
 How many hours does it take to build a transformer if it costs $80 to produce?</p></statement>
 </exercise>
 
-<exercisegroup><introduction><p>For Problems 35<ndash/>36, <ol label="a">
+<exercisegroup><introduction><p>For Problems 35<ndash/>36, <ol marker="a">
 	<li>Draw and label a sketch to illustrate the problem.</li>
 	<li>Write an equation for the problem.</li>
 	<li>Solve your equation and complete the problem.</li></ol></p></introduction>
 
 <exercise number="35"><statement><p>The area of a computer circuit board must be 60 square centimeters. The length of the circuit board should be 2 centimeters shorter than twice its width. Find the dimensions of the circuit board.</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><sidebyside width="20%" margins="0% 80%"><tabular halign="center">
         <row>
             <cell ></cell>

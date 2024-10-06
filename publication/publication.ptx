@@ -2,7 +2,7 @@
 
 <publication>
 	<common>
-		<tableofcontents level="3"/>
+		<tableofcontents level="2"/>
 	</common>
     <numbering>
         <divisions level="2"/>
@@ -11,15 +11,19 @@
     </numbering>
     <source>
         <directories external="../ext" generated="../gen"/>
+        <fillin textstyle="underline" mathstyle="box"/>
     </source>
-        <epub cover="../ext/photos/cover.png"/>
+        
+    <epub>
+        <cover front="../ext/photos/cover.png"/>
+    </epub>
 
     <!-- HTML-Specific Options -->
     <html>
         <calculator model="geogebra-graphing"/>
         <index-page ref="frontmatter"/>
-        <css style="oscarlevin"/>
-        <css style="default" colors="default"/>
+        <css style="oscarlevin" colors="focused_light"/>
+<!--       <css style="default" colors="default"/> -->
 <!--        <css style="default" colors="blue_red"/> -->
         <knowl example="no"/>
         <knowl exercise-inline="no"/>

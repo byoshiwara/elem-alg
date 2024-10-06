@@ -55,7 +55,7 @@ between 1 and 10 and a power of 10.</li>
 	<md><mrow>\sqrt{a+b} \not= \sqrt{a}+\sqrt{b}</mrow>
 			<mrow>\sqrt{a-b} \not= \sqrt{a}-\sqrt{b}</mrow></md></p></li>
 
-<li><assemblage><title>To Simplify a Square Root</title><p><ol label="1">
+<li><assemblage><title>To Simplify a Square Root</title><p><ol marker="1">
 	<li>Factor any perfect squares from the radicand.</li>
 	<li>Use the product rule to write the radical as a product of two square roots.</li>
 	<li>Simplify the square root of the perfect square.</li></ol></p></assemblage></li>
@@ -77,7 +77,7 @@ between 1 and 10 and a power of 10.</li>
 
 <li>A <term>radical equation</term> is one in which the variable appears under a radical.</li>
 
-<li><assemblage><title>To Solve a Radical Equation</title><p><ol label="1">
+<li><assemblage><title>To Solve a Radical Equation</title><p><ol marker="1">
 	<li>Isolate the radical on one side of the equation.</li>
 	<li>Square both sides of the equation.</li>
 	<li>Continue as usual to solve for the variable.</li></ol></p></assemblage></li>
@@ -90,7 +90,7 @@ between 1 and 10 and a power of 10.</li>
 
 <subsection><title>Review Questions</title>
 
-<p>Use complete sentences to answer the questions.<ol label = "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1">
 
 <li>State the third law of exponents, and compare with the first law.</li>
 <li>State the fourth and fifth laws of exponents and give examples.</li>
@@ -111,27 +111,27 @@ between 1 and 10 and a power of 10.</li>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>8, simplify the expression.</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
+<exercise number="1"><statement><p><ol marker="a" cols="2">
 	<li><m>a^4 \cdot a^6</m></li>
 	<li><m>(a^4)^6</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><p><m>a^{10}</m></p></li>
 	<li><p><m>a^{24}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a" cols="2">
+<exercise number="2"><statement><p><ol marker="a" cols="2">
 	<li><m>\dfrac{a^4}{a^6}</m></li>
 	<li><m>\dfrac{a^6}{a^4}</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol label="a" cols="2">
+<exercise number="3"><statement><p><ol marker="a" cols="2">
 	<li><m>(2a^2)^3</m></li>
 	<li><m>2a^2(a^2)^3</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><p><m>8a^{6}</m></p></li>
 	<li><p><m>2a^{8}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol label="a" cols="2">
+<exercise number="4"><statement><p><ol marker="a" cols="2">
 	<li><m>(\dfrac{-3u}{v^2})^4</m></li>
 	<li><m>\dfrac{-3u^4}{v^2(v^4)}</m></li></ol></p></statement></exercise>
 
@@ -149,27 +149,27 @@ between 1 and 10 and a power of 10.</li>
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>18, simplify and write without negative exponents.
 </p></introduction>
 
-<exercise number="9"><statement><p><ol label="a" cols="2">
+<exercise number="9"><statement><p><ol marker="a" cols="2">
 	<li><m>3x^{-2}</m></li>
 	<li><m>(3x)^{-2}</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
 	<li><p><m>\dfrac{3}{x^2} </m></p></li>
 	<li><p><m>\dfrac{1}{9x^2} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol label="a" cols="2">
+<exercise number="10"><statement><p><ol marker="a" cols="2">
 	<li><m>(4y)^0</m></li>
 	<li><m>4y^0</m></li></ol></p></statement></exercise>
 
-<exercise number="11"><statement><p><ol label="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a" cols="2">
 	<li><m>\left(\dfrac{5}{z}\right)^{-2}</m></li>
 	<li><m>\dfrac{5}{z^{-2}}</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
 	<li><p><m>\dfrac{z^2}{25} </m></p></li>
 	<li><p><m>5z^2 </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol label="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a" cols="2">
 	<li><m>\dfrac{16c^{-4}}{8c^{-8}}</m></li>
 	<li><m>\dfrac{16c^{-4}}{-8c^8}</m></li></ol></p></statement></exercise>
 
@@ -229,17 +229,17 @@ between 1 and 10 and a power of 10.</li>
 <exercisegroup cols="2"><introduction><p>For Problems 31<ndash/>38, simplify the radical if possible.
 </p></introduction>
 
-<exercise number="31"><statement><p><ol label="a" >
+<exercise number="31"><statement><p><ol marker="a" >
 	<li><m>\sqrt{4x^6}</m></li>
 	<li><m>\sqrt{4+x^6}</m></li>
 	<li><m>\sqrt{(4+x)^6}</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
 	<li><p><m>2x^3 </m></p></li>
 	<li><p>Cannot be simplified</p></li>
 	<li><p><m>(4+x)^3 </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol label="a" >
+<exercise number="32"><statement><p><ol marker="a" >
 	<li><m>\sqrt{1-w^9}</m></li>
 	<li><m>\sqrt{1-w^8}</m></li>
 	<li><m>\sqrt{-w^8}</m></li></ol></p></statement></exercise>

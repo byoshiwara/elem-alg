@@ -3,16 +3,16 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.3</title>
 
-<exercise number="1"><statement><p>Find each quotient by using the second law of exponents.<ol label="a" cols="3">
+<exercise number="1"><statement><p>Find each quotient by using the second law of exponents.<ol marker="a" cols="3">
 	<li><m>\dfrac{a^6}{a^3}</m></li>
 	<li><m>\dfrac{3^9}{3^4}</m></li>
 	<li><m>\dfrac{z^6}{z^9}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
+<answer><p><ol marker="a" cols="3">
 	<li><p><m>a^3</m></p></li>
 	<li><p><m>3^6</m></p></li>
 	<li><p><m>\dfrac{1}{z^3}</m></p></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Choose a value for the variable and evaluate to show that the following pairs of expressions are not equivalent.<ol label="a" cols="3">
+<exercise number="2"><statement><p>Choose a value for the variable and evaluate to show that the following pairs of expressions are not equivalent.<ol marker="a" cols="3">
 	<li><m>t^2 \cdot t^3,~~t^6</m></li>
 	<li><m>\dfrac{v^8}{v^2},~~v^4</m></li>
 	<li><m>\dfrac{n^3}{n^5},~~n^2</m></li></ol></p></statement></exercise>

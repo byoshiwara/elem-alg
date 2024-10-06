@@ -16,7 +16,7 @@
 <exercise number="4"><statement><p>An orange contains 0.14 milligram of thiamin and 0.6 milligram of niacin.  What is the ratio of niacin to thiamin?</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="5"><statement><p>Which of the following expressions are proportions?<ol label="a" cols="2">
+<exercise number="5"><statement><p>Which of the following expressions are proportions?<ol marker="a" cols="2">
     <li><m>\dfrac{3}{x}=\dfrac{8}{15}</m></li>  
     <li><m>\dfrac{v}{9}-\dfrac{12}{5}</m></li>
     <li><m>\dfrac{w}{6}+\dfrac{2}{5}=\dfrac{3}{2}</m></li>
@@ -110,7 +110,7 @@
 <exercise number="16"><statement><p>An 18-foot sailboat sleeps four, and a 32-foot sailboat sleeps six.</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 17<ndash/>22, <ol label="a">
+<exercisegroup><introduction><p>For Problems 17<ndash/>22, <ol marker="a">
     <li>Write a proportion.</li>
     <li>Solve the proportion and answer the question.</li></ol></p></introduction>
 
@@ -130,7 +130,7 @@
 <exercise number="22"><statement><p>A cinnamon bread recipe calls for 1<m>\frac{1}{4} </m> tablespoons of cinnamon and 5 cups of flour.  How much cinnamon would be needed with 8 cups of flour?</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 23<ndash/>24, <ol label="a">
+<exercisegroup><introduction><p>For Problems 23<ndash/>24, <ol marker="a">
     <li>Find the constant of proportionality and write an equation relating the variables.</li>
     <li>Make a table of values and graph the equation.</li>
     <li>Use your equation to answer the question.</li></ol></p></introduction>
@@ -174,7 +174,7 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>w=7.5h</m></p></li>
     <li><sidebyside width="45%" margins="0% 55%">
     <image xml:id="hp-3-2-23ans">
@@ -245,15 +245,15 @@
 </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercise number="25"><statement><p>Trish's real-estate commission is proportional to the amount of the sale.  She made  $3200 commission on a sale of $80,000.<ol label="a">  
+<exercise number="25"><statement><p>Trish's real-estate commission is proportional to the amount of the sale.  She made  $3200 commission on a sale of $80,000.<ol marker="a">  
     <li>Write an equation relating Trish's sales and her commission.</li>
     <li>What would her commission be on the sale of a $200,000 property?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>C=0.04S</m></p></li>
     <li><p>$8000</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
+<exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol marker="a"> 
     <li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
     <li>Graph your equation.
     <sidebyside width="30%"><!--<image source="photos/hp-3-2-26.png"><description>grid</description></image>-->
@@ -316,7 +316,7 @@
 </exercise>
 
 <exercise number="27"><statement><p>The sales tax on $12 is 72 cents, and the sales tax on $15 is 90 cents.  The tax <m>T</m> is proportional to the price <m>P</m>.
-<ol label="a"> 
+<ol marker="a"> 
     <li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
     <li><p>Graph your equation.</p>
     <sidebyside width="50%"><!--<image source="photos/hp-3-2-27.png"><description>grid</description></image>-->
@@ -376,7 +376,7 @@
                     </tabular></sidebyside>
 
     <p>What happens to the sales tax when the price is cut in half?</p></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>T=0.06T</m></p></li>
     <li><sidebyside width="50%" margins="0% 50%">
     <image xml:id="hp-3-2-27ans">
@@ -406,7 +406,7 @@
     <li><p>The tax is also cut in half.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>The cost of tuition at Walden College is given by the formula <m>T=500+40u</m>,  where <m>u</m> is the number of units you take.  <ol label="a">
+<exercise number="28"><statement><p>The cost of tuition at Walden College is given by the formula <m>T=500+40u</m>,  where <m>u</m> is the number of units you take.  <ol marker="a">
 	<li><p>Fill in the tables.</p> 
 		<sidebyside widths="25% 25%" margins="25% 25%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -441,7 +441,7 @@
     <li>Does doubling the number of units you take double your tuition?</li>
 	<li>Is <m>T</m> proportional to <m>u</m>?</li></ol></p></statement></exercise> 
 
-<exercise number="29"><statement><p><ol label="a">
+<exercise number="29"><statement><p><ol marker="a">
     <li>State a formula for the circumference of a circle in terms of its radius.</li>
     <li><p>Complete the table.</p> 
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -484,7 +484,7 @@
     </image>
         </sidebyside></li>
     <li>Is the circumference of a circle proportional to its radius?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>C=2\pi r</m></p></li>
     <li><sidebyside width="45%" margins="0% 55%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
@@ -527,7 +527,7 @@
         <li><p>Yes</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement><p><ol label="a">
+<exercise number="30"><statement><p><ol marker="a">
 	<li>State a formula for the area of a square in terms of the length of its side.</li>
 	<li><p>Complete the table.</p> 
 		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -606,11 +606,11 @@
                     </tabular>
 Cook off turkey and beef in oven; place in pots. Braise off chopped peppers and diced onions (turkey will absorb liquid).  Add stock to turkey to moisten well before adding other products. Stir together. Heat till piping hot. Serve on rolls.
 
-<ol label="a">
+<ol marker="a">
 	<li>What is the ratio of tomato puree to tomato catsup?  How many servings of sloppy joes can you make if you have only 5 cans of tomato catsup?  How many cans of tomato puree will you need?</li>
 	<li>How much chili powder (in ounces) will you need to serve sloppy joes to 50 people?  How many pounds of ground beef?</li>
 	<li>The cookbook also lists the ingredients needed for 4500 servings.  How many cans of mushrooms are required for 4500 servings?  How many pounds of onions?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>3 to 2</p></li>
     <li><p><m>416\frac{2}{3} </m> servings; <m>7\frac{1}{2} </m> cans</p></li>
     <li><p>2.4 oz; 15.5 lb</p></li>

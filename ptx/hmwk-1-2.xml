@@ -122,14 +122,14 @@
 <answer><m>2v</m></answer></exercise>
 </exercisegroup>
 
-<exercise number="18"><statement><p><ol label="a">
+<exercise number="18"><statement><p><ol marker="a">
     <li><p>Which of these expressions says "one-sixth of <m>x</m>" ?</p>
         <me> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</me></li>
     <li><p>Which of these expressions says "6% of <m>x</m>" ?</p>
         <me> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</me></li>
 </ol></p></statement></exercise>
 
-<exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol label="a">    
+<exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol marker="a">    
     <li>If <m>m</m> stands for Francine's spending money, write an expression for the amount she saves.</li>
     <li>Evaluate the expression to complete the table.
     <sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -145,7 +145,7 @@
                         <cell></cell></row>
                     </tabular></sidebyside></li>
         </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{m}{5}</m></li>
     <li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -161,7 +161,7 @@
                     </tabular></sidebyside></li>
     </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p>Delbert wants to enlarge his class photograph. Its height is <m>\dfrac{1}{4}</m> of its width. The enlarged photo should have the same shape as the original.<ol label="a"> 
+<exercise number="20"><statement><p>Delbert wants to enlarge his class photograph. Its height is <m>\dfrac{1}{4}</m> of its width. The enlarged photo should have the same shape as the original.<ol marker="a"> 
     <li>If <m>W</m> stands for the width of the enlargement, write an expression for its height.</li>
     <li>Evaluate the expression to complete the table.
     <sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -178,7 +178,7 @@
                     </tabular></sidebyside></li>
         </ol></p></statement></exercise>
 
- <exercise number="21"><statement><p>If the governor vetoes a bill passed by the State Assembly, <m>\dfrac{2}{3}</m> of the members present must vote for the bill in order to overturn the veto.<ol label="a">  
+ <exercise number="21"><statement><p>If the governor vetoes a bill passed by the State Assembly, <m>\dfrac{2}{3}</m> of the members present must vote for the bill in order to overturn the veto.<ol marker="a">  
     <li>If <m>p</m> stands for the number of Assembly members present, write an expression for the number of votes needed to overturn a veto.</li>
     <li>Evaluate the expression to complete the table.
     <sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
@@ -194,7 +194,7 @@
                         <cell></cell></row>
                     </tabular></sidebyside></li>
         </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{2}{3}p</m></li>
     <li><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -210,7 +210,7 @@
                     </tabular></sidebyside></li>
     </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p>Marla's investment club buys some stock. She will get <m>\dfrac{3}{5}</m> of the dividends.<ol label="a">  
+<exercise number="22"><statement><p>Marla's investment club buys some stock. She will get <m>\dfrac{3}{5}</m> of the dividends.<ol marker="a">  
     <li>If <m>D</m> stands for the stock dividends, write an expression for Marla's share.</li>
     <li>Evaluate the expression to complete the table.
     <sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
@@ -254,17 +254,17 @@
 <exercisegroup>
     <introduction><p>For Problems 31<ndash/>32, write algebraic expressions in terms of <m>x</m>.</p></introduction>
 
-<exercise number="31"><statement><p><ol label="a">
+<exercise number="31"><statement><p><ol marker="a">
     <li>Daniel and Lara together made $480. If Daniel made <m>x</m> dollars, how much did Lara make?</li>
     <li>Alix spent $500 on tuition and books. If she spent <m>x</m> dollars on books, how much was her tuition?</li>
     <li>Thirty children signed up for summer camp. If <m>x</m> boys signed up, how many girls signed up?</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>480-x</m></li>
     <li><m>500-x</m></li>
     <li><m>30-x</m></li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol label="a">
+<exercise number="32"><statement><p><ol marker="a">
     <li>Rona spent $15 less than her sister on shoes. If Rona's sister spent <m>x</m> dollars, how much did Rona spend?</li>
     <li>Phoenix had 12 fewer rain days than Boston last year. If Boston had <m>x</m> rain days, how many rain days did Phoenix have?</li>
     <li>Jared scored 18 points lower on his second test than he scored on his first test. If he scored <m>x</m> points on the first test, what was his score on the second test?</li>
@@ -288,29 +288,29 @@
 <exercisegroup>
     <introduction><p>For Problems 37<ndash/>40, use the formulas in this Lesson.</p></introduction>
 
-<exercise number="37"><statement><p><ol label="a">
+<exercise number="37"><statement><p><ol marker="a">
     <li>Write an equation for the distance <m>d</m> traveled in <m>t</m> hours by a small plane flying at 180 miles per hour.</li>
     <li>How far will the plane fly in 2 hours? In <m>3\dfrac{1}{2}</m> hours? In half a day?</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>d=180t</m></li>
     <li>360 miles, 630 miles, 2160 miles</li>
     </ol></p></answer></exercise>  
 
-<exercise number="38"><statement><p><ol label="a">
+<exercise number="38"><statement><p><ol marker="a">
     <li>A certain pesticide contains 0.02% by volume of a dangerous chemical. Write an equation for the amount of chemical <m>C</m> that enters the environment in terms of the number of gallons of pesticide used.</li>
    <li>How much of the chemical enters the environment if 400 gallons of the pesticide are used? 5000 gallons? 50,000 gallons?</li>
 </ol></p></statement></exercise>
 
-<exercise number="39"><statement><p><ol label="a">
+<exercise number="39"><statement><p><ol marker="a">
     <li>BioTech budgets 8.5% of its revenue for research. Write an equation for the research budget <m>B</m> in terms of BioTech's revenue <m>R</m>.</li>
     <li>What is the research budget if BioTech's revenue is $100,000? $500,000? $2,000,000?</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>B=0.085R</m></li>
     <li>$8500;  $42,500;  $170,000</li></ol></p></answer></exercise>  
     
-<exercise number="40"><statement><p><ol label="a">
+<exercise number="40"><statement><p><ol marker="a">
     <li>Hugo's Auto Shop paid $4000 in expenses this month. Write an equation for their profit <m>P</m> in terms of their revenue <m>R</m>.</li>
     <li>What was their profit if their revenue was $10,000? $6500? $2500?</li></ol></p></statement></exercise>
 </exercisegroup>

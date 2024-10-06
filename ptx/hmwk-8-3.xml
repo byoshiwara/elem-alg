@@ -36,7 +36,7 @@
 <exercise number="12"><statement><p><m>\dfrac{2}{x} + \dfrac{x}{x-2}-2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>24, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>24, <ol marker="a">
 	<li>Find the lowest common denominator for the fractions.</li>
 	<li>Add or subtract.</li></ol></p></introduction>
 
@@ -71,7 +71,7 @@
 <exercise number="24"><statement><p><m>\dfrac{q}{r-a} - \dfrac{2q}{r} + \dfrac{q}{r+a}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>30, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>30, <ol marker="a">
 	<li>Find the lowest common denominator for the fractions.</li>
 	<li>Add or subtract.</li></ol></p></introduction>
 
@@ -93,29 +93,29 @@
 
 <exercisegroup><introduction><p>For Problems 31<ndash/>33, combine the fractions.</p></introduction>
 
-<exercise number="31"><statement><p><ol label="a" cols="2">
+<exercise number="31"><statement><p><ol marker="a" cols="2">
 	<li><m>\dfrac{2b}{a} \cdot \dfrac{4}{b}</m></li>
 	<li><m>\dfrac{2b}{a} - \dfrac{4}{b}</m></li>
 	<li><m>\dfrac{2b}{a} \div \dfrac{4}{b}</m></li>
 	<li><m>\dfrac{2b}{a} + \dfrac{4}{b}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><m>\dfrac{8}{a}</m></li>
 	<li><m>\dfrac{2b^2-4a}{ab}</m></li>
 	<li><m>\dfrac{2b^2}{4a}</m></li>
 	<li><m>\dfrac{2b^2+4a}{ab}</m></li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol label="a" cols="2">
+<exercise number="32"><statement><p><ol marker="a" cols="2">
 	<li><m>\dfrac{2y}{3x^2} \div \dfrac{6}{xy}</m></li>
 	<li><m>\dfrac{2y}{3x^2} + \dfrac{6}{xy}</m></li>
 	<li><m>\dfrac{2y}{3x^2} \cdot \dfrac{6}{xy}</m></li>
 	<li><m>\dfrac{2y}{3x^2} - \dfrac{6}{xy}</m></li></ol></p></statement></exercise>
 
-<exercise number="33"><statement><p><ol label="a" cols="2">
+<exercise number="33"><statement><p><ol marker="a" cols="2">
 	<li><m>\dfrac{3}{2+a} - \dfrac{2}{a^2-4}</m></li>
 	<li><m>\dfrac{3}{2+a} \cdot \dfrac{2}{a^2-4}</m></li>
 	<li><m>\dfrac{3}{2+a} + \dfrac{2}{a^2-4}</m></li>
 	<li><m>\dfrac{3}{2+a} \div \dfrac{2}{a^2-4}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><m>\dfrac{3a-8}{a^2-4}</m></li>
 	<li><m>\dfrac{6}{(a+2)^2(a-2)}</m></li>
 	<li><m>\dfrac{3a-4}{a^2-4}</m></li>
@@ -134,7 +134,7 @@
 	<li>How long will the flight from Washington to Richmond take?</li>
 	<li>How long will a round trip take?</li>
 	<li>Evaluate your fractions in parts (a)-(c) for <m>x=150</m>.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
 	<li><p><m>\dfrac{100}{x-10} </m> hrs</p></li>
 	<li><p><m>\dfrac{100}{x+10} </m> hrs</p></li>
 	<li><p><m>\dfrac{200x}{x^2-100} </m> hrs</p></li>

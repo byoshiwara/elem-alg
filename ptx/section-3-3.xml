@@ -157,7 +157,7 @@ The slope tells us that if we start at any point on the line and move 1 unit in 
 	<li><m> \Delta y = 3~~</m> means that the <m>y</m>-coordinate changes by 3 units when we move from one point to another.</li></ul></p></warning>
 
 <reading-questions>
-    <exercise number="3"><statement><p>What does <m>\Delta</m> mean in mathematics?</p></statement>
+    <exercise number="3"><statement><p>What does <m>\Delta x</m> mean in mathematics?</p></statement>
     	<answer><p>Change in <m>x</m>.</p></answer></exercise>
     <exercise number="4"><statement><p>How do we indicate <m>\Delta x</m> on a graph?</p></statement>
     	<answer><p>By a horizontal arrow</p></answer></exercise>
@@ -203,11 +203,11 @@ The slope gives us the rate of change of the temperature with respect to time:  
         \filldraw[red!80!black] (2,4) circle (2mm) node[text=black,below right,yshift=-4, xshift=1, fill=white, inner sep=1] {$G(2,100)$};
         \filldraw[red!80!black] (4,8) circle (2mm) node[text=black,above left,yshift=2, xshift=-5, fill=white, inner sep=1] {$H(4,200)$};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
-<ol label="a">
+<ol marker="a">
     <li>Compute the slope of the graph.</li>
     <li>What is the meaning of the slope for this problem?</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>Choose any two points on the line, say <m>G(2,100)</m> and <m>H(4,200)</m> shown in the figure. As we move from <m>G</m> to <m>H</m> we find 
         <me>m = \dfrac{\Delta D}{\Delta t} = \dfrac{100}{2} = 50</me>
     The slope of the line is 50.</p></li>
@@ -305,7 +305,7 @@ minutes.</p></statement></exercise>
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="2">
+<p><ol marker="1" cols="2">
     <li><p><m>47.\overline{3}</m> miles per hour</p></li>
     <li><p><m>0.12</m> miles per minute</p></li>
     <li><p><m>20</m> gallons per minute</p></li>
@@ -372,7 +372,7 @@ Be sure to include units with your ratios!</p>
         </latex-image>
 </image>
     </sidebyside>
-        <p><ol label="a">
+        <p><ol marker="a">
     <li>Plot the data on the grid.</li>
     <li><p>Choose two points from the graph and use them to compute the slope.</p>
 
@@ -411,7 +411,7 @@ Be sure to include units with your ratios!</p>
                     </row>
                 </tabular>                    
         <image source="photos/act-3-2-3-2"><description>grid</description></image></sidebyside>
-        <p><ol label="a">
+        <p><ol marker="a">
     <li>Plot the data on the grid.</li>
     <li><p>Choose two points from the graph and use them to compute the slope.</p>
 
@@ -427,7 +427,7 @@ Be sure to include units with your ratios!</p>
     </statement></exercise>
 
 <exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
-    <sidebyside widths = "55% 40%"><stack><p><ol label="a">  
+    <sidebyside widths = "55% 40%"><stack><p><ol marker="a">  
     <li>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
         <me>T=\hphantom{0000}</me></li>
     <li><p>Use your equation to fill in the table.
@@ -462,7 +462,7 @@ Be sure to include units with your ratios!</p>
         <image source="photos/act-3-2-3-4"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
-<sidebyside widths = "50% 40%" ><stack><p><ol label="a">
+<sidebyside widths = "50% 40%" ><stack><p><ol marker="a">
     <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
         <me>D=\hphantom{0000}</me></p></li>
     <li><p>Use your equation to fill in the table.
@@ -496,7 +496,7 @@ Be sure to include units with your ratios!</p>
     <li>Write the slope as a rate of change, including units. What does the slope tell you about the variables?</li></ol></p></stack>
         <image source="photos/act-3-2-3-5"><description>grid</description></image></sidebyside></statement></exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
     <li>Which of the four graphs will give different values for the slope, depending on which points you choose?</li>  
     <li>What is different about this graph, compared to the other three graphs?</li></ol></p></statement></exercise> 
 </exercises>
@@ -516,7 +516,7 @@ Be sure to include units with your ratios!</p>
 
 <exercises>
 
-<exercise><statement><p>The value of new office equipment decreases, or depreciates, over time. The graph shows the value, <m>V</m>, in thousands of dollars, of a large copy machine <m>t</m> years after it was purchased.<ol label="a">
+<exercise><statement><p>The value of new office equipment decreases, or depreciates, over time. The graph shows the value, <m>V</m>, in thousands of dollars, of a large copy machine <m>t</m> years after it was purchased.<ol marker="a">
     <li><p>Compute the slope of the line by moving from point <m>A</m> to point <m>B</m>.</p>
     <sidebyside widths = "47% 47%%" margins="0% 0%">
         <!--<image source="photos/act-3-3-2.png"><description>grid</description></image>
@@ -588,7 +588,7 @@ Be sure to include units with your ratios!</p>
 </exercise>
 
 <exercise><statement><p>Find the slope of each line segment. Verify that you get the same answer if you move in the opposite direction. (Each square counts for one unit.)</p>
-<p><ol label="a" cols="3">
+<p><ol marker="a" cols="3">
     <li><sidebyside>
         <image xml:id="act-3-3-2-2a">
         <description>grid with segment</description>
@@ -688,12 +688,12 @@ Be sure to include units with your ratios!</p>
                 </latex-image>
         </image>
     </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
     <li>By using the points <m>P(-3,-4)</m> and <m>Q(3,0)</m>.</li>
     <li>By using the points <m>R(6,2)</m> and <m>S(0,-2)</m>.</li>
     <li>Do you get the same value for the slope in each case?</li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
     <li><sidebyside widths="45% 40%" valigns="middle middle"><stack><p>Graph the line 
         <me>4x-2y=8</me>    
         by finding the <m>x</m>- and <m>y</m>-intercepts.</p><p></p>
@@ -727,7 +727,7 @@ Be sure to include units with your ratios!</p>
     <li>Interpreting the slope as a rate of change</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, which of the four graphs was not a straight line?</li>
     <li>What does the sign of the slope tell you about the graph?</li>
     <li>Delbert says that if both intercepts of a line are positive, then the slope is positive also. Is he correct?  Explain why or why not.</li></ol></p></assemblage>
@@ -818,7 +818,7 @@ Be sure to include units with your ratios!</p>
 <exercise><statement><p>If <m>m=\dfrac{-3}{2}</m>, and <m>\Delta y = 6</m>, find <m>\Delta x</m>.</p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="3">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="3">
     <li><m>m=\dfrac{5}{3}</m></li>
     <li><m>m=\dfrac{3}{4}</m></li>
     <li><m>m=\dfrac{-4}{3}</m></li>

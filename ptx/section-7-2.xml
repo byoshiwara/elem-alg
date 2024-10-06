@@ -21,7 +21,7 @@ These observations illustrate the following rule.</p>
 <p>To multiply two powers with the same base, we add the exponents and leave the base unchanged. In symbols,
 	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p></assemblage>
 
-<example><statement><p>In each product below, we keep the same base and add the exponents.<ol label="a" cols="2">
+<example><statement><p>In each product below, we keep the same base and add the exponents.<ol marker="a" cols="2">
 	<li><m>x^2 \cdot x^6 = x^8</m></li>
 	<li><m>5^2 \cdot 5^5 = 5^8</m></li></ol></p></statement></example>
 
@@ -30,10 +30,10 @@ These observations illustrate the following rule.</p>
 		<mrow> t^3 \cdot t^5 \amp \rightarrow t^{15}  \amp \amp \blert{\text{We add the exponents.The correct product is}~t^8.}</mrow></md></p></warning>
 
 <reading-questions>
-    <exercise number="1"><statement><p><ol label="a">
+    <exercise number="1"><statement><p><ol marker="a">
     	<li>How do we simplify the product of two powers with the same base?</li>
 		<li>How do we simplify the product of two powers with different bases?</li></ol></p></statement>
-    <answer><p><ol label="a">
+    <answer><p><ol marker="a">
     	<li>We add the exponents and leave the base unchanged.</li>
     	<li>We cannot simplify the product.</li></ol></p></answer></exercise>
 </reading-questions>
@@ -144,7 +144,7 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="4">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="4">
 	<li><m>4^2-3b-12</m></li>
 	<li><m>4x^2+6</m></li>
 	<li><m>-6x^2+27x+6</m></li>
@@ -158,12 +158,12 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 <subsubsection><title>Activity 1: Products of Monomials</title>
 <exercises>
 
-<exercise><statement><p>Use the first law of exponents to find each product.<ol label="a" cols="3">
+<exercise><statement><p>Use the first law of exponents to find each product.<ol marker="a" cols="3">
 	<li><m>k^2 \cdot k^8</m></li>
 	<li><m>y^3(y^3)</m></li>
 	<li><m>a^4 \cdot a^9</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Multiply.<ol label="a" cols="2">
+<exercise><statement><p>Multiply.<ol marker="a" cols="2">
 	<li><m>2x^2y(-3x^2y^2)</m></li>
 	<li><m>-3a^4b(-4a^3b)</m></li></ol></p></statement></exercise>
 </exercises>
@@ -189,7 +189,7 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 	<li>Computing the product of two or more polynomials</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>What is wrong with the statement <m>5^7 \cdot 5^8 = 25^{15}</m> ?</li>
 	<li>What is the difference between the expressions <m>6x^4)(-2x^4)</m> and <m>6x^4-2x^4</m> ?</li> 
 	<li>In Activity 2 Problem 2, which of the three factors did you multiply together first?</li>
@@ -220,7 +220,7 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1">
+<p><ol marker= "1">
 	<li><m>3b^2-3b^3</m></li>
 	<li><m>b^2-3b^3</m></li>
 	<li><m>4b^5-8b^4</m></li>

@@ -82,7 +82,7 @@ We get the same answer with either method.</p></solution></example>
 
 <assemblage><title>To Multiply Algebraic Fractions</title>
 <idx><h>product</h><h>of fractions</h></idx><idx><h>multiplying</h><h>fractions</h></idx><idx><h>fractions</h><h>multiplying</h></idx><idx><h>fractions</h><h>products of</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Factor each numerator and denominator completely.</li>
 	<li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
 	<li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
@@ -163,7 +163,7 @@ We get the same answer with either method.</p></solution></example>
 
 <assemblage><title>To Divide One Fraction by Another</title>
 <idx><h>quotient</h><h>of fractions</h></idx><idx><h>division</h><h>of fractions</h></idx><idx><h>fractions</h><h>dividing</h></idx><idx><h>fractions</h><h>quotient of</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Take the reciprocal of the second fraction and change the division to multiplication.</li>
 	<li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
 
@@ -263,7 +263,7 @@ We must change the sign of each term of the second numerator, to get <m>-3x+5</m
 
 <assemblage><title>To Add or Subtract Like Fractions</title>
 <idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Add or subtract the numerators.</li>
 	<li>Keep the same denominator.</li>
 	<li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
@@ -320,7 +320,7 @@ The quotient is the sum of a polynomial, <m>3x^3-2x</m>, and an algebraic fracti
 <exercise number="8"><statement><p>Reduce <m>~~\dfrac{2x-4}{3x-6}</m></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
 	<li><m>\dfrac{9}{2}</m></li>
 	<li><m>8</m></li>
 	<li><m>\dfrac{1}{8}</m></li>
@@ -340,35 +340,35 @@ The quotient is the sum of a polynomial, <m>3x^3-2x</m>, and an algebraic fracti
 
 <exercise><statement><p>Example: <m>~~~\dfrac{5}{8} \cdot \dfrac{3}{4} = \dfrac{5 \cdot 3}{8 \cdot 4} = \dfrac{15}{32}~~</m></p>
 <p><m>\blert{\text{Multiply the numerators together; multiply the denominators together.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
 	<li><m>\dfrac{2}{5} \cdot \dfrac{2}{3} =</m></li>
 	<li><m>\dfrac{2}{w} \cdot \dfrac{z}{3} =</m></li></ol></p></statement></exercise>	
 
 <exercise><statement><p>Example: <m>~~~\dfrac{3}{4} \cdot \dfrac{5}{6} = \dfrac{\cancel{3}}{4} \cdot \dfrac{5}{2 \cdot \cancel{3}} = \dfrac{5}{8}~~</m></p>
 <p><m>\blert{\text{Divide out common factors first, then multiply.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
 	<li><m>\dfrac{5}{4} \cdot \dfrac{8}{9} =</m></li>
 	<li><m>\dfrac{5}{2a} \cdot \dfrac{4a}{9} =</m></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Example: <m>~~~\dfrac{3}{4} \cdot 6 = \dfrac{\cancel{3}}{4} \cdot \dfrac{6}{1} = \dfrac{3}{2 \cdot \cancel{2}} \cdot \dfrac{\cancel{2}\cdot 3}{1} = \dfrac{9}{2}~~~~~~~~
 \blert{\text{Write} ~6~ \text{as} ~\dfrac{6}{1}.}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
 	<li><m>\dfrac{7}{3} \cdot 12 =</m></li>
 	<li><m>\dfrac{7}{x} \cdot 4x =</m></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Example: <m>~~~\dfrac{12}{5} \div \dfrac{8}{5} = \dfrac{12}{5} \cdot \dfrac{5}{8} = \dfrac{\cancel{4} \cdot 3}{\cancel{5}} \cdot \dfrac{\cancel{5}}{\cancel{4}\cdot 2} = \dfrac{3}{2}~~</m></p>
 <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
 	<li><m>\dfrac{8}{3} \div \dfrac{2}{9} =</m></li>
 	<li><m>\dfrac{4a}{3b} \div \dfrac{2a}{3} =</m></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Example: <m>~~~\dfrac{3}{5} \div 6 = \dfrac{3}{5} \cdot \dfrac{1}{6} = \dfrac{\cancel{3}}{5} \cdot \dfrac{1}{\cancel{3}\cdot 2} = \dfrac{1}{15}~~</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
 	<li><m>\dfrac{2}{3} \div 4 =</m></li>
 	<li><m>\dfrac{2}{3y} \div 4y =</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise><statement><p>Multiply:<ol label="a">
+<exercise><statement><p>Multiply:<ol marker="a">
 	<li><m>\dfrac{-5}{b}a = \dfrac{-5}{b} \cdot \dfrac{a}{1}  =</m></li>
 	<li><m>6x\left(\dfrac{2}{x^2-x}\right)=\dfrac{6x}{1} \cdot \dfrac{2}{x^2-x} =</m></li></ol></p></statement></exercise>
 
@@ -379,7 +379,7 @@ The quotient is the sum of a polynomial, <m>3x^3-2x</m>, and an algebraic fracti
 <subsubsection><title>Activity 2: Like Fractions</title>
 <exercises>
 
-<exercise><statement><p><ol label="a" cols="2">
+<exercise><statement><p><ol marker="a" cols="2">
 	<li><m>\dfrac{13}{6}-\dfrac{5}{6} =</m></li>
 	<li><m>\dfrac{13k}{n}- \dfrac{5k}{n} =</m></li></ol></p></statement></exercise>
 
@@ -399,7 +399,7 @@ The quotient is the sum of a polynomial, <m>3x^3-2x</m>, and an algebraic fracti
 	<li>Adding and subtracting like fractions</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>When we multiply a fraction by 2, do we multiply the top by 2, the bottom by 2, or both?</li>
 	<li>When we add like fractions, do we add the numerators together, the denominators together, or both?</li>
 	<li>Explain how a fraction bar acts like parentheses when we subtract fractions.</li>
@@ -422,7 +422,7 @@ The quotient is the sum of a polynomial, <m>3x^3-2x</m>, and an algebraic fracti
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1" cols="2">
+<p><ol marker= "1" cols="2">
 	<li><m>x+2</m></li>
 	<li><m>\dfrac{b+1}{8b}</m></li>
 	<li><m>\dfrac{a^2+a-2}{a^2-2}</m></li>

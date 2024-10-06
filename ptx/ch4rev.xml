@@ -10,7 +10,7 @@
 <p>If <m>a,~ b,</m> and <m>c</m> are any numbers, then
 		<me>\blert{a(b+c) = ab + ac}</me></p></assemblage></li>
 
-<li><assemblage><title>Steps for Solving Linear Equations</title><p><ol label="1">
+<li><assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1">
 	<li>Use the distributive law to remove any parentheses.</li>
 	<li>Combine like terms on each side of the equation.</li>
 	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side 	
@@ -27,7 +27,7 @@
 	considered together is called a <term>system of linear equations</term>, or a <term>linear system</term>.</li>
 <li>A <term>solution</term> to a system of linear equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system. It is the intersection point of the two lines described by the system.</li>
 
-<li><assemblage><p>There are three types of linear systems:<ol label="1">
+<li><assemblage><p>There are three types of linear systems:<ol marker="1">
 	<li><term>Consistent and independent system</term>. The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</li>  
 	<li><term>Inconsistent system.</term> The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</li>
 	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li></ol></p></assemblage></li></ul></p>
@@ -36,14 +36,14 @@
 <subsection><title>Lesson 4.3 Algebraic Solution of Systems</title><p><ul>
 
 <li><assemblage><title>To Solve a System by Substitution</title>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Choose one of the variables in one of the equations. (It is best to choose a variable whose coefficient is 1 or <m>-1</m>.)  Solve the equation for that variable.</li>
 	<li>Substitute the result of Step 1 into the other equation. This gives an equation in one variable.</li>
 	<li>Solve the equation obtained in Step 2. This gives the solution value for one of the variables.
 	<li>Substitute this value into the result of Step 1 to find the solution value of the other variable.</li>
 </li></ol></p></assemblage></li>
 
-<li><assemblage><title>To Solve a System by Elimination</title><p><ol label="1">
+<li><assemblage><title>To Solve a System by Elimination</title><p><ol marker="1">
 	<li>Write each equation in the form <m>Ax+By = C</m>.</li>
 	<li>Decide which variable to eliminate. Multiply each equation by an appropriate constant so that the coefficients of that variable are opposites.</li>
 	<li>Add the equations from Step 2 and solve for the remaining variable.</li>
@@ -51,7 +51,7 @@
 </ol></p></assemblage></li>
 
 <li><assemblage><title>When Using Elimination to Solve a System</title>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>If combining the two equations results in an equation of the form
 		<me>0x+0y=k~~~~(k \not= 0)</me>
 	then the system is inconsistent.</li>
@@ -82,13 +82,13 @@
 or
 <me>\blert{y-y_1 = m(x-x_1)}</me></p></assemblage></li>
 
-<li><assemblage><title>To Fit a Line through Two Points</title><p><ol label="1">
+<li><assemblage><title>To Fit a Line through Two Points</title><p><ol marker="1">
 	<li>Compute the slope between the two points.</li>
 	<li>Substitute the slope and either point into the point-slope formula.</li></ol></p></assemblage></li></ul></p>
 </subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol label = "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1">
 <li>State the two-point formula for slope.</li>
 <li>How can you find the equation of a line when you know the slope of the line and one point on the line?</li>
 <li>How can you find the solution to a linear system by graphing?</li>
@@ -105,14 +105,14 @@ or
 <exercises>
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, simplify. Which product requires the distributive law?</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a">
+<exercise number="1"><statement><p><ol marker="a">
 	<li><m>-5(-6m)</m></li>
 	<li><m>-5(-6-m)</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>30m</m></li>
     <li><p><m>-30+5m~</m> requires the distributive law.</p></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a">
+<exercise number="2"><statement><p><ol marker="a">
 	<li><m>9(-3-w)</m></li>
 	<li><m>9(-3w)</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -143,36 +143,36 @@ or
 <exercise number="10"><statement><m>\dfrac{2x-1}{x+3}=\dfrac{3}{2}</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="11"><statement><p>The length of a rectangle is 3 times its width.<ol label="a">
+<exercise number="11"><statement><p>The length of a rectangle is 3 times its width.<ol marker="a">
 	<li>If the width of a rectangle is <m>x</m>, what is its length?</li>  
 	<li>Express the perimeter of the rectangle in terms of <m>x</m>.</li>
 	<li>Suppose the perimeter of the rectangle is 48 centimeters. Find the dimensions of the rectangle.</li></ol></p>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>3x</m></li>  
     <li><m>8x</m></li>
     <li>6 cm by 18 cm</li></ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>Last Saturday, a total of 620 people attended the Gaslamp Theater at its two performances. <ol label="a">
+<exercise number="12"><statement><p>Last Saturday, a total of 620 people attended the Gaslamp Theater at its two performances. <ol marker="a">
 	<li>If <m>p</m> people attended the matinee last Saturday, how many attended the evening performance?</li>
 	<li>This Saturday, attendance at the matinee increased by 5%, and attendance at the evening performance increased by 8%. Write expressions in terms of <m>p</m> for the attendance at each performance.</li>
 	<li>This Saturday, the total attendance was 663 people. How many people attended the matinee last Saturday?</li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>Wheaton Elementary school plans to buy 30 computers. The computers with speakers cost $1200 each, and those without speakers cost $800 each. Let <m>x</m> represent the number of computers with speakers.  Write expressions in terms of  for:<ol label="a">
+<exercise number="13"><statement><p>Wheaton Elementary school plans to buy 30 computers. The computers with speakers cost $1200 each, and those without speakers cost $800 each. Let <m>x</m> represent the number of computers with speakers.  Write expressions in terms of  for:<ol marker="a">
 	<li>The number of computers without speakers.</li>
 	<li>The total cost of the computers with speakers.</li>
 	<li>The total cost of the computers without speakers.</li>
 	<li>The total cost of all 30 computers.</li>
 	<li>If Wheaton Elementary has $28,800 to spend on the computershow many of each kind can they buy?</li></ol></p>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>30-x</m></li>
     <li><m>1200x</m></li>
     <li><m>800(30-x)</m></li>
     <li><m>400x+24,000</m></li>
     <li>12 with speakers and 18 without speakers</li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><p>The current in the Lazy River flows at 4 miles per hour.<ol label="a">
+<exercise number="14"><statement><p>The current in the Lazy River flows at 4 miles per hour.<ol marker="a">
 	<li>If your motorboat is traveling at speed <m>v</m> miles per hour, write expressions for your speed traveling upstream and your speed traveling downstream.</li>
 	<li>You travel upstream for <m>\dfrac{3}{2}</m> hours and stop for lunch at an island. Write an expression in terms of <m>v</m> for the distance you traveled upstream.</li>
 	<li>You return to your starting point downstream in <m>\dfrac{1}{2}</m> hour. Write an expression in terms of <m>v</m> for the distance you traveled downstream.</li>
@@ -333,7 +333,7 @@ or
 <exercise number="35"><statement><p>How many pounds of an alloy containing 60% copper must be melted with an alloy containing 20% copper to obtain 8 pounds of an alloy containing 30% copper?</p></statement>
 <answer><p>2 lb of the 60% alloy and 6 lb of the 20% alloy</p></answer></exercise>
 
-<exercise number="36"><statement><p>Jerry Glove came to bat only 20 times in the first half of the season and got hits 15% of the time.  During the second half of the season, Jerry came to bat 140 times and got hits 35% of the time.<ol label="a">
+<exercise number="36"><statement><p>Jerry Glove came to bat only 20 times in the first half of the season and got hits 15% of the time.  During the second half of the season, Jerry came to bat 140 times and got hits 35% of the time.<ol marker="a">
 	<li>How many hits did Jerry get in the first half of the season? How many hits did he get in the second half?</li>
 	<li>How many times did Jerry come to bat all season?  How many hits did he get?</li>
 	<li>What percent of Jerry's at-bats resulted in hits?</li></ol></p></statement></exercise>
@@ -355,11 +355,11 @@ or
 </p></statement></exercise>
 </exercisegroup>
 
-<exercise number="43"><statement><p><ol label="a">
+<exercise number="43"><statement><p><ol marker="a">
 	<li>Graph the line of slope <m>\dfrac{-5}{3}</m> that passes through the point <m>(-2,1)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
 <sidebyside width="40%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><sidebyside width="40%" margins="0% 60%">
     <image xml:id="cr4-43ans">
         <description>line</description>
@@ -386,7 +386,7 @@ or
     </sidebyside></li>
     <li><m>y=\dfrac{-5}{3}x-\dfrac{7}{3}</m></li></ol></p></answer></exercise>
 
-<exercise number="44"><statement><p><ol label="a">
+<exercise number="44"><statement><p><ol marker="a">
 	<li>Graph the line of slope <m>\dfrac{6}{5}</m> that passes through the point <m>(-3,-4)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
 <sidebyside width="40%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
@@ -415,10 +415,10 @@ or
         <cell>2500</cell>
         <cell>5500</cell></row>
     </tabular>
-<p><ol label="a">
+<p><ol marker="a">
 	<li>Write a linear equation for <m>F</m> in terms of <m>C</m>.</li>
 	<li>Give the slope of the graph, and explain the meaning of the slope in terms of the decorator's fee.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>F=500+0.10C</m></li>
     <li><p><m>m=0.10~</m> The decorator charges 10% of the cost of the job (plus a $500 flat fee)></p></li></ol></p></answer></exercise>
 
@@ -437,18 +437,18 @@ or
         <cell>335</cell>
         <cell>435</cell></row>
     </tabular>
-<p><ol label="a">
+<p><ol marker="a">
 	<li>Write a linear equation for <m>R</m> in terms of <m>V</m>.</li>
 	<li>Give the slope of the graph, and explain the meaning of the slope in terms of the registration fee.</li></ol></p>
 </statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 49<ndash/>50, <ol label="a">
+<exercisegroup><introduction><p>For Problems 49<ndash/>50, <ol marker="a">
 	<li>Make a table of values showing two data points.</li>
 	<li>Find a linear equation relating the variables.</li>
 	<li>State the slope of the line, including units, and explain its meaning in the context of the problem.</li></ol></p></introduction>
 
 <exercise number="49"><statement><p>The population of Maple Rapids was 4800 in 1982 and had grown to 6780 by 1997.  Assume that the population increases at a constant rate. Express the population <m>P</m> of Maple Rapids in terms of the number of years <m>t</m> since 1982.</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
@@ -466,14 +466,14 @@ or
 <answer></answer></exercise>
 </exercisegroup>
 
-<exercise number="51"><statement><p><ol label="a">
+<exercise number="51"><statement><p><ol marker="a">
 	<li>Write an equation for any line that is parallel to <m>2y=5x-3</m>.</li>
 	<li>Write an equation for any line that is perpendicular to <m>2y=5x-3</m>.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>y=\dfrac{5}{2}x+b</m></li>
     <li><m>y=\dfrac{-2}{5}x+b</m></li></ol></p></answer></exercise>
 
-<exercise number="52"><statement><p><ol label="a">
+<exercise number="52"><statement><p><ol marker="a">
 	<li>Write an equation for the vertical line that passes through <m>(3,6)</m>.</li>
 	<li>Write an equation for the horizontal line that passes through <m>(3,6)</m>.</li></ol></p></statement></exercise>
 

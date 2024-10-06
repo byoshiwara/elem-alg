@@ -237,7 +237,7 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="2">
+<p><ol marker="1" cols="2">
     <li><m>\dfrac{3x-4}{x^2-2x}</m></li>
     <li><m>\dfrac{4-x}{x^2-2x}</m></li>
     <li><m>\dfrac{2}{x^2-2x}</m></li>
@@ -250,7 +250,7 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 <p>A new health club opened up, and the manager kept track of the number of active members over its first few months of operation. The equation below gives the number <m>N</m> of active members, in hundreds, <m>t</m> months after the club opened.</p> 
 <sidebyside widths="50% 45%" valigns="middle middle"><p>
 	<me>N=\dfrac{10t}{4+t^2}</me>
-The graph of this equation is shown at right.<ol label="a">
+The graph of this equation is shown at right.<ol marker="a">
 	<li>Use the equation to find out in which months the club had 200 active members.</li>
 	<li>Verify your answers on the graph.</li></ol></p>
 <image source="photos/act-8-4-1"><description>graph</description></image></sidebyside></subsubsection>
@@ -291,7 +291,7 @@ The graph of this equation is shown at right.<ol label="a">
 <p>	In this application, the work being done is the water flowing into (or out of) the reservoir, so the work rate is the flow rate of water through the pipes.</p>
 
 <p>The city reservoir was completely emptied for repairs, and is now being refilled. Water flows in through the intake pipe at a steady rate that can fill the reservoir in 120 days. However, water is also being drained from the reservoir as it is used by the city, so that it actually takes 150 days to fill. After the reservoir is filled, the water supply is turned off, but the city continues to use water at the same rate. How long will it take to drain the reservoir dry?
-<ol label="a">
+<ol marker="a">
 <li><p>Let <m>d</m> stand for the number of days for the outflow pipe to drain the full reservoir.</p>
 
 		<p>Fraction of the reservoir that is drained in one day: <fillin characters="10"/></p>                                     
@@ -338,7 +338,7 @@ The graph of this equation is shown at right.<ol label="a">
 	<li>Solving work problems</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, part (b), explain how you used the graph.</li>
 	<li>In Activity 2, Problem 2, what was the LCD?</li>
 	<li>In Activity 2, Problem 4, what was the LCD?</li></ol></p></assemblage>
@@ -358,7 +358,7 @@ The graph of this equation is shown at right.<ol label="a">
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1" cols="2">
+<p><ol marker= "1" cols="2">
     <li><m>\dfrac{-22}{5}</m></li>
     <li><m>-3</m></li>
     <li><m>\dfrac{-3}{2}</m></li>

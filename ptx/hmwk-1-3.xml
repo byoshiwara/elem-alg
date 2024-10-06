@@ -5,7 +5,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, decide whether the ordered pairs are solutions of the equation whose graph is shown.</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
+<exercise number="1"><statement><p><ol marker="a" cols="2">
     <li><m>(6.5,3)</m></li>
     <li><m>(0,3.5)</m></li>
     <li><m>(8,2)</m></li>
@@ -35,13 +35,13 @@
         </image>
         </sidebyside>
     </statement>
-    <answer><p><ol label="a" cols="2">
+    <answer><p><ol marker="a" cols="2">
     <li>no</li>
     <li>yes</li>
     <li>no</li>
     <li>no</li></ol></p> </answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a" cols="2">
+<exercise number="2"><statement><p><ol marker="a" cols="2">
     <li><m>(2,6)</m></li>
     <li><m>(4,2)</m></li>
     <li><m>(10,0)</m></li>
@@ -77,38 +77,38 @@
     <introduction><p>For Problems 3<ndash/>6, decide whether the ordered pairs are solutions of the given equation.</p></introduction>
 
 <exercise number="3"><statement><p><m>y=\dfrac{3}{4}x</m>
-	<ol label="a" cols="2">
+	<ol marker="a" cols="2">
 	<li><m>(8,6)</m></li>
 	<li><m>(12,16)</m></li>
 	<li><m>(2,3)</m></li>
 	<li><m>(6,\dfrac{9}{2})</m></li></ol></p></statement>
-	<answer><p><ol label="a" cols="2">
+	<answer><p><ol marker="a" cols="2">
     <li>yes</li>
     <li>no</li>
     <li>no</li>
     <li>yes</li></ol></p> </answer></exercise>
 
 <exercise number="4"><statement><p><m>y=\dfrac{x}{2.5}</m>
-	<ol label="a" cols="2">
+	<ol marker="a" cols="2">
 	<li><m>(1,2.5)</m></li>
 	<li><m>(25,10)</m></li>
 	<li><m>(5,2)</m></li>
 	<li><m>(8,20)</m></li></ol></p></statement></exercise>
 
 <exercise number="5"><statement><p><m>w=z-1.8</m>
-	<ol label="a" cols="2">
+	<ol marker="a" cols="2">
 	<li><m>(10, 8.8)</m></li>
 	<li><m>(6,7.8)</m></li>
 	<li><m>(2,\dfrac{1}{5})</m></li>
 	<li><m>(9.2,7.4)</m></li></ol></p></statement>
-	<answer><p><ol label="a" cols="2">
+	<answer><p><ol marker="a" cols="2">
     <li>no</li>
     <li>no</li>
     <li>yes</li>
     <li>yes</li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>w=120-z</m>
-	<ol label="a" cols="2">
+	<ol marker="a" cols="2">
 	<li><m>(0, 120)</m></li>
 	<li><m>(65,55)</m></li>
 	<li><m>(150,30)</m></li>
@@ -168,7 +168,7 @@
 </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For the graphs in Problems 9<ndash/>10,<ol label="a">
+<exercisegroup cols="2"><introduction><p>For the graphs in Problems 9<ndash/>10,<ol marker="a">
     <li>Fill in the table with the correct coordinates. Choose your own points to complete the table.</li>
 	<li>Look for a pattern in your table, and write an equation for the second variable in terms of the first variable.</li>
 </ol></p></introduction>
@@ -217,7 +217,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -286,7 +286,7 @@
     </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, choose the equation that describes the graph. (A graph might have more than one equation.)<ol label = "a" cols="3">
+<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, choose the equation that describes the graph. (A graph might have more than one equation.)<ol marker= "a" cols="3">
 	<li><m>y=150-x</m></li>
 	<li><m>y=15-x</m></li>
 	<li><m>y=0.2x</m></li>
@@ -403,7 +403,7 @@
 
 <exercise number="15"><statement><p>The college Bookstore charges a 25% markup over wholesale prices. If the wholesale price of a book is <m>w</m> dollars, the bookstore's price <m>p</m> is given by
 	<me>p=1.25w</me>
-<ol label="a">
+<ol marker="a">
 	<li>How much does the bookstore charge for a book whose wholesale price is $28?</li>
 	<li>Evaluate the formula to find the bookstore's price for various books. 
 		 <sidebyside width="40%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -447,7 +447,7 @@
     </image>
             </sidebyside></li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>$35</li> 
     <li><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -497,7 +497,7 @@
     </sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>Uncle Ray's diet allows him to eat a total of 1000 calories for lunch and dinner. Let <m>L</m> stand for the number of calories in Uncle Ray's lunch, and <m>D</m> for the number of calories in his dinner.
-<ol label="a">
+<ol marker="a">
 	<li>Write an equation for <m>D</m> in terms of <m>L</m>.</li>
 	<li>Complete the table. 
 		 <sidebyside width="35%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -539,7 +539,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="17"><statement><p>The Green Co-op plans to divide its profit of $3600 from the sale of environmentally safe products among its members. Let <m>m</m> stand for the number of members, and <m>S</m> for the share of the profits each member will receive.
-<ol label="a">
+<ol marker="a">
 	<li>Write an equation for <m>S</m> in terms of <m>m</m>.</li>
 	<li>Complete the table. 
 		 <sidebyside width="35%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -579,7 +579,7 @@
     </image>
             </sidebyside></li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>S=\dfrac{3600}{m}</m></li>
     <li><sidebyside width="35%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -626,7 +626,7 @@
 <exercisegroup><introduction><p>For Problems 18<ndash/>19, solve the equation graphically by drawing on the graph. (You may have to estimate some of your solutions.) Then verify your answer by solving algebraically.</p></introduction>
 
 <exercise number="18"><statement><p>The graph of <m>k=p-20</m> is shown below. Use the graph to solve the equations:
-<ol label="a" cols="2">
+<ol marker="a" cols="2">
 	<li><m>90=p-20</m></li>
 	<li><m>p-20=40</m></li></ol></p> 
 	<sidebyside width="45%"><!--<image source="photos/hp-1-3-18.png"/>-->
@@ -656,7 +656,7 @@
     </sidebyside></statement></exercise>
 
 <exercise number="19"><statement><p>The graph of <m>d=18g</m> is shown below. Use the graph to solve the equations:
-<ol label="a" cols="2">
+<ol marker="a" cols="2">
 	<li><m>250=18g</m></li>
 	<li><m>18g=210</m></li></ol></p> 
 	<sidebyside width="40%"><!--<image source="photos/hp-1-3-19.png"/>-->
@@ -684,12 +684,12 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><m>g \approx 13.9</m></li>
     <li><m>g \approx 11.7</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 20<ndash/>21, <ol label="a">
+<exercisegroup><introduction><p>For Problems 20<ndash/>21, <ol marker="a">
 	<li>Give the coordinates of the indicated point.</li>
 	<li>Explain what those coordinates tell us about the problem situation.</li>
 </ol></p></introduction>
@@ -747,25 +747,25 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>(4,16)</m></li>
     <li>A 4-inch tall bunny weighs 16 ounces.</li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 22<ndash/>25, use the formulas in Section 1.2.</p></introduction>
 
-<exercise number="22"><statement><p><ol label="a">
+<exercise number="22"><statement><p><ol marker="a">
 	<li>Suppose your father loans you $2000 to be repaid with 4% annual interest when you finish school. Write an equation for the amount of interest <m>I</m> you will owe after <m>t</m> years.</li>
 	<li>How much interest will you owe if you finish school in 2 years? In 4 years? In 7 years? Make a table showing your answers as ordered pairs.</li>
 	<li>Use your table to choose appropriate scales for the axes, then plot points and sketch a graph of the equation</li>
 </ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><ol label="a">
+<exercise number="23"><statement><p><ol marker="a">
 	<li>The Earth Alliance made $6000 in revenue from selling tickets to Earth Day, an event for children. Write an equation for its profit <m>P</m> in terms of its costs.</li>
 	<li>What was their profit if their costs were $800? $1000? $2500? Make a table showing your answers as ordered pairs.</li>
 	<li>Use your table to choose appropriate scales for the axes, then plot points and sketch a graph of the equation.</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>P=6000-C</m></li>
     <li><sidebyside width="35%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -808,18 +808,18 @@
         </image>
     </sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol label="a">
+<exercise number="24"><statement><p><ol marker="a">
 	<li>Edgar's great-aunt plans to put $5000 in a trust for Edgar until he turns 21, three years from now. She has a choice of several different accounts. Write an equation for the amount of interest the money will earn in 3 years if the account pays interest rate <m>r</m>.</li>
 	<li>How much interest will the $5000 earn in an account that pays 8% interest? 10% interest? 12% interest? Make a table showing your answers as ordered pairs.</li>
 	<li>Use your table to choose appropriate scales for the axes, then plot points and sketch a graph of the equation.</li>
 </ol></p></statement></exercise>
 
-<exercise number="25"><statement><p><ol label="a">
+<exercise number="25"><statement><p><ol marker="a">
 	<li>Delbert keeps track of the total number of points he earns on homework assignments, each of which is worth 30 points. At the end of the semester he has 540 points. Write an equation for Delbert's average homework score in terms of the number of assignments, <m>n</m>.</li>
 	<li>What is Delbert's average score if there were 20 assignments? 25 assignments? 30 assignments? Make a table showing your answers as ordered pairs.</li>
 	<li>Use your table to choose appropriate scales for the axes, then plot points and sketch a graph of the equation.</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>S=\dfrac{540}{n}</m></li>
     <li><sidebyside width="25%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">

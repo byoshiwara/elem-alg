@@ -15,7 +15,7 @@
 
 <p>As an example, we'll compute the sum
 	<me>\dfrac{2}{3} + \dfrac{3}{4}</me>
-<ol label="1">
+<ol marker="1">
 	<li><p>We first find the <term>lowest common denominator</term><idx><h>lowest common denominator</h></idx> for the two fractions. The LCD is the smallest number that is a multiple of both 3 and 4, so in this example the LCD is 12.</p></li>  
 	<li><p>	Next, we <term>build</term><idx><h>build (a fraction)</h><see>fractions</see></idx> each fraction to an equivalent fraction with denominator 12. First, we multiply <m>\dfrac{2}{3}</m> by <m>\dfrac{4}{4}</m>. Because <m>\dfrac{4}{4}</m> is equal to 1, we have not changed the value of the fraction.  4 is called the <term>building factor</term><idx><h>building factor</h></idx> for <m>\dfrac{2}{3}</m>. Similarly, we multiply <m>\dfrac{3}{4}</m> by <m>\dfrac{3}{3}</m>.
 		<md><mrow>\dfrac{2}{3} \amp = \dfrac{2 \cdot \blert{4}}{3 \cdot \blert{4}} = \dfrac{8}{12} \amp \amp \blert{\text{The building factor is 4.}}</mrow>
@@ -64,18 +64,26 @@ In words, this says that we can multiply the numerator and denominator of a frac
 
 <sidebyside widths="35% 35%"><!--<image source="photos/fig-8-3-2a.png"><description>rectangles</description></image><image source="photos/fig-8-3-2b.png"><description>rectangles</description></image>-->
     <image xml:id="fig-8-3-2a"><description>rectangle for 8/12</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture}[auto, thick]
-
+        <![CDATA[
+        \begin{tikzpicture} 
+		\foreach \x in {1,2} {
+		 \draw[black, fill=cyan!20!white, very thick, opacity=.5] (0,\x) rectangle ++(4,1);
+		}
+		\foreach \x in {0,1,2} {
+        \draw[black,very thick] ({\x+1},0)--++(0,3);
+    }
+		\draw[black, very thick] (0,0) rectangle ++(4,1);
         \end{tikzpicture}]]></latex-image></image>
     <image xml:id="fig-8-3-2b"><description>rectangle for 9/12</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
+        <![CDATA[
+        \begin{tikzpicture} 
+		\foreach \x in {0,1,2} {
+		 \draw[black, fill=cyan!50!white, very thick, opacity=.5] (\x,0) rectangle ++(1,3);
+		}
+		\foreach \x in {1,2} {
+        \draw[black,very thick] (0,\x)--++(4,0);
         }
-        \begin{tikzpicture}[auto, thick]
-
+		\draw[black, very thick] (3,0) rectangle ++(1,3);
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>We can see from the figure that <m>\dfrac{2}{3} = \dfrac{8}{12}</m> and <m>\dfrac{3}{4} = \dfrac{9}{12}</m>.  Once we have written the fractions with the same denominator, they are like fractions and we can add them. This is what building fractions is all about.</p>
@@ -87,7 +95,7 @@ In words, this says that we can multiply the numerator and denominator of a frac
 
 <assemblage><title>To Add or Subtract Algebraic Fractions</title>
 <idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h><h>unlike</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Find the lowest common denominator (LCD) for the fractions.</li>
 	<li>Build each fraction to an equivalent one with the LCD as denominator.</li>
 	<li>Add or subtract the resulting like fractions:  Add or subtract their numerators, and keep the same denominator.</li>
@@ -166,9 +174,9 @@ You can check that <m>36a^3</m> is a multiple of both <m>12a^3</m> and <m>18a</m
 <idx><h>lowest common denominator</h><h>finding</h></idx>
 <p>To find the LCD in <xref ref="Example-8-3-3" text="type-global"/>, notice that for each factor, we chose the denominator with the most copies of that factor, and included them in the LCD. For example, <m>12a^3</m> has only one factor of 3, but <m>18a</m> has two factors of 3, so we used two factors of 3 in the LCD.</p></assemblage>
 
-<assemblage><title>To Find the LCD</title><p><ol label="1">
+<assemblage><title>To Find the LCD</title><p><ol marker="1">
 <li>Factor each denominator completely, and arrange the factors in order.</li>
-<li><p>For each factor,<ol label="a">
+<li><p>For each factor,<ol marker="a">
 	<li>Which denominator has the most copies of that factor? Circle them. (If there is a tie, either denominator will do.)</li>
 	<li>Include all the circled factors in the LCD.</li></ol></p></li>
 <li>Multiply together the factors of the LCD.</li></ol></p></assemblage>
@@ -221,7 +229,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
     <li><m>-x+3</m></li>
     <li><m>-2x+3</m></li>
     <li><m>2x</m></li>
@@ -293,7 +301,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
     <li> Adding and subtracting unlike fractions</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, Problem 2, what was the LCD?</li>
     <li>In Activity 1, Problem 2, what was the building factor for the first fraction?</li>
     <li>In Activity 2, Problem 2, explain how to find the building factor for each fraction.</li>
@@ -312,7 +320,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1" >
+<p><ol marker= "1" >
     <li><m>\dfrac{3x^2+4x+2}{x(x+2)}</m></li>
     <li><m>3a(a-1)(a+2)(a-2)</m></li>
     <li><m>\dfrac{x^2-x+2}{2(x^2-4)}</m></li></ol></p></subsubsection>

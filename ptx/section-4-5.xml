@@ -10,10 +10,10 @@
 	<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>
 This is, in fact, an equation for the line.</p>
 
-<example xml:id="Example-4-5-1"><statement><p><ol label="a">
+<example xml:id="Example-4-5-1"><statement><p><ol marker="a">
 	<li>Graph the line that passes through the point <m>(1,3)</m> and has slope <m>-2</m>.</li> 
 	<li>Find an equation for the line that passes through the point <m>(1,3)</m> and has slope <m>-2</m>.</li></ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>We plot the point <m>(1,3)</m>, then use the slope, <m>-2</m>, to find another point on the line. From the point <m>(1,3)</m>, we move 2 units down and 1 unit to the right, arriving at <m>(2,1)</m>. We draw the line through these two points.  The graph is shown below.</p>
 	<sidebyside width="40%"><!--<image source="photos/fig-4-5-ex1.png"><description>graph</description></image>-->
     <image xml:id="ig-4-5-ex1"><description>graph of line</description><latex-image>
@@ -155,7 +155,7 @@ The graph of the line is shown in the figure.</p>
 
 <assemblage><title>To Fit a Line through Two Points</title>
 <idx><h>linear equation</h><h>finding</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Compute the slope between the two points.</li>
 	<li>Substitute the slope and either point into the point-slope formula.</li></ol></p></assemblage>
 </subsection>
@@ -165,11 +165,11 @@ The graph of the line is shown in the figure.</p>
 <p>Variables that increase or decrease at a constant rate can be described by linear equations.</p>
 
 <example><statement><p>In 1993, Americans drank 188.6 million cases of wine. Wine consumption increased at a constant rate over the next decade, and in 2003 we drank 258.3 million cases of wine. 		(Source: LA Times, Adams Beverage Group)
-<ol label="a">
+<ol marker="a">
 	<li>Find a formula for wine consumption, <m>W</m>, in millions of cases, <m>t</m> years after 1990.</li>  
 	<li>State the slope as a rate of change. What does the slope tell us about this problem?</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>We have two data points of the form <m>(t,W)</m>, namely <m>(t_1,W_1)=(3,188.6)</m> and <m>(t_2,W_2)=(13,258.3)</m>. We use the point slope formula to fit a line through these two points. First we compute the slope.
 		<me>\dfrac{\Delta W}{\Delta t}=\dfrac{W_2-W_2}{t+2-t_1}=\dfrac{258.3-188.6}{13-3}=6.97</me>
 	Next, we substitute the slope <m>m=6.97</m> and either of the two data points into the point-slope formula.
@@ -207,7 +207,7 @@ The graph of the line is shown in the figure.</p>
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="2">
+<p><ol marker="1" cols="2">
     <li><m>y=\dfrac{-5}{2}x</m></li>
     <li><m>y=2x+3</m></li>
     <li><m>y=\dfrac{3}{5}x+\dfrac{8}{5}</m></li>
@@ -222,27 +222,27 @@ The graph of the line is shown in the figure.</p>
 <subsubsection><title>Activity 1: Point-Slope Formula</title>
 
 <exercises>
-<exercise><statement><p><ol label="a">
-<li><p>Graph the line of slope <m>\dfrac{-1}{2}</m> that passes through the point <m>(-3,2)</m>. <ol label="1">
+<exercise><statement><p><ol marker="a">
+<li><p>Graph the line of slope <m>\dfrac{-1}{2}</m> that passes through the point <m>(-3,2)</m>. <ol marker="1">
     <li><m>\blert{\text{Plot the point}~~(-3,2).}</m></li>
     <li><m>\blert{\text{Use the slope to find a second point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{-1}{2}}</m></li>
     <li><p><m>\blert{\text{Use the slope to find a third point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{1}{-2}}</m></p>
     <sidebyside width="50%"><image source="photos/stangrid10"><description>graph</description></image></sidebyside></li>
     </ol></p></li>
-<li><p>Find an equation for the line.<ol label="1">
+<li><p>Find an equation for the line.<ol marker="1">
     <li><m>\blert{\text{Use the point-slope formula}~\dfrac{y-y_1}{x-x_1} = m.}</m></li>
     <li><m>\blert{\text{Cross-multiply to simplify the equation.}}</m></li>
     <li><m>\blert{\text{Solve for} ~y.} </m></li></ol></p></li>
 </ol></p></statement></exercise>
 
-<exercise><statement><p><ol label="a">
-<li><p>Graph the line of slope 3 that passes through the point <m>(-4,-6)</m>. <ol label="1">
+<exercise><statement><p><ol marker="a">
+<li><p>Graph the line of slope 3 that passes through the point <m>(-4,-6)</m>. <ol marker="1">
     <li><m>\blert{\text{Plot the point}~~(-4,-6).}</m></li>
     <li><m>\blert{\text{Use the slope to find a second point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}}</m></li>
     <li><p><m>\blert{\text{Use the slope to find a third point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-1}}</m></p>
     <sidebyside width="50%"><image source="photos/stangrid10"><description>graph</description></image></sidebyside></li>
     </ol></p></li>
-<li><p>Find an equation for the line.<ol label="1">
+<li><p>Find an equation for the line.<ol marker="1">
     <li><m>\blert{\text{Use the point-slope formula}~\dfrac{y-y_1}{x-x_1} = m.}</m></li>
     <li><m>\blert{\text{Cross-multiply to simplify the equation.}}</m></li>
     <li><m>\blert{\text{Solve for} ~y.} </m></li></ol></p></li>
@@ -253,24 +253,24 @@ The graph of the line is shown in the figure.</p>
 <subsubsection><title>Activity 2: Using the Point-Slope Formula</title>
 
 <exercises>
-<exercise><statement><p>Find an equation for the line that passes through <m>-1,4)</m> and <m>(3,-2)</m>.<ol label="1">
+<exercise><statement><p>Find an equation for the line that passes through <m>-1,4)</m> and <m>(3,-2)</m>.<ol marker="1">
     <li><m>\blert{\text{Compute the slope of the line.}}</m></li>
     <li><m>\blert{\text{Apply the point-slope formula.}}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Around 1950, people began cutting down the world's rain forests to clear land for agriculture.  In 1970 there were about 9.8 million square kilometers of rain forest left, and in 1990 there were about 8.2 million square kilometers. <ol label="a">  
-<li><p>Use these data points to find a linear equation for the number of million square kilometers, <m>y</m>, of rain forest left <m>x</m> years after 1950.<ol label="1">
+<exercise><statement><p>Around 1950, people began cutting down the world's rain forests to clear land for agriculture.  In 1970 there were about 9.8 million square kilometers of rain forest left, and in 1990 there were about 8.2 million square kilometers. <ol marker="a">  
+<li><p>Use these data points to find a linear equation for the number of million square kilometers, <m>y</m>, of rain forest left <m>x</m> years after 1950.<ol marker="1">
     <li><m>\blert{\text{Data points:}}</m></li>
     <li><m>\blert{\text{Compute the slope:}}</m></li>
     <li><m>\blert{\text{Apply the point-slope formula.}} </m></li></ol></p></li>
 <li>If we continue to clear the rain forest at the same rate, when will it be completely destroyed?</li></ol></p>
 </statement></exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
     <li>What is the slope of a line that is parallel to <m>~x+4y=2</m>?</li>
     <li>Find an equation for the line that is parallel to <m>~x+4y=2~</m> and passes through <m>(2,3)</m>.</li>
 </ol></p></statement></exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
     <li>What is the slope of a line that is perpendicular to <m>~x+4y=2</m>?</li>
     <li>Find an equation for the line that is perpendicular to <m>~x+4y=2~</m> and passes through <m>(2,3)</m>.</li>
 </ol></p></statement></exercise>
@@ -287,7 +287,7 @@ The graph of the line is shown in the figure.</p>
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In graphing the line in Activity 1, explain how the 2 in the point <m>-3,2)</m> and the 2 in the slope <m>\dfrac{-1}{2}</m> are used differently.</li>
     <li>In Problem 2 of Activity 2, what were the two data points?</li>
     <li>What was different in the solutions of Problems 2 and 3 of Activity 2? </li></ol></p></assemblage>
@@ -296,7 +296,7 @@ The graph of the line is shown in the figure.</p>
 
 <subsection><title>Homework Preview</title>
 <exercises>
-<exercisegroup cols="2"><introduction><p><ol label="a">
+<exercisegroup cols="2"><introduction><p><ol marker="a">
     <li>Graph the line.</li>
     <li>Find the equation of the line.</li></ol></p></introduction>
 
@@ -316,7 +316,7 @@ The graph of the line is shown in the figure.</p>
 </statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
     <li><m>y=-3x-10</m></li>
     <li><m>y=\dfrac{2}{5}x + \dfrac{6}{5}</m></li>
     <li><m>y=\dfrac{3}{2}x+5</m></li>

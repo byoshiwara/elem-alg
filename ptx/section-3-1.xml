@@ -142,7 +142,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 
 <assemblage><title>To Graph a Linear Equation Using the Intercept Method</title>
 <idx><h>intercept</h><h>method of graphing</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</p></li>   
 	<li>Draw the line through the two intercepts.</li>
 	<li>Find a third point on the graph as a check. (Choose any convenient value for <m>x</m> and solve for <m>y</m>.)</li>
@@ -173,11 +173,11 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 
 <p>The intercepts of a graph give us valuable information about a problem. They often represent the starting or ending values for a particular variable.</p>
 
-<example xml:id="example-3-1-3"><statement><p>The temperature in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ol label="a">
+<example xml:id="example-3-1-3"><statement><p>The temperature in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ol marker="a">
 	<li>Write and graph an equation for the temperature <m>T</m> at <m>h</m> hours after noon.</li>
 	<li>Find the intercepts of the graph. What do the intercepts tell us about the temperature in Nome?</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>An equation for the temperature is
 		<me>T=-12+2h</me>
 		A graph of the equation is shown below. 
@@ -244,7 +244,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="3">
+<p><ol marker="1" cols="3">
     <li><m>\dfrac{x+30}{5}=8</m></li>
     <li><m>5x+8=30</m></li>
     <li><m>\dfrac{x-30}{5}=8</m></li>
@@ -258,7 +258,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 
 <exercises>
 <exercise><statement><sidebyside widths="55% 45%" valigns="middle middle">
-<p><ol label="a">
+<p><ol marker="a">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of 
             <me>3x-2y=12</me></li>
     <li><p>Graph by the intercept method.</p><p></p>
@@ -277,7 +277,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
     <image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="55% 45%" valigns="middle middle">
-<p><ol label="a">
+<p><ol marker="a">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of 
             <me>2x=5y-10</me></li>
     <li><p>Graph by the intercept method.</p><p></p>
@@ -303,7 +303,7 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 <exercises>
 <exercise><statement><p>Around 1950, people began cutting down the world's rain forests to clear land for agriculture.  In 1970, there were about 9.8 million square kilometers of rain forest left, and by 1990 that figure had been reduced to 8.2 million square kilometers. These two data points are shown on the graph below. 
 
-The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the amount of rainforest remaining, <m>y</m> (in millions of square kilometers).<ol label="a">  
+The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the amount of rainforest remaining, <m>y</m> (in millions of square kilometers).<ol marker="a">  
     <li>If we continue to clear the rainforests at the same rate, the graph will be a straight line. Draw a straight line through the two points in the figure above. Make your line long enough to cross both axes.  
 <sidebyside width="65%"><image source="photos/act-3-1-2-1"><description>grid</description></image></sidebyside></li>
     <li><p>Estimate the coordinates of the <m>x</m>- and <m>y</m>-intercepts of your graph.
@@ -358,7 +358,7 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
     <li>Interpreting the intercepts in context</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, Problem 1, Delbert says that the intercepts are <m>(4,-6)</m>. What is wrong with his statement?</li>
     <li>In Activity 2, Problem 1, how did you find the answer to part (c)?</li>
     <li>In Activity 2, Problem 2, what intervals did you use to scale each axis?</li></ol></p></assemblage>
@@ -367,7 +367,7 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
 
 <subsection><title>Homework Preview</title>
 <exercises>
-<exercisegroup cols="2"><introduction><p><ol label="a">
+<exercisegroup cols="2"><introduction><p><ol marker="a">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the line.</li>
     <li>Use the intercept method to graph the line.</li></ol></p></introduction>    
 
@@ -389,7 +389,7 @@ The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
     <li><m>(5,0),~(0,-3)</m></li>
     <li><m>(6,0),~(0,8)</m></li>
     <li><m>(-6,0),~(0,-8)</m></li>

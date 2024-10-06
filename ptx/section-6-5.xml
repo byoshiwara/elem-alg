@@ -78,11 +78,11 @@ These values are very close to our estimates from the graph.</p></solution></exa
 
 <p>If some of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</p>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
 	<li>Solve  <m>~x=\dfrac{2}{3}-\dfrac{x^2}{6}</m></li>
 	<li>Find decimal approximations to two decimal places for the solutions.</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>We multiply each term of the equation by the LCD, <m>\blert{6}</m>, to get
 			<md><mrow>\blert{6}(x) \amp =\blert{6}\left(\dfrac{2}{3}-\dfrac{x^2}{6}\right) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
 				<mrow>6x \amp = 4-x^2</mrow></md>
@@ -146,7 +146,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 <assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
 <idx><h>quadratic equation</h><h>nature of solutions</h></idx>
 <p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of
-<me> ax^2+bx+c=0</me>There are three possibilities.<ol label="1"> 
+<me> ax^2+bx+c=0</me>There are three possibilities.<ol marker="1"> 
 	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
 	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
 	<li>If both solutions are non-real <idx><h>non-real</h></idx> complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage>
@@ -157,11 +157,11 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
     <answer><p>It has no <m>x</m>-intercepts.</p></answer></exercise>
 </reading-questions>
 
-<example><statement><p>How many <m>x</m>-intercepts does the parabola have?<ol label="a" cols="2">
+<example><statement><p>How many <m>x</m>-intercepts does the parabola have?<ol marker="a" cols="2">
 	<li><m>y=x^2+5</m></li>
 	<li><m>y=x^2-6x+9</m></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>To find the <m>x</m>-intercepts, we solve the equation
 		<md><mrow>x^2+5 \amp = 0  \amp \amp \blert{\text{Solve by extraction of roots.}}</mrow>
 			<mrow>x^2 \amp = -5</mrow>
@@ -200,7 +200,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
 	<li><m>6,~-6</m></li>
 	<li><m>12,~-3</m></li>
 	<li><m>0,~9</m></li>
@@ -214,7 +214,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 <subsubsection><title>Activity 1: Using the Quadratic Formula</title>
 <exercises>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
 	<li><p>Use the quadratic formula to solve <m>~~2x^2=7-4x</m></p>
 
 	<p><m>\blert{\text{Write the equation in standard form. }}</m></p>
@@ -230,7 +230,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 	
 	<p><m>\blert{\text{Use a calculator to approximate each solution.}}</m></p></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
 	<li><p>Solve the equation <m>~~x^2-\dfrac{x}{3} = \dfrac{4}{3}~~</m>  by factoring. (Hint:  Clear the fractions first!)</p></li>
 	<li>Solve the same equation using the quadratic formula.</li></ol></p></statement></exercise>
 </exercises>
@@ -239,8 +239,8 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 <subsubsection><title>Activity 2: Application to Graphing</title>
 <exercises>
 
-<exercise><statement><p><ol label="a">
-	<li><p>Here are equations for three parabolas.  Factor each formula if possible.<ol label="i">
+<exercise><statement><p><ol marker="a">
+	<li><p>Here are equations for three parabolas.  Factor each formula if possible.<ol marker="i">
 		<li><m>y=x^2-4x+3</m></li>
 		<li><m>y=x^2-4x+4</m></li>
 		<li><m>y=x^2-4x+5</m></li></ol></p></li>
@@ -270,7 +270,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 </sidebyside></li></ol></p>
 </statement></exercise>
 
-<exercise><statement><p>Find the <m>x</m>-intercepts of each parabola.<ol label="a" cols="2">
+<exercise><statement><p>Find the <m>x</m>-intercepts of each parabola.<ol marker="a" cols="2">
 	<li><m>y=-x^2+2x-1</m></li>
 	<li><m>y=2x^2+4x+3</m></li></ol></p></statement></exercise>
 </exercises>
@@ -287,7 +287,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, can we simplify <m>\sqrt{b^2-4ac}</m> to <m>\sqrt{b^2} - \sqrt{4ac}</m>?</li>
 	<li>In Activity 1, Problem 2, why is it helpful to clear fractions from the equation before applying the quadratic formula?</li>
 	<li>In Activity 2, Problem 2, how can we find the <m>x</m>-intercepts if the equation does not factor?</li>
@@ -297,7 +297,7 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 
 <subsection><title>Homework Preview</title>
 <exercises>
-<exercisegroup cols="2"><introduction><p>Solve. Give your answers as:<ol label="a">
+<exercisegroup cols="2"><introduction><p>Solve. Give your answers as:<ol marker="a">
 	<li>exact values.</li>
 	<li>approximations to three decimal places.</li></ol></p></introduction>
 
@@ -312,17 +312,17 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1" cols="2">
-	<li><p><ol label="a">
+<p><ol marker= "1" cols="2">
+	<li><p><ol marker="a">
 		<li><m>\dfrac{-2 \pm \sqrt{12}}{2}</m></li>
 		<li><m>-2.732,~0.732</m></li></ol></p></li>
-	<li><p><ol label="a">
+	<li><p><ol marker="a">
 		<li><m>\dfrac{3 \pm \sqrt{17}}{4}</m></li>
 		<li><m>-0.281,~1.781</m></li></ol></p></li>
-	<li><p><ol label="a">
+	<li><p><ol marker="a">
 		<li><m>2, ~\dfrac{2}{3}</m></li>
 		<li><m>2,~0.667</m></li></ol></p></li>
-	<li><p><ol label="a">
+	<li><p><ol marker="a">
 		<li>No real solutions</li></ol></p></li></ol></p></subsubsection>
 </subsection>
 

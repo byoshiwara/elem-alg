@@ -14,11 +14,11 @@
 	<me>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</me>
 are algebraic expressions. An important part of algebra involves translating word phrases into algebraic expressions.</p> 
 
-<example xml:id="Example-1-2-1"><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+<example xml:id="Example-1-2-1"><statement><p>Write an algebraic expression for each quantity.<ol marker="a">
 	<li>30% of the money invested in stocks</li>
 	<li>The cost of the dinner split three ways</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>The amount invested is unknown, so we choose a variable to represent it.
 			<me>\blert{\text{Amount invested in stocks:}~~~s}</me>
 		Next, we identify the operation described:  "30% of"  means 0.30 times:
@@ -33,7 +33,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <assemblage><title>To write an algebraic expression</title>
 <idx><h>algebraic expression</h></idx><idx><h>algebraic expression</h><h>writing</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
     <li>Identify the unknown quantity and write a short phrase to describe it.</li>
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage>
@@ -79,12 +79,12 @@ are algebraic expressions. An important part of algebra involves translating wor
     </image>
     </sidebyside>
 
-<example><statement><p>Write sums to represent the following phrases.<ol label="a" cols="2">
+<example><statement><p>Write sums to represent the following phrases.<ol marker="a" cols="2">
     <li><p>Six more than <m>x</m></p></li>
     <li><p>Fifteen greater than <m>r</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol label="a" cols="2">
+<solution><p><ol marker="a" cols="2">
     <li><p><m>6+x</m> or <m>x+6</m></p></li>
     <li><p><m>15+r</m> or <m>r+15</m></p></li>
 </ol></p></solution></example>
@@ -150,13 +150,13 @@ are algebraic expressions. An important part of algebra involves translating wor
         <mrow>3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x</mrow></md>
 </p></assemblage>
 
-<example xml:id="Example-1-2-3"><statement><p>Write products to represent the following phrases.<ol label="a">
+<example xml:id="Example-1-2-3"><statement><p>Write products to represent the following phrases.<ol marker="a">
     <li>Ten times <m>z</m></li>
     <li>Two-thirds of <m>y</m></li>
     <li>The product of <m>x</m> and <m>y</m></li>
 </ol></p></statement>
 
-<solution><p><ol label="a" cols="3">
+<solution><p><ol marker="a" cols="3">
     <li><m>10z</m></li>
     <li><m>\dfrac{2}{3}y</m></li>
     <li><m>xy~~</m> or <m>~~yx</m></li>
@@ -273,12 +273,12 @@ The operation of subtraction is not commutative.</p></warning>
 <assemblage><title>Look Closer</title>
 <p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, <m>12 \div 3 = 4</m> but <m>3 \div 12 = \dfrac{1}{4}</m>.</p></assemblage>
 
-<example><statement><p>Write an algebraic expression for each phrase.<ol label="a" cols="2">
+<example><statement><p>Write an algebraic expression for each phrase.<ol marker="a" cols="2">
     <li><m>z</m> subtracted from <m>13</m></li>
     <li><m>25</m> divided by <m>R</m></li>
 </ol></p></statement>
 
-<solution><p><ol label="a" cols ="2">
+<solution><p><ol marker="a" cols ="2">
     <li><m>13-z</m></li>
     <li><m>\dfrac{25}{R}</m></li>
 </ol></p></solution></example>
@@ -446,7 +446,7 @@ Bert's average score is 15.8.</p></solution></example>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="3">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="3">
     <li>64 ft</li>
     <li>240 sq ft</li>
     <li>perimeter</li>
@@ -464,18 +464,18 @@ Bert's average score is 15.8.</p></solution></example>
 <idx><h>algebraic expression</h><h>writing</h></idx>
 
 <assemblage><title>To write an algebraic expression</title>
-<p><ol label="1">
+<p><ol marker="1">
     <li>Identify the unknown quantity and write a short phrase to describe it.</li>
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship described.</li></ol></p></assemblage>
 
 <p>Study the Example below, then write expressions in the Exercise.</p>
 
-<p>EXAMPLE: Write an algebraic expression for each quantity.<ol label="a">
+<p>EXAMPLE: Write an algebraic expression for each quantity.<ol marker="a">
     <li>3 feet more than the length of the rug</li>
     <li>Twice the age of the building</li></ol></p>
 
-<p>Solution:<ol label="a">
+<p>Solution:<ol marker="a">
     <li><p>The length of the rug is unknown.
         <me>\blert{\text{Length of the rug:}~~~l}</me>
     The words "more than" indicate addition:  
@@ -485,7 +485,7 @@ Bert's average score is 15.8.</p></solution></example>
     "Twice" means two times:
         <me>\blert{2a}</me></p></li></ol></p>
 
-<p>EXERCISE 1. Write an algebraic expression for each quantity.<ol label="a">
+<p>EXERCISE 1. Write an algebraic expression for each quantity.<ol marker="a">
     <li>Ten more than the number of students</li>
     <li>Five times the height of the triangle</li>
     <li>4% of the original price</li>
@@ -493,11 +493,11 @@ Bert's average score is 15.8.</p></solution></example>
 
 <p>The next example involves subtraction and division.</p>
 
-<p>EXAMPLE: Write an algebraic expression for each quantity.<ol label="a">
+<p>EXAMPLE: Write an algebraic expression for each quantity.<ol marker="a">
     <li>5 square feet less than the area of the circle</li>
     <li>The ratio of your quiz score to 20</li></ol></p>
 
-<p>Solution:<ol label="a">
+<p>Solution:<ol marker="a">
     <li><p>The area of the circle is unknown
         <me>\blert{\text{Area of circle:}~~~a}</me>
     The words "less than" indicate subtraction:  
@@ -507,7 +507,7 @@ Bert's average score is 15.8.</p></solution></example>
     "Twice" means two times:
         <me>\blert{\dfrac{s}{20}}</me></p></li></ol></p>
 
-<p>EXERCISE 2. Write an algebraic expression for each quantity.<ol label="a">
+<p>EXERCISE 2. Write an algebraic expression for each quantity.<ol marker="a">
     <li>$60 less than first-class airfare</li>
     <li>The quotient of the volume of the sphere and 6</li>
     <li>The ratio of the number of gallons of alcohol to 20</li>
@@ -535,7 +535,7 @@ Bert's average score is 15.8.</p></solution></example>
     <li>split</li>
     <li>minus</li>
     <li>per</li></ul></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li>addition</li>
     <li>subtraction</li>
     <li>multiplication</li>
@@ -703,19 +703,19 @@ The sale price is $510.</p>
                     </tabular></sidebyside>
 
 <exercises>
-<exercisegroup><introduction><p>For the Exercises below,<ol label="a">
+<exercisegroup><introduction><p>For the Exercises below,<ol marker="a">
     <li>Choose the appropriate formula and write an algebraic expression.</li>
     <li>Evaluate the expression to answer the question.</li></ol></p></introduction>
 
-<exercise> <statement><p>It cost Ariel $380 to buy supplies and advertising for her pet-sitting business.<ol label="a">  
+<exercise> <statement><p>It cost Ariel $380 to buy supplies and advertising for her pet-sitting business.<ol marker="a">  
     <li>Write an expression for her profit from the business.</li>
     <li>If Ariel earned $820 in revenue, what was her profit?</li></ol></p></statement></exercise>
 
-<exercise> <statement><p>Jamie cycled for <m>2\frac{1}{2}</m> hours this morning.<ol label="a">  
+<exercise> <statement><p>Jamie cycled for <m>2\frac{1}{2}</m> hours this morning.<ol marker="a">  
     <li>Write an expression for the distance Jamie cycled.</li>
     <li>If Jamie's average speed was 9 miles per hour, how far did she cycle?</li></ol></p></statement></exercise>
 
-<exercise> <statement><p>SaveOurPark collected $2600 in donations from people in the neighborhood.<ol label="a">  
+<exercise> <statement><p>SaveOurPark collected $2600 in donations from people in the neighborhood.<ol marker="a">  
     <li>Write an expression for the average amount that each person donated.</li>
     <li>If 142 people made a donation, what was the average donation?</li></ol></p></statement></exercise>
 </exercisegroup>
@@ -731,7 +731,7 @@ The sale price is $510.</p>
     <li>Choosing an appropriate formula</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>
-<p><ol label="1">
+<p><ol marker="1">
     <li>What is the first step in evaluating an algebraic expression?</li>
     <li>What does it mean to evaluate an algebraic expression?</li>
     <li><p>Give definitions for the following terms:</p>
@@ -783,7 +783,7 @@ The sale price is $510.</p>
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="4">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="4">
     <li><m>\dfrac{6}{x}</m></li>
     <li><m>x-6</m></li>
     <li><m>0.06x</m></li>

@@ -29,7 +29,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>20</m></cell></row>
                     </tabular></sidebyside>
-   <p>Consider the equation  <m>y=2x+4</m>.<ol label="a">
+   <p>Consider the equation  <m>y=2x+4</m>.<ol marker="a">
    		<li>Let <m>x=3</m>. Explain how to find <m>y</m> in two steps.</li>
    		<li>Let <m>y=14</m>. Explain how to find <m>x</m> in two steps.</li></ol></p></statement>
    	<answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -78,7 +78,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>20</m></cell></row>
                     </tabular></sidebyside>
-   <p>Consider the equation  <m>5(q-3)=R</m>.<ol label="a">
+   <p>Consider the equation  <m>5(q-3)=R</m>.<ol marker="a">
    		<li>Let <m>q=3</m>. Explain how to find <m>R</m> in two steps.</li>
    		<li>Let <m>R=10</m>. Explain how to find <m>q</m> in two steps.</li></ol></p></statement></exercise>
 </exercisegroup>
@@ -132,7 +132,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <answer><p><m>x=3.4</m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 20<ndash/>28, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 20<ndash/>28, <ol marker="a">
     <li>Solve each inequality algebraically.</li>
     <li>Graph your solutions on a number line.</li>  
     <li>Give at least one value of the variable that is a solution, and one value 
@@ -141,7 +141,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercise number="20"><statement><m>x+10 \le 5</m></statement></exercise>
 
 <exercise number="21"><statement><m>-3y \lt 15</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>y\gt -5</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-21ans">
         <description>number line</description>
@@ -169,7 +169,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercise number="22"><statement><m>\dfrac{x}{3} \le 4</m></statement></exercise>
 
 <exercise number="23"><statement><m>2x+3 \gt 7</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>x\gt 2</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-23ans">
         <description>number line</description>
@@ -197,7 +197,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercise number="24"><statement><m>-3x+2 \le 11</m></statement></exercise>
 
 <exercise number="25"><statement><m>-3 \gt \dfrac{2x}{3}+1</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>x \lt -6</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-25ans">
         <description>number line</description>
@@ -225,7 +225,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercise number="26"><statement><m>-3 \le 3x \le 12</m></statement></exercise>
 
 <exercise number="27"><statement><m>23 \gt 9-2b \ge 13</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>-7 \lt b \le -2</m></p></li>
     <li><sidebyside width="100%"><image xml:id="hp-2-4-27ans">
         <description>number line</description>
@@ -303,7 +303,7 @@ Fill in the middle column first. Then use the table to help you answer the quest
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside><ol label="a">  
+    </sidebyside><ol marker="a">  
 	<li>Estimate the puppy's weight after 8 weeks.</li>
 	<li>Estimate how long it will take for the puppy to reach 26 pounds.</li>
 	<li>Write an algebraic equation for <m>W</m> in terms of <m>t</m>.</li>
@@ -335,12 +335,12 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside><ol label="a">
+    </sidebyside><ol marker="a">
 	<li>Estimate Marvin's phone bill if he talks for 45 minutes.</li>
 	<li>Estimate the number of minutes Marvin talked if his phone bill is $25.</li>
 	<li>Write an algebraic equation for <m>P</m> in terms of <m>m</m>.</li>
 	<li>Write and solve an equation to verify your answer to part (b).</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>P\approx 20</m></p></li>
     <li><p><m>m\approx 80</m> minutes</p></li>
     <li><p><m>P=13+0.15m</m></p></li>
@@ -348,7 +348,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 34<ndash/>38, <ol label="a">
+<exercisegroup><introduction><p>For Problems 34<ndash/>38, <ol marker="a">
 	<li>Choose a variable for the unknown quantity.</li>
 	<li>Write an equation that involves your variable.</li>
 	<li>Solve your equation, and answer the question.</li></ol></p></introduction>
@@ -356,7 +356,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 <exercise number="34"><statement><p>Simona bought a car for $10,200. She paid $1200 down and will pay the rest in 36 monthly installments. How much is each installment? (Hint:  Write an equation about the total amount Simona pays.)</p></statement></exercise>
 
 <exercise number="35"><statement><p>Every school day, each member of the cross-country team runs a certain distance , which is assigned on the basis of ability, plus a half mile around the track. Greta runs 22.5 miles per week. What is her assigned distance? (Hint:  Write an equation about the total distance Greta runs in one school week.)</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>d=</m>Greta's assigned distance (mi)</p></li>
     <li><p><m>5(d+0.5)=22.5</m></p></li>
     <li><p>She is assigned 4 miles.</p></li>
@@ -365,7 +365,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 <exercise number="36"><statement><p>The Tree People planted new trees in an area that was burned by brush fires. 60% of the seeds sprouted, but gophers ate 38 of the new sprouts. That left 112 new saplings.  How many seeds were planted? (Hint:   Write an equation about the number of seeds that survived.)</p></statement></exercise>
 
 <exercise number="37"><statement><p>During a four-day warming trend, the temperature rose from <m>-6 \degree</m> to <m>26 \degree</m>. What was the average change in temperature per day?</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>c=</m>average temperature change per day</p></li>
     <li><p><m>26=-6+4c</m></p></li>
     <li><p>The average change was 8 degrees per day.</p></li>

@@ -56,7 +56,7 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 <assemblage><title>Coefficients of a Linear Equation</title>
 <idx><h>linear equation</h><h>coefficients</h></idx>
 <idx><h>coefficient</h><h>of linear equation</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>The constant term tells us the vertical intercept of the graph.</li> 
 	<li>The coefficient of the input variable tells us the slope of the graph.</li></ol></p></assemblage>
 
@@ -79,7 +79,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <subsection><title>Slope-Intercept Method of Graphing</title>
 <idx><h>slope-intercept form</h><h>method for graphing</h></idx>
 <idx><h>slope-intercept form</h><h>method for graphing</h><seealso>slope-intercept method</seealso></idx><idx><h>slope-intercept method</h></idx>
-<p>A linear equation has the form <m>Ax+By=C</m>, and its graph is a straight line.  We have already studied two methods for graphing linear equations:<ol label="1">  
+<p>A linear equation has the form <m>Ax+By=C</m>, and its graph is a straight line.  We have already studied two methods for graphing linear equations:<ol marker="1">  
 	<li>Make a table of values and plot points</li>  
 	<li>Find and plot the intercepts (the intercept method)</li></ol></p>
 
@@ -144,7 +144,7 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
 
 <assemblage><title>To Graph a Line Using the Slope-Intercept Method</title>
 <idx><h>slope-intercept method</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Write the equation in the form <m>y=mx+b</m>.</li> 
 	<li>Plot the  <m>y</m>-intercept, <m>(0,b)</m>.</li> 
 	<li>Write the slope as a fraction, <m>m = \dfrac{\Delta y}{\Delta x}</m>.</li> 
@@ -199,7 +199,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="3">
+<p><ol marker="1" cols="3">
     <li><p><m>10-2q</m></p></li>
     <li><p><m>9-w</m></p></li>
     <li><p><m>-3-2b</m></p></li>
@@ -213,7 +213,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 
 <subsubsection><title>Activity 1: The Slope and the <m>y</m>-intercept</title>
 <exercises>
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
     <li>Tuition at Woodrow University is $400 plus $30 per unit. Write an equation for tuition, <m>W</m>, in terms of the number of units, <m>u</m>, and fill in the table below.
         <me>W=\hphantom{0000}</me></li>
     <li>At Xavier College, the tuition, <m>X</m>, is $200 plus $30 per unit. Write an equation <m>X</m> and fill in the table.
@@ -286,7 +286,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
     <li>How are your results from part (e) reflected in the graphs of the equations?</li></ol></p></statement>
 </exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
     <li><p>Anouk is traveling by train across Alaska at 60 miles per hour. Write an equation for the distance, <m>A</m>, Anouk has traveled in terms of hours, <m>h</m>, and fill in the table below.
         <me>A=\hphantom{0000}</me></p></li>
     <li><p>Boris is traveling by snowmobile at 30 miles per hour. Write an equation for Boris' distance, <m>B</m>,  and fill in the table.
@@ -373,7 +373,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 
 <subsubsection><title>Activity 2: Slope-Intercept Form</title>
 <exercises>
-<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 0%"><p><ol label="a">
+<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 0%"><p><ol marker="a">
     <li>Write an equation for the line whose <m>y</m>-intercept is <m>(0,-3)</m> and whose slope is <m>\dfrac{-2}{3}</m>.</li>
 
     <li><p>Use the slope-intercept method to graph the equation.</p>
@@ -392,7 +392,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
     </li></ol></p>
     <image source="photos/stangrid10"><description>10 by 10 grid</description></image></sidebyside></statement></exercise>
 
-<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 0%"><p><ol label="a">
+<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 0%"><p><ol marker="a">
     <li>State the slope and <m>y</m>-intercept of the equation <m>y=-3x+4</m></li>
     <li><p>Graph the equation by the slope-intercept method.</p>  
         <p>Hint:  Write the slope as a fraction,
@@ -400,7 +400,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
     <image source="photos/stangrid10"><description>10 by 10 grid</description></image></sidebyside></statement></exercise>
 
 <exercise><statement><p>On Memorial Day weekend, Arturo drives from his home to a cabin on Diamond Lake.  His distance in miles from Diamond Lake after <m>x</m> hours of driving is given by the equation <m>y=450-50x</m>.</p>
-<sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p><ol label="a">
+<sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p><ol marker="a">
 <li>What are the slope and the <m>y</m>-intercept of the graph of this equation?</li>
 <li>Graph the equation.</li>
 <li><p>What does the <m>y</m>-intercept tell you about the problem?</p>
@@ -444,7 +444,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, Problem 1, what do the slopes of the lines represent?</li>
     <li>What do the slopes of the lines represent in Activity 1, Problem 2?</li>
     <li>In Activity 2 part 1, does the negative sign in front of apply to the numerator, the denominator, or both?</li>
@@ -456,7 +456,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 <subsection><title>Homework Preview</title>
 <exercises>
 
-<exercisegroup cols="2"><introduction><p><ol label="a">
+<exercisegroup cols="2"><introduction><p><ol marker="a">
     <li>Put the equation in slope-intercept form.</li>
     <li>Graph the line by the slope-intercept method.</li></ol></p></introduction>
 
@@ -515,7 +515,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
     <li><m>y=\dfrac{3}{2}x-2</m></li>
     <li><m>y=\dfrac{-4}{3}x</m></li>
     <li><m>y=\dfrac{-3}{4}x+6</m></li>

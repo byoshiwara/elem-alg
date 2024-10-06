@@ -5,7 +5,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, find the slope of each line segment.</p></introduction>
 
-<exercise number="1"><statement><!--<p><ol label="a" cols="2">
+<exercise number="1"><statement><!--<p><ol marker="a" cols="2">
     <li><p><sidebyside width="100%" vertalign = "middle"><image source="photos/hp-3-3-1a.png"><description>segment</description></image></sidebyside></p></li>
     <li><p><sidebyside width="100%"><image source="photos/hp-3-3-1b.png"><description>segment</description></image></sidebyside></p></li></ol></p>-->
 <sidebyside width="90%" margins="0% 10%">
@@ -43,7 +43,7 @@
     <li><p><m>-2</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><!--<p><ol label="a" cols="2">
+<exercise number="2"><statement><!--<p><ol marker="a" cols="2">
     <li><p><sidebyside width="100%"><image source="photos/hp-3-3-2a.png"><description>segment</description></image></sidebyside></p></li>
     <li><p><sidebyside width="90%"><image source="photos/hp-3-3-2b.png"><description>segment</description></image></sidebyside></p></li></ol></p>-->
 <sidebyside>
@@ -219,7 +219,7 @@
 </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, <ol marker="a">
 	<li>Find the intercepts of each line.</li>
 	<li>Graph the line on the grid provided.  Use the intercept method.</li>
 	<li>Use the intercepts to calculate the slope of the line.</li>
@@ -227,7 +227,7 @@
 
 <exercise number="7"><statement><p><m>2x+3y=12</m>
 	<me>(-3,6)~~\text{and}~~(3,2)</me></p>
-<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement><answer><p><ol marker="a">
     <li><p><m>(0,4) </m>, <m>~(6,0) </m></p></li>
     <li><sidebyside width="90%">
     <image xml:id="hp-3-3-7ans">
@@ -265,7 +265,7 @@
 
 <exercise number="9"><statement><p><m>x+y=5</m>
 	<me>(-3,8)~~\text{and}~~(8,-3)</me></p>
-<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
+<sidebyside width="90%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement><answer><p><ol marker="a">
     <li><p><m>(0,5) </m>, <m>~(5,0) </m></p></li>
     <li><sidebyside width="90%">
     <image xml:id="hp-3-3-9ans">
@@ -313,7 +313,7 @@
 <exercise number="14"><statement><p>Which line is decreasing: one with slope <m>\dfrac{1}{4}</m> or one with slope <m>-2</m>?</p></statement></exercise>
 
 <exercise number="15"><statement>
-    <sidebyside widths="55% 15%" margins="0% 25%"><p>The line shown below has slope <m>\dfrac{5}{2}</m>. If <m>\Delta x = 7</m>, find <m>\Delta y</m>.</p>
+    <sidebyside widths="55% 15%" margins="0% 25%"><p>The line shown has slope <m>\dfrac{5}{2}</m>. If <m>\Delta x = 7</m>, find <m>\Delta y</m>.</p>
     <image xml:id="hp-3-3-15">
         <description>line segment</description>
         <latex-image>
@@ -331,7 +331,7 @@
 <answer><p><m>\Delta y = 17.5</m></p></answer></exercise>
 
 <exercise number="16"><statement>
-    <sidebyside widths="55% 17%" margins="0% 20%"><p>The line shown below has slope <m>-4</m>. If <m>\Delta y=-6</m>, find <m>\Delta x</m>.</p>
+    <sidebyside widths="55% 17%" margins="0% 20%"><p>The line shown has slope <m>-4</m>. If <m>\Delta y=-6</m>, find <m>\Delta x</m>.</p>
     <image xml:id="hp-3-3-16">
         <description>line segment</description>
         <latex-image>
@@ -347,7 +347,7 @@
     </image>
 </sidebyside></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 17<ndash/>18, <ol label="a">
+<exercisegroup><introduction><p>For Problems 17<ndash/>18, <ol marker="a">
 	<li>Compute the slope of the graph, including units.</li>
 	<li>Interpret the slope as a rate; what does it tell you about the problem?
 </li></ol></p></introduction>
@@ -378,7 +378,7 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>d=25g</m></p></li>
     <li><p><m>\dfrac{25\text{ miles}}{1\text{ gallon}} </m>; the car gets 25 miles per gallon</p></li>
 </ol></p></answer></exercise>
@@ -435,11 +435,11 @@
     </latex-image>
     </image>
 </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
 	<li>How much does Lynette save each week?</li>
 	<li>Give the coordinates <m>(w,A)</m> of any two points on the graph. Use those coordinates to compute the slope of the graph, <m>\dfrac{\Delta A}{\Delta w}</m>.</li> 
 	<li>What are the units of the slope?  What does the slope tell you about the problem?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>$50</p></li>
     <li><p><m>(0,200) </m>, <m>(2,300) </m>, <m>~\dfrac{\Delta A}{\Delta w}=50 </m></p></li> 
     <li><p>dollars/week. She is saving $50 per week.</p></li></ol></p></answer></exercise>
@@ -468,7 +468,7 @@
     </latex-image>
     </image>
 </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
 	<li>How much did the rabbit's weight increase from the fourth week to the twelfth week?  From the second week to the eighth week?</li>
 	<li>Compute the rabbit's rate of growth, including units.</li>
 	<li>Illustrate the rate of growth, <m>\dfrac{\Delta W}{\Delta t}</m>, on the graph.</li></ol></p></statement>
@@ -482,7 +482,7 @@
 <exercise number="22"><statement><p>A wheelchair ramp must have a slope of 0.125. If the ramp must reach a door whose base is 2 feet off the ground, how far from the building should the base of the ramp be placed?</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="23"><statement><p><ol label="a">
+<exercise number="23"><statement><p><ol marker="a">
 	<li>Calculate the slope of the line shown below.</li>
 	<li>Explain why <m>\Delta y = 0</m> for any two points on the line.</li>
 	<li>Explain why the slope of any horizontal line is zero.<idx><h>slope</h><h>of horizontal line</h></idx></li></ol></p>
@@ -506,12 +506,12 @@
     </latex-image>
     </image>
 	</sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>0</p></li>
     <li><p>All the <m>y</m>-coordinates on the line are the same, so the change in <m>y</m> is 0</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol label="a">
+<exercise number="24"><statement><p><ol marker="a">
 	<li>Calculate the slope of the line shown below.</li>
 	<li>Explain why <m>\Delta x = 0</m> for any two points on the line.</li>
 	<li>Explain why the slope of any vertical line is undefined.<idx><h>slope</h><h>of vertical line</h></idx></li></ol></p>
@@ -537,7 +537,7 @@
     </image>
 	</sidebyside></statement></exercise>
 
-<exercise number="25"><statement><p><ol label="a">
+<exercise number="25"><statement><p><ol marker="a">
     <li>Which of the two graphs in the figure below appears steeper?</li>
     <li>Compute the slopes of the two graphs.  Which has the greater slope?</li></ol></p>
     <sidebyside widths="32% 40%" margins="10% 0%" valigns="bottom bottom"><!--<image source="photos/hp-3-3-25a.png"><description>graph</description></image>
@@ -593,7 +593,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>(I) appears steeper.</p></li>
     <li><p>(I) has <m>m=3</m>; (II) has <m>m=20</m>, so (II) has the larger slope.</p></li>
 </ol></p></answer></exercise>
@@ -603,17 +603,15 @@
     <image xml:id="hp-3-3-26">
         <description>graph of line on grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} [xscale=.3,yscale=.25]
 		\draw[cyan] (0,0) grid (16,25);
 		\draw[black,thick, ->, >=stealth'] (0,0)--(17,0) node[right]{$x$};
 		\draw[black,thick, ->, >=stealth'] (0,0)--(0,27) node[left, xshift=2]{$P$};
-		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {5,10} {
+		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {5,10,15} {
 		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
 		}
-		\foreach \y [evaluate=\y as \yi using int(2.5*\y)] in  {2.00, 4.00, 6.00} {
+		\foreach \y [evaluate=\y as \yi using int(2.5*\y)] in  {2.00, 4.00, 6.00,8.00,10.00} {
 		 \draw[black] (.15,\yi) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\y$};
 		}
 		\draw[red, thick] (0,0)--(16,24);
@@ -627,7 +625,7 @@
     </latex-image>
     </image>
 </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
 	<li>Read the coordinates of the two points shown on the graph.</li>
 	<li>Calculate the slope of the graph, including units. What does the slope tell us about the granola?</li>
 	<li>Extend the graph to include 25 ounces of granola. How much taller must you make the vertical axis?</li>

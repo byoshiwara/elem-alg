@@ -8,11 +8,11 @@
 
 <p>	In Chapter 7 we learned the first and second laws of exponents, which we use to compute products and quotients of powers.</p>
 
-<example xml:id="Example-9-1-1"><statement><p>Simplify each product or quotient.<ol label="a" cols="3">
+<example xml:id="Example-9-1-1"><statement><p>Simplify each product or quotient.<ol marker="a" cols="3">
 	<li><m>5^2 \cdot 5^6</m></li>
 	<li><m>\dfrac{3^7}{3^2}</m></li>
 	<li><m>\dfrac{2^3}{2^5}</m></li></ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>To multiply two powers with the same base, we add the exponents and leave the base unchanged.
 		<me>5^2 \cdot 5^6 = 5^8</me></p></li>
 	<li><p>To divide two powers with the same base, we subtract the smaller exponent from the larger.  If the larger exponent occurs in the numerator, we put the power in the numerator.
@@ -57,7 +57,7 @@ We wrote <m>(x^4)^3</m> as a repeated product and applied the first law of expon
 <p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
 	<me>\blert{(a^m)^n = a^{mn}}</me></p></assemblage>
 
-<example><statement><p> <ol label="a">
+<example><statement><p> <ol marker="a">
 	<li><p><m>(b^2)^4 = b^{2 \cdot 4} = b^8~~~~~~~~~~~~\blert{\text{Multiply exponents.}}</m></p></li>
 	<li><p><m>(y^2)^5 = y^{2 \cdot 5} = y^{10}</m></p></li></ol></p></statement></example>
 
@@ -87,7 +87,7 @@ Thus, to raise a product to a power we can raise each factor to the power. This 
 <p>To raise a product to a power, raise each factor to the power. In symbols,
 	<me>\blert{(ab)^n = a^nb^n}</me></p></assemblage>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
 	<li><p><m>(5ab)^2 = 5^2a^2b^2 = 25a^2b^2~~~~~~~~\blert{\text{Square each factor.}}</m></p></li>
 	<li><p><md><mrow>(-xy^3)^4 \amp = (-x)^4(y^3)^4 \amp \amp \blert{\text{Raise each factor to the fourth power;}}</mrow>
 			<mrow> \amp = x^4y^{12} \amp \amp \blert{\text{apply the third lasw of exponents.}}</mrow></md></p></li>
@@ -118,7 +118,7 @@ This example suggests the following rule.</p>
 <p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
 	<me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></p></assemblage>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
 	<li><p><m>\left(\dfrac{x}{y}\right)^5 = \dfrac{x^5}{y^5} ~~~~~~~~~~ \blert{\text{Raise top and bottom to the fifth power.}}</m></p></li>
 	<li><p><md><mrow>\left(\dfrac{2}{y^2}\right)^3 \amp = \dfrac{2^3}{(y^2)^3} \amp \amp \blert{\text{Raise top and bottom to the third power.}}</mrow>
 		<mrow> \amp =\dfrac{2^3}{y^{2 \cdot 3}} = \dfrac{8}{y^6} \amp \amp \blert{\text{Apply the third law of exponents to the denominator.}}</mrow></md></p></li></ol></p></statement></example>
@@ -135,7 +135,7 @@ This example suggests the following rule.</p>
 
 <assemblage><title>Laws of Exponents</title>
 <idx><h>exponent</h><h>laws of</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
 	<li><md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
 		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></li>
@@ -196,7 +196,7 @@ Finally, we multiply the powers together to get
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="3">
+<p><ol marker="1" cols="3">
     <li><m>-26</m></li>
     <li><m>360</m></li>
     <li><m>16</m></li>
@@ -209,21 +209,21 @@ Finally, we multiply the powers together to get
 <subsubsection><title>Activity 1: Laws of Exponents</title>
 <exercises>
 
-<exercise><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="3">
+<exercise><statement><p>Use the laws of exponents to simplify.<ol marker="a" cols="3">
 	<li><m>(4x^4)(5x^5)</m></li>
 	<li><m>\dfrac{8x^8}{4x^4}</m></li>
 	<li><m>\dfrac{6a^3(a^4)}{9a^6}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="3">
+<exercise><statement><p>Use the laws of exponents to simplify.<ol marker="a" cols="3">
 	<li><m>(y^2)^5</m></li>
 	<li><m>(5^3)^6</m></li>
 	<li><m>(n^4)^2</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Simplify using the laws of exponents. State the law you used in each case.<ol label="a" cols="2">
+<exercise><statement><p>Simplify using the laws of exponents. State the law you used in each case.<ol marker="a" cols="2">
 	<li><m>(5^4)^2</m></li>
 	<li><m>(5^4)(5^2)</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="3">
+<exercise><statement><p>Use the laws of exponents to simplify.<ol marker="a" cols="3">
 	<li><m>(6a^3q^6)^3</m></li>
 	<li><m>\left(\dfrac{n^3}{k^4}\right)^8</m></li>
 	<li><m>\dfrac{3^2a^3(3a^2)}{2^3a(2^3a^4)}</m></li></ol></p></statement></exercise>
@@ -233,7 +233,7 @@ Finally, we multiply the powers together to get
 <subsubsection><title>Activity 2: Simplifying Expressions</title>
 <exercises>
 
-<exercise><statement><p>Recall that <m>-x</m> means <m>-1 \cdot x</m>. Use this idea to simplify each expression if possible.<ol label="a" cols="3">
+<exercise><statement><p>Recall that <m>-x</m> means <m>-1 \cdot x</m>. Use this idea to simplify each expression if possible.<ol marker="a" cols="3">
 	<li><m>-x^4</m></li>
 	<li><m>(-x)^4</m></li>
 	<li><m>(-2)^4</m></li>
@@ -272,7 +272,7 @@ Finally, we multiply the powers together to get
 	<li>Simplifying expressions involving powers</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, explain the difference between <m>\dfrac{8}{4}</m> and <m>\dfrac{x^8}{x^4}</m>.</li>
 	<li>Explain the difference between <m>4^2</m> and <m>(x^4)^2</m>.</li>
 	<li>Explain why <m>(5^4)(5^2)</m> is not equal to <m>25^6</m>.</li></ol></p></assemblage>
@@ -282,32 +282,32 @@ Finally, we multiply the powers together to get
 <subsection><title>Homework Preview</title>
 <exercises>
 
-<exercise><statement><p>Simplify. <ol label="a" cols="3">
+<exercise><statement><p>Simplify. <ol marker="a" cols="3">
 	<li><m>3^6 \cdot 3^9</m></li>
 	<li><m>\dfrac{3^6}{3^9}</m></li>
 	<li><m>(3^6)^9</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Simplify. <ol label="a" cols="3">
+<exercise><statement><p>Simplify. <ol marker="a" cols="3">
 	<li><m>2ab^2(2ab)^2</m></li>
 	<li><m>\dfrac{4ab^2}{(4ab)^2}</m></li>
 	<li><m>\dfrac{(3a^3b^2)^3}{3ab^3(-ab^3)}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Simplify. <ol label="a">
+<exercise><statement><p>Simplify. <ol marker="a">
 	<li><m>6-2np^3+np(p^2-n^2)</m></li>
 	<li><m>4np(-2np)-2np(-2np)^2</m></li></ol></p></statement></exercise>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1" cols="2">
-    <li><p><ol label="a">
+<p><ol marker= "1" cols="2">
+    <li><p><ol marker="a">
     	<li><m>3^{15}</m></li>
     	<li><m>\dfrac{1}{3^3}</m></li>
     	<li><m>3^{54}</m></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
     	<li><m>8a^3b^4</m></li>
     	<li><m>\dfrac{1}{4a^2}</m></li>
     	<li><m>-9a^7</m></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
     	<li><m>6-np^3-n^3p</m></li>
     	<li><m>-8n^2p^2-8n^3p^3</m></li></ol></p></li></ol></p></subsubsection>
 </subsection>

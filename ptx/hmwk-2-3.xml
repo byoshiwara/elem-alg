@@ -5,7 +5,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, the figure shown is the graph of an equation. Decide which of the given points are solutions of the equation.</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
+<exercise number="1"><statement><p><ol marker="a" cols="2">
 	<li><m>(2,0)</m></li>
 	<li><m>(3,2)</m></li>
 	<li><m>(-1,-2)</m></li>
@@ -33,14 +33,14 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li>No</li>
     <li>Yes</li>
     <li>No</li>
     <li>Yes</li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a" cols="2">
+<exercise number="2"><statement><p><ol marker="a" cols="2">
 	<li><m>(4,-2)</m></li>
 	<li><m>(4,4)</m></li>
 	<li><m>(0,4)</m></li>
@@ -100,7 +100,7 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>(-6,2)</m></p></li>
     <li><p><m>(-5,-7)</m></p></li>
     <li><p><m>(8,-4)</m></p></li>
@@ -167,7 +167,7 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>(0,-600)</m></p></li>
     <li><p><m>(10,-200)</m></p></li>
     <li><p><m>(15,0)</m></p></li>
@@ -175,7 +175,7 @@
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 6<ndash/>7, <ol label="a"> 
+<exercisegroup><introduction><p>For Problems 6<ndash/>7, <ol marker="a"> 
     <li>Write an equation relating the variables.</li>
     <li>Complete the table of values.</li>
     <li>Graph your equation on the grid.</li></ol></p></introduction>
@@ -263,7 +263,7 @@
     </latex-image>
     </image>
     </sidebyside></statement><answer><p>
-    <ol label="a">
+    <ol marker="a">
         <li><p><m>M=200+\frac{1}{5}U </m></p></li>
         <li><sidebyside width="50%" margins="0% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -310,7 +310,7 @@
     </image></sidebyside></p></li></ol></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="8"><statement><p>Darren inherited some money and has been spending it at the rate of $100 per day. Right now he has $2000 left.<ol label="a">
+<exercise number="8"><statement><p>Darren inherited some money and has been spending it at the rate of $100 per day. Right now he has $2000 left.<ol marker="a">
 	<li>Write an equation for Darren's balance, <m>B</m>, after <m>d</m> days.</li>
 	<li><p>Fill in the table. Negative values of <m>d</m> represent days in the past.</p>
 		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -388,7 +388,7 @@
     </latex-image>
     </image>
     </sidebyside>
-<ol label="a">
+<ol marker="a">
 	<li>What was the price of the stereo equipment?</li>
 	<li>How much does Gregory pay each month?</li>
 	<li>How much does Gregory owe after 6 months?</li>
@@ -404,7 +404,7 @@
 
 <exercisegroup><introduction><p>For part (c) of Problems 10<ndash/>11, write an equation and use your graph to solve it.</p></introduction>
 
-<exercise number="10"><statement><p>On a 100-point test, Lori loses 5 points for each wrong answer.<ol label="a">
+<exercise number="10"><statement><p>On a 100-point test, Lori loses 5 points for each wrong answer.<ol marker="a">
     <li>Write an equation for Lori's score, <m>s</m>, if she gives <m>x</m> wrong answers.</li>
     <li><p>Complete the table of values and graph your equation.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -448,7 +448,7 @@
         </sidebyside></li>
     <li>If Lori's score is 65, how many wrong answers did she give?</li></ol></p></statement></exercise>
 
-<exercise number="11"><statement><p>The water in Silver Pond is 10 feet deep, but the water level is dropping at a rate of <m>\dfrac{1}{2}</m> inch per week.<ol label="a">
+<exercise number="11"><statement><p>The water in Silver Pond is 10 feet deep, but the water level is dropping at a rate of <m>\dfrac{1}{2}</m> inch per week.<ol marker="a">
     <li>Write an equation for the depth, <m>d</m>, of the pond after <m>w</m> weeks.</li>
     <li><p>Complete the table of values and graph your equation.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -492,7 +492,7 @@
         </sidebyside></li>
     <li>How long will it take until the depth of the pond is 8 feet? (Hint: Convert all the units to inches.)
 </li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>d=120-\frac{1}{2}w </m></p></li>
     <li><sidebyside widths="35% 50%" margins="0% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -643,7 +643,7 @@
     </latex-image>
     </image>
     </sidebyside>
-<ol label="a">	
+<ol marker="a">	
 	<li>Use the graph to evaluate the expression <m>2x+6</m> for <m>x=-5</m>.</li>
 	<li>Find a point on the graph with <m>y=-4</m>.  What is the <m>x</m>-value of the point?</li>
 	<li>Verify that the coordinates of your point in part (b) satisfy the equation of the graph.</li>
@@ -680,7 +680,7 @@
     </latex-image>
     </image>
     </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
 	<li><m>-9-\dfrac{x}{4}=-5</m></li>
 	<li><m>-9-\dfrac{x}{4}=1</m></li></ol></p></statement>
 <answer><p><ol>
@@ -714,9 +714,9 @@
     </latex-image>
     </image>
     </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
 	<li><m>7-\dfrac{2x}{3}=3</m></li>
-	<li><m>7-\dfrac{2x}{3}=11</m></li></ol></p></statement></exercise>
+	<li><m>7-\dfrac{2x}{3}=-1</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols = "2"><introduction><p>For Problems 19<ndash/>20, use the graph to estimate the solution of the equation. Then use a calculator to help you verify the solution algebraically. Do you think your estimate was too big or too small?</p></introduction>

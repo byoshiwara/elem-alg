@@ -11,11 +11,11 @@
 	<me>\dfrac{10}{15} = \dfrac{2 \cdot 5}{3 \cdot 5} = \dfrac{2}{3}</me>
 We first factored the numerator and denominator of the fraction and then canceled the 5's by dividing.  We can apply the same technique to quotients of powers.</p>
 
-<example><statement><p>Simplify.<ol label="a" cols="2">
+<example><statement><p>Simplify.<ol marker="a" cols="2">
 	<li><m> \dfrac{a^5}{a^3}</m></li>
 	<li><m>\dfrac{a^4}{a^8}</m></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We first write the numerator and denominator in factored form. Then we divide any common factors from the numerator and denominator.
         <me>\dfrac{a^5}{a^3} = \dfrac{\cancel{a}\cdot \cancel{a}\cdot \cancel{a}\cdot a\cdot a}{\cancel{a}\cdot \cancel{a}\cdot \cancel{a}} = \dfrac{a^2}{1} = a^2</me>
     You may observe that the exponent of the quotient can be obtained by subtracting the exponent of the denominator from the exponent of the numerator. In other words,
@@ -29,10 +29,10 @@ We first factored the numerator and denominator of the fraction and then cancele
 
 <assemblage><title>Second Law of Exponents</title>
 <idx><h>exponent</h><h>second law</h></idx>
-<p>To divide two powers with the same base, we subtract the smaller exponent from the larger one, and keep the same base.<ol label="1">
+<p>To divide two powers with the same base, we subtract the smaller exponent from the larger one, and keep the same base.<ol marker="1">
 <li>If the larger exponent occurs in the numerator, put the power in the numerator.</li>
 <li>If the larger exponent occurs in the denominator, put the power in the denominator.</li></ol></p>
-<p>In symbols,<ol label="1">
+<p>In symbols,<ol marker="1">
 	<li><m>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~~~\text{if}~~~~n \lt m}</m></li>      	
 	<li><m>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~~~\text{if}~~~~n \gt m}</m></li></ol></p></assemblage>
 				      
@@ -179,11 +179,11 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 
 <p>If the coefficients in a quadratic trinomial <m>ax^2+bx+c</m> are not prime numbers, the guess-and-check method may be time-consuming. In that case, we can use another technique that depends upon the following property of binomial products.</p>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
 	<li>Compute the product <m>(3t+2)(t+3)</m> using the area of a rectangle.</li>
 	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>We construct a rectangle with sides <m>3t+2</m> and <m>t+3</m>, as shown below. We see that the product of the two binomials is </p>
 <sidebyside widths="60% 30%" margins="0% 10%" valigns="middle middle"><p><m>3t^2+9t+2t+6=3t^2+11t+6</m></p>
 	<tabular halign="center">
@@ -425,7 +425,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <assemblage><title>To Factor <m>~ax^2+bx+c~</m> Using the Box Method</title>
 <idx><h>box method for factoring a quadratic trinomial</h></idx>
 <idx><h>factoring</h><h>the box method</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Write the quadratic term <m>ax^2</m> in the upper left sub-rectangle, and the 
 	constant term <m>c</m> in the lower right.</li>
 	<li>Multiply these two terms to find the diagonal product, <m>D</m>.</li>
@@ -490,7 +490,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
 	<li><m>b+20</m></li>
 	<li><m>n+3</m></li>
 	<li><m>3u+1</m></li>
@@ -507,7 +507,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <subsubsection><title>Activity 1: Quotients and the GCF</title>
 <exercises>
 
-<exercise><statement><p>Use the first second of exponents to find each quotient.<ol label="a" cols="3">
+<exercise><statement><p>Use the first second of exponents to find each quotient.<ol marker="a" cols="3">
 	<li><m>\dfrac{x^6}{x^2}</m></li>
 	<li><m>\dfrac{b^2}{b^3}</m></li></ol></p></statement></exercise>
 
@@ -526,7 +526,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <exercise><statement><p>Factor  <m>~3x^2+2x-5~</m> by the guess-and-check method.</p></statement></exercise>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a">
 	<li>Compute the product <m>~(2x-5)(3x-4)~</m> using the area of a rectangle.</li>
 	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement></exercise>
 
@@ -547,7 +547,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <exercise><statement><p>Factor completely  <m>~4a^6-10a^5+6a^4</m></p></statement></exercise>
 
-<exercise><statement><p>Factor completely. <ol label="a">
+<exercise><statement><p>Factor completely. <ol marker="a">
   <li><m>2a^3b-24a^2b^2-90ab^3</m></li>
   <li><m>3x^2-8xy+4y^2</m></li></ol></p></statement></exercise>
  </exercises>
@@ -602,7 +602,7 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 	<li>(Optional) Factoring a quadratic trinomial <m>ax^2+bx+c</m> by the box method</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>When is the guess-and-check method easier to use than the box method?</li>
 	<li>In Activity 3, Problem 1, what is the common factor?</li>
 	<li>In Activity 3, Problem 3a, what is the common factor?</li>
@@ -614,7 +614,7 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 <exercises>
 <exercise><statement><p>Factor <m>3z^2-2z-5</m> by the guess-and-check method.</p></statement></exercise>
 
-<exercise><statement><p>Factor completely.<ol label="a" cols="2">
+<exercise><statement><p>Factor completely.<ol marker="a" cols="2">
 	<li><m>2a^3+10a^2-72a</m></li>
 	<li><m>6x^4+27x^3y-54x^2y^2</m></li></ol></p></statement></exercise>
 
@@ -627,9 +627,9 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol label = "1">
+<p><ol marker= "1">
 	<li><m>(3z-5)(z+1)</m></li>
-	<li><p><ol label="a">
+	<li><p><ol marker="a">
 		<li><m>2a(a+9)(a-4)</m></li>
 		<li><m>3x^2(2x-3y)(x+6y)</m></li></ol></p></li>
 	<li><m>(2x-9)(x+4)</m></li>

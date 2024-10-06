@@ -30,7 +30,7 @@
 
 <activity>
 <statement><p>You have $5000 to invest for one year. You want to put part of the money into bonds that pay 7% interest rate and the rest of the money into stocks, which involve some risk but will pay 12% if the investment is successful.</p>
-<ol label="a">
+<ol marker="a">
     <li><p>Fill in the table.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
@@ -74,7 +74,7 @@
     Write an equation about this, using your expressions from part (b).   
         <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} </me>
     </p></li></ol></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
                     <row bottom="minor">
@@ -181,7 +181,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <m>P</m> stands for the part obtained when we take <m>r</m> percent of a whole amount, <m>W</m>.</p>
 
 <activity>
-<statement><p>You have two jars of marbles. The first contains 40 marbles, of which 10 are red, and the second contains 60 marbles, of which 30 are red.<ol label="a">
+<statement><p>You have two jars of marbles. The first contains 40 marbles, of which 10 are red, and the second contains 60 marbles, of which 30 are red.<ol marker="a">
 <li><p>What percent of the marbles in the first jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
 	<p>What percent of the marbles in the second jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
 	<p>You pour both jars of marbles into a larger jar and mix them together.</p>
@@ -189,7 +189,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <li><p>How many marbles total are in the larger jar?</p>
 	<p>How many red marbles are in the larger jar?</p>
 	<p>What percent of marbles in the larger jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p></li>
-<li>Can we add the percents for the first two jars to get the percent red marbles in the mixture?</li></ol></p></statement><answer><p><ol label="a" cols="3">
+<li>Can we add the percents for the first two jars to get the percent red marbles in the mixture?</li></ol></p></statement><answer><p><ol marker="a" cols="3">
 <li>25%, 50%</li>
 <li>100, 40, 40%</li>
 <li>No</li></ol></p></answer></activity>
@@ -399,49 +399,49 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 <exercisegroup><introduction><p>For part (b) of each problem, write an algebraic expression in two variables.</p>
 </introduction>
 
-<exercise number="1"><statement><p><ol label="a">
+<exercise number="1"><statement><p><ol marker="a">
 	<li>How much interest will you earn in 1 year if you invest $2400 in a T-bill that pays 7% interest and $800 in a savings account that pays 4.8% interest?</li>
 	<li>How much will you earn if you invest <m>x</m> dollars in the T-bill and <m>y</m> dollars in the savings account?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li>$281.40</li>
 	<li><m>0.075x+0.048y</m></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a">
+<exercise number="2"><statement><p><ol marker="a">
 	<li>How far will you travel if you jog for 40 minutes at 9 miles per hour, and then jog for 30 minutes at 5 miles per hour?</li>
 	<li>How far will you travel if you jog for 40 minutes at <m>x</m> miles per hour, and the jog for 30 minutes at <m>y</m> miles per hour?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li>8.5 miles</li>
 	<li><m>\dfrac{2}{3}x+\dfrac{1}{2}y</m></li></ol></p></answer></exercise>
 
-<exercise number="3"><statement><p><ol label="a">
+<exercise number="3"><statement><p><ol marker="a">
 	<li>How long will it take you to drive 180 miles on the highway at an average speed of 60 miles per hour, and then 30 miles on a gravel road at an average speed of 40 miles per hour?</li>
 	<li>How long will it take you if you drive on the highway at <m>x</m> miles per hour and on the gravel road at <m>y</m> miles per hour?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li>3.75 hours</li>
 	<li><m>\dfrac{180}{x}+\dfrac{30}{y}</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol label="a">
+<exercise number="4"><statement><p><ol marker="a">
 	<li>How much nitrogen is in a mixture of 10 pounds of fertilizer that is 6% nitrogen and 4 pounds of fertilizer that is 60% nitrogen?</li>
 	<li>How much nitrogen is in a mixture of <m>x</m> pounds of the first fertilizer and <m>y</m> pounds of the second fertilizer?</li>
 </ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li>3 lbs</li>
 	<li><m>0.06x+0.60y</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol label="1" cols="2">
-    <li><p><ol label="a">
+<p><ol marker="1" cols="2">
+    <li><p><ol marker="a">
         <li>$218.40</li>
         <li><m>0.075x+0.048y</m></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
         <li>8.5 miles</li>
         <li><m>\dfrac{2}{3}x +\dfrac{1}{2}y</m></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
         <li>3.75 hours</li>
         <li><m>\dfrac{180}{x} + \dfrac{30}{y}</m></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
         <li>3 lbs</li>
         <li><m>0.06x+0.60y</m></li></ol></p></li></ol></p>
 </subsubsection>
@@ -452,7 +452,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 <subsubsection><title>Activity 1: Interest</title>
 
 <p>Jerry invested $2000, part at 4% interest and the remainder at 9%. His yearly income from the 9% investment is $37 more than his income from the 4% investment. How much did he invest at each rate?
-    <ol label="a">
+    <ol marker="a">
     <li><p>Choose variables for the unknown quantities.</p>
 
         <p>Fill in the table.</p>
@@ -485,7 +485,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 
 <subsubsection><title>Activity 2: Mixtures</title>
 
-<p>Polls conducted by Senator Quagmire's campaign manager show that he can win 60% of the rural vote in his state but only 45% of the urban vote. If 1,200,000 citizens vote, how many voters from rural areas and how many from urban areas must vote in order for the Senator to win 50% of the votes?<ol label="a">
+<p>Polls conducted by Senator Quagmire's campaign manager show that he can win 60% of the rural vote in his state but only 45% of the urban vote. If 1,200,000 citizens vote, how many voters from rural areas and how many from urban areas must vote in order for the Senator to win 50% of the votes?<ol marker="a">
 
 <li><p>Let <m>x</m> represent the number of rural voters and <m>y</m> the number of urban voters. Fill in the table.</p>
 
@@ -523,7 +523,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 
 <subsubsection><title>Activity 2: Motion</title>
 
-<p>A river steamer requires 3 hours to travel 24 miles upstream and 2 hours for the return trip downstream. Find the speed of the current and the speed of the steamer in still water.<ol label="a">
+<p>A river steamer requires 3 hours to travel 24 miles upstream and 2 hours for the return trip downstream. Find the speed of the current and the speed of the steamer in still water.<ol marker="a">
 
 <li><p>Choose variables:</p>
         <p>Speed of the steamer:</p>
@@ -563,7 +563,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol label="1">
+<p><ol marker="1">
     <li>In Activity 1, is $2000 part of the equation about the principal or the equation about the interest?</li>
     <li>In Activity 2, what did <m>x</m> and <m>y</m> represent?</li>
     <li>In Activity 3, what did <m>x+y</m> and <m>x-y</m> represent?</li></ol></p></assemblage>
@@ -573,7 +573,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 <subsection><title>Homework Preview</title>
 
 <exercises>
-<exercisegroup><introduction><p><ol label="a">
+<exercisegroup><introduction><p><ol marker="a">
     <li>State the unknown quantities in each problem.</li>
     <li>Write a system of equations for the problem.</li></ol></p></introduction>
 
@@ -588,7 +588,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
     <li><p><m>
         \begin{aligned}[t]
         x+y \amp =2000\\

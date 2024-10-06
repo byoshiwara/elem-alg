@@ -7,11 +7,11 @@
 <subsection><title>A Property of Binomial Products</title>
 <p>If the coefficients in a quadratic trinomial <m>ax^2+bx+c</m> are not prime numbers, the guess-and-check method may be time-consuming. In that case, we can use another technique that depends upon the following property of binomial products.</p>
 
-<example xml:id="Example-7-3A-1"><statement><p><ol label="a">
+<example xml:id="Example-7-3A-1"><statement><p><ol marker="a">
 	<li>Compute the product <m>(3t+2)(t+3)</m> using the area of a rectangle.</li>
 	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><p>We construct a rectangle with sides <m>3t+2</m> and <m>t+3</m>, as shown below. We see that the product of the two binomials is 
 <sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><m>3t^2+9t+2t+6=3t^2+11t+6</m></p>
 	<tabular halign="center"><col /><col width="20%"/><col  width="20%"/>
@@ -249,7 +249,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <p>Here is a summary of our factoring method.</p>
 
 <assemblage><title>To Factor <m>~ax^2+bx+c~</m> Using the Box Method</title>
-<p><ol label="1">
+<p><ol marker="1">
 	<li>Write the quadratic term <m>ax^2</m> in the upper left sub-rectangle, and the 
 	constant term <m>c</m> in the lower right.</li>
 	<li>Multiply these two terms to find the diagonal product, <m>D</m>.</li>

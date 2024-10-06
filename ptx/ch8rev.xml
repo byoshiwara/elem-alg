@@ -14,7 +14,7 @@
 <p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.
 	<me>\blert{\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}~~~\text{if}~~~b,~c \not= 0}</me></p></assemblage></li>
 
-<li><assemblage><title>To Reduce an Algebraic Fraction</title><p><ol label="1">
+<li><assemblage><title>To Reduce an Algebraic Fraction</title><p><ol marker="1">
 	<li>Factor numerator and denominator completely.</li>
 	<li>Divide numerator and denominator by any common factors.</li></ol></p></assemblage></li>
 
@@ -32,7 +32,7 @@
 	<p>If <m>~b \not= 0~</m> and <m>~d \not= 0~</m>, then
 		<me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage></li>
 
-<li><assemblage><title>To Multiply Algebraic Fractions</title><p><ol label="1">
+<li><assemblage><title>To Multiply Algebraic Fractions</title><p><ol marker="1">
 	<li>Factor each numerator and denominator completely.</li>
 	<li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
 	<li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
@@ -42,7 +42,7 @@
 <p>	If <m>b,~c,~,d \not= 0</m>,  then
 	<me>\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}</me></p></assemblage></li>
 
-<li><assemblage><title>To Divide One Fraction by Another</title><p><ol label="1">
+<li><assemblage><title>To Divide One Fraction by Another</title><p><ol marker="1">
 	<li>Take the reciprocal of the second fraction and change the division to multiplication.</li>
 	<li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage></li>
 
@@ -52,7 +52,7 @@
 <p>If <m>c \not= 0</m>,  then    
 	<me>\blert{\dfrac{a}{c}+\dfrac{b}{c}= \dfrac{a+b}{c}}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{c}-\dfrac{b}{c}= \dfrac{a-b}{c}}</me></p></assemblage></li>
 
-<li><assemblage><title>To Add or Subtract Like Fractions</title><p><ol label="1">
+<li><assemblage><title>To Add or Subtract Like Fractions</title><p><ol marker="1">
 	<li>Add or subtract the numerators.</li>
 	<li>Keep the same denominator.</li>
 	<li>Reduce the sum or difference if necessary.</li></ol></p></assemblage></li></ul></p>
@@ -63,14 +63,14 @@
 <li>To add or subtract fractions with unlike denominators, we must first convert the fractions to equivalent forms with the same denominator.</li> 
 <li>The <term>lowest common denominator</term> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator.</li> 
 
-<li><assemblage><title>To Find the LCD</title><p><ol label="1">
+<li><assemblage><title>To Find the LCD</title><p><ol marker="1">
 <li>Factor each denominator completely, and arrange the factors in order.</li>
-<li><p>For each factor,<ol label="a">
+<li><p>For each factor,<ol marker="a">
 	<li>Which denominator has the most copies of that factor? Circle them. (If there is a tie, either denominator will do.)</li>
 	<li>Include all the circled factors in the LCD.</li></ol></p></li>
 <li>Multiply together the factors of the LCD.</li></ol></p></assemblage></li>
 
-<li><assemblage><title>To Add or Subtract Algebraic Fractions</title><p><ol label="1">
+<li><assemblage><title>To Add or Subtract Algebraic Fractions</title><p><ol marker="1">
 	<li>Find the lowest common denominator (LCD) for the fractions.</li>
 	<li>Build each fraction to an equivalent one with the LCD as denominator.</li>
 	<li>Add or subtract the resulting like fractions:  Add or subtract their numerators, and keep the same denominator.</li>
@@ -86,7 +86,7 @@
 </subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol label = "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1">
 
 <li>When reducing an algebraic fraction, we should always <fillin characters="6"/> before we <fillin characters="6"/>.</li>
 <li>The fundamental principle of fractions says that we can cancel <fillin characters="6"/>, but not <fillin characters="6"/>.</li>
@@ -96,7 +96,7 @@
 <li>Why do we need to find an LCD when adding unlike fractions?</li>
 <li>Francine says that to solve an equation containing algebraic fractions, we build each fraction to an equivalent one with the LCD. Comment on Francine's method.</li>
 <li>When might you expect to encounter extraneous solutions?</li>
-<li><p>Which of the operations listed below use an LCD?<ol label="a" cols="2">
+<li><p>Which of the operations listed below use an LCD?<ol marker="a" cols="2">
 		<li>add fractions</li>	
 		<li>multiply fractions</li>	
 		<li>solve an equation with fractions</li>
@@ -108,15 +108,15 @@
 <subsection><title>Review Problems</title>
 <exercises>
 
-<exercise number="1"><statement><p><ol label="a">
+<exercise number="1"><statement><p><ol marker="a">
 	<li>Evaluate the fraction <m>~\dfrac{s^2-s}{s^2+3s-10}~~</m>for <m>~s=-2</m></li>
 	<li>For what value(s) of <m>s</m> is the fraction undefined?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><p><m>\dfrac{-1}{2} </m></p></li>
 	<li><p><m>-5</m>, <m>~2</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Ed's Diner uses a package of coffee filters every <m>x+5</m> days.<ol label="a">
+<exercise number="2"><statement><p>Ed's Diner uses a package of coffee filters every <m>x+5</m> days.<ol marker="a">
 	<li>What fraction of a package does Ed use every day?</li>
 	<li>What fraction of a package does Ed use in one week?</li></ol></p></statement></exercise>
 
@@ -143,12 +143,12 @@
 <exercise number="10"><statement><m>\dfrac{x^2+5x+6}{x^2-4}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>16, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>16, <ol marker="a">
     <li>add the fractions,</li>
     <li>multiply the fractions.</li></ol></p></introduction>
 
 <exercise number="11"><statement><m>\dfrac{3}{8},~\dfrac{5}{12}</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{19}{24} </m></p></li>
     <li><p><m>\dfrac{5}{32} </m></p></li>
 </ol></p></answer></exercise>
@@ -156,7 +156,7 @@
 <exercise number="12"><statement><m>\dfrac{2}{x},~\dfrac{1}{x+2}</m></statement></exercise>
 
 <exercise number="13"><statement><m>\dfrac{3x}{2x+2},~\dfrac{x+1}{6x}</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{10x^2+2x+1}{6x(x+1)} </m></p></li>
     <li><p><m>\dfrac{1}{4} </m></p></li>
 </ol></p></answer></exercise>
@@ -164,7 +164,7 @@
 <exercise number="14"><statement><m>\dfrac{x+1}{x-1},~\dfrac{1}{x^2-1}</m></statement></exercise>
 
 <exercise number="15"><statement><m>2,~\dfrac{1}{x}</m></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{2x+1}{x} </m></p></li>
     <li><p><m>\dfrac{2}{x} </m></p></li>
 </ol></p></answer></exercise>
@@ -190,17 +190,17 @@
 <exercise number="22"><statement><m>\dfrac{2w}{w^2-4}+\dfrac{4}{w^2+4w+4}</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="23"><statement><p>On Saturday mornings, Olive takes her motorboat 5 miles upstream to the general store for supplies and then returns home. The current in the river is 2 miles per hour. Let <m>x</m> represent Olive's speed in still water, and write algebraic fractions to answer each question.<ol label="a">
+<exercise number="23"><statement><p>On Saturday mornings, Olive takes her motorboat 5 miles upstream to the general store for supplies and then returns home. The current in the river is 2 miles per hour. Let <m>x</m> represent Olive's speed in still water, and write algebraic fractions to answer each question.<ol marker="a">
 	<li>How long does it take Olive to get to the store?</li>
 	<li>How long does the return trip take?</li>
 	<li>How long does the round trip take?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
 	<li><p><m>\dfrac{5}{x-2} </m></p></li>
 	<li><p><m>\dfrac{5}{x+2} </m></p></li>
 	<li><p><m>\dfrac{10x}{x^2-4} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p>On spring break, Johann and Sebastian both walk from the university to the next town. Johann leaves at noon and Sebastian leaves one hour later, but Sebastian walks 1 mile per hour faster. Let <m>r</m> stand for Johann's walking speed. Write polynomials to answer the following questions.<ol label="a">
+<exercise number="24"><statement><p>On spring break, Johann and Sebastian both walk from the university to the next town. Johann leaves at noon and Sebastian leaves one hour later, but Sebastian walks 1 mile per hour faster. Let <m>r</m> stand for Johann's walking speed. Write polynomials to answer the following questions.<ol marker="a">
 	<li>What is Sebastian's walking speed?</li>
 	<li>How far has Sebastian walked at 3 pm?</li>
 	<li>How far has Johann walked at 3 pm?</li>
@@ -228,7 +228,7 @@
 <exercise number="30"><statement><p><m>y=\dfrac{2x+3}{1-x}~~~~</m>for <m>~x</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 31<ndash/>32, <ol label="a">
+<exercisegroup><introduction><p>For Problems 31<ndash/>32, <ol marker="a">
 	<li>Write an equation to model the problem.</li>
 	<li>Solve your equation and answer the question posed in the problem.</li></ol></p></introduction>
 

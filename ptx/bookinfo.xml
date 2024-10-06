@@ -26,20 +26,19 @@
 
     <initialism>Elementary Algebra</initialism>
 
-      <latex-preamble>
+<!--      <latex-preamble>
         <package>cancel</package>
-      </latex-preamble>
+      </latex-preamble> -->
 
-    <!-- tikz package and libraries for images -->
     <latex-image-preamble>
         \usepackage{tikz}
         \usetikzlibrary{arrows}
         \usetikzlibrary{decorations.pathreplacing}
         \usetikzlibrary{calc,intersections,through,backgrounds}
-        <!-- end new -->
-
-
     </latex-image-preamble>
+
+<math-package latex-name="cancel" mathjax-name="cancel"/>
+<math-package latex-name="tikz" mathjax-name="tikz"/>
 
    <macros>
         \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}

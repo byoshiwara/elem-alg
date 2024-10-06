@@ -3,21 +3,21 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.4</title>
 
-<exercise number="1"><statement><p>Square each monomial.<ol label="a" cols="3">
+<exercise number="1"><statement><p>Square each monomial.<ol marker="a" cols="3">
 	<li><m>(8t^4)^2</m></li>
 	<li><m>(-12a^2)^2</m></li>
 	<li><m>(10h^2k)^2</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
+<answer><p><ol marker="a" cols="3">
     <li><p><m>64t^8</m></p></li>
     <li><p><m>144a^4</m></p></li>
     <li><p><m>100h^4k^2</m></p></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Find a monomial whose square is given.<ol label="a" cols="3">
+<exercise number="2"><statement><p>Find a monomial whose square is given.<ol marker="a" cols="3">
 	<li><m>16b^{16}</m></li>
 	<li><m>121z^{22}</m></li>
 	<li><m>36p^6q^{24}</m></li></ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>4, write the area of the square in two different ways:   <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>4, write the area of the square in two different ways:   <ol marker="a">
     <li>as the sum of four smaller areas,</li>
     <li><p>as one large square, using the formula  Area = (length)<m>^2</m>.</p></li></ol></p></introduction>
 
@@ -41,7 +41,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>x^2+8x+8x+64</m></p></li>
     <li><p><m>(x+8)^2</m></p></li></ol></p></answer></exercise>
 
@@ -255,18 +255,18 @@
 <exercise number="44"><statement><p>Explain why you can factor <m>x^2-4</m>, but you cannot factor <m>x^2+4</m>.
 </p></statement></exercise>
 
-<exercise number="45"><statement><p><ol label="a">
+<exercise number="45"><statement><p><ol marker="a">
 	<li>Expand <m>(a-b)^3</m> by multiplying.</li>
 	<li>Use your formula from part (a) to expand <m>(2x-3)^3</m></li>
 	<li>Substitute <m>a=5</m> and <m>b=2</m> to show that <m>(a-b)^3</m> is not equivalent to <m>a^3-b^3</m>.</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>a^3-3a^2b+3ab^2-b^3</m></p></li>
     <li><p><m>8x^3-36x^2+54x-27</m></p></li>
     <li><p><m>(a-b)^3=27</m>, <m>a^3-b^3=117</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="46"><statement><p><ol label="a">
+<exercise number="46"><statement><p><ol marker="a">
 	<li>Multiply <m>(a+b)(a^2-ab+b^2)</m>.</li>
 	<li>Factor <m>a^3+b^3</m></li>
 	<li>Factor <m>x^3+8</m>.</li>
