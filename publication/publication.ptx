@@ -22,7 +22,7 @@
     <html>
         <calculator model="geogebra-graphing"/>
         <index-page ref="frontmatter"/>
-        <css style="oscarlevin" colors="focused_light"/>
+        <css style="oscarlevin" colors="default"/>
 <!--       <css style="default" colors="default"/> -->
 <!--        <css style="default" colors="blue_red"/> -->
         <knowl example="no"/>
