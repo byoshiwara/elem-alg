@@ -26,10 +26,12 @@
 
     <initialism>Elementary Algebra</initialism>
 
-<!--      <latex-preamble>
+      <latex-preamble>
         <package>cancel</package>
-      </latex-preamble> -->
-
+      </latex-preamble> 
+<!--    <math-package latex-name="cancel" mathjax-name="cancel"/>
+    <math-package latex-name="tikz" mathjax-name="tikz"/> -->
+    
     <latex-image-preamble>
         \usepackage{tikz}
         \usetikzlibrary{arrows}
@@ -37,8 +39,6 @@
         \usetikzlibrary{calc,intersections,through,backgrounds}
     </latex-image-preamble>
 
-<math-package latex-name="cancel" mathjax-name="cancel"/>
-<math-package latex-name="tikz" mathjax-name="tikz"/>
 
    <macros>
         \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}

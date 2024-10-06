@@ -3,6 +3,7 @@
 <publication>
 	<common>
 		<tableofcontents level="2"/>
+        <fillin textstyle="underline" mathstyle="box"/>
 	</common>
     <numbering>
         <divisions level="2"/>
@@ -11,12 +12,12 @@
     </numbering>
     <source>
         <directories external="../ext" generated="../gen"/>
-        <fillin textstyle="underline" mathstyle="box"/>
     </source>
         
     <epub>
         <cover front="../ext/photos/cover.png"/>
     </epub>
+    <latex snapshot="yes" />
 
     <!-- HTML-Specific Options -->
     <html>
