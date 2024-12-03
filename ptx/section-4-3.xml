@@ -97,7 +97,7 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 
 <assemblage><title>To Solve a System by Substitution</title>
 <idx><h>system of equations</h><h>solve by substitution method</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Choose one of the variables in one of the equations. (It is best to choose a variable whose coefficient is 1 or <m>-1</m>.)  Solve the equation for that variable.</li>
 	<li>Substitute the result of Step 1 into the other equation. This gives an equation in one variable.</li>
 	<li>Solve the equation obtained in Step 2. This gives the solution value for one of the variables.
@@ -192,7 +192,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <assemblage><title>To Solve a System by Elimination</title>
 <idx><h>system of equations</h><h>solve by linear combinations</h></idx>
-<idx><h>system of equations</h><h>solve by elimination</h></idx><p><ol marker="1">
+<idx><h>system of equations</h><h>solve by elimination</h></idx><p><ol marker="1.">
 	<li>Write each equation in the form <m>Ax+By = C</m>.</li>
 	<li>Decide which variable to eliminate. Multiply each equation by an appropriate constant so that the coefficients of that variable are opposites.</li>
 	<li>Add the equations from Step 2 and solve for the remaining variable.</li>
@@ -204,9 +204,9 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <reading-questions>
     <exercise number="5"><statement><p>How do we eliminate a variable from a system?</p></statement>
-    	<answer><p>Add appropriate multiples of the equaitons.</p></answer></exercise>
+    	<answer><p>Add appropriate multiples of the equations.</p></answer></exercise>
     <exercise number="6"><statement><p>When is the substitution method easier than elimination?</p></statement>
-    	<answer><p>When one of the variables in one of the equations has a coefficient of <m>1</m> or <m>-1</m></p></answer></exercise>
+    	<answer><p>When one of the variables in one of the equations has a coefficient of <m>1</m> or <m>-1</m>.</p></answer></exercise>
 </reading-questions>
 </subsection>
 
@@ -218,7 +218,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
-<example xml:id="Example-4-3-6"><statement><p>Solve each system by elimination.<ol marker="a" cols="2">
+<example xml:id="Example-4-3-6"><statement><p>Solve each system by elimination.<ol marker="a." cols="2">
         <li><p><m>\begin{aligned}[t]
             3x-y=2\\
                 -6x+2y=3\end{aligned}</m></p></li>
@@ -226,7 +226,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
             x-2y=3\\
             2x-4y=6\end{aligned}</m></p></li></ol></p></statement> 
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><sidebyside widths="57% 30%" valigns="middle middle" margins="0% 0%">
          <p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:   
          <md><mrow> 6x-2y \amp = 4 </mrow>
@@ -283,7 +283,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <idx><h>inconsistent system of equations</h></idx>
 <idx><h>system of equations</h><h>dependent</h></idx>
 <idx><h>dependent system of equations</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>If combining the two equations results in an equation of the form
 		<me>0x+0y=k~~~~(k \not= 0)</me>
 	then the system is inconsistent.</li>
@@ -322,7 +322,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="2">
+<p><ol marker="1." cols="2">
     <li><m>14x-5</m></li>
     <li><m>-3x-17</m></li>
     <li><m>3x-9</m></li>
@@ -346,7 +346,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
     <md><mrow>3y-2x \amp = 3</mrow>
         <mrow>x-2y \amp = -2</mrow></md>
 
-<ol marker="1">
+<ol marker="1.">
     <li><m>\blert{\text{Solve the second equation for}~x~\text{in terms of}~y.}</m></li>
     <li><m>\blert{\text{Substitute your expression for}~x~\text{into the first equation.}}</m></li>
     <li><m>\blert{\text{Solve the equation you got in Step 2.}}</m></li>
@@ -364,7 +364,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <p>For this problem, we will eliminate the <m>x</m>-terms, so we arrange for their coefficients to be opposites.
 
-<ol marker="1">
+<ol marker="1.">
     <li><m>\blert{\text{Multiply each term of the first equation by}~-2.}</m></li>
     <li><m>\blert{\text{Add the new equations and solve the result for}~y.}</m></li>
     <li><m>\blert{\text{Substitute your value for}~y~\text{into the first equation and solve for}~x.}</m></li>
@@ -377,7 +377,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <p>For this problem, we will eliminate the <m>y</m>-terms.
 
-<ol marker="1">
+<ol marker="1.">
     <li><m>\blert{\text{Write each equation in the form}~Ax+By=C.}</m></li>
     <li><m>\blert{\text{Find rhe LCM of the}~y~\text{-coefficients. Multiply each equation by an appropriate constant.}}</m></li>
     <li><m>\blert{\text{Add the new equations and solve the result for}~x.}</m></li>
@@ -385,7 +385,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
     <li><m>\blert{\text{Verify that your solution values satisfy both equations in the system.}}</m></li>
 </ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li><p>Solve the system by elimination:
         <md><mrow>x+3y \amp = 6</mrow>
             <mrow>2x-12 \amp = -6y</mrow></md></p></li>
@@ -396,7 +396,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <subsubsection><title>Activity 3: Applications</title>
 
 <exercises>
-<exercise><statement><p>A train ticket from Camarillo to San Diego costs $31 in coach and $47 for business class. On Tuesday, there were 42 passengers on the morning train, and Amtrak took in $1494 in fares. How many coach passengers took the morning train, and how many business class passengers?<ol marker="a">
+<exercise><statement><p>A train ticket from Camarillo to San Diego costs $31 in coach and $47 for business class. On Tuesday, there were 42 passengers on the morning train, and Amtrak took in $1494 in fares. How many coach passengers took the morning train, and how many business class passengers?<ol marker="a.">
     <li><p>Choose variables:
         <md><mrow>x = </mrow>
             <mrow>y = </mrow></md></p></li>
@@ -425,7 +425,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
     <li><p>Solve your system.</p>
         <p>Write your answer in a sentence.</p></li></ol></p></statement></exercise>
 
-<exercise><statement><p>The perimeter of a rectangular playground is 197 yards, and its length is 5 yards less than twice its width. Find the dimensions of the playground.<ol marker="a">
+<exercise><statement><p>The perimeter of a rectangular playground is 197 yards, and its length is 5 yards less than twice its width. Find the dimensions of the playground.<ol marker="a.">
     <li><p>Choose variables:
         <md><mrow>x = </mrow>
             <mrow>y = </mrow></md></p></li>
@@ -449,7 +449,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1, Problem 2, why did we choose to solve the second equation for <m>x</m> in terms of <m>y</m>?</li>
     <li>In Activity 2, Problem 1, why did we multiply the first equation by <m>-2</m>?</li>
     <li>In Activity 2, Problem 2, what was the LCM of the <m>y</m>-coefficients?</li>
@@ -477,7 +477,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
         <mrow>2y+1 \amp = \dfrac{3}{2}x</mrow></md></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
     <li><m>(1,-2)</m></li>
     <li><m>(-3,-1)</m></li>
     <li><m>(3,-5)</m></li>

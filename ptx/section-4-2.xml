@@ -249,7 +249,7 @@ The second equation is the same as the first equation. A system in which the two
 <idx><h>system of equations</h><h>consistent and independent</h></idx>
 <idx><h>consistent system of equations</h></idx>
 <idx><h>independent system of equations</h></idx>
-  <p><ol marker="1">
+  <p><ol marker="1.">
 	<li><term>Consistent and independent system.</term> The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</li>  
 	<li><term>Inconsistent system.</term> The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</li>
 	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li></ol></p></assemblage>
@@ -340,7 +340,7 @@ Their graphs are shown below. </p>
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="2">
+<p><ol marker="1." cols="2">
     <li><m>0.12(d+50)</m></li>
     <li><m>0.35(8-z)</m></li>
     <li><m>2(r+3)</m></li>
@@ -359,7 +359,7 @@ Their graphs are shown below. </p>
 <p>From her two best pictures, she obtains the following information. <ul>
     <li>The total weight of three thrushes and six robins is 48 ounces, and</li>
     <li>The total weight of five thrushes and two robins is 32 ounces.</li></ul></p> 
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Begin by assigning variables to the two unknown quantities:
         <md><mrow>\blert{\text{Average weight of a thrush:}~~t}</mrow>
             <mrow>\blert{\text{Average weight of a robin:}~~r}</mrow></md></p>
@@ -417,7 +417,7 @@ Their graphs are shown below. </p>
 
 <p>The manager for Books for Cooks plans to spend $300 stocking a new diet cookbook. The paperback version costs her $5, and the hardback costs $10. She finds that she will sell three times as many paperbacks as hardbacks. How many of each should she buy?</p>
 <p>Let <m>x</m> represent the number of hardbacks and <m>y</m> the number of paperbacks she should buy.</p>
-<sidebyside widths="55% 40%"><p><ol marker="a">
+<sidebyside widths="55% 40%"><p><ol marker="a.">
     <li>Write an equation about the cost of the books.</li>
     <li>Write a second equation about the number of each type of book.</li>
     <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
@@ -449,7 +449,7 @@ Their graphs are shown below. </p>
 <p>Robert and Ruth are moving from Los Angeles to Baltimore. Robert is driving a rental truck at an average speed of 50 miles per hour. Ruth leaves one day later in their car, and averages 65 miles per hour. When Ruth set out, Robert had already traveled 300 miles. When will Ruth catch up with Robert?</p>
 
 <exercises>
-<exercise><statement><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.<ol marker="a">  
+<exercise><statement><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.<ol marker="a.">  
     <li>Ruth travels at 65 miles per hour, so an equation for the distance she has traveled is
         <me>\blert{\text{Ruth's distance:}}~~~d = </me></li>                              
     <li>Robert's speed is 50 miles per hour, but he has already traveled 300 miles when Ruth starts, so his distance is given by
@@ -457,7 +457,7 @@ Their graphs are shown below. </p>
     <li>Together, the two equations form a system:</li></ol></p></statement></exercise>
 
 <exercise><statement><p>Next, we graph both equations on the same axes.</p>
-    <sidebyside widths="50% 40%" margins="0% 0%"><p><ol marker="a">
+    <sidebyside widths="50% 40%" margins="0% 0%"><p><ol marker="a.">
     <li><p>To graph the equation for Ruth's distance, plot a few points.</p><p></p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row>
@@ -497,13 +497,13 @@ Their graphs are shown below. </p>
     </image>
     </sidebyside></statement></exercise>
 
-<exercise><statement><p>Finally, we interpret the solution.<ol marker="a">
+<exercise><statement><p>Finally, we interpret the solution.<ol marker="a.">
     <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
     <li>What does the <m>d</m>-coordinate of the point tell you?</li>
     <li>Verify that the intersection point is a solution of both equations in the system.</li></ol></p></statement>
 </exercise>
 
-<exercise><statement><sidebyside  widths="50% 35%" margins="0% 0%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol marker="a">  
+<exercise><statement><sidebyside  widths="50% 35%" margins="0% 0%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol marker="a.">  
     <li><p>Write a system of equations for this problem:</p>        
         <p>Robert:  <m>~~~d=</m></p>       
         <p>Ruth:    <m>~~~~d=</m></p></li>                                      
@@ -511,7 +511,7 @@ Their graphs are shown below. </p>
     <li>What is the solution of this system? What is this type of system called?</li></ol></p>
     <image source="photos/act-4-2-3"><description>graph</description></image></sidebyside></statement></exercise>
 
-<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle"><p><ol marker="a">
+<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle"><p><ol marker="a.">
     <li><p>Graph the system of equations.
         <md><mrow>3x \amp = 2y+6</mrow>
             <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
@@ -552,7 +552,7 @@ Their graphs are shown below. </p>
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1, how far has Robert traveled at <m>t=0</m>?</li>
     <li>In Activity 2, Problem 1, explain why it makes sense that the system has no solution.</li>
     <li>In Activity 3, which equation is correct: <m>x=3y</m> or  <m>y=3x</m>?  Why?</li>
@@ -583,7 +583,7 @@ Hint:  Graph the first equation by the slope-intercept method, and the second eq
         <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
     <li>No</li>
     <li><m>(3,-2)</m></li>
     <li><p><m>

@@ -10,7 +10,7 @@
 <li>An exponent on a variable indicates repeated multiplication, while a coefficient in front of a variable indicates repeated addition.</li>  
 <li>An exponent applies only to its base, and not to any other factors in the product. If we want an exponent to apply to more than one factor, we must enclose those factors in parentheses.</li>
 
-<li><assemblage><title>Order of Operations</title><p><ol marker= "1">
+<li><assemblage><title>Order of Operations</title><p><ol marker= "1.">
 <li>Perform any operations inside parentheses, or above or below a fraction bar.</li>
 <li>Compute all indicated powers.</li>
 <li>Perform all multiplications and divisions in the order in which they occur from left to right.</li>
@@ -33,13 +33,13 @@
 <li>A <term>rational number</term> is one that can be expressed as a quotient (or ratio) of two integers, where the denominator is not zero.</li>
 
 <li><assemblage><title>Decimal Form of a Rational Number</title>
-<p>The decimal representation of a rational number has one of two forms.<ol marker="1">
+<p>The decimal representation of a rational number has one of two forms.<ol marker="1.">
 	<li>The decimal representation terminates, or ends.</li>  	
 	<li>The decimal representation repeats a pattern.</li></ol></p></assemblage></li>
 
 <li>The rational and irrational numbers together make up the <term>real numbers</term>, and the number line is sometimes called the <term>real line</term>.</li>
 
-<li><assemblage><title>Order of Operations</title><p><ol marker= "1">
+<li><assemblage><title>Order of Operations</title><p><ol marker= "1.">
 <li>Perform any operations inside parentheses, or above or below a fraction bar.</li>
 <li>Compute all indicated powers and roots.</li>
 <li>Perform all multiplications and divisions in the order in which they occur from left to right.</li>
@@ -65,7 +65,7 @@
 <li>When we add like terms, we do not change the variable in the terms; we combine the coefficients.  When we multiply expressions, we multiply the coefficients and we multiply the variables.</li>
 <li>An algebraic expression with only one term is called a <term>monomial</term>.  An expression with two terms is called a <term>binomial</term>, and an expression with three terms is a <term>trinomial</term>. The expression <m>ax^2+bx+c</m> is thus called a <term>quadratic trinomial</term>.</li>
 
-<li><p>We use the distributive law to expand the product of two binomials. The letters  <m>\blert{\text{F,  O,  I,  L}}</m>  indicate the four steps in computing the product:<ol marker="1">
+<li><p>We use the distributive law to expand the product of two binomials. The letters  <m>\blert{\text{F,  O,  I,  L}}</m>  indicate the four steps in computing the product:<ol marker="1.">
 	<li><m>\blert{\text{F}}</m>	stands for the product of the <m>\blert{\text{First}}</m> terms in each binomial.</li>
 	<li><m>\blert{\text{O}}</m> stands for the product of the <m>\blert{\text{Outer}}</m> terms.</li>
 	<li><m>\blert{\text{I}}</m> stands for the product of the <m>\blert{\text{Inner}}</m> terms.</li>
@@ -73,7 +73,7 @@
 </subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol marker= "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1.">
 <li>Explain the difference between <m>-3^2</m> and <m>(-3)^2</m>.</li>
 <li>If <m>s^2=17</m>, then <m>s</m> is called a <fillin characters="6"/> of 17.</li>
 <li>If <m>s^3=17</m>, then <m>s</m> is called a <fillin characters="6"/> of 17.</li>
@@ -95,52 +95,52 @@
 <exercises>
 <exercisegroup ><introduction><p>For Problems 1<ndash/>6, simplify.</p></introduction>
 
-<exercise number="1"><statement><p><ol marker="a" cols="2">
+<exercise number="1"><statement><p><ol marker="a." cols="2">
 	<li><m>3(-7)^2</m></li>
 	<li><m>3^2(-7^2)</m></li>
 	<li><m>3^2-7^2</m></li>
 	<li><m>(3-7)^2</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>147</m></li>
 	<li><m>-441</m></li>
 	<li><m>-40</m></li>
 	<li><m>16</m></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol marker="a" cols="2">
+<exercise number="2"><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt{13^2-5^2}</m></li>
 	<li><m>\sqrt{13^2}-\sqrt{5^2}</m></li>
 	<li><m>\sqrt{13^2}\sqrt{5^2}</m></li>
 	<li><m>\sqrt{(13-5)^2}</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a" cols="2">
+<exercise number="3"><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt{(\dfrac{4}{5})^2+(\dfrac{3}{5})^2}</m></li>
 	<li><m>\sqrt{(\dfrac{4}{5})^2}+\sqrt{(\dfrac{3}{5})^2}</m></li>
 	<li><m>\sqrt{(\dfrac{4}{5})^2}\sqrt{(\dfrac{3}{5})^2}</m></li>
 	<li><m>\sqrt{(\dfrac{4}{5}+\dfrac{3}{5})^2}</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>1</m></li>
 	<li><m>\dfrac{7}{5}</m></li>
 	<li><m>\dfrac{12}{25}</m></li>
 	<li><m>\dfrac{7}{5}</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a" cols="2">
+<exercise number="4"><statement><p><ol marker="a." cols="2">
 	<li><m>2-\sqrt[3]{64}</m></li>
 	<li><m>2\sqrt[3]{-64}</m></li>
 	<li><m>(\sqrt[3]{101})^3</m></li>
 	<li><m>\sqrt[3]{7} \cdot \sqrt[3]{7} \cdot \sqrt[3]{7} </m></li></ol></p></statement></exercise>
 
-<exercise number="5"><statement><p><ol marker="a" cols="2">
+<exercise number="5"><statement><p><ol marker="a." cols="2">
 	<li><m>(\sqrt[3]{8})^2</m></li>
 	<li><m>\sqrt[3]{8^2}</m></li>
 	<li><m>(\sqrt{9})^3</m></li>
 	<li><m>\sqrt{9^3}</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>4</m></li>
 	<li><m>4</m></li>
 	<li><m>27</m></li>
 	<li><m>27</m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol marker="a" cols="2">
+<exercise number="6"><statement><p><ol marker="a." cols="2">
 	<li><m>(\sqrt{3x})(\sqrt{3x})</m></li>
 	<li><m>3\sqrt{x}(3\sqrt{x})</m></li>
 	<li><m>(5\sqrt{a})^2</m></li>
@@ -148,18 +148,18 @@
 </exercisegroup>
 
 <exercisegroup ><introduction><p>For Problems 7<ndash/>8, identify each number as rational, irrational or undefined.</p></introduction>
-<exercise number="7"><statement><p><ol marker="a" cols="2">
+<exercise number="7"><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt[3]{-5}</m></li>
 	<li><m>\sqrt{-5^2}</m></li>
 	<li><m>\sqrt{(-5)^2}</m></li>
 	<li><m>(\sqrt[3]{-5})^2</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li>irrational</li>
 	<li>undefined</li>
 	<li>rational</li>
 	<li>irrational</li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol marker="a" cols="2">
+<exercise number="8"><statement><p><ol marker="a." cols="2">
 	<li><m>-3.1\overline{6}</m></li>
 	<li><m>-3.16</m></li>
 	<li><m>-\sqrt{10}</m></li>
@@ -168,14 +168,14 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>10,  decide whether each number is rational or irrational.  Then find a decimal form for each number. If it is irrational, round to hundredths.</p></introduction>
 
-<exercise number="9"><statement><p><ol marker="a" >
+<exercise number="9"><statement><p><ol marker="a." >
 	<li><m>\sqrt{300}</m></li>
 	<li><m>5+\sqrt[3]{15}</m></li></ol></p></statement>
-<answer><p><ol marker="a" >
+<answer><p><ol marker="a." >
 	<li><p>irrational, <m>17.32</m></p></li>
 	<li><p>irrational, <m>7.47</m></p></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol marker="a" >
+<exercise number="10"><statement><p><ol marker="a." >
 	<li><m>\sqrt[3]{512}</m></li>
 	<li><m>\dfrac{7}{\sqrt{81}}</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -204,58 +204,58 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>26, evaluate the expression for the given values of the variables.  Round to three decimal places any answers which are irrational numbers.</p></introduction>
 
-<exercise number="17"><statement><p><m>a=3</m><ol marker="a">
+<exercise number="17"><statement><p><m>a=3</m><ol marker="a.">
 	<li><m>5-a^2</m></li>
 	<li><m>(5-a)^2</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>-4</m></li>
 	<li><m>4</m></li></ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><m>a=-3</m><ol marker="a">
+<exercise number="18"><statement><p><m>a=-3</m><ol marker="a.">
 	<li><m>5-a^2</m></li>
 	<li><m>(5-a)^2</m></li></ol></p></statement></exercise>
 
-<exercise number="19"><statement><p><m>w=-2</m><ol marker="a">
+<exercise number="19"><statement><p><m>w=-2</m><ol marker="a.">
 	<li><m>-w^2</m></li>
 	<li><m>(-w)^2</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>-4</m></li>
 	<li><m>4</m></li></ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><m>w=-2</m><ol marker="a">
+<exercise number="20"><statement><p><m>w=-2</m><ol marker="a.">
 	<li><m>\sqrt{-w}</m></li>
 	<li><m>\sqrt[3]{-w}</m></li></ol></p></statement></exercise>
 
-<exercise number="21"><statement><p><m>x=-4</m><ol marker="a">
+<exercise number="21"><statement><p><m>x=-4</m><ol marker="a.">
 	<li><m>3-x^2</m></li>
 	<li><m>3(-x)^2</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>-13</m></li>
 	<li><m>48</m></li></ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><m>a=6,~b=-2</m><ol marker="a">
+<exercise number="22"><statement><p><m>a=6,~b=-2</m><ol marker="a.">
 	<li><m>\dfrac{3b^3}{6}-\dfrac{4-a^2}{8}</m></li>
 	<li><m>\dfrac{(a-b)^2}{ab^2}</m></li></ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><m>x=13,~y=-5</m><ol marker="a">
+<exercise number="23"><statement><p><m>x=13,~y=-5</m><ol marker="a.">
 	<li><m>\sqrt{x^2-y^2}</m></li>
 	<li><m>(\sqrt{x}^2)+(\sqrt{-y}^2)</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>12</m></li>
 	<li><m>18</m></li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><m>a=2,~b=-3,~c=1</m><ol marker="a">
+<exercise number="24"><statement><p><m>a=2,~b=-3,~c=1</m><ol marker="a.">
 	<li><m>\sqrt{b^2-4ac}</m></li>
 	<li><m>\dfrac{-b+\sqrt{b^2-4ac}}{2a}</m></li></ol></p></statement></exercise>
 
-<exercise number="25"><statement><p><m>x=3,~y=4,~z=5</m><ol marker="a">
+<exercise number="25"><statement><p><m>x=3,~y=4,~z=5</m><ol marker="a.">
 	<li><m>\sqrt[3]{x^3+y^3+z^3}</m></li>
 	<li><m>\sqrt[3]{x^3}+\sqrt[3]{y^3}+\sqrt[3]{z^3}</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>6</m></li>
 	<li><m>12</m></li></ol></p></answer></exercise>
 
-<exercise number="26"><statement><p><m>m=3,~n=2</m><ol marker="a">
+<exercise number="26"><statement><p><m>m=3,~n=2</m><ol marker="a.">
 	<li><m>m^3+n^3</m></li>
 	<li><m>(m+n)(m^2-mn+n^2)</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -265,13 +265,13 @@
 
 <exercise number="28"><statement><p>Find the cube root of <m>27^2</m> without using a calculator.</p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>32, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>32, <ol marker="a.">
     <li>Find the unknown side or sides for the right triangle.</li>
     <li>Find the perimeter of the triangle.</li>
     <li>Find the area of the triangle.</li></ol></p></introduction>
 
 <exercise number="29"><statement><sidebyside width="27%"><image source="photos/cr5-29"><description>triangle</description></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>17</m></li>
     <li><m>40</m></li>
     <li><m>60</m></li></ol></p></answer></exercise>
@@ -279,7 +279,7 @@
 <exercise number="30"><statement><sidebyside width="40%"><image source="photos/cr5-30"><description>triangle</description></image></sidebyside></statement></exercise>
 
 <exercise number="31"><statement><sidebyside width="35%"><image source="photos/cr5-31"><description>triangle</description></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>1</m></li>
     <li><m>3+\sqrt{3}</m></li>
     <li><m>\dfrac{\sqrt{3}}{2}</m></li></ol></p></answer></exercise>
@@ -331,14 +331,14 @@
 
 <exercise number="44"><statement><p>Rani kayaks due west for 2500 meters, then due south for another 1000 meters. If she now kayaks directly back to her starting point, how long is her total trip?</p></statement></exercise>
 
-<exercise number="45"><statement><p><ol marker="a">
+<exercise number="45"><statement><p><ol marker="a.">
 	<li>The volume of a spherical communications satellite is 65.45 cubic feet. What is the radius of the satellite?</li>
 	<li>What is the surface area of the satellite in part (a)?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li>2.5 ft</li>
 	<li>78.54 sq ft</li></ol></p></answer></exercise>
 
-<exercise number="46"><statement><p><ol marker="a">
+<exercise number="46"><statement><p><ol marker="a.">
 	<li>Francine's coffee cup is shaped like a cylinder 10 centimeters tall with a radius of 3.36 centimeters. What is its volume in cubic centimeters?</li>
 	<li>One fluid ounce is about 29.56 cubic centimeters. Find the volume of Francine's coffee cup in ounces, rounded to the nearest ounce.</li>
 	<li>Delbert's coffee cup is also 10 centimeters tall, but its volume is 24 fluid ounces. What is its radius?</li></ol>
@@ -371,16 +371,16 @@
 
 <exercisegroup><introduction><p>For Problems 55<ndash/>56, simplify if possible.</p></introduction>
 
-<exercise number="55"><statement><p><ol marker="a" cols="3">
+<exercise number="55"><statement><p><ol marker="a." cols="3">
 	<li><m>6t^2-8t^2</m></li>
 	<li><m>6t-8t^2</m></li>
 	<li><m>6t(-8t^2)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
 	<li><m>-2t^2</m></li>
 	<li>cannot be simplified</li>
 	<li><m>-48t^3</m></li></ol></p></answer></exercise>
 
-<exercise number="56"><statement><p><ol marker="a" cols="3">
+<exercise number="56"><statement><p><ol marker="a." cols="3">
 	<li><m>w^2+w^2</m></li>
 	<li><m>-w-w</m></li>
 	<li><m>w^2-w</m></li></ol></p></statement></exercise>
@@ -408,12 +408,12 @@
 <exercise number="62"><statement><p><m>5b(6+?)=30b-35b^2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 63<ndash/>64, write the area of the rectangle in two different ways:	<ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 63<ndash/>64, write the area of the rectangle in two different ways:	<ol marker="a.">
 	<li>as the sum of four smaller areas,</li>
 	<li>as one large rectangle, using the formula  Area <m>=</m> length <m>\times</m> width.</li></ol></p></introduction>
 
 <exercise number="63"><statement><sidebyside width="45%"><image source="photos/cr5-63"><description>rectangle</description></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>5x^2-2x+5x-2</m></li>
 	<li><m>(x+1)(5x-2)</m></li></ol></p></answer></exercise>
 

@@ -26,10 +26,10 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <idx><h>algebraic expression</h><h>evaluating</h></idx>
 <p>When we evaluate an algebraic expression, we must follow the order of operations.</p>
 
-<example xml:id="Example-2-2-2"><statement><p>Four students bought concert tickets with their $20 student-discount coupons.<ol marker="a">
+<example xml:id="Example-2-2-2"><statement><p>Four students bought concert tickets with their $20 student-discount coupons.<ol marker="a.">
 	<li>If the regular price of a ticket is <m>t</m> dollars, write an expression for the total amount the four students paid.</li>
 	<li>How much did the students pay if the regular price of a ticket is $38?</li></ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>The discount price of one ticket is <m>t-20</m> dollars. So four tickets cost 
 		<me>4(t-20)~~\text{dollars}</me></p></li>
 	<li><p>We evaluate the expression in part (a) for <m>t=\alert{38}</m>.        
@@ -67,12 +67,12 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 
 <warning><p>When using negative numbers, we must be careful to distinguish between products and sums.  In <xref ref="Example-2-2-4" text="type-global"/>, note how the parentheses and minus signs are used in each expression.</p></warning>
 
-<example xml:id="Example-2-2-4"><statement><p>Simplify each expression.<ol marker="a" cols="4">
+<example xml:id="Example-2-2-4"><statement><p>Simplify each expression.<ol marker="a." cols="4">
 	<li><m>3(-8)</m></li>
 	<li><m>3-(-8)</m></li>
 	<li><m>3-8</m></li>
 	<li><m>-3-8</m></li></ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>This expression is a product: <m>~3(-8)=-24</m></p></li> 
 	<li><p>This is a subtraction. We follow the rule for subtraction by changing the sign of the second number and then adding: <m>~3-(-8)=3+8=11</m></p></li> 
 	<li><p>This is an addition; the negative sign in front of  tells us that we are adding <m>-8</m> to <m>3</m>. Thus, <m>~3-8=3+(-8)=-5</m></p></li> 
@@ -123,7 +123,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="3">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1." cols="3">
     <li><m>12n</m></li>
     <li><m>n+12</m></li>
     <li><m>12-n</m></li>
@@ -140,19 +140,19 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 
 <exercisegroup><introduction><p>Follow the order of operations to simplify each expression.</p></introduction>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
     <li><m>5-(+7)-3-(-2)</m></li>
     <li><m>-4-(-9)-3-8</m></li>
     <li><m>7(-3)-2(-5)</m></li>
     <li><m>9-4(-6)</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
     <li><m>-6(-2)(-5)</m></li>
     <li><m>-6(-2)-5</m></li>
     <li><m>-6(-2-5)</m></li>
     <li><m>-6-(2-5)</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
     <li><m>[-5-8]-[7-10-4]</m></li>
     <li><m>-6+[(4-8)-(-9)]</m></li>
     <li><m>28-3(-12-2 \cdot 4)</m></li>
@@ -165,7 +165,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <exercises>
 
 <exercise><statement><p>Neda decides to order some photo albums as gifts. Each album costs $12, and the total shipping cost is $4. Neda would like an algebraic expression that describes the total cost of ordering <m>a</m> albums.
-<ol marker="a">
+<ol marker="a.">
     <li><p><m>\blert{\text{Consider some specific values for the variable:}}</m></p>  
         <p>What is Neda's bill if she orders 3 albums?  If she orders 5 albums?</p>
         <p>For <m>\alert{3}</m> albums, the bill is:
@@ -178,12 +178,12 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
         <p>Let <m>B</m> stand for Neda's bill, and write an equation that gives Neda's bill, <m>B</m>, 
         in terms of the number of albums she orders, <m>a</m>:</p></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Megan would like to buy a kayak on sale. She calculates that the kayak she wants costs $40 less than three weeks' salary. <ol marker="a"> 
+<exercise><statement><p>Megan would like to buy a kayak on sale. She calculates that the kayak she wants costs $40 less than three weeks' salary. <ol marker="a."> 
     <li>Write an expression for the price of the kayak if Megan makes $280 per week.</li>                            
     <li>If Megan makes <m>w</m> dollars per week, write an expression for the price of the kayak.</li></ol></p>
 </statement></exercise>
 
-<exercise><statement><p>Emily bought five rose bushes for her garden. Each rose bush cost $9 plus tax. <ol marker="a">
+<exercise><statement><p>Emily bought five rose bushes for her garden. Each rose bush cost $9 plus tax. <ol marker="a.">
     <li>Write an expression for the total amount Emily paid if the tax on one rose bush is $0.45.</li> 
     <li>If the tax on one rose bush is <m>t</m>, write an expression for the total amount Emily paid.</li></ol></p>
 </statement></exercise>
@@ -195,7 +195,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 
 <exercise><statement><p>When a company purchases a piece of equipment such as a computer or a copy machine, the value of the equipment depreciates over time. One way to calculate the value of the equipment uses the formula
     <me>V=C\left(1-\dfrac{t}{n}\right)</me>
-where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of years since it was purchased, and <m>n</m> stands for the useful lifetime of the equipment in years. Find the value of a 4-year-old copy machine if it has a useful lifetime of 6 years and cost $3000 when new. <ol marker="a">
+where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of years since it was purchased, and <m>n</m> stands for the useful lifetime of the equipment in years. Find the value of a 4-year-old copy machine if it has a useful lifetime of 6 years and cost $3000 when new. <ol marker="a.">
     <li>List the values of the variables:
         <me>C=<fillin characters="6"/>,~~~t=<fillin characters="6"/>,~~~n=<fillin characters="6"/></me></li>              
     <li>Substitute the values into the formula.</li>
@@ -223,7 +223,7 @@ where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of 
     <li>Evaluating algebraic expressions at signed numbers</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>Explain what is wrong with this calculation:
         <me>9-4(-6) = 5 (-6) = -30</me></p></li>  
     <li>For "5 dollars less than the price of 3 shirts," Delbert writes <m>5-3s</m>. What is wrong with his expression?</li>
@@ -255,7 +255,7 @@ where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of 
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="3">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
     <li><m>600-20t</m></li>
     <li><m>0.15(p-50)</m></li>
     <li><m>\dfrac{1}{3}lwh</m></li>

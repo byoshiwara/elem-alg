@@ -21,11 +21,11 @@ This is the same connection we saw between the <m>x</m>-intercepts of a line and
 we set <m>y=0</m> and solve the equation
 	<me>ax^2+bx+c=0</me></p></assemblage>
 
-<example xml:id="Example-6-4-1"><statement><p><ol marker="a">
+<example xml:id="Example-6-4-1"><statement><p><ol marker="a.">
 	<li>Find the  intercepts of the graph of <m>y=4x-x^2</m>.</li>
 	<li>Sketch the graph.</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>We set <m>y=0</m> and solve the equation
 			<md><mrow>4x-x^2 \amp =0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
 				<mrow>x(4-x) \amp =0 \amp \amp \blert{\text{Set each factor equal to 0.}}</mrow>
@@ -138,7 +138,7 @@ The coordinates of the vertex are <m>(2,4)</m>, as you can see in the graph abov
 <assemblage><title>The Vertex of a Parabola</title>
 <idx><h>vertex of a parabola</h></idx>
 <idx><h>parabola</h><h>vertex</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts.</li>
 	<li>To find the <m>y</m>-coordinate of the vertex, substitute its <m>x</m>-coordinate into 
 	the equation of the parabola.</li></ol></p></assemblage>
@@ -182,7 +182,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <assemblage><title>To Graph a Quadratic Equation</title>
 <idx><h>quadratic equation</h><h>graphing</h></idx>
 <idx><h>parabola</h><h>graphing</h></idx>
-<p><ol marker="1">  
+<p><ol marker="1.">  
 	<li>Find the <m>x</m>-intercepts:  set <m>y=0</m> and solve for <m>x</m>.</li>
 	<li>Find the vertex:  the <m>x</m>-coordinate is the average of the <m>x</m>-intercepts.  
 	Find the <m>y</m>-coordinate by substituting the <m>x</m>-coordinate into the 
@@ -194,7 +194,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 
 <subsection><title>Skills Warm-Up</title>
 <exercises>
-<exercisegroup cols="2"><introduction><p><ol marker="a">
+<exercisegroup cols="2"><introduction><p><ol marker="a.">
 	<li>Solve the equation.</li>
 	<li>Write the equation in the form  <m>ax+b=0</m>.</li>
 	<li>Graph the equation  <m>y=ax+b</m>.</li>
@@ -286,7 +286,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1." cols="2">
 	<li><m>x=3</m></li>
 	<li><m>x=-4</m></li>
 	<li><m>x=20</m></li>
@@ -297,7 +297,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 
 <subsubsection><title>Activity 1: Parabolas</title>
 <exercises>
-<exercisegroup><introduction><p><ol marker="a">
+<exercisegroup><introduction><p><ol marker="a.">
 	<li>Complete the table of values and graph each quadratic equation.</li>  
 	<li>Find the <m>x</m>-intercepts and the vertex of each graph.</li></ol></p></introduction>
 
@@ -450,7 +450,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <exercises>
 
 <exercise><statement><sidebyside widths="50% 35%">
-	<p><ol marker="a">
+	<p><ol marker="a.">
 	<li><p>Find the <m>x</m>-intercepts of the graph of
 		<me>y=2x^2+8x</me></p></li>
 	<li>Find the vertex of the graph.</li>
@@ -481,7 +481,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 </sidebyside></statement></exercise>
 
 <exercise><statement><sidebyside widths="50% 35%">
-	<p><ol marker="a">
+	<p><ol marker="a.">
 	<li><p>Find the <m>x</m>-intercepts of the graph of
 		<me>y=2x^2+8x</me>
 		Hint: Factor out <m>-1</m> from the quadratic trinomial first.</p></li>
@@ -525,7 +525,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li>Sketching the graph of a quadratic equation</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1, Problems 1 and 2, how are the graphs different from the basic parabola?</li>
 	<li>In Activity 2, Problem 2, how does the <m>-1</m> coefficient of <m>x^2</m> affect the graph?</li>
 	<li>In Activity 2, Problem 2, does factoring  from the equation affect the <m>x</m>-intercepts of the graph?</li>    
@@ -535,7 +535,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 
 <subsection><title>Homework Preview</title>
 <exercises>
-<exercisegroup cols="2"><introduction><p><ol marker="a">
+<exercisegroup cols="2"><introduction><p><ol marker="a.">
 	<li>Find the <m>x</m>-intercepts of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>
 	<li>Find the vertex of the graph.</li></ol></p></introduction>
@@ -551,20 +551,20 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol marker= "1">
-	<li><p><ol marker="a" cols="3">
+<p><ol marker= "1.">
+	<li><p><ol marker="a." cols="3">
 		<li><m>(4,0),~(-4,0)</m></li>
 		<li><m>(0,-16)</m></li>
 		<li><m>(0,-16)</m></li></ol></p></li>
-	<li><p><ol marker="a" cols="3">
+	<li><p><ol marker="a." cols="3">
 		<li><m>(-8,0),~(0,0)</m></li>
 		<li><m>(0,0)</m></li>
 		<li><m>(-4,-32)</m></li></ol></p></li>
-	<li><p><ol marker="a" cols="3">
+	<li><p><ol marker="a." cols="3">
 		<li><m>(2,0),~(8,0)</m></li>
 		<li><m>(0,16)</m></li>
 		<li><m>(5,-9)</m></li></ol></p></li>
-	<li><p><ol marker="a" cols="3">
+	<li><p><ol marker="a." cols="3">
 		<li><m>(-2,0),~(8,0)</m></li>
 		<li><m>(0,16)</m></li>
 		<li><m>(3.25)</m></li></ol></p></li></ol></p></subsubsection>

@@ -52,7 +52,7 @@ If we want to refer to both square roots, we use the symbol <m>\pm</m>,  read "p
 	<me>\pm \sqrt{36}=\pm 6,~~~~\text{which means}~~~~6~~\text{or}~~ {-6}</me>	
 Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 
-<example><statement><p> Find each square root.<ol marker="a" cols="2">
+<example><statement><p> Find each square root.<ol marker="a." cols="2">
 	<li><m>-\sqrt{81} = -9</m></li>
 	<li><m>\pm \sqrt{\dfrac{64}{121}} = \pm \dfrac{8}{11}</m></li></ol></p></statement></example>
 
@@ -96,15 +96,15 @@ is a rational number. Integers are also rational numbers, because any integer ca
 
 <assemblage><title>Decimal Form of a Rational Number</title>
 <idx><h>rational number</h><h>decimal form</h></idx>
- <p>The decimal representation of a rational number has one of two forms.<ol marker="1">
+ <p>The decimal representation of a rational number has one of two forms.<ol marker="1.">
 	<li>The decimal representation terminates, or ends.</li>  	
 	<li>The decimal representation repeats a pattern.</li></ol></p></assemblage>
 
-<example><statement><p>Write the decimal form for each rational number.<ol marker="a" cols="2">
+<example><statement><p>Write the decimal form for each rational number.<ol marker="a." cols="2">
 	<li><m>\dfrac{3}{4}</m></li>
 	<li><m>\dfrac{4}{11}</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>We can use a calculator or long division to divide the numerator by the denominatorto find <m>\dfrac{3}{4}=0.75</m>.</li>
 	<li>We divide 4 by 11 to find <m>\dfrac{4}{11}=0.363636 \ldots = 0.\overline{36}</m>. The line over the digits 36 is called a repeater bar, and it indicates that those digits are repeated forever.</li></ol></p></solution></example>
 
@@ -153,7 +153,7 @@ is a rational number. Integers are also rational numbers, because any integer ca
 
  <p>It is important that you understand the distinction between an exact value and an approximation.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
 	<li><p>We cannot write down an exact decimal equivalent for an irrational number.
 		<md><mrow>\sqrt{5}~~~~  \amp \text{indicates the exact value of the square root of 5}</mrow>
 			<mrow>2.236068~~~~  \amp \text{ is an approximation to the square root of 5}</mrow></md></p></li>
@@ -187,7 +187,7 @@ Rounding to three decimal places gives 2.708</p></solution></example>
 
 <assemblage><title>Order of Operations</title>
 <idx><h>order of operations</h><h>with radicals</h></idx>
-<p><ol marker= "1">
+<p><ol marker= "1.">
 <li>Perform any operations inside parentheses, or above or below a fraction bar.</li>
 <li>Compute all indicated powers and roots.</li>
 <li>Perform all multiplications and divisions in the order in which they occur from left to right.</li>
@@ -209,7 +209,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
 <p>The number <m>c</m> is called a cube root of a number <m>b</m> if <m>c^3=b</m>.</p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
 	<li><m> \sqrt[3]{-64}=-4</m> because <m>(-4)^3=-64</m>.</li> 
 	<li><m>\sqrt[3]{9}</m> is an irrational number approximately equal to <m>2.08</m>, because <m>2.08^3=8.998912</m>.</li></ol></p></statement></example>
 
@@ -251,7 +251,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 </exercises> 
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="2">
+<p><ol marker="1." cols="2">
     <li><m>4</m></li>
     <li><m>\dfrac{17-k}{3}</m></li>
     <li><m>20</m></li>
@@ -268,34 +268,34 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <subsubsection><title>Activity 1: Roots and Radicals</title>
 <exercises>
 
-<exercise><statement><p>Find two square roots for each number.<ol marker="a" cols="2">
+<exercise><statement><p>Find two square roots for each number.<ol marker="a." cols="2">
 	<li><m>225</m></li>
 	<li><m>\dfrac{4}{9}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Simplify each radical, if possible.<ol marker="a" cols="2">
+<exercise><statement><p>Simplify each radical, if possible.<ol marker="a." cols="2">
 	<li><m>\sqrt{64}</m></li>
 	<li><m>\sqrt{-64}</m></li>
 	<li><m>-\sqrt{64}</m></li>
 	<li><m>\pm \sqrt{-64}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Evaluate each cube root. (Use a calculator if necessary.)<ol marker="a" cols="2">
+<exercise><statement><p>Evaluate each cube root. (Use a calculator if necessary.)<ol marker="a." cols="2">
 	<li><m>\sqrt[3]{8}</m></li>
 	<li><m>\sqrt[3]{-125}</m></li>
 	<li><m>\sqrt[3]{-1}</m></li>
 	<li><m>\sqrt[3]{50}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a" >
+<exercise><statement><p><ol marker="a." >
 	<li>If <m>~p=\sqrt{d}~</m>, then <m>~d= <fillin characters="10"/></m></li>
 	<li>If <m>~v^2=k~</m>, then <m>~v= <fillin characters="10"/></m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a" >
+<exercise><statement><p><ol marker="a." >
 	<li>Explain why the square root of a negative number is undefined.</li>
 	<li>If <m>x \gt 0</m>, explain the difference between <m>\sqrt{-x}</m>  and <m>-\sqrt{x}</m>.</li>
 	<li>Explain why you can always simplify <m>\sqrt{x}~\sqrt{x}</m>, as long as <m>x</m> is non-negative.</li>
 	<li>Explain why you can always simplify <m>\dfrac{x}{\sqrt{x}}</m>, as long as <m>x</m> is positive. </li></ol></p>
 </statement></exercise>
 
-<exercise><statement><p><ol marker="a" >
+<exercise><statement><p><ol marker="a." >
 	<li>Make a list of the squares of all the integers from 1 to 20. These are the first 20 perfect squares. Now make a list of square roots for these perfect squares.</li>  
 	<li>Make a list of the cubes of all the integers from 1 to 10. These are the first 10 perfect cubes. Now make a list of cube roots for these perfect cubes.  </li></ol></p>
 </statement></exercise>
@@ -305,7 +305,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <subsubsection><title>Activity 2: Rational Numbers</title>
 <exercises>
 
-<exercise><statement><p>Find the decimal form for each rational number. Does it terminate?<ol marker="a" cols="2">
+<exercise><statement><p>Find the decimal form for each rational number. Does it terminate?<ol marker="a." cols="2">
 	<li><m>\dfrac{2}{3}</m></li>
 	<li><m>\dfrac{5}{2}</m></li>
 	<li><m>\dfrac{13}{27}</m></li>
@@ -336,7 +336,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
     </tabular>
 </statement></exercise> 
 
-<exercise><statement><p>True or False.<ol marker="a" >
+<exercise><statement><p>True or False.<ol marker="a." >
 	<li>If a number is irrational, it cannot be an integer.</li>
 	<li>Every real number is either rational or irrational.</li>
 	<li>Irrational numbers do not have an exact location on the number line.</li>
@@ -349,7 +349,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <subsubsection><title>Activity 3: Order of Operations</title>
 
 <exercises>
-<exercise><statement><p>A radical symbol acts like parentheses to group operations. Any operations that appear under a radical should be performed before evaluating the root.<ol marker="a" >
+<exercise><statement><p>A radical symbol acts like parentheses to group operations. Any operations that appear under a radical should be performed before evaluating the root.<ol marker="a." >
 	<li>Simplify <m>~~\sqrt{6^2-4(3)}</m></li>     
 	<li>Approximate your answer to part (a) to three decimal places.</li>
 	<li><p>Explain why the following is incorrect:
@@ -357,7 +357,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 				<mrow>\amp = \sqrt{36} - \sqrt{12}</mrow>
 				<mrow>\amp \approx 6-3.464 = 2.536</mrow></md></p></li></ol></p></statement></exercise>             
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li><p>Simplify <m>~~5-3\sqrt{16+2(-3)}</m></p></li>
 	<li>Approximate your answer to part (a) to three decimal places.</li></ol></p></statement></exercise>
 
@@ -377,7 +377,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Explain why you don't need a calculator to evaluate <m>~\dfrac{23}{\sqrt{23}}</m>.</li>
 	<li>Explain why you cannot write down an exact decimal form for <m>\sqrt{6}</m>.</li>
 	<li>Explain why  <m>~\sqrt{3^2+4^2} \not= 3+4</m>.</li></ol></p></assemblage>
@@ -387,42 +387,42 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <subsection><title>Homework Preview</title>
 
 <exercises>
-<exercise><statement><p>Simplify.<ol marker="a">
+<exercise><statement><p>Simplify.<ol marker="a.">
 	<li><m>8-3\sqrt{25}</m></li>
 	<li><m>(3\sqrt{16})(-2\sqrt{81})</m></li>
 	<li><m>\dfrac{3-\sqrt{36}}{6}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Find a decimal approximation rounded to two places.<ol marker="a">
+<exercise><statement><p>Find a decimal approximation rounded to two places.<ol marker="a.">
 	<li><m>-3+\sqrt{34}</m></li>
 	<li><m>\sqrt{6^2-4(3)}</m></li>
 	<li><m>\sqrt[3]{\dfrac{18}{5}}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Simplify.<ol marker="a">
+<exercise><statement><p>Simplify.<ol marker="a.">
 	<li><m>2\sqrt{x}(8\sqrt{x})</m></li>
 	<li><m>\dfrac{6m}{3\sqrt{m}}</m></li>
 	<li><m>\sqrt[3]{H}(\sqrt[3]{H})(\sqrt[3]{H})</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Evaluate for <m>x=3,~y=5</m>. Round to hundredths.<ol marker="a">
+<exercise><statement><p>Evaluate for <m>x=3,~y=5</m>. Round to hundredths.<ol marker="a.">
 	<li><m>\sqrt{x^2+y^2}</m></li>
 	<li><m>(x+y)^2-(x^2+y^2)</m></li>
 	<li><m>\sqrt{x}+\sqrt{y}-\sqrt(x+y)</m></li></ol></p></statement></exercise>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p> <ol marker= "1">
-    <li><p><ol marker="a" cols="3">
+<p> <ol marker= "1.">
+    <li><p><ol marker="a." cols="3">
     	<li><m>-7</m></li>
     	<li><m>-216</m></li>
     	<li><m>-\dfrac{1}{2}</m></li></ol></p></li>
-    <li><p><ol marker="a" cols="3">
+    <li><p><ol marker="a." cols="3">
     	<li><m>2.83</m></li>
     	<li><m>4.90</m></li>
     	<li><m>1.53</m></li></ol></p></li>
-    <li><p><ol marker="a" cols="3">
+    <li><p><ol marker="a." cols="3">
     	<li><m>16x</m></li>
     	<li><m>2\sqrt{m}</m></li>
     	<li><m>H</m></li></ol></p></li>
-    <li><p><ol marker="a" cols="3">
+    <li><p><ol marker="a." cols="3">
     	<li><m>5.83</m></li>
     	<li><m>30</m></li>
     	<li><m>1.14</m></li></ol></p></li></ol></p></subsubsection>	

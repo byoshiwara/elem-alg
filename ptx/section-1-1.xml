@@ -48,12 +48,12 @@
                         <cell><m>1990</m></cell>
                         <cell><m>75</m></cell></row>    
         </tabular></sidebyside>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>To what age could people born in 1940 expect to live?</p></li>
             <li><p>In what year did people's life expectancy reach 70 years of age?</p></li>
         </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
         <li><p>People born in 1940 lived to 63 years of age on average.</p></li>
         <li><p>Life expectancy reached 70 years of age in 1960.</p></li>
     </ol></p></solution></example>
@@ -61,12 +61,12 @@
 <example><statement>
     <p>The graph below shows the average annual salaries of NFL football players, starting in 1940. The average salary of NFL football players is a variable.</p>
     <sidebyside width="45%"><image source="photos/fig-1-1-ex2"/></sidebyside>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Use the graph to estimate the average annual salary of NFL football players in 1975.</p></li>
         <li><p>By how much did salaries increase from 1975 to 1980?</p></li>
     </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
         <li><p>In 1975, the average NFL player's salary was $40,000.</p></li>
         <li><p>In 1980, the average salary was $80,000, so salaries had increased from $40,000 to $80,000, or by 
             <me>\$80,000 - \$40,000 = \$40,000</me></p></li>
@@ -144,12 +144,12 @@
         \draw [red, ultra thick] plot [smooth] coordinates {(0,0) (10,8) (20,20) (30,21) (40,23) (50,28) (60,29) (70,30) (80,25) (85,20) (90,13) (100,5) (110,0) };
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<example xml:id="Example-1-1-3"><statement><p><ol marker="a">
+<example xml:id="Example-1-1-3"><statement><p><ol marker="a.">
     <li>What is the value of <m>h</m> when <m>t=85</m>?  What do these values mean in this situation?</li>
     <li>When is the plane descending?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The graph shows that <m>h</m> is approximately 20 when <m>t=85</m>. This means that at 85 minutes into the flight, the plane's altitude is about 20,000 feet.</p>
         <sidebyside width="50%"><!--<image source="photos/fig-1-1-ex3.png"/>-->
     <image xml:id="fig-1-1-ex3">
@@ -211,7 +211,7 @@
                     <cell><m>\blert{?}</m></cell></row>
             </tabular></sidebyside>
 
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Fill in the blanks in the table.  Describe in words how you found the unknown values.   
         <me>\blert{\text{Divide the rent by 4}}</me></li>
     <li>Write a mathematical sentence <idx>mathematical sentence</idx> that gives Fernando's share of the total rent.
@@ -304,7 +304,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1.">
     <li>Subtract 16 from the outside temperature.</li>
     <li>Multiply the amount of soda by 3.</li>
     <li>Add 2 feet to the distance between the poles.</li>
@@ -344,7 +344,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                     </latex-image>
             </image>
         </sidebyside>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li>What was the unemployment rate in 1930?</li>
             <li>When did the unemployment rate first reach 15%?</li>
             <li>When did the unemplyment rate reach its highest value? What was the unemployment rate at that time?</li>
@@ -433,7 +433,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
 <subsubsection><title>Activity 2: Writing Mathematical Sentences</title><idx>mathematical sentence</idx>
 
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>Barry lives with his aunt while he attends college. Every week he gives her $20 from his paycheck to help pay for groceries. Fill in the table:</p>
 
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -463,7 +463,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>
 
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Explain in words how to find the amount Barry keeps from his paycheck.</li>
         <li><p>Write your explanation as a mathematical sentence:</p>
 
@@ -523,7 +523,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>
-        <p><ol marker="a">
+        <p><ol marker="a.">
         <li>Explain in words how to find the Liz's wages for the week.</li>
         <li><p>Write your explanation as a mathematical sentence:</p>
 
@@ -569,7 +569,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
     <li>Writing an equation relating two variables</li></ul></p></assemblage>
 
  <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1e, how do we calculate the increase in unemployment rate?</li>
     <li>In Activity 1f, were more people unemployed in 1931 or in 1940?</li>
     <li>In Activity 2, is the first row of the table plotted on the horizontal axis or the vertical axis?</li></ol></p>
@@ -719,7 +719,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="3">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
     <li><m>y=x+8</m></li>
     <li><m>y=x \div 6</m></li>
     <li><m>y=x-2</m></li>

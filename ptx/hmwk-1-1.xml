@@ -131,7 +131,7 @@
                     <cell><m>b</m></cell>
                     <cell></cell></row>
             </tabular></sidebyside></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>b</m></cell>
@@ -250,7 +250,7 @@
 <exercisegroup>
     <introduction><p>For Problems 7<ndash/>8, fill in the tables. What do you notice? Explain.</p></introduction>
 
-<exercise number="7"><statement><p><ol marker="a" cols="3">
+<exercise number="7"><statement><p><ol marker="a." cols="3">
     <li><m>y = \dfrac{x}{8}</m>
         <sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
@@ -325,7 +325,7 @@
             </tabular></sidebyside></p>
             <p>The three tables have identical values.</p></answer></exercise>
 
-<exercise number="8"><statement><p><ol marker="a" cols="3">
+<exercise number="8"><statement><p><ol marker="a." cols="3">
     <li><p><m>y = \dfrac{3 \times x}{5}</m></p>
         <sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
@@ -411,7 +411,7 @@
                         <cell></cell>
                         <cell></cell></row>
                     </tabular></sidebyside>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Explain in words how to find the temperature in Sunnyvale.</li>
         <li><p>Write your explanation as a mathematical sentence:</p>
         <p><m>\text{Temp in Sunnyvale} =</m></p></li>
@@ -466,7 +466,7 @@
                         <cell><m>105</m></cell>
                         <cell><m>R+15</m></cell></row>
                     </tabular></sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Add <m>15\degree</m> to Ridgecrest's temperature to find Sunnyvale's temperature.</li>
     <li>Temperature in Sunnyvale <m>=</m> Temperature in Ridgecrest <m>+15</m></li>
     <li><m>S=R+15</m></li>
@@ -525,7 +525,7 @@
                         <cell></cell>
                         <cell></cell></row>
                     </tabular></sidebyside>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Explain in words how to find the number of miles Jerome has left to drive.</li>
         <li><p>Write your explanation as a mathematical sentence:</p>
         <p><m>\text{Miles remaining} =</m></p></li>
@@ -580,7 +580,7 @@
                         <cell></cell>
                         <cell></cell></row>
                     </tabular></sidebyside>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Explain in words how to find Milton's share of the bill.</li>
         <li><p>Write your explanation as a mathematical sentence:</p>
         <p><m>\text{Milton's share} =</m></p></li>
@@ -634,7 +634,7 @@
                         <cell><m>27</m></cell>
                         <cell><m>\dfrac{b}{3}</m></cell></row>
                     </tabular></sidebyside>
-        <p><ol marker="a">
+        <p><ol marker="a.">
         <li>Divide the total bill by 3 to get Milton's share.</li>
         <li>Milton's share <m>= \dfrac{\text{total bill}}{3}</m></li>
         <li><m>s=\dfrac{b}{3}</m></li>
@@ -693,7 +693,7 @@
                         <cell></cell>
                         <cell></cell></row>
                     </tabular></sidebyside>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Explain in words how to find the number of fat calories allowed.</li>
         <li><p>Write your explanation as a mathematical sentence:</p>
         <p><m>\text{Fat calories} =</m></p></li>
@@ -750,14 +750,14 @@
             </latex-image>
             </image>
 </sidebyside>
- <p><ol marker="a">
+ <p><ol marker="a.">
         <li>What variable is displayed on the horizontal axis?  The vertical axis?</li>
         <li>How much money will be in the account 5 years from now?</li>
         <li>When will the amount of money in the account exceed $6000?</li>
         <li>How much will the account grow between the second and third years?</li>
         <li>How much will the account grow between the twelfth and thirteenth years?</li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li>Horizontal:  Number of years, Vertical: Amount in account</li>
        <li>About $3000</li>      
        <li>Approximately after 13.75 years</li>
@@ -792,7 +792,7 @@
         </latex-image>
         </image>
     </sidebyside>
-     <p><ol marker="a">
+     <p><ol marker="a.">
         <li>What variable is displayed on the horizontal axis? The vertical axis?</li>
         <li>How long does it take the soup to cool below 100?</li>
         <li>What is the temperature of the soup after 8 minutes?</li>
@@ -834,8 +834,8 @@
     </sidebyside></statement>
     <answer><p>Graph C</p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a">
-    <li><p>Match each of the following stories with the appropriate graph.<ol marker="I">
+<exercise number="16"><statement><p><ol marker="a.">
+    <li><p>Match each of the following stories with the appropriate graph.<ol marker="I.">
         <li>Delbert walks directly from home to school, then stays there.</li>
         <li>Delbert walks towards school, but stops at a coffee shop for a cappuccino, then he goes on to school and stays there.</li>
         <li>Delbert walks toward school, but decides to return home, where he stays.</li></ol></p></li>
@@ -871,7 +871,7 @@
 </sidebyside></statement></exercise>
 
 <exercise number="17"><statement><p>Plot each pair of values on the grid provided. Connect the points with a smooth curve. Which graph appears to be a straight line?
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><sidebyside width="80%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
@@ -957,7 +957,7 @@
     </image>
         </sidebyside></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
             <li><sidebyside width="60%" margins="0% 5%">
     <image xml:id="hp-1-1-17aans">
         <description>line and points</description>
@@ -1016,7 +1016,7 @@
             </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><sidebyside cols="2" widths="50% 35%" margins="0% 10%"><p><ol marker="a">
+<exercise number="18"><statement><sidebyside cols="2" widths="50% 35%" margins="0% 10%"><p><ol marker="a.">
     <li><p>Read the graph at right to fill in the table.</p>
         <sidebyside width="85%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -1112,7 +1112,7 @@
     </latex-image>
     </image>
         </sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>y=2-x</m></li>
     <li><sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">

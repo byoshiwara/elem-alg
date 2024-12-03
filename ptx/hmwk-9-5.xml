@@ -44,7 +44,7 @@
     </latex-image>
     </image>
 </sidebyside>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
 	<li><m>\sqrt{x} = 4</m></li>
 	<li><m>\sqrt{x} = 2.5</m></li>
 	<li><m>\sqrt{x} = -2</m></li>
@@ -126,7 +126,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 <exercise number="20"><statement><p><m>\dfrac{x^2}{4}-y^2=1~~~~</m> for <m>x</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="21"><statement><p><ol marker="a">
+<exercise number="21"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p><sidebyside widths="45% 55%" valigns="middle middle">
 <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
     <row bottom="minor">
@@ -208,7 +208,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol marker="a">
+<exercise number="22"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p><sidebyside widths="45% 50%" valigns="middle middle">
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -263,10 +263,10 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 
 <exercise number="23"><statement><p>The higher your altitude, the farther you can see to the horizon, if nothing blocks your line of sight. From a height of <m>h</m> meters, the distance <m>d</m> to the horizon in kilometers is given by
 	<me>d=\sqrt{12h}</me>
-<ol marker="a">
+<ol marker="a.">
 	<li>Mt. Wilson is part of the San Gabriel mountains north of Los Angeles, and it has an elevation of 1740 meters. How far can you see from Mt. Wilson?</li>
 	<li>The new Getty Center is built on the hills above Sunset Boulevard in Los Angeles, and from the patio on a clear day you can see the city of Long Beach, 44 kilometers away. What does this tell you about the elevation at the Getty Center?</li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p>144.5 km</p></li>
     <li><p>It is at least <m>161\frac{1}{3} </m> m</p></li>
 </ol></p></answer></exercise>
@@ -277,10 +277,10 @@ where <m>d</m> is the depth of the ocean beneath the wave, in feet. A tsunami tr
 
 <exercise number="25"><statement><p>The height of a cylindrical storage tank is four times its radius. If the tank holds <m>V</m> cubic inches of liquid, its radius in inches is
 	<me>r=\sqrt[3]{\dfrac{V}{12.57}}</me>
-<ol marker="a">
+<ol marker="a.">
 	<li>If the tank should hold 340 cubic inches, what must its radius be?</li>
 	<li>If the radius of the tank is 5.5 inches, how much liquid can it hold?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>3 in</p></li>
     <li><p>2091 <m>\text{in}^3</m></p></li>
 </ol></p></answer></exercise>

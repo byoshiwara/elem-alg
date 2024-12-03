@@ -3,50 +3,50 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.2</title>
 
-<exercise number="1"><statement><p>Apply the first law of exponents to find the product.<ol marker="a" cols="3">
+<exercise number="1"><statement><p>Apply the first law of exponents to find the product.<ol marker="a." cols="3">
     <li><m>x^3 \cdot x^6</m></li>
     <li><m>5^6 \cdot 5^8</m></li>
     <li><m>b^3(b)(b^5)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
     <li><p><m>x^9</m></p></li>
     <li><p><m>5^{14}</m></p></li>
     <li><p><m>b^9</m></p></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Find a value of <m>n</m> that makes the expressions equivalent.<ol marker="a" cols="3">
+<exercise number="2"><statement><p>Find a value of <m>n</m> that makes the expressions equivalent.<ol marker="a." cols="3">
 	<li><m>y^3 \cdot y^n=y^8</m></li>
 	<li><m>a^n \cdot a^4 = a^8</m></li>
 	<li><m>3\cdot 3^n=3^3</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p>Simplify if possible.<ol marker="a" cols="2">
+<exercise number="3"><statement><p>Simplify if possible.<ol marker="a." cols="2">
 	<li><m>2x^4(-3x^4)</m></li>
 	<li><m>-x^4(-2x^2)</m></li>
 	<li><m>-x^4 \cdot y^3</m></li>
 	<li><m>-3x^5(3y^5)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p><m>-6x^8</m></p></li>
     <li><p><m>2x^6</m></p></li>
     <li><p><m>-x^4y^3</m></p></li>
     <li><p><m>-9x^5 y^5</m></p></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p>Simplify if possible.<ol marker="a" cols="2">
+<exercise number="4"><statement><p>Simplify if possible.<ol marker="a." cols="2">
 	<li><m>2x^4-3x^4</m></li>
 	<li><m>-x^4-2x^2</m></li>
 	<li><m>-x^4 + y^3</m></li>
 	<li><m>-3x^5+3y^5</m></li></ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For the pair of expressions in Problems 5<ndash/>6 find <ol marker="a" cols="2">
+<exercisegroup cols="2"><introduction><p>For the pair of expressions in Problems 5<ndash/>6 find <ol marker="a." cols="2">
 	<li>their product,</li>
 	<li>their sum.</li></ol></p></introduction>
 
 <exercise number="5"><statement><p><m>-3z^4,~-7z^4</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>21z^8</m></p></li>
     <li><p><m>-10z^4</m></p></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>-9cd^3,~-cd^3</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For the rectangles in Problems 7<ndash/>8 find <ol marker="a" cols="2">
+<exercisegroup cols="2"><introduction><p>For the rectangles in Problems 7<ndash/>8 find <ol marker="a." cols="2">
     <li>the perimeter,</li>
     <li>the area.</li></ol></p></introduction>
 
@@ -65,7 +65,7 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>48w^5</m></p></li>
     <li><p><m>144w^{10}</m></p></li></ol></p></answer></exercise>
 
@@ -86,7 +86,7 @@
 </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>10, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>10, <ol marker="a.">
     <li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
     <li>Use the distributive law to compute the product.</li></ol></p></introduction>
 
@@ -107,7 +107,7 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>2a(5a+3)</m></p></li>
     <li><p><m>10a^2+6a</m></p></li></ol></p></answer></exercise>
 
@@ -134,35 +134,35 @@
 
 <exercisegroup><introduction><p>For Problems 11<ndash/>14, simplify each expression if possible. If it cannot be simplified, say so.</p></introduction>
 
-<exercise number="11"><statement><p><ol marker="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a." cols="2">
 	<li><m>x^2+x^2</m></li>
 	<li><m>x^2(x^2)</m></li>
 	<li><m>x^2-x^2</m></li>
 	<li><m>x^2(-x^2)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p><m>2x^2</m></p></li>
     <li><p><m>x^4</m></p></li>
     <li><p><m>0</m></p></li>
     <li><p><m>-x^4</m></p></li></ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol marker="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a." cols="2">
 	<li><m>-x-x</m></li>
 	<li><m>-x(-x)</m></li>
 	<li><m>-x^2-x^2</m></li>
 	<li><m>-x^2(-x^2)</m></li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a." cols="2">
 	<li><m>x+x^2</m></li>
 	<li><m>x(x^2)</m></li>
 	<li><m>x^2-x</m></li>
 	<li><m>x^2(-x)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p>cannot be simplified</p></li>
     <li><p><m>x^3</m></p></li>
     <li><p>cannot be simplified</p></li>
     <li><p><m>-x^3</m></p></li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a" cols="2">
+<exercise number="14"><statement><p><ol marker="a." cols="2">
 	<li><m>-x^3 \cdot x</m></li>
 	<li><m>x^3(-x^2)</m></li>
 	<li><m>x^3-x^2</m></li>
@@ -222,45 +222,45 @@
 <answer><p><m>27x^3-18x^2+6x-1</m></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="30"><statement><p><ol marker="a">
+<exercise number="30"><statement><p><ol marker="a.">
 	<li>Multiply <m>~(x+1)(x+2)(x+3).</m></li>
 	<li>Evaluate the product for <m>~x=-1,~x=-2,</m> and <m>~x=-3)</m></li></ol></p></statement></exercise>
 
-<exercise number="31"><statement><p><ol marker="a">
+<exercise number="31"><statement><p><ol marker="a.">
 	<li>Multiply <m>~(x-2)(x+4)(x+5).</m></li>
 	<li>Find three values of <m>x</m> for which the product is equal to zero.</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>x^3+7x^2+11x+6</m></p></li>
     <li><p><m>x=2</m>, <m>-4</m>, <m>-5</m></p></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Simplify mentally, without using paper, pencil, or calculator.
-<ol marker="a" cols ="3">
+<ol marker="a." cols ="3">
 	<li><m>10^3(8 \cdot 10^4)</m></li>
 	<li><m>(3 \cdot 10^2)(2 \cdot 20^2)</m></li>
 	<li><m>(3.3 \cdot 10^2)(2 \cdot 10^2)</m></li></ol></p></statement></exercise>
 
-<exercise number="33"><statement><p>The sum of two numbers is 16.<ol marker="a">
+<exercise number="33"><statement><p>The sum of two numbers is 16.<ol marker="a.">
 	<li>If one of the numbers is <m>n</m>, write an expression for the other number.</li>
 	<li>Write a polynomial for the product of the two numbers.</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>16-n</m></p></li>
     <li><p><m>16n-n^2</m></p></li></ol></p></answer></exercise>
 
-<exercise number="34"><statement><p>A large wooden box is 3 feet longer than it is wide, and its height is 2 feet shorter than its width.<ol marker="a">
+<exercise number="34"><statement><p>A large wooden box is 3 feet longer than it is wide, and its height is 2 feet shorter than its width.<ol marker="a.">
 	<li>If the width of the box is <m>w</m>, write expressions for its length and its height.</li>
 	<li>Write a polynomial for the volume of the box.</li>
 	<li>Write a polynomial for the surface area of the box.</li></ol></p></statement></exercise>
 
-<exercise number="35"><statement><p>If you count by even numbers, such as 6, 8, 10, et cetera, you are listing consecutive even integers.<ol marker="a">
+<exercise number="35"><statement><p>If you count by even numbers, such as 6, 8, 10, et cetera, you are listing consecutive even integers.<ol marker="a.">
 	<li>If your first even integer is <m>n</m>, what is the next even integer?</li>
 	<li>What is the next even integer after that?</li>
 	<li>Write a polynomial for the product of the three even integers in parts (a) and (b).</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>n+2</m></p></li>
     <li><p><m>n+4</m></p></li>
     <li><p><m>n^3+6n^2+8n</m></p></li></ol></p></answer></exercise>
 
-<exercisegroup cols="3"><introduction><p>In <xref ref="More-About-Factoring">Lesson</xref> we'll use rectangles to factor quadratic trinomials.  Problems 36-38 review representing a product as the area of a rectangle.<ol marker="a">
+<exercisegroup cols="3"><introduction><p>In <xref ref="More-About-Factoring">Lesson</xref> we'll use rectangles to factor quadratic trinomials.  Problems 36-38 review representing a product as the area of a rectangle.<ol marker="a.">
 	<li>Compute each product.</li>
 	<li>Illustrate each product as the area of a rectangle.</li></ol></p></introduction>
 

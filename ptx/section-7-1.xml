@@ -190,11 +190,11 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 
 <assemblage><p><me>\blert{\text{Profit = Revenue - Cost}}</me></p></assemblage>
 
-<example><statement><p>It costs The Cookie Company <m>200+2x</m> dollars to produce <m>x</m> bags of cookies per week, and they earn <m>8x-0.01x^2</m> dollars from the sale of <m>x</m> bags of cookies.<ol marker="a">
+<example><statement><p>It costs The Cookie Company <m>200+2x</m> dollars to produce <m>x</m> bags of cookies per week, and they earn <m>8x-0.01x^2</m> dollars from the sale of <m>x</m> bags of cookies.<ol marker="a.">
 <li>Write a polynomial for the profit earned by The Cookie Company on <m>x</m> bags of cookies.</li>
 <li>Find the company's profit on 300 bags of cookies, and on 600 bags.</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>Applying the profit formula to this situation, we subtract polynomials to find
 	<md><mrow>\text{Profit} \amp =(8x-0.01x^2)-(200+2x) \amp \amp \blert{\text{Change signs of second polynomial.}}</mrow>
 		<mrow> \amp = 8x-0.01x^2-200-2x\amp \amp \blert{\text{Combine like terms.}}</mrow>
@@ -228,7 +228,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="4">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1." cols="4">
 	<li><m>=</m></li>
 	<li><m>\lt</m></li>
 	<li><m>\lt</m></li>
@@ -244,13 +244,13 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 <subsubsection><title>Activity 1: Polynomials</title>
 <exercises>
 
-<exercise><statement><p>Which of the following expressions are polynomials?<ol marker="a" cols="2">
+<exercise><statement><p>Which of the following expressions are polynomials?<ol marker="a." cols="2">
 	<li><m>t^2-7t+3</m></li>
 	<li><m>2+\dfrac{6}{x}</m></li>
 	<li><m>-a^3b^2c^4</m></li>
 	<li><m>3w^2-w+5\sqrt{w}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Give the degree of each polynomial.<ol marker="a" cols="2">
+<exercise><statement><p>Give the degree of each polynomial.<ol marker="a." cols="2">
 	<li><m>5x^9-1</m></li>
 	<li><m>3t^2-t-6t^4+8</m></li></ol></p></statement></exercise>
 
@@ -286,12 +286,12 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 <exercises>
 
 <exercise><statement><p>The length of a box is twice its width, <m>w</m>, and its height is 3 inches less than its width.
-<ol marker="a"> 
+<ol marker="a."> 
 	<li>Sketch a picture of the box, and label its sides.</li>
 	<li>Write a polynomial for the volume of the box.</li>
 	<li>Write a polynomial for the surface area of the box.</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Milly's Muffins can sell <m>x</m> muffins at the farmers' market if she charges <m>6-0.02x</m>  dollars for a muffin. It costs Milly <m>50+1.5x</m> dollars to make <m>x</m> muffins.<ol marker="a"> 
+<exercise><statement><p>Milly's Muffins can sell <m>x</m> muffins at the farmers' market if she charges <m>6-0.02x</m>  dollars for a muffin. It costs Milly <m>50+1.5x</m> dollars to make <m>x</m> muffins.<ol marker="a."> 
 	<li><p>Write a polynomial for Milly's revenue from selling muffins.</p>  
 		<p>Hint:  Revenue <m>~=~</m>(number of items sold)<m>~\times ~</m>(price per item)</p></li>
 	<li>Write a polynomial for Milly's profit.</li>
@@ -311,7 +311,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 	<li>Writing simple polynomial expressions</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Name two places that a variable cannot appear in a polynomial.</li>
 	<li>What do you suppose "ascending powers" means?</li>
 	<li>What is wrong with this statement:
@@ -322,7 +322,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 <subsection><title>Homework Preview</title>
 <exercises>
 
-<exercise><statement><p>Explain why each expression is not a polynomial.<ol marker="a" cols="2">
+<exercise><statement><p>Explain why each expression is not a polynomial.<ol marker="a." cols="2">
 	<li><m>4x^3-x^2+\dfrac{3}{x}</m></li>
 	<li><m>2x^2-3x\sqrt{x} + 5x</m></li></ol></p></statement></exercise>
 
@@ -339,8 +339,8 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol marker= "1">
-	<li><p><ol marker="a">
+<p><ol marker= "1.">
+	<li><p><ol marker="a.">
 		<li>It has a variable in the denominator</li>
 		<li>It has a variable under a radical</li></ol></p></li>
 	<li><m>-105</m></li>

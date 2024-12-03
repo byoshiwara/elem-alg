@@ -26,7 +26,7 @@ to simplify square roots. We can also use the product rule to multiply radicals 
 		<mrow> \amp = \sqrt{4x^2}\sqrt{5y} = 2x\sqrt{5y}</mrow></md></p></solution></example>
 
 <reading-questions>
-    <exercise number="1"><statement><p>Which of these statements is correct:<ol marker="a" cols="2">
+    <exercise number="1"><statement><p>Which of these statements is correct:<ol marker="a." cols="2">
     	<li><m>\sqrt{x^2+4} = \sqrt{x^2}+\sqrt{4}</m></li>
     	<li><m>\sqrt{4x^2} = \sqrt{4}\sqrt{x^2}</m></li>
     	<li><m>\sqrt{x^2-4} = \sqrt{x^2}-\sqrt{4}</m></li>
@@ -185,7 +185,7 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="3">
+<p><ol marker="1." cols="3">
     <li>c.b.s.</li>
     <li>c.b.s.</li>
     <li>c.b.s.</li>
@@ -248,7 +248,7 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
     <li>Rationalizing the denominator</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1 Problem 5, why don't we start by rationalizing the denominator?</li>
     <li>Explain why <m>~\dfrac{\sqrt{6x}}{3}~</m> is not equivalent to <m>~\sqrt{2x}</m>.</li>
     <li>In Activity 3, why don't we simplify <m>~\sqrt{4h^2+s^2}~</m> to <m>~2h+s</m>?</li></ol></p></assemblage>
@@ -281,7 +281,7 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol marker= "1" cols="2">
+<p><ol marker= "1." cols="2">
     <li><m>36a^2b^2\sqrt{2b}</m></li>
     <li><m>15t^4-10t^2\sqrt{2t}</m></li>
     <li><m>24x^2\sqrt{2}+12x\sqrt{3}</m></li>

@@ -5,25 +5,25 @@
 
  <exercisegroup><introduction><p>For Problems 1<ndash/>3, simplify each product or power.</p></introduction>
 
- <exercise number="1"><statement><p><ol marker="a" cols="3">
+ <exercise number="1"><statement><p><ol marker="a." cols="3">
  	<li><m>3(4n)</m></li>
  	<li><m>3n(4n)</m></li>
  	<li><m>(4n)^3</m></li></ol></p></statement>
- <answer><p><ol marker="a" cols="3">
+ <answer><p><ol marker="a." cols="3">
     <li><m>12n</m></li>
     <li><m>12n^2</m></li>
     <li><m>64n^3</m></li></ol></p></answer></exercise>
 
- <exercise number="2"><statement><p><ol marker="a" cols="3">
+ <exercise number="2"><statement><p><ol marker="a." cols="3">
  	<li><m>6x(-5x^2)</m></li>
  	<li><m>-6x^2(-5x)</m></li>
  	<li><m>(-5x)^2</m></li></ol></p></statement></exercise>
 
- <exercise number="3"><statement><p><ol marker="a" cols="3">
+ <exercise number="3"><statement><p><ol marker="a." cols="3">
  	<li><m>(4p)(-4p)</m></li>
  	<li><m>-(4p)^2</m></li>
  	<li><m>-4(-p)^2</m></li></ol></p></statement>
- <answer><p><ol marker="a" cols="3">
+ <answer><p><ol marker="a." cols="3">
     <li><m>-16p^2</m></li>
     <li><m>-16p^2</m></li>
     <li><m>-4p^2</m></li></ol></p></answer></exercise>
@@ -31,27 +31,27 @@
 
 <exercisegroup><introduction><p>For Problems 4<ndash/>6, simplify each expression.</p></introduction>
 
- <exercise number="4"><statement><p><ol marker="a" cols="3">
+ <exercise number="4"><statement><p><ol marker="a." cols="3">
  	<li><m>-8x(5t)</m></li>
  	<li><m>-8x(5+t)</m></li>
  	<li><m>-8x(-5-t)</m></li></ol></p></statement></exercise>
 
- <exercise number="5"><statement><p><ol marker="a" cols="3">
+ <exercise number="5"><statement><p><ol marker="a." cols="3">
  	<li><m>3n(-4n)</m></li>
  	<li><m>3n-4n</m></li>
  	<li><m>(3n-4)n</m></li></ol></p></statement>
- <answer><p><ol marker="a" cols="3">
+ <answer><p><ol marker="a." cols="3">
     <li><m>-12n^2</m></li>
     <li><m>-n</m></li>
     <li><m>3n^2-4n</m></li></ol></p></answer></exercise>
 
- <exercise number="6"><statement><p><ol marker="a" cols="3">
+ <exercise number="6"><statement><p><ol marker="a." cols="3">
  	<li><m>2x(-5x^2)</m></li>
  	<li><m>2(x-5x^2)</m></li>
  	<li><m>2x-(5x)^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>8, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>8, <ol marker="a.">
 	<li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
 	<li>Use the distributive law to compute the product.</li></ol></p></introduction>
 
@@ -92,24 +92,24 @@
 <exercise number="18"><statement><m>3ab^2(2+3a)-2ab(3ab+2b)</m></statement>></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, write two different expressions for the area of the rectangle:<ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, write two different expressions for the area of the rectangle:<ol marker="a.">
 	<li>as the sum of four small areas,</li>
 	<li>as one large rectangle, using the formula  Area <m>=</m> length <m>\times</m> width.</li></ol></p></introduction>
 
 <exercise number="19"><statement><sidebyside width="60%"><image source="photos/hp-5-4-19"><description>rectangle</description></image></sidebyside></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
     <li><m>x^2+4x+3x+12</m></li>
     <li><m>(x+3)(x+4)</m></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><sidebyside width="45%"><image source="photos/hp-5-4-20"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 21<ndash/>23, <ol marker="a">
+<exercisegroup cols="3"><introduction><p>For Problems 21<ndash/>23, <ol marker="a.">
 	<li>Use a rectangle to represent each product.</li>
 	<li>Write the product as a quadratic trinomial.</li></ol></p></introduction>
 
 <exercise number="21"><statement><m>(a-5)(a-3)</m></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
@@ -135,7 +135,7 @@
 <exercise number="22"><statement><m>(y+1)(3y-2)</m></statement></exercise>
 
 <exercise number="23"><statement><m>(5x-2)(4x+3)</m></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
@@ -192,13 +192,13 @@
 	<p>(Make your own drawing)</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 33<ndash/>34, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 33<ndash/>34, <ol marker="a.">
 	<li>Find the linear term in the product.</li>
 	<li>Shade the sub-rectangles that correspond to the linear term.</li></ol></p></introduction>
 
 <exercise number="33"><statement><p><m>(x+6)(x-9)</m></p>
 <sidebyside width="50%"><image source="photos/hp-5-4-33"><description>rectangle</description></image></sidebyside></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
     <li><m>-3x</m></li>
     <li><sidebyside><tabular halign="center">
         <col width="20%"/>
@@ -246,7 +246,7 @@
 <exercise number="40"><statement><m>(3a-2c)(3a-2c)</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="41"><statement><p><ol marker="a">
+<exercise number="41"><statement><p><ol marker="a.">
 	<li>Complete the table below.</li>	
 	<li>Decide whether the two expressions, <m>(a-b)^2</m> and <m>a^2-b^2</m>, are equivalent.</li></ol></p>
 <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
@@ -288,12 +288,12 @@
 
 <exercise number="42"><statement><p>Explain why <m>(x-y)^2</m> cannot be simplified to <m>x^2-y^2</m>.</p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 43<ndash/>44, write the area of the square in two different ways:<ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 43<ndash/>44, write the area of the square in two different ways:<ol marker="a.">
 	<li>as the sum of four smaller areas,</li>
 	<li>as one large square, using the formula  Area <m>= (\text{length})^2</m>.</li></ol></p></introduction>
 
 <exercise number="43"><statement><sidebyside width="45%"><image source="photos/hp-5-4-43"><description>rectangle</description></image></sidebyside></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
     <li><m>x^2+7x+7x+49</m></li>
     <li><m>(x+7)^2</m></li></ol></p></answer></exercise>
 

@@ -14,11 +14,11 @@
 
 <p>In order to solve more general quadratic equations, of the form <m>ax^2+bx+c=0</m> we will need to factor quadratic trinomials.  Here is an example of how we can use the principle to solve a quadratic equation.</p>
 
-<example xml:id="Example-6-3-1"><statement><p><ol marker="a">
+<example xml:id="Example-6-3-1"><statement><p><ol marker="a.">
 	<li>Compute the product  <m>~(x+5)(x-4).</m></li>
 	<li>Solve the equation  <m>~x^2+x-20=0.</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>We use the FOIL method to apply the distributive law to the product.
 		<sidebyside width="50%"><image source="photos/fig-6-3-ex1"><description>graphic</description></image></sidebyside></li>
 	<li>From part (a) we see that <m>~x^2+x-20</m> can also be written in factored form as <m>~(x+5)(x-4)</m>. Thus, the equation <m>~x^2+x-20</m> is equivalent to
@@ -79,7 +79,7 @@
     
 <assemblage>
 <idx><h>FOIL (terms of binomial product)</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>The quadratic term, <m>x^2</m>, comes from the product of the First terms in each binomial.</li>  
 	<li>The constant term, <m>12</m>, is the product of the Last terms.</li>  
 	<li>The middle term, <m>7x</m>, is the sum of two terms, the product of the Inside terms and the product of the Outside terms.</li></ol></p></assemblage>
@@ -140,7 +140,7 @@ where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>,
 
 <assemblage><title>Sign Patterns for Factoring Quadratic Trinomials</title>
 <idx><h>factoring</h><h>quadratic trinomials</h></idx>
-<p>Assume that <m>b,~c,~p,</m> and <m>q</m> are positive integers.<ol marker="1">  
+<p>Assume that <m>b,~c,~p,</m> and <m>q</m> are positive integers.<ol marker="1.">  
 	<li><p><m>x^2+bx+c=(x+p)(x+q)</m></p>	
 	<p>If all the coefficients of the trinomial are positive, then both <m>p</m> and <m>q</m> are positive.</p></li>
 	<li><p><m>x^2-bx+c=(x-p)(x-q)</m></p>
@@ -186,7 +186,7 @@ We cannot apply the Zero-Factor principle to this equation.</p></warning>
 
 <assemblage><title>To Solve a Quadratic Equation by Factoring</title>
 <idx><h>quadratic equation</h><h>solve by factoring</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Write the equation in standard form, 
 		<me>ax^2+bx+c=0~~~~~~(a \not= 0)</me></li>       
 	<li>Factor the left side of the equation.</li>
@@ -260,7 +260,7 @@ The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make 
 
 <subsection><title>Skills Warm-Up</title>
 <exercises>
-<exercisegroup cols="3"><introduction><p><ol marker="a">
+<exercisegroup cols="3"><introduction><p><ol marker="a.">
 	<li>Find the linear term of each product mentally.</li>
 	<li>Find the constant term.</li></ol></p></introduction>
 
@@ -279,7 +279,7 @@ The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make 
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="2">
+<p><ol marker="1." cols="2">
     <li><p><ol marker= "a" cols="2">
         <li><m>4x</m></li>
         <li><m>3</m></li></ol></p></li>
@@ -325,7 +325,7 @@ We use the middle term of the trinomial to decide which possibility is correct.<
 The last choice is correct, so the factorization is
 	<me>t^2+9t+18 = (t+3)(t+6)</me></p>
 
-<p><m>\blert{\text{Exercise 1 }}~~~</m>Factor each trinomial. <ol marker="a" cols="2">
+<p><m>\blert{\text{Exercise 1 }}~~~</m>Factor each trinomial. <ol marker="a." cols="2">
 	<li><m>x^2+8x+15</m></li>
 	<li><m>y+2+14y+49</m></li></ol></p>
 
@@ -336,7 +336,7 @@ The last choice is correct, so the factorization is
 
 <p><m>\blert{\text{Step 1}}~~~</m>We look for a product of the form
 	<me>x^2-12x+20 = (x+p)(x+q)</me>
-The numbers <m>p</m> and <m>q</m> must satisfy two conditions:<ol marker="1">
+The numbers <m>p</m> and <m>q</m> must satisfy two conditions:<ol marker="1.">
 	<li>Their product, <m>pq</m>, is the Last term, and so must equal 20.</li>
 	<li>Their sum, <m>p+q</m>, equals  <m>-12</m>  (because  <m>O+I = px+qx = -12x</m>).</li></ol>
 These two conditions tell us that <m>p</m> and <m>q</m> must both be negative.</p>
@@ -351,7 +351,7 @@ These two conditions tell us that <m>p</m> and <m>q</m> must both be negative.</
 The second possibility is correct, so the factorization is
 	<me>x^2-12x+20 = (x-2)(x-10)</me></p>
 
-<p><m>\blert{\text{Exercise 2}}~~~</m>Factor each trinomial. <ol marker="a" cols="2">
+<p><m>\blert{\text{Exercise 2}}~~~</m>Factor each trinomial. <ol marker="a." cols="2">
 	<li><m>m^2-10m+24</m></li>
 	<li><m>m^2-11m+24</m></li></ol></p>
 
@@ -371,7 +371,7 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 <p><m>\blert{\text{Step 3}}~~~</m>The second possibility gives a middle term of <m>-2x</m>. This is not quite correct, because the middle term we want is <m>2x</m>.  We fix this by switching the signs on the factors of 15: instead of using <m>+3</m> and <m>-5</m>,  we change to <m>-3</m> and <m>+5</m>.  You can check that the correct factorization is
 	<me>x^2+2x-15 = (x-3)(x+5)</me></p>
 
-<p><m>\blert{\text{Exercise 3}}~~~</m>Factor each trinomial. <ol marker="a" cols="2">
+<p><m>\blert{\text{Exercise 3}}~~~</m>Factor each trinomial. <ol marker="a." cols="2">
 	<li><m>t^2+8t-48</m></li>
 	<li><m>t^2-8t-48</m></li></ol></p>
 
@@ -397,7 +397,7 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 
 <subsubsection><title>Activity 3: Application</title>
 
-<p>The town of Amory lies due north of Chester, and Bristol lies due east of Chester. If you drive from Amory to Bristol by way of Chester, the distance is 17 miles, but if you take the back road directly from Amory to Bristol, you save 4 miles. You would like to know the distance from Bristol to Chester.<ol marker="a">
+<p>The town of Amory lies due north of Chester, and Bristol lies due east of Chester. If you drive from Amory to Bristol by way of Chester, the distance is 17 miles, but if you take the back road directly from Amory to Bristol, you save 4 miles. You would like to know the distance from Bristol to Chester.<ol marker="a.">
 	<li>What is the unknown quantity?  Call it <m>x</m>.</li>
 	<li>Make a sketch and label it with distances.</li>
 	<li>Write an equation about the variable.</li>
@@ -414,8 +414,8 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 	<li>Solving a quadratic equation by factoring</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
-    <li><p>Which technique would you use to solve each equation below?  Explain your choice in each case.<ol lmarker="a" cols="2">
+<p><ol marker="1.">
+    <li><p>Which technique would you use to solve each equation below?  Explain your choice in each case.<ol marker="a" cols="2">
 		<li><m>x^2-6=0</m></li>
 		<li><m>x^2-6x=0</m></li></ol></p></li>	
 	<li>In Activity 1, what can you say about the signs of <m>p</m> and <m>q</m> if <m>c</m> is positive?</li>
@@ -451,7 +451,7 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p> <ol marker= "1" cols="2">
+<p> <ol marker= "1." cols="2">
 	<li><m>(x+7)(x+8)</m></li>
 	<li><m>(m-13)(m+4)</m></li>
 	<li><m>(t-12)(t-12)</m></li>

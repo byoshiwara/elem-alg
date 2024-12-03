@@ -10,12 +10,12 @@
 
 <p>Variables may occur in the numerator or the denominator of a fraction, or both.</p>
 
-<example><statement><p>Choose variables and write a fraction for each situation.<ol marker="a">
+<example><statement><p>Choose variables and write a fraction for each situation.<ol marker="a.">
 	<li>The five people in Tom's study group order Chinese food and agree to split the bill equally. How much will Tom's share be?</li>
 	<li>Nurit has $800 to carpet a square bedroom in her house. What price per square foot can she afford?</li>
 	<li>How long does it take an ocean liner to make a trans-Atlantic voyage?</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>The amount of the bill is unknown. We let <m>b</m> represent the total bill. Then Tom's share is <m>\dfrac{b}{5}</m>.</li>
 	<li>The dimensions of the room are unknown. We let <m>L</m> represent the length of bedroom. Then the price per square foot is <m>\dfrac{800}{L^2}</m>.</li>
 	<li>The distance and the speed of the liner are unknown. We let <m>D</m> represent the distance traveled, and <m>R</m> the speed, or rate. Then the time for voyage is <m>\dfrac{D}{R}</m>.</li></ol></p></solution></example>
@@ -32,11 +32,11 @@
 <assemblage><title>Look Closer</title>
 <p>We can evaluate algebraic fractions just as we do any other algebraic expression. But we cannot evaluate a fraction at any values of the variable that make the denominator equal to zero.</p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
 	<li>Evaluate <m>~~\dfrac{a^2+1}{a-2}~~</m> for <m>~a=4</m>.</li>
 	<li>For what value of <m>a</m> is the fraction undefined?</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>Substitute <m>\alert{4}</m> for <m>a</m> in the fraction.
 		<md><mrow>\dfrac{a^2+1}{a-2} \amp = \dfrac{\alert{4}^2+1}{\alert{4}-2} \amp \amp \blert{\text{Simplify numerator and denominator.}}</mrow>
 		<mrow> \amp = \dfrac{17}{2}</mrow></md></p></li>
@@ -160,11 +160,11 @@ We see that 4 is a factor of the numerator, so we can divide top and bottom of t
 </reading-questions>
 
 <warning><idx><h>canceling to reduce a fraction</h></idx>
-<p>We can cancel common factors (expressions that are multiplied together), but not common terms (expressions that are added or subtracted). Use your calculator to decide which calculation in each pair is correct. (In the second pair, choose a value for the variable and evaluate.) <ol marker="1">
-	<li><p><ol marker="a" cols="2">
+<p>We can cancel common factors (expressions that are multiplied together), but not common terms (expressions that are added or subtracted). Use your calculator to decide which calculation in each pair is correct. (In the second pair, choose a value for the variable and evaluate.) <ol marker="1.">
+	<li><p><ol marker="a." cols="2">
 		<li><m>\dfrac{12}{8} = \dfrac{4 \cdot 3}{4 \cdot 2} \rightarrow \dfrac{3}{2}</m></li>
 		<li><m>\dfrac{7}{6} = \dfrac{4 + 3}{4 + 2} \rightarrow \dfrac{3}{2}</m></li></ol></p></li>
-	<li><p><ol marker="a" cols="2">
+	<li><p><ol marker="a." cols="2">
 		<li><m>\dfrac{5x}{8x}  \rightarrow \dfrac{5}{8}</m></li>
 		<li><m>\dfrac{x+5}{x+8}  \rightarrow \dfrac{5}{8}</m></li></ol></p></li></ol></p></warning>
 
@@ -176,16 +176,16 @@ We see that 4 is a factor of the numerator, so we can divide top and bottom of t
 <assemblage><title>To Reduce an Algebraic Fraction</title>
 	<idx><h>algebraic fraction</h><h>reducing</h></idx>
 	<idx><h>fractions</h><h>reducing</h></idx>
-	<p><ol marker="1">
+	<p><ol marker="1.">
 	<li>Factor numerator and denominator completely.</li>
 	<li>Divide numerator and denominator by any common factors.</li></ol></p>
 </assemblage>
 
-<example xml:id="Example-8-1-6"><statement><p><ol marker="a">
+<example xml:id="Example-8-1-6"><statement><p><ol marker="a.">
 	<li>Reduce  <m>~~\dfrac{3x^2+12x}{6x+24}</m></li>
 	<li>Evaluate the fraction for <m>x=4</m>.</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>We first factor the numerator and denominator completely.
 		<me>\dfrac{3x^2+12x}{6x+24} = \dfrac{3x(x+4)}{2 \cdot 3 (x+4)}</me>
 	Then we divide numerator and denominator by any common factors.
@@ -242,11 +242,11 @@ However, the fraction <m>\dfrac{-2}{-3}</m> is a positive number, because the qu
 <p>	The opposite of  <m>a-b</m>  is 
 	<me>\blert{-(a-b) = -a+b = b-a}</me></p></assemblage> 
 
-<example><statement><p>Find the opposite of each binomial.<ol marker="a">
+<example><statement><p>Find the opposite of each binomial.<ol marker="a.">
 	<li><m>2a-3b</m></li>
 	<li><m>-x-1</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>The opposite of <m>~2a-3b~</m> is
 		<me>-(2a-3b) = -2a+3b~~~~ \text{or}~~~~3b-2a</me></p></li>
 	<li><p>The opposite of <m>~-x-1~</m> is
@@ -292,7 +292,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="2">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1." cols="2">
 	<li><m>(x-2)(x+2)</m></li>
 	<li><m>x(x-4)</m></li>
 	<li><m>(x-2)^2</m></li>
@@ -306,7 +306,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 <subsubsection><title>Activity 1: Algebraic Fractions</title>
 <exercises>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li>Evaluate <m>~\dfrac{z-1}{2z+3~}</m> for <m>z=-3</m>.</li>
 	<li>For what value of <m>z</m> is the fraction undefined?</li></ol></p></statement></exercise>
 
@@ -344,7 +344,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
    <image source="photos/fig-8-1-ex3"><description>curve</description></image></sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
 	<li>Approximately how many filters should Envirogreen produce for the average cost to be $75?</li>
 	<li>What happens to the average cost per filter as <m>x</m> increases?</li>
 	<li>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</li>
@@ -355,21 +355,21 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 <subsubsection><title>Activity 2: Reducing Fractions</title>
 <exercises>
 
-<exercise><statement><p>Explain why each calculation is incorrect.<ol marker="a">
+<exercise><statement><p>Explain why each calculation is incorrect.<ol marker="a.">
 	<li><m>\dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}</m></li>
 	<li><m>\dfrac{2x+5}{2} \rightarrow x+5</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li>Reduce <m>~\dfrac{12x-18}{16x-24}</m></li>
 	<li>If you evaluate <m>~\dfrac{12x-18}{16x-24}~</m> for <m>x=-17</m>, what do you expect to get?</li></ol></p></statement></exercise>
 
 <exercise><statement><p>Reduce <m>~\dfrac{x^2-x-6}{x^2-9}</m></p></statement></exercise>
 
-<exercise><statement><p>Find the opposite of each binomial.<ol marker="a" cols="2">
+<exercise><statement><p>Find the opposite of each binomial.<ol marker="a." cols="2">
 	<li><m>2a+3b</m></li>
 	<li><m>-x+1</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Reduce if possible.<ol marker="a" cols="2">
+<exercise><statement><p>Reduce if possible.<ol marker="a." cols="2">
 	<li><m>\dfrac{-x+1}{1-x}</m></li>
 	<li><m>\dfrac{1+x}{1-x}</m></li>
 	<li><m>\dfrac{2a-3b}{3b-2a}</m></li>
@@ -385,7 +385,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 	<li>Reducing algebraic fractions</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1, Problem 2d, what was the average cost per filter?</li>
 	<li>In Activity 2, Problem 3, can we cancel the <m>x^2</m>'s?  Why or why not?</li>
 	<li>In Activity 2, Problem 4, which numerator is the opposite of its denominator?</li></ol></p></assemblage>
@@ -397,7 +397,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 
 <exercise><statement><p>The chess club will have 4 men and an unknown number  of women.  What fraction of the club will be men?</p></statement></exercise>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li>Evaluate <m>~\dfrac{z^2-4}{z-4}~</m> for <m>z=-2</m>.</li>
 	<li>For what values of <m>z</m> is <m>~\dfrac{z^2-4}{z-4}~</m> undefined?</li></ol></p></statement></exercise>
 
@@ -414,9 +414,9 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol marker= "1" cols="2">
+<p><ol marker= "1." cols="2">
 	<li><m>\dfrac{4}{4+w}</m></li>
-	<li><p><ol marker="a" cols="2">
+	<li><p><ol marker="a." cols="2">
 		<li><m>0</m></li>
 		<li><m>4</m></li></ol></p></li>
 	<li><m>\dfrac{5s^2}{3t}</m></li>

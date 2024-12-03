@@ -38,11 +38,11 @@ Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\
 		<md><mrow>\sqrt{a+b} \not= \sqrt{a}+\sqrt{b}</mrow>
 			<mrow>\sqrt{a-b} \not= \sqrt{a}-\sqrt{b}</mrow></md></p></warning>
 
-<example><statement><p>Decide which statement is true and which is false.<ol marker="a" cols="2"> 
+<example><statement><p>Decide which statement is true and which is false.<ol marker="a." cols="2"> 
 	<li><m>\sqrt{4} + \sqrt{9} = \sqrt{13}?</m></li>
 	<li><m>\sqrt{4}\sqrt{9} = \sqrt{36}?</m></li></ol></p></statement>
 
-<solution><p><ol marker="a" >
+<solution><p><ol marker="a." >
 	<li><p><m>\sqrt{4} + \sqrt{9} = 2+3 = 5</m>, but <m>\sqrt{13} \not= 5</m>, so the first statement is false.</p></li>
 	<li><p><m>\sqrt{4}\sqrt{9} = 2(3) = 6</m>, and <m>\sqrt{36} = 6</m>, so the second statement is true.</p></li></ol></p></solution></example>
 </subsection>
@@ -56,7 +56,7 @@ Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\
 
 <assemblage><title>To Simplify a Square Root</title>
 <idx><h>square root</h><h>simplifying</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Factor any perfect squares from the radicand.</li>
 	<li>Use the product rule to write the radical as a product of two square roots.</li>
 	<li>Simplify the square root of the perfect square.</li></ol></p></assemblage>
@@ -177,11 +177,11 @@ Thus, we may add like radicals by adding their coefficients. The same idea appli
     <answer><p>Square roots with identical radicands</p></answer></exercise>
 </reading-questions>   
 
-<example><statement><p>Simplify if possible.<ol marker="a" cols="2">
+<example><statement><p>Simplify if possible.<ol marker="a." cols="2">
   	<li><m>7\sqrt{3}-2\sqrt{3}</m></li>
   	<li><m> 3\sqrt{2}+4\sqrt{3}</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>Because <m>7\sqrt{3}</m> and <m>2\sqrt{3}</m> are like radicals, we can combine them as
 			<me>7\sqrt{3}-2\sqrt{3} = 5\sqrt{3}</me></p></li>	
 	<li>However, <m>3\sqrt{2}</m> and <m>4\sqrt{3}</m> are not like radicals. We cannot simplify sums or differences of unlike radicals. Thus, <m> 3\sqrt{2}+4\sqrt{3}</m> cannot be combined into a single term.</li></ol></p></solution></example>
@@ -225,7 +225,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="3">
+<p><ol marker="1." cols="3">
     <li><m>20x^6</m></li>
     <li><m>4z^8</m></li>
     <li><m>3a</m></li>
@@ -239,28 +239,28 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 <exercises>
 <exercisegroup><introduction><p>Use the examples to decide whether each statement below is true for all nonnegative values of <m>a</m> and <m>b</m>.</p></introduction>
 
-<exercise><statement><p>Is it true that  <m>~~\sqrt{a+b} =\sqrt{a} + \sqrt{b}</m>?<ol marker="a">
+<exercise><statement><p>Is it true that  <m>~~\sqrt{a+b} =\sqrt{a} + \sqrt{b}</m>?<ol marker="a.">
 	<li>Does <m>\sqrt{9+16} =\sqrt{9} + \sqrt{16}</m>?</li>
 	<li>Does <m>\sqrt{2+7} =\sqrt{2} + \sqrt{7}</m>?</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Is it true that  <m>~~\sqrt{a-b} =\sqrt{a} - \sqrt{b}</m>?<ol marker="a">
+<exercise><statement><p>Is it true that  <m>~~\sqrt{a-b} =\sqrt{a} - \sqrt{b}</m>?<ol marker="a.">
 	<li>Does <m>\sqrt{100-36} =\sqrt{100} - \sqrt{36}</m>?</li>
 	<li>Does <m>\sqrt{12-9} =\sqrt{12} - \sqrt{9}</m>?</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Is it true that  <m>~~\sqrt{ab} =\sqrt{a}\sqrt{b}</m>?<ol marker="a">
+<exercise><statement><p>Is it true that  <m>~~\sqrt{ab} =\sqrt{a}\sqrt{b}</m>?<ol marker="a.">
 	<li>Does <m>\sqrt{4 \cdot 9} =\sqrt{4} \cdot \sqrt{9}</m>?</li>
 	<li>Does <m>\sqrt{3 \cdot 5} =\sqrt{3} \cdot \sqrt{5}</m>?</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Is it true that  <m>~~\sqrt{\dfrac{a}{b}} =\dfrac{\sqrt{a}}{\sqrt{b}}</m>?<ol marker="a">
+<exercise><statement><p>Is it true that  <m>~~\sqrt{\dfrac{a}{b}} =\dfrac{\sqrt{a}}{\sqrt{b}}</m>?<ol marker="a.">
 	<li>Does <m>\sqrt{\dfrac{100}{4}} =\dfrac{\sqrt{100}}{\sqrt{4}}</m>?</li>
 	<li>Does <m>\sqrt{\dfrac{20}{3}} =\dfrac{\sqrt{20}}{\sqrt{3}}</m>?</li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise><statement><p>Decide whether the statement is true or false, and then verify with your calculator.<ol marker="a" cols="2">
+<exercise><statement><p>Decide whether the statement is true or false, and then verify with your calculator.<ol marker="a." cols="2">
 	<li><m>\sqrt{12} = \sqrt{4}\sqrt{3}</m></li>
 	<li><m>\sqrt{12} =\sqrt{8} + \sqrt{4}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Decide whether the statement is true or false. (All variables are positive.)<ol marker="a" cols="2">
+<exercise><statement><p>Decide whether the statement is true or false. (All variables are positive.)<ol marker="a." cols="2">
 	<li><m>\sqrt{(2a+b)^2} = 2a+b</m></li>
 	<li><m>\sqrt{4a^2+b^2} =2a+b</m></li>
 	<li><m>\sqrt{1+25r^2} = 1+5r</m></li>
@@ -275,7 +275,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 
 <exercise><statement><p>Simplify <m>~\sqrt{75}</m></p></statement></exercise>
 
-<exercise><statement><p>Find the square root of each power.<ol marker="a" cols="2">
+<exercise><statement><p>Find the square root of each power.<ol marker="a." cols="2">
 	<li><m>\sqrt{y^4} </m></li>
 	<li><m>\sqrt{a^{16}}</m></li></ol></p></statement></exercise>
 
@@ -288,7 +288,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 <subsubsection><title>Activity 3: Sums and Differences</title>
 <exercises>
 
-<exercise><statement><p>Write each expression as a single term.<ol marker="a" cols="2">
+<exercise><statement><p>Write each expression as a single term.<ol marker="a." cols="2">
 	<li><m>13\sqrt{6}- 8\sqrt{6}</m></li>
 	<li><m>5\sqrt{3x}+\sqrt{3x}</m></li></ol></p></statement></exercise>
 
@@ -305,7 +305,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 	<li>Adding and subtracting like radicals</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Does <m>~\sqrt{x^2-4} = x-2~</m>?  Does <m>~\sqrt{x^2+4} = x+2~</m>?</li>
 	<li>Explain how simplifying a radical is different from evaluating a radical.</li>
 	<li>Explain why <m>~\sqrt{16} = 4~</m> but <m>~\sqrt{a^{16}} = a^8~</m>.</li>
@@ -318,13 +318,13 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 <exercisegroup><introduction><p>Decide whether each statement is true or false, then verify with your calculator.
 </p></introduction>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt{4}+\sqrt{16}=\sqrt{20}</m></li>
 	<li><m>\sqrt{4} \cdot \sqrt{25}=\sqrt{100}</m></li>
 	<li><m>\dfrac{\sqrt{36}}{\sqrt{9}}=\sqrt{4}</m></li>
 	<li><m>\sqrt{100}-\sqrt{64}=\sqrt{36}</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt{3}+\sqrt{5}=\sqrt{8}</m></li>
 	<li><m>\sqrt{6} \cdot \sqrt{5}=\sqrt{30}</m></li>
 	<li><m>\dfrac{\sqrt{18}}{\sqrt{3}}=\sqrt{6}</m></li>
@@ -351,13 +351,13 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p><ol marker= "1" cols="2">
-    <li><p><ol marker="a">
+<p><ol marker= "1." cols="2">
+    <li><p><ol marker="a.">
     	<li>True</li>
     	<li>True</li>
     	<li>True</li>
     	<li>False</li></ol></p></li>
-    <li><p><ol marker="a">
+    <li><p><ol marker="a.">
     	<li>False</li>
     	<li>True</li>
     	<li>True</li>

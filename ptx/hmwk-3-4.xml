@@ -3,12 +3,12 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 3.4</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol marker="a.">
     <li>Write the equation in slope-intercept form.</li>  
     <li>State the slope and <m>y</m>-intercept of the graph.</li></ol></p></introduction>
 
 <exercise number="1"><statement><m>y=3x+4</m></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>y=3x+4</m></p></li>
     <li><p>slope 3 and <m>y</m>-intercept <m>(0,4) </m>.</p></li>
 </ol></p></answer></exercise>
@@ -16,7 +16,7 @@
 <exercise number="2"><statement><m>6x+3y=6</m></statement></exercise>
 
 <exercise number="3"><statement><m>2x-3y=6</m></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>y=\dfrac{2}{3} x-2</m></p></li>
     <li><p>slope <m>\dfrac{2}{3}</m> and <m>y</m>-intercept <m>(0,-2) </m>.</p></li>
 </ol></p></answer></exercise>
@@ -24,7 +24,7 @@
 <exercise number="4"><statement><m>5x=4y</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, <ol marker="a">  
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, <ol marker="a.">  
 	<li>Find the slope and <m>y</m>-intercept of the line.</li>
 	<li>Write the equation for the line.</li></ol></p></introduction>
 
@@ -53,7 +53,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>m=3</m>; <m>y</m>-intercept <m>(0,-4) </m></p></li>
     <li><p><m>y=3x-4 </m></p></li>
 </ol></p></answer></exercise>
@@ -109,7 +109,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>m=-\dfrac{8}{5} </m>; <m>y</m>-intercept <m>(0,1) </m></p></li>
     <li><p><m>y=\dfrac{-8}{5}x+1 </m></p></li>
 </ol></p></answer></exercise>
@@ -141,14 +141,14 @@
     </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup ><introduction><p>For Problems 9<ndash/>12, <ol marker="a">  
+<exercisegroup ><introduction><p>For Problems 9<ndash/>12, <ol marker="a.">  
     <li>Fill in the <m>y</m>-values in the tables and graph the lines.</li> 
     <li>Choose two points on each line and compute its slope.</li>
     <li>What is the <m>y</m>-intercept of each line?</li></ol></p></introduction>
 
 <exercise number="9"><statement>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
-        <ol marker="I">
+        <ol marker="I.">
             <li><p><m>y=2x-6</m></p><p></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -202,7 +202,7 @@
                     </tabular></li></ol>
         <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside width="45%" margins="0% 55%">
     <image xml:id="hp-2-4-9ans">
         <description>three parallel lines</description>
@@ -234,7 +234,7 @@
 
 <exercise number="10"><statement>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
-        <ol marker="I">
+        <ol marker="I.">
             <li><p><m>y=\dfrac{-3}{2}x-4</m>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -291,7 +291,7 @@
 
 <exercise number="11"><statement>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
-        <ol marker="I">
+        <ol marker="I.">
             <li><p><m>y=\dfrac{1}{4}x+2</m>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -345,7 +345,7 @@
                     </tabular></p></li></ol>
         <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside width="45%" margins="0% 55%">
     <image xml:id="hp-2-4-11ans">
         <description>three lines with common y-intercept</description>
@@ -377,7 +377,7 @@
 
 <exercise number="12"><statement>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
-        <ol marker="I">
+        <ol marker="I.">
             <li><p><m>y=-3x-2</m>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -433,7 +433,7 @@
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>14, <ol marker="a">  
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>14, <ol marker="a.">  
 	<li>Find the intercepts of the graph and graph the line.</li>
 	<li>Compute the slope of the line.</li>
 	<li>Put the equation in slope-intercept form.</li></ol></p></introduction>
@@ -450,7 +450,7 @@
                         <cell><m>0</m></cell></row>
                     </tabular>
 <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>(0,3) </m>, <m>~(4,0) </m></p><sidebyside>
     <image xml:id="hp-2-4-13ans">
         <description>line</description>
@@ -495,7 +495,7 @@
 </exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, <ol marker="a">  
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, <ol marker="a.">  
 	<li>Put the equation in slope-intercept form.</li>
 	<li>What is the <m>y</m>-intercept of each line?  What is its slope?</li>
 	<li>Use the slope to find two more points on the line.</li>
@@ -503,7 +503,7 @@
 
 <exercise number="15"><statement><p><m>3x-5y=0</m></p>
 <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>y=\dfrac{3}{5}x </m></p></li>
     <li><p><m>(0,0) </m>, <m>~\dfrac{3}{5} </m></p></li>
     <li><sidebyside width="80%">
@@ -630,18 +630,18 @@
     </latex-image>
     </image>
 </sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
 	<li>What is the <m>P</m>-intercept of the line?</li>
 	<li>Calculate the slope of the line.</li>
 	<li>Write an equation for the line in slope-intercept form.</li>
 	<li>What do the slope and the <m>P</m>-intercept tell us about the problem?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>(0,-240) </m></p></li>
     <li><p>3</p></li>
     <li><p><m>P=-240+3x</m></p></li>
     <li><p>He spent $240 to open the shop and makes $3 of profit per smoothie.</p></li></ol></p></answer></exercise>
 
-<exercisegroup><introduction><p>For Problems 22<ndash/>24, <ol marker="a">  
+<exercisegroup><introduction><p>For Problems 22<ndash/>24, <ol marker="a.">  
     <li>Graph the line by the slope-intercept method.</li>  
     <li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
 
@@ -696,7 +696,7 @@
     </image>
 </sidebyside>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside width="40%" margins="0% 60%">
     <image xml:id="hp-3-4-23ans">
         <description>line</description>

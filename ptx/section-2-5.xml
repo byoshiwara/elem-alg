@@ -50,7 +50,7 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 <idx><h>like terms</h></idx>
     <p><term>Like terms</term> are any terms that are exactly alike in their variable factors.</p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
 	<li><md><mrow>2x~~\text{and}~~3x~~~~~~ \amp \text{are like terms}</mrow>
             <mrow>-4a~~\text{and}~~7a~~~~~~ \amp \text{are like terms}</mrow></md>
         because their variable factors are identical.</li>
@@ -62,7 +62,7 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 <idx><h>numerical coefficient</h></idx><idx><h>numerical coefficient</h><seealso>coefficient</seealso></idx><idx><h>coefficient</h></idx>
     <p>The numerical factor <idx><h>factor</h></idx> in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
 	<li>In the expression <m>3xy</m>, the number 3 is the numerical coefficient.</li>  
 	<li>In a term such as <m>xy</m> or <m>b</m>, the numerical coefficient is 1.</li>  
 	<li>If a variable is preceded by a negative sign, the coefficient of the term is <m>-1</m>.  For example, 
@@ -79,12 +79,12 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 <idx><h>like terms</h><h>adding and subtracting</h></idx>
 <p>Add the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage>
 
-<example xml:id="Example-2-5-3"><statement><p>Add like terms.<ol marker="a"  cols="3">
+<example xml:id="Example-2-5-3"><statement><p>Add like terms.<ol marker="a."  cols="3">
 	<li><m>5n+3n</m></li>
 	<li><m>-4y-3y</m></li>
 	<li><m>-6st+9st</m></li></ol></p></statement>
 <solution><p>In each calculation, we do not change the variables we are adding; only the coefficient changes.
-<ol marker="a">
+<ol marker="a.">
 	<li><m>5n+3n = (5+3)n = 8n~~~~~~~~ \blert{\text{Add the coefficients,}~ 5 ~\text{and}~ 3.}</m></li>
 	<li><m>-4y-3y = (-4-3)y = -7y~~~~~~~~ \blert{\text{Add the coefficients,}~ -4~ \text{and}~ -3}.</m></li>
 	<li><m>-6st+9st = (-6+9)st = 3st~~~~~~~~ \blert{\text{Add the coefficients,}~ -6 ~\text{and} ~9.}</m></li></ol></p>
@@ -243,7 +243,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 
 <assemblage><title>Steps for Solving Linear Equations</title>
 <idx><h>equation</h><h>solving</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Combine like terms on each side of the equation.</li>
 	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
 	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage>
@@ -271,7 +271,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="3">
+<p><ol marker="1." cols="3">
     <li><m>2000-60p</m></li>
     <li><m>0.06(I-1200)</m></li>
     <li><m>\dfrac{1}{2}h(a+b)</m></li>
@@ -286,7 +286,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 <subsubsection><title>Activity 1: Equivalent Expressions</title>
 
 <exercises>
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li><p>Show that the expressions <m>6+2x</m> and <m>8x</m> are equal if <m>x=1</m>:
         <md><mrow>6+2x \amp = <fillin characters="8"/></mrow>     
         <mrow> 8x \amp = <fillin characters="8"/></mrow></md></p></li>                                                                                          
@@ -295,16 +295,16 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
         <mrow> 8x \amp = <fillin characters="8"/></mrow></md></p></li>  
     <li>Are the expressions <m>6+2x</m> and <m>8x</m> equivalent?</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Explain the following phrases, and give an example for each.<ol marker="a">
+<exercise><statement><p>Explain the following phrases, and give an example for each.<ol marker="a.">
     <li>equivalent expressions</li>
     <li>like terms</li>
     <li>numerical coefficient</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Combine like terms by adding or subtracting.<ol marker="a" cols="2">
+<exercise><statement><p>Combine like terms by adding or subtracting.<ol marker="a." cols="2">
     <li><m>-2x+6x-x</m></li>
     <li><m>3bc-(-4bc)-8bc</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Simplify by removing parentheses and combining like terms.<ol marker="a">
+<exercise><statement><p>Simplify by removing parentheses and combining like terms.<ol marker="a.">
     <li><m>-5u-6uv+(8uv+9u)</m></li>
     <li><m>(32-26)+ (-3+2h)</m></li>
     <li><m>(3a-2)-2a-(5-2a)</m></li></ol></p></statement></exercise>
@@ -313,7 +313,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 
 <subsubsection><title>Activity 2: Solving Equations and Inequalities</title>
 
-<assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1">
+<assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1.">
     <li>Combine like terms on each side of the equation.</li>
     <li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
     <li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol>
@@ -336,11 +336,11 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 
 <subsubsection><title>Activity 3: Like Terms and Parentheses</title>
 <exercises>
-<exercise><statement><p>One angle of a triangle is three times the smallest angle, and the third angle is 20<m>\degree</m> greater than the smallest angle.<ol marker="a">
+<exercise><statement><p>One angle of a triangle is three times the smallest angle, and the third angle is 20<m>\degree</m> greater than the smallest angle.<ol marker="a.">
     <li>If the smallest angle is <m>x</m>, write expressions for the other two angles.</li>
     <li>Write an expression for the sum of the three angles in terms of <m>x</m>.</li></ol></p></statement></exercise>
 
-<exercise><statement><p>The StageLights theater group plans to sell T-shirts to raise money. It will cost them <m>5x+60</m> dollars to print <m>x</m> T-shirts, and they will sell the T-shirts at $12 each.<ol marker="a">
+<exercise><statement><p>The StageLights theater group plans to sell T-shirts to raise money. It will cost them <m>5x+60</m> dollars to print <m>x</m> T-shirts, and they will sell the T-shirts at $12 each.<ol marker="a.">
     <li>Write and simplify an expression for their profit from selling <m>x</m> T-shirts.</li>
     <li>How many T-shirts must they sell in order to make a profit of $500?</li></ol></p></statement></exercise>
 </exercises>  
@@ -355,7 +355,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <li>Writing equations for applied problems</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Does <m>6+2x=8x</m> ?  Why or why not?</li>
     <li>Explain how to simplify each side of an equation before beginning to solve.</li>
     <li>What is wrong with this expression for the profit inActivity 3, problem 2?  <m>~~12x-5x+60</m></li>
@@ -384,7 +384,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="3">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
     <li><m>3x-20</m></li>
     <li><m>2ab+2a</m></li>
     <li><m>5bx+6x-5</m></li>

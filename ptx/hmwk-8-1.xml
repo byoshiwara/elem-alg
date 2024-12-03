@@ -3,12 +3,12 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 8.1</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, <ol marker="a.">
 	<li>Evaluate the fraction for the given values of the variable.</li>
 	<li>For what values of the variable is the fraction undefined?</li></ol></p></introduction>
 
 <exercise number="1"><statement><p><m>\dfrac{x+1}{x-3},~~~~~x=\dfrac{1}{2},~{-4}</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><p><m>\dfrac{-3}{5} </m>, <m>\dfrac{3}{7} </m></p></li>
 	<li><p><m>3 </m></p></li>
 </ol></p></answer></exercise>
@@ -16,10 +16,10 @@
 <exercise number="2"><statement><p><m>\dfrac{2a-a^2}{a^2+1},~~~~~a=3,~{-1}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="3"><statement><p><ol marker="a">
+<exercise number="3"><statement><p><ol marker="a.">
 	<li>For what values of the variable is the fraction <m>\dfrac{2x+1}{x^2-1}</m> undefined?</li>	
 	<li>Find a value of <m>x</m> for which the fraction is equal to zero.</li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><p><m>-1 </m>, <m>1 </m></p></li>
 	<li><p><m>\dfrac{-1}{2} </m></p></li>
 </ol></p></answer></exercise>
@@ -49,38 +49,38 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 12<ndash/>17, reduce the fraction if possible. If the fraction cannot be reduced, state the reason.</p></introduction>
 
-<exercise number="12"><statement><p><ol marker="a">
+<exercise number="12"><statement><p><ol marker="a.">
 	<li><m>\dfrac{a+4}{a+5}</m></li>
 	<li><m>\dfrac{a \cdot 4}{a \cdot 5}</m></li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a">
+<exercise number="13"><statement><p><ol marker="a.">
 	<li><m>\dfrac{2 \cdot m}{4 \cdot n}</m></li>
 	<li><m>\dfrac{2+m}{4+n}</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><p><m>\dfrac{m}{2n} </m></p></li>
 	<li><p>Cannot be reduced</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a">
+<exercise number="14"><statement><p><ol marker="a.">
 	<li><m>\dfrac{z-3}{z+9}</m></li>
 	<li><m>\dfrac{z(-3)}{z(+9)}</m></li></ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol marker="a">
+<exercise number="15"><statement><p><ol marker="a.">
 	<li><m>\dfrac{u(-v)}{u(v)}</m></li>
 	<li><m>\dfrac{u-v}{u+v}</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><p><m>-1 </m></p></li>
 	<li><p>Cannot be reduced</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a">
+<exercise number="16"><statement><p><ol marker="a.">
 	<li><m>\dfrac{3+x+y}{2+x+y}</m></li>
 	<li><m>\dfrac{3xy}{2xy}</m></li></ol></p></statement></exercise>
 
-<exercise number="17"><statement><p><ol marker="a">
+<exercise number="17"><statement><p><ol marker="a.">
 	<li><m>\dfrac{x+4}{x+2}</m></li>
 	<li><m>\dfrac{4x}{2x}</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><p>Cannot be reduced</p></li>
 	<li><p>2</p></li>
 </ol></p></answer></exercise>
@@ -88,34 +88,34 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 18<ndash/>22, reduce each fraction if possible, and select the correct response, (a) or (b).</p></introduction>
 
-<exercise number="18"><statement><p><m>\dfrac{x+2}{y+2}</m><ol marker="a">
+<exercise number="18"><statement><p><m>\dfrac{x+2}{y+2}</m><ol marker="a.">
 	<li><m>\dfrac{x}{y}</m></li>
 	<li>Cannot be reduced</li></ol></p></statement></exercise>
 
-<exercise number="19"><statement><p><m>\dfrac{2x+4}{4}</m><ol marker="a">
+<exercise number="19"><statement><p><m>\dfrac{2x+4}{4}</m><ol marker="a.">
 	<li><m>\dfrac{x+2}{2}</m></li>
 	<li><m>2x</m></li></ol></p></statement>
 <answer><p>a</p></answer></exercise>
 
-<exercise number="20"><statement><p><m>\dfrac{y^2-1}{y-1}</m><ol marker="a">
+<exercise number="20"><statement><p><m>\dfrac{y^2-1}{y-1}</m><ol marker="a.">
 	<li><m>y+1</m></li>
 	<li><m>y</m></li></ol></p></statement></exercise>
 
-<exercise number="21"><statement><p><m>\dfrac{x^2+z^2}{x+z}</m><ol marker="a">
+<exercise number="21"><statement><p><m>\dfrac{x^2+z^2}{x+z}</m><ol marker="a.">
 	<li><m>x+z</m></li>
 	<li>Cannot be reduced</li></ol></p></statement>
 <answer><p>b</p></answer></exercise>
 
-<exercise number="22"><statement><p><m>\dfrac{n^2+n}{n}</m><ol marker="a">
+<exercise number="22"><statement><p><m>\dfrac{n^2+n}{n}</m><ol marker="a.">
 	<li><m>n^2</m></li>
 	<li><m>n+1</m></li></ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><m>\dfrac{z^2+2z+1}{z+1}</m><ol marker="a">
+<exercise number="23"><statement><p><m>\dfrac{z^2+2z+1}{z+1}</m><ol marker="a.">
 	<li><m>z+1</m></li>
 	<li><m>z^2+2</m></li></ol></p></statement>
 <answer><p>a</p></answer></exercise>
 
-<exercise number="24"><statement><p><m>\dfrac{m^2+4}{m+2}</m><ol marker="a">
+<exercise number="24"><statement><p><m>\dfrac{m^2+4}{m+2}</m><ol marker="a.">
 	<li><m>m+2</m></li>
 	<li>Cannot be reduced</li></ol></p></statement></exercise>
 </exercisegroup>
@@ -164,19 +164,19 @@
 <exercise number="38"><statement><p><m>\dfrac{3a-a^2}{a^2-2a-3}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 39<ndash/>42, <ol marker="a">
+<exercisegroup><introduction><p>For Problems 39<ndash/>42, <ol marker="a.">
 	<li>Choose a variable to represent the unknown quantity,</li> 
 	<li>then write an algebraic fraction.</li></ol></p></introduction>
 
 <exercise number="39"><statement><p>There are 84 first-graders at Bonnair Elementary School. What fraction of the first-graders have been immunized against German measles?</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><p><m>n</m>: number of immunized first-graders</p></li> 
 	<li><p><m>\dfrac{n}{84} </m></p></li></ol></p></answer></exercise>
 
 <exercise number="40"><statement><p>One hundred thirty-eight of the employees at Digitronics enrolled in a bonus incentive plan. What fraction of the employees enrolled?</p></statement></exercise>
 
 <exercise number="41"><statement><p>Gladys filled her car with gas three times while driving to Yellowstone National Park, a distance of 480 miles. What was her car's fuel efficiency during the trip? </p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><p><m>g</m>: gallons of gas Gladys' car holds</p></li> 
 	<li><p><m>\dfrac{480}{3g} </m></p></li></ol></p></answer></exercise>
 
@@ -186,7 +186,7 @@
 <exercisegroup><introduction><p>For Problems 43<ndash/>45, write algebraic fractions.</p></introduction>
 
 <exercise number="43"><statement><p>Sharelle's car still had 4 gallons in the gas tank when she filled up for $18.
- <ol marker="a">
+ <ol marker="a.">
 	<li>If the gas tank holds <m>x</m> gallons, what was the price per gallon of the gasoline?</li>
 	<li>Evaluate your fraction for <m>x=14</m>. What does your answer mean in this context?</li></ol></p></statement>
 <answer><p><ol>
@@ -194,13 +194,13 @@
 	<li><p>1.8; If the tank holds 14 gallons, gas costs $1.80  per gallon.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="44"><statement><p>Morgan drove across country in <m>h</m> hours, but he estimates that he spent 10 hours stopped for rest and meals.<ol marker="a">
+<exercise number="44"><statement><p>Morgan drove across country in <m>h</m> hours, but he estimates that he spent 10 hours stopped for rest and meals.<ol marker="a.">
 	<li>If he drove a total of 2800 miles, what was his average speed on the road?</li>
 	<li>Evaluate your fraction for<m>h=50</m>. What does your answer mean in this context?</li></ol></p></statement>
 </exercise>
 
 <exercise number="45"><statement><p>The volume of a test tube is given by its height times the area of its cross-section. A test tube that holds 200 cubic centimeters is <m>2x-1</m> centimeters long.
-<ol marker="a">
+<ol marker="a.">
 	<li>What is the area of its cross-section?</li>
 	<li>Evaluate your fraction for <m>x=13</m>. What does your answer mean in the context of the problem?</li></ol></p></statement>
 <answer><p><ol>
@@ -209,7 +209,7 @@
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="46"><statement><p>Ernestine wants to make a trip of 12 miles on her bicycle. If her trip takes a total of <m>t</m> hours, her average speed will be <m>v</m> miles per hour, where <m>v</m> is given by <m>v = \dfrac{12}{t}</m>. <ol marker="a">
+<exercise number="46"><statement><p>Ernestine wants to make a trip of 12 miles on her bicycle. If her trip takes a total of <m>t</m> hours, her average speed will be <m>v</m> miles per hour, where <m>v</m> is given by <m>v = \dfrac{12}{t}</m>. <ol marker="a.">
 	<li>Complete the table and graph the equation on the grid below.</li>
 	<li>What will be Ernestine's average speed if the trip takes her 2 hours? Locate the corresponding point on your graph.</li>
 	<li>How long will it take Ernestine to finish the trip if she maintains an average speed of 18 miles per hour?  Locate the corresponding point on the graph.</li></ol></p>
@@ -294,14 +294,14 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     </latex-image>
     </image>
 </sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
 	<li>How long does the exercise take if there is no current in the river?</li>
 	<li>How long will it take if the current is 4 miles per hour?</li>
 	<li>Find an exact answer for part (b) by using the equation.</li>
 	<li>If the exercise took 2 hours, what was the current in the river?</li>
 	<li>As the speed of the current increases, what happens to the time needed for the exercise?</li></ol></p>
 </statement>
-<answer><p><ol lable="a" cols="2">
+<answer><p><ol marker="a" cols="2">
 	<li><p>30 min</p></li>
 	<li><p>50 min</p></li>
 	<li><p>50 min</p></li>
@@ -312,14 +312,14 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 <exercisegroup><introduction><p>Mental Exercise: For Problems 48<ndash/>50, decide which expressions are equivalent to the given fraction. Do not use pencil, paper, or calculator!</p></introduction>
 
 <exercise number="48"><statement><p><m>\dfrac{2}{3}</m></p>
-<p><ol marker="a" cols="4">
+<p><ol marker="a." cols="4">
 	<li><m>\dfrac{2+4}{3+4}</m></li>
 	<li><m>\dfrac{2 \cdot 4}{3 \cdot 4}</m></li>
 	<li><m>\dfrac{22}{33}</m></li>
 	<li><m>\dfrac{2 \div 4}{3 \div 4}</m></li></ol></p></statement></exercise>
 
 <exercise number="49"><statement><p><m>\dfrac{3}{5}</m></p>
-<p><ol marker="a" cols="4">
+<p><ol marker="a." cols="4">
 	<li><m>\dfrac{3x}{5x}</m></li>
 	<li><m>\dfrac{3-x}{5-x}</m></li>
 	<li><m>\dfrac{30+x}{x+50}</m></li>
@@ -327,7 +327,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 <answer><p>a, d</p></answer></exercise>
 
 <exercise number="50"><statement><p><m>\dfrac{2w-6}{w}</m></p>
-<p><ol marker="a" cols="4">
+<p><ol marker="a." cols="4">
 	<li><m>-4</m></li>
 	<li><m>\dfrac{6-2w}{-w}</m></li>
 	<li><m>2-\dfrac{6}{w}</m></li>

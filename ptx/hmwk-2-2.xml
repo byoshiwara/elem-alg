@@ -34,14 +34,14 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="8"><statement><m>0-[5-(-1)]+[-6-3]</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="9"><statement><p>Find each product.<ol marker="a" cols="2">
+<exercise number="9"><statement><p>Find each product.<ol marker="a." cols="2">
 	<li><m>(-2)(3)(4)</m></li>
 	<li><m>(-2)(-3)(4)</m></li>
 	<li><m>(-2)(-3)(-4)</m></li>
 	<li><m>(-2)(-3)(4)(2)</m></li>
 	<li><m>(-2)(-3)(-4)(2)</m></li>
 	<li><m>(-2)(-3)(-4)(-2)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>-24</m></li>
 	<li><m>24</m></li>
 	<li><m>-24</m></li>
@@ -49,43 +49,43 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li><m>-48</m></li>
 	<li><m>48</m></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p>Use your results from Problem 9 to complete the statements:<ol marker="a">
+<exercise number="10"><statement><p>Use your results from Problem 9 to complete the statements:<ol marker="a.">
 	<li>The product of an odd number of negative numbers is <fillin characters="6"/>.</li>
 	<li>The product of an even number of negative numbers is <fillin characters="6"/>.</li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 11<ndash/>14, use the order of operations to simplify the expression.</p></introduction>
 
-<exercise number="11"><statement><p><ol marker="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a." cols="2">
 	<li><m>-2(-3)-4</m></li>
 	<li><m>5(-4)-3(-6)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>2</m></li>
 	<li><m>-2</m></li></ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol marker="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a." cols="2">
 	<li><m>(-4-3)(-4+3)</m></li>
 	<li><m>-3(8)-6(-2)-5(2)</m></li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a." cols="2">
 	<li><m>\dfrac{15}{-3}-\dfrac{4-8}{8-12}</m></li>
 	<li><m>\dfrac{4-2(-5)}{-4+3(-1)}</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>-6</m></li>
 	<li><m>-2</m></li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a" cols="2">
+<exercise number="14"><statement><p><ol marker="a." cols="2">
 	<li><m>12.6-0.32(0.25)(4.2-8.7)</m></li>
 	<li><m>(5.8-2.6)(-2.5)(-0.6+3)</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="15"><statement><p>Simplify each expression.<ol marker="a" cols="3">
+<exercise number="15"><statement><p>Simplify each expression.<ol marker="a." cols="3">
 	<li><m>-3(-4)(-5)</m></li>
 	<li><m>-3(-4))-5</m></li>
 	<li><m>-3(-4-5)</m></li>
 	<li><m>-3-(-4-5)</m></li>
 	<li><m>-3-(-4)(-5)</m></li>
 	<li><m>(-3-4)(-5)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
 	<li><m>-60</m></li>
 	<li><m>7</m></li>
 	<li><m>27</m></li>
@@ -93,7 +93,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li><m>-23</m></li>
 	<li><m>35</m></li></ol></p></answer></exercise>
 
-<exercise number="16"><statement><p>Simplify each expression.<ol marker="a" cols="3">
+<exercise number="16"><statement><p>Simplify each expression.<ol marker="a." cols="3">
 	<li><m>24 \div 6-2</m></li>
 	<li><m>24 \div (-6-2)</m></li>
 	<li><m>24 \div (-6)-2</m></li>
@@ -120,20 +120,20 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="22"><statement><p><m>\dfrac{x-m}{s}~~~~</m> for <m>x=4,~m=\dfrac{9}{4},~s=\dfrac{3}{2}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="23"><statement><p><ol marker="a">
-	<li><p>Evaluate each expression for <m>x=-5</m>. What do you notice?<ol marker="i" cols="3">
+<exercise number="23"><statement><p><ol marker="a.">
+	<li><p>Evaluate each expression for <m>x=-5</m>. What do you notice?<ol marker="i." cols="3">
 		<li><m>\dfrac{-3}{4}x</m></li>
 		<li><m>\dfrac{-3x}{4}</m></li>
 		<li><m>-0.75x</m></li></ol></p></li>
 	<li>Does <m>\dfrac{-8}{5}x=\dfrac{-8}{5x}</m>? Support your answer with examples.</li></ol></p></statement>
-<answer><p><ol marker="a">
-	<li><p><ol marker="i" cols="3">
+<answer><p><ol marker="a.">
+	<li><p><ol marker="i." cols="3">
 		<li><m>-\dfrac{15}{4}</m></li>
 		<li><m>-\dfrac{15}{4}</m></li>
 		<li><m>-3.75</m></li></ol></p></li>
 	<li>No</li></ol></p></answer></exercise>
  
-<exercise number="24"><statement><p>Which of the following are equivalent to <m>-\dfrac{4}{9}x</m>?<ol marker="a" cols="3">
+<exercise number="24"><statement><p>Which of the following are equivalent to <m>-\dfrac{4}{9}x</m>?<ol marker="a." cols="3">
 	<li><m>\dfrac{4}{9}(-x)</m></li>
 	<li><m>\dfrac{-4x}{-9}</m></li>
 	<li><m>\dfrac{-4}{9x}</m></li>
@@ -192,7 +192,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercise number="27"><statement><p>Salewa saved $5000 to live on while going to school full time. She spends $200 per week on living expenses.<ol marker="a">
+<exercise number="27"><statement><p>Salewa saved $5000 to live on while going to school full time. She spends $200 per week on living expenses.<ol marker="a.">
 	<li>How much of Salewa's savings will be left after 3 weeks?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
 	<li>Fill in the table below.
@@ -214,7 +214,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular></sidebyside></li>
 	<li>Write an equation that gives Salewa's savings, <m>S</m>, after <m>w</m> weeks.</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li>$4400;~ $2600</li>
 	<li>Multiply the number of weeks by $200, then subtract from $5000.</li>
 	<li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -231,7 +231,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                     </tabular></sidebyside></li>
     <li><m>S=5000-200w</m></li></ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>To calculate how much state income tax she owes, Francine subtracts $2000 from her income, and then takes 12% of the result.<ol marker="a">
+<exercise number="28"><statement><p>To calculate how much state income tax she owes, Francine subtracts $2000 from her income, and then takes 12% of the result.<ol marker="a.">
 	<li>What is Francine's state income tax if her income is $8000?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
 	<li>Fill in the table below.
@@ -254,29 +254,29 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                     </tabular></sidebyside></li>
 	<li>Write an equation that gives Francine's state income tax <m>T</m>, if her income is <m>I</m>.</li></ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 29<ndash/>32, <ol marker="a">
+<exercisegroup><introduction><p>For Problems 29<ndash/>32, <ol marker="a.">
 	<li>Choose a variable for the unknown quantity and write an algebraic expression.</li>  
 	<li>Evaluate the expression for the given values.</li></ol></p></introduction>
 
-<exercise number="29"><statement><p><ol marker="a">
+<exercise number="29"><statement><p><ol marker="a.">
 	<li>Three inches less than twice the width</li>
   	<li>The width is 13 inches.</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>w=~</m> width (inches);<m>~~2w-3</m></li>
   	<li>23 inches</li></ol></p></answer></exercise>
 
-<exercise number="30"><statement><p><ol marker="a">
+<exercise number="30"><statement><p><ol marker="a.">
 	<li>Twenty dollars more than 40% of the principal</li>
     <li>The principal is $500.</li></ol></p></statement></exercise>
 
-<exercise number="31"><statement><p><ol marker="a">
+<exercise number="31"><statement><p><ol marker="a.">
 	<li>$8 times the number of children's tickets subtracted from 150</li>
 	<li>There are 83 children's tickets</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>t=~</m> number of children's tickets; <m>8(150-t)</m></li>
 	<li>$536</li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol marker="a">
+<exercise number="32"><statement><p><ol marker="a.">
 	<li>One-third of $50 less than the profit</li>
 	<li>The profit is $500</li></ol></p></statement></exercise>
 </exercisegroup>
@@ -304,12 +304,12 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="40"><statement><p>Each passengers and three crew members on a small airplane is allowed 35 pounds of luggage. Write an expression for the weight of the luggage if there are <m>x</m> passengers.</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 41<ndash/>42,<ol marker="a">
+<exercisegroup><introduction><p>For Problems 41<ndash/>42,<ol marker="a.">
 	<li>Write an algebraic expression.</li>
 	<li>Make a table for the expression showing at least two positive values for the variable and two negative values.</li></ol></p></introduction>
 
 <exercise number="41"><statement><p>The ratio of a number to 4 more than the number</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
 	<li><m>\dfrac{x}{4+x}</m></li>
 	<li>Many answers possible</li></ol></p></answer></exercise>
 

@@ -108,20 +108,20 @@
 
 <exercisegroup><introduction><p>Mental Exercise: For Problems 35<ndash/>37, choose the best approximation for the square root. Do not use pencil, paper, or calculator.</p></introduction>
 
-<exercise number="35"><statement><p><m>\sqrt{13}</m><ol marker="a" cols="4">
+<exercise number="35"><statement><p><m>\sqrt{13}</m><ol marker="a." cols="4">
 	<li><m>6</m></li>
 	<li><m>6.5</m></li>
 	<li><m>3.5</m></li>
 	<li><m>4</m></li></ol></p></statement>
 <answer><p>c</p></answer></exercise>
 
-<exercise number="36"><statement><p><m>\sqrt{72}</m><ol marker="a" cols="4">
+<exercise number="36"><statement><p><m>\sqrt{72}</m><ol marker="a." cols="4">
 	<li><m>64</m></li>
 	<li><m>9</m></li>
 	<li><m>36</m></li>
 	<li><m>81</m></li></ol></p></statement></exercise>
 
-<exercise number="37"><statement><p><m>\sqrt{125.6}</m><ol marker="a" cols="4">
+<exercise number="37"><statement><p><m>\sqrt{125.6}</m><ol marker="a." cols="4">
 	<li><m>11</m></li>
 	<li><m>12</m></li>
 	<li><m>15</m></li>

@@ -245,7 +245,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="4">
+<p><ol marker="1." cols="4">
     <li><m>0.375</m></li>
     <li><m>1.4</m></li>
     <li><m>1.\overline{3}</m></li>
@@ -262,7 +262,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 <subsubsection><title>Activity 1: Ratios and Rates</title>
 
 <exercises>
-<exercise><statement><p>On a Saturday evening, a restaurant found that 84 of its customers asked for the nonsmoking section, and 35 customers preferred the smoking section.<ol marker="a">
+<exercise><statement><p>On a Saturday evening, a restaurant found that 84 of its customers asked for the nonsmoking section, and 35 customers preferred the smoking section.<ol marker="a.">
    <li>What was the ratio of smokers to nonsmokers?</li>
     <li> Write the ratio in simplest form.</li></ol></p></statement></exercise>
 
@@ -401,7 +401,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 <p><m>\blert{\text{Conjecture:}}</m></p></statement></exercise>
 
 <exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><p><ol marker="a">
+<sidebyside widths = "50% 45%" valigns="middle middle"><p><ol marker="a.">
     <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
         <me>T=\hphantom{0000}</me></p></li>
     <li><p>Use your equation to fill in the second column of the table.</p><p></p>
@@ -459,7 +459,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 </statement></exercise>
 
 <exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol marker="a">
+<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol marker="a.">
     <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
         <me>D=\hphantom{0000}</me></p></li>
     <li><p>Use your equation to fill in the second column of the table.</p><p></p>
@@ -534,7 +534,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
     <li>Recognizing proportional variables</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>In Activity 1, Problem 2, did you express the ratio as a common fraction or as a decimal fraction?  Why?</li>
     <li>In Activity 2, Problem 3, did you use miles or gallons in the numerators of your ratios?  Could you have used the other unit?</li>
     <li>In Activity 3, what did you learn about the graphs of proportional variables?</li></ol></p></assemblage>
@@ -568,7 +568,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 <p>On a map of Chesterfield County, 1 inch represents <m>4\frac{1}{2}</m> miles. If Richmond and Petersburg are <m>6\frac{2}{3}</m> inches apart on the map, what is the actual distance between the two towns?</p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="3">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
     <li><m>\dfrac{10}{3}</m></li>
     <li>Yes</li>
     <li><m>\dfrac{1}{9/2} = \dfrac{20/3}{x};~~</m> 30 mi</li></ol></p>

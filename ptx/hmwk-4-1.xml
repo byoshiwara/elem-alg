@@ -19,19 +19,19 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, simplify each product. Which product in each pair requires the distributive law?</p></introduction>
 
-<exercise number="5"><statement><p><ol marker="a">
+<exercise number="5"><statement><p><ol marker="a.">
 	<li><m>8(4c)</m></li>
 	<li><m>8(4+c)</m></li></ol></p></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
 	<li><m>32c</m></li>
 	<li><m>32+8c</m></li></ol></p></answer></exercise>
 
- <exercise number="6"><statement><p><ol marker="a">
+ <exercise number="6"><statement><p><ol marker="a.">
 	<li><m>2(-8-t)</m></li>
 	<li><m>2(-8t)</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="7"><statement><p>Which of the following is a correct application of the distributive law?<ol marker="a" cols="2">
+<exercise number="7"><statement><p>Which of the following is a correct application of the distributive law?<ol marker="a." cols="2">
 	<li><m>5(3a)=15a</m></li>
 	<li><m>5(3+a)=15+a</m></li>
 	<li><m>5(3a)=15(5a)</m></li>
@@ -39,7 +39,7 @@
 <answer><p>d</p></answer></exercise>
 
 <exercise number="8"><statement><p>Simplify each expression if possible. Then evaluate for <m>x=3,~y=9</m>.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>2(xy)</m></li>
 	<li><m>2(x+y)</m></li>
 	<li><m>2-xy</m></li>
@@ -81,63 +81,63 @@
  <exercise number="20"><statement><m>\dfrac{0.3}{0.5} = \dfrac{b+2}{12-b}</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="21"><statement><p>Choose a value for the variable and show that the following pairs of expressions are not equivalent.<ol marker="a" cols="2">
+<exercise number="21"><statement><p>Choose a value for the variable and show that the following pairs of expressions are not equivalent.<ol marker="a." cols="2">
 	<li><m>5(x+3)</m> and <m>5x+3</m></li>
 	<li><m>-4(c-3)</m> and <m>-4c-12</m></li></ol></p></statement>
- <answer><p><ol marker="a" cols="2">
+ <answer><p><ol marker="a." cols="2">
 	<li><m>x=0</m></li>
 	<li><p><m>5(x+3)=15</m> and <m>5x+3=3</m></p></li></ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol marker="a">
+<exercise number="22"><statement><p><ol marker="a.">
 	<li>Evaluate the expression <m>(2x+7)-4(4x-2)-(-2x+3)</m> for <m>x=-3</m>.</li>
 	<li>Simplify the expression in part (a) by combining like terms.</li>
 	<li>Evaluate your answer to part (b) for <m>x=-3</m>. Check that you got the same answer for part (a).</li>
 	<li>Are the expressions in parts (a) and (b) equivalent?  Why or why not?</li> </ol></p></statement></exercise>
 
-<exercise number="23"><statement><p>The length of a rectangle is 8 feet shorter than twice its width. Write expressions in terms of <m>w</m>, the width of the rectangle.<ol marker="a">
+<exercise number="23"><statement><p>The length of a rectangle is 8 feet shorter than twice its width. Write expressions in terms of <m>w</m>, the width of the rectangle.<ol marker="a.">
 	<li>The length of the rectangle</li>
 	<li>The perimeter of the rectangle</li>
 	<li>The area of the rectangle</li></ol></p></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
  	<li><m>2w-8</m></li>
  	<li><m>6w-16</m></li>
  	<li><m>2w^2-8w</m></li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Risa bought a skirt and a sweater that together cost $108. Then she bought a pair of shoes that cost twice as much as the sweater.  Write and simplify expressions in terms of <m>c</m>, the cost of the skirt:
-<ol marker="a">
+<ol marker="a.">
 	<li>The cost of the sweater</li>
 	<li>The cost of the shoes</li>
 	<li>The total amount Risa spent</li></ol></p></statement></exercise>
 
- <exercise number="25"><statement><p>Albert and Isaac left the same hotel at the same time, and each drove for 3 hours, but Albert drove 15 miles per hour faster than Isaac. Write and simplify expressions in terms of Isaac's speed, <m>s</m>.<ol marker="a">
+ <exercise number="25"><statement><p>Albert and Isaac left the same hotel at the same time, and each drove for 3 hours, but Albert drove 15 miles per hour faster than Isaac. Write and simplify expressions in terms of Isaac's speed, <m>s</m>.<ol marker="a.">
 	<li>How far Isaac drove</li>
 	<li>How far Albert drove</li>
 	<li>If they drove in the same direction, how far apart they are now</li>
 	<li>If they drove in opposite directions, how far apart they are now</li></ol></p></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
 	<li><m>3s</m></li>
 	<li><m>3s+45</m></li>
 	<li><m>45</m></li>
 	<li><m>6s+45</m></li></ol></p></answer></exercise>
 
- <exercise number="26"><statement><p>A box of AlmondOats contains 15 ounces of cereal made of oat flakes and sliced almonds. Oat flakes cost 15 cents per ounce, and almonds cost 35 cents per ounce. Write and simplify expressions in terms of <m>a</m>, the number of ounces of almonds in the box.<ol marker="a">
+ <exercise number="26"><statement><p>A box of AlmondOats contains 15 ounces of cereal made of oat flakes and sliced almonds. Oat flakes cost 15 cents per ounce, and almonds cost 35 cents per ounce. Write and simplify expressions in terms of <m>a</m>, the number of ounces of almonds in the box.<ol marker="a.">
 	<li>The number of ounces of oat flakes in the box</li>
 	<li>The cost of the almonds</li>
 	<li>The cost of the oat flakes</li>
 	<li>The total cost of a box of AlmondOats</li></ol></p></statement></exercise>
 
- <exercise number="27"><statement><p>Trader Jim's Pomegranate Punch is 25% pomegranate juice, and Pomajoy is 60% pomegranate juice. Vera mixes some of each to make 8 quarts of juice drink. Write and simplify expressions in terms of <m>x</m>, the number of quarts of Pomajoy she uses.<ol marker="a">
+ <exercise number="27"><statement><p>Trader Jim's Pomegranate Punch is 25% pomegranate juice, and Pomajoy is 60% pomegranate juice. Vera mixes some of each to make 8 quarts of juice drink. Write and simplify expressions in terms of <m>x</m>, the number of quarts of Pomajoy she uses.<ol marker="a.">
 	<li>The number of quarts of Pomegranate Punch</li>
 	<li>The number of quarts of pomegranate juice in the Pomajoy</li>
 	<li>The number of quarts of pomegranate juice in the Pomegranate Punch</li>
 	<li>The number of quarts of pomegranate juice in Vera's mixture</li></ol></p></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
 	<li><m>8-x</m></li>
 	<li><m>0.6x</m></li>
 	<li><m>2-0.25x</m></li>
 	<li><m>0.35x+2</m></li></ol></p></answer></exercise>
 
- <exercise number="28"><statement><p>Premium ice cream is 12% butterfat, and chocolate syrup is 55% butterfat. A chocolate sundae, without whipped cream and a cherry, weighs 10 ounces. Write and simplify expressions in terms of <m>x</m>, the number of ounces of ice cream in the sundae.<ol marker="a">
+ <exercise number="28"><statement><p>Premium ice cream is 12% butterfat, and chocolate syrup is 55% butterfat. A chocolate sundae, without whipped cream and a cherry, weighs 10 ounces. Write and simplify expressions in terms of <m>x</m>, the number of ounces of ice cream in the sundae.<ol marker="a.">
 	<li>The number of ounces of chocolate syrup in the sundae</li>
 	<li>The amount of fat in the ice cream</li>
 	<li>The amount of fat in the chocolate syrup</li>
@@ -185,26 +185,26 @@
     </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercise number="31"><statement><p>The length of a rectangular vegetable garden is 6 yards more than twice its width.<ol marker="a">
+<exercise number="31"><statement><p>The length of a rectangular vegetable garden is 6 yards more than twice its width.<ol marker="a.">
 	<li>Write an expression for the perimeter of the garden in terms of its width.</li>
 	<li>Ann bought 42 yards of fence to enclose the garden. What are its dimensions?</li></ol></p></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
 	<li><m>6w+12</m></li>
 	<li><p>5 by 16 yards</p></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Revenue from the state lottery is divided between education and administrative costs in the ratio of 4 to 3. If the lottery revenue this year is $24,000,000, how much money will go to education?</p></statement></exercise>
 
- <exercise number="33"><statement><p>An apple and a glass of milk together contain 260 calories.<ol marker="a">
+ <exercise number="33"><statement><p>An apple and a glass of milk together contain 260 calories.<ol marker="a.">
 	<li>If an apple contains <m>a</m> calories, how many calories are in a glass of milk?</li>
 	<li>Write an expression for the number of calories in two apples and three glasses of milk.</li>
 	<li>If two apples and three glasses of milk contain 660 calories, find the number of calories in an apple.</li></ol></p></statement>
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
 	<li><m>260-a</m></li>
 	<li><m>780-a</m></li>
 	<li><m>120</m></li></ol></p></answer></exercise>
 
  <exercise number="34"><statement><p>Melody sold 47 tickets to a charity concert. Reserved seats cost $10 and open seating was $6 a ticket. Let <m>x</m> represent the number of reserved seats she sold. Write expressions in terms of <m>x</m> for:
-<ol marker="a">
+<ol marker="a.">
 	<li>The number of open seating tickets Melody sold</li>
 	<li>The amount of money Melody collected from reserved seating tickets</li>
 	<li>The amount of money Melody collected from open seating tickets</li>

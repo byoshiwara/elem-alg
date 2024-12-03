@@ -117,7 +117,7 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 
 <assemblage><title>To solve an equation algebraically</title>
 <idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>We can add or subtract the same number from both sides.</li>
 	<li>We can multiply or divide both sides by the same number, as long as 
 	that number is not zero.</li></ol></p></assemblage>
@@ -160,7 +160,7 @@ The solution to this equation is 15. You can check that substituting <m>\alert{1
 
 <assemblage><title>To solve an equation algebraically</title>
 <idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Ask yourself what operation has been performed on the variable.</li>
 	<li>Perform the opposite operation on both sides of the equation in order to isolate the variable.</li>
 </ol></p></assemblage>
@@ -196,7 +196,7 @@ Finally, we answer the question in a sentence:
 
 <assemblage><title>Steps for solving an applied problem</title>
 <idx><h>applied problems</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Identify the unknown quantity and choose a variable to represent it.</li>
 	<li>Find some quantity that can be described in two different ways, and write an equation using the variable to model 
 		the problem situation.</li>
@@ -205,7 +205,7 @@ Finally, we answer the question in a sentence:
 
 <example xml:id="Example-1-4-5"><statement><p>Jerry needs an additional $35 for airfare to New York. The ticket to New York costs $293. How much money does Jerry have?</p></statement>
 
-<solution><p>We follow the three steps. <ol marker="1">
+<solution><p>We follow the three steps. <ol marker="1.">
     <li>The amount of money Jerry has is unknown.
         <me>\blert{\text{Amount of money Jerry has:}~~m}</me></li>
     <li><p>The airfare to New York can be described in two different ways:
@@ -277,7 +277,7 @@ Finally, we answer the question in a sentence:
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1" cols="3">
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1." cols="3">
     <li><m>m-15</m></li>
     <li><m>15-m</m></li>
     <li><m>m+15</m></li>
@@ -323,12 +323,12 @@ Finally, we answer the question in a sentence:
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
 
-    <ol marker="a">
+    <ol marker="a.">
     <li>When we are given a value of <m>D</m>, we <fillin characters="6"/> 4 to find the value of <m>F</m>. (Why?)</li>
     <li>When we are given a value of <m>F</m>, we <fillin characters="6"/> 4 to find Delbert's age. (Why?)</li></ol></p>
 </statement></exercise>
 
-<exercise><statement><p>Fernando plans to share an apartment with three other students and split the rent equally. <ol marker="a"> 
+<exercise><statement><p>Fernando plans to share an apartment with three other students and split the rent equally. <ol marker="a."> 
     <li>Let <m>r</m> stand for the rent on the apartment and <m>s</m> for Fernando's share. Write an equation for <m>s</m> in terms of <m>r</m>.</li>
     <li>Fill in the table.
         <sidebyside width="60%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -404,7 +404,7 @@ Finally, we answer the question in a sentence:
 
 <subsubsection><title>Activity 3:  Using Formulas</title>
 <idx><h>formula</h><h>using</h></idx>
-<p>The distance from Los Angeles to San Francisco is approximately 420 miles. How long will it take a car traveling at 60 miles per hour to go from Los Angeles to San Francisco? Follow the steps to solve the problem:<ol marker="1">
+<p>The distance from Los Angeles to San Francisco is approximately 420 miles. How long will it take a car traveling at 60 miles per hour to go from Los Angeles to San Francisco? Follow the steps to solve the problem:<ol marker="1.">
     <li>Write down the appropriate formula.</li>
     <li>List the given values of the variables.</li>
     <li>Which variable is unknown?</li>      
@@ -455,13 +455,13 @@ Finally, we answer the question in a sentence:
     <li>Writing an equation to model a problem</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>How can you check to see whether a given number is a solution of an equation?</li>
-    <li><p><ol marker="a">
+    <li><p><ol marker="a.">
         <li>Is the statement <m>3+4=12</m> an equation?  Why or why not?</li>
         <li>Is the statement <m>x=4=12</m> an equation?  Why or why not?</li></ol></p></li>
     <li>Describe a two-step strategy for solving an equation algebraically.</li>
-    <li><p><ol marker="a">
+    <li><p><ol marker="a.">
         <li>What is the inverse operation for subtraction?</li>
         <li>What is the inverse operation for division?</li></ol></p></li>
     <li>In Activity 4, Problem 3, how do we write 6% as a decimal?</li></ol></p>
@@ -494,7 +494,7 @@ Finally, we answer the question in a sentence:
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="3">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
     <li><m>n-5=30</m></li>
     <li><m>\dfrac{n}{5}=30</m></li>
     <li><m>5n=30</m></li>

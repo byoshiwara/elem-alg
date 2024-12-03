@@ -60,11 +60,11 @@
 <exercise number="18"><statement><m>-5p-4+3p=2+7p+3</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="19"><statement><p><ol marker="a">
+<exercise number="19"><statement><p><ol marker="a.">
 	<li>Evaluate the expression <m>-3y+2+7y-6y-4y-8</m> for <m>y=2.5</m>.</li>
 	<li>Simplify the expression in part (a).</li>
 	<li>Evaluate your answer to part (b) for <m>y=2.5</m>. Check that you got the same answer for part (a).</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>-21</m></p></li>
     <li><p><m>-6y-6</m></p></li>
     <li><p><m>-21</m></p></li></ol></p></answer></exercise>
@@ -134,42 +134,42 @@
 
 <exercisegroup><introduction><p>For Problems 25<ndash/>29, write an algebraic expression or an equation to answer each question.</p></introduction>
 
-<exercise number="25"><statement><p>There are 8 more cats than dogs at the county shelter. Write expressions in terms of the number of dogs, <m>d</m>.<ol marker="a">
+<exercise number="25"><statement><p>There are 8 more cats than dogs at the county shelter. Write expressions in terms of the number of dogs, <m>d</m>.<ol marker="a.">
     <li>The number of cats</li>
     <li>The total number of cats and dogs</li>
     <li>If there are 40 dogs and cats at the shelter, how many dogs are there?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>d+8</m></p></li>
     <li><p><m>2d+8</m></p></li>
     <li><p>There are 16 dogs.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="26"><statement><p>For every smoker in the restaurant there are three nonsmokers. Write expressions in terms of <m>x</m>, the number of smokers.<ol marker="a">
+<exercise number="26"><statement><p>For every smoker in the restaurant there are three nonsmokers. Write expressions in terms of <m>x</m>, the number of smokers.<ol marker="a.">
     <li>The number of nonsmokers</li> 
     <li>The total number of people in the restaurant</li>
     <li>If there are 36 people in the restaurant, how many are smokers?</li></ol></p></statement>
 </exercise>
 
-<exercise number="27"><statement><p>A tortoise and a hare are having a race. After <m>t</m> seconds, the tortoise has traveled <m>0.2t</m> feet and the hare has traveled <m>10t</m> feet.<ol marker="a">
+<exercise number="27"><statement><p>A tortoise and a hare are having a race. After <m>t</m> seconds, the tortoise has traveled <m>0.2t</m> feet and the hare has traveled <m>10t</m> feet.<ol marker="a.">
     <li>Express the distance between them in terms of <m>t</m>.</li>
     <li>How far apart are the tortoise and the hare after 10 seconds?</li>
     <li>When will they be 147 feet apart?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>9.8t</m></p></li>
     <li><p><m>98</m> feet</p></li>
     <li><p>15 seconds</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>Delbert bought a high definition TV at a price of <m>x</m> dollars. The sales tax in his state is 8%. <ol marker="a">
+<exercise number="28"><statement><p>Delbert bought a high definition TV at a price of <m>x</m> dollars. The sales tax in his state is 8%. <ol marker="a.">
     <li>Write an expression for the tax on Delbert's TV.</li>
     <li>Write an expression for the price Delbert paid, including tax.</li>
     <li>Delbert paid $928.80 for his TV.  What was the price before tax?</li></ol></p></statement>
 </exercise>
 
-<exercise number="29"><statement><p>The cost of producing <m>m</m> stereos is <m>251m+1355</m> dollars, and each stereo sells for $847.<ol marker="a">
+<exercise number="29"><statement><p>The cost of producing <m>m</m> stereos is <m>251m+1355</m> dollars, and each stereo sells for $847.<ol marker="a.">
     <li>What profit is made from producing and selling <m>m</m> stereos?</li>
     <li>How many stereos must be produced to make a profit of $16,525?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>596x-1355</m></p></li>
     <li><p>30</p></li>
 </ol></p></answer></exercise>

@@ -10,7 +10,7 @@
 This calculation is an application of the associative law for multiplication. We can see why the product is reasonable by recalling that multiplication is repeated addition, so that
 	<me>3(2a) = 2a + 2a + 2a = 6a~~~~~~~~~~~~~\blert{\text{Three terms}}</me></p>
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
 	<li><m>5(3x)=15x</m></li>
 	<li><m>-2(-4h)=8h</m></li></ol></p></statement></example>
 
@@ -132,12 +132,12 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 
 <p>We can often simplify algebraic expressions by combining like terms.</p>
 
-<example xml:id="Example-4-1-5"><statement><p>Delbert and Francine are collecting aluminum cans to recycle. They will be paid <m>x</m> dollars for every pound of cans they collect. At the end of three weeks, Delbert collected 23 pounds of aluminum cans, and Francine collected 47 pounds.<ol marker="a">
+<example xml:id="Example-4-1-5"><statement><p>Delbert and Francine are collecting aluminum cans to recycle. They will be paid <m>x</m> dollars for every pound of cans they collect. At the end of three weeks, Delbert collected 23 pounds of aluminum cans, and Francine collected 47 pounds.<ol marker="a.">
 	<li>Write algebraic expressions for the amount of money Delbert made, and the amount Francine made.</li>
 	<li>Write and simplify an expression for the total amount of money Delbert and Francine made from aluminum cans.</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>We multiply the number of pounds collected by the price per pound. Delbert made <m>23x</m> dollars, and Francine made <m>47x</m> dollars.</li>
 	<li><p>We add the amount of money Delbert made to the amount Francine made.
 			<me>23x+47x=70x</me></p></li></ol></p></solution></example>
@@ -150,12 +150,12 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 
 <p>The distributive law is also helpful for writing algebraic expressions.</p>
 
-<example xml:id="Example-4-1-6"><statement><p>The length of a rectangle is 3 feet less than twice its width, <m>w</m>.<ol marker="a">  
+<example xml:id="Example-4-1-6"><statement><p>The length of a rectangle is 3 feet less than twice its width, <m>w</m>.<ol marker="a.">  
 	<li>Write an expression for the length of the rectangle in terms of <m>w</m>.</li>
 	<li>Write and simplify an expression for the perimeter of the rectangle in terms of <m>w</m>.</li>
 	<li>Suppose the perimeter of the rectangle is 36 feet. Write and solve an equation to find the dimensions of the rectangle.</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>"Three feet less than twice the width" tells us to subtract 3 from twice the width. The length of the rectangle is 	<m>2w-3</m>.</li>
 	<li><p>The perimeter of a rectangle is given by the formula <m>P=2l+2w</m>. We substitute our expression for the length to get
 			<md><mrow>P \amp = 2(\alert{2w-3}) +2w  \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
@@ -191,7 +191,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="2">
+<p><ol marker="1." cols="2">
     <li><m>0.325x=91;~~280</m></li>
     <li><m>2w+2(40)=116;~~18~</m>cm</li>
     <li><m>50-28d=29,~~\dfrac{3}{4}~</m>lb</li>
@@ -204,11 +204,11 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 <subsubsection><title>Activity 1: Simplifying Expressions</title>
 
 <exercises>
-<exercise><statement><p>Simplify each product.<ol marker="a" cols="2">
+<exercise><statement><p>Simplify each product.<ol marker="a." cols="2">
     <li><m>6(-2b)</m></li>
     <li><m>-4(-7w)</m></li></ol></p></statement></exercise>
 
-<exercise><statement><p>Use the distributive law to simplify each expression.<ol marker="a" cols="2">
+<exercise><statement><p>Use the distributive law to simplify each expression.<ol marker="a." cols="2">
     <li><m>8(3y-6)</m></li>
     <li><m>-3(7+5x)</m></li></ol></p></statement></exercise>
 </exercises></subsubsection>
@@ -217,7 +217,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 
 <assemblage><title>Steps for Solving Linear Equations</title>
 <idx><h>equation</h><h>solving</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Use the distributive law to remove any parentheses.</li>
     <li>Combine like terms on each side of the equation.</li>
     <li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
@@ -234,7 +234,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 <subsubsection><title>Activity 3: Problem Solving</title>
 
 <exercises>
-<exercise><statement><p>Shalia runs a landscaping business. She has a budget of $385 to buy 20 rose bushes for one of her clients.  Hybrid tea roses cost $21 each, and shrub roses cost $16.<ol marker="a">       
+<exercise><statement><p>Shalia runs a landscaping business. She has a budget of $385 to buy 20 rose bushes for one of her clients.  Hybrid tea roses cost $21 each, and shrub roses cost $16.<ol marker="a.">       
     <li>If Shalia buys  tea roses, write an expression for the number of shrub roses she needs.</li>  
     <li>Write expressions for the cost of the tea roses and the cost of the shrub roses.</li>
     <li>Write and simplify an expression for the total cost of the roses.</li></ol></p></statement></exercise>
@@ -259,7 +259,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Explain the difference between <m>6(-2b)</m> and <m>6(-2+b)</m>. Which law or property do you apply to simplify each expression?</li>
     <li>Explain how to simplify each side of an equation before beginning to solve.</li>
     <li>What formula did you use in Problem 2 of Activity 3?</li></ol></p></assemblage>
@@ -275,7 +275,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 
 <exercise><statement><m>3a-4-3(2a-5)</m></statement></exercise>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
     <li><m>-4(-6t)+2</m></li>
     <li><m>-4(-6t+2)</m></li>
     <li><m>-4-6t-2</m></li>
@@ -292,10 +292,10 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </exercisegroup>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
     <li><m>-9x-6</m></li>
     <li><m>-3a+11</m></li>
-    <li><p><ol marker="a">
+    <li><p><ol marker="a.">
         <li><m>24t+2</m></li>
         <li><m>24t-8</m></li>
         <li><m>-6-6t</m></li>

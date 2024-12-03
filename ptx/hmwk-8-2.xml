@@ -36,7 +36,7 @@
 <exercise number="12"><statement><p><m>\dfrac{5a+25}{5a} \cdot \dfrac{10a}{2a+10}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="13"><statement><p>Write each product as a fraction.<ol marker="a" cols="3">
+<exercise number="13"><statement><p>Write each product as a fraction.<ol marker="a." cols="3">
 	<li><m>\dfrac{2}{3}x</m></li>
 	<li><m>\dfrac{3}{4}(a-b)</m></li>
 	<li><m>(n-2)\dfrac{1}{n-2}</m></li></ol></p></statement>
@@ -123,24 +123,24 @@
 
 <exercisegroup><introduction><p>For Problems 38<ndash/>40, simplify.</p></introduction>
 
-<exercise number="38"><statement><p><ol marker="a" cols="2">
+<exercise number="38"><statement><p><ol marker="a." cols="2">
 	<li><m>\dfrac{2}{x} + \dfrac{5}{x}</m></li>
 	<li><m>\dfrac{2}{x} - \dfrac{5}{x}</m></li>
 	<li><m>\dfrac{2}{x} \cdot \dfrac{5}{x}</m></li>
 	<li><m>\dfrac{2}{x} \div \dfrac{5}{x}</m></li></ol></p></statement></exercise>
 
-<exercise number="39"><statement><p><ol marker="a" cols="2">	
+<exercise number="39"><statement><p><ol marker="a." cols="2">	
 	<li><m>\dfrac{p}{q+2} + \dfrac{r-1}{q+2}</m></li>
 	<li><m>\dfrac{p}{q+2} - \dfrac{r-1}{q+2}</m></li>
 	<li><m>\dfrac{p}{q+2} \cdot \dfrac{r-1}{q+2}</m></li>
 	<li><m>\dfrac{p}{q+2} \div \dfrac{r-1}{q+2}</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m>\dfrac{p+r-1}{q+2}</m></li>
     <li><m>\dfrac{p-r+1}{q+2}</m></li>
     <li><m>\dfrac{p(r-1)}{(q+2)^2}</m></li>
     <li><m>\dfrac{p}{r-1}</m></li></ol></p></answer></exercise>
 
-<exercise number="40"><statement><p><ol marker="a" cols="2">
+<exercise number="40"><statement><p><ol marker="a." cols="2">
 	<li><m>(\dfrac{1}{c} \cdot \dfrac{1}{5}) \div \dfrac{2}{5}</m></li>
 	<li><m>\dfrac{1}{c} \cdot (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
 	<li><m>\dfrac{1}{c} \div (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
@@ -165,23 +165,23 @@
 <exercise number="46"><statement><p><m>\dfrac{q}{8 \pi} \left(\dfrac{3}{R}-\dfrac{a^2}{R^3}\right)</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="47"><statement><p><ol marker="a">
+<exercise number="47"><statement><p><ol marker="a.">
 	<li><p>Multiply: <m>~~\dfrac{2m^2-8}{3m^2-3} \cdot \dfrac{6-6m}{2m^2+4m}</m></p></li>
 	<li><p>Evaluate the expression in (a) for <m>m=3</m>.</p></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p><m>\dfrac{4-2m}{m(m+1)}</m></p></li>
     <li><p><m>\dfrac{-1}{6}</m></p></li></ol></p></answer></exercise>
 
 <exercise number="48"><statement><p>Multiply: <m>~~2x(x+2)(\dfrac{1}{2x}+\dfrac{x}{x+2}-1)</m></p></statement></exercise>
 
-<exercise number="49"><statement><p>Write an algebraic expression for each phrase, and simplify.<ol marker="a">
+<exercise number="49"><statement><p>Write an algebraic expression for each phrase, and simplify.<ol marker="a.">
 	<li>One-half of <m>x</m>.</li>
 	<li> <m>x</m> divided by one-half.</li>
 	<li>One-half divided by <m>x</m>.</li>
 	<li>The reciprocal of <m>a+b</m>.</li>
 	<li>Three-fourths of the reciprocal of <m>a+b</m>.</li>
 	<li>The reciprocal of <m>a+b</m> divided by three-fourths.</li></ol></p></statement>
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
     <li><m>\dfrac{x}{2} </m></li>
     <li><m>2x</m></li>
     <li><m>\dfrac{1}{2x} </m></li>
@@ -189,7 +189,7 @@
     <li><m>\dfrac{3}{4(a+b)} </m></li>
     <li><m>\dfrac{4}{3(a+b)} </m></li></ol></p></answer></exercise>
 
-<exercise number="50"><statement><p>Write an equation that expresses the second variable in terms of the first variable.<ol marker="a" cols="2">
+<exercise number="50"><statement><p>Write an equation that expresses the second variable in terms of the first variable.<ol marker="a." cols="2">
 	<li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>m</m></cell>

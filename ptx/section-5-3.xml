@@ -198,7 +198,7 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="4">
+<p><ol marker="1." cols="4">
     <li><m>-23</m></li>
     <li><m>54</m></li>
     <li><m>-38</m></li>
@@ -220,11 +220,11 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <exercises>
 <exercisegroup><introduction><p>Illustrate each problem with a sketch.</p></introduction>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li>Find the area of a square that measures 8 inches on a side.</li>
 	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p></statement></exercise>	
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li>Find the area of a square that measures 0.1 meter on a side.</li>
 	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p></statement></exercise>
 
@@ -234,12 +234,12 @@ centimeters by 8 centimeters?</p></statement></exercise>
 <exercise><statement><p>How many cubic feet of dirt came out of a hole that is 12.5 feet wide, 15 feet long, and 8.2 feet 
 deep?</p></statement></exercise>
 
-<exercise><statement><p>The side of a cube is 20 centimeters long.<ol marker="a">
+<exercise><statement><p>The side of a cube is 20 centimeters long.<ol marker="a.">
 	<li>Find the area of one face of the cube.</li>
 	<li>How many faces does the cube have? Find the total surface area (the sum of the areas of all the faces) of the cube.</li>
 	<li>Find the volume of the cube.</li></ol></p></statement></exercise>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li>How many square feet are in a square yard?</li>
 	<li>How many square inches are in a square foot?</li>
 	<li>How many cubic feet are in a cubic yard?</li>
@@ -251,11 +251,11 @@ deep?</p></statement></exercise>
 <subsubsection><title>Activity 2: Pythagorean Theorem</title>
 <exercises>
 
-<exercise><statement><p>The two short sides of a right triangle are 9 meters and 40 meters.<ol marker="a">
+<exercise><statement><p>The two short sides of a right triangle are 9 meters and 40 meters.<ol marker="a.">
 	<li>Sketch and label a figure.</li>
 	<li>What is the hypotenuse?</li></ol></p></statement></exercise>
 
-<exercise><statement><p>A baseball diamond is a square whose sides are 90 feet.<ol marker="a">
+<exercise><statement><p>A baseball diamond is a square whose sides are 90 feet.<ol marker="a.">
 	<li>Sketch and label a figure.</li>
 	<li>How far is it from first base to third base (which are on opposite corners of the square)?</li></ol></p></statement></exercise>
 </exercises>
@@ -264,7 +264,7 @@ deep?</p></statement></exercise>
 <subsubsection><title>Activity 3: Formulas</title>
 <exercises>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
 	<li><sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle"><p>The box at right has length <m>l</m>, and its width and height are both <m>w</m>. The box has 6 sides. Write expressions for the area of each face of the box.</p>
 	<image xml:id="act-5-3-3-1">
 	        <description>box</description>
@@ -310,7 +310,7 @@ deep?</p></statement></exercise>
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>Why are the units of area called square units?  Why are the units of volume called cubic units?</li>
 	<li>What is the Pythagorean theorem used for?</li>
 	<li>Explain how to find the surface area of a box.</li></ol></p></assemblage>
@@ -330,7 +330,7 @@ deep?</p></statement></exercise>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title>
-<p> <ol marker= "1" cols="4">
+<p> <ol marker= "1." cols="4">
 	<li>65.45 cm<m>^3</m></li>
 	<li>1.5 ft</li>
 	<li>4.12 mi</li>

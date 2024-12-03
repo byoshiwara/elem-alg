@@ -13,17 +13,17 @@
                 \end{aligned}</me></p></li>
 <li>The <term>absolute value</term> of a number is the unsigned part of the number. It is never negative.</li>
 
-<li><assemblage><title>Rules for Adding Integers</title><p><ol marker="1">
+<li><assemblage><title>Rules for Adding Integers</title><p><ol marker="1.">
 	<li>To add two numbers with the same sign, add their absolute values. The sum has the same sign as the numbers.</li>
 	<li>To add two numbers with opposite signs, subtract their absolute values. The sum has the same sign as the number with the larger absolute value.</li></ol></p></assemblage></li>
 
 <li><assemblage><title>Rules for Subtracting Integers</title>
-<p>To subtract <m>b</m> from <m>a</m>:<ol marker="1">
+<p>To subtract <m>b</m> from <m>a</m>:<ol marker="1.">
 	<li>Change the sign of <m>b</m>.</li>
 	<li>Change the subtraction to addition.</li>
 	<li>Proceed as in addition.</li></ol></p></assemblage></li>
 
-<li><assemblage><title>Products and Quotients of Signed Numbers</title><p><ol marker="1">
+<li><assemblage><title>Products and Quotients of Signed Numbers</title><p><ol marker="1.">
 	<li>The product or quotient of two numbers with opposite signs is a negative number.</li>
 	<li>The product or quotient of two numbers with the same sign is a positive number.</li></ol></p></assemblage></li>
 
@@ -46,7 +46,7 @@
 <li>To solve an equation that involves two or more operations, we undo those operations in reverse order.</li>
 <li>A statement that uses one of the symbols or is called an <term>inequality</term>.</li>
 
-<li><assemblage><title>Rules for Solving Inequalities</title><p><ol marker= "1">
+<li><assemblage><title>Rules for Solving Inequalities</title><p><ol marker= "1.">
 	<li>We can add or subtract the same quantity on both sides.</li> 
 	<li>We can multiply or divide both sides by the same positive number.</li>  
 	<li>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</li></ol></p></assemblage></li>
@@ -63,21 +63,21 @@
 <li><assemblage><title>To add or subtract like terms</title>
 <p>Add or subtract the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage></li>
 
-<li><assemblage><title>Removing parentheses</title><p><ol marker="1">
+<li><assemblage><title>Removing parentheses</title><p><ol marker="1.">
 <li>Parentheses following a plus sign may be omitted; each term within parentheses keeps its original sign.</li>
 <li>To remove parentheses that follow a minus sign, we change the sign of each term within parentheses and then omit the parentheses and the minus sign.</li></ol></p></assemblage></li>
 
-<li><assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1">
+<li><assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1.">
 	<li>Combine like terms on each side of the equation.</li>
 	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
 	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage></li>
 </ul></p></subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol marker= "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1.">
 <li>Explain the terms natural numbers, whole numbers, and integers.</li>
 <li>A classmate claims that the opposite of a number and the absolute value of a number are the same, and uses <m>x=-3</m>   as an example. Do you agree? Give examples of your own.</li>
-<li><p>You have probably heard people say that "two negatives make a positive."  For which of the four arithmetic operations is this statement<ol marker="a">
+<li><p>You have probably heard people say that "two negatives make a positive."  For which of the four arithmetic operations is this statement<ol marker="a.">
 	<li>always true?</li>
 	<li>always false?</li>
 	<li>sometimes true and sometimes false?</li></ol>
@@ -94,7 +94,7 @@
 <exercises>
 
 <exercisegroup><introduction><p>For Problems 1<ndash/>6, choose the appropriate equation.</p>
-<assemblage><p><ol marker="a" cols="3">
+<assemblage><p><ol marker="a." cols="3">
     	<li><m>5x-8=30</m></li>
     	<li><m>\dfrac{x}{5}-30=8</m></li>
     	<li><m>\dfrac{x-30}{5}=8</m></li>
@@ -226,19 +226,19 @@
 <exercise number="14"><statement><p>The perimeter of a rectangle is the sum of twice its width and twice its length. If 150 meters of fence enclose a rectangular yard of length 45 meters, what is the width of the yard?</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="15"><statement><p>If <m>x=-3</m>, evaluate each expression.<ol marker="a" cols="4">
+<exercise number="15"><statement><p>If <m>x=-3</m>, evaluate each expression.<ol marker="a." cols="4">
 	<li><m>-x</m></li>
 	<li><m>x-3</m></li>
 	<li><m>3-x</m></li>
 	<li><m>-(-x)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="4">
+<answer><p><ol marker="a." cols="4">
     <li><p>3</p></li>
     <li><p><m>-6</m></p></li>
     <li><p>6</p></li>
     <li><p><m>-3</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p>Graph each set of numbers on a separate number line.<ol marker="a" cols="2">
+<exercise number="16"><statement><p>Graph each set of numbers on a separate number line.<ol marker="a." cols="2">
 	<li><m>1.4,~2\dfrac{1}{2},~-2\dfrac{1}{3},~-3.5</m></li>
 	<li><m>-15,~-5,~10,~25</m></li></ol></p></statement></exercise>
 
@@ -319,7 +319,7 @@
 <exercise number="42"><statement><m>-15 \gt 5+x</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="43"><statement><p>The temperature in Maple Grove was <m>18 \degree</m>F at noon, and it has been dropping ever since at a rate of <m>3 \degree</m>F per hour.<ol marker="a">
+<exercise number="43"><statement><p>The temperature in Maple Grove was <m>18 \degree</m>F at noon, and it has been dropping ever since at a rate of <m>3 \degree</m>F per hour.<ol marker="a.">
 <li><p>Fill in the table. <m>T</m> stands for the temperature <m>h</m> hours after noon. Negative values of <m>h</m> represent hours before noon.
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -369,7 +369,7 @@
     <li>What was the temperature at 10 am?</li>
     <li>When will the temperature reach <m>-15 \degree</m>?</li>
     <li>How much did the temperature drop between 3 pm and 9 pm?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside width="45%" margins="0% 55%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
@@ -489,7 +489,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 55<ndash/>56, use the graph to solve the equation. Estimate your solutions if necessary.</p></introduction>
 
-<exercise number="55"><statement><p><ol marker="a">
+<exercise number="55"><statement><p><ol marker="a.">
     <li><m>-3x+9=24</m></li>
     <li><m>-3x+9=3</m></li></ol></p>
     <sidebyside width="55%"><!--<image source="photos/cr2-55.png"><description>graph</description></image>-->
@@ -517,12 +517,12 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>-5</m></p></li>
     <li><p><m>2</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="56"><statement><p><ol marker="a">
+<exercise number="56"><statement><p><ol marker="a.">
     <li><m>24x-1800=-1250</m></li>
     <li><m>24x-1800=500</m></li></ol></p>
     <sidebyside width="80%"><!--<image source="photos/cr2-56.png"><description>graph</description></image>-->
@@ -552,18 +552,18 @@
     </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercise number="57"><statement><p>The length of a rectangle is 3 times its width.<ol marker="a">
+<exercise number="57"><statement><p>The length of a rectangle is 3 times its width.<ol marker="a.">
 	<li>If the width of a rectangle is <m>x</m>, what is its length?</li>  
 	<li>Express the perimeter of the rectangle in terms of <m>x</m>.</li>
 	<li>Suppose the perimeter of the rectangle is 48 centimeters. Find the dimensions of the rectangle.</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>3x</m></p></li>
     <li><p><m>8x</m></p></li>
     <li><p>6 cm by 18 cm</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="58"><statement><p>In a city council election the winner received 132 votes more than her opponent.
-<ol marker="a">
+<ol marker="a.">
 	<li>If the winner received <m>y</m> votes, how many did her opponent receive?</li>
 	<li>Write an expression for the total number of votes cast for the two candidates.</li>
 	<li>If 12,822 votes were cast, how many did each candidate receive?</li></ol></p></statement></exercise>

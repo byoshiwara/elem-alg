@@ -66,7 +66,7 @@ This relationship holds for any pair of perpendicular lines.</p>
 
 <assemblage><title>Parallel and Perpendicular Lines</title>
 <idx><h>lines</h><h>parallel</h></idx><idx><h>lines</h><h>parallel</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
 		<me>\blert{m_1 = m_2}</me>		
 	or if both lines are vertical.</p></li>
@@ -141,7 +141,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 
 <assemblage><title>Horizontal and Vertical Lines</title>
 <idx><h>lines</h><h>horizontal</h></idx><idx><h>horizontal line</h><h>equation of</h></idx><idx><h>lines</h><h>vertical</h></idx><idx><h>vertical line</h><h>equation of</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li><p>The equation of the horizontal line passing through <m>(0,b)</m> is
 			<me>\blert{y=b}</me></p></li>
 	<li><p>The equation of the vertical line passing through <m>(a,0)</m> is
@@ -219,7 +219,7 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 <assemblage><title>Look Ahead</title>
 <p>So far we have computed the slope of a line by finding <m>\Delta x</m> and <m>\Delta y</m> on the graph. Now we can use directed distance to develop a formula for slope.</p></assemblage>
 
-<example><statement><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 0%"><p>Compute the slope of the line segment joining <m>P</m> and <m>R</m> in two ways:<ol marker="a">
+<example><statement><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 0%"><p>Compute the slope of the line segment joining <m>P</m> and <m>R</m> in two ways:<ol marker="a.">
     <li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using the graph</p></li>
     <li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using coordinates.</p></li></ol></p>
 <!--<image source="photos/fig-3-5-ex4.png"><description>graph</description></image>-->
@@ -246,7 +246,7 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
         \filldraw[gray] (Q) circle (2.5mm) node[left, xshift=-2, yshift=-2, text=black, fill=white, inner sep=1] {$Q$};
         \end{tikzpicture}]]></latex-image></image></sidebyside></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>As we move from <m>P</m> to <m>Q</m>, we move up 2 squares on the graph, so <m>\Delta y = 2</m>. As 
     we move from <m>Q</m> to <m>R</m>, we move 8 squares to the right, so <m>\Delta x = 8</m>. Thus, the slope of the line is 
         <me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</me></p></li>
@@ -382,7 +382,7 @@ the same answer as before. The order of the points does not matter, but we must 
 </exercises>
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
-<p><ol marker="1" cols="4">
+<p><ol marker="1." cols="4">
     <li><m>\dfrac{-4}{3}</m></li>
     <li><m>3</m></li>
     <li><m>\dfrac{1}{6}</m></li>
@@ -403,7 +403,7 @@ the same answer as before. The order of the points does not matter, but we must 
 
 <subsubsection><title>Activity 1: Parallel and Perpendicular Lines</title>
 
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Put each equation into slope-intercept form.
         <md><mrow>l_1:~~2x-3y+3 \amp = 0 \amp \amp l_2:~~2x+3y-6 = 0</mrow>
             <mrow>l_3:~~3x+2y-2 \amp = 0 \amp \amp l_4:~~2x-3y-2 = 0</mrow></md></p></li>
@@ -413,7 +413,7 @@ the same answer as before. The order of the points does not matter, but we must 
 
 <subsubsection><title>Activity 2: Horizontal and Vertical Lines</title>
 
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Sketch a graph of the vertical line passing through <m>(-4,-1)</m>, then find its equation.</p>
         <p>What is the slope of the line?</p>
         <sidebyside widths="30% 30%"><image source="photos/alt-grid5"><description>grid</description></image>
@@ -454,7 +454,7 @@ the same answer as before. The order of the points does not matter, but we must 
         </latex-image>
 </image>
 </sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Using the graph.</p>
     <p>Draw the line through <m>A</m> and <m>C</m>. Use point <m>B</m> to find <m>\Delta y</m> and <m>\Delta x</m>.</p>
     <p><m>\Delta y = <fillin characters="10"/>,~~~~ \Delta x = <fillin characters="10"/></m></p>
@@ -498,7 +498,7 @@ the same answer as before. The order of the points does not matter, but we must 
         </latex-image>
 </image>
 </sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Step 1 Let <m>H</m> be the first point and <m>K</m> the second point. Write down their coordinates.
         <md><mrow>H(x_1,y_1) = </mrow>
             <mrow>K(x_2,y_2) = </mrow></md></p></li>
@@ -526,7 +526,7 @@ the same answer as before. The order of the points does not matter, but we must 
 </ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
-<p><ol marker="1">
+<p><ol marker="1.">
     <li>How can you decide if two lines are parallel, perpendicular, or neither?</li>
     <li>How many points do you need to find the equation of a horizontal or a vertical line?</li>
     <li>Explain the difference between the equation of a horizontal or vertical line and the slope of the line.</li> 
@@ -540,7 +540,7 @@ the same answer as before. The order of the points does not matter, but we must 
 <exercise><statement><p>Are the lines parallel, perpendicular, or neither?
     <me>3x-4y=6~~~~~~~~\text{and}~~~~~~~~4x-3y=2</me></p></statement></exercise>
 
-<exercise><statement><p>Sketch a graph of each equation, label the coordinates of its intercept, and state the slope of the line.<ol marker="a" cols="2">
+<exercise><statement><p>Sketch a graph of each equation, label the coordinates of its intercept, and state the slope of the line.<ol marker="a." cols="2">
     <li><m>y=-6</m>
     <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
     <li><m>x=-8</m>
@@ -556,9 +556,9 @@ the same answer as before. The order of the points does not matter, but we must 
 <p><m>m = </m></p></statement></exercise>
 </exercises>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1" cols="2">
+<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
     <li>Neither</li>
-    <li><p><ol marker="a">
+    <li><p><ol marker="a.">
         <li><m>(0,-6),~m = 0</m></li>
         <li><m>(-2,0),~m~ </m> is undefined</li></ol></p></li>
     <li><m>m=\dfrac{-8}{3}</m></li>
