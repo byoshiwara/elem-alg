@@ -389,7 +389,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 <reading-questions>
     <exercise number="9"><statement><p>What formula do we need for motion problems?</p></statement>
     	<answer><m>D=RT</m></answer></exercise>
-    <exercise number="10"><statement><p>What did <m>x</m> and <m>y</m> represent in In <xref ref="Example-4-4-3" text="type-global"/>?</p></statement>
+    <exercise number="10"><statement><p>What did <m>x</m> and <m>y</m> represent in in <xref ref="Example-4-4-3" text="type-global"/>?</p></statement>
     	<answer><p><m>x</m> represented the distance from the seismograph to the epicenter, and <m>y</m> represented the travel time for the P waves</p></answer></exercise>
 </reading-questions>
 </subsection>
