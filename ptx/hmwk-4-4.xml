@@ -176,9 +176,7 @@
     <image xml:id="hp-4-4-9ans">
         <description>diagram showing Dallas, Bonnie, and Clyde</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
         \coordinate (B) at (0,3);
@@ -224,12 +222,10 @@
 <exercise number="12"><statement><p>In Julio's history class, the final grade is computed by adding 60% of the test average to 40% of the term paper grade. Julio's test average is 72.<ol marker="a.">  
 	<li>Write an equation for Julio's final grade, <m>g</m>, in terms of his term paper grade, <m>t</m>.</li>
 	<li>What will Julio's final grade be if he earns a grade of 65 on the term paper? What if he earns a grade of 80?</li>
-	<li><p>Use the graph below to estimate what grade Julio must make on the term paper in order to earn afinal grade of 80 in the class.</p>
+	<li><p>Use the graph below to estimate what grade Julio must make on the term paper in order to earn a final grade of 80 in the class.</p>
 	<sidebyside width="60%"><!--<image source="photos/hp-4-4-12.png"><description>graph</description></image>-->
     <image xml:id="hp-4-4-12"><description>graph of line</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.35]
         \draw[cyan] (0,0) grid (20,20);
         \draw[black,very thick, ->, >=stealth'] (0,0)--(21.3,0) node[right]{$t$};
@@ -246,6 +242,3 @@
 	<li>Use your equation from part (a) to verify your answer algebraically.</li></ol></p></statement></exercise>
 </exercisegroup>
 </exercises>
-
-
-
