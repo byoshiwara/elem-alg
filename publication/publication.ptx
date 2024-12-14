@@ -4,6 +4,7 @@
 	<common>
 		<tableofcontents level="2"/>
         <fillin textstyle="underline" mathstyle="box"/>
+        <exercise-divisional answer="no" solution="no"/>
 	</common>
     <numbering>
         <divisions level="2"/>
