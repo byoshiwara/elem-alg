@@ -16,9 +16,7 @@
     <image xml:id="hp-4-5-1ans">
         <description>line</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.3]
         \coordinate (O) at (0,0);
         \draw[cyan] (-10,-10) grid (10,10);
@@ -49,9 +47,7 @@
     <image xml:id="hp-4-5-3ans">
         <description>line</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.3]
         \coordinate (O) at (0,0);
         \draw[cyan] (-10,-10) grid (10,10);
@@ -82,9 +78,7 @@
     <image xml:id="hp-4-5-5ans">
         <description>line</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.3]
         \coordinate (O) at (0,0);
         \draw[cyan] (-10,-10) grid (10,10);
@@ -117,7 +111,7 @@
 
 <exercise number="8"><statement><m>y-2=3(x+5)</m></statement></exercise>
 
-<exercise number="9"><statement><m>y=\dfrac{4}{5}x)</m></statement>
+<exercise number="9"><statement><m>y=\dfrac{4}{5}x</m></statement>
 <answer><m>m=\dfrac{4}{3},~(0,0)</m></answer></exercise>
 </exercisegroup>
 
@@ -136,9 +130,7 @@
 
 <exercise number="13"><statement><sidebyside width="70%"><!--<image source="photos/hp-4-5-13.png"><description>graph</description></image>-->
     <image xml:id="hp-4-5-13"><description>line through two points</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
     \begin{tikzpicture}[scale=.5]
     \def\delx{0};
     \draw[cyan] (-3,-4) grid (7,6);
@@ -159,9 +151,7 @@
 
 <exercise number="14"><statement><sidebyside width="70%"><!--<image source="photos/hp-4-5-14.png"><description>graph</description></image>-->
     <image xml:id="hp-4-5-14"><description>line through two points</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \def\delx{0};
         \draw[cyan] (-4,-6) grid (6,4);
@@ -185,9 +175,7 @@
 
 <exercise number="15"><statement><sidebyside width="70%"><!--<image source="photos/hp-4-5-15.png"><description>graph</description></image>-->
     <image xml:id="hp-4-5-15"><description>line through two points</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \def\delx{0};
         \draw[cyan] (-5,-5) grid (5,5);
@@ -208,9 +196,7 @@
 
 <exercise number="16"><statement><sidebyside width="70%"><!--<image source="photos/hp-4-5-16.png"><description>graph</description></image>-->
     <image xml:id="hp-4-5-16"><description>line through two points</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.3]
         \draw[cyan] (-8,-8) grid (8,8);
         \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
@@ -232,9 +218,7 @@
     <li><p>Put the equation <m>2y-3x=5</m> into slope-intercept form, and graph the equation.</p>
     <sidebyside width="45%"><!--<image source="photos/hp-4-5-17.pdf"><description>graph</description></image>-->
     <image xml:id="stangrid8"><description>grid</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \draw[cyan] (-8,-8) grid (8,8);
         \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
@@ -257,9 +241,7 @@
     <image xml:id="hp-4-5-17ans">
         <description>line</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \draw[cyan] (-8,-8) grid (8,8);
         \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};

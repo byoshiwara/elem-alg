@@ -23,7 +23,7 @@
     <!-- HTML-Specific Options -->
     <html>
         <calculator model="geogebra-graphing"/>
-        <index-page ref="frontmatter"/>
+        <index-page ref="preface"/>
         <css style="oscarlevin" colors="default"/>
 <!--       <css style="default" colors="default"/> -->
 <!--        <css style="default" colors="blue_red"/> -->
@@ -33,8 +33,8 @@
         <!-- Presence implies relevant Javascript will be added    -->
         <!-- StatCounter requires both values to be set            -->
         <analytics google-gst="G-MLHBE6655J"
-                   statcounter-project="12421177"
-                   statcounter-security="3189a41a"/>
+                   statcounter-project="13069512"
+                   statcounter-security="3c431ca7"/>
         <video privacy="yes"/>
     </html>
 
