@@ -274,7 +274,7 @@
 <exercise number="30"><statement><p>5 more than <m>x</m> to the third power</p></statement></exercise>
 
 <exercise number="31"><statement><p>25% of the cube of <m>h</m></p></statement>
-<answer><m>o.25h^3</m></answer></exercise>
+<answer><m>0.25h^3</m></answer></exercise>
 </exercisegroup>
 
 <exercise number="32"><statement><p>Myra sells mugs at the sidewalk fair every week. Her revenue from selling <m>x</m> mugs is <m>12x-0.3x^2</m> dollars, and the cost of producing <m>x</m> mugs is <m>50+3x</m> dollars.<ol marker="a.">
@@ -297,7 +297,7 @@
 <exercisegroup><introduction><p>For Problems 34<ndash/>35, recall that two algebraic expressions are called equivalent if they are equal for every value of their variables.</p></introduction>
 
 <exercise number="34"><statement><p><ol marker="a.">
- 	<li>Explain why the expressions <m>3x^2</m> and <m>(3z)^2</m> are not equivalent.</li>
+ 	<li>Explain why the expressions <m>3z^2</m> and <m>(3z)^2</m> are not equivalent.</li>
 	<li>Explain why the expressions <m>(3z)^2</m> and <m>9z^2</m> are equivalent.</li></ol></p></statement></exercise>
 
 <exercise number="35"><statement><p><ol marker="a.">
