@@ -345,9 +345,7 @@
 <exercise number="40"><statement><p>Find the perimeter of the triangle.</p>
 <sidebyside width="25%"><!--<image source="photos/hp-5-1-40.png"><description>triangle</description></image>-->
     <image xml:id="hp-5-1-40"><description>triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\x{0.7};
         \coordinate (A) at ({asin(3/5)}:{4*\x});
@@ -362,9 +360,7 @@
 <exercise number="41"><statement><p>Find the area of the triangle.</p>
 <sidebyside width="25%"><!--<image source="photos/hp-5-1-41.png"><description>triangle</description></image>-->
     <image xml:id="hp-5-1-41"><description>triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\b{0.22};
         \coordinate (A) at ({14*\b},{15*\b});
@@ -381,9 +377,7 @@
 <exercise number="42"><statement><p>Find the area and perimeter of the rectangle.</p>
 <sidebyside width="25%"><!--<image source="photos/hp-5-1-42.png"><description>rectangle</description></image>-->
     <image xml:id="hp-5-1-42"><description>rectangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\v{0.35};
         \coordinate (A) at ({9*\v},{7*\v});

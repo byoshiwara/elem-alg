@@ -35,7 +35,7 @@
 
 <reading-questions>
     <exercise number="1"><statement><p>What is the square root of a number <m>n</m>?</p></statement>
-    	<answer><p>A number whose square is <m>n</m></p></answer></exercise>
+    	<answer><p>A number whose square is <m>n</m>.</p></answer></exercise>
 </reading-questions>
 </subsection>
 
@@ -127,9 +127,7 @@ is a rational number. Integers are also rational numbers, because any integer ca
  <p>There is no terminating decimal fraction that gives the exact value of <m>\sqrt{5}</m>. The decimal representation of an irrational number never ends, and does not repeat any pattern! The best we can do is round off the decimal form and give an approximate value. Nonetheless, an irrational number still has a precise location on the number line, just as a rational number does. The figure below shows the locations of several rational and irrational numbers on a number line. 
  <sidebyside width="80%"><!--<image source="photos/fig-5-2-1.png"><description>number line</description></image>-->
     <image xml:id="fig-5-2-1"><description>numberline</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} [scale=.85]
 		\draw[black,thick,->,>=stealth'] (-5.5,0)--(7.6,0);
 		\foreach \x in {-5,-4,...,7}  {
@@ -242,7 +240,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 
 <exercise number="5"><statement><m>2x-3=4x+7</m></statement></exercise>
 
-<exercise number="6"><statement><m>2x-c=4x+7)</m></statement></exercise>
+<exercise number="6"><statement><m>2x-c=4x+7</m></statement></exercise>
 
 <exercise number="7"><statement><m>6x+1=3(2-x)</m></statement></exercise>
 
