@@ -122,12 +122,12 @@
 <exercise number="20"><statement><m>2\sqrt{3},~ 3,~ \dfrac{23}{6},~ \sqrt{6}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>23, evaluate the expression for the given values of <m>x</m>. Round your answers to three decimal places if necessary.</p></introduction>
+<exercisegroup><introduction><p>For Problems 21<ndash/>23, evaluate the expression for the given values of <m>x</m>. Round your answers to three decimal places if necessary.</p></introduction>
 
 <exercise number="21"><statement><m>\sqrt{x^2-4}~~~~~~~~x=3, \sqrt{5}, -2</m></statement>
 <answer><m>\sqrt{5} \approx 2.236,~1,~0</m></answer></exercise>
 
-<exercise number="22"><statement><m>\sqrt{x}-\sqrt{x-3}~~~~~~~~x=1, 4, 100</m></statement></exercise>
+<exercise number="22"><statement><m>\sqrt{x}-\sqrt{x+3}~~~~~~~~x=1, 4, 100</m></statement></exercise>
 
 <exercise number="23"><statement><m>2x^2-4x~~~~~~~~x=-3, \sqrt{2}, \dfrac{1}{4}</m></statement>
 <answer><m>30,~4-4\sqrt{2} \approx -1.657,~\dfrac{-7}{8}</m></answer></exercise>
