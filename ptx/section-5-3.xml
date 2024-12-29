@@ -81,9 +81,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 <me>a^2 + b^2 = c^2</me></p><!--                  
 <image source="photos/fig-5-3-2.png"><description>triangle</description></image>-->
     <image xml:id="fig-5-3-2"><description>right triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}
 		\def\a{3};
 		\def\b{2};
@@ -102,9 +100,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 <image xml:id="fig-5-3-ex3">
         <description>rectangle with diagonal</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.2]
 		\def\w{ 11.53 };
 		\draw[blue] (0,\w) rectangle +(1.5,-1.5);
@@ -269,9 +265,7 @@ deep?</p></statement></exercise>
 	<image xml:id="act-5-3-3-1">
 	        <description>box</description>
 	        <latex-image>
-	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-	        <![CDATA[\tikzset{%
-	        }
+	        <![CDATA[
 	        \begin{tikzpicture} [scale=.8]
 			\def\w{2 };
 			\def\l{3.5};

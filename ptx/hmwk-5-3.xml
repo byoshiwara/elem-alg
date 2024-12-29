@@ -58,9 +58,7 @@
 
 <exercise number="15"><statement><sidebyside width="50%"><!--<image source="photos/hp-5-3-15.png"><description>triangle</description></image>-->
     <image xml:id="hp-5-3-15"><description>triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\a{28};
         \def\b{\a-35};
@@ -82,9 +80,7 @@
 
  <exercise number="16"><statement><sidebyside width="60%"><!--<image source="photos/hp-5-3-16.png"><description>triangle</description></image>-->
      <image xml:id="hp-5-3-16"><description>right triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\a{20};
         \def\b{\a+atan(1/2)};
@@ -103,9 +99,7 @@
 
  <exercise number="17"><statement><sidebyside width="55%"><!--<image source="photos/hp-5-3-17.png"><description>triangle</description></image>-->
     <image xml:id="hp-5-3-17"><description>right triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\a{55};
         \def\b{\a+atan(1/2)};
@@ -124,9 +118,7 @@
 
  <exercise number="18"><statement><sidebyside width="50%"><!--<image source="photos/hp-5-3-18.png"><description>triangle</description></image>-->
     <image xml:id="hp-5-3-18"><description>right triangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \def\z{.2};
         \coordinate (A) at ({-16*\z},0);
@@ -214,9 +206,7 @@
     <image xml:id="hp-5-3-35ans">
         <description>hemisphere dome</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}
         \draw[magenta!80!black, ultra thick] (2,0) arc(0:180:2);
         \draw[domain=0:180,variable=\t, smooth, samples=65, magenta!90!black, thick, dashed] plot ({2*cos(\t)}, {.4*sin(\t)});

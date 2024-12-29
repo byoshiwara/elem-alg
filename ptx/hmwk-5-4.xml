@@ -79,7 +79,7 @@
 <exercise number="14"><statement><m>-xy(2x^2-xy+3y^2)</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>18, simplify.</p></introduction>
+<exercisegroup><introduction><p>For Problems 15<ndash/>18, simplify.</p></introduction>
 
 <exercise number="15"><statement><m>2a(x+3)-3a(x-3)</m></statement>
 <answer><m>-ax+15a</m></answer></exercise>
