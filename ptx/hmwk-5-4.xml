@@ -104,7 +104,7 @@
 <exercise number="20"><statement><sidebyside width="45%"><image source="photos/hp-5-4-20"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 21<ndash/>23, <ol marker="a.">
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>23, <ol marker="a.">
 	<li>Use a rectangle to represent each product.</li>
 	<li>Write the product as a quadratic trinomial.</li></ol></p></introduction>
 
@@ -159,7 +159,7 @@
     <li><m>(5x-2)(4x+3)=20x^2+7x-6</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 24<ndash/>26, use rectangles to help you multiply these binomials in two variables.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 24<ndash/>26, use rectangles to help you multiply these binomials in two variables.</p></introduction>
 
 <exercise number="24"><statement><m>(x+2y)(x-y)</m></statement></exercise>
 
