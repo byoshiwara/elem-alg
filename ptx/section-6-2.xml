@@ -54,9 +54,7 @@
                 <cell><m>40(\alert{40})-\alert{40}^2</m></cell></row>                      
         </tabular></stack>
     <image xml:id="fig-6-2-ex1"><description>parabola</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (0,0) grid (10,10);
         \draw[black, thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$p$};
@@ -182,7 +180,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 
 <reading-questions>
 <exercise number="6"><statement><p>What is the first step in solving a quadratic equation by factoring?</p></statement>
-    <answer><p>Arrange the terms so that one side of the equation is zero</p></answer></exercise>
+    <answer><p>Arrange the terms so that one side of the equation is zero.</p></answer></exercise>
 </reading-questions>
 
 <warning><p>We cannot solve the equation in <xref ref="Example-6-2-4" text="type-global"/> by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
@@ -199,7 +197,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 <reading-questions>
     <exercise number="7"><statement><p>Why is it wrong to divide both sides of the equation <m>2x(x-2)=0</m> by <m>2x</m>?
 </p></statement>
-    <answer><p>We lose one of the soutions.</p></answer></exercise>
+    <answer><p>We lose one of the solutions.</p></answer></exercise>
 </reading-questions>
 </subsection>
 
@@ -219,8 +217,8 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 
 <subsubsection><title>Answers to Skills Warm-Up</title>
 <p><ol marker="1." cols="2">
-    <li><m>0,~4,~-4,~0</m></li>
-    <li><m>0,~-12,~0,~30</m></li>
+    <li><m>0</m>,<m>-4</m>, <m>-4</m>, <m>0</m></li>
+    <li><m>0</m>, <m>-12</m>, <m>0</m>, <m>30</m></li>
     <li><m>0,~0,~16,~48</m></li>
     <li><m>9,~0,~0,~3</m></li></ol></p>
 </subsubsection>
@@ -330,9 +328,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
         <image xml:id="act-6-2-1-2">
                 <description>grid</description>
                 <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
+                <![CDATA[
                 \begin{tikzpicture}[scale=.3]
                 \draw[cyan] (0,0) grid (15,24);
                 \draw[black, thick, ->, >=stealth'] (0,0)--(16.2,0) node[right]{$p$};
