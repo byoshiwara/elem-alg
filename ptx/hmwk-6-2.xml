@@ -215,11 +215,11 @@
 <exercise number="27"><statement><p>The revenue you can earn by making and selling <m>n</m> jade bracelets is given in dollars by 
     <me>R=-2n^2+80n</me><ol marker="a.">
     <li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
-    <li><p>Complete the table and sketch a graph.
-    <sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <li><p>Complete the table and sketch a graph.</p>
+    <sidebyside widths="40% 40%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>n</m></cell>
-            <cell>Price per Bracelet</cell>
+            <cell><line>Price</line><line>per Bracelet</line></cell>
             <cell><m>R</m></cell></row>
         <row> 
             <cell><m>0</m></cell>
@@ -257,16 +257,16 @@
         \draw[black, thick, ->, >=stealth'] (0,0)--(0,11) node[left]{$R$};
         \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {4,8} {
         \draw[cyan, very thick] (\x,0)--++(0,10);
-         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below]   {$\xi$};
         }
         \foreach \x [evaluate=\x as \xi using int(100*\x)] in  {5,10} {
          \draw[cyan, very thick] (0,\x)--++(8,0);
-        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left]   {$\xi$};
         }
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></p></li>
+</sidebyside></li>
 <li>What is the maximum revenue that you can earn? How many bracelets should you make in order to earn that revenue?</li>
 <li>How much revenue will you earn if you charge $40 for a bracelet?</li></ol></p></statement>
 <answer><p><ol marker="a.">
