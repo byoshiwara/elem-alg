@@ -50,9 +50,7 @@
 		<mrow> \amp \blert{\text{F}}~~~~~~~~~~~~\blert{\text{O + I}}~~~~~~~~~~\blert{\text{L}}</mrow></md></p>
 	<!--<image source="photos/fig-6-3-1.png"><description>graphic</description></image>-->
     <image xml:id="fig-6-3-1"><description>subdivided rectangle</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} 
 		\draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(2.7,2.2);
 		\draw[magenta!90!black, line width=1mm] (0,1.1) --++(2.7,0);
@@ -70,9 +68,9 @@
 <reading-questions>
     <exercise number="2"><statement><p>Where does the constant term of the trinomial appear in the product box?
 </p></statement>
-    	<answer><p>In the lower left-hand box.</p></answer></exercise>
+    	<answer><p>In the lower right-hand box.</p></answer></exercise>
     <exercise number="3"><statement><p>Where does the linear term appear?</p></statement>
-    	<answer><p>In the upper left and lower right boxes.</p></answer></exercise>
+    	<answer><p>In the upper right and lower left boxes.</p></answer></exercise>
 </reading-questions>
 
 <p>We make several observations about this product.</p>
@@ -214,9 +212,7 @@ This new equation is the same as the equation in <xref ref="Example-6-3-4" text=
 where <m>h</m> is in feet. The figure below shows a graph of the equation.</p> 
 <sidebyside width="44%"><!--<image source="photos/fig-6-3-2.png"><description>graph</description></image>-->
     <image xml:id="fig-6-3-2"><description>parabola</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (0,0) grid (12,12);
 		\draw[black, thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$t$};
