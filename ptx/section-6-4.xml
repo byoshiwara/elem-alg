@@ -56,9 +56,7 @@ we set <m>y=0</m> and solve the equation
         <p>We plot the points and connect them with a parabola, as shown in the figure.</p></stack>
     <!--    <image source="photos/fig-6-4-ex1.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-4-ex1"><description>parabola</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[xscale=.5, yscale=.4]
 		\draw[cyan] (-2,-6) grid (6,6);
 		\draw[black, thick, ->, >=stealth'] (-2,0)--(6.6,0) node[right]{$x$};
@@ -97,9 +95,7 @@ we set <m>y=0</m> and solve the equation
 <sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from <xref ref="Example-6-4-1" text="type-global"/>, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
 <!--	<image source="photos/fig-6-4-1.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-4-1"><description>parabola</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[xscale=.5, yscale=.4]
 		\draw[cyan] (-2,-6) grid (6,6);
 		\draw[black, thick, ->, >=stealth'] (-2,0)--(6.6,0) node[right]{$x$};
@@ -203,9 +199,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <exercise number="1"><statement><m>2x+5=11</m>
 	<sidebyside width="60%"><!--<image source="photos/sw-6-4-1.png"><description>parabola</description></image>-->
     <image xml:id="sw-6-4-1"><description>grid</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.4]
 		\draw[cyan] (-5,-5) grid (5,5);
 		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -224,9 +218,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <exercise number="2"><statement><m>2x-3=5x+9</m>
 	<sidebyside width="60%"><!--<image source="photos/sw-6-4-2.png"><description>parabola</description></image>-->
     <image xml:id="sw-6-4-2"><description>grid</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.4]
 		\draw[cyan] (-5,-8) grid (5,2);
 		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -266,9 +258,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <exercise number="4"><statement><m>4(7-x)=-2(6x-5)-6</m>
 	<sidebyside width="60%"><!--<image source="photos/sw-6-4-4.png"><description>parabola</description></image>-->
 	<image xml:id="sw-6-4-4"><description>grid</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.4]
 		\draw[cyan] (-5,-2) grid (5,8);
 		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -290,7 +280,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li><m>x=3</m></li>
 	<li><m>x=-4</m></li>
 	<li><m>x=20</m></li>
-	<li><m>x=6</m></li></ol></p></subsubsection>
+	<li><m>x=-3</m></li></ol></p></subsubsection>
 </subsection>
 
 <subsection><title>Lesson</title>
@@ -375,9 +365,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 		<image xml:id="act-6-4-1-3">
 	        <description>grid</description>
 	        <latex-image>
-	        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-	        <![CDATA[\tikzset{%
-	        }
+	        <![CDATA[
 	        \begin{tikzpicture}[scale=.6]
 	        \draw[cyan] (-2,-4) grid (6,6);
 	        \draw[black, thick, ->, >=stealth'] (-2,0)--(6.7,0) node[right]{$x$};
@@ -422,9 +410,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 		<image xml:id="act-6-4-1-4">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (-1,-2) grid (7,10);
         \draw[black, thick, ->, >=stealth'] (-1,0)--(7.7,0) node[right]{$x$};
@@ -460,9 +446,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<image xml:id="act-6-4-2-1">
     <description>grid</description>
     <latex-image>
-    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-    <![CDATA[\tikzset{%
-    }
+    <![CDATA[
     \begin{tikzpicture}[xscale=.6, yscale=.7]
 	\draw[cyan] (-6,-5) grid (2,5);
 	\draw[black, thick, ->, >=stealth'] (-6,0)--(2.7,0) node[right]{$x$};
@@ -492,9 +476,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<image xml:id="act-6-4-2-2">
     <description>grid</description>
     <latex-image>
-    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-    <![CDATA[\tikzset{%
-    }
+    <![CDATA[
     \begin{tikzpicture}[xscale=.6, yscale=.5]
     \draw[cyan] (-6,-6) grid (4,10);
     \draw[black, thick, ->, >=stealth'] (-6,0)--(4.7,0) node[right]{$x$};

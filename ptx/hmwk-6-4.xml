@@ -23,9 +23,7 @@
     <image xml:id="hp-6-4-4">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-4) grid (4,12);
         \draw[black, thick, ->, >=stealth'] (-4,0)--(5,0) node[right]{$x$};
@@ -50,9 +48,7 @@
     <image xml:id="hp-6-4-5">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-10) grid (4,6);
         \draw[black, thick, ->, >=stealth'] (-4,0)--(5,0) node[right]{$x$};
@@ -73,9 +69,7 @@
     <image xml:id="hp-6-4-5ans">
         <description>parabolas</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-10) grid (4,6);
         \draw[black, thick, ->, >=stealth'] (-4,0)--(5,0) node[right]{$x$};
@@ -112,9 +106,7 @@
     <image xml:id="hp-6-4-7">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (-5,-2) grid (5,14);
 		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -136,9 +128,7 @@
     <image xml:id="hp-6-4-7ans">
         <description>parabola</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-5,-2) grid (5,14);
         \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -173,9 +163,7 @@
     <image xml:id="alt-grid5">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (-5,-5) grid (5,5);
 		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -199,9 +187,7 @@
     <image xml:id="hp-6-4-9ans">
         <description>parabola</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-5,-5) grid (5,5);
         \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -229,9 +215,7 @@
     <image xml:id="hp-6-4-11">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (-5,-1) grid (5,9);
 		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -255,9 +239,7 @@
     <image xml:id="hp-6-4-11ans">
         <description>parabola</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-5,-1) grid (5,9);
         \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -297,9 +279,7 @@
     <image xml:id="hp-6-4-13ans">
         <description>parabola</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-5,-5) grid (5,5);
         \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -327,9 +307,7 @@
     <image xml:id="hp-6-4-14">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.4]
 		\draw[cyan] (-8,-16) grid (8,2);
 		\draw[black, thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
@@ -376,9 +354,7 @@
     <image xml:id="hp-6-4-15">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[xscale=.75, yscale=.5]
         \draw[cyan] (0,0) grid (8,15);
         \draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$x$};
@@ -423,9 +399,7 @@
     <image xml:id="hp-6-4-15ans">
         <description>parabola</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[xscale=.75, yscale=.5]
         \draw[cyan] (0,0) grid (8,15);
         \draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$x$};
