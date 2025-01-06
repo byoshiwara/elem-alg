@@ -349,9 +349,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
-    <li><p>Sketch a graph of the equation on the grid.
-    <sidebyside width="45%"><!--<image source="photos/hp-6-4-15.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-4-15">
+    <li><p>Sketch a graph of the equation on the grid.</p>
+    <!--<image source="photos/hp-6-4-15.png"><description>grid</description></image>-->
+    <image width="45%" xml:id="hp-6-4-15">
         <description>grid</description>
         <latex-image>
         <![CDATA[
@@ -371,7 +371,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></li>
+    </li>
     <li>Use the graph to estimate the height of the rock after 1.75 seconds. Verify your answer algebraically by substituting <m>t=1.75</m> into the equation for <m>h</m>.</li></ol></p></statement>
 <answer><p><ol marker="a.">
     <li><sidebyside width="45%" margins="0% 55%">
