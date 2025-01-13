@@ -51,7 +51,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 12<ndash/>13, factor out the common factor.</p></introduction>
 
-<exercise number="12"><statement><p><m>2x(x+6)-3(2x+6)</m></p></statement></exercise>
+<exercise number="12"><statement><p><m>2x(x+6)-3(x+6)</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>3x^2(2x+3)-(2x+3)</m></p></statement>
 <answer><p><m>(2x+3)(3x^2-1)</m></p></answer></exercise>
@@ -116,7 +116,7 @@
 <exercise number="33"><statement><p><m>y(3y+4)=4</m></p></statement>
 <answer><p><m>-2</m>, <m>\dfrac{2}{3} </m></p></answer></exercise>
 
-<exercise number="34"><statement><p><m>(2x-1)(2x-1)=-1</m></p></statement></exercise>
+<exercise number="34"><statement><p><m>(2x-1)(x-2)=-1</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="35"><statement><p>The cost <m>C</m> of producing a wool rug depends on the number of hours <m>t</m> it takes to weave it, where
