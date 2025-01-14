@@ -26,9 +26,7 @@
     <image xml:id="hp-7-4-3">
         <description>rectangle</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(2.5,2.5);
         \draw[magenta!90!black, line width=1mm] (0,.75) --++(2.5,0);
@@ -50,9 +48,7 @@
     <image xml:id="hp-7-4-4">
         <description>rectangle</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(2.5,2.5);
         \draw[magenta!90!black, line width=1mm] (0,.75) --++(2.5,0);
@@ -67,7 +63,7 @@
     </sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 5<ndash/>7, compute the product.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>7, compute the product.</p></introduction>
 
 <exercise number="5"><statement><m>(n+1)(n+1)</m></statement>
 <answer><p><m>n^2+2n+1</m></p></answer></exercise>
@@ -96,7 +92,7 @@
 <answer><p><m>4h^2+20hk^4+25k^8</m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 14<ndash/>19, use the formula for difference of two squares to multiply.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 14<ndash/>19, use the formula for difference of two squares to multiply.</p></introduction>
 
 <exercise number="14"><statement><m>(x-4)(x+4)</m></statement></exercise>
 
@@ -114,7 +110,7 @@
 <answer><p><m>h^4-29t^2</m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 20<ndash/>22, multiply. Write your answer as a polynomial.
+<exercisegroup cols="2"><introduction><p>For Problems 20<ndash/>22, multiply. Write your answer as a polynomial.
 </p></introduction>
 
 <exercise number="20"><statement><m>-2a(3a-5)^2</m></statement></exercise>
@@ -154,7 +150,7 @@
 <answer><p><m>(8y-7x)(8y+7x)</m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 32<ndash/>40, factor completely.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 32<ndash/>40, factor completely.</p></introduction>
 
 <exercise number="32"><statement><m>a^4+10a^2+25</m></statement></exercise>
 
@@ -179,7 +175,7 @@
 <exercise number="40"><statement><m>162a^4b^8-2a^8</m></statement></exercise>
 </exercisegroup>
 
-<exercise number="41"><statement><p>Is <m>x-3)^2</m> equivalent to <m>x^2-3^2</m>?  Explain why or why not, and give a numerical example to justify your answer.</p></statement>
+<exercise number="41"><statement><p>Is <m>(x-3)^2</m> equivalent to <m>x^2-3^2 ~</m>?  Explain why or why not, and give a numerical example to justify your answer.</p></statement>
 <answer><p>No. Let <m>x=1</m>, then <m>(x-1)^2=(-2)^2=4</m>, but <m>x^2-3^2=1-9=-8</m></p></answer></exercise>
 
 <exercise number="42"><statement><p>Use areas to explain why the figure illustrates the product  <m>(a+b)^2 = a^2+2ab+b^2.</m></p>
