@@ -150,14 +150,14 @@ Thus,
 	<me>98-28x^4+2x^8 = 2(7-x^4)^2</me></p></solution></example>
 
 <reading-questions>
-    <exercise number="7"><statement><p>What expression involving squares cannot be factored??</p></statement>
+    <exercise number="7"><statement><p>What expression involving squares cannot be factored?</p></statement>
     <answer><p><m>a^2+b^2</m></p></answer></exercise>
 </reading-questions>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
 <exercises>
-<exercisegroup cols="3"><introduction><p>Express each product as a polynomial.</p></introduction>
+<exercisegroup cols="2"><introduction><p>Express each product as a polynomial.</p></introduction>
 
 <exercise number="1"><statement><m>(z-3)^2</m></statement></exercise>
 
