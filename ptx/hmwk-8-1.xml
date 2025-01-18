@@ -196,7 +196,7 @@
 
 <exercise number="44"><statement><p>Morgan drove across country in <m>h</m> hours, but he estimates that he spent 10 hours stopped for rest and meals.<ol marker="a.">
 	<li>If he drove a total of 2800 miles, what was his average speed on the road?</li>
-	<li>Evaluate your fraction for<m>h=50</m>. What does your answer mean in this context?</li></ol></p></statement>
+	<li>Evaluate your fraction for <m>h=50</m>. What does your answer mean in this context?</li></ol></p></statement>
 </exercise>
 
 <exercise number="45"><statement><p>The volume of a test tube is given by its height times the area of its cross-section. A test tube that holds 200 cubic centimeters is <m>2x-1</m> centimeters long.
@@ -246,9 +246,7 @@
     <image xml:id="hp-8-1-46">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (0,0) grid (10,12);
 		\draw[black, very thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$t$};
@@ -274,9 +272,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <image xml:id="hp-8-1-47">
         <description>curve</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[xscale=.4, yscale=.3]
 		\draw[cyan] (0,0) grid (10,30);
 		\draw[black, very thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$v$};

@@ -183,9 +183,7 @@
     <image xml:id="hp-7-4-42">
         <description>rectangles</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \draw[black, fill=yellow, very thick] (0,1) rectangle (1.5,2.5);
         \draw[black, fill=magenta, very thick] (0,0) rectangle ++(1.5,1);

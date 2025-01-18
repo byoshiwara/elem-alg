@@ -96,9 +96,7 @@ This expression is an algebraic fraction. </p>
                 </tabular>
     <!--<image source="photos/fig-8-1-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-8-1-ex3"><description>curve</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture}[scale=.4]
 		\draw[cyan] (0,0) grid (20,15);
 		\draw[black, very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$x$};
