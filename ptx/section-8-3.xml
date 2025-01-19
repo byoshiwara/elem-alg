@@ -40,9 +40,7 @@ In words, this says that we can multiply the numerator and denominator of a frac
 
 <sidebyside widths="35% 35%"><!--<image source="photos/fig-8-3-1a.png"><description>rectangles</description></image><image source="photos/fig-8-3-1b.png"><description>rectangles</description></image>-->
     <image xml:id="fig-8-3-1a"><description>rectangle for 2/3</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} 
 		\foreach \x in {1,2} {
 		 \draw[black, fill=cyan!20!white, very thick, opacity=.5] (0,\x) rectangle ++(4,1);
@@ -50,9 +48,7 @@ In words, this says that we can multiply the numerator and denominator of a frac
 		\draw[black, very thick] (0,0) rectangle ++(4,1);
         \end{tikzpicture}]]></latex-image></image>
     <image xml:id="fig-8-3-1b"><description>rectangle for 3/4</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} 
 		\foreach \x in {0,1,2} {
 		 \draw[black, fill=cyan!50!white, very thick, opacity=.5] (\x,0) rectangle ++(1,3);
@@ -122,8 +118,8 @@ Step 4  We reduce the fraction.
 </reading-questions>
 
 <warning><p>In <xref ref="Example-8-3-1" text="type-global"/>, be careful to subtract each term of the numerator in the second fraction.
-	<me>\dfrac{5x+10}{30} - \dfrac{2x-2}{30} = \dfrac{3x\alert{+12}}{30}</me>
-because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{+2} = 3x+12</m></p></warning>
+	<me>\dfrac{5x+10}{30} - \dfrac{2x-2}{30} = \dfrac{3x \alert{{} + 12}}{30}</me>
+because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{{ } + 2} = 3x+12</m></p></warning>
 </subsection>
 
 <subsection><title>Finding the Lowest Common Denominator</title><idx><h>lowest common denominator</h></idx>
@@ -183,7 +179,7 @@ You can check that <m>36a^3</m> is a multiple of both <m>12a^3</m> and <m>18a</m
 
 <reading-questions>
     <exercise number="5"><statement><p>We would like to add two unlike fractions. If each denominator contains 
-	one factor of <m>x</m>, how many factors of  do we include in the LCD?</p></statement>
+	one factor of <m>x</m>, how many factors of <m>x</m> do we include in the LCD?</p></statement>
     <answer><p>One</p></answer></exercise>
 </reading-questions>
 
