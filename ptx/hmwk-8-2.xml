@@ -141,10 +141,10 @@
     <li><m>\dfrac{p}{r-1}</m></li></ol></p></answer></exercise>
 
 <exercise number="40"><statement><p><ol marker="a." cols="2">
-	<li><m>(\dfrac{1}{c} \cdot \dfrac{1}{5}) \div \dfrac{2}{5}</m></li>
-	<li><m>\dfrac{1}{c} \cdot (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
-	<li><m>\dfrac{1}{c} \div (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
-	<li><m>(\dfrac{1}{c} \div \dfrac{1}{5}) \div \dfrac{2}{5}</m></li></ol></p></statement></exercise>
+	<li><m>\left(\dfrac{1}{c} \cdot \dfrac{1}{5}\right) \div \dfrac{2}{5}</m></li>
+	<li><m>\dfrac{1}{c} \cdot \left(\dfrac{1}{5} \div \dfrac{2}{5}\right)</m></li>
+	<li><m>\dfrac{1}{c} \div \left(\dfrac{1}{5} \div \dfrac{2}{5}\right)</m></li>
+	<li><m>\left(\dfrac{1}{c} \div \dfrac{1}{5}\right) \div \dfrac{2}{5}</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 41<ndash/>46, simplify.</p></introduction>
@@ -172,7 +172,7 @@
     <li><p><m>\dfrac{4-2m}{m(m+1)}</m></p></li>
     <li><p><m>\dfrac{-1}{6}</m></p></li></ol></p></answer></exercise>
 
-<exercise number="48"><statement><p>Multiply: <m>~~2x(x+2)(\dfrac{1}{2x}+\dfrac{x}{x+2}-1)</m></p></statement></exercise>
+<exercise number="48"><statement><p>Multiply: <m>~~2x(x+2)\left(\dfrac{1}{2x}+\dfrac{x}{x+2}-1\right)</m></p></statement></exercise>
 
 <exercise number="49"><statement><p>Write an algebraic expression for each phrase, and simplify.<ol marker="a.">
 	<li>One-half of <m>x</m>.</li>
