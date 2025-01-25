@@ -141,7 +141,7 @@ This example suggests the following rule.</p>
 		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></li>
 	<li><me>\blert{(a^m)^n = a^{mn}}</me></li>
 	<li><me>\blert{(ab)^n = a^nb^n}</me></li>
-	<li><me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
+	<li><me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
 
 <example xml:id="Example-9-1-5"><statement><p>Simplify  <m>~~2x^2y(3xy^2)^4</m></p></statement>
 

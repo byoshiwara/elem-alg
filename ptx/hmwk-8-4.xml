@@ -70,9 +70,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
     <image xml:id="hp-8-4-23">
         <description>golden rectangle</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} [scale=2.5]
 		\def\r{(1+sqrt(5))/2};
 		\draw[magenta!80!black,  line width=1mm] (0,0) rectangle ++({\r},1);
@@ -122,7 +120,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
 	<li><p>5 hr</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>It takes 30 minutes to fill a large water tank. However, the tank has a small leak that would completely drain it in 4 hours. How long will it take to fill the tank if the leak is not plugged?
+<exercise number="28"><statement><p>It takes 30 minutes to fill a large water tank. However, the tank has a small leak that would completely drain it in 3 hours. How long will it take to fill the tank if the leak is not plugged?
 </p></statement></exercise>
 </exercisegroup>
 
@@ -142,7 +140,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
 
 <exercise number="30"><statement><p>
     <md><mrow>\dfrac{a}{2} - \dfrac{a}{3} \amp = 1  </mrow>
-        <mrow>6(\dfrac{a}{2} - \dfrac{a}{3}) \amp = 1 </mrow>
+        <mrow>6\left(\dfrac{a}{2} - \dfrac{a}{3}\right) \amp = 1 </mrow>
         <mrow>3a-2a \amp = 1</mrow>
         <mrow>a \amp = 1  </mrow></md></p></statement></exercise>
 
@@ -151,7 +149,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
         <mrow>m^2 \amp = 6m</mrow>
         <mrow>\dfrac{m^2}{m} \amp = \dfrac{6m}{m}</mrow>
         <mrow>a \amp = 6  </mrow></md></p></statement>
-<answer><p>In the third equation, dividiing by <m>m</m> is dividing by <m>0</m> because <m>m=0</m> is one of the solutions. <m>m=6, ~0</m></p></answer></exercise>
+<answer><p>In the third equation, dividing by <m>m</m> is dividing by <m>0</m> because <m>m=0</m> is one of the solutions. <m>m=6, ~0</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="32"><statement><p>If two hens lay two eggs in 2 days, how long will it take six hens to lay six eggs?</p></statement></exercise>
