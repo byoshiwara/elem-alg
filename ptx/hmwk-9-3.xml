@@ -96,7 +96,7 @@
 <answer><p><m>-3x\sqrt{5x}-6x\sqrt{5} </m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 32<ndash/>34, find and correct the error.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 32<ndash/>34, find and correct the error.</p></introduction>
 
 <exercise number="32"><statement><p><m>\sqrt{36+64} \rightarrow 6+8</m></p></statement></exercise>
 

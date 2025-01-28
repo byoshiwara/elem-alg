@@ -61,8 +61,8 @@ to simplify square roots. We can also use the product rule to multiply radicals 
 The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but not the first.</p></warning>
 
 <reading-questions>
-    <exercise number="3"><statement><p>Explain how to multiply  <m>(3\sqrt{2})(4\sqrt{2})</m></p></statement>
-    <answer><p>Multiply <m>3 \cdot 4</m> to get <m>12</m>, multiply <m>\sqrt{2}\sqrt{2}</m> to get <m>\sqrt{10}</m>, write the product <m>12\sqrt{10}</m>.</p></answer></exercise>
+    <exercise number="3"><statement><p>Explain how to multiply  <m>(3\sqrt{2})(4\sqrt{5})</m></p></statement>
+    <answer><p>Multiply <m>3 \cdot 4</m> to get <m>12</m>, multiply <m>\sqrt{2}\sqrt{5}</m> to get <m>\sqrt{10}</m>, write the product <m>12\sqrt{10}</m>.</p></answer></exercise>
 </reading-questions>
 
 <p>To multiply binomials, we use the FOIL method.</p>
