@@ -61,7 +61,7 @@ to simplify square roots. We can also use the product rule to multiply radicals 
 The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but not the first.</p></warning>
 
 <reading-questions>
-    <exercise number="3"><statement><p>Explain how to multiply  <m>(3\sqrt{2})(4\sqrt{5})</m></p></statement>
+    <exercise number="3"><statement><p>Explain how to multiply  <m>(3\sqrt{2})(4\sqrt{5})</m>.</p></statement>
     <answer><p>Multiply <m>3 \cdot 4</m> to get <m>12</m>, multiply <m>\sqrt{2}\sqrt{5}</m> to get <m>\sqrt{10}</m>, write the product <m>12\sqrt{10}</m>.</p></answer></exercise>
 </reading-questions>
 
@@ -77,7 +77,7 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
     <mrow> \amp = -4-3\sqrt{3}</mrow></md></p></solution></example>
 
 <reading-questions>
-    <exercise number="4"><statement><p>Explain why <m>\sqrt{b}\sqrt{b}=b</m></p></statement>
+    <exercise number="4"><statement><p>Explain why <m>\sqrt{b}\sqrt{b}=b</m>.</p></statement>
     <answer><p>The square root of <m>b</m> is a number that, when multiplied by itself, gives <m>b</m>.</p></answer></exercise>
 </reading-questions>
 </subsection>
@@ -124,7 +124,7 @@ because <m>8</m> and <m>4\sqrt{5}</m> are not like terms. Also note that
 Because 8 is a term of the numerator, not a factor, we cannot cancel the 8's.</p></warning>
 
 <reading-questions>
-    <exercise number="6"><statement><p>Which of these cannot be reduced: <m>~~\dfrac{4+\sqrt{6}}{2}~~</m> or <m>~~\dfrac{4\sqrt{6}}{2}~~</m> Why?</p></statement>
+    <exercise number="6"><statement><p>Which of these cannot be reduced: <m>~~\dfrac{4+\sqrt{6}}{2}~~</m> or <m>~~\dfrac{4\sqrt{6}}{2}~~</m>? Why?</p></statement>
     <answer><p><m>~~\dfrac{4+\sqrt{6}}{2}~~</m>.  The numerator cannot be factored.</p></answer></exercise>
 </reading-questions>
 
