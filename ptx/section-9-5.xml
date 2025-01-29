@@ -116,8 +116,7 @@ Thus, <m>x=2</m> is an extraneous solution. The only solution to the original eq
 	<me> ( \sqrt{8-2x})^2 = x^2-4^2 ~~~~~~~~~~~~\alert{\text{Incorrect!}}</me></p></warning>
 
 <reading-questions>
-    <exercise number="3"><statement><p>True or false: to solve a radical equation, we should square each term of 	
-	the equation. Explain.</p></statement>
+    <exercise number="3"><statement><p>True or false: to solve a radical equation, we should square each term of the equation. Explain.</p></statement>
     <answer><p>False.  We should square each side of the equation.</p></answer></exercise>
 </reading-questions>
 </subsection>

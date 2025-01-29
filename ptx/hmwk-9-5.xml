@@ -3,7 +3,7 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 9.5</title>
 
-<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>5, solve and check.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>5, solve and check.</p></introduction>
 
 <exercise number="1"><statement><p><m>\sqrt{x+4}=5</m></p></statement>
 <answer><p>21</p></answer></exercise>
@@ -24,9 +24,7 @@
     <image xml:id="hp-9-5-6">
         <description>square root graph</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.4]
         \draw[cyan] (0,0) grid (15,12);
         \draw[black, very thick, ->, >=stealth'] (0,0)--(16,0) node[right]{$x$};
@@ -57,9 +55,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     <image xml:id="hp-9-5-7">
         <description>semicircle</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (-5,0) grid (5,5);
         \draw[black, very thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -95,7 +91,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 <exercise number="12"><statement><p><m>6+\sqrt{5x-4}-x=4</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>15, solve.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>15, solve.</p></introduction>
 
 <exercise number="13"><statement><p><m>2\sqrt[3]{x}+15=5</m></p></statement>
 <answer><p><m>-125</m></p></answer></exercise>
@@ -158,9 +154,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     <image xml:id="hp-9-5-21">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (0,0) grid (12,6);
         \draw[black, very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$x$};
@@ -183,9 +177,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     <image xml:id="hp-9-5-21ans">
         <description>square root graph</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (0,0) grid (12,6);
         \draw[black, very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$x$};
@@ -240,9 +232,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     <image xml:id="hp-9-5-22">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (-2,-4) grid (10,6);
         \draw[black, very thick, ->, >=stealth'] (-2,0)--(11,0) node[right]{$x$};

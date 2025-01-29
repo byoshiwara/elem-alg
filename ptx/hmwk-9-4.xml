@@ -3,7 +3,7 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 9.4</title>
 
-<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, simplify the product.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>3, simplify the product.</p></introduction>
 
 <exercise number="1"><statement><p><m>\sqrt{8}\sqrt{2}</m></p></statement>
 <answer><p><m>4 </m></p></answer></exercise>
@@ -14,7 +14,7 @@
 <answer><p><m>36a^2 </m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 4<ndash/>6, multiply.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 4<ndash/>6, multiply.</p></introduction>
 
 <exercise number="4"><statement><p><m>\sqrt{2}(3+\sqrt{3})</m></p></statement></exercise>
 
@@ -105,9 +105,7 @@
     <image xml:id="hp-9-4-29">
         <description>triangle</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
 		\begin{tikzpicture} 
 		\coordinate (A) at (0,0);
 		\coordinate (B) at (3,0);
@@ -128,7 +126,7 @@
 
 <exercise number="30"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol marker="a.">
 	<li>Write an expression in terms of <m>k</m> for the height of the pyramid shown at right. </li>
-	<li>Write an expressionin terms of <m>k</m> for the area of the pyramid.</li></ol></p>
+	<li>Write an expressionin terms of <m>k</m> for the surface area of the pyramid.</li></ol></p>
 	<image source="photos/hp-9-4-30"><description>pyramid</description></image></sidebyside></statement>
 </exercise>
 
