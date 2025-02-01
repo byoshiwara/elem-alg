@@ -212,20 +212,14 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
                     <row> 
                         <cell><m>-2</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>0</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
                     <row>
                         <cell><m>1</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>  
                     <row>
-                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row> 
-                    <row>
-                        <cell><m>8</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>16</m></cell>
+                   <row>
+                        <cell><m>13</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
     <!-- <image source="photos/hp-9-5-22.png"><description>grid</description></image>-->
