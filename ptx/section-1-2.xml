@@ -48,13 +48,10 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term><idx><h>sum</h></idx> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term><idx><h>term</h><h>of the sum</h></idx> of the sum.</p>
 <!--    <sidebyside width="50%"><image source="photos/fig-1-2-1.png"/></sidebyside> -->
-    <sidebyside width="42%">
-        <image xml:id="fig-1-2-1">
+        <image xml:id="fig-1-2-1" width="42%">
         <description>sums</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
         \coordinate (A) at (-0.8,0.7);
@@ -77,7 +74,6 @@ are algebraic expressions. An important part of algebra involves translating wor
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 
 <example><statement><p>Write sums to represent the following phrases.<ol marker="a." cols="2">
     <li><p>Six more than <m>x</m></p></li>
@@ -107,13 +103,10 @@ are algebraic expressions. An important part of algebra involves translating wor
 <assemblage><title>Look Closer</title>
 <p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
 <!--    <sidebyside width="70%"><image source="photos/fig-1-2-2.png"/></sidebyside>-->
-    <sidebyside width="60%">
-        <image xml:id="fig-1-2-2">
+        <image xml:id="fig-1-2-2" width="60%">
         <description>products</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
         \coordinate (A) at (-0.8,0.7);
@@ -143,7 +136,7 @@ are algebraic expressions. An important part of algebra involves translating wor
         \draw[blue, <-, >=stealth'] (Ea)--(E);
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (7.3,-0.2)--(F)  node [below,midway,yshift=-4pt] {product};
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside>
+    </latex-image></image>
 
 <p>If one of the factors is a variable, we can just write the factors side by side. For example,
     <md><mrow>ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b</mrow> 
@@ -187,13 +180,10 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term><idx><h>difference</h></idx> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term><idx><h>term</h><h></h></idx>.</p>
 <!--    <sidebyside width="70%"><image source="photos/fig-1-2-3.png"/></sidebyside>-->
-    <sidebyside width="60%">
-        <image xml:id="fig-1-2-3">
+        <image xml:id="fig-1-2-3" width="60%">
         <description>differences</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
         \coordinate (A) at (-0.8,0.7);
@@ -223,7 +213,7 @@ are algebraic expressions. An important part of algebra involves translating wor
         \draw[blue, <-, >=stealth'] (Ea)--(E);
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (7.3,-0.2)--(F)  node [below,midway,yshift=-4pt] {difference};
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside>
+    </latex-image></image>
 
 <warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
 "<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
@@ -239,13 +229,10 @@ The operation of subtraction is not commutative.</p></warning>
 
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
 <!--    <sidebyside width="80%"><image source="photos/fig-1-2-4.png"/></sidebyside>-->
-    <sidebyside width="60%">
-        <image xml:id="fig-1-2-4">
+        <image xml:id="fig-1-2-4" width="60%">
         <description>quotients</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
         \coordinate (A) at (0,0.8);
@@ -268,7 +255,7 @@ The operation of subtraction is not commutative.</p></warning>
         \draw[blue, <-, >=stealth'] (F)++(0,.35)--(F)--++(0.3,0) node[right, scale=.9] {divisor};;
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (E2)++(0,0.4)--++(0,-0.8)  node [right,midway,xshift=4pt] {quotient};
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside>
+    </latex-image></image>
 
 <assemblage><title>Look Closer</title>
 <p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, <m>12 \div 3 = 4</m> but <m>3 \div 12 = \dfrac{1}{4}</m>.</p></assemblage>
@@ -409,11 +396,9 @@ Bert's average score is 15.8.</p></solution></example>
 
 <exercisegroup cols="2"><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
 
-<exercise number="7"><statement><sidebyside width="85%" margins="0% 5%">
-    <image xml:id="sw-1-2-7"><description>stacks of squares</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+<exercise number="7"><statement>
+    <image xml:id="sw-1-2-7" width="85%"><description>stacks of squares</description><latex-image>
+        <![CDATA[
         \begin{tikzpicture} [scale=0.8]
         \draw[cyan, thick] (-3,0) grid (-2,5);
         \draw[cyan, thick] (-2,0) grid (-1,4);
@@ -425,13 +410,11 @@ Bert's average score is 15.8.</p></solution></example>
         \node[below,text=cyan] at (0.5,-0.4){All squares are};
         \node[below,text=cyan] at (0.5,-1){1 centimeter on a side.};
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></statement></exercise>
+    </latex-image></image></statement></exercise>
 
-<exercise number="8"><statement><sidebyside width="85%" margins="0% 5%">
-    <image xml:id="sw-1-2-8"><description>polygonal region with right angles</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+<exercise number="8"><statement>
+    <image xml:id="sw-1-2-8" width="85%"><description>polygonal region with right angles</description><latex-image>
+        <![CDATA[
         \begin{tikzpicture} [scale=0.4]
         \draw[red,very thick] (0,0)--++(0,5) node[left, midway, text=black]{5 ft};
         \draw[red,very thick] (0,5)--++(8,0) node[above, midway, text=black]{8 ft};
@@ -442,7 +425,7 @@ Bert's average score is 15.8.</p></solution></example>
         \draw[red,very thick] (3,-2)--++(9,0) node[below, midway, text=black]{9 ft};
         \draw[red, very thick](12,8)--++(0,-10);
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></statement></exercise>
+    </latex-image></image></statement></exercise>
 </exercisegroup>
 </exercises>
 
@@ -559,7 +542,7 @@ The sale price is $510.</p>
 <exercises>
 
 <exercise><statement><p>Evaluate the algebraic expression in the Example above to complete the table below showing the sale price for various appliances.</p>
-    <sidebyside width="45%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>P</m></cell>
                         <cell><m>120</m></cell>
@@ -574,11 +557,11 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></statement></exercise> 
+                    </tabular></statement></exercise> 
 
 <exercisegroup cols="2"><introduction><p>Complete each table below by evaluating the expression.</p></introduction>
 
-<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>1</m></cell>
@@ -591,9 +574,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></p></statement></exercise>
 
-<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>0.1</m></cell>
@@ -606,9 +589,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside> </p></statement></exercise>
+                    </tabular></p></statement></exercise>
 
-<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>a</m></cell>
                         <cell><m>6</m></cell>
@@ -621,9 +604,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside> </p></statement></exercise>
+                    </tabular></p></statement></exercise>
 
-<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>1</m></cell>
@@ -636,9 +619,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside> </p></statement></exercise>
+                    </tabular></p></statement></exercise>
 
-<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>w</m></cell>
                         <cell><m>0.1</m></cell>
@@ -651,9 +634,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside> </p></statement></exercise>
+                    </tabular></p></statement></exercise>
 
-<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>p</m></cell>
                         <cell><m>0.1</m></cell>
@@ -666,7 +649,7 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside> </p></statement></exercise>
+                    </tabular></p></statement></exercise>
 </exercisegroup>
 </exercises>
 </subsubsection>
@@ -675,7 +658,7 @@ The sale price is $510.</p>
 
 <p>Write down the five algebraic formulas from the Reading, as algebraic expressions and in words.</p>
 
-<sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{00}</m></cell>
                         <cell>Formula</cell>
@@ -700,7 +683,7 @@ The sale price is $510.</p>
                         <cell>5.</cell>
                         <cell><m>\hphantom{00000000000000}</m></cell>
                         <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
 
 <exercises>
 <exercisegroup><introduction><p>For the Exercises below,<ol marker="a.">

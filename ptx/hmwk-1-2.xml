@@ -58,14 +58,12 @@
 <exercisegroup cols="3">
     <introduction><p>For Problems 15<ndash/>17, write an algebraic expression for the area or perimeter of the figure. Include units in your answers. The dimensions are given in inches.</p></introduction>
 
-<exercise number="15"><statement><sidebyside width="90%" margins="0% 5%">
+<exercise number="15"><statement>
     <!--<image source="photos/hp-1-2-15.png"/>-->
-    <image xml:id="hp-1-2-15">
+    <image xml:id="hp-1-2-15" width="90%">
             <description>rectangle</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=0.6]
             \draw[blue] (0,0) rectangle +(.4,.4);
             \draw[blue] (0,2.5) rectangle +(.4,-.4);
@@ -77,17 +75,15 @@
             \end{tikzpicture}]]>
             </latex-image>
     </image>
-</sidebyside><p>area =</p></statement>
+<p>area =</p></statement>
 <answer><m>2x</m></answer></exercise>
 
-<exercise number="16"><statement><sidebyside width="60%" margins="0% 5%">
+<exercise number="16"><statement>
     <!--<image source="photos/hp-1-2-16.png"/>-->
-    <image xml:id="hp-1-2-16">
+    <image xml:id="hp-1-2-16" width="60%">
             <description>rectangle</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=0.6]
             \draw[blue] (0,0) rectangle +(.4,.4);
             \draw[blue] (0,3) rectangle +(.4,-.4);
@@ -99,16 +95,14 @@
             \end{tikzpicture}]]>
             </latex-image>
     </image>
-</sidebyside><p>perimeter =</p></statement></exercise>
+<p>perimeter =</p></statement></exercise>
 
-<exercise number="17"><statement><sidebyside width="90%" margins="0% 5%">
+<exercise number="17"><statement>
     <!--<image source="photos/hp-1-2-17.png"/>-->
-    <image xml:id="hp-1-2-17">
+    <image xml:id="hp-1-2-17" width="90%">
             <description>triangle</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=0.5]
             \draw[blue] (0,0) rectangle +(.4,.4);
             \draw[magenta!80!black,ultra thick] (0,0) -- (0,2.5)--(6,0)--cycle;
@@ -117,7 +111,7 @@
             \end{tikzpicture}]]>
             </latex-image>
     </image>
-</sidebyside>
+
     <p>area = </p></statement>
 <answer><m>2v</m></answer></exercise>
 </exercisegroup>
@@ -132,7 +126,7 @@
 <exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol marker="a.">    
     <li>If <m>m</m> stands for Francine's spending money, write an expression for the amount she saves.</li>
     <li>Evaluate the expression to complete the table.
-    <sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Spending money (dollars)</cell>
                         <cell><m>20</m></cell>
@@ -143,11 +137,11 @@
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
         </ol></p></statement>
 <answer><p><ol marker="a.">
     <li><m>\dfrac{m}{5}</m></li>
-    <li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Spending money (dollars)</cell>
                         <cell><m>20</m></cell>
@@ -158,13 +152,13 @@
                         <cell><m>4</m></cell>
                         <cell><m>5</m></cell>
                         <cell><m>12</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     </ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>Delbert wants to enlarge his class photograph. Its height is <m>\dfrac{1}{4}</m> of its width. The enlarged photo should have the same shape as the original.<ol marker="a."> 
     <li>If <m>W</m> stands for the width of the enlargement, write an expression for its height.</li>
     <li>Evaluate the expression to complete the table.
-    <sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Width of photo (inches)</cell>
                         <cell><m>6</m></cell>
@@ -175,13 +169,13 @@
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
         </ol></p></statement></exercise>
 
  <exercise number="21"><statement><p>If the governor vetoes a bill passed by the State Assembly, <m>\dfrac{2}{3}</m> of the members present must vote for the bill in order to overturn the veto.<ol marker="a.">  
     <li>If <m>p</m> stands for the number of Assembly members present, write an expression for the number of votes needed to overturn a veto.</li>
     <li>Evaluate the expression to complete the table.
-    <sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Members present</cell>
                         <cell><m>90</m></cell>
@@ -192,7 +186,7 @@
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
         </ol></p></statement>
 <answer><p><ol marker="a.">
     <li><m>\dfrac{2}{3}p</m></li>
@@ -213,7 +207,7 @@
 <exercise number="22"><statement><p>Marla's investment club buys some stock. She will get <m>\dfrac{3}{5}</m> of the dividends.<ol marker="a.">  
     <li>If <m>D</m> stands for the stock dividends, write an expression for Marla's share.</li>
     <li>Evaluate the expression to complete the table.
-    <sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Stock dividend</cell>
                         <cell><m>40</m></cell>
@@ -224,7 +218,7 @@
                         <cell><m>24</m></cell>
                         <cell><m>51</m></cell>
                         <cell><m>69</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
         </ol></p></statement></exercise>
 
 <exercisegroup>
