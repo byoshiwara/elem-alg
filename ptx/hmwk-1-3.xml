@@ -479,7 +479,7 @@
                         <cell><m>250</m></cell>
                         <cell><m>300</m></cell>
                         <cell><m>450</m></cell>
-                        <cell><m>60</m></cell></row>
+                        <cell><m>600</m></cell></row>
                     <row> 
                         <cell><m>D</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
@@ -610,7 +610,7 @@
          \draw[cyan, very thick] (0,\y) --++(150,0);
          \draw[black, thick] (1,\y) --++(-2,0)  node[left]   {\y};
         }
-        \draw[red,very thick, ->,>=stealth'](2,0)--(150,120);
+        \draw[red,very thick, ->,>=stealth'](20,0)--(150,120);
         \node[fill=white, inner sep=1, text=red] at (110,115) {$k=p-20$};
         \end{tikzpicture}]]>
     </latex-image>
