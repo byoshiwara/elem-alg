@@ -31,7 +31,7 @@ Now we have an equation in just one variable. We would like to find the value of
 <p>Some equations are easy enough to solve by trial and error. You can probably see that the solution of the equation <m>~54=6h~</m> is 9. We can use a table to help us solve a harder equation by trial and error.</p>
 
 <exercise><statement><p>One of Aunt Esther's Chocolate Dream cookies contains 42 calories, so <m>d</m> cookies contain <m>c</m> calories, and <m>c=42d</m>. If Albert consumed 546 calories, how many cookies did he eat? Use trial and error to help you solve the equation <m>546=42d</m>.
-	<sidebyside width="60%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>d</m></cell>
                         <cell><m>5</m></cell>
@@ -58,7 +58,7 @@ Now we have an equation in just one variable. We would like to find the value of
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></p></statement></exercise>
 
 <assemblage><title>Look Ahead</title>
 <p>Trial and error can be time-consuming, especially for complicated equations! In this section we investigate some algebraic methods for solving equations.</p></assemblage>
@@ -331,7 +331,7 @@ Finally, we answer the question in a sentence:
 <exercise><statement><p>Fernando plans to share an apartment with three other students and split the rent equally. <ol marker="a."> 
     <li>Let <m>r</m> stand for the rent on the apartment and <m>s</m> for Fernando's share. Write an equation for <m>s</m> in terms of <m>r</m>.</li>
     <li>Fill in the table.
-        <sidebyside width="60%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>260</m></cell>
@@ -348,7 +348,7 @@ Finally, we answer the question in a sentence:
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>105</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li>Explain how you found the unknown values of <m>s</m>.</li>  
     <li>Explain how you found the unknown values of <m>r</m>.</li></ol></p></statement></exercise>
 </exercises>

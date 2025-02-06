@@ -18,7 +18,7 @@
 
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
-        <rename element="inlineexercise">Reading Question</rename>
+<!--        <rename element="inlineexercise">Reading Question</rename>-->
         <rename element="problem">Wrap-Up</rename>
         <rename element="activity">Warm-Up</rename>
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
@@ -26,18 +26,23 @@
 
     <initialism>Elementary Algebra</initialism>
 
-      <latex-preamble>
+<docinfo>
+    <math-package latex-name="cancel" mathjax-name="cancel"/>
+    <math-package latex-name="tikz" mathjax-name="tikz"/>
+
+</docinfo>
+<!--       <latex-preamble>
         <package>cancel</package>
       </latex-preamble> 
-<!--    <math-package latex-name="cancel" mathjax-name="cancel"/>
-    <math-package latex-name="tikz" mathjax-name="tikz"/> -->
+   <math-package latex-name="cancel" mathjax-name="cancel"/>
+    <math-package latex-name="tikz" mathjax-name="tikz"/> 
     
     <latex-image-preamble>
         \usepackage{tikz}
         \usetikzlibrary{arrows}
         \usetikzlibrary{decorations.pathreplacing}
         \usetikzlibrary{calc,intersections,through,backgrounds}
-    </latex-image-preamble>
+    </latex-image-preamble>-->
 
 
    <macros>

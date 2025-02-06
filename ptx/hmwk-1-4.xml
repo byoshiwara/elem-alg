@@ -7,7 +7,7 @@
     <introduction><p>For Problems 1<ndash/>2, fill in the table for each equation. Explain how you found the unknown values.</p></introduction>
 
 <exercise number="1"><statement><p><m>q=9+t</m></p>
-<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>2</m></cell>
@@ -20,8 +20,8 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>15</m></cell>
                         <cell><m>18</m></cell></row>
-                    </tabular></sidebyside></statement>
-<answer><sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></statement>
+<answer><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>2</m></cell>
@@ -34,11 +34,11 @@
                         <cell><m>13</m></cell>
                         <cell><m>15</m></cell>
                         <cell><m>18</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
     <p>To find a value for <m>q</m>, add 9 to the value of <m>p</m>.  To find a value for <m>p</m>, subtract 9 from the value of <m>q</m>.</p></answer></exercise>
 
 <exercise number="2"><statement><p><m>p=5n</m></p>
-<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>0</m></cell>
@@ -51,7 +51,7 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>20</m></cell>
                         <cell><m>35</m></cell></row>
-                    </tabular></sidebyside></statement></exercise>
+                    </tabular></statement></exercise>
 </exercisegroup>
 
 <exercise number="3"><statement><p>Decide whether the given value for the variable is a solution of the equation.<ol marker="a.">
