@@ -524,9 +524,7 @@ Be sure to include units with your ratios!</p>
         <image xml:id="act-3-3-2-1a">
         <description>decreasing line with labeled deltas</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \coordinate (O) at (0,0);
         \draw[cyan] (0,0) grid (10,12);
@@ -555,9 +553,7 @@ Be sure to include units with your ratios!</p>
         <image xml:id="act-3-3-2-1b">
         <description>decreasing line with labeled deltas</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \coordinate (O) at (0,0);
         \draw[cyan] (0,0) grid (10,12);
@@ -589,13 +585,10 @@ Be sure to include units with your ratios!</p>
 
 <exercise><statement><p>Find the slope of each line segment. Verify that you get the same answer if you move in the opposite direction. (Each square counts for one unit.)</p>
 <p><ol marker="a." cols="3">
-    <li><sidebyside>
-        <image xml:id="act-3-3-2-2a">
+    <li><image xml:id="act-3-3-2-2a">
         <description>grid with segment</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.25]
         \coordinate (O) at (0,0);
         \draw[cyan] (0,0) grid (14,5);
@@ -603,15 +596,12 @@ Be sure to include units with your ratios!</p>
         \filldraw[magenta!80!black] (1,1) circle (.15) node[above,yshift=2, fill=white, inner sep=1] {$P$};
         \filldraw[magenta!80!black] (13,4) circle (.15) node[below, yshift=-2, fill=white, inner sep=1] {$Q$};        \end{tikzpicture}]]>
         </latex-image>
-        </image>
-    </sidebyside></li>
-    <li><sidebyside width="45%" margins="0% 5%">
-        <image xml:id="acbt-3-3-2-2">
+        </image></li>
+    <li>
+        <image xml:id="acbt-3-3-2-2" width="45%">
             <description>grid with line</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=.4]
             \coordinate (O) at (0,0);
             \draw[cyan] (0,0) grid (4,7);
@@ -620,15 +610,12 @@ Be sure to include units with your ratios!</p>
             \filldraw[magenta!80!black] (3,1) circle (.15) node[left, xshift=-4, fill=white, inner sep=1] {$B$};                
             \end{tikzpicture}]]>
             </latex-image>
-        </image>
-    </sidebyside></li>
-    <li><sidebyside width="65%" margins="0% 5%">
-        <image xml:id="act-3-3-2-2c">
+        </image></li>
+    <li>
+        <image xml:id="act-3-3-2-2c" width="65%">
         <description>grid with segment</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \coordinate (O) at (0,0);
         \draw[cyan] (0,0) grid (6,6);
@@ -636,8 +623,7 @@ Be sure to include units with your ratios!</p>
         \filldraw[magenta!80!black] (1,5) circle (.15) node[above left,xshift=-1,yshift=3, fill=white, inner sep=1] {$S$};
         \filldraw[magenta!80!black] (5,1) circle (.15) node[right, xshift=4, fill=white, inner sep=1] {$T$};       \end{tikzpicture}]]>
         </latex-image>
-        </image>
-    </sidebyside></li>
+        </image></li>
 </ol></p></statement>
 </exercise>
 
@@ -652,13 +638,10 @@ Be sure to include units with your ratios!</p>
 
 <exercises>
 <exercise><statement><p>Calculate the slope of the line <m>~y=\dfrac{2}{3}x-2~</m> shown in the figure:</p>
-    <sidebyside width="45%">
-        <image xml:id="act-3-3-3-1">
+        <image xml:id="act-3-3-3-1" width="45%">
                 <description>line with labeled points</description>
                 <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
+                <![CDATA[
                 \begin{tikzpicture} [scale=.4]
                 \coordinate (O) at (0,0);
                 \draw[cyan] (-5,-6) grid (10,6);
@@ -687,7 +670,6 @@ Be sure to include units with your ratios!</p>
                 \draw[black, ->, >=stealth'] (1.1,0)--(3,0);    \end{tikzpicture}]]>
                 </latex-image>
         </image>
-    </sidebyside>
 <p><ol marker="a.">
     <li>By using the points <m>P(-3,-4)</m> and <m>Q(3,0)</m>.</li>
     <li>By using the points <m>R(6,2)</m> and <m>S(0,-2)</m>.</li>
@@ -766,7 +748,7 @@ Be sure to include units with your ratios!</p>
                     <cell bottom="minor"><m>0</m></cell></row>
         </tabular>
         <p><m>m=\hphantom{0000}</m></p>
-    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
+    <image source="photos/stangrid8" width="90%"><description>grid</description></image></statement>
 </exercise>
 
 <exercise><statement><p><m>\dfrac{x}{6}+\dfrac{y}{8} = 1</m></p>
@@ -803,12 +785,12 @@ Be sure to include units with your ratios!</p>
 <exercisegroup cols="2"><introduction><p>Plot the points and find the slope of the line between them.</p></introduction>
 
 <exercise><statement><p><m>(-2,8)</m> and <m>(4,-6)</m></p>
-    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside>
+    <image source="photos/stangrid8" width="90%"><description>grid</description></image>
 <p><m>m=\hphantom{0000}</m></p></statement>
 </exercise>
 
 <exercise><statement><p><m>(-7,-3)</m> and <m>(5,9)</m></p>
-    <sidebyside width="90%"><image source="photos/stangrid8"><description>grid</description></image></sidebyside>
+    <image source="photos/stangrid8" width="90%"><description>grid</description></image>
 <p><m>m=\hphantom{0000}</m></p></statement>
 </exercise>
 </exercisegroup>

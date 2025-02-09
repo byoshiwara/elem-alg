@@ -26,23 +26,16 @@
 
     <initialism>Elementary Algebra</initialism>
 
-<docinfo>
-    <math-package latex-name="cancel" mathjax-name="cancel"/>
-    <math-package latex-name="tikz" mathjax-name="tikz"/>
+<!--<docinfo>-->
+<math-package latex-name="cancel" mathjax-name="cancel"/>
 
-</docinfo>
-<!--       <latex-preamble>
-        <package>cancel</package>
-      </latex-preamble> 
-   <math-package latex-name="cancel" mathjax-name="cancel"/>
-    <math-package latex-name="tikz" mathjax-name="tikz"/> 
-    
-    <latex-image-preamble>
-        \usepackage{tikz}
-        \usetikzlibrary{arrows}
-        \usetikzlibrary{decorations.pathreplacing}
-        \usetikzlibrary{calc,intersections,through,backgrounds}
-    </latex-image-preamble>-->
+<latex-image-preamble>
+  \usepackage{tikz}
+  \usetikzlibrary{arrows}
+  \usetikzlibrary{decorations.pathreplacing}
+  \usetikzlibrary{calc,intersections,through,backgrounds}
+</latex-image-preamble>
+
 
 
    <macros>
