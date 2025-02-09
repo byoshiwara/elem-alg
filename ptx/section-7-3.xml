@@ -455,37 +455,37 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <exercise number="5"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~6x^2~~</m></cell>
-                        <cell><m>~~9x~~</m></cell>></row>
+                        <cell><m>~~9x~~</m></cell></row>
                     <row> 
                         <cell><m>~~10x~~</m></cell>
-                        <cell><m>~~15~~</m></cell>></row>
+                        <cell><m>~~15~~</m></cell></row>
                     </tabular></statement></exercise>
 
 <exercise number="6"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~8t^2~~</m></cell>
-                        <cell><m>~~-14t~~</m></cell>></row>
+                        <cell><m>~~-14t~~</m></cell></row>
                     <row> 
                         <cell><m>~~-12t~~</m></cell>
-                        <cell><m>~~21~~</m></cell>></row>
+                        <cell><m>~~21~~</m></cell></row>
                     </tabular></statement></exercise>
 
 <exercise number="7"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~12m^2~~</m></cell>
-                        <cell><m>~~-10m~~</m></cell>></row>
+                        <cell><m>~~-10m~~</m></cell></row>
                     <row> 
                         <cell><m>~~30m~~</m></cell>
-                        <cell><m>~~-25~~</m></cell>></row>
+                        <cell><m>~~-25~~</m></cell></row>
                     </tabular></statement></exercise>
 
 <exercise number="8"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~9a^2~~</m></cell>
-                        <cell><m>~~21a~~</m></cell>></row>
+                        <cell><m>~~21a~~</m></cell></row>
                     <row> 
                         <cell><m>~~-21a~~</m></cell>
-                        <cell><m>~~-49~~</m></cell>></row>
+                        <cell><m>~~-49~~</m></cell></row>
                     </tabular></statement></exercise>
 </exercisegroup>
 </exercises>

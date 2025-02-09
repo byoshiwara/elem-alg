@@ -16,7 +16,7 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 4<ndash/>9, find the square root.</p></introduction>
 
-<exercise number="4"><statement><p><m>\sqrt{y^8}</m></p></statement>></exercise>
+<exercise number="4"><statement><p><m>\sqrt{y^8}</m></p></statement></exercise>
 
 <exercise number="5"><statement><p><m>\sqrt{n^{36}}</m></p></statement>
 <answer><p><m>n^{18} </m></p></answer></exercise>
@@ -34,7 +34,7 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 10<ndash/>15, simplify the square root.</p></introduction>
 
-<exercise number="10"><statement><p><m>\sqrt{8}</m></p></statement>></exercise>
+<exercise number="10"><statement><p><m>\sqrt{8}</m></p></statement></exercise>
 
 <exercise number="11"><statement><p><m>-\sqrt{20}</m></p></statement>
 <answer><p><m>-2\sqrt{5} </m></p></answer></exercise>

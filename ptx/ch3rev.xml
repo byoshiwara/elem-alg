@@ -697,7 +697,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="52"><statement><m>\dfrac{x}{6}-\dfrac{y}{12}=1</m></statement></exercise>
 
 <exercise number="53"><statement><m>50x=40y-20,000</m></statement>
-<answer><sidebyside width="60%" margins="0% 40%">>
+<answer><sidebyside width="60%" margins="0% 40%">
     <image xml:id="cr3-53ans">
         <description>line</description>
         <latex-image>
@@ -721,7 +721,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="54"><statement><m>1.4x+2.1y=8.4</m></statement></exercise>
 
 <exercise number="55"><statement><m>3x-4y=0</m></statement>
-<answer><sidebyside width="80%" margins="0% 20%">>
+<answer><sidebyside width="80%" margins="0% 20%">
     <image xml:id="cr3-55ans">
         <description>line</description>
         <latex-image>
@@ -745,7 +745,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="56"><statement><m>x=-4y</m></statement></exercise>
 
 <exercise number="57"><statement><m>4x=-12</m></statement>
-<answer><sidebyside width="70%" margins="0% 30%">>
+<answer><sidebyside width="70%" margins="0% 30%">
     <image xml:id="cr3-57ans">
         <description>line</description>
         <latex-image>

@@ -71,7 +71,7 @@
 <exercise number="11"><statement><m>3v(5v-2v^2)</m></statement>
 <answer><m>15v^2-6v^3</m></answer></exercise>
 
-<exercise number="12"><statement><m>-4x^2(2x+3y)</m></statement>></exercise>
+<exercise number="12"><statement><m>-4x^2(2x+3y)</m></statement></exercise>
 
 <exercise number="13"><statement><m>(y^3+3y-2)(2y)</m></statement>
 <answer><m>2y^4+6y^2-4y</m></answer></exercise>
@@ -89,7 +89,7 @@
 <exercise number="17"><statement><m>ax(x^2+2x-3)-a(x^3+2x^2)</m></statement>
 <answer><m>-3ax</m></answer></exercise>
 
-<exercise number="18"><statement><m>3ab^2(2+3a)-2ab(3ab+2b)</m></statement>></exercise>
+<exercise number="18"><statement><m>3ab^2(2+3a)-2ab(3ab+2b)</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, write two different expressions for the area of the rectangle:<ol marker="a.">
@@ -166,7 +166,7 @@
 <exercise number="25"><statement><m>(3s+t)(2s+3t)</m></statement>
 <answer><m>6s^2+11st+3t^2</m></answer></exercise>
 
-<exercise number="26"><statement><m>(2x-a)(x-3a)</m></statement>></exercise>
+<exercise number="26"><statement><m>(2x-a)(x-3a)</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, compute the product:  Multiply the binomials together first, then multiply the result by the numerical coefficient.</p></introduction>
