@@ -143,7 +143,7 @@ where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>,
 	<p>If all the coefficients of the trinomial are positive, then both <m>p</m> and <m>q</m> are positive.</p></li>
 	<li><p><m>x^2-bx+c=(x-p)(x-q)</m></p>
 	<p>If the linear term of the trinomial is negative and the other two terms positive, then <m>p</m> and <m>q</m> are both negative.</p></li>  
-	<li><p><m>x^2 \pm bx+c=(x+p)(x-q)</m></p>
+	<li><p><m>x^2 \pm bx-c=(x+p)(x-q)</m></p>
 	<p>If the constant term of the trinomial is negative, then <m>p</m> and <m>q</m> have opposite signs.</p></li>
 </ol></p></assemblage>
 

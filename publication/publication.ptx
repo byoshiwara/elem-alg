@@ -24,11 +24,9 @@
     <html>
         <calculator model="geogebra-graphing"/>
         <index-page ref="preface"/>
-        <css style="oscarlevin" colors="default"/>
-<!--       <css style="default" colors="default"/> -->
-<!--        <css style="default" colors="blue_red"/> -->
         <knowl example="no"/>
         <knowl exercise-inline="no"/>
+    <css style="oscarlevin" colors="default"/>
         <!-- Magic IDs identify HTML pages to analytics services   -->
         <!-- Presence implies relevant Javascript will be added    -->
         <!-- StatCounter requires both values to be set            -->
