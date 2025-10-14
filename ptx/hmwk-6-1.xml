@@ -320,7 +320,7 @@
 <exercise number="21"><statement><p><m>A=4\pi r^2~~~~\text{for}~~r</m></p></statement>
 <answer><p><m>\pm\sqrt{\dfrac{A}{4\pi}} </m></p></answer></exercise>
 
-<exercise number="22"><statement><p><m><E></E>=\dfrac{1}{2}mv^2~~~~\text{for}~~v</m></p></statement></exercise>
+<exercise number="22"><statement><p><m>E=\dfrac{1}{2}mv^2~~~~\text{for}~~v</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>d=6+kv^2~~~~\text{for}~~v</m></p></statement>
 <answer><p><m>\pm\sqrt{\dfrac{d-6}{k}} </m></p></answer></exercise>
