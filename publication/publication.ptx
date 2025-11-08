@@ -24,16 +24,16 @@
     <html>
         <calculator model="geogebra-graphing"/>
         <index-page ref="preface"/>
-        <knowl example="no"/>
-        <knowl exercise-inline="no"/>
-    <css style="oscarlevin" colors="default"/>
-        <!-- Magic IDs identify HTML pages to analytics services   -->
-        <!-- Presence implies relevant Javascript will be added    -->
-        <!-- StatCounter requires both values to be set            -->
+        <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/> 
+<!--    <css style="oscarlevin"/>-->
+    <knowl remark="no" example="no" example-solution="no" proof="no" exercise-inline="no"/>
+         <video privacy="yes"/>
+        <search variant="default"/>
         <analytics google-gst="G-MLHBE6655J"
                    statcounter-project="13069512"
                    statcounter-security="3c431ca7"/>
         <video privacy="yes"/>
+        <search variant="default"/>
     </html>
 
 </publication>
