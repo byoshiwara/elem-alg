@@ -39,8 +39,7 @@
 
 <exercise number="5"><statement><m>y=-3</m></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside>
-    <image xml:id="hp-3-5-5ans">
+    <li><image xml:id="hp-3-5-5ans">
         <description>horizontal line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -58,8 +57,7 @@
         \node[left, fill=white, inner sep=2] at (-.2,-3){$-3$};
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></li>
+    </image></li>
     <li><p><m>m=0</m></p></li>
 </ol></p></answer></exercise>
 
@@ -67,8 +65,7 @@
 
 <exercise number="7"><statement><m>x=0</m></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside>
-    <image xml:id="hp-3-5-7ans">
+    <li><image xml:id="hp-3-5-7ans">
         <description>horizontal line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -86,8 +83,7 @@
         }
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></li>
+    </image></li>
     <li><p><m>m</m> is undefined</p></li>
 </ol></p></answer></exercise>
 </exercisegroup>
@@ -159,14 +155,12 @@
 <exercise number="24"><statement><p><m>m=2,~~(1,-1)</m><ol marker="a." cols="2">
     <li><m>(0,?)</m></li>
     <li><m>(?,-7)</m></li></ol></p>
-    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
-    </statement></exercise>
+    <image source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 
 <exercise number="25"><statement><p><m>m=\dfrac{-1}{2},~~(2,-6)</m><ol marker="a." cols="2">
     <li><m>(6,?)</m></li>
     <li><m>(?,-3)</m></li></ol></p>
-    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
-    </statement>
+    <image source="photos/stangrid10"><description>grid</description></image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>\left(6,-8\right) </m></p></li>
     <li><p><m>(-4,-3) </m></p></li>
@@ -193,10 +187,8 @@
 </exercisegroup>
 
 <exercise number="30"><statement><p>The figure shows the wholesale cost, <m>C</m>, in dollars, of <m>p</m> pounds of dry-roasted peanuts.</p>
-	<sidebyside width="35%"><!--<image source="photos/hp-3-5-30.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-5-30">
-        <description>graph of line</description>
-        <latex-image>
+	<!--<image source="photos/hp-3-5-30.png"><description>graph</description></image>-->
+    <image width="45%" xml:id="hp-3-5-30"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -214,19 +206,15 @@
 		}
 		\draw[red, very thick, ->, >=stealth'] (0,0)--(10,15/2);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside>
+    </latex-image></image>
 <p><ol marker="a.">
 	<li>What does the slope of this graph tell you about dry-roasted peanuts?</li>
 	<li>Compute the slope, including units.</li>
 	<li>If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?</li></ol></p></statement></exercise>
 
 <exercise number="31"><statement><p>Roy is traveling home by train. The figure shows his distance <m>d</m> from home in miles <m>h</m> hours after the train started.</p>
-	<sidebyside width="35%"><!--<image source="photos/hp-3-5-31.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-5-31">
-        <description>graph of line</description>
-        <latex-image>
+	<!--<image source="photos/hp-3-5-31.png"><description>graph</description></image>-->
+    <image width="45%" xml:id="hp-3-5-31"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -244,9 +232,7 @@
 		}
 		\draw[red, very thick] (0,16)--(32/3,0);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside>
+    </latex-image></image>
 <p><ol marker="a.">
 	<li>Compute the slope of the graph, including units.</li>
 	<li>What does the slope tell you about Roy's journey?</li>

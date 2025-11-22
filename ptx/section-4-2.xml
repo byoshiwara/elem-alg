@@ -34,21 +34,21 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>t</m></cell>
+                        <cell><m>~t~</m></cell>
                         <cell><m>10</m></cell>
                         <cell><m>20</m></cell>
                         <cell><m>30</m></cell>
                         <cell><m>40</m></cell>
                         <cell><m>50</m></cell></row>
                     <row> 
-                        <cell><m>S</m></cell>
+                        <cell><m>~S~</m></cell>
                         <cell><m>1060</m></cell>
                         <cell><m>1120</m></cell>
                         <cell><m>1180</m></cell>
                         <cell><m>1240</m></cell>
                         <cell><m>1300</m></cell></row>
                     <row> 
-                        <cell><m>E</m></cell>
+                        <cell><m>~E~</m></cell>
                         <cell><m>1220</m></cell>
                         <cell><m>1240</m></cell>
                         <cell><m>1260</m></cell>
@@ -70,14 +70,12 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
           <mrow>E \amp = 2t+1000 \amp\amp \text{Does}~~~\alert{1300} = 2(\alert{50})+1200?~~~~~~\blert{\text{True}}</mrow></md>            
 We have verified that the ordered pair <m>(50,1300)</m> is a solution to the system in <xref ref="Example-4-2-1" text="type-global"/>.</p>  
 
-<reading-questions>
-    <exercise number="1"><statement><p>What is a solution to a system of equations?</p></statement>
+<exercise number="1"><statement><p>What is a solution to a system of equations?</p></statement>
     	<answer><p>An ordered pair that satisfies each equation in the system.</p></answer></exercise>
-    <exercise number="2"><statement><p>Decide whether the ordered pair <m>(2,3)</m> is a solution to the system
+<exercise number="2"><statement><p>Decide whether the ordered pair <m>(2,3)</m> is a solution to the system
     		<md><mrow>3x-4y=-6</mrow>
 				<mrow>x+2y=-4</mrow></md></p></statement>
-    	<answer><p>No</p></answer></exercise>
-</reading-questions>
+    	<answer><p>No, it does not satisfy the second equation.</p></answer></exercise>
 </subsection>
 
 <subsection><title>Solving a System of Equations by Graphing</title>
@@ -87,9 +85,11 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 
 <example xml:id="Example-4-2-3"><statement><p>Solve the system in <xref ref="Example-4-2-1" text="type-global"/> by graphing.</p></statement>
 
-<solution><p>The graph of the two equations is shown below. The graph of <m>S</m> has a smaller initial value than <m>E</m>, but it increases more rapidly because its slope is greater. The two graphs intersect at the point labeled <m>P</m>.</p>  
-	<sidebyside width="35%"><!--<image source="photos/fig-4-2-ex3.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex3"><description>graph of two lines</description><latex-image>
+<solution><sidebyside widths="50% 35%" valigns="middle middle">
+    <stack><p>The graph of the two equations is shown at right. The graph of <m>S</m> has a smaller initial value than <m>E</m>, but it increases more rapidly because its slope is greater. The two graphs intersect at the point labeled <m>P</m>.</p> 
+    <p>At this point the values of <m>S</m> and <m>E</m> are the same, approximately 1300. The <m>t</m>-coordinate of point  is 50, so the solution of the system is <m>(50,1300)</m>. The total cost of each model is about $1300 over the first 50 months of operation.</p></stack> 
+	<!--<image source="photos/fig-4-2-ex3.png"><description>graph</description></image>-->
+    <image width="35%" xml:id="fig-4-2-ex3"><description>graph of two lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -109,14 +109,12 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
         \draw[red, ultra thick, ->,>=stealth'] (0,8)--(10,12) node[right, text=black]{$ E $};
         \filldraw[red!80!black] (5,10) circle (2mm) node[below right, yshift=-3, text=black, fill=white, inner sep=1] {$P$};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
-<p>At this point the values of <m>S</m> and <m>E</m> are the same, approximately 1300. The <m>t</m>-coordinate of point  is 50, so the solution of the system is <m>(50,1300)</m>. The total cost of each model is about $1300 over the first 50 months of operation.</p></solution></example>
+</solution></example>
 
 <p>After 50 months, the total cost of the energy-efficient model will be less than the cost of the standard model.</p>
 
- <reading-questions>
-    <exercise number="3"><statement><p>How do we find the solution to a system of equations by graphing?</p></statement>
+<exercise number="3"><statement><p>How do we find the solution to a system of equations by graphing?</p></statement>
     	<answer><p>Locate the intersection point of the two graphs.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
@@ -132,8 +130,8 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 and the HomeLife policy costs
         <me>H=\dfrac{408}{6}t=68t</me>
 because a semiannual premium covers 6 months. The solution of the system represents the time when the costs of the two policies are equal. The graphs of the two equations are shown below.</p> 
-    <sidebyside width="40%"><!--<image source="photos/fig-4-2-ex4.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex4"><description>parallel lines</description><latex-image>
+    <!--<image source="photos/fig-4-2-ex4.png"><description>graph</description></image>-->
+    <image width="55%" xml:id="fig-4-2-ex4"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -151,7 +149,7 @@ because a semiannual premium covers 6 months. The solution of the system represe
         \draw[black, very thick,->,>=stealth'] (0,0)--(0,11.5) node[left]{$ \$ $};
         \draw[red, thick, ->,>=stealth'] (0,.5)--(12,{(50+68*12)/100}) node[above right]{$ C $};
         \draw[blue, thick, ->,>=stealth'] (0,0)--(12,{68*12/100}) node[below right]{$ H $};
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
+        \end{tikzpicture}]]></latex-image></image>
 
 <p>As you can see, the two lines are parallel, so the graphs do not intersect. This system has no solution. There is no point where the two policies cost the same amount; the HomeLife policy is always less expensive.</p></solution></example>
 
@@ -165,8 +163,8 @@ because a semiannual premium covers 6 months. The solution of the system represe
 <solution><p>We graph the first equation by the slope-intercept method: 
 	<me>b=2~~~~~~\text{and}~~~~~~m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{1}</me>
 Its graph is shown below.</p> 
-	<sidebyside width="35%"><!--<image source="photos/fig-4-2-ex5.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex5"><description>graph of line</description><latex-image>
+	<!--<image source="photos/fig-4-2-ex5.png"><description>graph</description></image>-->
+    <image width="40%" xml:id="fig-4-2-ex5"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -181,7 +179,7 @@ Its graph is shown below.</p>
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[red, very thick,<->, >=stealth'] (-3.5,-5)--(3/2,5);
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
+        \end{tikzpicture}]]></latex-image></image>
 
 <p>The second equation, which has the form <m>Ax+By=C</m>, is easier to graph by the intercept method. You can verify that its intercepts are <m>(0,2)</m> and <m>(-1,0)</m>. The graph of the second line is identical to the first graph.</p>
 <p> Every solution to the first equation is also a solution to the second equation, so every point on the line is a solution of the system as well. The system has infinitely many solutions.</p></solution></example>
@@ -241,7 +239,7 @@ The second equation is the same as the first equation. A system in which the two
         \node[text=blue, align=center] at (\delx,-6.75) {Dependent;\\infinitely many solutions};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<assemblage>
+<assemblage><title>Systems of Linear Equations</title>
 <idx><h>system of equations</h><h>inconsistent</h></idx>
 <idx><h>inconsistent system of equations</h></idx>
 <idx><h>system of equations</h><h>dependent</h></idx>
@@ -254,13 +252,11 @@ The second equation is the same as the first equation. A system in which the two
 	<li><term>Inconsistent system.</term> The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</li>
 	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li></ol></p></assemblage>
 
-<reading-questions>
-    <exercise number="4"><statement><p>What does the graph of an inconsistent system look like? How many 
+<exercise number="4"><statement><p>What does the graph of an inconsistent system look like? How many 
 	solutions does it have?</p></statement>
-    	<answer><p>Parallel lines; none</p></answer></exercise>
-    <exercise number="5"><statement><p>What does the graph of a dependent system look like? How many solutions does it have?</p></statement>
-    	<answer><p>A single line; infinitely many</p></answer></exercise>
-</reading-questions>
+    	<answer><p>Parallel lines; no solutions</p></answer></exercise>   
+<exercise number="5"><statement><p>What does the graph of a dependent system look like? How many solutions does it have?</p></statement>
+    	<answer><p>A single line; infinitely many solutions</p></answer></exercise>
 </subsection>
 
 <subsection><title>Problem Solving with Systems</title>
@@ -269,13 +265,13 @@ The second equation is the same as the first equation. A system in which the two
 
 <example><statement><p>Allen has been asked to design a rectangular Plexiglas plate whose perimeter is 28 inches and whose length is three times its width. What should the dimensions of the plate be?</p></statement>
 
-<solution><p>Step 1 The dimensions of a rectangle are its length and width, so we let <m>x</m> represent the width of the plate and <m>y</m> represent its length.</p>  
-<p>Step 2 We must write two equations about the length and width of the plate. We know a formula for the perimeter of a rectangle, <m>P=2l+2w</m>, so the first equation is
+<solution><p><term>Step 1</term> The dimensions of a rectangle are its length and width, so we let <m>x</m> represent the width of the plate and <m>y</m> represent its length.</p>  
+<p><term>Step 2</term> We must write two equations about the length and width of the plate. We know a formula for the perimeter of a rectangle, <m>P=2l+2w</m>, so the first equation is
     <me>2x+2y=28</me>
 We also know that the length is three times the width, or <m>y=3x</m>. These two equations make a system.
             <md><mrow>2x+2y=28</mrow>
                 <mrow>y=3x</mrow></md></p>
-<p>Step 3 We use the intercept method to graph the first equation, <m>2x+2y=28</m>:</p>
+<p><term>Step 3</term> We use the intercept method to graph the first equation, <m>2x+2y=28</m>:</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -284,17 +280,17 @@ We also know that the length is three times the width, or <m>y=3x</m>. These two
                     <row> 
                         <cell><m>0</m></cell>
                         <cell><m>14</m></cell>
-                        <cell><m>\blert{\text{When}~ x=0,~y=14}</m></cell></row>
+                        <cell><m>\blert{2(0) + 2y = 28}</m></cell></row>
                     <row> 
                         <cell><m>14</m></cell>
                         <cell><m>0</m></cell>
-                        <cell><m>\blert{\text{When}~ y=0,~x=14}</m></cell></row>
+                        <cell><m>\blert{2x + 2(0) = 28}</m></cell></row>
                     </tabular>
 <p>We use the slope-intercept method to graph <m>y=3x</m>:
         <me>b=0 ~~~~~~~~ m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}</me>
 Their graphs are shown below. </p>
-    <sidebyside width="40%"><!--<image source="photos/fig-4-2-ex6.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex6"><description>graph of system</description><latex-image>
+    <!--<image source="photos/fig-4-2-ex6.png"><description>graph</description></image>-->
+    <image width="60%" xml:id="fig-4-2-ex6"><description>graph of system</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -310,18 +306,16 @@ Their graphs are shown below. </p>
         \draw[black, very thick,->,>=stealth'] (0,-5)--(0,16.6) node[left]{$y$};
         \draw[blue!80!black, thick, <->,>=stealth'] (-1,15)--(15,-1);
         \draw[red!80!black, thick, <->,>=stealth'] (-5/3,-5)--(5,15);
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
+        \end{tikzpicture}]]></latex-image></image>
 
 <p>The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>x=3.5</m> and <m>y=10.5</m> are a solution to the system by checking that these values make both equations true.</p> 
-<p>Step 4 The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p></solution></example>
+<p><term>Step 4</term> The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p></solution></example>
 
-<reading-questions>
-    <exercise number="6"><statement><p>When might you use a system of equations to solve an applied problem?</p></statement>
+<exercise number="6"><statement><p>When might you use a system of equations to solve an applied problem?</p></statement>
     	<answer><p>When the problem involves two or more unknown quantities</p></answer></exercise>
-</reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-4-2"><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-4-2"><theorem>
 <exercises>
 <exercisegroup><introduction><p>Write algebraic expressions to answer the questions.</p></introduction>
 
@@ -347,12 +341,12 @@ Their graphs are shown below. </p>
     <li><m>40(3+x)</m></li>
     <li><m>5(v-15)</m></li>
     <li><m>3(26+w)</m></li></ol></p>
-</subsubsection>
+</subsubsection></theorem>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Solving Systems by Graphing</title>
+<activity><title>Solving Systems by Graphing</title>
 
 <p>A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale, and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying, robins and thrushes. Then she takes a picture, which records the number of each species on the scale, and the total weight registered.</p>  
 
@@ -367,33 +361,32 @@ Their graphs are shown below. </p>
         <md><mrow>\amp~~~~\blert{\text{(weight of thrushes)}}~+~\blert{\text{(weight of robins)}}~=~\blert{\text{total weight}}</mrow>
         <mrow>(1)\amp</mrow>
         <mrow>(2)\amp</mrow></md></p></li>
-    <li><sidebyside widths="50% 50%"><stack><p>Use the intercept method to graph each equation on the grid at right.</p>
-        <p>Equation (1):</p><p></p>
+    <li><p>Use the intercept method to graph each equation on the grid at right.</p>
+    <sidebyside widths="50% 50%"><stack>
+        <p>Equation (1):</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row>
-                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>~t~</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     <row>
-                        <cell bottom="minor"><m>r</m></cell> 
+                        <cell bottom="minor"><m>~r~</m></cell> 
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>0</m></cell></row>
                     </tabular>
-        <p></p><p>Equation (2):</p>
-        <p></p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+        <p>Equation (2):</p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
-                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>~t~</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     <row>
-                        <cell bottom="minor"><m>r</m></cell> 
+                        <cell bottom="minor"><m>~r~</m></cell> 
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>0</m></cell></row>
                     </tabular></stack>
     <!--<image source="photos/act-4-2-1.png"><description>graph</description></image>-->
-    <image xml:id="act-4-2-1">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="act-4-2-1"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -406,25 +399,23 @@ Their graphs are shown below. </p>
          \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-    </sidebyside></li>
+        </latex-image></image></sidebyside></li>
     <li><p>Locate the point where the two graphs intersect.  What are its coordinates?</p>
-        <p>Answer the question posed by the biologist.</p></li></ol></p>
-</subsubsection>
+        <p>Answer the question posed by the biologist.</p></li>
+    </ol></p>
+</activity>
  
-<subsubsection><title>Activity 2: Problem Solving</title>
+<activity><title>Problem Solving</title>
 
 <p>The manager for Books for Cooks plans to spend $300 stocking a new diet cookbook. The paperback version costs her $5, and the hardback costs $10. She finds that she will sell three times as many paperbacks as hardbacks. How many of each should she buy?</p>
 <p>Let <m>x</m> represent the number of hardbacks and <m>y</m> the number of paperbacks she should buy.</p>
+
 <sidebyside widths="55% 40%"><p><ol marker="a.">
     <li>Write an equation about the cost of the books.</li>
     <li>Write a second equation about the number of each type of book.</li>
     <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
     <!--<image source="photos/act-4-2-2.png"><description>graph</description></image>-->
-    <image xml:id="act-4-2-2">
-            <description>grid</description>
-            <latex-image>
+    <image xml:id="act-4-2-2"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -439,12 +430,10 @@ Their graphs are shown below. </p>
              \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
             } 
             \end{tikzpicture}]]>
-            </latex-image>
-    </image>
-</sidebyside>
-</subsubsection>
+            </latex-image></image></sidebyside>
+</activity>
 
-<subsubsection><title>Activity 3: Inconsistent and Dependent Systems</title>
+<activity><title>Inconsistent and Dependent Systems</title>
 
 <p>Robert and Ruth are moving from Los Angeles to Baltimore. Robert is driving a rental truck at an average speed of 50 miles per hour. Ruth leaves one day later in their car, and averages 65 miles per hour. When Ruth set out, Robert had already traveled 300 miles. When will Ruth catch up with Robert?</p>
 
@@ -457,26 +446,26 @@ Their graphs are shown below. </p>
     <li>Together, the two equations form a system:</li></ol></p></statement></exercise>
 
 <exercise><statement><p>Next, we graph both equations on the same axes.</p>
-    <sidebyside widths="50% 40%" margins="0% 0%"><p><ol marker="a.">
+    <sidebyside widths="50% 50%" valigns="middle middle">
+    <p><ol marker="a.">
     <li><p>To graph the equation for Ruth's distance, plot a few points.</p><p></p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row>
-                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>~t~</m></cell>
                         <cell bottom="minor"><m>0</m></cell>
                         <cell bottom="minor"><m>10</m></cell>
                         <cell bottom="minor"><m>20</m></cell></row>
                     <row>
-                        <cell bottom="minor"><m>d</m></cell> 
+                        <cell bottom="minor"><m>~d~</m></cell> 
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
     <li>To graph the equation for Robert's distance, use the vertical intercept and the slope.</li>
-    <li>Locate the point where the two graphs intersect. What are its coordinates?</li></ol></p>
+    <li>Locate the point where the two graphs intersect. What are its coordinates?</li>
+    </ol></p>
     <!--<image source="photos/act-4-2-3.png"><description>graph</description></image>-->
-    <image xml:id="act-4-2-3">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="act-4-2-3"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -493,9 +482,8 @@ Their graphs are shown below. </p>
          \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         } 
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+        </latex-image></image></sidebyside>
+    </statement></exercise>
 
 <exercise><statement><p>Finally, we interpret the solution.<ol marker="a.">
     <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
@@ -503,24 +491,25 @@ Their graphs are shown below. </p>
     <li>Verify that the intersection point is a solution of both equations in the system.</li></ol></p></statement>
 </exercise>
 
-<exercise><statement><sidebyside  widths="50% 35%" margins="0% 0%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol marker="a.">  
+<exercise><statement><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.</p>
+    <sidebyside  widths="50% 45%" valigns="middle middle">
+    <p><ol marker="a.">  
     <li><p>Write a system of equations for this problem:</p>        
         <p>Robert:  <m>~~~d=</m></p>       
         <p>Ruth:    <m>~~~~d=</m></p></li>                                      
     <li>Graph the equations on the grid.</li>  
-    <li>What is the solution of this system? What is this type of system called?</li></ol></p>
-    <image source="photos/act-4-2-3"><description>graph</description></image></sidebyside></statement></exercise>
+    <li>What is the solution of this system? What is this type of system called?</li>
+    </ol></p>
+    <image source="photos/act-4-2-3"><description>graph</description></image></sidebyside>
+</statement></exercise>
 
-<exercise><statement><sidebyside widths="50% 35%" valigns="middle middle"><p><ol marker="a.">
+<exercise><statement><p><ol marker="a.">
     <li><p>Graph the system of equations.
         <md><mrow>3x \amp = 2y+6</mrow>
             <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
-    Hint:  Use the intercept method to graph the first equation, and the slope-intercept method to graph the second equation.</p></li>
-    <li>Is the system inconsistent or dependent?</li></ol></p>
+    Hint:  Use the intercept method to graph the first equation, and the slope-intercept method to graph the second equation.</p>
     <!--<image source="photos/eight-grid"><description>grid</description></image>-->
-    <image xml:id="eight-grid">
-            <description>eight-by-eight grid</description>
-            <latex-image>
+    <image width="60%" xml:id="eight-grid"><description>eight-by-eight grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -535,11 +524,12 @@ Their graphs are shown below. </p>
              \draw[black,thick] (.2,\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
             }
             \end{tikzpicture}]]>
-            </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+            </latex-image></image></li>
+    <li>Is the system inconsistent or dependent?</li>
+    </ol></p>
+    </statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -561,7 +551,7 @@ Their graphs are shown below. </p>
 </subsubsection>
 </subsection>
 
-<subsection><title>Homework Preview</title>
+<subsection><algorithm>
 
 <exercises>
 <exercise><statement><p>Is <m>(-3,5)</m> a solution of the system?
@@ -573,14 +563,17 @@ Explain how you know.</p></statement></exercise>
     <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
         <mrow>2x-3y=12</mrow></md>
 Hint:  Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
-    <image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
+</statement></exercise>
 
 <exercise><statement><p>Write a system of equations for the problem:</p>
-    <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p></statement></exercise>
+    <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p>
+</statement></exercise>
 
 <exercise><statement><p>Decide whether the system is inconsistent or dependent.
     <md><mrow>6x-4y \amp = 8</mrow>
-        <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p></statement></exercise>
+        <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p>
+</statement></exercise>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
@@ -593,6 +586,7 @@ Hint:  Graph the first equation by the slope-intercept method, and the second eq
         \end{aligned}
     </m></p></li>
     <li>Inconsistent</li></ol></p></subsubsection>
+</algorithm>
 </subsection>
 
 <xi:include href="./hmwk-4-2.xml" />

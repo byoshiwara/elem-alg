@@ -17,10 +17,8 @@
 <assemblage><title>Look Closer</title>
 <p>In <xref ref="Example-7-4-1" text="type-global"/>a, we doubled the exponent and kept the same base. In <xref ref="Example-7-4-1" text="type-global"/>b, we squared the numerical coefficient and doubled the exponent.</p></assemblage>
 
-<reading-questions>
-    <exercise number="1"><statement><p>Why do we double the exponent when we square a power?</p></statement>
+<exercise number="1"><statement><p>Why do we double the exponent when we square a power?</p></statement>
     <answer><p>Because when we multiply powers with the same base, we add the exponents.</p></answer></exercise>
-</reading-questions>
 
 <example><statement><p>Find a monomial whose square is <m>36t^8</m>.</p></statement>
 
@@ -42,10 +40,8 @@
 	<li><m>\blert{(a+b)^2=a^2+2ab+b^2}</m></li>
 	<li><m>\blert{(a-b)^2=a^2-2ab+b^2}</m></li></ol></p></assemblage>
 
-<reading-questions>
-    <exercise number="2"><statement><p>Explain why it is NOT true that <m>(a+b)^2=a^2+b^2</m>.</p></statement>
+<exercise number="2"><statement><p>Explain why it is NOT true that <m>(a+b)^2=a^2+b^2</m>.</p></statement>
     <answer><p>Because we must square <m>(a+b)</m> using FOIL.</p></answer></exercise>
-</reading-questions>
 
 <p>We can use these results as formulas to compute the square of any binomial.</p>  
 
@@ -64,10 +60,8 @@
 	<me>(2x+3)^2 = 4x^2+9~~~~~~\alert{\text{Incorrect!}}</me> 
 We must use the distributive law to multiply the binomial times itself.</p></warning>
 
-<reading-questions>
-    <exercise number="3"><statement><p>How do we compute <m>(a+b)^2</m>?</p></statement>
+<exercise number="3"><statement><p>How do we compute <m>(a+b)^2</m>?</p></statement>
     <answer><p><m>a^2+2ab+b^2</m></p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Difference of Two Squares</title>
@@ -90,10 +84,8 @@ In this product, the two middle terms cancel each other, and we are left with a 
 		<mrow>\amp ~~\blert{\text{first term}} ~~~~~ \blert{\text{second term}}</mrow>
 		<mrow> \amp = 4y^2 ~~~~ - ~~~~~ 81w^2</mrow></md></p></solution></example>
 
-<reading-questions>
-    <exercise number="4"><statement><p>Explain the difference between <m>(a-b)^2</m> and <m>a^2-b^2</m>.</p></statement>
+<exercise number="4"><statement><p>Explain the difference between <m>(a-b)^2</m> and <m>a^2-b^2</m>.</p></statement>
     <answer><p>To simplify <m>(a-b)^2</m>, we must square the binomial.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Factoring Special Products</title>
@@ -119,12 +111,10 @@ This is the correct middle term, so our trinomial has the form (1), with <m>a=x<
 	<md><mrow>a^2+2ab+b^2 \amp = (a+b)^2 \amp \amp \blert{\text{Replace}~a~\text{by}~x~\text{and}~b~ \text{by}~12.}</mrow>
 		<mrow>x^2+24x+144 \amp = (x+12)^2</mrow></md></p></solution></example>
 
-<reading-questions>
-    <exercise number="5"><statement><p>How can we factor <m>a^2- 2ab + b^2</m>?</p></statement>
+<exercise number="5"><statement><p>How can we factor <m>a^2- 2ab + b^2</m>?</p></statement>
     <answer><p><m>(a-b)^2</m></p></answer></exercise>
-    <exercise number="6"><statement><p>How can we factor <m>a^2- b^2</m>?</p></statement>
+<exercise number="6"><statement><p>How can we factor <m>a^2- b^2</m>?</p></statement>
     <answer><p><m>(a+b)(a-b)</m></p></answer></exercise>
-</reading-questions>
 
 <warning><p>The sum of two squares, <m>a^2+b^2</m>, cannot be factored!  For example, 
 	<me>x^2+16,~~~~~~9x^2+4y^2,~~~~~~\text{and}~~~~~~25y^4+w^4</me>
@@ -149,13 +139,11 @@ The polynomial in parentheses has the form <m>(a-b)^2</m>, with <m>a=7</m> and <
 Thus,
 	<me>98-28x^4+2x^8 = 2(7-x^4)^2</me></p></solution></example>
 
-<reading-questions>
-    <exercise number="7"><statement><p>What expression involving squares cannot be factored?</p></statement>
-    <answer><p><m>a^2+b^2</m></p></answer></exercise>
-</reading-questions>
+<exercise number="7"><statement><p>What expression involving squares cannot be factored?</p></statement>
+    <answer><p>The sum of two squares, <m>a^2+b^2</m></p></answer></exercise>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection><theorem>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Express each product as a polynomial.</p></introduction>
 
@@ -179,12 +167,13 @@ Thus,
 	<li><m>9a^2+30a+25</m></li>
 	<li><m>4b^2-28b+49</m></li>
 	<li><m>4n^2-25</m></li>
-	<li><m>16m^2-81</m></li></ol></p></subsubsection>
+	<li><m>16m^2-81</m></li>
+</ol></p></subsubsection></theorem>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Special Products</title>
+<activity><title>Activity 1: Special Products</title>
 <exercises>
 
 <exercise><statement><p>Simplify each square.  <ol marker="a." cols="2">
@@ -193,29 +182,33 @@ Thus,
 
 <exercise><statement><p>Find a monomial whose square is given. <ol marker="a." cols="2">
 	<li><m>64b^6</m></li>
-	<li><m>169a^4b^{16}</m></li></ol></p></statement></exercise>
+	<li><m>169a^4b^{16}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Use a formula to expand each product. <ol marker="a.">
 	<li><m>(4-3t)^2</m></li>
 	<li><m>(6s+2t)^2</m></li>
-	<li><m>(5x^4+4)(5x^4-4)</m></li></ol></p></statement></exercise>
+	<li><m>(5x^4+4)(5x^4-4)</m></li>
+</ol></p></statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
-<subsubsection><title>Activity 2: Special Factorizations</title>
+<activity><title>Activity 2: Special Factorizations</title>
 <exercises>
 
 <exercise><statement><p>Use one of the three formulas to factor each polynomial.<ol marker="a.">
 	<li><m>25y^2-w^2</m></li>
 	<li><m>m^6-18m^3+81</m></li>
-	<li><m>4h^2+36hk+81k^2</m></li></ol></p></statement></exercise>
+	<li><m>4h^2+36hk+81k^2</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Factor completely.<ol marker="a.">
 	<li><m>x^6-16x^2</m></li>
 	<li><m>3b^9+18b^6+27b^3</m></li>
-	<li><m>2x^5y-20x^3y^3+50xy^3</m></li></ol></p></statement></exercise>
+	<li><m>2x^5y-20x^3y^3+50xy^3</m></li>
+</ol></p></statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -235,7 +228,7 @@ Thus,
 </subsubsection>
 </subsection>
 
-<subsection><title>Homework Preview</title>
+<subsection><algorithm>
 <exercises>
 <exercisegroup><introduction><p>Expand each product.</p></introduction>
 
@@ -263,7 +256,8 @@ Thus,
 	<li><m>16a^2-25b^2</m></li>
 	<li><m>4(3x+4)^2</m></li>
 	<li><m>4(3x-4)^2</m></li>
-	<li><m>4(3x+4)(3x-4)</m></li></ol></p></subsubsection>
+	<li><m>4(3x+4)(3x-4)</m></li>
+</ol></p></subsubsection></algorithm>
 </subsection>
 
 <xi:include href="./hmwk-7-4.xml" />

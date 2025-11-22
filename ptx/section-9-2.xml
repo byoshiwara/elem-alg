@@ -25,11 +25,9 @@ Thus, it seems reasonable to make the following definition.</p>
 <p>For example,
 	<me>3^0=1,~~~~(-427)^0=1,~~~~\text{and} ~~~~(5xy)^0=1~~~\text{if}~~x,y \not= 0</me></p>
 
-<reading-questions>
-    <exercise number="1"><statement><p>Why does it make sense that <m>a^0=1</m> (as long as <m>a \not= 0</m>)?
+<exercise number="1"><statement><p>Why does it make sense that <m>a^0=1</m> (as long as <m>a \not= 0</m>)?
 </p></statement>
     <answer><p>Because <m>\dfrac{a^n}{a^n}=1</m>.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Negative Exponents</title>
@@ -48,25 +46,26 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <p>For example,
 		<me>2^{-4} = \dfrac{1}{2^4} ~~~~~~\text{and}~~~~~~x^{-5} = \dfrac{1}{x^5}</me></p>
 
-<assemblage><idx><h>exponent</h><h>negative</h></idx>
+<assemblage><title>Look Closer</title>
+	<idx><h>exponent</h><h>negative</h></idx>
 <p>A negative exponent indicates the reciprocal of the power with the positive exponent.</p></assemblage>
 
 <example><statement><p>Write each expression without exponents.<ol marker="a." cols="3">
 	<li><m>10^{-4}</m></li>
 	<li><m>\left(\dfrac{1}{4}\right)^{-3}</m></li>
-	<li><m>\left(\dfrac{3}{5}\right)^{-2}</m></li></ol></p></statement>
+	<li><m>\left(\dfrac{3}{5}\right)^{-2}</m></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a.">
 	<li><m>10^{-4} = \dfrac{1}{10^4} = \dfrac{1}{10,000},</m> or 0.0001</li>
 	<li><p>To compute a negative power of a fraction, we compute the corresponding positive power of its reciprocal. (This is because of the fifth law of exponents.) 
 		<me>\left(\dfrac{1}{4}\right)^{-3} = 4^3 = 64</me></p></li>
 	<li><p>As in part (b), we compute the corresponding positive power of the reciprocal of <m>\dfrac{3}{5}</m>.
-		<me>\left(\dfrac{3}{5}\right)^{-2}=\left(\dfrac{5}{3}\right)^2 = \dfrac{25}{9}</me></p></li></ol></p></solution></example>
+		<me>\left(\dfrac{3}{5}\right)^{-2}=\left(\dfrac{5}{3}\right)^2 = \dfrac{25}{9}</me></p></li>
+	</ol></p></solution></example>
 
-<reading-questions>
-    <exercise number="2"><statement><p>What does a negative exponent mean?</p></statement>
+<exercise number="2"><statement><p>What does a negative exponent mean?</p></statement>
     <answer><p>The reciprocal of the power with the corresponding positive exponent.</p></answer></exercise>
-</reading-questions>
 
 <warning><p>A negative exponent does not mean that the power is negative. For example,
 	<me>2^{-4} \not= -2^4</me></p></warning>
@@ -96,18 +95,21 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
 	<li><me>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(a \not= 0)}</me></li>
 	<li><me>\blert{\left(a^m\right)^n = a^{mn}}</me></li>
-	<li><me>\blert{(ab)^n = a^nb^n}</me></li>
-	<li><me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
+	<li><me>\blert{(ab)^n = a^nb^n}~~~~~~~~~~~~~~~~~~</me></li>
+	<li><me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></li>
+</ol></p></assemblage>
 
 <example><statement><p>Simplify by using the first or second law of exponents.<ol marker="a." cols="2">
 	<li><m>x^5 \cdot x^{-8}</m></li>
-	<li><m>\dfrac{5^2}{5^{-6}}</m></li></ol></p></statement>
+	<li><m>\dfrac{5^2}{5^{-6}}</m></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a.">
 	<li><p>Apply the first law:  add the exponents.
 		<me>x^5 \cdot x^{-8} = x^{5-8} = x^{-3}</me></p></li>
 	<li><p>Apply the second law:  subtract the exponents.
-		<me>\dfrac{5^2}{5^{-6}} = 5^{2-(-6)} = 5^8</me></p></li></ol></p></solution></example>
+		<me>\dfrac{5^2}{5^{-6}} = 5^{2-(-6)} = 5^8</me></p></li>
+	</ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>As a special case of the second law, note that <m>1=a^0</m>, so we can write
@@ -115,29 +117,30 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 
 <p>Thus,</p>
 
-<assemblage><p><me>\blert{\dfrac{1}{a^{-n}} = a^n}~~~~\text{and}~~~~\blert{\dfrac{b}{a^{-n}} = ba^n,~~a \not= 0}</me></p></assemblage>
+<p><me>\blert{\dfrac{1}{a^{-n}} = a^n}~~~~\text{and}~~~~\blert{\dfrac{b}{a^{-n}} = ba^n,~~a \not= 0}</me></p>
 
 <example><statement><p><ol marker="a." cols="2">
 	<li><m>\dfrac{1}{2^{-3}} = 2^3</m></li>
-	<li><m>\dfrac{8}{x^{-5}} = 8x^5</m></li></ol></p></statement></example>
+	<li><m>\dfrac{8}{x^{-5}} = 8x^5</m></li>
+</ol></p></statement></example>
 
 <p>Here are some examples using the laws of exponents.</p>
 
 <example><statement><p>Simplify by using the third or fourth law of exponents.<ol marker="a." cols="2">
 	<li><m>\left(2^{-3}\right)^{-3}</m></li>
-	<li><m>(ab)^{-3}</m></li></ol></p></statement>
+	<li><m>(ab)^{-3}</m></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a.">
 	<li><p>Apply the third law:  multiply the exponents.
 		<me>\left(2^{-3}\right)^{-3} = x^{5-8} = 2^{-3(-3)}=2^9</me></p></li>
 	<li><p>Apply the fourth law:  raise each factor to the power.
-		<me>(ab)^{-3} = a^{-3}b^{-3} </me></p></li></ol></p></solution></example>
+		<me>(ab)^{-3} = a^{-3}b^{-3} </me></p></li>
+	</ol></p></solution></example>
 
-<reading-questions>
-    <exercise number="3"><statement><p>What is the difference between <m>2^{-3}</m> and <m>-2^3</m>?</p></statement>
+<exercise number="3"><statement><p>What is the difference between <m>2^{-3}</m> and <m>-2^3</m>?</p></statement>
     <answer><p><m>2^{-3}</m> is the reciprocal of <m>2^3</m> and <m>-2^3</m> is the opposite of <m>2^3</m>.</p>
 </answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Powers of Ten</title>
@@ -160,11 +163,9 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 		<me>5452 \times 10^{-3} = 5.452~~~~~~\text{and}~~~~~~2.3 \times 10^{-5} = 0.000~ 023</me></p></li>
 </ul></p></assemblage>
 
-<reading-questions>
-    <exercise number="4"><statement><p>What happens to a number when we multiply it by a power of 10?</p>
+<exercise number="4"><statement><p>What happens to a number when we multiply it by a power of 10?</p>
 </statement>
     <answer><p>The decimal point moves to the left or the right.</p></answer></exercise>
-</reading-questions>
 
 <p>We can also reverse the process above to write a number in factored form, where one factor is a power of 10.</p>
 
@@ -184,7 +185,8 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <idx><h>multiplying</h><h>by a power of ten</h></idx>
 <p>	If there is just one digit to the left of the decimal point in the factored form, we say that the number is written in <term>scientific notation</term>.</p>
 
-<assemblage><idx><h>scientific notation</h></idx>
+<assemblage><title>Scientific Notation</title>
+	<idx><h>scientific notation</h></idx>
 <p>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
 	between 1 and 10 and a power of 10. </p></assemblage>
 
@@ -215,7 +217,8 @@ are written in scientific notation.</p>
 	<li><p>We position the decimal point so that there is just one nonzero digit to the left of the decimal.                        
 		<me>0.000431 = 4.31 \times <fillin characters="6"/></me>
 	To recover 0.000431 from 4.31, we move the decimal point four places to the left. Therefore, we multiply 4.31 by <m>10^{-4}</m>.
-		<me>0.000431 = 4.31 \times 10^{-4}</me></p></li></ol></p></solution></example>
+		<me>0.000431 = 4.31 \times 10^{-4}</me></p></li>
+</ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>The easiest way to remember which way to move the decimal point is to note whether the number is large (greater than 10) or small (less than 1). For example,<ul> 
@@ -223,11 +226,9 @@ are written in scientific notation.</p>
 	<li>0.000431 is a decimal fraction less than 1, so the exponent on 10 in its scientific form is negative.</li>
 </ul></p></assemblage>
 
-<reading-questions>
-    <exercise number="5"><statement><p>How can you tell whether the exponent in scientific notation should be 
+<exercise number="5"><statement><p>How can you tell whether the exponent in scientific notation should be 
 	positive or negative?</p></statement>
     <answer><p>Note whether the number is large (greater than 10) or small (less than 1).</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Calculators and Scientific Notation</title>
@@ -249,16 +250,16 @@ and a graphing calculator displays
 	<me>\boxed{6.56100108~~~~-15}~~~~~~\text{or}~~~~~~ 6.56100108~~\text{E}~~-15</me>
 This is how your calculator displays the number  <m>6.56100108 \times 10^{-15}</m>.</p></assemblage>
 
-<warning><p>Do not use your calculator's notation when giving an answer in scientific notation. For example, if your calculator reports a result as  3.47 E 8,  you should write <m>3.47 \times 10^8</m>.</p></warning>
+<warning><p>Do not use your calculator's notation when giving an answer in scientific notation. For example, if your calculator reports a result as  <m>~3.47 ~\text{E}~ 8</m>,  you should write <m>~3.47 \times 10^8</m>.</p>
+</warning>
 
-<reading-questions>
-    <exercise number="6"><statement><p>How does your calculator display scientific notation?</p></statement>
+<exercise number="6"><statement><p>How does your calculator display scientific notation?</p></statement>
     <answer><p>It does not display the 10, but only its exponent.</p></answer></exercise>
-</reading-questions>
 
 <p>Your calculator has a special key for entering numbers in scientific notation.</p>
 
-<assemblage><p>To enter a number in scientific notation into the calculator, we use the key marked either <m>\boxed{\text{EXP}}</m> or  <m>\boxed{\text{EE}}</m>.</p></assemblage>
+<assemblage><title>Scientific Notation on a Calculator</title>
+	<p>To enter a number in scientific notation into the calculator, we use the key marked either <m>\boxed{\text{EXP}}</m> or  <m>\boxed{\text{EE}}</m>.</p></assemblage>
 
 <p>For instance, to enter <m>6.02 \times 10^{23}</m>, we key in the sequence
 	<me>6.02~~\boxed{\text{EXP}}~~23</me>
@@ -286,12 +287,13 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 	<me>(6,200,000,000)(0.000 000 3)</me></p></statement>
 
 <solution><p>We can use a calculator (if necessary) to combine the decimal numbers, and the first law of exponents to combine the powers of 10.
-	<md><mrow>(6,200,000,000)(0.000 000 3) \amp = (6.2 \times 10^9)(3 \times 10^{-7})~~~~~~\blert{\text{Rearrange the factors.}}</mrow>
-		<mrow>\amp = (6.2 \times 3) \times (10^9 \times 10^{-7})~~~~~~ \blert{10^{9-7} = 10^2}</mrow>
-		<mrow> \amp = 18.6 \times 10^2 = 1860</mrow></md></p></solution></example>
+	<md><mrow>(6,200,000,000)(0.000 000 3) \amp = (6.2 \times 10^9)(3 \times 10^{-7})</mrow>
+		<mrow>\amp = (6.2 \times 3) \times (10^9 \times 10^{-7})</mrow>
+		<mrow> \amp = 18.6 \times 10^2 = 1860</mrow></md></p>
+	</solution></example>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection><theorem>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Decide whether each statement is true or false.</p></introduction>
@@ -317,11 +319,12 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
     <li>True</li>
     <li>False</li>
 	<li>True</li>
-    <li>True</li></ol></p></subsubsection>
+    <li>True</li>
+</ol></p></subsubsection></theorem>
 </subsection>
 
 <subsection>
-<subsubsection><title>Activity 1: Negative Exponents</title>
+<activity><title>Negative Exponents</title>
 
 <p>Consider the two lists below, and fill in the unknown values by following the pattern. Notice that as we move down the list, we can find each new entry by dividing the previous entry by the base.</p>
 
@@ -359,46 +362,54 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
         <cell><m>\hphantom{0000}</m></cell>
     	<cell ><m>5^{-3}=</m></cell></row>
     </tabular>
+
 <exercises>
 <exercisegroup><introduction><p>Answer the following questions about your lists.</p></introduction>
 
 <exercise><statement><p><ol marker="a.">
 	<li>What did you find for the values of <m>2^0</m> and <m>5^0</m> ?</li>  
 	<li>If you make a list with another base (say, 3, for example), what will you find for the value of <m>3^0</m>?</li>  
-	<li>Explain why this is true.</li></ol></p></statement></exercise>
+	<li>Explain why this is true.</li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p><ol marker="a.">
 	<li>Compare the values of <m>2^3</m> and <m>2^{-3}</m>. Do you see a relationship between them?</li>
 	<li>What about the values of <m>5^2</m> and <m>5^{-2}</m>? Try to state a general rule about powers with negative exponents.</li> 
-	<li>Use your rule to guess the value of <m>3^{-4}</m>.</li></ol></p></statement></exercise>
+	<li>Use your rule to guess the value of <m>3^{-4}</m>.</li>
+</ol></p></statement></exercise>
 </exercisegroup>
 
 <exercise><statement><p>Write each expression without exponents.<ol marker="a." cols="3">
 	<li><m>-6^2</m></li>
 	<li><m>6^{-2}</m></li>
-	<li><m>(-6)^{-2}</m></li></ol></p></statement></exercise>
+	<li><m>(-6)^{-2}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Write each expression without negative exponents.<ol marker="a." cols="3">
 	<li><m>4t^{-2}</m></li>
 	<li><m>(4t)^{-2}</m></li>
-	<li><m>\left(\dfrac{x}{3}\right)^{-4}</m></li></ol></p></statement></exercise>
+	<li><m>\left(\dfrac{x}{3}\right)^{-4}</m></li>
+</ol></p></statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
-<subsubsection><title>Activity 2: Laws of Exponents</title>
+<activity><title>Laws of Exponents</title>
 <exercises>
 
 <exercise><statement><p>Simplify by using the first or second law of exponents.<ol marker="a." cols="2">
 	<li><m>3^{-3} \cdot 3^{-6}</m></li>
-	<li><m>\dfrac{b^{-7}}{b^{-3}}</m></li></ol></p></statement></exercise>
+	<li><m>\dfrac{b^{-7}}{b^{-3}}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Write without negative exponents and simplify.<ol marker="a." cols="2">
 	<li><m>\dfrac{1}{15^{-2}}</m></li>
-	<li><m>\dfrac{3k^2}{m^{-4}}</m></li></ol></p></statement></exercise>
+	<li><m>\dfrac{3k^2}{m^{-4}}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Simplify by using the third or fourth law of exponents.<ol marker="a." cols="2">
 	<li><m>(3y)^{-2}</m></li>
-	<li><m>(a^{-3})^{-2}</m></li></ol></p></statement></exercise>
+	<li><m>(a^{-3})^{-2}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Explain the simplification of <m>\dfrac{(3z^{-4})^{-2}}{2z^{-3}}</m> shown below.  State the law of exponents or other property used in each step.
 
@@ -407,29 +418,32 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 	<mrow>(3)~~~\hphantom{00000000}\amp = \dfrac{3^{-2}z^{8-(-3)}}{2}\hphantom{00000000}</mrow>
 	<mrow>(4)~~~\hphantom{00000000}\amp = \dfrac{z^{11}}{3^2 \cdot 2} = \dfrac{z^{11}}{18}\hphantom{00000000}</mrow></md></p></statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
-<subsubsection><title>Activity 3: Scientific Notation</title>
+<activity><title>Scientific Notation</title>
 <exercises>
 
 <exercise><statement><p>Compute each product.<ol marker="a." cols="2">
 	<li><m>1.47 \times 10^5</m></li>
-	<li><m>5.2 \times 10^{-2}</m></li></ol></p></statement></exercise>
+	<li><m>5.2 \times 10^{-2}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Fill in the correct power of 10 for each factored form.<ol marker="a." cols="2">
 	<li><m>0.00427 = 4.27 \times <fillin characters="4"/></m></li>
-	<li><m>4800 = 4.8 \times <fillin characters="4"/></m></li></ol></p></statement></exercise>
-
+	<li><m>4800 = 4.8 \times <fillin characters="4"/></m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Write each number in scientific notation.<ol marker="a.">
 	<li>The largest living animal is the blue whale, with an average weight of 120,000,000 grams.</li>
-	<li>The smallest animal is the fairy fly beetle, which weighs about 0.000 005  gram.</li></ol></p></statement>
+	<li>The smallest animal is the fairy fly beetle, which weighs about 0.000 005  gram.</li>
+</ol></p></statement>
 </exercise>
 
 <exercise><statement><p>Perform the following calculations on your calculator.  Write the results in scientific notation.
 <ol marker="a." cols="2">
 	<li><m>6,565,656 \times 34,567</m></li>
-	<li><m>0.000123 \div 98,765</m></li></ol></p></statement></exercise>
+	<li><m>0.000123 \div 98,765</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>An adult human brain weighs about 1350 grams. If one neuron weighs <m>1.35 \times 10^{-8}</m> gram on average, how many neurons are there in a human brain?</p></statement></exercise>
 
@@ -440,7 +454,7 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 <p><m>\blert{\text{Combine the decimal numbers and the powers of 10 separately.}}</m></p>
 </statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -455,28 +469,32 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 <p><ol marker="1.">
     <li>Explain why <m>3^0=1</m>.</li>
 	<li>Does <m>a^6a^{-2}=\dfrac{a^6}{^2}</m> ?  Explain why or why not.</li>
-	<li>Your calculator gives aresult of 4 E 12. What does this mean?</li></ol></p></assemblage>
+	<li>Your calculator gives aresult of 4 E 12. What does this mean?</li>
+</ol></p></assemblage>
 </subsubsection>
 </subsection>
 
-<subsection><title>Homework Preview</title>
+<subsection><algorithm>
 <exercises>
 
 <exercise><statement><p>Write each expression without using negative exponents.<ol marker="a." cols="2">
 	<li><m>3x^{-4}</m></li>
 	<li><m>(3x)^{-4}</m></li>
 	<li><m>\dfrac{1}{3x^{-4}}</m></li>
-	<li><m>\left(\dfrac{3}{x}\right)^{-4}</m></li></ol></p></statement></exercise>
+	<li><m>\left(\dfrac{3}{x}\right)^{-4}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Simplify. Write your answers without using negative exponents.<ol marker="a." cols="2">
 	<li><m>n^{-5}n^3</m></li>
 	<li><m>\dfrac{n^3}{n^{-4}}</m></li>
 	<li><m>(n^3)^{-5}</m></li>
-	<li><m>(5n)^{-3}</m></li></ol></p></statement></exercise>
+	<li><m>(5n)^{-3}</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Write in scientific notation.<ol marker="a." cols="2">
 	<li><m>48,700,000,000</m></li>
-	<li><m>0.000 000 000 52</m></li></ol></p></statement></exercise>
+	<li><m>0.000 000 000 52</m></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Use a calculator to compute
 	<me>\dfrac{0.000 000 006}{(428,000,000,000)(0.000 000 000 0032)}</me></p></statement></exercise>
@@ -488,16 +506,20 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
     	<li><m>\dfrac{3}{x^4}</m></li>
     	<li><m>\dfrac{1}{81x^4}</m></li>
     	<li><m>\dfrac{x^4}{3}</m></li>
-    	<li><m>\dfrac{x^4}{81}</m></li></ol></p></li>
+    	<li><m>\dfrac{x^4}{81}</m></li>
+    </ol></p></li>
     <li><p><ol marker="a." cols="4">
     	<li><m>\dfrac{1}{n^2}</m></li>
     	<li><m>n^8</m></li>
     	<li><m>\dfrac{1}{n^{15}}</m></li>
-    	<li><m>\dfrac{1}{125n^3}</m></li></ol></p></li>
+    	<li><m>\dfrac{1}{125n^3}</m></li>
+    </ol></p></li>
     <li><p><ol marker="a." cols="2" >
     	<li><m>4.87 \times 10^{10}</m></li>
-    	<li><m>5.2 \times 10^{-10}</m></li></ol></p></li>
-    <li><m>4.38 \times 10^{-9}</m></li></ol></p></subsubsection>
+    	<li><m>5.2 \times 10^{-10}</m></li>
+    </ol></p></li>
+    <li><m>4.38 \times 10^{-9}</m></li>
+</ol></p></subsubsection></algorithm>
 </subsection>
 
 <xi:include href="./hmwk-9-2.xml" />

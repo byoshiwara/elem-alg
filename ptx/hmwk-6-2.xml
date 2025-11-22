@@ -99,7 +99,7 @@
     <li><p>Complete the table of values for the equation <m>y=-x^2+6x</m>, then graph the equation on the grid.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
     <row bottom="minor">
-        <cell><m>x</m></cell>
+        <cell><m>~x~</m></cell>
         <cell><m>-1</m></cell>
         <cell><m>0</m></cell>
         <cell><m>1</m></cell>
@@ -110,7 +110,7 @@
         <cell><m>6</m></cell>
         <cell><m>7</m></cell></row>
     <row> 
-        <cell><m>y</m></cell>
+        <cell><m>~y~</m></cell>
         <cell><m>\hphantom{0000}</m></cell>
         <cell><m>\hphantom{0000}</m></cell>
         <cell><m>\hphantom{0000}</m></cell>
@@ -121,17 +121,18 @@
         <cell><m>\hphantom{0000}</m></cell>
         <cell><m>\hphantom{0000}</m></cell></row>
     </tabular>
-    <sidebyside width="50%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
+    <image width="50%" source="photos/stangrid10"><description>grid</description></image></li>
     <li>Use your graph to find the solutions of the equation <m>-x^2+6x=5</m>.</li>
     <li>Verify algebraically that your answers to part (a) are really solutions.</li>
     <li>Use your graph to find the solutions of the equation <m>-x^2+6x=0</m>.</li>
     <li>Verify algebraically that your answers to part (d) are really solutions.</li>
     <li>Compute the product <m>-x(x+6)</m>.  What do you get?</li>  
-    <li>What is the value of the expression <m>-x(x+6)</m> when <m>x=0</m>?  When <m>x=6</m>?</li></ol></p></statement>
+    <li>What is the value of the expression <m>-x(x+6)</m> when <m>x=0</m>?  When <m>x=6</m>?</li>
+</ol></p></statement>
 <answer><p>a.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>-1</m></cell>
             <cell><m>0</m></cell>
             <cell><m>1</m></cell>
@@ -142,7 +143,7 @@
             <cell><m>6</m></cell>
             <cell><m>7</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>-7</m></cell>
             <cell><m>0</m></cell>
             <cell><m>5</m></cell>
@@ -153,10 +154,7 @@
             <cell><m>0</m></cell>
             <cell><m>-7</m></cell></row>
         </tabular>
-    <sidebyside width="50%">
-    <image xml:id="hp-2-3-25ans">
-        <description>parabola</description>
-        <latex-image>
+    <image width="50%" xml:id="hp-2-3-25ans"><description>parabola</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.3]
         \coordinate (O) at (0,0);
@@ -171,8 +169,7 @@
         }
         \draw[samples=65,domain={3-sqrt(19)}:{3+sqrt(19)},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{-(\x)^2 +6*\x});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></sidebyside>
+    </latex-image></image>
     <p>b. <m>x=1</m>, or <m>x=5 ~~~</m> d.  <m>x=0</m>, or <m>x=6</m></p>
     <p>f. <m>-x^2+6x</m> d.  <m>0, ~~~ 0</m></p>
 </answer></exercise>
@@ -203,13 +200,14 @@
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>
-    <sidebyside width="50%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
+    <image width="50%" source="photos/stangrid10"><description>grid</description></image></li>
     <li>Use your graph to find the solutions of the equation <m>x^2+2x-8=7</m>.</li>
 	<li>Verify algebraically that your answers to part (a) are really solutions.</li>
 	<li>Use your graph to find the solutions of the equation <m>x^2+2x-8=0</m>.</li>
 	<li>Verify algebraically that your answers to part (d) are really solutions.</li>
 	<li>Compute the product <m>(x+4)(x-2)</m>.  What do you get?</li>  
-	<li>What is the value of the expression <m>(x+4)(x-2)</m> when <m>x=-4</m>?  When <m>x=2</m>?</li></ol></p></statement>
+	<li>What is the value of the expression <m>(x+4)(x-2)</m> when <m>x=-4</m>?  When <m>x=2</m>?</li>
+</ol></p></statement>
 </exercise>
 
 <exercise number="27"><statement><p>The revenue you can earn by making and selling <m>n</m> jade bracelets is given in dollars by 
@@ -247,9 +245,7 @@
             <cell><m>\hphantom{0000}</m></cell></row>                    
     </tabular>
     <!--    <image source="photos/hp-6-2-27.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-2-27">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-6-2-27"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (0,0) grid (8,10);
@@ -264,17 +260,13 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></li>
+    </latex-image></image></sidebyside></li>
 <li>What is the maximum revenue that you can earn? How many bracelets should you make in order to earn that revenue?</li>
-<li>How much revenue will you earn if you charge $40 for a bracelet?</li></ol></p></statement>
+<li>How much revenue will you earn if you charge $40 for a bracelet?</li>
+</ol></p></statement>
 <answer><p><ol marker="a.">
     <li><p><m>n(-2n+80)</m>; <m>80-2n</m> dollars</p></li>
-    <li><sidebyside width="40%" margins="0% 60%">
-    <image xml:id="hp-6-2-27ans">
-        <description>triangle</description>
-        <latex-image>
+    <li><image width="40%" xml:id="hp-6-2-27ans"><description>triangle</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (0,0) grid (8,10);
@@ -290,9 +282,7 @@
         }
         \draw[samples=65,domain={0}:{8},smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{-1/50*(\x*5)^2 +4*\x});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
     <li><p>$800; 20 bracelets</p></li>
     <li><p>0 dollars</p></li>
 </ol></p></answer></exercise>
@@ -301,7 +291,7 @@
 	<me>h=-16t^2+80t</me><ol marker="a.">
 	<li>Factor the expression for <m>h</m>.</li>
 	<li><p>Complete the table and sketch a graph.</p>
-	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+	<sidebyside widths="40% 50%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 		<col halign="center"/> <col halign="center"/>
         <row bottom="minor">
             <cell><m>t</m></cell>
@@ -329,9 +319,7 @@
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>
         <!--<image source="photos/hp-6-2-28.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-2-28">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-6-2-28"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (0,0) grid (10,10);
@@ -346,16 +334,15 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></sidebyside></li>
 	<li>What is the maximum height of the football? When does it reach this height?</li>
-	<li>When does the football fall back to the ground?</li></ol></p></statement></exercise>
+	<li>When does the football fall back to the ground?</li>
+</ol></p></statement></exercise>
 
 <exercise number="29"><statement><p>Sportsworld sells <m>180-3p</m> pairs of their name-brand running shoes per week when they charge <m>p</m> dollars per pair.<ol marker="a.">
 	<li>Write an equation for Sportsworld's revenue, <m>R</m>, in terms of <m>p</m>.</li>
 	<li><p>Fill in the table and graph the equation.</p>
-	<sidebyside widths="50% 45%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+	<sidebyside widths="40% 55%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 		<col halign="center"/> <col halign="center"/>
                     <row bottom="minor">
                         <cell><m>p</m></cell>
@@ -383,9 +370,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>                    
                 </tabular>
     <!--    <image source="photos/hp-6-2-29.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-2-29">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-6-2-29"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (0,0) grid (12,15);
@@ -400,11 +385,10 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></li>
+    </latex-image></image></sidebyside></li>
 	<li>At what price(s) will Sportsworld's revenue be zero?</li>
-	<li>At what price will Sportsworld's revenue be maximum?  What is their maximum revenue?</li></ol></p></statement>
+	<li>At what price will Sportsworld's revenue be maximum?  What is their maximum revenue?</li>
+</ol></p></statement>
 <answer><p><ol marker="a.">
     <li><p><m>R=180p-3p^2</m></p></li>
     <li><sidebyside widths="50% 45%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
@@ -456,9 +440,10 @@
     </image>
 </sidebyside></li>
     <li><p>$0 and $80</p></li>
-    <li><p>$30; $2700</p></li></ol></p></answer></exercise>
+    <li><p>$30; $2700</p></li>
+</ol></p></answer></exercise>
 
-<exercisegroup cols="3"><introduction><p>For Problems 30<ndash/>32, find the <m>x</m>-intercepts of the graph of the equation.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 30<ndash/>32, find the <m>x</m>-intercepts of the graph of the equation.</p></introduction>
 
 <exercise number="30"><statement><p><m>y=(3x-4)(x+2)</m></p></statement></exercise>
 
@@ -473,11 +458,9 @@
 <exercise number="33"><statement><p><m>y=x</m></p>
 <p><m>y=6-x</m></p>
 <p><m>y=6x-x^2</m></p>
-<sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside>
-    <image xml:id="hp-6-2-33ans">
-        <description>two lines and parabola</description>
-        <latex-image>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
+<answer>
+    <image xml:id="hp-6-2-33ans"><description>two lines and parabola</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.3]
         \coordinate (O) at (0,0);
@@ -494,14 +477,13 @@
         \draw[blue,very thick, <->, >=stealth'] (-4,10)--(10,-4);
         \draw[samples=65,domain={-sqrt(19)+3}:{sqrt(19)+3},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{6*\x - (\x)^2});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+    </latex-image></image>
+</answer></exercise>
 
 <exercise number="34"><statement><p><m>y=x+3</m></p>
 <p><m>y=3-x</m></p>
 <p><m>y=x^2-9</m></p>
-<sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 </exercise>
 </exercisegroup>
 

@@ -36,11 +36,9 @@ We first factored the numerator and denominator of the fraction and then cancele
 	<li><m>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~~~\text{if}~~~~n \lt m}</m></li>      	
 	<li><m>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~~~\text{if}~~~~n \gt m}</m></li></ol></p></assemblage>
 				      
-<reading-questions>
-    <exercise number="1"><statement><p>In a quotient of powers, how do we know whether the new power appears 
+<exercise number="1"><statement><p>In a quotient of powers, how do we know whether the new power appears 
 	in the numerator or the denominator?</p></statement>
     <answer><p>By which has the larger exponent</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Quotients of Monomials</title>
@@ -69,14 +67,12 @@ We first factored the numerator and denominator of the fraction and then cancele
 
 <example xml:id="Example-7-3-3"><statement><p>Find the greatest common factor for <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
 
-<solution><p>The largest integer that divides evenly into all three coefficients is 2. The highest power of <m>a</m> is <m>a^1</m>, and the highest power of <m>b</m> is <m>b^2</m>. Thus, the GCF is <m>2ab^2</m>. Note that the exponent on each variable of <m>2ab^2</m> is the smallest exponent that appears on that variable among the terms of the polynomial.</p></solution></example>
+<solution><p>The largest integer that divides evenly into all three coefficients is <m>2</m>. The highest power of <m>a</m> is <m>a^1</m>, and the highest power of <m>b</m> is <m>b^2</m>. Thus, the GCF is <m>2ab^2</m>. Note that the exponent on each variable of <m>2ab^2</m> is the smallest exponent that appears on that variable among the terms of the polynomial.</p></solution></example>
 
-<reading-questions>
-    <exercise number="2"><statement><p>The exponent on each variable of the GCF is the <fillin characters="6"/> exponent that appears on that variable among the terms of the polynomial.</p></statement>
+<exercise number="2"><statement><p>The exponent on each variable of the GCF is the <fillin characters="6"/> exponent that appears on that variable among the terms of the polynomial.</p></statement>
     <answer><p>smallest</p></answer></exercise>
-</reading-questions> 
 
-<p>Once we have found the greatest common factor for the polynomial, we can write each term as a product of the GCF and another factor. For example, the GCF of <m>8x^2-6x</m> is <m>2x</m>, and we can write
+<p>Once we have found the greatest common factor for the polynomial, we can write each term as a product of the GCF and another factor. For example, the GCF of <m>~8x^2-6x~</m> is <m>2x</m>, and we can write
 	<me>8x^2-6x = \blert{2x} \cdot 4x - \blert{2x} \cdot 3</me>
 We can then use the distributive law to write the expression on the right side as a product.
 	<me>\blert{2x} \cdot 4x - \blert{2x} \cdot 3 = \blert{2x} (4x-3)</me>
@@ -124,11 +120,9 @@ Next, we factor the constant term, <m>3</m>, which can only be factored as 3 tim
 The second choice gives the correct middle term, so the factorization is
 	<me>2x^2-7x+3 = (2x-1)(x-3)</me></p></solution></example>
 
-<reading-questions>
-    <exercise number="3"><statement><p>When we factor a quadratic trinomial by the guess-and-check method, 
+<exercise number="3"><statement><p>When we factor a quadratic trinomial by the guess-and-check method, 
 	how do we check for the correct middle term?</p></statement>
     <answer><p>We compute <m>O+I</m>.</p></answer></exercise>
-</reading-questions> 
 
 <p>	Remember that you can always check your factorization by multiplying the factors together.</p>
 </subsection>
@@ -168,10 +162,8 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 <p>Thus, <m>~~b^2+4b+3 = (b+3)(b+1)</m>, and
 	<me>2b^3+8b^2+6b = 2b(b+3)(b+1)</me></p></solution></example>
 
-<reading-questions>
-    <exercise number="4"><statement><p>What should always be the first step in factoring a polynomial?</p></statement>
+<exercise number="4"><statement><p>What should always be the first step in factoring a polynomial?</p></statement>
     <answer><p>Factor out any common factors.</p></answer></exercise>
-</reading-questions> 
 </subsection>
 
 <subsection><title><m>\blert{\text{Optional Extension: The Box Method}}</m></title>
@@ -208,10 +200,8 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 <idx><h>box method for factoring a quadratic trinomial</h></idx>
 <p>When we represent the product of two binomials by the area of a rectangle, the products of the entries on the two diagonals are equal.</p></assemblage>
 
-<reading-questions>
-	<exercise number="5"><statement><p>In the previous Example, why are the products on the two diagonals equal?</p></statement>
+<exercise number="5"><statement><p>In the previous Example, why are the products on the two diagonals equal?</p></statement>
     <answer><p>Each is the product of all four terms of the binomials.</p></answer></exercise>
-</reading-questions>
 
 <assemblage><title>Look Ahead</title>
 <p>We can use rectangles to help us factor quadratic trinomials. Recall that factoring is the opposite or reverse of multiplying, so we must first understand how multiplication works.</p></assemblage>  
@@ -321,13 +311,11 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
             <cell  bottom="minor" right="minor" ><m>\hphantom{00}8\hphantom{00}</m></cell></row>
     </tabular></sidebyside>
 
-<reading-questions>
-    <exercise number="6"><statement><p>Which terms of the quadratic trinomial go into the upper left and lower 
+<exercise number="6"><statement><p>Which terms of the quadratic trinomial go into the upper left and lower 
 	right sub-rectangles of the box?</p></statement>
     <answer><p>The quadratic and constant terms</p></answer></exercise>
-    <exercise number="7"><statement><p>Why do we list the possible factors of <m>D</m>?</p></statement>
+<exercise number="7"><statement><p>Why do we list the possible factors of <m>D</m>?</p></statement>
     <answer><p>To see which sum of factors equals the linear term</p></answer></exercise>
-</reading-questions> 
 
 <example><statement><p>Factor <m>~~2x^2-11x+15</m></p></statement>
 
@@ -412,13 +400,11 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <p>Finally, factor <m>5</m> from the bottom row, and write it on the left. The correct factorization is
 	<me>2x^2-11x+15=(2x-5)(x-3)</me></p></solution></example>
 
-<reading-questions>
-    <exercise number="8"><statement><p>What do we do after we have filled in all the sub-rectangles of the box?
+<exercise number="8"><statement><p>What do we do after we have filled in all the sub-rectangles of the box?
 </p></statement>
     <answer><p>Factor the rows</p></answer></exercise>
-    <exercise number="9"><statement><p>Where do the factors of the quadratic trinomial appear?</p></statement>
+<exercise number="9"><statement><p>Where do the factors of the quadratic trinomial appear?</p></statement>
     <answer><p>As the length and width of the rectangle</p></answer></exercise>
-</reading-questions>
 
 <p>Here is a summary of our factoring method.</p>
 
@@ -437,7 +423,7 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection><theorem>
 <exercises>
 <exercisegroup ><introduction><p>Mental exercise: Find the other factor of each quadratic trinomial without using pencil, paper, or calculator.</p></introduction>
 
@@ -452,7 +438,8 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Use the given areas to find the length and width of each rectangle.</p></introduction>
 
-<exercise number="5"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="5"><statement>
+	<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~6x^2~~</m></cell>
                         <cell><m>~~9x~~</m></cell></row>
@@ -461,7 +448,8 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
                         <cell><m>~~15~~</m></cell></row>
                     </tabular></statement></exercise>
 
-<exercise number="6"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="6"><statement>
+	<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~8t^2~~</m></cell>
                         <cell><m>~~-14t~~</m></cell></row>
@@ -470,7 +458,8 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
                         <cell><m>~~21~~</m></cell></row>
                     </tabular></statement></exercise>
 
-<exercise number="7"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="7"><statement>
+	<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~12m^2~~</m></cell>
                         <cell><m>~~-10m~~</m></cell></row>
@@ -479,7 +468,8 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
                         <cell><m>~~-25~~</m></cell></row>
                     </tabular></statement></exercise>
 
-<exercise number="8"><statement><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<exercise number="8"><statement>
+	<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~9a^2~~</m></cell>
                         <cell><m>~~21a~~</m></cell></row>
@@ -499,12 +489,12 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 	<li><m>2t-3,~4t-7</m></li>
 	<li><m>2m+5,~6m-5</m></li>
 	<li><m>3a-7,~3a+7</m></li>
-</ol></p></subsubsection>
+</ol></p></subsubsection></theorem>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Quotients and the GCF</title>
+<activity><title>Quotients and the GCF</title>
 <exercises>
 
 <exercise><statement><p>Use the first second of exponents to find each quotient.<ol marker="a." cols="3">
@@ -519,16 +509,17 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <exercise><statement><p>Factor  <m>~~9(x^2+5)-x(x^2+5)</m></p></statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
-<subsubsection><title>Activity 2: Quadratic Trinomials</title>
+<activity><title>Quadratic Trinomials</title>
 <exercises>
 
 <exercise><statement><p>Factor  <m>~3x^2+2x-5~</m> by the guess-and-check method.</p></statement></exercise>
 
 <exercise><statement><p><ol marker="a.">
 	<li>Compute the product <m>~(2x-5)(3x-4)~</m> using the area of a rectangle.</li>
-	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement></exercise>
+	<li>Verify that the products of the diagonal entries are equal.</li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Solve  <m>~2x^2=7x+15~</m></p>
 
@@ -540,9 +531,9 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 
 <p><m>\blert{\text{Solve each equation.}}</m></p></statement></exercise>
 </exercises>
-</subsubsection>
+</activity>
 
-<subsubsection><title>Activity 3: Factoring Completely</title>
+<activity><title>Factoring Completely</title>
 <exercises>
 
 <exercise><statement><p>Factor completely  <m>~4a^6-10a^5+6a^4</m></p></statement></exercise>
@@ -551,9 +542,9 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
   <li><m>2a^3b-24a^2b^2-90ab^3</m></li>
   <li><m>3x^2-8xy+4y^2</m></li></ol></p></statement></exercise>
  </exercises>
-</subsubsection>
+</activity>
 
-<subsubsection><title><p><m>\blert{\text{(Optional Extension)}~~}</m> Activity 4: The Box Method</p></title>
+<activity><title><p><m>\blert{\text{(Optional Extension)}~~}</m>The Box Method</p></title>
 
 <p>Follow the steps to factor <m>~4x^2+4x-3</m>.</p>
 
@@ -589,7 +580,7 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 	<me>4x^2+4x-3 =  \hphantom{0000}</me></p>
 </stack>
 <image source="photos/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
-</subsubsection>
+</activity>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -610,13 +601,14 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 </subsubsection>
 </subsection>
 
-<subsection><title>Homework Preview</title>
+<subsection><algorithm>
 <exercises>
 <exercise><statement><p>Factor <m>3z^2-2z-5</m> by the guess-and-check method.</p></statement></exercise>
 
 <exercise><statement><p>Factor completely.<ol marker="a." cols="2">
 	<li><m>2a^3+10a^2-72a</m></li>
-	<li><m>6x^4+27x^3y-54x^2y^2</m></li></ol></p></statement></exercise>
+	<li><m>6x^4+27x^3y-54x^2y^2</m></li>
+</ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Factor using the box method.</p></introduction>
 
@@ -631,9 +623,11 @@ factors. The factors must have opposite signs. (Complete each pair of factors be
 	<li><m>(3z-5)(z+1)</m></li>
 	<li><p><ol marker="a.">
 		<li><m>2a(a+9)(a-4)</m></li>
-		<li><m>3x^2(2x-3y)(x+6y)</m></li></ol></p></li>
+		<li><m>3x^2(2x-3y)(x+6y)</m></li>
+	</ol></p></li>
 	<li><m>(2x-9)(x+4)</m></li>
-	<li><m>(4t+3)(t-6)</m></li></ol></p></subsubsection>
+	<li><m>(4t+3)(t-6)</m></li>
+</ol></p></subsubsection></algorithm>
 </subsection>
 
 <xi:include href="./hmwk-7-3.xml" />

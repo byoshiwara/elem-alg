@@ -146,10 +146,8 @@
 <exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>30, find an algebraic expression for the area of the rectangle. Use the distributive law to write the expression in two ways.</p></introduction>
 
 <exercise number="29"><statement>
-    <sidebyside width="50%"><!--<image source="photos/hp-4-1-29.png"><description>rectangle</description></image>-->
-    <image xml:id="hp-4-1-29">
-        <description>rectangle</description>
-        <latex-image>
+    <!--<image source="photos/hp-4-1-29.png"><description>rectangle</description></image>-->
+    <image width="60%" xml:id="hp-4-1-29"><description>rectangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -160,16 +158,12 @@
         \node[above] at (2.55,1.55) {$3$};
         \node[left] at (0,0.75) {$5$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement>
+    </latex-image></image></statement>
 <answer><p><m>5(2x+3):~10x+15</m></p></answer></exercise>
 
 <exercise number="30"><statement>
-    <sidebyside width="65%"><!--<image source="photos/hp-4-1-30.png"><description>rectangle</description></image>-->
-    <image xml:id="hp-4-1-30">
-        <description>rectangle</description>
-        <latex-image>
+    <!--<image source="photos/hp-4-1-30.png"><description>rectangle</description></image>-->
+    <image width="75%" xml:id="hp-4-1-30"><description>rectangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -180,9 +174,7 @@
         \node[above] at (2.95,1.35) {$2$};
         \node[left] at (0,0.65) {$8x$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+    </latex-image></image></statement></exercise>
 </exercisegroup>
 
 <exercise number="31"><statement><p>The length of a rectangular vegetable garden is 6 yards more than twice its width.<ol marker="a.">

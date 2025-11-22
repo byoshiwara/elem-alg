@@ -14,7 +14,7 @@
  <exercise number="2"><statement><p><m>y=x^2+4</m></p>
  <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-2</m></cell>
             <cell><m>-1</m></cell>
@@ -23,7 +23,7 @@
             <cell><m>2</m></cell>
             <cell><m>3</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>\hphantom{00}</m></cell>
             <cell><m>\hphantom{00}</m></cell>
             <cell><m>\hphantom{00}</m></cell>
@@ -32,10 +32,8 @@
             <cell><m>\hphantom{00}</m></cell>
             <cell><m>\hphantom{00}</m></cell></row>
         </tabular>
-    <sidebyside width="75%"><!--<image source="photos/hp-6-1-2.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-1-2">
-        <description>grid</description>
-        <latex-image>
+    <!--<image source="photos/hp-6-1-2.png"><description>grid</description></image>-->
+    <image width="90%" xml:id="hp-6-1-2"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[xscale=.5, yscale=.333]
         \draw[cyan] (-4,-2) grid (4,14);
@@ -50,14 +48,13 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+    </latex-image></image>
+</statement></exercise>
 
 <exercise number="3"><statement><p><m>y=x^2-4</m></p>
  <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-2</m></cell>
             <cell><m>-1</m></cell>
@@ -66,7 +63,7 @@
             <cell><m>2</m></cell>
             <cell><m>3</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>\hphantom{00}</m></cell>
             <cell><m>\hphantom{00}</m></cell>
             <cell><m>\hphantom{00}</m></cell>
@@ -75,10 +72,7 @@
             <cell><m>\hphantom{00}</m></cell>
             <cell><m>\hphantom{00}</m></cell></row>
         </tabular>
-    <sidebyside width="70%">
-    <image xml:id="hp-6-1-3">
-        <description>grid</description>
-        <latex-image>
+    <image width="90%" xml:id="hp-6-1-3"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (-4,-6) grid (4,6);
@@ -93,13 +87,12 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement>
+    </latex-image></image>
+</statement>
 <answer>
-     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>-3</m></cell>
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell>
@@ -108,7 +101,7 @@
                         <cell><m>2</m></cell>
                         <cell><m>3</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>5</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>-3</m></cell>
@@ -116,11 +109,8 @@
                         <cell><m>-3</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>5</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="70%">
-    <image xml:id="hp-6-1-3ans">
-        <description>parabola</description>
-        <latex-image>
+                    </tabular>
+    <image width="70%" xml:id="hp-6-1-3ans"><description>parabola</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-6) grid (4,6);
@@ -136,15 +126,13 @@
         }
         \draw[samples=65,domain={-sqrt(10)}:{sqrt(10)},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2-4});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image>
 </answer></exercise>
 
 <exercise number="4"><statement><p><m>y=4-x^2</m></p>
- <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+ <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>-3</m></cell>
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell>
@@ -153,7 +141,7 @@
                         <cell><m>2</m></cell>
                         <cell><m>3</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
@@ -161,13 +149,14 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="70%"><image source="photos/hp-6-1-3"><description>grid</description></image></sidebyside></statement></exercise>
+                    </tabular>
+    <image width="90%" source="photos/hp-6-1-3"><description>grid</description></image>
+</statement></exercise>
 
 <exercise number="5"><statement><p><m>y=\dfrac{x^2}{4}</m></p>
- <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+ <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>-4</m></cell>
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell>
@@ -176,7 +165,7 @@
                         <cell><m>2</m></cell>
                         <cell><m>4</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
@@ -184,12 +173,13 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="70%"><image source="photos/hp-6-1-3"><description>grid</description></image></sidebyside></statement>
+                    </tabular>
+    <image  width="90%" source="photos/hp-6-1-3"><description>grid</description></image>
+</statement>
 <answer>
-     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>-4</m></cell>
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell>
@@ -198,7 +188,7 @@
                         <cell><m>2</m></cell>
                         <cell><m>4</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>4</m></cell>
                         <cell><m>1</m></cell>
                         <cell><m>0.25</m></cell>
@@ -206,11 +196,8 @@
                         <cell><m>0.25</m></cell>
                         <cell><m>1</m></cell>
                         <cell><m>4</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="70%">
-    <image xml:id="hp-6-1-5ans">
-        <description>parabola</description>
-        <latex-image>
+                    </tabular>
+    <image width="80%" xml:id="hp-6-1-5ans"><description>parabola</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-6) grid (4,6);
@@ -226,30 +213,30 @@
         }
         \draw[samples=65,domain=-4:4,smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{0.25*(\x)^2});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image>
 </answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>8, <ol marker="a.">
 	<li>Graph the parabola in part (a).</li> 
-	<li>Use the graph to solve the equation in part (b).</li></ol></p></introduction>
+	<li>Use the graph to solve the equation in part (b).</li>
+</ol></p></introduction>
 
 <exercise number="6"><statement><p><ol marker="a.">
 	<li><m>y=\dfrac{1}{2}x^2</m></li>
-	<li><m>\dfrac{1}{2}x^2=8</m></li></ol></p>
-<sidebyside width="70%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside></statement></exercise>	
+	<li><m>\dfrac{1}{2}x^2=8</m></li>
+</ol></p>
+<image width="90%" source="photos/hp-6-1-2"><description>grid</description></image></statement></exercise>	
 
 <exercise number="7"><statement><p><ol marker="a.">
 	<li><m>y=x^2+2</m></li>
-	<li><m>x^2+2=11</m></li></ol></p>
-<sidebyside width="70%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside></statement><answer><p>
+	<li><m>x^2+2=11</m></li>
+</ol></p>
+<image width="90%" source="photos/hp-6-1-2"><description>grid</description></image>
+</statement>
+<answer><p>
     <ol marker="a.">
-        <li><sidebyside width="70%" margins="0% 30%">
-    <image xml:id="hp-6-1-7aans">
-        <description>parabola</description>
-        <latex-image>
+        <li><image width="70%" xml:id="hp-6-1-7aans"><description>parabola</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[xscale=.5, yscale=.333]
         \draw[cyan] (-4,-2) grid (4,14);
@@ -265,17 +252,16 @@
         }
         \draw[samples=65,domain={-sqrt(12)}:{sqrt(12)},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{2+(\x)^2});
        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-        </sidebyside></li>
+    </latex-image></image></li>
         <li><p><m>-3,~3</m></p></li>
-    </ol>
-</p></answer></exercise>
+    </ol></p>
+</answer></exercise>
 
 <exercise number="8"><statement><p><ol marker="a.">
 	<li><m>y=6-2x^2</m></li>
-	<li><m>6-2x^2=4</m></li></ol></p>
-<sidebyside width="70%"><image source="photos/hp-6-1-2"><description>grid</description></image></sidebyside></statement></exercise>	
+	<li><m>6-2x^2=4</m></li>
+</ol></p>
+<image width="90%" source="photos/hp-6-1-2"><description>grid</description></image></statement></exercise>	
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 9<ndash/>14, solve by extracting roots. Give exact values for your answers.</p></introduction>
@@ -331,13 +317,15 @@
 <exercise number="25"><statement><p>At the Custom Pizza shop you can buy their special smoked chicken pizza in any size you like.The cost, <m>C</m>, of the pizza in dollars is given by the equation 
     <me>C=\dfrac{1}{4}r^2</me>      
 where <m>r</m> is the radius of the pizza.</p>
-<sidebyside widths="60% 40%" valigns="middle middle"><p><ol marker="a.">
-    <li><p>Complete the table of values and graph the equation on the grid at right.</p><p></p>
+
+<sidebyside widths="50% 50%" valigns="middle middle">
+    <p><ol marker="a.">
+    <li><p>Complete the table of values and graph the equation on the grid at right.</p>
     <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
     <col halign="center"/><col halign="center"/>
         <row bottom="minor">
-            <cell><m>r</m></cell>
-            <cell><m>C</m></cell></row>
+            <cell><m>~r~</m></cell>
+            <cell><m>~C~</m></cell></row>
         <row> 
             <cell><m>0</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
@@ -362,15 +350,12 @@ where <m>r</m> is the radius of the pizza.</p>
         <row>
             <cell><m>14</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
-    </tabular>
-</li>
+    </tabular></li>
 <li>How much does a pizza of radius 3 inches cost? Locate this point on your graph.</li>
 <li>Use your graph to find out how big a pizza you can buy for $16.</li>
-<li>What does the point <m>(6,9)</m> tell you about pizzas?</li></ol></p>
-
-<image xml:id="hp-6-1-25">
-    <description>grid</description>
-    <latex-image>
+<li>What does the point <m>(6,9)</m> tell you about pizzas?</li>
+</ol></p>
+<image xml:id="hp-6-1-25"><description>grid</description><latex-image>
     <![CDATA[
     \begin{tikzpicture}[xscale=.4, yscale=.2]
     \draw[cyan] (0,0) grid[ystep=2] (14,50);
@@ -385,16 +370,15 @@ where <m>r</m> is the radius of the pizza.</p>
     \draw[black, thick] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
     }
     \end{tikzpicture}]]>
-</latex-image>
-</image>
+</latex-image></image>
 </sidebyside></statement>
-<answer><sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol marker="a.">
-        <li>
-        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+<answer><sidebyside widths="60% 40%" valigns="middle middle">
+    <stack><p><ol marker="a.">
+    <li><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
             <col halign="center"/><col halign="center"/>
         <row bottom="minor">
-            <cell><m>r</m></cell>
-            <cell><m>C</m></cell></row>
+            <cell><m>~r~</m></cell>
+            <cell><m>~C~</m></cell></row>
         <row> 
             <cell><m>0</m></cell>
             <cell><m>0</m></cell></row>
@@ -419,15 +403,12 @@ where <m>r</m> is the radius of the pizza.</p>
         <row>
             <cell><m>14</m></cell>
             <cell><m>49</m></cell></row>                      
-        </tabular>
-    </li>
+        </tabular></li>
     <li><p>$2.25</p></li>
     <li><p>8 in.</p></li>
     <li><p>The cost of a 6" radius pizza is $9.</p></li></ol></p></stack>
     <!--<image source="photos/hp-6-1-25.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-1-25aans">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="hp-6-1-25aans"><description>parabola</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[xscale=.4, yscale=.2]
         \draw[cyan] (0,0) grid[ystep=2] (14,50);
@@ -445,13 +426,14 @@ where <m>r</m> is the radius of the pizza.</p>
         \filldraw[blue] (3,9/4) ellipse (2mm and 4mm) node[above left, yshift=2, fill=white, inner sep=1, text=black] {(b)};
         \filldraw[blue] (8,16) ellipse (2mm and 4mm) node[above left, xshift=-2, fill=white, inner sep=1, text=black] {(c)};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </sidebyside></answer></exercise>
 
-<exercise number="26"><statement><p>The faster a car moves, the more difficult it is to stop. The distance, <m>d</m>, in meters, required to stop a car traveling at velocity <m>v</m>, in kilometers per hour, is given by <m>d=0.005v^2</m>.</p>
-<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol marker="a.">
-		<li><p>Complete the table of values and graph the equation on the grid at right.</p><p></p>
+<exercise number="26"><statement><p>The faster a car moves, the more difficult it is to stop. The distance, <m>d</m>, in meters, required to stop a car traveling at velocity <m>v</m>, in kilometers per hour, is given by <m>~d=0.005v^2</m>.</p>
+
+<sidebyside widths="50% 50%" valigns="middle middle">
+    <stack><p><ol marker="a.">
+		<li><p>Complete the table of values and graph the equation on the grid at right.</p>>
 		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 			<col halign="center"/><col halign="center"/>
             <row bottom="minor">
@@ -478,10 +460,9 @@ where <m>r</m> is the radius of the pizza.</p>
             </tabular></li>
     <li>What distance does a car moving at 40 kilometers per hour require to stop? Locate this point on your graph.</li>
 	<li>Use your graph to estimate the speed of a car that stopped in 12 meters. </li>
-	<li>What does the point <m>(20,2)</m> tell you about stopping distances?</li></ol></p></stack>
-    <image xml:id="hp-6-1-26">
-        <description>grid</description>
-        <latex-image>
+	<li>What does the point <m>(20,2)</m> tell you about stopping distances?</li>
+</ol></p></stack>
+    <image xml:id="hp-6-1-26"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \draw[cyan] (0,0) grid (12,20);
@@ -496,16 +477,16 @@ where <m>r</m> is the radius of the pizza.</p>
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </sidebyside></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 27<ndash/>29, use the Pythagorean theorem. Give exact answers, and then approximate values rounded to thousandths.</p></introduction>
 
 <exercise number="27"><statement><p><ol marker="a.">
 	<li>Find the height of an equilateral triangle of side 6 feet, as shown below. (Hint: The altitude divides the base into two segments of equal length.)</li>  
-	<li>Find the area of the triangle in part (a).</li></ol></p>
-	<sidebyside width="25%"><image source="photos/hp-6-1-27"><description>triangle</description></image></sidebyside></statement>
+	<li>Find the area of the triangle in part (a).</li>
+</ol></p>
+	<image width="25%" source="photos/hp-6-1-27"><description>triangle</description></image></statement>
 <answer><p><ol marker="a." cols="2">
     <li><p><m>\sqrt{27} </m> ft</p></li>
     <li><p><m>3\sqrt{27} </m> sq ft</p></li>
@@ -514,22 +495,24 @@ where <m>r</m> is the radius of the pizza.</p>
 <exercise number="28"><statement><p><ol marker="a.">
 	<li>The pyramid shown below has a square base. If <m>k=2</m> centimeters, find the length of the diagonal of the base.</li>
 	<li>Find the height of the pyramid. (Hint: The altitude of the pyramid divides the diagonal of the base into two segments of equal length. Use your answer to part (a).)</li>
-	<li>Find the volume of the pyramid.</li></ol></p>
-	<sidebyside width="25%"><image source="photos/hp-6-1-28"><description>pyramid</description></image></sidebyside></statement></exercise>
+	<li>Find the volume of the pyramid.</li>
+</ol></p>
+	<image width="25%" source="photos/hp-6-1-28"><description>pyramid</description></image></statement></exercise>
 
 <exercise number="29"><statement><p>Akemi wants to know the distance across a small lake, from point <m>A</m> to point <m>B</m>. She locates the point <m>C</m> on one side of the lake so that the line from <m>A</m> to <m>C</m> is perpendicular to the line from <m>A</m> to <m>B</m>. She then measures the distance from <m>A</m> to <m>C</m> as 2 miles. If the distance from <m>B</m> to <m>C</m> is <m>x</m> miles, write an expression for the distance from <m>A</m> to <m>B</m> across the lake.</p>
-	<sidebyside width="40%"><image source="photos/hp-6-1-29"><description>triangle</description></image></sidebyside></statement>
+	<image width="40%" source="photos/hp-6-1-29"><description>triangle</description></image></statement>
 <answer><p><m>\sqrt{x^2-4} </m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="30"><statement><p>If you drop a stone from a bridge 100 feet above the water, the height of the stone   seconds after you drop it is given in feet by <m>h=100-16t^2</m>.</p> 
-<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol marker="a.">
+<sidebyside widths="50% 50%" valigns="middle middle">
+    <stack><p><ol marker="a.">
 		<li><p>Complete the table of values and sketch a graph of the equation.</p>
-		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 			<col halign="center"/><col halign="center"/>
                     <row bottom="minor">
-                        <cell><m>t</m></cell>
-                        <cell><m>h</m></cell></row>
+                        <cell><m>~t~</m></cell>
+                        <cell><m>~h~</m></cell></row>
                     <row> 
                         <cell><m>0</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
@@ -557,14 +540,13 @@ where <m>r</m> is the radius of the pizza.</p>
                     <row>
                         <cell><m>2.5</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular></sidebyside></li>
+                </tabular></li>
     <li>What is the height of the stone after 2 seconds? Locate this point on your graph.</li>
 	<li>Use the graph to find out when the height of the stone is 75 feet.</li>  
-	<li>Write an equation you could solve to answer the question in part (c).</li></ol></p></stack>
+	<li>Write an equation you could solve to answer the question in part (c).</li>
+</ol></p></stack>
 	<!--<image source="photos/hp-6-1-30.png"><description>grid</description></image>-->
-    <image xml:id="hp-6-1-30">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-6-1-30"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.4]
         \draw[cyan] (0,0) grid (10,20);
@@ -579,8 +561,7 @@ where <m>r</m> is the radius of the pizza.</p>
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </sidebyside></statement></exercise>
 
  </exercises>

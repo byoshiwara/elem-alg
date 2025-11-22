@@ -29,7 +29,7 @@
 	<li>Write the equation for the line.</li></ol></p></introduction>
 
 <exercise number="5"><statement>
-	<sidebyside width="90%"><!--<image source="photos/hp-3-4-5.png"><description>graph</description></image>-->
+	<!--<image source="photos/hp-3-4-5.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-5">
         <description>graph of line</description>
         <latex-image>
@@ -51,15 +51,14 @@
         \filldraw[red!80!black] (2,2) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></statement>
+    </image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>m=3</m>; <m>y</m>-intercept <m>(0,-4) </m></p></li>
     <li><p><m>y=3x-4 </m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement>
-	<sidebyside width="90%"><!--<image source="photos/hp-3-4-6.png"><description>graph</description></image>-->
+	<!--<image source="photos/hp-3-4-6.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-6">
         <description>graph of ine</description>
         <latex-image>
@@ -81,11 +80,10 @@
         \filldraw[red!80!black] (6,1) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+    </image></statement></exercise>
 
 <exercise number="7"><statement>
-	<sidebyside width="90%"><!--<image source="photos/hp-3-4-7.png"><description>graph</description></image>-->
+	<!--<image source="photos/hp-3-4-7.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-7">
         <description>graph of line</description>
         <latex-image>
@@ -107,15 +105,14 @@
         \filldraw[red!80!black] (5,-7) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></statement>
+    </image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>m=-\dfrac{8}{5} </m>; <m>y</m>-intercept <m>(0,1) </m></p></li>
     <li><p><m>y=\dfrac{-8}{5}x+1 </m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="8"><statement>
-	<sidebyside width="90%"><!--<image source="photos/hp-3-4-8.png"><description>graph</description></image>-->
+	<!--<image source="photos/hp-3-4-8.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-8">
         <description>graph of line</description>
         <latex-image>
@@ -137,8 +134,7 @@
         \filldraw[red!80!black] (-6,1) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+    </image></statement></exercise>
 </exercisegroup>
 
 <exercisegroup ><introduction><p>For Problems 9<ndash/>12, <ol marker="a.">  
@@ -147,9 +143,9 @@
     <li>What is the <m>y</m>-intercept of each line?</li></ol></p></introduction>
 
 <exercise number="9"><statement>
-    <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
+    <sidebyside widths="50% 42%" valigns="middle middle" margins="0% 0%">
         <ol marker="I.">
-            <li><p><m>y=2x-6</m></p><p></p>
+            <li><p><m>y=2x-6</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -166,7 +162,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
-            <li><p><m>y=2x+1</m></p><p></p>
+            <li><p><m>y=2x+1</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -183,7 +179,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
-            <li><p><m>y=2x+3</m></p><p></p>
+            <li><p><m>y=2x+3</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -203,8 +199,7 @@
         <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer><p><ol marker="a.">
-        <li><sidebyside width="45%" margins="0% 55%">
-    <image xml:id="hp-2-4-9ans">
+        <li><image width="45%" margins="0% 55%" xml:id="hp-2-4-9ans">
         <description>three parallel lines</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -226,16 +221,15 @@
         \draw[green!80!black,very thick] (-6.5,-10)--(3.5,10) node[left, xshift=-2, yshift=2, fill=white, inner sep=1] {III};
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-        </sidebyside></li>
+    </image></li>
         <li><p>All three lines have the same slope of 1.</p></li>
         <li><p>I: <m>(0,-6) </m>; II: <m>(0,1) </m>; III: <m>(0,3) </m> </p></li>
     </ol></p></answer></exercise>
 
 <exercise number="10"><statement>
-    <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
+    <sidebyside widths="50% 42%" valigns="middle middle" margins="0% 0%">
         <ol marker="I.">
-            <li><p><m>y=\dfrac{-3}{2}x-4</m>
+            <li><p><m>y=\dfrac{-3}{2}x-4</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -251,8 +245,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{-3}{2}x+2</m>
+                    </tabular></li>
+            <li><p><m>y=\dfrac{-3}{2}x+2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -268,8 +262,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{-3}{2}x+6</m>
+                    </tabular></li>
+            <li><p><m>y=\dfrac{-3}{2}x+6</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -285,14 +279,14 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></li></ol>
         <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 
 <exercise number="11"><statement>
-    <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
+    <sidebyside widths="50% 42%" valigns="middle middle" margins="0% 0%">
         <ol marker="I.">
-            <li><p><m>y=\dfrac{1}{4}x+2</m>
+            <li><p><m>y=\dfrac{1}{4}x+2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -308,8 +302,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{1}{2}x+2</m>
+                    </tabular></li>
+            <li><p><m>y=\dfrac{1}{2}x+2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -325,8 +319,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=x+2</m>
+                    </tabular></li>
+            <li><p><m>y=x+2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -342,12 +336,11 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></li></ol>
         <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer><p><ol marker="a.">
-        <li><sidebyside width="45%" margins="0% 55%">
-    <image xml:id="hp-2-4-11ans">
+        <li><image width="45%" margins="0% 55%" xml:id="hp-2-4-11ans">
         <description>three lines with common y-intercept</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -369,16 +362,15 @@
         \draw[green!80!black,very thick] (-10,-8)--(8,10) node[left, xshift=-2, yshift=2, fill=white, inner sep=1] {III};
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-        </sidebyside></li>
+    </image></li>
         <li><p>I: <m>\dfrac{1}{4} </m>; II: <m>\dfrac{1}{2}  </m>; III: <m>1 </m> </p></li>
         <li><p>All three lines have the same <m>y</m>-intercept <m>(0,2) </m></p></li>
     </ol></p></answer></exercise>
 
 <exercise number="12"><statement>
-    <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%">
-        <ol marker="I.">
-            <li><p><m>y=-3x-2</m>
+    <sidebyside widths="50% 42%" valigns="middle middle" margins="0% 0%">
+        <p><ol marker="I.">
+            <li><p><m>y=-3x-2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -394,8 +386,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=-2x-2</m>
+                    </tabular></li>
+            <li><p><m>y=-2x-2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -411,8 +403,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li>
-            <li><p><m>y=\dfrac{-5}{3}x-2</m>
+                    </tabular></li>
+            <li><p><m>y=\dfrac{-5}{3}x-2</m></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -428,7 +420,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></li></ol>
+                    </tabular></li>
+        </ol></p>
         <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 </exercisegroup>
@@ -441,17 +434,17 @@
 <exercise number="13"><statement><p><m>3x+4y=12</m></p>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 <answer><p><ol marker="a.">
-    <li><p><m>(0,3) </m>, <m>~(4,0) </m></p><sidebyside>
+    <li><p><m>(0,3) </m>, <m>~(4,0) </m></p>
     <image xml:id="hp-2-4-13ans">
         <description>line</description>
         <latex-image>
@@ -474,8 +467,7 @@
         \filldraw[blue] (4,0) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></li>
+    </image></li>
     <li><p><m>m=\dfrac{-3}{4} </m></p></li>
     <li><p><m>y=\dfrac{-3}{4}x+3</m></p></li>
 </ol></p></answer></exercise>
@@ -483,15 +475,15 @@
 <exercise number="14"><statement><p><m>y+3x-8=0</m></p>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 </exercise>
 </exercisegroup>
 
@@ -502,12 +494,11 @@
 	<li>Graph the line.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p><m>3x-5y=0</m></p>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>y=\dfrac{3}{5}x </m></p></li>
     <li><p><m>(0,0) </m>, <m>~\dfrac{3}{5} </m></p></li>
-    <li><sidebyside width="80%">
-    <image xml:id="hp-3-4-15ans">
+    <li><image width="80%" xml:id="hp-3-4-15ans">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -530,21 +521,19 @@
         \filldraw[blue] (-5,-3) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></li>
+    </image></li>
 </ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><m>5x+4y=0</m></p>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 </exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, graph the equation by using the slope-intercept method.</p></introduction>
 
 <exercise number="17"><statement><p><m>y=3-x</m></p>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside width="80%">
-    <image xml:id="hp-3-4-17ans">
+<image source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><image width="80%" xml:id="hp-3-4-17ans">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -565,17 +554,15 @@
         \filldraw[blue] (0,3) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+    </image></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=3x-1</m></p>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 </exercise>
 
 <exercise number="19"><statement><p><m>y=\dfrac{3}{4}x+2</m></p>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside width="80%">
-    <image xml:id="hp-3-4-19ans">
+<image source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><image width="80%" xml:id="hp-3-4-19ans">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -596,19 +583,23 @@
         \filldraw[blue] (0,2) circle (2mm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+    </image></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=-2-\dfrac{4}{3}x</m></p>
-<sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
+<image source="photos/stangrid10"><description>grid</description></image></statement>
 </exercise>
 </exercisegroup>
 
 <exercise number="21"><statement><p>Robin opened a yogurt smoothie shop near campus. The graph shows Robin's profit <m>P</m> after selling <m>s</m> smoothies.</p>
-<sidebyside width="35%"><!--<image source="photos/hp-3-4-21.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-4-21">
-        <description>graph of line</description>
-        <latex-image>
+<sidebyside widths="50% 40%">
+<p><ol marker="a.">
+    <li>What is the <m>P</m>-intercept of the line?</li>
+    <li>Calculate the slope of the line.</li>
+    <li>Write an equation for the line in slope-intercept form.</li>
+    <li>What do the slope and the <m>P</m>-intercept tell us about the problem?</li>
+</ol></p>
+    <!--<image source="photos/hp-3-4-21.png"><description>graph</description></image>-->
+    <image  xml:id="hp-3-4-21"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -627,14 +618,7 @@
         \draw[black] (.15,2) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$40$};
         \draw[red,very thick, ->, >=stealth'] (0,-12)--(28/3,2);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-<p><ol marker="a.">
-	<li>What is the <m>P</m>-intercept of the line?</li>
-	<li>Calculate the slope of the line.</li>
-	<li>Write an equation for the line in slope-intercept form.</li>
-	<li>What do the slope and the <m>P</m>-intercept tell us about the problem?</li></ol></p></statement>
+    </latex-image></image></sidebyside></statement>
 <answer><p><ol marker="a.">
     <li><p><m>(0,-240) </m></p></li>
     <li><p>3</p></li>
@@ -646,8 +630,8 @@
     <li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
 
 <exercise number="22"><statement><p>Serda's score on her driving test is computed by the equation <m>S=120-4n</m>, where <m>n</m> is the number of wrong answers she gives.</p>
-<sidebyside width="40%"><!--<image source="photos/hp-3-4-22.png"><description>grid</description></image>-->
-    <image xml:id="hp-3-4-22">
+<!--<image source="photos/hp-3-4-22.png"><description>grid</description></image>-->
+    <image width="45%" xml:id="hp-3-4-22">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -666,14 +650,12 @@
          \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image>
 </statement></exercise>
 
 <exercise number="23"><statement><p>Greg is monitoring the growth of a new variety of string beans. The height of the vine each day is given in inches by <m>h=18+3d</m> where <m>d=0</m> represents today.</p>
-<sidebyside width="40%"><!--<image source="photos/hp-3-4-23.png"><description>grid</description></image>-->
-    <image xml:id="hp-3-4-23">
+<!--<image source="photos/hp-3-4-23.png"><description>grid</description></image>-->
+    <image width="45%" xml:id="hp-3-4-23">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -693,12 +675,9 @@
         }
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-</sidebyside>
-</statement>
+    </image></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside width="40%" margins="0% 60%">
-    <image xml:id="hp-3-4-23ans">
+    <li><image width="40%" xml:id="hp-3-4-23ans">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -719,15 +698,13 @@
         \draw[red,very thick] (-6,0)--(14/3,16);
         \filldraw[blue] (0,9) circle (2mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
     <li><p>The slope gives the weekly rate that the beans are growing: 3 inches per week. The <m>h</m>-intercept, <m>(0,18) </m>, means that today, the beans are 18 inches tall.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of Double Quiz questions he answered correctly.</p>
-<sidebyside width="55%"><!--<image source="photos/hp-3-4-24.png"><description>grid</description></image>-->
-    <image xml:id="hp-3-4-24">
+<!--<image source="photos/hp-3-4-24.png"><description>grid</description></image>-->
+    <image width="65%" xml:id="hp-3-4-24">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -746,9 +723,7 @@
          \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image>
 </statement></exercise>
 </exercisegroup>
 

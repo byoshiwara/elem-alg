@@ -330,7 +330,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 	<li><m>-\dfrac{2w+6}{w}</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 51<ndash/>52, explain the error in each calculation.</p></introduction>
+<exercisegroup><introduction><p>For Problems 51<ndash/>52, explain the error in each calculation.</p></introduction>
 
 <exercise number="51"><statement><p><m>\dfrac{3x+4}{3}~ \rightarrow~x+4</m></p></statement>
 <answer><p>3 is not a factor of the numerator</p></answer></exercise>

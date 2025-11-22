@@ -320,8 +320,8 @@
 </exercisegroup>
 
 <exercise number="43"><statement><p>The temperature in Maple Grove was <m>18 \degree</m>F at noon, and it has been dropping ever since at a rate of <m>3 \degree</m>F per hour.<ol marker="a.">
-<li><p>Fill in the table. <m>T</m> stands for the temperature <m>h</m> hours after noon. Negative values of <m>h</m> represent hours before noon.
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<li><p>Fill in the table. <m>T</m> stands for the temperature <m>h</m> hours after noon. Negative values of <m>h</m> represent hours before noon.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>-4</m></cell>
@@ -340,13 +340,11 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></li>
     <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
-    <li>Graph your equation on the grid.
-        <sidebyside width="45%"><!--<image source="photos/cr2-43.png"><description>grid</description></image>-->
-    <image xml:id="cr2-43">
-        <description>grid</description>
-        <latex-image>
+    <li><p>Graph your equation on the grid.</p>
+        <!--<image source="photos/cr2-43.png"><description>grid</description></image>-->
+    <image width="50%" xml:id="cr2-43"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -363,14 +361,13 @@
          \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-        </sidebyside></li>
+    </latex-image></image></li>
     <li>What was the temperature at 10 am?</li>
     <li>When will the temperature reach <m>-15 \degree</m>?</li>
-    <li>How much did the temperature drop between 3 pm and 9 pm?</li></ol></p></statement>
+    <li>How much did the temperature drop between 3 pm and 9 pm?</li>
+</ol></p></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside width="45%" margins="0% 55%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>-4</m></cell>
@@ -389,12 +386,9 @@
                         <cell><m>9</m></cell>
                         <cell><m>3</m></cell>
                         <cell><m>-6</m></cell></row>
-                    </tabular></sidebyside></li>
-                    <li><p><m>T=18-3h</m></p></li>
-                    <li><sidebyside width="45%" margins="0% 55%">
-    <image xml:id="cr2-43ans">
-        <description>line</description>
-        <latex-image>
+                    </tabular></li>
+        <li><p><m>T=18-3h</m></p></li>
+        <li><image width="45%" xml:id="cr2-43ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -415,9 +409,7 @@
          \filldraw[blue] ((\x,{18-3*\x}) ellipse (2.41mm and 7mm);
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-        </sidebyside></li>
+    </latex-image></image></li>
         <li><p><m>24\degree\text{F}</m></p></li>
         <li><p>11 p.m.</p></li>
         <li><p><m>-18\degree\text{F}</m></p></li>
@@ -432,11 +424,8 @@
 </p></introduction>
 
 <exercise number="45"><statement><m>y=-2x+7</m>
-<sidebyside width="95%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside width="90%">
-    <image xml:id="cr2-45ans">
-        <description>line</description>
-        <latex-image>
+<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><image width="90%" xml:id="cr2-45ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -453,12 +442,12 @@
         }
         \draw[red,very thick, <->, >=stealth'] (-1.5,10)--(8.5,-10);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+    </latex-image></image>
+</answer></exercise>
 
 <exercise number="46"><statement><m>y=\dfrac{4}{3}x-2</m>
-<sidebyside width="95%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
+<image width="100%" source="photos/stangrid10"><description>grid</description></image>
+</statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, simplify the expression.</p></introduction>
@@ -491,11 +480,10 @@
 
 <exercise number="55"><statement><p><ol marker="a.">
     <li><m>-3x+9=24</m></li>
-    <li><m>-3x+9=3</m></li></ol></p>
-    <sidebyside width="55%"><!--<image source="photos/cr2-55.png"><description>graph</description></image>-->
-    <image xml:id="cr2-55">
-        <description>graph</description>
-        <latex-image>
+    <li><m>-3x+9=3</m></li>
+</ol></p>
+    <!--<image source="photos/cr2-55.png"><description>graph</description></image>-->
+    <image width="55%" xml:id="cr2-55"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -514,9 +502,8 @@
         \draw[red, ultra thick, <->, >=stealth'] (-7,30)--(4,-3);
         \node[above, text=red, fill=white, inner sep=2] at (-3.5,0) {$y=-3x+9$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement>
+    </latex-image></image>
+</statement>
 <answer><p><ol marker="a.">
     <li><p><m>-5</m></p></li>
     <li><p><m>2</m></p></li>
@@ -524,11 +511,10 @@
 
 <exercise number="56"><statement><p><ol marker="a.">
     <li><m>24x-1800=-1250</m></li>
-    <li><m>24x-1800=500</m></li></ol></p>
-    <sidebyside width="80%"><!--<image source="photos/cr2-56.png"><description>graph</description></image>-->
-    <image xml:id="cr2-56">
-        <description>graph</description>
-        <latex-image>
+    <li><m>24x-1800=500</m></li>
+</ol></p>
+    <!--<image source="photos/cr2-56.png"><description>graph</description></image>-->
+    <image width="90%" xml:id="cr2-56"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -547,9 +533,8 @@
         \draw[red, ultra thick, <->, >=stealth'] (-6,{(24*(-60)-1800)/200})--({280/24}, 5);
         \node[above, text=red, fill=white, inner sep=2] at (7.2,-19.4) {$y=24x-1800$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement></exercise>
+    </latex-image></image>
+</statement></exercise>
 </exercisegroup>
 
 <exercise number="57"><statement><p>The length of a rectangle is 3 times its width.<ol marker="a.">
