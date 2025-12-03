@@ -5,7 +5,7 @@
 
 <exercisegroup cols="3">
     <introduction><p>For Problems 1<ndash/>4, 
-        <ol marker= "a.">
+        <ol marker= "a">
             <li><p>Find the pattern and fill in the table.</p></li>  
             <li><p>Write an equation for the second variable in terms of the first variable.</p></li>
     </ol></p></introduction>
@@ -39,7 +39,7 @@
                     <cell><m>m</m></cell>
                     <cell></cell></row>
             </tabular></sidebyside></statement>
-    <answer><p><ol marker= "a.">
+    <answer><p><ol marker= "a">
             <li><sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>m</m></cell>
@@ -419,7 +419,9 @@
         <li>Let <m>R</m> stand for the temperature in Ridgecrest and <m>S</m> for the temperature in Sunnyvale. Write an equation for <m>S</m> in terms of <m>R</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
             <!--<image source="photos/hp-1-1-9.png"/>-->
-    <image xml:id="hp-1-1-9" width="50%"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-9" width="40%">
+        <description>grid</description>
+        <latex-image>
          <![CDATA[
         \begin{tikzpicture} [xscale=.075, yscale=.075]
         \draw[cyan] (50,60) grid[step=5] (100,120);
@@ -432,7 +434,9 @@
          \draw[black, thick] (50.75,\y) --++(-1.5,0)  node[left]   {\y};
         }
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image>
+            </li>
     </ol></p></statement>
 <answer><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
@@ -465,7 +469,7 @@
     <li>Temperature in Sunnyvale <m>=</m> Temperature in Ridgecrest <m>+15</m></li>
     <li><m>S=R+15</m></li>
     <li><p><!--<image source="photos/hp-1-1-9ans.png"/>-->
-    <image xml:id="hp-1-1-9ans" width="50%">
+    <image xml:id="hp-1-1-9ans" width="40%">
         <description>line</description>
         <latex-image>
         <![CDATA[
@@ -524,7 +528,9 @@
         <li>Let <m>d</m> stand for the number of miles Jerome has driven and <m>r</m> for the number of miles that remain. Write an equation for <m>r</m> in terms of <m>d</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
             <!--<image source="photos/hp-1-1-10.png"/>-->
-    <image xml:id="hp-1-1-10" width="50%"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-10" width="40%">
+        <description>grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -537,7 +543,8 @@
          \draw[black, thick] (0.75,\x) --++(-1.5,0)  node[left]   {\x};
         }
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image></li>
     </ol></p></statement></exercise>
 
 <exercise number="11"><statement><p>Milton goes to a restaurant with two friends, and they agree to split the bill equally. Fill in the table. </p>
@@ -575,7 +582,9 @@
         <li>Let <m>b</m> stand for the bill and <m>s</m> for Milton's share. Write an equation for <m>s</m> in terms of <m>b</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
             <!--<image source="photos/hp-1-1-11.png"/>-->
-    <image xml:id="hp-1-1-11" width="50%"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-11" width="40%">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.04, yscale=0.1]
         \draw[cyan] (0,0) grid[xstep=10, ystep=4] (100,40);
@@ -588,7 +597,8 @@
          \draw[black, thick] (0.75,\y) --++(-1.5,0)  node[left]   {\y};
         }
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image></li>
     </ol></p></statement>
 <answer><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
@@ -621,7 +631,9 @@
         <li>Milton's share <m>= \dfrac{\text{total bill}}{3}</m></li>
         <li><m>s=\dfrac{b}{3}</m></li>
         <li><p><!--<image source="photos/hp-1-1-11ans.png"/>-->
-    <image xml:id="hp-1-1-11ans" width="50%"><description>line</description><latex-image>
+    <image xml:id="hp-1-1-11ans" width="40%">
+        <description>line</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.04, yscale=0.1]
         \draw[cyan] (0,0) grid[xstep=10, ystep=4] (100,40);
@@ -677,7 +689,9 @@
         <li>Let <m>C</m> stand for the total number of calories and <m>F</m> for the number of fat calories. Write an equation for <m>F</m> in terms of <m>C</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
             <!--<image source="photos/hp-1-1-12.png"/>-->
-    <image xml:id="hp-1-1-12" width="60%"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-12" width="40%">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale = 1.5, yscale=0.5]
         \draw[cyan] (0,0) grid[xstep=0.2, ystep=.5] (3,10);
@@ -690,7 +704,8 @@
          \draw[black, thick] (0.075,\y) --++(-.15,0)  node[left]   {\yi};
         }
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image></li>
     </ol></p></statement></exercise>
 
 <exercisegroup>
@@ -698,7 +713,9 @@
 
 <exercise number="13"><statement><p>Suppose you invest $2000 in a retirement account that pays 8% interest compounded continuously. The amount of money in the account each year is shown by the graph below.</p>
 <!--<image source="photos/hp-1-1-13.png"/>-->
-    <image xml:id="hp-1-1-13" width="60%"><description>retirement account</description><latex-image>
+    <image xml:id="hp-1-1-13" width="50%">
+                <description>retirement account</description>
+                <latex-image>
                 <![CDATA[
                 \begin{tikzpicture} [xscale = 0.4,]
                 \draw[cyan] (0,0) grid[xstep=1, ystep=.2] (15,7);
@@ -735,7 +752,9 @@
 
 <exercise number="14"><statement><p>Wendy brings a Thermos of soup for her lunch on a hike in the mountains.  When she pours the soup into a bowl, it begins to cool off. The graph below shows the temperature of the soup after it is served.</p>
     <!--<image source="photos/hp-1-1-14.png"/>-->
-        <image xml:id="hp-1-1-14" width="70%"><description>temperature of soup</description><latex-image>
+        <image xml:id="hp-1-1-14" width="50%">
+            <description>temperature of soup</description>
+            <latex-image>
             <![CDATA[
             \begin{tikzpicture} [scale = 0.35]
             \draw[cyan] (0,0) grid  (20,20);
@@ -767,7 +786,7 @@
 
 <exercise number="15"><statement><p>A cantaloupe is dropped from a tall building. Its speed increases until it hits the ground.  Which of the four graphs below best represents the speed of the cantaloupe? Explain why your choice is the best one.</p>
     <!--<image source="photos/hp-1-1-15.png"/>-->
-        <image xml:id="hp-1-1-15" width="80%">
+        <image xml:id="hp-1-1-15" width="70%">
             <description>four graphs of speed vs time</description>
             <latex-image>
             <![CDATA[
@@ -803,7 +822,7 @@
         <li>Delbert walks toward school, but decides to return home, where he stays.</li></ol></p></li>
     <li>Write your own story for the remaining graph.</li></ol></p>
 <!--<image source="photos/hp-1-1-16.png"/>-->
-    <image xml:id="hp-1-1-16" width="80%">
+    <image xml:id="hp-1-1-16" width="60%">
         <description>four graphs of distance vs time</description>
         <latex-image>
         <![CDATA[
@@ -833,17 +852,16 @@
 </statement></exercise>
 
 <exercise number="17"><statement><p>Plot each pair of values on the grid provided. Connect the points with a smooth curve. Which graph appears to be a straight line?
-<ol marker="a.">
-    <li><sidebyside valigns="middle middle">
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<ol marker="a." cols="2">
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~t~</m></cell>
-                        <cell><m>~0~</m></cell>
-                        <cell><m>~1~</m></cell>
-                        <cell><m>~2~</m></cell>
-                        <cell><m>~5~</m></cell>
-                        <cell><m>~6~</m></cell>
-                        <cell><m>~8~</m></cell></row>
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell></row>
                     <row> 
                         <cell><m>v</m></cell>
                         <cell><m>16</m></cell>
@@ -854,7 +872,9 @@
                         <cell><m>0</m></cell></row>
                     </tabular>
         <!--<image source="photos/hp-1-1-17a.png"/>-->
-    <image width="100%" xml:id="hp-1-1-17a"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-17a">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale = 0.75, yscale=0.3]
         \draw[cyan] (0,0) grid[ystep=2]  (8,20);
@@ -870,17 +890,17 @@
         }
         \node[below left] at (0,0) {0};
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></li>
-    <li><sidebyside valigns="middle middle">
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    </latex-image>
+    </image></li>
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~w~</m></cell>
-                        <cell><m>~0~</m></cell>
-                        <cell><m>~1~</m></cell>
-                        <cell><m>~2~</m></cell>
-                        <cell><m>~4~</m></cell>
-                        <cell><m>~6~</m></cell>
-                        <cell><m>~10~</m></cell></row>
+                        <cell><m>w</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell></row>
                     <row> 
                         <cell><m>Q</m></cell>
                         <cell><m>12</m></cell>
@@ -891,7 +911,9 @@
                         <cell><m>2</m></cell></row>
                     </tabular>
         <!--<image source="photos/hp-1-1-17b.png"/>-->
-    <image width="100%" xml:id="hp-1-1-17b"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-17b">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale = 0.6, yscale=0.5]
         \draw[cyan] (0,0) grid[ystep=2]  (10,12);
@@ -907,10 +929,14 @@
         }
         \node[below left] at (0,0) {0};
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></li>
+    </latex-image>
+    </image></li>
     </ol></p></statement>
 <answer><p><ol marker="a." cols="2">
-    <li><image xml:id="hp-1-1-17aans" width="70%"><description>line and points</description><latex-image>
+            <li>
+    <image xml:id="hp-1-1-17aans" width="60%">
+        <description>line and points</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale = 0.75, yscale=0.3]
         \draw[cyan] (0,0) grid[ystep=2]  (8,20);
@@ -930,8 +956,12 @@
         }
         \node[below left] at (0,0) {0};
         \end{tikzpicture}]]>
-    </latex-image></image></li>
-    <li><image xml:id="hp-1-1-17bans" width="70%"><description>triangle</description><latex-image>
+    </latex-image>
+    </image></li>
+            <li>
+    <image xml:id="hp-1-1-17bans" width="60%">
+        <description>triangle</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale = 0.6, yscale=0.5]
         \draw[cyan] (0,0) grid[ystep=2]  (10,12);
@@ -951,10 +981,11 @@
         }
         \node[below left] at (0,0) {0};
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><sidebyside cols="2" widths="50% 40%" margins="0% 10%"><p><ol marker="a.">
+<exercise number="18"><statement><sidebyside cols="2" widths="50% 35%" margins="0% 10%"><p><ol marker="a.">
     <li><p>Read the graph at right to fill in the table.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -973,7 +1004,8 @@
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></li>
+                    </tabular>
+</li>
     <li>Find a formula expressing <m>y</m> in terms of <m>x</m>.</li>
 </ol></p>
     <image xml:id="hp-1-1-18">
@@ -997,7 +1029,7 @@
     </image>
         </sidebyside></statement></exercise>
 
-<exercisegroup>
+<exercisegroup cols="2">
     <introduction><p>For Problems 19<ndash/>20, 
         <ol marker= "a">
             <li><p>Write an equation for the second variable in terms of the first variable.</p></li>
@@ -1007,13 +1039,13 @@
 <exercise number="19"><statement><p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~0~</m></cell>
-                        <cell><m>~0.2~</m></cell>
-                        <cell><m>~0.3~</m></cell>
-                        <cell><m>~0.5~</m></cell>
-                        <cell><m>~0.6~</m></cell>
-                        <cell><m>~0.7~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.2</m></cell>
+                        <cell><m>0.3</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>0.6</m></cell>
+                        <cell><m>0.7</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>2</m></cell>
@@ -1024,7 +1056,9 @@
                         <cell></cell></row>
                     </tabular></p>
         <!--<image source="photos/hp-1-1-19.png"/>-->
-    <image xml:id="hp-1-1-19" width="70%"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-19" width="90%">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=3.4]
         \draw[cyan] (0,0) grid[step=1/5]  (2,2);
@@ -1040,7 +1074,8 @@
          \draw[cyan, very thick] (0,2) --++(2,0);
         \node[below left] at (0,0) {0};
         \end{tikzpicture}]]>
-    </latex-image></image></statement>
+    </latex-image>
+    </image></statement>
 <answer><p><ol marker="a.">
     <li><m>y=2-x</m></li>
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -1061,7 +1096,9 @@
                         <cell><m>1.4</m></cell>
                         <cell><m>1.3</m></cell></row>
                     </tabular>
-    <image xml:id="hp-1-1-19ans"><description>line and points</description><latex-image>
+    <image xml:id="hp-1-1-19ans">
+        <description>line and points</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=3.4]
         \draw[cyan] (0,0) grid[step=1/5]  (2,2);
@@ -1081,19 +1118,20 @@
          \filldraw[blue] (\x,\y) circle (.25mm);
         }
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image></li>
 </ol></p></answer></exercise>
 
 <exercise number="20"><statement>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~1~</m></cell>
-                        <cell><m>~2~</m></cell>
-                        <cell><m>~3~</m></cell>
-                        <cell><m>~4~</m></cell>
-                        <cell><m>~6~</m></cell>
-                        <cell><m>~8~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>120</m></cell>
@@ -1103,7 +1141,9 @@
                         <cell></cell>
                         <cell></cell></row>
                     </tabular>
-    <image width="70%" xml:id="hp-1-1-20"><description>grid</description><latex-image>
+    <image xml:id="hp-1-1-20">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=0.6, yscale=.065]
         \draw[cyan] (0,0) grid[ystep=5]  (12,120);

@@ -38,7 +38,7 @@
         y\amp=-3x\\
         y\amp=3x-6
         \end{aligned}</m></p>
-    <image source="photos/stangrid10"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
  <exercise number="7"><statement><p>
@@ -46,7 +46,7 @@
         \amp y=\dfrac{3}{4}x-2\\
         \amp 2y-5x=10
         \end{aligned}</m></p>
-    <image source="photos/stangrid10"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  <answer><m>(-4,-5)</m></answer></exercise>
 
  <exercise number="8"><statement><p>
@@ -54,7 +54,7 @@
         \amp x+y=4\\
         \amp 3x-3y=12
         \end{aligned}</m></p>
-    <image source="photos/stangrid10"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
  <exercise number="9"><statement><p>
@@ -62,7 +62,7 @@
         \amp 2y=-3x\\
         \amp y=-2x-1
         \end{aligned}</m></p>
-    <image source="photos/stangrid10"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
  <answer><m>(-2,3)</m></answer></exercise>
 </exercisegroup>
 
@@ -95,7 +95,7 @@
     <li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.</p>
         <sidebyside widths="40% 40%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
+                        <cell><m>x</m></cell>
                         <cell>Earnings Under Plan A</cell></row>
                     <row> 
                         <cell><m>0</m></cell>
@@ -128,7 +128,7 @@
 
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
+                        <cell><m>x</m></cell>
                         <cell>Earnings Under Plan B</cell></row>
                     <row> 
                         <cell><m>0</m></cell>
@@ -159,8 +159,10 @@
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular></sidebyside></li>
     <li><p>Graph both of your equations on the grid. (Both axes are scaled in thousands of dollars.)</p>
-        <!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
-    <image width="50%" xml:id="hp-4-2-13"><description>grid</description><latex-image>
+        <sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-13">
+        <description>grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -179,13 +181,15 @@
         \node[below] at (5,-1.5) {Thousands of dollars};
         \node[label=below:\rotatebox{90}{Thousands of dollars}] at (-2,11) {};
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image>
+        </sidebyside></li>
     <li>For what sales amount do the two plans result in equal earnings for Delbert?</li></ol></p></statement>
 <answer><p><ol marker="a.">
     <li><p>Plan A: <m>E=0.03x+20,000</m>; Plan B: <m>E=0.05x+15,000</m></p></li>
-    <li><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <li><sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
+                        <cell><m>x</m></cell>
                         <cell>Earnings Under Plan A</cell>
                         <cell>Earnings Under Plan b</cell></row>
                     <row> 
@@ -224,7 +228,7 @@
                         <cell><m>400</m></cell>
                         <cell><m>32,000</m></cell>
                         <cell><m>35,000</m></cell></row>                      
-                </tabular></li>
+                </tabular></sidebyside></li>
     <li></li>
     <li>$250,000</li></ol></p></answer></exercise>
 
@@ -232,10 +236,10 @@
     <li><p>Let <m>x</m> stand for the number of clarinets Orpheus manufactures. Write equations for the total cost, <m>C</m>, of producing <m>x</m> clarinets, and the revenue, <m>R</m>, earned from selling <m>x</m> clarinets.
     <md><mrow>\text{Cost}~~~C =</mrow>
         <mrow>\text{Revenue}~~~R =</mrow></md></p></li>
-    <li><p>Fill in the tables, where cost and revenue are given in thousands of dollars.</p>
+    <li><p>Fill in the tables, where cost and revenue are given in thousands of dollars.
         <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
+                        <cell><m>x</m></cell>
                         <cell>Cost</cell></row>
                     <row> 
                         <cell><m>0</m></cell>
@@ -268,7 +272,7 @@
 
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
+                        <cell><m>x</m></cell>
                         <cell>Revenue</cell></row>
                     <row> 
                         <cell><m>0</m></cell>
@@ -297,10 +301,12 @@
                     <row>
                         <cell><m>400</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular></sidebyside></li>
+                </tabular></sidebyside></p></li>
     <li><p>Graph both of your equations on the grid. (The vertical axis is scaled in thousands of dollars.)</p>
-        <!--<image source="photos/hp-4-2-13.png"><description>grid</description></image>-->
-    <image width="50%"> xml:id="hp-4-2-14"><description>grid</description><latex-image>
+        <sidebyside width="40%"><!--<image source="photos/hp-4-2-13.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-14">
+        <description>grid</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.5]
         \draw[cyan] (0,0) grid (10,15);
@@ -316,7 +322,9 @@
         \draw[black, very thick,->,>=stealth'] (0,0)--(0,16.3) node[left]{$y$};
         \node[left,rotate=90] at (-2,11) {Thousands of dollars};
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image>
+        </sidebyside></li>
     <li>How many clarinets must Orpheus sell in order to break even?</li>
     <li>What is their profit if they sell 500 clarinets? 200 clarinets?</li>
     <li>Illustrate your answers to part (e) on your graph.</li></ol></p></statement></exercise>
@@ -325,12 +333,13 @@
 	<li>Choose a variable for each of the unknown quantities.</li>
 	<li>Write a system of equations in two variables to model the problem.</li>
 	<li>Solve the system graphically.</li>  
-	<li>Verify your solution algebraically.</li>
-</ol></p></introduction>
+	<li>Verify your solution algebraically.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p>A bouquet of 4 roses and 8 carnations costs $14. A bouquet of 6 roses and 9 carnations costs $18. How much do one rose and one carnation cost?</p> 
- 	<!--<image source="photos/hp-4-2-15.png"><description>grid</description></image>-->
-    <image width="45%" xml:id="hp-4-2-15"><description>grid</description><latex-image>
+ 	<sidebyside width="35%"><!--<image source="photos/hp-4-2-15.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-15">
+        <description>grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -345,7 +354,9 @@
         \draw[black, very thick,->,>=stealth'] (0,0)--(4.6,0) node[right]{$x$};
         \draw[black, very thick,->,>=stealth'] (0,0)--(0,4.6) node[left]{$y$};
         \end{tikzpicture}]]>
-    </latex-image></image></statement>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer><p><ol marker="a.">
     <li><p>Cost of one rose: <m>x</m>, cost of one carnation: <m>y</m></p></li>
     <li><p><m>
@@ -355,12 +366,13 @@
         \end{aligned}
         </m></p></li>
     <li><m>(1.50, 1.00)</m></li>  
-    <li><m>4(1.5)+8(1)=14;~6(1.5)+9(1)=18</m></li>
-</ol></p></answer></exercise>
+    <li><m>4(1.5)+8(1)=14;~6(1.5)+9(1)=18</m></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>The vertex angle of an isosceles triangle is <m>15 \degree</m> less than each base angle. (In an isosceles triangle, the base angles are equal.) Find the measure of each angle of the triangle. (Hint:  For your second equation, recall that the sum of the angles in any triangle is <m>180 \degree</m>.</p> 
- 	<!--<image source="photos/hp-4-2-16.png"><description>grid</description></image>-->
-    <image width="55%" xml:id="hp-4-2-16"><description>grid</description><latex-image>
+ 	<sidebyside width="45%"><!--<image source="photos/hp-4-2-16.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-16">
+        <description>grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -375,6 +387,8 @@
         \draw[black, very thick,->,>=stealth'] (-5,0)--(11.6,0) node[right]{$x$};
         \draw[black, very thick,->,>=stealth'] (0,-5)--(0,11.6) node[left]{$y$};
         \end{tikzpicture}]]>
-    </latex-image></image></statement></exercise>
+    </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 </exercisegroup>
 </exercises>

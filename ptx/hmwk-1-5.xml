@@ -38,14 +38,15 @@
 <exercise number="12"><statement><p><m>20-4(9-3 \cdot 2)+8-5 \cdot 3</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup>
+<exercisegroup cols="2">
     <introduction><p>For Problems 13<ndash/>16, use your calculator to simplify each expression. Round your answers to three decimal places if necessary.</p></introduction>
 
 <exercise number="13"><statement><p><m>\dfrac{6.4+3.5}{3.6(3.2)}</m></p></statement>
 <answer><p>0.859</p></answer></exercise>
 
 <exercise number="14"><statement><p><m>\dfrac{14.6-6.8}{7.3+3.4}</m></p></statement></exercise>
-
+</exercisegroup>
+<exercisegroup>
 <exercise number="15"><statement><p><m>\dfrac{26.2-9.1}{8.4 \div 7.7}+ 5.1(6.9-1.6)</m></p></statement>
 <answer><p>42.705</p></answer></exercise>
 
@@ -95,7 +96,7 @@
 <exercise number="23"><statement><p><m>5z-3</m>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~z~</m></cell>
+                        <cell><m>z</m></cell>
                         <cell><m>5z</m></cell>
                         <cell><m>5z-3</m></cell></row>
                     <row> 
@@ -113,7 +114,7 @@
                     </tabular></p></statement>
 <answer><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~z~</m></cell>
+                        <cell><m>z</m></cell>
                         <cell><m>5z</m></cell>
                         <cell><m>5z-3</m></cell></row>
                     <row> 
@@ -133,7 +134,7 @@
 <exercise number="24"><statement><p><m>2(12+Q)</m>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~Q~</m></cell>
+                        <cell><m>Q</m></cell>
                         <cell><m>12+Q</m></cell>
                         <cell><m>2(12+Q)</m></cell></row>
                     <row> 
@@ -223,10 +224,9 @@
 <answer><p>Subtracting <m>9-3</m> is incorrect. It should be
     <me>9-3(2)=9-6=3</me></p></answer></exercise>
 
-<exercise number="38"><statement><p>Think of the region shown below as a rectangle with a smaller rectangle removed, and write an expression for its area. Then simplify your expression to find the area. (The measurements given are in centimeters.)</p>
-
+<exercise number="38"><statement><p>Think of the region shown below as a rectangle with a smaller rectangle removed, and write an expression for its area. Then simplify your expression to find the area. (The measurements given are in centimeters.)
     <!--<image source="photos/hp-1-5-40.png"><description>region</description></image>-->
-    <image xml:id="hp-1-5-40" width="45%">
+    <image xml:id="hp-1-5-40" width="38%">
         <description>rectangle with rectangular hole</description>
         <latex-image>
         <![CDATA[
@@ -243,6 +243,6 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </statement></exercise>
+    </p></statement></exercise>
 
 </exercises>

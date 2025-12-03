@@ -6,28 +6,24 @@
 <exercise number="1"><statement><p>Square each monomial.<ol marker="a." cols="3">
 	<li><m>(8t^4)^2</m></li>
 	<li><m>(-12a^2)^2</m></li>
-	<li><m>(10h^2k)^2</m></li>
-</ol></p></statement>
+	<li><m>(10h^2k)^2</m></li></ol></p></statement>
 <answer><p><ol marker="a." cols="3">
     <li><p><m>64t^8</m></p></li>
     <li><p><m>144a^4</m></p></li>
-    <li><p><m>100h^4k^2</m></p></li>
-</ol></p></answer></exercise>
+    <li><p><m>100h^4k^2</m></p></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Find a monomial whose square is given.<ol marker="a." cols="3">
 	<li><m>16b^{16}</m></li>
 	<li><m>121z^{22}</m></li>
-	<li><m>36p^6q^{24}</m></li>
-</ol></p></statement></exercise>
+	<li><m>36p^6q^{24}</m></li></ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>4, write the area of the square in two different ways:   <ol marker="a.">
     <li>as the sum of four smaller areas,</li>
-    <li><p>as one large square, using the formula  Area = (length)<m>^2</m>.</p></li>
-</ol></p></introduction>
+    <li><p>as one large square, using the formula  Area = (length)<m>^2</m>.</p></li></ol></p></introduction>
 
 <exercise number="3"><statement>
-    <!--<image source="photos/hp-7-4-3.png"><description>rectangle</description></image>-->
-    <image width="60%" xml:id="hp-7-4-3">
+    <sidebyside width="49%"><!--<image source="photos/hp-7-4-3.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-7-4-3">
         <description>rectangle</description>
         <latex-image>
         <![CDATA[
@@ -40,16 +36,18 @@
         \node[left] at (0,1.5) {$x$};
         \node[left] at (0,0.25) {$8$};
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer><p><ol marker="a.">
     <li><p><m>x^2+8x+8x+64</m></p></li>
-    <li><p><m>(x+8)^2</m></p></li>
-</ol></p></answer></exercise>
+    <li><p><m>(x+8)^2</m></p></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement>
-    <!--<image source="photos/hp-7-4-4.png"><description>rectangle</description></image>-->
-    <image width="60%" xml:id="hp-7-4-4"><description>rectangle</description><latex-image>
+    <sidebyside width="50%"><!--<image source="photos/hp-7-4-4.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-7-4-4">
+        <description>rectangle</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} 
         \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(2.5,2.5);
@@ -60,8 +58,9 @@
         \node[left] at (0,1.5) {$x$};
         \node[left] at (0,0.25) {$-9$};
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement></exercise>
+    </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>7, compute the product.</p></introduction>
@@ -180,8 +179,10 @@
 <answer><p>No. Let <m>x=1</m>, then <m>(x-1)^2=(-2)^2=4</m>, but <m>x^2-3^2=1-9=-8</m></p></answer></exercise>
 
 <exercise number="42"><statement><p>Use areas to explain why the figure illustrates the product  <m>(a+b)^2 = a^2+2ab+b^2.</m></p>
-<!--<image source="photos/hp-7-4-42.png"><description>rectangles</description></image>-->
-    <image width="75%" xml:id="hp-7-4-42"><description>rectangles</description><latex-image>
+<sidebyside width="65%"><!--<image source="photos/hp-7-4-42.png"><description>rectangles</description></image>-->
+    <image xml:id="hp-7-4-42">
+        <description>rectangles</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} 
         \draw[black, fill=yellow, very thick] (0,1) rectangle (1.5,2.5);
@@ -203,8 +204,9 @@
         \node at ($(O)+(5.15,0)$) {$+$};
         \draw[black,very thick, fill=green] (A)++(4.7,0.25) rectangle ++(1,1);
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement></exercise>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercise number="43"><statement><p>Use evaluation to decide whether the two expressions <m>(a+b)^2</m> and <m>a^2+b^2</m> are equivalent.</p>
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              

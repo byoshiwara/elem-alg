@@ -157,15 +157,15 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>32, decide whether the two expressions are equivalent by completing the table.</p></introduction>
 
-<exercise number="29"><statement><p>Does  <m>~(a+b)^2=a^2+b^2~</m>?</p>
-    <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+<exercise number="29"><statement><p>Does  <m>~(a+b)^2=a^2+b^2~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~a~</m></cell>
-                        <cell><m>~b~</m></cell>
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
                     	<cell><m>a+b</m></cell>
                         <cell><m>(a+b)^2</m></cell>
-                        <cell><m>~a^2~</m></cell>
-                    	<cell><m>~b^2~</m></cell>
+                        <cell><m>a^2</m></cell>
+                    	<cell><m>b^2</m></cell>
                         <cell><m>a^2+b^2</m></cell></row>
                     <row> 
                         <cell><m>2</m></cell>
@@ -199,17 +199,17 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></statement>
+                </tabular></sidebyside></p></statement>
 <answer><p>No</p></answer></exercise>
 
-<exercise number="30"><statement><p>Does  <m>~\sqrt{a^2+b^2}=a+b~</m>?</p>
-    <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+<exercise number="30"><statement><p>Does  <m>~\sqrt{a^2+b^2}=a+b~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~a~</m></cell>
-                        <cell><m>~b~</m></cell>
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
                     	<cell><m>a+b</m></cell>
-                        <cell><m>~a^2~</m></cell>
-                        <cell><m>~b^2~</m></cell>
+                        <cell><m>a^2</m></cell>
+                        <cell><m>b^2</m></cell>
                     	<cell><m>a^2+b^2</m></cell>
                         <cell><m>\sqrt{a^2+b^2}</m></cell></row>
                     <row> 
@@ -244,17 +244,17 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></statement></exercise>
+                </tabular></sidebyside></p></statement></exercise>
 
-<exercise number="31"><statement><p>Does  <m>~\sqrt{a+b}=\sqrt{a}+\sqrt{b}~</m>?</p>
-    <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+<exercise number="31"><statement><p>Does  <m>~\sqrt{a+b}=\sqrt{a}+\sqrt{b}~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~a~</m></cell>
-                        <cell><m>~b~</m></cell>
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
                     	<cell><m>a+b</m></cell>
                         <cell><m>\sqrt{a+b}</m></cell>
-                        <cell><m>~\sqrt{a}</m></cell>
-                    	<cell><m>~\sqrt{b}</m></cell>
+                        <cell><m>\sqrt{a}</m></cell>
+                    	<cell><m>\sqrt{b}</m></cell>
                         <cell><m>\sqrt{a}+\sqrt{b}</m></cell></row>
                     <row> 
                         <cell><m>2</m></cell>
@@ -288,17 +288,17 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></statement>
+                </tabular></sidebyside></p></statement>
 <answer><p>No</p></answer></exercise>
 
-<exercise number="32"><statement><p>Does  <m>(\sqrt{a}+\sqrt{b})^2=a+b~</m>?</p>
-    <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+<exercise number="32"><statement><p>Does  <m>(\sqrt{a}+\sqrt{b})^2=a+b~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>~a~</m></cell>
-                        <cell><m>~b~</m></cell>
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
                     	<cell><m>a+b</m></cell>
-                        <cell><m>~\sqrt{a}</m></cell>
-                        <cell><m>~\sqrt{b}</m></cell>
+                        <cell><m>\sqrt{a}</m></cell>
+                        <cell><m>\sqrt{b}</m></cell>
                     	<cell><m>\sqrt{a}+\sqrt{b}</m></cell>
                         <cell><m>(\sqrt{a}+\sqrt{b})^2</m></cell></row>
                     <row> 
@@ -333,7 +333,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
-                </tabular></statement></exercise>
+                </tabular></sidebyside></p></statement></exercise>
 </exercisegroup>
 
 </exercises>

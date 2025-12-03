@@ -8,7 +8,7 @@
 <idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <assemblage><title>Linear Equation</title>
 <idx><h>linear equation</h></idx>
-    <p>An equation of the form <m>~\blert{y=ax+b}~</m>,  where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</p></assemblage>
+    <p>An equation of the form <m>\blert{y=ax+b}</m>,  where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</p></assemblage>
 
 <p>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</p>
 
@@ -17,8 +17,8 @@
     <li>Graph your equation.</li></ol></p></statement>
 <solution><p><ol marker="a.">
     <li>We set <m>h=0</m> at 6 am.  At that time, <m>T=50</m>.  Because the temperature is rising by <m>4 \degree</m> every hour, we multiply the number of hours by 4 and add the result to 50 to get the new temperature. Thus, our equation is <m>T=50+4h</m>.</li>
-    <li><p>Step 1: We make a table of values for the equation. We choose some values for <m>h</m>, as shown in the first column of the table below. For each value of <m>h</m>, we evaluate the formula for <m>T</m>, and we record these values in the second column of the table.</p>
-        <tabular  halign="center" left="minor">              
+    <li><p>Step 1: We make a table of values for the equation. We choose some values for <m>h</m>, as shown in the first column of the table below. For each value of <m>h</m>, we evaluate the formula for <m>T</m>, and we record these values in the second column of the table.
+    <sidebyside><tabular  halign="center" left="minor">              
         <col top="minor" right="minor"/>
         <col top="minor" right="minor"/>
         <col />
@@ -26,11 +26,11 @@
         <col top="none"  bottom="none"/>
         <col />
         <row>
-            <cell bottom="minor"><m>~h~</m></cell>
-            <cell bottom="minor"><m>~T~</m></cell>
-            <cell><m>\hphantom{00}</m></cell>
+            <cell bottom="minor"><m>h</m></cell>
+            <cell bottom="minor"><m>T</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
             <cell></cell>
-            <cell><m>\hphantom{0}</m></cell>
+            <cell><m>\hphantom{00}</m></cell>
             <cell>Ordered pairs</cell></row>
         <row> 
             <cell bottom="minor"><m>0</m></cell>
@@ -60,11 +60,11 @@
             <cell><m>T=50+5(\alert{0})=50+20=70</m></cell>
             <cell></cell>
             <cell><m>(5,70)</m></cell></row>
-        </tabular>
+        </tabular></sidebyside></p>
     <p>Step 2: We use the values in the table to help us choose scales for the axes. For this graph, the  input values are less than 10, but the largest output value is 70. We use increments of 1 on the horizontal or <m>h</m>-axis and increments of 10 on the vertical or <m>T</m>-axis.</p>
-    <p>Step 3: Each ordered pair gives us a point on the graph. We plot the points on the grid and connect them with a smooth curve. All the points should lie on a straight line.</p>
-    <!--<image source="photos/fig-2-3-ex1.png"><description>graph</description></image>-->
-    <image width="60%" xml:id="fig-2-3-ex1"><description>graph of line</description><latex-image>
+    <p>Step 3: Each ordered pair gives us a point on the graph. We plot the points on the grid and connect them with a smooth curve. All the points should lie on a straight line.
+    <sidebyside width="45%"><!--<image source="photos/fig-2-3-ex1.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-3-ex1"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -81,20 +81,22 @@
         }
         \draw [red, very thick]  (0,5) -- (10,9);
         \node[below left, xshift=1] at (O) {0};
-        \end{tikzpicture}]]></latex-image></image></li>
-</ol></p></solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+    </p></li></ol></p></solution></example>
 
-<exercise number="1"><statement><p>A linear equation has the form <fillin characters="6"/>.</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>A linear equation has the form <fillin characters="6"/>.</p></statement>
     	<answer><m>y=ax+b</m></answer></exercise>
-<exercise number="2"><statement><p>We use <fillin characters="6"/> to help us choose scales for the axes.</p></statement>
+    <exercise number="2"><statement><p>We use <fillin characters="6"/> to help us choose scales for the axes.</p></statement>
     	<answer><p>the values in the table</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Cartesian Coordinate System</title>
 <idx><h>Cartesian coordinate system</h></idx>
 <p>Many graphs include negative values as well as positive values. To make such a graph, we construct a <term>Cartesian coordinate system</term><idx><h>Cartesian coordinate system</h></idx>, named after the French mathematician and philosopher René Descartes.</p>   
 
-<sidebyside widths="50% 50%" valigns="middle middle" margins="0% 0%"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term><idx><h>quadrant</h></idx>, or regions, as shown at right. We often use <m>x</m> for the input variable <idx><h>input</h><h>variable</h></idx> and  <m>y</m> for the output variable<idx><h>output</h><h>variable</h></idx>, so the horizontal axis <idx><h>axis</h>horizontal</idx> is called the <term><m>x</m>-axis</term><idx><em>x</em>-axis</idx> and the vertical axis <idx><h>axis</h>vertical</idx> is the <term><m>y</m>-axis</term><idx><em>y</em>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
+<sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term><idx><h>quadrant</h></idx>, or regions, as shown at right. We often use <m>x</m> for the input variable <idx><h>input</h><h>variable</h></idx> and  <m>y</m> for the output variable<idx><h>output</h><h>variable</h></idx>, so the horizontal axis <idx><h>axis</h>horizontal</idx> is called the <term><m>x</m>-axis</term><idx><em>x</em>-axis</idx> and the vertical axis <idx><h>axis</h>vertical</idx> is the <term><m>y</m>-axis</term><idx><em>y</em>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
  <!--<image source="photos/fig-2-3-1.png"><description>grid</description></image>-->
     <image xml:id="fig-2-3-1"><description>grud: 5 by 5</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -111,16 +113,18 @@
         }
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<exercise number="3"><statement><p>What are the coordinates of the origin?</p></statement>
+ <reading-questions>
+    <exercise number="3"><statement><p>What are the coordinates of the origin?</p></statement>
     	<answer><m>(0,0)</m></answer></exercise>
-<exercise number="4"><statement><p>True or False: The <m>x</m>-coordinate of any point on the <m>y</m>-axis is zero.
+    <exercise number="4"><statement><p>True or False: The <m>x</m>-coordinate of any point on the <m>y</m>-axis is zero.
 </p></statement>
     	<answer><p>True</p></answer></exercise>
+</reading-questions>
 
-<example><statement><p>The figure below shows how to plot points on a Cartesian grid. Points in the upper right quadrant have both coordinates positive. Points with negative <m>x</m>-coordinates are plotted to the left of the <m>x</m>-axis, and points with negative <m>y</m>-coordinates are plotted below the <m>y</m>-axis.</p>
-
+<example><statement><sidebyside widths="50% 45%" valigns="middle middle"><stack><p>The figure at right shows how to plot points on a Cartesian grid. Points in the upper right quadrant have both coordinates positive. Points with negative <m>x</m>-coordinates are plotted to the left of the <m>x</m>-axis, and points with negative <m>y</m>-coordinates are plotted below the <m>y</m>-axis.</p>
+<p> For example, the point <m>(-2,1)</m> is plotted 2 units to the left of the <m>x</m>-axis and 1 unit above the <m>y</m>-axis. In which quadrant are both coordinates negative?</p></stack>
 <!--<image source="photos/fig-2-3-ex2.png"><description>points</description></image>-->
-    <image width="60%" xml:id="fig-2-3-ex2"><description>points on grid</description><latex-image>
+    <image xml:id="fig-2-3-ex2"><description>points on grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -138,14 +142,15 @@
         \filldraw[red] (-4,-3) circle (2.5pt) node[fill=white, text=black, inner sep=2, below right, xshift=1, yshift=-1] {$(-4,-3)$};
         \filldraw[red] (0,-2) circle (2.5pt) node[fill=white, text=black, inner sep=2, below right, xshift=1, yshift=-1] {$(0,-2)$};
         \filldraw[red] (3,-1) circle (2.5pt) node[fill=white, text=black, inner sep=2, below right, xshift=1, yshift=-1] {$(3,-1)$};
-        \end{tikzpicture}]]></latex-image></image>
-<p> For example, the point <m>(-2,1)</m> is plotted 2 units to the left of the <m>x</m>-axis and 1 unit above the <m>y</m>-axis. In which quadrant are both coordinates negative?</p>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 </statement></example>
 
-<exercise number="5"><statement><p>True or False: The notation <m>(5,3)</m> represents two points, one on the <m>x</m>-axis and one on the <m>y</m>-axis.</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>True or False: The notation <m>(5,3)</m> represents two points, one on the <m>x</m>-axis and one on the <m>y</m>-axis.</p></statement>
     	<answer>False</answer></exercise>
-<exercise number="6"><statement><p>True or False: If both coordinates of a point are negative, the point is located in the lower left quadrant.</p></statement>
+    <exercise number="6"><statement><p>True or False: If both coordinates of a point are negative, the point is located in the lower left quadrant.</p></statement>
     	<answer><p>True</p></answer></exercise>
+</reading-questions>
 
 <p>Now we can graph an equation that includes negative values.</p>
 
@@ -154,7 +159,7 @@
     <li><p>Fill in the table and graph your equation. (Negative values of <m>h</m> represent hours before noon.)</p>
         <sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~h~</m></cell>
+                        <cell><m>h</m></cell>
                         <cell><m>-3</m></cell>
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell>
@@ -163,7 +168,7 @@
                         <cell><m>2</m></cell>
                         <cell><m>3</m></cell></row>
                     <row> 
-                        <cell><m>~T~</m></cell>
+                        <cell><m>T</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -179,9 +184,9 @@
 <solution><p><ol marker="a.">
     <li>The temperature at <m>h</m> hours after noon is given by <m>T=-12+2h</m>.</li> 
     <li><p>We evaluate the expression for <m>T</m> at each of the <m>h</m>-values in the table.</p>
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <sidebyside width="70%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~h~</m></cell>
+                        <cell><m>h</m></cell>
                         <cell><m>-3</m></cell>
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell>
@@ -190,7 +195,7 @@
                         <cell><m>2</m></cell>
                         <cell><m>3</m></cell></row>
                     <row> 
-                        <cell><m>~T~</m></cell>
+                        <cell><m>T</m></cell>
                         <cell><m>-18</m></cell>
                         <cell><m>-16</m></cell>
                         <cell><m>-14</m></cell>
@@ -198,10 +203,9 @@
                         <cell><m>-10</m></cell>
                         <cell><m>-8</m></cell>
                         <cell><m>-6</m></cell></row>
-                    </tabular>
-        <p>Now we can plot the points and draw a line through them.</p>
-            <!--<image source="photos/fig-2-3-ex3.png"><description>graph</description></image>-->
-    <image width="60%" xml:id="fig-2-3-ex3"><description>graph of line</description><latex-image>
+                    </tabular></sidebyside>
+            <sidebyside width="50%"><!--<image source="photos/fig-2-3-ex3.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-3-ex3"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -218,16 +222,15 @@
         \draw [red, very thick]  (-9,-30) -- (10,8);
         \filldraw[blue] (-8,-28) ellipse (.35cm and .7cm);
         \filldraw[blue] (4,-4) ellipse (.35cm and .7cm);
-        \end{tikzpicture}]]></latex-image></image></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>    </li>
     <li>We find the point on the graph with <m>h</m>-coordinate <m>-8</m>. Its <m>T</m>-coordinate is <m>-28</m>, so the temperature was <m>-28 \degree</m>F.</li>
-    <li>We find the point on the graph with <m>T</m>-coordinate <m>-4</m>. Its <m>h</m>-coordinate is 4, so it will be <m>-4 \degree</m>F at 4 pm.</li>
-</ol></p></solution></example>
+    <li>We find the point on the graph with <m>T</m>-coordinate <m>-4</m>. Its <m>h</m>-coordinate is 4, so it will be <m>-4 \degree</m>F at 4 pm.</li></ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>We can also answer parts (c) and (d) of <xref ref="Example-2-3-3" text="type-global"/> using algebra.<ul>
     <li> For part (c), we evaluate the expression for <m>T</m>, namely <m>-12+2h</m>, at <m>h=-8</m>.</li>
     <li> For part (d), we solve the equation <m>T=-12+2h</m> with <m>T=-4</m>.</li></ul>
- Both methods, graphical and algebraic, are useful in different situations.</p></assemblage>
+ Make sure that you understand both methods, graphical and algebraic.</p></assemblage>
 
 <assemblage><title>Graphing Tip #1</title>
 <p>If the <term>coefficient</term> of <m>x</m> (the number multiplying <m>x</m>) is a fraction, we can make our work easier by choosing multiples of the denominator for the <m>x</m>-values. That way we won't have to work with fractions to find the <m>y</m>-values. In the Example below, the coefficient of <m>x</m> is <m>\dfrac{-2}{3}</m>, so we choose multiples of 3 for the <m>x</m>-values.</p></assemblage>
@@ -238,11 +241,11 @@
 
 <solution><p> <ol marker="a.">
     <li><p>We choose <m>x</m>-values that are multiples of 3 and make a table of values.</p>
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <sidebyside width="40%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell>
-                        <cell><m>Calculation</m></cell></row>
+                        <cell><m>\hphantom{0000}</m></cell></row>
                     <row>
                         <cell><m>-9</m></cell>
                         <cell><m>2</m></cell>
@@ -263,10 +266,10 @@
                         <cell><m>6</m></cell>
                         <cell><m>-8</m></cell>
                         <cell><m>y=\dfrac{-2}{3}(\alert{6})-4=-8</m></cell></row>
-                    </tabular>
+                    </tabular></sidebyside>
         <p>Then we plot the points and connect them with a straight line.</p>
-        <!--<image source="photos/fig-2-3-ex4a.png"><description>graph</description></image>-->
-    <image width="60%" xml:id="fig-2-3-ex4a"><description>graph of line</description><latex-image>
+        <sidebyside width="50%"><!--<image source="photos/fig-2-3-ex4a.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-3-ex4a"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -281,10 +284,10 @@
          \draw[black,thick] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
         }
         \draw [red, very thick]  (-10,8/3) -- (9,-10);
-        \end{tikzpicture}]]></latex-image></image></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>    </li>
     <li><p>We see that <m>y</m> has been replaced by <m>-2</m> in the equation of the graph. So we look for the point on the graph that has <m>y</m>-coordinate <m>-2</m>. This point, labeled <m>P</m> on the graph below, has <m>x</m>-coordinate <m>-3</m>.</p> 
-        <!--<image source="photos/fig-2-3-ex4b.png"><description>graph</description></image>-->
-    <image width="60%" xml:id="fig-2-3-ex4b"><description>point on graph of line</description><latex-image>
+        <sidebyside width="50%"><!--<image source="photos/fig-2-3-ex4b.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-3-ex4b"><description>point on graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -304,16 +307,18 @@
          \draw[darkgray,very thick, ->, >=stealth'] (\x,-2)--++(-1.1,0);
         \draw[darkgray,very thick, ->, >=stealth'] (-3,-1.5)--++(0,1.1);
         \filldraw[blue]  (P) circle (2mm) node[below left, xshift=-2, yshift=-2, text=black, fill=white, inner sep=2] {$P$};
-        \end{tikzpicture}]]></latex-image></image>
-    <p>Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>.  To check our solution algebraically, we substitute <m>x=\blert{-3}</m> and <m>y=\alert{-2}</m> into the equation, we get a true statement: 
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+    <p>Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>.  When we substitute <m>x=\blert{-3}</m> and <m>y=\alert{-2}</m> into the equation, we get a true statement: 
         <me>\alert{-2}=\dfrac{-2}{3}(\blert{-3})-4</me>
-    And this statement also tells us that <m>-3</m> is a solution of the equation <m>~\dfrac{-2}{3}x-4=-2</m>.</p></li></ol></p></solution></example> 
+    But this statement also tells us that <m>-3</m> is a solution of the equation <m>~\dfrac{-2}{3}x-4=-2</m>.</p></li></ol></p></solution></example> 
 
-<exercise number="7"><statement><p>What is the first step in graphing an equation?</p></statement>
+<reading-questions>
+    <exercise number="7"><statement><p>What is the first step in graphing an equation?</p></statement>
     	<answer><p>Make a table of values</p></answer></exercise>
-<exercise number="8"><statement><p>Which <m>x</m>-values would you choose to graph <m>y=\dfrac{5}{4}x-3</m> ?
+    <exercise number="8"><statement><p>Which <m>x</m>-values would you choose to graph <m>y=\dfrac{5}{4}x-3</m> ?
 </p></statement>
     	<answer><p>Multiples of 4</p></answer></exercise>
+</reading-questions>
 
 <assemblage><title>Graphing Tip #2</title>
 <p>When you graph a linear equation, you should extend the line far enough in both directions so that it will cross both the <m>x</m>-axis and the <m>y</m>-axis. The points where the graph crosses the axes are important for applications.</p></assemblage>
@@ -322,13 +327,15 @@
 <p>The graph of an equation is a picture of the solutions of the equation. Each point on the graph represents a solution.  If a point lies on the graph, its coordinates make the equation true.</p></assemblage>  
 </subsection>
 
-<theorem>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.</p>
         <assemblage><p>
-            <md><mrow>\amp 2t+12 \amp \amp 12-2t</mrow>
-            <mrow> \amp 2(t+12) \amp \amp 2t-12</mrow></md></p></assemblage>
-</introduction>
+        <ul cols="2"><li><m>2t+12</m></li>
+        <li><m>12-2t</m></li>
+        <li><m>2(t+12)</m></li>
+        <li><m>2t-12</m></li></ul>
+</p></assemblage></introduction>
 
 <exercise number="1"><statement><p>Janine's history book has 12 chapters. If she studies 2 chapters a week, how many chapters will she have left after <m>t</m> weeks?</p></statement></exercise>
 
@@ -346,11 +353,11 @@
     <li><m>2t-12</m></li>
     <li><m>2(t+12)</m></li></ol></p>
 </subsubsection>
-</theorem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Graphing Equations</title>
+<subsubsection><title>Activity 1: Graphing Equations</title>
 
 <p>Jasmine's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses.<ol marker="a.">
     <li>Write an equation for Jasmine's electric bill, <m>E</m>, if she uses <m>h</m> kWh of electricity.</li>
@@ -373,7 +380,9 @@
                     </tabular><p></p>
         <p><m>\blert{\text{Plot the points and draw the graph.}}</m></p></stack>
         <!--<image source="photos/act-2-3-1.png"><description>grid</description></image>-->
-        <image xml:id="ct-2-3-1"><description>grid</description><latex-image>
+        <image xml:id="ct-2-3-1">
+                <description>grid</description>
+                <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -388,15 +397,17 @@
                  \draw[black,thick] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
                 }
                 \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
-            </ol></p>
-</activity>
+                </latex-image>
+        </image>
 
-<activity><title>Cartesian Coordinate System</title>
+        </sidebyside></li></ol></p>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Cartesian Coordinate System</title>
 <exercises>
 
 <exercise><statement><p>Give the coordinates of each point shown in the figure below.</p>
-    <sidebyside widths="40% 45%" margins="0% 10%"><p><ul>
+    <sidebyside widths="40% 35%" margins="0% 20%"><p><ul>
         <li><m>A~~</m> <fillin characters="12"/></li> 
         <li><m>B~~</m> <fillin characters="12"/></li>
         <li><m>C~~</m> <fillin characters="12"/></li>
@@ -404,7 +415,9 @@
         <li><m>E~~</m> <fillin characters="12"/></li>
         <li><m>F~~</m> <fillin characters="12"/></li></ul></p>
     <!--<image source="photos/act-2-3-2.png"><description>grid</description></image>-->
-    <image xml:id="act-2-3-2"><description>grid with points</description><latex-image>
+    <image xml:id="act-2-3-2">
+            <description>grid with points</description>
+            <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -424,7 +437,10 @@
             \filldraw[red] (1,-3) circle (2.5pt) node[fill=white, text=black, inner sep=1, below right, xshift=1, yshift=-2] {$E$};
             \filldraw[red] (-2,-1) circle (2.5pt) node[fill=white, text=black, inner sep=1, below right, xshift=1, yshift=-2] {$F$};
             \end{tikzpicture}]]>
-            </latex-image></image></sidebyside>
+            </latex-image>
+    </image>
+
+    </sidebyside>
 </statement></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~y=-2x+6</m>.</p>
@@ -459,7 +475,9 @@
                     </tabular></p></li> 
     <li>Plot the points and connect them with a straight line.</li></ol></p></stack>
     <!--<image source="photos/act-2-3-3.png"><description>grid</description></image>-->
-    <image xml:id="act-2-3-3"><description>tall grid</description><latex-image>
+    <image xml:id="act-2-3-3">
+        <description>tall grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -477,18 +495,20 @@
          \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
+        </latex-image>
+</image>
+
+    </sidebyside>
 </statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Using a Graph</title>
+<subsubsection><title>Activity 3: Using a Graph</title>
 <exercises>
 
 <exercise><statement><p>Use the graph in Activity 2 to answer parts (a) and (b). Label the point on the graph that gives the answer.<ol marker="a.">
     <li>Evaluate the expression  <m>~-2x+6~</m> for <m>x=-5</m>.</li> 
-    <li>Solve the equation  <m>~-2x+6=10</m></li>
-</ol></p></statement></exercise>
+    <li>Solve the equation  <m>~-2x+6=10</m></li></ol></p></statement></exercise>
 
 <exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month.<ol marker="a.">  
     <li>Write an equation for Francine's financial status, <m>F</m>, in terms of <m>m</m>, months from now.</li>
@@ -514,8 +534,11 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
     <li><p>Graph your equation, using the values in the table.</p>
+        <sidebyside width="60%">
             <!--<image source="photos/act-2-3-4.png"><description>grid</description></image>-->
-        <image width="70%" xml:id="act-2-3-4"><description>grid</description><latex-image>
+            <image xml:id="act-2-3-4">
+        <description>grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -532,13 +555,14 @@
          \draw[cyan, very thick] (-5,\y) --++(20,0);
          \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
         }        \end{tikzpicture}]]>
-        </latex-image></image>
+        </latex-image>
+</image>
+        </sidebyside>
         <p>Use your graph to answer the questions below, and label the point on the graph that gives the answer.</p></li>
     <li>What will Francine's financial status be 7 months from now?</li>
-    <li>When was Francine's financial status <m>-</m>$900?</li>
-</ol></p></statement></exercise>
+    <li>When was Francine's financial status <m>-</m>$900?</li></ol></p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -557,13 +581,13 @@
 </subsubsection>
 </subsection>    
 
-<subsection><algorithm>
+<subsection><title>Homework Preview</title>
 
 <exercises>
 <exercisegroup cols="2"><introduction><p>Complete the table of values and graph the equation.</p></introduction>
 
 <exercise><statement><p><m>y=4-2x</m></p>
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside width="70%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-3</m></cell>
@@ -576,12 +600,14 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular>
-        <image width="100%" source="photos/stangrid10"><description>grid</description></image>
+                    </tabular></sidebyside>
+    <sidebyside width="80%">
+        <image source="photos/stangrid10"><description>grid</description></image>
+    </sidebyside>
 </statement></exercise>
 
 <exercise><statement><p><m>y=-6+3x</m></p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -594,12 +620,12 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular>
-    <image width="100%" source="photos/stangrid10"><description>grid</description></image>
+                    </tabular></sidebyside>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
 <exercise><statement><p><m>y=-2+\dfrac{4}{3}x</m></p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-3</m></cell>
@@ -612,12 +638,12 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular>
-    <image width="100%" source="photos/stangrid10"><description>grid</description></image>
+                    </tabular></sidebyside>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
 <exercise><statement><p><m>y=2-\dfrac{3}{4}x</m></p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside width="90%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-8</m></cell>
@@ -630,15 +656,16 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular>
-    <image width="100%" source="photos/stangrid10"><description>grid</description></image>
+                    </tabular></sidebyside>
+    <sidebyside width="80%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 </exercises>
 
 <subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
-    <li><!--<image source="photos/pre-2-3-2.png"><description>graph</description></image>-->
-        <image width="80%" xml:id="pre-2-3-2">
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-2.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-2">
                 <description>grid and line</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -657,9 +684,12 @@
                 }
                 \draw[red,thick, <->, >=stealth'] (-3,10)--(7,-10);
                 \end{tikzpicture}]]>
-                </latex-image></image></li>
-    <li><!--<image source="photos/pre-2-3-3.png"><description>graph</description></image>-->
-        <image width="80%" xml:id="pre-2-3-3">
+                </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-3.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-3">
                 <description>grid and line</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -678,9 +708,12 @@
                 }
                 \draw[red,thick, <->, >=stealth'] (-4/3,-10)--(16/3,10);
                 \end{tikzpicture}]]>
-                </latex-image></image></li>
-    <li><!--<image source="photos/pre-2-3-4.png"><description>graph</description></image>-->
-        <image width="80%" xml:id="pre-2-3-4">
+                </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-4.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-4">
                 <description>grid and line</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -699,9 +732,12 @@
                 }
                 \draw[red,thick, <->, >=stealth'] (-6,-10)--(9,10);
                 \end{tikzpicture}]]>
-                </latex-image></image></li>
-    <li><!--<image source="photos/pre-2-3-5.png"><description>graph</description></image>-->
-        <image width="80%"  xml:id="pre-2-3-5">
+                </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%">
+        <!--<image source="photos/pre-2-3-5.png"><description>graph</description></image>-->
+        <image xml:id="pre-2-3-5">
                 <description>grid and line</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -720,9 +756,9 @@
                 }
                 \draw[red,thick, <->, >=stealth'] (-10,19/2)--(10,-11/2);
                 \end{tikzpicture}]]>
-                </latex-image></image></li>
-</ol></p></subsubsection>
-</algorithm>
+                </latex-image>
+        </image>
+    </sidebyside></li></ol></p></subsubsection>
 </subsection>
 
 <xi:include href="./hmwk-2-3.xml" />

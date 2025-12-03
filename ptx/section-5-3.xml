@@ -15,11 +15,11 @@
 	<li><term>Volume</term> is the amount of space contained within a three-dimensional object. It is measured in cubic units, such as cubic feet or cubic centimeters.</li>  
 	<li><term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid. It is measured in square units.</li></ul></p></assemblage>
 
-<p>We saw that the area of a square whose side has length <m>s</m> units is given by <m>A=s^2</m> square units, and the volume of a cube of side <m>s</m> units is gven by <m>V=s^3</m> cubic units.  Many other useful formulas involve exponents.</p>
-<p>The figure below shows several solid objects, along with formulas for their volumes and surface areas.</p>
+<p>We saw that the area of a square whose side has length <m>s</m> units is given by <m>A=s^2</m> square units, and the volume of a cube of side <m>s</m> units is gven by <m>V=s^3</m> cubic units.  Many other useful formulas involve exponents. The figure below shows several solid objects, along with formulas for their volumes and surface areas.</p>
 
-
-<image width="100%" source="photos/fig-5-3-1"><description>solids</description></image>	<idx><h>volume</h><h>formulas</h></idx><idx><h>surface area</h><h>formulas</h></idx>
+<sidebyside width="95%">
+	<image source="photos/fig-5-3-1"><description>solids</description></image>	<idx><h>volume</h><h>formulas</h></idx><idx><h>surface area</h><h>formulas</h></idx>
+</sidebyside>  
 
 <example><statement><p>At the Red Deer Pub and Microbrewery there is a spherical copper tank in which beer is brewed. If the tank is 4 feet in diameter, how much beer does it hold?</p></statement>
 
@@ -29,10 +29,12 @@
 		<mrow> \amp=33.51 \ldots</mrow></md>
 The tank holds approximately 33.5 cubic feet of beer, or about 251 gallons.</p></solution></example>
 
-<exercise number="1"><statement><p>What are the units of volume?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What are the units of volume?</p></statement>
     	<answer><p>Cubic units</p></answer></exercise>
-<exercise number="2"><statement><p>What are the units of surface area?</p></statement>
+    <exercise number="2"><statement><p>What are the units of surface area?</p></statement>
     	<answer><p>Square units</p></answer></exercise>
+ </reading-questions>
 
  <assemblage><title>Look Closer</title>
  <p>What does it mean for the volume of a round tank to be measured in "cubic" units?  If we pour all the beer in the tank into a rectangular box, that box will hold 33 and a half cubes that measure 1 foot on each side.</p></assemblage>
@@ -60,8 +62,10 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 
 <p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term><idx><h>quadratic equation</h></idx>, and we shall see more about them later.</p>
 
-<exercise number="3"><statement><p>What operation is the opposite of squaring a number?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What operation is the opposite of squaring a number?</p></statement>
     	<answer><p>Taking a squre root</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Pythagorean Theorem</title>
@@ -73,7 +77,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 
 <assemblage><title>Pythagorean Theorem</title>
 <idx><h>Pythagorean Theorem</h></idx>
-<sidebyside widths="60% 25%" ><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
+<sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
 <me>a^2 + b^2 = c^2</me></p><!--                  
 <image source="photos/fig-5-3-2.png"><description>triangle</description></image>-->
     <image xml:id="fig-5-3-2"><description>right triangle</description><latex-image>
@@ -91,9 +95,11 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 
 <example><statement><p>The length of a rectangle is 17 centimeters and its diagonal is 20 centimeters long. What is the width of the rectangle?</p></statement>
 
-<solution><sidebyside widths="60% 30%" valigns="top top" margins="0% 0%"><p>The diagonal of the rectangle is the hypotenuse of a right triangle, as shown in the figure. We are looking for the width of the rectangle, which forms one of the legs of the right triangle. </p>
+<solution><sidebyside widths="60% 25%" valigns="middle middle" margins="0% 5%"><p>The diagonal of the rectangle is the hypotenuse of a right triangle, as shown in the figure. We are looking for the width of the rectangle, which forms one of the legs of the right triangle. We use the Pythagorean Theorem.</p>
 <!--<image source="photos/fig-5-3-ex3.png"><description>rectangle</description></image>-->
-<image xml:id="fig-5-3-ex3"><description>rectangle with diagonal</description><latex-image>
+<image xml:id="fig-5-3-ex3">
+        <description>rectangle with diagonal</description>
+        <latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.2]
 		\def\w{ 11.53 };
@@ -103,25 +109,28 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 		\node[above, yshift=-3] at (17/2,12) {17 cm};
 		\draw[darkgray, dashed, very thick] (0,0)--(17,\w) node[above, midway, rotate=atan(\w/17)]{20 cm};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-	<p>We use the Pythagorean Theorem.
-		<md><mrow>a^2 + b^2 \amp = c^2 \amp \amp \blert{\text{Substitute 20 for} ~c~ \text{and 17 for} ~b.}</mrow>
-		<mrow>a^2 + (\alert{17})^2 \amp = (\alert{20})^2 </mrow></md></p>
+        </latex-image>
+</image>
+</sidebyside>
+	<md><mrow>a^2 + b^2 \amp = c^2 \amp \amp \blert{\text{Substitute 20 for} ~c~ \text{and 17 for} ~b.}</mrow>
+		<mrow>a^2 + (\alert{17})^2 \amp = (\alert{20})^2 </mrow></md>
 <p>We compute the powers, then solve for <m>a</m>.
 	<md><mrow>a^2 + 289 \amp = 400 \amp \amp \blert{\text{Subtract 289 from both sides.}}</mrow>
 		<mrow>a^2 \amp = 111 \amp \amp \blert{\text{Take square roots.}}</mrow>
 		<mrow>a \amp = \pm \sqrt{111}</mrow></md>
 We use a calculator to evaluate the square root and find that the width of the rectangle is approximately 10.536 centimeters.</p></solution></example> 
 
-<exercise number="4"><statement><p>What is a right triangle, and what is the hypotenuse?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>What is a right triangle, and what is the hypotenuse?</p></statement>
     	<answer><p>A triangle in which one of the angles is a right angle; the longest side</p></answer></exercise>
-<exercise number="5"><statement><p>What do we use the Pythagorean theorem for?</p></statement>
+    <exercise number="5"><statement><p>What do we use the Pythagorean theorem for?</p></statement>
     	<answer><p>To find a side of a right triangle</p></answer></exercise>
+ </reading-questions>
 </subsection>
 
 <subsection><title>Solving for One Variable</title>
 <idx><h>formula</h><h>solving for one variable</h></idx>
-<p>In the formula in <xref ref="Example-5-3-4" text="type-global"/> below, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
+<p>In the formula in <xref ref="Example-5-3-4" text="type-global"/>, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
 
 <example xml:id="Example-5-3-4"><statement><p>If a principal of <m>P</m> dollars is invested at interest rate <m>r</m>, the formula 
 	<me>A = P + Prt</me>   
@@ -136,7 +145,7 @@ However, the answer to the question in the problem is not 6.15 years! Because in
 
 <warning><p>To simplify the right side of the equation
 	<me>7000 = 5000 + 5000(0.065)t</me>
-it is <m>\alert{\text{not correct}}</m> to add the two 5000's and write <m>7000 = 10,000(0.065)t</m>.  Remember that multiplication comes before addition in the order of operations.</p></warning>
+it is not correct to add the two 5000's and write <m>7000 = 10,000(0.065)t</m>.  Remember that multiplication comes before addition in the order of operations.</p></warning>
 
 <p>If we plan to use a formula more than once with different values for the variables, it may be faster in the long run to solve for one of the variables in terms of the others. We have already done something like this when we put a linear equation into slope-intercept form:  in that situation we solved for <m>y</m> in terms of <m>x</m>.</p>
 
@@ -145,7 +154,7 @@ it is <m>\alert{\text{not correct}}</m> to add the two 5000's and write <m>7000 
 
 <solution><p>For this problem, we treat <m>t</m> as the unknown and treat all the other variables as if they were constants. We begin by isolating the term containing <m>t</m> on one side of the equation.
 	<md><mrow>A \amp = P+Prt \amp \amp \blert{\text{Subtract} ~P~ \text{from both sides.}}</mrow>
-		<mrow>A-P \amp = Prt \amp \amp \blert{\text{Divide both sides by}~Pr.}</mrow>
+		<mrow>A-P \amp = Prt \amp \amp \blert{\text{Divide bothe sides by}~Pr.}</mrow>
 		<mrow>\dfrac{A-P}{Pr} \amp = \dfrac{Prt}{Pr}</mrow>
 		<mrow>\dfrac{A-P}{Pr} \amp = t</mrow></md>
 We now have a new formula for <m>t</m> in terms of the other variables.</p></solution></example>
@@ -153,7 +162,7 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <warning><p>In the expression <m>P+Prt</m> in <xref ref="Example-5-3-5" text="type-global"/>, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
 </subsection>
 
-<subsection><theorem>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Follow the order of operations to simplify.</p></introduction>
 
@@ -179,8 +188,8 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 
 <exercise number="11"><statement><m>\dfrac{3^3-3}{(3-5)^3}-\dfrac{2(-2)^2-8}{-2^2(8-2^2)}</m></statement></exercise>
 
-<exercise number="12"><statement><m>3 \cdot \dfrac{5^3-(-10)^2}{3^2-3(5)} \cdot \dfrac{2^5+4}{3^2-2^2}</m>
-</statement></exercise>
+<exercise number="12"><statement><m>3 \cdot \dfrac{5^3-(-10)^2}{3^2-3(5)} \cdot \dfrac{2^5+4}{3^2-2^2}</m></statement>
+</exercise>
 </exercisegroup>
 </exercises>
 
@@ -198,24 +207,22 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
     <li><m>\dfrac{5}{4}</m></li>
 	<li><m>\dfrac{-9}{2}</m></li>
 	<li><m>-90</m></li></ol></p>
-</subsubsection></theorem>
+</subsubsection>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Volume and Surface Area</title>
+<subsubsection><title>Activity 1: Volume and Surface Area</title>
 <exercises>
 <exercisegroup><introduction><p>Illustrate each problem with a sketch.</p></introduction>
 
 <exercise><statement><p><ol marker="a.">
 	<li>Find the area of a square that measures 8 inches on a side.</li>
-	<li>Find the volume of a cube whose base is the square in part (a).</li>
-</ol></p></statement></exercise>	
+	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p></statement></exercise>	
 
 <exercise><statement><p><ol marker="a.">
 	<li>Find the area of a square that measures 0.1 meter on a side.</li>
-	<li>Find the volume of a cube whose base is the square in part (a).</li>
-</ol></p></statement></exercise>
+	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p></statement></exercise>
 
 <exercise><statement><p>How many one-centimeter cubes will fit inside a box that measures 16 centimeters by 20 
 centimeters by 8 centimeters?</p></statement></exercise>
@@ -226,20 +233,18 @@ deep?</p></statement></exercise>
 <exercise><statement><p>The side of a cube is 20 centimeters long.<ol marker="a.">
 	<li>Find the area of one face of the cube.</li>
 	<li>How many faces does the cube have? Find the total surface area (the sum of the areas of all the faces) of the cube.</li>
-	<li>Find the volume of the cube.</li>
-</ol></p></statement></exercise>
+	<li>Find the volume of the cube.</li></ol></p></statement></exercise>
 
 <exercise><statement><p><ol marker="a.">
 	<li>How many square feet are in a square yard?</li>
 	<li>How many square inches are in a square foot?</li>
 	<li>How many cubic feet are in a cubic yard?</li>
-	<li>How many cubic inches are in a cubic foot?</li>
-</ol></p></statement></exercise>
+	<li>How many cubic inches are in a cubic foot?</li></ol></p></statement></exercise>
 </exercisegroup>
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Pythagorean Theorem</title>
+<subsubsection><title>Activity 2: Pythagorean Theorem</title>
 <exercises>
 
 <exercise><statement><p>The two short sides of a right triangle are 9 meters and 40 meters.<ol marker="a.">
@@ -250,15 +255,16 @@ deep?</p></statement></exercise>
 	<li>Sketch and label a figure.</li>
 	<li>How far is it from first base to third base (which are on opposite corners of the square)?</li></ol></p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Formulas</title>
+<subsubsection><title>Activity 3: Formulas</title>
 <exercises>
 
 <exercise><statement><p><ol marker="a.">
-	<li><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
-		<p>The box at right has length <m>l</m>, and its width and height are both <m>w</m>. The box has 6 sides. Write expressions for the area of each face of the box.</p>
-	<image xml:id="act-5-3-3-1"><description>box</description><latex-image>
+	<li><sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle"><p>The box at right has length <m>l</m>, and its width and height are both <m>w</m>. The box has 6 sides. Write expressions for the area of each face of the box.</p>
+	<image xml:id="act-5-3-3-1">
+	        <description>box</description>
+	        <latex-image>
 	        <![CDATA[
 	        \begin{tikzpicture} [scale=.8]
 			\def\w{2 };
@@ -269,7 +275,9 @@ deep?</p></statement></exercise>
 			\draw[magenta!80!black,very thick] (0,\w)--++(\d,\d)--++(\l,0)--++(0,-\w) node[right, midway, text=black]{$w$} -- (\l,0) node[right, midway, text=black, xshift=1, yshift=-2]{$w$};
 			\node at (\l/2,-.5){$l$};
 	        \end{tikzpicture}]]>
-	        </latex-image></image></sidebyside>
+	        </latex-image>
+	</image>
+	</sidebyside>
 	<p><m>\blert{\text{Top:}}</m></p>
 	<p><m>\blert{\text{Bottom:}}</m></p>
 	<p><m>\blert{\text{Front:}}</m></p>
@@ -278,14 +286,13 @@ deep?</p></statement></exercise>
 	<p><m>\blert{\text{Right end:}}</m></p></li>
 	<li>Add the six areas together to get a formula for the surface area of the box.
 		<me>S=\hphantom{000000000000000000000000000000000000000}</me></li>
-	<li>Francine would like to wrap a package that is 4 feet long and whose width and height are both 1.5 feet. She has 24 square feet of wrapping paper. Is that enough paper?</li>
-</ol></p></statement></exercise>
+	<li>Francine would like to wrap a package that is 4 feet long and whose width and height are both 1.5 feet. She has 24 square feet of wrapping paper. Is that enough paper?</li></ol></p></statement></exercise>
 
 <exercise><statement><p>Delbert would like to build a box whose width and height are both 1.5 feet, and whose surface area is no more than 24 square feet. What is the longest box that Delbert can build? (Use the formula you found in Problem 1.)</p></statement></exercise>
 
 <exercise><statement><p>Solve the formula <m>~~S=2w^2+4lw~~</m> for <m>l</m>.</p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -304,7 +311,7 @@ deep?</p></statement></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><algorithm>
+<subsection><title>Homework Preview</title>
 
 <exercises>
 <exercise><statement><p>Find the volume of a spherical bubble with diameter 5 cm.</p></statement></exercise>
@@ -321,9 +328,7 @@ deep?</p></statement></exercise>
 	<li>65.45 cm<m>^3</m></li>
 	<li>1.5 ft</li>
 	<li>4.12 mi</li>
-	<li><m>h=\dfrac{V-\pi r^3}{\pi r^2}</m></li>
-</ol></p>
-</subsubsection></algorithm>
+	<li><m>h=\dfrac{V-\pi r^3}{\pi r^2}</m></li></ol></p></subsubsection>
 </subsection>
 
 <xi:include href="./hmwk-5-3.xml" />

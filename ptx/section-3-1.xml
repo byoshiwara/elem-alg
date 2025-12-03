@@ -60,10 +60,12 @@ The <m>x</m>-intercept is <m>(-8,0)</m>, as expected.</p></solution></example>
 	<li><p>To find the <m>y</m>-intercept of a graph:</p>
 	<p>Substitute <m>0</m> for <m>x</m> in the equation and solve for <m>y</m>.</p></li></ul></p></assemblage>
 
-<exercise number="1"><statement><p>What are the intercepts of a line?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What are the intercepts of a line?</p></statement>
     	<answer>The points where the graph crosses the axes.</answer></exercise>
-<exercise number="2"><statement><p>How do we find the <m>x</m>-intercept of the graph of an equation?</p></statement>
+    <exercise number="2"><statement><p>How do we find the <m>x</m>-intercept of the graph of an equation?</p></statement>
     	<answer><p>Substitute <m>0</m> for <m>y</m> in the equation and solve for <m>x</m>.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>The Intercept Method of Graphing</title>
@@ -146,9 +148,10 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 	<li>Find a third point on the graph as a check. (Choose any convenient value for <m>x</m> and solve for <m>y</m>.)</li>
 </ol></p></assemblage>
 
-<exercise number="3"><statement><p>How do we graph a line by the intercept method?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>How do we graph a line by the intercept method?</p></statement>
     	<answer><p>Draw a line through the two intercepts.</p></answer></exercise>
-<exercise number="4"><statement><p>Make a table that you can use with the intercept method.</p></statement>
+    <exercise number="4"><statement><p>Make a table that you can use with the intercept method.</p></statement>
     	<answer><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -160,8 +163,9 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
                     	<cell><m>\hphantom{0000}</m></cell> 
                         <cell><m>0</m></cell></row>
                     </tabular></answer></exercise>
-<exercise number="5"><statement><p>What is the <m>y</m>-intercept of the line <m>3x+2y=7</m>?</p></statement>
+    <exercise number="5"><statement><p>What is the <m>y</m>-intercept of the line <m>3x+2y=7</m>?</p></statement>
     	<answer><m>\left(0,3\dfrac{1}{2}\right)</m></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Interpreting the Intercepts</title>
@@ -176,10 +180,9 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 <solution><p><ol marker="a.">
 	<li><p>An equation for the temperature is
 		<me>T=-12+2h</me>
-		A graph of the equation is shown below. </p>
-
-		<!--<image source="photos/fig-3-1-ex3.png"><description>graph</description></image>-->
-    <image width="55%" xml:id="fig-3-1-ex3"><description>graph: line and intercepts</description><latex-image>
+		A graph of the equation is shown below. 
+		<sidebyside width="45%"><!--<image source="photos/fig-3-1-ex3.png"><description>graph</description></image>-->
+    <image xml:id="fig-3-1-ex3"><description>graph: line and intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -199,7 +202,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
         \draw[red, ultra thick, <->, >=stealth'] (-2,-8)--(10,4);
         \filldraw[red!80!black] (6,0) circle (2mm);
         \filldraw[red!80!black] (0,-6) circle (2mm);
-        \end{tikzpicture}]]></latex-image></image></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></p></li>
 	<li><p>To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for<m>T</m>.
 			<me>T=-12 + 2(\alert{0})=-12</me>
 		The <m>T</m>-intercept is <m>(0,-12)</m>. This point tells us that when <m>h=0,~ T=-12</m>, or the temperature at noon was <m>-12 \degree</m>.</p>
@@ -209,13 +212,15 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
                 <mrow>6 \amp = h</mrow></md>   
         The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6,~T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></li></ol></p></solution></example>
 
-<exercise number="6"><statement><p>The intercepts of a graph often represent the <fillin characters="6"/> or <fillin characters="6"/> values for a particular variable.</p></statement>
+<reading-questions>
+    <exercise number="6"><statement><p>The intercepts of a graph often represent the <fillin characters="6"/> or <fillin characters="6"/> values for a particular variable.</p></statement>
     	<answer><p>starting, ending</p></answer></exercise>
-<exercise number="7"><statement><p>What does the <m>h</m>-intercept tell us in <xref ref="example-3-1-3" text="type-global"/>?</p></statement>
+    <exercise number="7"><statement><p>What does the <m>h</m>-intercept tell us in <xref ref="example-3-1-3" text="type-global"/>?</p></statement>
     	<answer><p>The temperature will reach zero degrees at 6 pm.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
-<theorem>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.</p>
 <assemblage><p>
@@ -230,9 +235,11 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 
 <exercise number="3"><statement><p>To buy new equipment, the five members of the chess club used $30 from the treasury, and each member donated $8. How much did the equipment cost?</p></statement></exercise>
 
-<exercise number="4"><statement><p>Hemman bought 5 tapes on sale, and he cashed in a gift certificate for $8. He then owed the clerk $30. How much was each tape?</p></statement></exercise>
+<exercise number="4"><statement><p>Hemman bought 5 tapes on sale, and he cashed in a gift certificate for $8. He then 
+	owed the clerk $30. How much was each tape?</p></statement></exercise>
 
-<exercise number="5"><statement><p>Nirusha and four other people won the office baseball pool. After spending $30 of her share, Nirusha had $8 left. What was the total amount in the pool?</p></statement></exercise>
+<exercise number="5"><statement><p>Nirusha and four other people won the office baseball pool. After spending $30 of 
+	her share, Nirusha had $8 left. What was the total amount in the pool?</p></statement></exercise>
 </exercisegroup>
 </exercises>
 
@@ -242,13 +249,12 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
     <li><m>5x+8=30</m></li>
     <li><m>\dfrac{x-30}{5}=8</m></li>
     <li><m>5x-8=30</m></li>
-    <li><m>\dfrac{x}{5}-30=8</m></li></ol></p>
-</subsubsection>
-</theorem>
+    <li><m>\dfrac{x}{5}-30=8</m></li></ol></p></subsubsection>
+</subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Intercept Method of Graphing</title>
+<subsubsection><title>Activity 1: Intercept Method of Graphing</title>
 
 <exercises>
 <exercise><statement><sidebyside widths="55% 45%" valigns="middle middle">
@@ -289,19 +295,17 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
     <li>Plot a third point as a check.</li></ol></p>
     <image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement></exercise>  
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Interpreting the Intercepts</title>
+
+<subsubsection><title>Activity 2: Interpreting the Intercepts</title>
 
 <exercises>
-<exercise><statement><p>Around 1950, people began cutting down the world's rain forests to clear land for agriculture.  In 1970, there were about 9.8 million square kilometers of rain forest left, and by 1990 that figure had been reduced to 8.2 million square kilometers.</p> 
+<exercise><statement><p>Around 1950, people began cutting down the world's rain forests to clear land for agriculture.  In 1970, there were about 9.8 million square kilometers of rain forest left, and by 1990 that figure had been reduced to 8.2 million square kilometers. These two data points are shown on the graph below. 
 
-<p>These two data points are shown on the graph below. The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the amount of rainforest remaining, <m>y</m> (in millions of square kilometers).</p>
-<p><ol marker="a.">  
-    <li><p>If we continue to clear the rainforests at the same rate, the graph will be a straight line. Draw a straight line through the two points in the figure above. Make your line long enough to cross both axes.</p> 
-
-    <image width="75%" source="photos/act-3-1-2-1"><description>grid</description></image></li>
-
+The horizontal axis displays the year, <m>x</m>, and the vertical axis shows the amount of rainforest remaining, <m>y</m> (in millions of square kilometers).<ol marker="a.">  
+    <li>If we continue to clear the rainforests at the same rate, the graph will be a straight line. Draw a straight line through the two points in the figure above. Make your line long enough to cross both axes.  
+<sidebyside width="65%"><image source="photos/act-3-1-2-1"><description>grid</description></image></sidebyside></li>
     <li><p>Estimate the coordinates of the <m>x</m>- and <m>y</m>-intercepts of your graph.
     <md><mrow> \amp x\text{-intercept:}~~ <fillin characters="10"/></mrow>                             
         <mrow> \amp y\text{-intercept:}~~ <fillin characters="10"/></mrow></md>                            
@@ -311,10 +315,9 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 </ol></p></statement></exercise>
 
 <exercise><statement><sidebyside widths="55% 40%" valigns="middle middle"><p>Sheri bought a bottle of multivitamins for her family. The number of vitamins left in the bottle after <m>d</m> days is given by
-    <me>N=300-5d</me>
-<ol label="a">
-    <li><p>Find the intercepts and use them to make a graph of the equation.</p>
-        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <me>N=300-5d</me><ol labrl="a">
+    <li><p>Find the intercepts and use them to make a graph of the equation.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>d</m></cell>
                         <cell><m>N</m></cell></row>
@@ -324,11 +327,12 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
                     <row>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
-                    </tabular></li>
-    <li>Explain what each intercept tells us about the vitamins.</li>
-</ol></p>
+                    </tabular></sidebyside></p></li>
+    <li>Explain what each intercept tells us about the vitamins.</li></ol></p>
     <!--<image source="photos/act-3-1-2.png"><description>grid</description></image>-->
-    <image xml:id="act-3-1-2-2"><description>unlabeled grid</description><latex-image>
+    <image xml:id="act-3-1-2-2">
+            <description>unlabeled grid</description>
+            <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -338,8 +342,12 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
              \draw[black] (\x,.15) --++(0,-.3);
              \draw[black] (.15,\x) --++(-.3,0);
             }            \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></statement></exercise>
-</exercises></activity>
+            </latex-image>
+    </image>
+
+</sidebyside></statement></exercise>
+</exercises>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -357,27 +365,26 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
 </subsubsection>
 </subsection>
 
-<subsection><algorithm>
+<subsection><title>Homework Preview</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p><ol marker="a.">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the line.</li>
-    <li>Use the intercept method to graph the line.</li>
-</ol></p></introduction>    
+    <li>Use the intercept method to graph the line.</li></ol></p></introduction>    
 
 <exercise><statement><p><m>3x-5y=15</m></p>
-    <image source="photos/stangrid8"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>y=\dfrac{-4}{3}x+8</m></p>
-    <image source="photos/stangrid8"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>\dfrac{x}{6} + \dfrac{y}{8} = -1</m></p>
-    <image source="photos/stangrid8"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise><statement><p><m>x - \dfrac{2}{3}y -4 = 0</m></p>
-    <image source="photos/stangrid8"><description>grid</description></image></statement>
+    <sidebyside><image source="photos/stangrid8"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 </exercises>
@@ -388,7 +395,6 @@ What must he earn on the fifth quiz to end up with an average of 8?</p></stateme
     <li><m>(-6,0),~(0,-8)</m></li>
     <li><m>(4,0),~(0,-6)</m></li></ol></p>
 </subsubsection>
-</algorithm>
 </subsection>
 
 <xi:include href="./hmwk-3-1.xml" />

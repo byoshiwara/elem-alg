@@ -6,7 +6,7 @@
 
 <subsection><title>Lesson 9.1 Laws of Exponents</title><p><ul>
 
-<li><assemblage><title>Laws of Exponents</title>
+<li><assemblage>
 <p>First Law of Exponents
 	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
 <p>Second Law of Exponents
@@ -45,7 +45,7 @@ between 1 and 10 and a power of 10.</li>
 
 <subsection><title>Lesson 9.3 Properties of Radicals</title><p><ul>
 
-<li><assemblage><title>Properties of Radicals</title>
+<li><assemblage>
 	<p>Product Rule for Radicals
 		<me>  \text{If}~~a,~b \ge 0,~~~\text{then}~~~~\blert{\sqrt{ab}=\sqrt{a}\sqrt{b}}</me></p>
 	<p>Quotient Rule for Radicals
@@ -207,7 +207,7 @@ between 1 and 10 and a power of 10.</li>
 <exercise number="24"><statement><p><m>0.0035 \times 10^2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 25<ndash/>28, use scientific notation to compute.
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>28, use scientific notation to compute.
 </p></introduction>
 
 <exercise number="25"><statement><p><m>(48,000,000)(380,000,000)</m></p></statement>
@@ -335,7 +335,7 @@ between 1 and 10 and a power of 10.</li>
 <exercise number="62"><statement><p><m>\dfrac{1}{2\sqrt{3}}-\dfrac{1}{3\sqrt{2}}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 63<ndash/>64, verify by substitution that the given value is a solution of the equation.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 63<ndash/>64, verify by substitution that the given value is a solution of the equation.</p></introduction>
 
 <exercise number="63"><statement><p><m>2x^2-2x-3=0,~~x= \dfrac{1+\sqrt{7}}{2}</m></p></statement>
 <answer><p><m>2\left(\dfrac{1+\sqrt{7}}{2} \right)^2-2\left(\dfrac{1+\sqrt{7}}{2} \right)-3=0 </m></p></answer></exercise>
@@ -345,8 +345,10 @@ between 1 and 10 and a power of 10.</li>
 
 <exercisegroup cols="2"><introduction><p>For Problems 65<ndash/>66, find the length of the third side of the right triangle.</p></introduction>
 
-<exercise number="65"><statement><!--<image source="photos/cr9-65.png"><description>triangles</description></image>-->
-    <image width="90%" xml:id="cr9-65"><description>right triangle</description><latex-image>
+<exercise number="65"><statement><sidebyside width="80%"><!--<image source="photos/cr9-65.png"><description>triangles</description></image>-->
+    <image xml:id="cr9-65">
+        <description>right triangle</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -359,12 +361,15 @@ between 1 and 10 and a power of 10.</li>
         \node [left, xshift=-2] at (0,.75) {$2\sqrt{a}$};
         \node [below] at (2.25,0) {$6\sqrt{a}$};
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><p><m>2\sqrt{10a} </m></p></answer></exercise>
 
-<exercise number="66"><statement><!--<image source="photos/cr9-66.png"><description>triangles</description></image>-->
-    <image width="40%" xml:id="cr9-66"><description>right triangle</description><latex-image>
+<exercise number="66"><statement><sidebyside width="30%"><!--<image source="photos/cr9-66.png"><description>triangles</description></image>-->
+    <image xml:id="cr9-66">
+        <description>right triangle</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -377,8 +382,9 @@ between 1 and 10 and a power of 10.</li>
         \node [left, xshift=-2] at (60:2) {$4b$};
         \node [below] at (1,0) {$2b$};
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement></exercise>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 67<ndash/>72, solve.</p></introduction>

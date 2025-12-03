@@ -14,9 +14,11 @@ This calculation is an application of the associative law for multiplication. We
 	<li><m>5(3x)=15x</m></li>
 	<li><m>-2(-4h)=8h</m></li></ol></p></statement></example>
 
-<exercise number="1"><statement><p>Explain the difference between the expressions <m>2b+3b</m> and <m>2(3b)</m>.
+<reading-questions>
+    <exercise number="1"><statement><p>Explain the difference between the expressions <m>2b+3b</m> and <m>2(3b)</m>.
 </p></statement>
     	<answer><p>The first expression is a sum and the second one is a product.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>The Distributive Law</title><idx><h>distributive law</h></idx>
@@ -80,8 +82,10 @@ To simplify these expressions, we must first recognize the operations involved.<
 	<li><p>The third is an application of the distributive law.
 			<me>-3(-5-x) = 15+3x</me></p></li></ul></p></warning>
 
-<exercise number="2"><statement><p>When do we need the distributive law to simplify an expression?</p></statement>
+<reading-questions>
+    <exercise number="2"><statement><p>When do we need the distributive law to simplify an expression?</p></statement>
     	<answer><p>If the terms inside parentheses are not like terms</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
@@ -116,9 +120,11 @@ Remember that we think of all terms as added together, so the minus sign in fron
             <mrow>x \amp = \dfrac{11.2}{14} = 0.8</mrow></md>             
 We can check the solution by substituting <m>x=0.8</m> into the original proportion.</p></solution></example>
 
-<exercise number="3"><statement><p>In <xref ref="Example-4-1-4" text="type-global"/>, why did we put parentheses around <m>2x-1</m> and <m>x+3</m>?
+<reading-questions>
+    <exercise number="3"><statement><p>In <xref ref="Example-4-1-4" text="type-global"/>, why did we put parentheses around <m>2x-1</m> and <m>x+3</m>?
 </p></statement>
     	<answer><p>To replace the fraction bars as grouping symbols</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Algebraic Expressions</title>
@@ -136,9 +142,11 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 	<li><p>We add the amount of money Delbert made to the amount Francine made.
 			<me>23x+47x=70x</me></p></li></ol></p></solution></example>
 
-<exercise number="4"><statement><p>In <xref ref="Example-4-1-5" text="type-global"/>, what does <m>x</m> stand for? What does <m>23x</m> stand for?
+<reading-questions>
+    <exercise number="4"><statement><p>In <xref ref="Example-4-1-5" text="type-global"/>, what does <m>x</m> stand for? What does <m>23x</m> stand for?
 </p></statement>
     	<answer><p>The fee for a pound of recycled cans; the amount of money Delbert made</p></answer></exercise>
+</reading-questions>
 
 <p>The distributive law is also helpful for writing algebraic expressions.</p>
 
@@ -159,11 +167,13 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
                 <mrow>  w \amp = 7</mrow></md>             
 The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\alert{7})-3=11</m> feet.</p></li></ol></p></solution></example>
 
-<exercise number="5"><statement><p>In <xref ref="Example-4-1-6" text="type-global"/>, why did we multiply <m>2w-3</m> by 2?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>In <xref ref="Example-4-1-6" text="type-global"/>, why did we multiply <m>2w-3</m> by 2?</p></statement>
     	<answer><p>We substituted into the formula for perimeter.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
-<subsection><theorem>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>For Problems 1-2, use a formula to write an equation. Then solve the equation.</p></introduction>
 
@@ -186,12 +196,12 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
     <li><m>2w+2(40)=116;~~18~</m>cm</li>
     <li><m>50-28d=29,~~\dfrac{3}{4}~</m>lb</li>
     <li><m>x+(2x-60)=780;~~280</m></li></ol></p>
-</subsubsection></theorem>
+</subsubsection>
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Simplifying Expressions</title>
+<subsubsection><title>Activity 1: Simplifying Expressions</title>
 
 <exercises>
 <exercise><statement><p>Simplify each product.<ol marker="a." cols="2">
@@ -201,10 +211,9 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 <exercise><statement><p>Use the distributive law to simplify each expression.<ol marker="a." cols="2">
     <li><m>8(3y-6)</m></li>
     <li><m>-3(7+5x)</m></li></ol></p></statement></exercise>
-</exercises>
-</activity>
+</exercises></subsubsection>
 
-<activity><title>Solving Equations</title>
+<subsubsection><title>Activity 2: Solving Equations</title>
 
 <assemblage><title>Steps for Solving Linear Equations</title>
 <idx><h>equation</h><h>solving</h></idx>
@@ -220,9 +229,9 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 
 <exercise><statement><p>Solve <m>~~2n+(4-3n) \ge 6-(3-2n)</m></p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Problem Solving</title>
+<subsubsection><title>Activity 3: Problem Solving</title>
 
 <exercises>
 <exercise><statement><p>Shalia runs a landscaping business. She has a budget of $385 to buy 20 rose bushes for one of her clients.  Hybrid tea roses cost $21 each, and shrub roses cost $16.<ol marker="a.">       
@@ -238,7 +247,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
     <li>Step 3  Solve the equation.  Begin by simplifying the left side.</li>
     <li>Write your answer in a sentence.</li></ul></p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -257,7 +266,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </subsubsection>
 </subsection>
 
-<subsection><algorithm>
+<subsection><title>Homework Preview</title>
 
 <exercises>
 <exercisegroup><introduction><p>Simplify.</p></introduction>
@@ -294,7 +303,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
     <li><m>-4</m></li>
     <li><m>3</m></li>
     <li><m>\dfrac{-2}{3}</m></li></ol></p>
-</subsubsection></algorithm>
+</subsubsection>
 </subsection>
 
 

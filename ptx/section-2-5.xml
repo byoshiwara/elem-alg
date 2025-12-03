@@ -16,10 +16,11 @@ we find a value for the variable that makes the equation true.  The solution to 
          <mrow>\text{and}~~~~~~5x \amp = 5(\alert{3})=15</mrow></md>
 Both expressions equal 15 when <m>x=3</m>.</p>
 
-<question><statement><p>Verify that <m>2x+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
+<reading-questions>
+    <exercise number="1"><statement><p>Verify that <m>2x+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
         <md><mrow>2x+3x \amp =\underline{\qquad\qquad\qquad}</mrow>
             <mrow>\text{and}\qquad 5x \amp =\underline{\qquad\qquad\qquad}</mrow></md>
-</p></statement></question>
+</p></statement></exercise></reading-questions>
 
 <assemblage><title>Equivalent Expressions</title>
 <idx><h>equivalent</h><h>expressions</h></idx><idx><h>expression</h><h>equivalent</h></idx>
@@ -32,8 +33,10 @@ Both expressions equal 15 when <m>x=3</m>.</p>
         <mrow>5x \amp = 5(\alert{6})=30</mrow></md>
 Because they are not equal for <m>x=6</m>, the expressions <m>2+3x</m> and <m>5x</m> are not equivalent.</p></warning>
 
-<exercise number="2"><statement><p>When are two expressions equivalent?</p></statement>
+<reading-questions>
+    <exercise number="2"><statement><p>When are two expressions equivalent?</p></statement>
     	<answer><p>When they name the same number for all values of the variable.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Like Terms</title>
@@ -88,7 +91,11 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 </solution></example>
 
 <assemblage><title>Look Ahead</title>
-<p>In <xref ref="Example-2-5-3" text="type-global"/>, we replaced each expression by a simpler but equivalent expression. In other words, <m>-7y</m> is equivalent to <m>-4y-3y</m>, and <m>3st</m> is equivalent to <m>-6st+9st</m>.</p>
+<p>In <xref ref="Example-2-5-3" text="type-global"/>, we replaced each expression by a simpler but equivalent expression. In other words, <m>-7y</m> is equivalent to <m>-4y-3y</m>, and <m>3st</m> is equivalent to <m>-6st+9st</m>.</p></assemblage>
+
+<assemblage><title>Simplifying an expression</title>
+<idx><h>expression</h><h>simplifying</h></idx>
+<idx><h>simplifying an expression</h></idx>
 <p>Replacing an expression by a simpler equivalent one is called <term>simplifying</term> the expression.</p></assemblage>
 
 <p>We subtract like terms in the same way that we add like terms.</p>
@@ -100,10 +107,12 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 
 <example><statement><m>6a-(-8a)=[6-(-8)a]=14a~~~~~~~~~~\blert{\text{Subtract the coefficients.}}</m></statement></example>
 
-<exercise number="3"><statement><p>What are like terms?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What are like terms?</p></statement>
     	<answer><p>Any terms that are exactly alike in their variable factors.</p></answer></exercise>
-<exercise number="4"><statement><p>How do we add or subtract like terms?</p></statement>
+    <exercise number="4"><statement><p>How do we add or subtract like terms?</p></statement>
     	<answer><p>Add or subtract the numerical coefficients of the terms.</p></answer></exercise>
+</reading-questions>
 
 <warning><p>We cannot add or subtract unlike terms. Thus,
 		<md><mrow>2x+3y~~~~~~~~ \amp \text{cannot be simplified}</mrow>
@@ -176,10 +185,12 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
         \node[right] at (O3) {$=b-9$};
         \end{tikzpicture}]]></latex-image></image></sidebyside></p></solution></example>
 
-<exercise number="5"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>
     	<answer><p>a plus sign</p></answer></exercise>
-<exercise number="6"><statement><p>What must you do if you remove parentheses that follow a minus sign?</p></statement>
+    <exercise number="6"><statement><p>What must you do if you remove parentheses that follow a minus sign?</p></statement>
     	<answer><p>Change the sign of each term within parentheses.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
@@ -223,8 +234,10 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <md><mrow>\blert{\text{Check:}}~~~~ \amp x=4:~~2(\alert{4})-4(\alert{4})+14 \lt 5(\alert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}</mrow>
         <mrow>\amp x=2:~~2(\alert{2})-4(\alert{2})+14 \lt 5(\alert{2})-10?~~~~\blert{\text{False:}~~10 \not\lt 3}</mrow></md></p></solution></example>
 
-<exercise number="7"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>
+<reading-questions>
+    <exercise number="7"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>
     	<answer><p>Combine them.</p></answer></exercise>
+</reading-questions>
 
 <p>Here are our guidelines for solving linear equations.</p>
 
@@ -236,7 +249,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage>
 </subsection>
 
-<theorem>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Write algebraic expressions.</p></introduction>
 
@@ -266,11 +279,11 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <li><m>240</m></li>
     <li><m>\dfrac{-13}{9}</m></li></ol></p>
 </subsubsection>
-</theorem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Equivalent Expressions</title>
+<subsubsection><title>Activity 1: Equivalent Expressions</title>
 
 <exercises>
 <exercise><statement><p><ol marker="a.">
@@ -296,9 +309,9 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <li><m>(32-26)+ (-3+2h)</m></li>
     <li><m>(3a-2)-2a-(5-2a)</m></li></ol></p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Solving Equations and Inequalities</title>
+<subsubsection><title>Activity 2: Solving Equations and Inequalities</title>
 
 <assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1.">
     <li>Combine like terms on each side of the equation.</li>
@@ -319,9 +332,9 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <li>Step 3:</li>
     <li>Solution</li></ul></p></statement></exercise>
 </exercises>
-</activity>
+</subsubsection>
 
-<activity><title>Like Terms and Parentheses</title>
+<subsubsection><title>Activity 3: Like Terms and Parentheses</title>
 <exercises>
 <exercise><statement><p>One angle of a triangle is three times the smallest angle, and the third angle is 20<m>\degree</m> greater than the smallest angle.<ol marker="a.">
     <li>If the smallest angle is <m>x</m>, write expressions for the other two angles.</li>
@@ -331,7 +344,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <li>Write and simplify an expression for their profit from selling <m>x</m> T-shirts.</li>
     <li>How many T-shirts must they sell in order to make a profit of $500?</li></ol></p></statement></exercise>
 </exercises>  
-</activity>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -350,7 +363,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 </subsubsection>
 </subsection>
 
-<subsection><algorithm>
+<subsection><title>Homework Preview</title>
 <exercises>
 <exercisegroup><introduction><p>Simplify.</p></introduction>    
 
@@ -379,7 +392,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     <li><m>x \lt \dfrac{4}{3}</m></li>
     <li><m>-1</m></li></ol></p>
 </subsubsection>
-</algorithm></subsection>
+</subsection>
 
 <xi:include href="./hmwk-2-5.xml" />
 </section>

@@ -16,10 +16,9 @@ If we know the value of <m>h</m>, we can evaluate the expression <m>6h</m> to fi
 	<me>w=6(\alert{7})=42</me>
 Liz makes $42 for 7 hours of work. </p></statement></example>
 
-<p>In the previous Example we used <term>evaluation</term> to find the value of <m>w</m> when we knew the value of <m>h</m>. What if we know the value of <m>w</m> and want to find <m>h</m>?</p>
-<p> Suppose Liz earned $54 last week. How many hours did she work? To answer this question we substitute <m>\alert{54}</m> for <m>w</m>, so that the equation becomes
+<p>In the previous Example we used evaluation to find the value of <m>w</m> when we knew the value of <m>h</m>. What if we know the value of <m>w</m> and want to find <m>h</m>? Suppose Liz earned $54 last week. How many hours did she work? To answer this question we substitute <m>\alert{54}</m> for <m>w</m>, so that the equation becomes
 	<me>\alert{54} = 6h</me> 
-Now we have an equation in just one variable. We would like to find the value of <m>h</m> that makes this equation true. You can probably see that the solution of the equation <m>~54=6h~</m> is 9, that is, <m>h=9</m>. </p>
+Now we have an equation in just one variable. We would like to find the value of <m>h</m> that makes this equation true.</p>
 
 <assemblage><title>Solution of Equation</title>
 <idx><h>equation</h><h>solution of</h></idx><idx><h>solution</h><h>of equation</h></idx>
@@ -29,13 +28,12 @@ Now we have an equation in just one variable. We would like to find the value of
 
 <subsection><title>Trial and Error</title>
 <idx><h>trial and error</h></idx>
-<p>The equation <m>~54=6h~</m> was easy to solve by "inspection" because the numbers were familiar. We can use a table to help us solve a harder equation by trial and error.</p>
+<p>Some equations are easy enough to solve by trial and error. You can probably see that the solution of the equation <m>~54=6h~</m> is 9. We can use a table to help us solve a harder equation by trial and error.</p>
 
-<question><statement><p>One of Aunt Esther's Chocolate Dream cookies contains 42 calories, so <m>d</m> cookies contain <m>c</m> calories, and <m>c=42d</m>. If Albert consumed 546 calories, how many cookies did he eat?</p>
-<p>Use evaluation by trial and error to help you solve the equation <m>546=42d</m>.
+<exercise><statement><p>One of Aunt Esther's Chocolate Dream cookies contains 42 calories, so <m>d</m> cookies contain <m>c</m> calories, and <m>c=42d</m>. If Albert consumed 546 calories, how many cookies did he eat? Use trial and error to help you solve the equation <m>546=42d</m>.
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~d~</m></cell>
+                        <cell><m>d</m></cell>
                         <cell><m>5</m></cell>
                         <cell><m>6</m></cell>
                         <cell><m>7</m></cell>
@@ -60,70 +58,83 @@ Now we have an equation in just one variable. We would like to find the value of
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></p>
-
-    <p>(Did you find that Albert ate 13 cookies?)</p></statement></question>
+                    </tabular></p></statement></exercise>
 
 <assemblage><title>Look Ahead</title>
 <p>Trial and error can be time-consuming, especially for complicated equations! In this section we investigate some algebraic methods for solving equations.</p></assemblage>
 
-<exercise number="1"><statement><p>What is an equation?</p></statement>
+<reading-questions>
+	<exercise number="1"><statement><p>What is an equation?</p></statement>
 		<answer><p>An equation is a statement that two expressions are equal.</p></answer></exercise>
-<exercise number="2"><statement><p>What is a solution of an equation?</p></statement>
-		<answer><p>A value of the variable that makes an equation true.</p></answer></exercise> 
+	<exercise number="2"><statement><p>What is a solution of an equation?</p></statement>
+		<answer><p>A value of the variable that makes an equation true.</p></answer></exercise></reading-questions> 
 </subsection>
 
 <subsection><title>Inverse Operations</title>
 <idx><h>inverse operations</h></idx>
 
-<p>Earlier we saw that the solution of the equation <m>~54=6h~</m> is <m>h=9</m>. These two equations are called <term>equivalent</term> because they have the same solution, but in the second equation the solution is obvious.  We would like to turn any equation into an obvious one with the same solution. To do this we will use <term>inverse operations</term>. Try the Exercises below.</p>
-
-<question><statement><p>
+<p>Instead of relying on trial and error to solve equations, we will use <term>inverse operations</term>. Try the Exercise below.</p>
+<exercise><statement><p>
 	<md><mrow>\amp \blert{\text{Choose any number for}~x:} \amp x \amp = ~\rule{1cm}{0.15mm}</mrow>
         <mrow>\amp \blert{\text{Multiply your number by 5}:} \amp 5x \amp = ~\rule{1cm}{0.15mm}</mrow>
         <mrow>\amp \blert{\text{Divide the result by 5}:}  \amp \dfrac{5x}{5} \amp = ~\rule{1cm}{0.15mm}</mrow></md>
 
    	Did you end up with your original number?  
 	Try multiplying and dividing your number by another number besides 5.  
-	Do you still end up with your original number?</p></statement></question>
+	Do you still end up with your original number?</p></statement></exercise>
 
 <assemblage><title>Inverse Operations</title>
 <idx><h>inverse operations</h></idx>
 <p>Multiplication and division are opposite or <term>inverse operations</term>, because each operation undoes the effects of the other.</p></assemblage>
 
-<question><statement><p>
+<exercise><statement><p>
 	<md><mrow>\amp \blert{\text{Choose any number for}~x:} \amp x \amp = ~\rule{1cm}{0.15mm}</mrow>
         <mrow>\amp \blert{\text{Add 4 to your number}:} \amp x+4 \amp = ~\rule{1cm}{0.15mm}</mrow>
         <mrow>\amp \blert{\text{Subtract 4 from the result}:}  \amp x+4-4 \amp = ~\rule{1cm}{0.15mm}</mrow></md>
 
    	Did you end up with your original number?  
 	Try adding and subtracting another number besides 4.  
-	Do you still end up with your original number?</p></statement></question>
+	Do you still end up with your original number?</p></statement></exercise>
 
 <assemblage><title>More Inverse Operations</title>
 <idx><h>inverse operations</h></idx>
     <p>Addition and subtraction are opposite or <term>inverse operations</term>, because each operation undoes the effects of the other.</p></assemblage>
 
-<p>We see that the opposite operation for multiplication is division, and the opposite operation for addition is subtraction. We'll use inverse operations to solve the equation <m>~54=6h</m>. We want to find an equation of the form  <m>h=k</m> (or <m>k=h</m>), where the number <m>k</m> is the solution.</p>
+<p>We see that the opposite operation for multiplication is division, and the opposite operation for addition is subtraction. Now we can solve the equation in <xref ref="Example-1-4-1" text="type-global"/>.</p>
 
 <example><statement><p>Solve the equation <m>~54=6h</m>.</p></statement>
 
-<solution><p>Notice that <m>h</m> is multiplied by 6 in this equation. So we will divide by 6, but in order to keep the two sides of the equation equal, we must divide <em>both sides</em> of the equation by 6, like this:
+<solution><p>We will transform this equation into a new one of the form <m>h=k</m> (or <m>k=h</m>), where the number <m>k</m> is the solution.</p>
+<p> To do this, we must isolate the variable <m>h</m> on one side of the equals sign. Because <m>h</m> is multiplied by 6 in this equation, we divide both sides by 6, like this:
 	<md><mrow>\dfrac{54}{\blert{6}} \amp = \dfrac{6h}{\blert{6}} \amp \amp \blert{\text{Divide both sides by 6.}}</mrow>
         <mrow>9 \amp = h</mrow></md>
-The solution is 9. Liz worked for 9 hours to make $54.</p></solution></example>
+The solution is 9. Liz worked for 9 hours.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>Note that the expression <m>\dfrac{6h}{6}</m> says "multiply <m>h</m> by 6, then divide the result by 6," so we end up with <m>h</m> again.</p></assemblage>
 
-<p>In the previous Example, we transformed the equation into a simpler one (namely, <m>h=9</m>) which tells us the solution. We say that we "isolated" <m>h</m> on one side of the equation. We can use the following operations to transform an equation:</p>
+<p>In the previous Example, we transformed the equation into a simpler one (namely, <m>h=9</m>) which tells us the solution. We can use the following operations to transform an equation:</p>
 
 <assemblage><title>To solve an equation algebraically</title>
 <idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
 <p><ol marker="1.">
 	<li>We can add or subtract the same number from both sides.</li>
-	<li>We can multiply or divide both sides by the same number, as long as that number is not zero.</li>
-</ol></p></assemblage>
+	<li>We can multiply or divide both sides by the same number, as long as 
+	that number is not zero.</li></ol></p></assemblage>
+
+<assemblage><title>Look Closer</title>
+<p>Our method for solving equations works because of the <term>properties of equality</term>, one for each of the four arithmetic operations. They are listed below.</p></assemblage>
+
+<assemblage><title>Addition and Subtraction Properties of Equality</title>
+<idx><h>properties of equality</h><h>addition and subtraction</h></idx>
+<p>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
+	<me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></p></assemblage> 
+<assemblage><title>Multiplication and Division Properties of Equality</title>
+<idx><h>properties of equality</h><h>multiplication and division</h></idx>
+<p>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
+	<me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></p></assemblage>
+
+<p>Applying any one of these properties to an equation produces an <term>equivalent equation</term>: one with the same solutions as the original equation.</p>
 </subsection>
 
 <subsection><title>Solving Equations</title>
@@ -154,23 +165,11 @@ The solution to this equation is 15. You can check that substituting <m>\alert{1
 	<li>Perform the opposite operation on both sides of the equation in order to isolate the variable.</li>
 </ol></p></assemblage>
 
-<exercise number="3"><statement><p>What is the opposite operation for subtraction? For multiplication?</p></statement>
+<reading-questions>
+	<exercise number="3"><statement><p>What is the opposite operation for subtraction? For multiplication?</p></statement>
 		<answer><p>Addition, division</p></answer></exercise>
-<exercise number="4"><statement><p>What are equivalent equations?</p></statement>
-		<answer><p>Equations with the same solutions.</p></answer></exercise>
-
-<assemblage><title>Look Closer</title>
-<p>Our method for solving equations works because of the <term>properties of equality</term>, one for each of the four arithmetic operations. They are listed below.</p></assemblage>
-
-<assemblage><title>Properties of Equality</title>
-<idx><h>properties of equality</h><h>addition and subtraction</h></idx>
-<p>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
-    <me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></p>
-<idx><h>properties of equality</h><h>multiplication and division</h></idx>
-<p>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
-    <me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></p></assemblage>
-
-<p>Applying any one of these properties to an equation produces an <term>equivalent equation</term>: one with the same solutions as the original equation.</p>       
+	<exercise number="4"><statement><p>What are equivalent equations?</p></statement>
+		<answer><p>Equations with the same solutions.</p></answer></exercise></reading-questions> 
 </subsection>
 
 <subsection><title>Problem Solving with Equations</title>
@@ -224,19 +223,22 @@ Finally, we answer the question in a sentence:
         \end{alignedat}</me></p>
     <p>Jerry has $258.</p></li></ol></p></solution></example>
 
-<warning><p>In the Example above, each side of the equation represents the airfare to New York, not the amount of money Jerry has, which is what we want to find. This is typical of applied problems: the equation does not usually represent the unknown quantity itself, but some related quantity.</p></warning>
+<warning><p>In Example 5, each side of the equation represents the airfare to New York, not the amount of money Jerry has, which is what we want to find. This is typical of applied problems: the equation does not usually represent the unknown quantity itself, but some related quantity.</p></warning>
 
 <assemblage><title>Look Ahead</title>
 <p>Although you may be able to solve the problems in this lesson with arithmetic, the important thing is to learn to write the algebraic equation, or model, for the problem. This skill will help you to solve problems that are too difficult to solve with arithmetic alone.</p></assemblage>
 
-<exercise number="5"><statement><p>What is the first step in solving an applied problem?</p></statement>
+<reading-questions>
+	<exercise number="5"><statement><p>What is the first step in solving an applied problem?</p></statement>
 		<answer><p>Identify the unknown quantity and choose a variable to represent it.</p></answer></exercise>
-<exercise number="6"><statement><p>True or false: One side of the equation that models a problem will be the unknown variable.
+	<exercise number="6"><statement><p>True or false: One side of the equation that models a problem will be the unknown variable.
 </p></statement>
-		<answer><p>False</p></answer></exercise>
+		<answer><p>False</p></answer></exercise></reading-questions>
+
+<p>This is the end of the Reading portion of Section 1.4.  Now try the Skills Warm-Up before the next class meeting.</p>
 </subsection>
 
-<theorem>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup>
     <introduction><p>In Exercises 1<ndash/>6, choose the correct algebraic expression.</p>
@@ -289,22 +291,22 @@ Finally, we answer the question in a sentence:
     <li><m>\dfrac{12}{p}</m></li>
     <li><m>12p</m></li></ol></p>
 </subsubsection>
-</theorem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Opposite Operations</title>
+<subsubsection><title>Activity 1:  Opposite Operations</title>
 <idx><h>inverse operations</h></idx><idx><h>opposite operations</h><see>inverse operations</see></idx>
 <p>We can use opposite or inverse operations to "undo" an algebraic expression.</p> 
 
 <exercises>
 <exercise><statement><p>Francine is exactly four years older than Delbert, so
         <me>\blert{F=D+4}</me>
-    where <m>D</m> stands for Delbert's age and <m>F</m> stands for Francine's age. Fill in the missing values in the table, and think about how you found each one.</p>
+    where <m>D</m> stands for Delbert's age and <m>F</m> stands for Francine's age.  Fill in the missing values in the table, and think about how you found each one.
 
-    <p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~D~</m></cell>
+                        <cell><m>D</m></cell>
                         <cell><m>5</m></cell>
                         <cell><m>7</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -312,18 +314,18 @@ Finally, we answer the question in a sentence:
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>18</m></cell></row>
                     <row> 
-                        <cell><m>~F~</m></cell>
+                        <cell><m>F</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>12</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>19</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p>
-<p><ol marker="a.">
+                    </tabular></sidebyside>
+
+    <ol marker="a.">
     <li>When we are given a value of <m>D</m>, we <fillin characters="6"/> 4 to find the value of <m>F</m>. (Why?)</li>
-    <li>When we are given a value of <m>F</m>, we <fillin characters="6"/> 4 to find Delbert's age. (Why?)</li>
-</ol></p>
+    <li>When we are given a value of <m>F</m>, we <fillin characters="6"/> 4 to find Delbert's age. (Why?)</li></ol></p>
 </statement></exercise>
 
 <exercise><statement><p>Fernando plans to share an apartment with three other students and split the rent equally. <ol marker="a."> 
@@ -331,7 +333,7 @@ Finally, we answer the question in a sentence:
     <li>Fill in the table.
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~r~</m></cell>
+                        <cell><m>r</m></cell>
                         <cell><m>260</m></cell>
                         <cell><m>300</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -339,7 +341,7 @@ Finally, we answer the question in a sentence:
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>480</m></cell></row>
                     <row> 
-                        <cell><m>~s~</m></cell>
+                        <cell><m>s</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>80</m></cell>
@@ -349,9 +351,10 @@ Finally, we answer the question in a sentence:
                     </tabular></li>
     <li>Explain how you found the unknown values of <m>s</m>.</li>  
     <li>Explain how you found the unknown values of <m>r</m>.</li></ol></p></statement></exercise>
-</exercises></activity>
+</exercises>
+</subsubsection>
 
-<activity><title>Solving Equations Algebraically</title>
+<subsubsection><title>Activity 2:  Solving Equations Algebraically</title>
 <idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
 <p>Follow the Examples below to write out the solution for each Exercise.</p>
 
@@ -364,7 +367,9 @@ Finally, we answer the question in a sentence:
             <mrow>\underline{\blert{-6}} \amp = \underline{\blert{-6}}</mrow>
             <mrow>x \amp = 5  \amp \amp \blert{\text{The solution is 5.}}</mrow>
             <mrow> \amp \amp \amp \text{Check:} ~\alert{5} + 6 = 11</mrow></md></p>
-<p>Exercise:  <m>~~~\text{Solve} ~~~~5+y = 9</m></p></statement></exercise>
+<p>Exercise:  <m>~~~\text{Solve} ~~~~5+y = 9</m>
+    <md><mrow>\hphantom{0000}</mrow>
+        <mrow>\hphantom{0000}</mrow></md></p></statement></exercise>
 
 <exercise><statement><p>Example:
         <md><mrow>\text{Solve} ~~~~n-17 \amp = 32 \amp \amp \blert{\text{17 is subtracted from the variable.}}</mrow>
@@ -372,7 +377,9 @@ Finally, we answer the question in a sentence:
             <mrow>\underline{\blert{+17}} \amp = \underline{\blert{+17}}</mrow>
             <mrow>n \amp = 49  \amp \amp \blert{\text{The solution is 49.}}</mrow>
             <mrow> \amp \amp \amp \text{Check:} ~\alert{49} -17 = 32</mrow></md></p>
-<p>Exercise:  <m>~~~\text{Solve} ~~~~x-4 = 12</m></p></statement></exercise>
+<p>Exercise:  <m>~~~\text{Solve} ~~~~x-4 = 12</m>
+    <md><mrow>\hphantom{0000}</mrow>
+        <mrow>\hphantom{0000}</mrow></md></p></statement></exercise>
 
 <exercise><statement><p>Example:
         <md><mrow>\text{Solve} ~~~~12x \amp = 60 \amp \amp \blert{\text{The variable is multiplied by 12.}}</mrow>
@@ -380,27 +387,35 @@ Finally, we answer the question in a sentence:
             <mrow>\dfrac{12x}{\blert{12}} \amp = \dfrac{60}{\blert{12}}</mrow>
             <mrow>x \amp = 5  \amp \amp \blert{\text{The solution is 5.}}</mrow>
             <mrow> \amp \amp \amp \text{Check:} ~12(\alert{5}) =60</mrow></md></p>
-<p>Exercise:  <m>~~~\text{Solve} ~~~~6z = 24</m></p></statement></exercise>
+<p>Exercise:  <m>~~~\text{Solve} ~~~~6z = 24</m>
+    <md><mrow>\hphantom{0000}</mrow>
+        <mrow>\hphantom{0000}</mrow></md></p></statement></exercise>
 
 <exercise><statement><p>Example:
         <md><mrow>\text{Solve} ~~~~\dfrac{w}{7} \amp = 21 \amp \amp \blert{\text{The variable is divided by 7.}}</mrow>
             <mrow>\blert{7}\left(\dfrac{w}{7}\right) \amp = \blert{7}(21) \amp \amp \blert{\text{We multiply both sides by 7.}}</mrow>
             <mrow>w \amp = 147  \amp \amp \blert{\text{The solution is 147.}}</mrow>
             <mrow> \amp \amp \amp \text{Check:} ~\dfrac{\alert{147}}{7} = 21</mrow></md></p>
-<p>Exercise:  <m>~~~\text{Solve} ~~~~\dfrac{w}{3} = 6</m></p></statement></exercise>
-</exercises></activity>
+<p>Exercise:  <m>~~~\text{Solve} ~~~~\dfrac{w}{3} = 6</m>
+    <md><mrow>\hphantom{0000}</mrow>
+        <mrow>\hphantom{0000}</mrow></md></p></statement></exercise>
+</exercises>
+</subsubsection> 
 
-<activity><title>Using Formulas</title>
+<subsubsection><title>Activity 3:  Using Formulas</title>
 <idx><h>formula</h><h>using</h></idx>
-<p>The distance from Los Angeles to San Francisco is approximately 420 miles. How long will it take a car traveling at 60 miles per hour to go from Los Angeles to San Francisco? Follow the steps to solve the problem:</p>
-    <p>Step 1: Write down the appropriate formula.</p>
-    <p>Step 2: List the given values of the variables. (Which variable is unknown?)</p>      
-    <p>Step 3: Substitute the known values into the formula.</p>
-    <p>Step 4: Solve the equation for the unknown variable.  Write your answer in a sentence.</p>
-<p>Answer:</p>
-</activity>
+<p>The distance from Los Angeles to San Francisco is approximately 420 miles. How long will it take a car traveling at 60 miles per hour to go from Los Angeles to San Francisco? Follow the steps to solve the problem:<ol marker="1.">
+    <li>Write down the appropriate formula.</li>
+    <li>List the given values of the variables.</li>
+    <li>Which variable is unknown?</li>      
+    <li>Substitute the known values into the formula.</li>
+    <li>Solve the equation for the unknown variable.</li></ol></p>
 
-<activity><title>Writing Equations</title>
+<p>Answer:</p>
+
+</subsubsection>
+
+<subsubsection><title>Activity 4:  Writing Equations</title>
 <idx><h>equation</h><h>writing</h></idx>
 <p>In the following Exercises, concentrate on writing an equation for the problem. Use the hints to help you solve the problems.</p>
 
@@ -408,27 +423,28 @@ Finally, we answer the question in a sentence:
 <exercise><statement><p>A two-bedroom house costs $20,000 more than a one-bedroom house in the same neighborhood. The two-bedroom house costs $405,000. How much does the one-bedroom house cost?</p>
 
     <p>Step 1: Choose a variable for the unknown quantity.
-        <me>\blert{\text{Cost of the one-bedroom house:}}~<fillin characters="4"/></me></p>
+        <me>\blert{\text{Cost of the one-bedroom house:}}~<fillin characters="12"/></me></p>
     <p>Step 2: Write an equation in terms of your variable.                       
-        <md><mrow>\blert{\text{Cost of one-bedroom house}} \amp + <fillin characters="4"/> = \blert{\text{Cost of two-bedroom house}}</mrow>
-        <mrow><fillin characters="4"/> \amp + <fillin characters="4"/> = <fillin characters="4"/></mrow></md></p>
+        <md><mrow>\blert{\text{Cost of one-bedroom house}} \amp + <fillin characters="12"/> = \blert{\text{Cost of two-bedroom house}}</mrow>
+            <mrow><fillin characters="12"/> \amp + <fillin characters="12"/> = <fillin characters="12"/></mrow></md></p>
     <p>Step 3: Solve your equation.</p>
-    <p>The one-bedroom house costs <fillin characters="4"/>.</p></statement></exercise>
+    <p>The one-bedroom house costs <fillin characters="12"/>.</p></statement></exercise>
 
 <exercise><statement><p>A restaurant bill is divided equally by seven people. If each person paid $8.50, how much was the bill?</p>
 
     <p>Step 1: Choose a variable for the unknown quantity. (What are we asked to find?)</p>
     <p>Step 2: Write an equation. Express "each person's share" in two different ways.</p>
     <p>Step 3: Solve your equation.</p>
-    <p>The bill was <fillin characters="4"/>.</p></statement></exercise>
+    <p>The bill was <fillin characters="12"/>.</p></statement></exercise>
 
 <exercise><statement><p>Iris got a 6% raise.  Her new salary is $21 a week more than her old salary.  What was her old salary?</p>
 
     <p>Step 1: Choose a variable for the unknown quantity.</p> 
     <p>Step 2: Write an equation. Express "Iris' raise" in two different ways.</p>
     <p>Step 3: Solve your equation.</p>
-    <p>Iris' old salary was <fillin characters="4"/>.</p></statement></exercise>
-</exercises></activity>
+    <p>Iris' old salary was <fillin characters="12"/>.</p></statement></exercise>
+</exercises>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -453,12 +469,12 @@ Finally, we answer the question in a sentence:
 </subsubsection>
 </subsection>
 
-<algorithm>
-<exercises>
-<exercisegroup><introduction><p>Choose the equation that best describes each situation. In each case, <m>n</m> represents the unknown quantity.</p>
+<subsection><title>Homework Preview</title>
 
-    <assemblage><p><md><mrow>n+5 \amp = 30 \amp \amp\amp n-5 \amp = 30</mrow>
-        <mrow>5n \amp = 30 \amp \amp\amp \dfrac{n}{5} \amp = 30</mrow></md></p></assemblage></introduction>
+<exercises>
+<exercisegroup><introduction><p>Choose the equation that best describes each situation. In each case, <m>n</m> represents the unknown quantity.
+    <md><mrow>n+5 \amp = 30 \amp \amp n-5 \amp = 30</mrow>
+        <mrow>5n \amp = 30 \amp \amp \dfrac{n}{5} \amp = 30</mrow></md></p></introduction>
 
 <exercise><statement><p>Five less than a number is 30.</p></statement></exercise>
 
@@ -488,7 +504,7 @@ Finally, we answer the question in a sentence:
     <li><m>5n=30</m></li>
     <li><m>\dfrac{n}{5}=30</m></li></ol></p>
 </subsubsection>    
-</algorithm>
+</subsection>
 
 <xi:include href="./hmwk-1-4.xml" />
 </section>  

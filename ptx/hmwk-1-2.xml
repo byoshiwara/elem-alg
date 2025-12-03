@@ -34,10 +34,14 @@
 
 <exercisegroup>
     <introduction><p>For Problems 11<ndash/>14, choose the correct algebraic expression.</p>
-        <assemblage><p>
-            <md><mrow>\amp n+6 \amp \amp n-6 \amp \amp 6-n</mrow>
-                <mrow>\amp 6n \amp \amp \dfrac{n}{6} \amp \amp \dfrac{6}{n}</mrow></md>
-        </p></assemblage></introduction>
+        <assemblage><p><ul cols="3">
+            <li><m>n+6</m></li>
+            <li><m>n-6</m></li>
+            <li><m>6-n</m></li>
+            <li><m>6n</m></li>
+            <li><m>\dfrac{n}{6}</m></li>
+            <li><m>\dfrac{6}{n}</m></li>
+        </ul></p></assemblage></introduction>
 
 <exercise number="11"><statement><p>Rashad is 6 years younger than Shelley. If Shelley is <m>n</m> years old, how old is Rashad?</p></statement>
 <answer><p><m>n-6</m></p> </answer></exercise>
@@ -56,7 +60,7 @@
 
 <exercise number="15"><statement>
     <!--<image source="photos/hp-1-2-15.png"/>-->
-    <image xml:id="hp-1-2-15" width="100%">
+    <image xml:id="hp-1-2-15" width="90%">
             <description>rectangle</description>
             <latex-image>
             <![CDATA[
@@ -76,7 +80,7 @@
 
 <exercise number="16"><statement>
     <!--<image source="photos/hp-1-2-16.png"/>-->
-    <image xml:id="hp-1-2-16" width="80%">
+    <image xml:id="hp-1-2-16" width="60%">
             <description>rectangle</description>
             <latex-image>
             <![CDATA[
@@ -95,7 +99,7 @@
 
 <exercise number="17"><statement>
     <!--<image source="photos/hp-1-2-17.png"/>-->
-    <image xml:id="hp-1-2-17" width="100%">
+    <image xml:id="hp-1-2-17" width="90%">
             <description>triangle</description>
             <latex-image>
             <![CDATA[
@@ -125,9 +129,9 @@
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Spending money (dollars)</cell>
-                        <cell><m>~20~</m></cell>
-                        <cell><m>~25~</m></cell>
-                        <cell><m>~60~</m></cell></row>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>60</m></cell></row>
                     <row> 
                         <cell>Amount saved (dollars)</cell>
                         <cell></cell>
@@ -157,9 +161,9 @@
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Width of photo (inches)</cell>
-                        <cell><m>~6~</m></cell>
-                        <cell><m>~10~</m></cell>
-                        <cell><m>~24~</m></cell></row>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>24</m></cell></row>
                     <row> 
                         <cell>Height of photo (inches)</cell>
                         <cell></cell>
@@ -174,9 +178,9 @@
     <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Members present</cell>
-                        <cell><m>~90~</m></cell>
-                        <cell><m>~96~</m></cell>
-                        <cell><m>~120~</m></cell></row>
+                        <cell><m>90</m></cell>
+                        <cell><m>96</m></cell>
+                        <cell><m>120</m></cell></row>
                     <row> 
                         <cell>Votes needed</cell>
                         <cell></cell>
@@ -206,9 +210,9 @@
     <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Stock dividend</cell>
-                        <cell><m>~40~</m></cell>
-                        <cell><m>~85~</m></cell>
-                        <cell><m>~115~</m></cell></row>
+                        <cell><m>40</m></cell>
+                        <cell><m>85</m></cell>
+                        <cell><m>115</m></cell></row>
                     <row> 
                         <cell>Marla's share</cell>
                         <cell><m>24</m></cell>
