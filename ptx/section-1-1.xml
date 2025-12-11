@@ -124,9 +124,7 @@
 <p>We can get a better feel for the variables by plotting them on a graph. In the figure below, the values of <m>t</m> are displayed on the horizontal scale, or axis, and the values of <m>h</m> are shown on the vertical axis. The graph shows how the values of <m>h</m> are related to the values of <m>t</m>.</p>            
     
 <!--<image source="photos/fig-1-1-1.png" />-->
-    <image xml:id="fig-1-1-1" width="70%">
-        <description>airplane altitude</description>
-        <latex-image>
+    <image xml:id="fig-1-1-1" width="70%"><description>airplane altitude</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.075, yscale=.15]
         \draw[cyan] (0,0) grid[xstep=10, ystep=5] (110,40);
@@ -149,9 +147,7 @@
 <solution><p><ol marker="a.">
     <li><p>The graph shows that <m>h</m> is approximately 20 when <m>t=85</m>. This means that at 85 minutes into the flight, the plane's altitude is about 20,000 feet.</p>
         <!--<image source="photos/fig-1-1-ex3.png"/>-->
-    <image xml:id="fig-1-1-ex3" width="70%">
-        <description>airplane altitude</description>
-        <latex-image>
+    <image xml:id="fig-1-1-ex3" width="70%"><description>airplane altitude</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.075, yscale=.15]
         \draw[cyan] (0,0) grid[xstep=10, ystep=5] (110,40);
@@ -214,9 +210,7 @@
         <me>\blert{F=R \div 4}</me></li>
     <li><p>Plot the points from the table and connect them with a smooth curve. Extend your line so that it reaches across the entire grid, not just the points that you plotted.</p>
     <!--<image source="photos/fig-1-1-ex4.png"/>-->
-    <image xml:id="fig-1-1-ex4" width="75%">
-        <description>Fernando's share of rent</description>
-        <latex-image>
+    <image xml:id="fig-1-1-ex4" width="75%"><description>Fernando's share of rent</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.015, yscale=.03]
         \draw[cyan] (0,0) grid[xstep=50, ystep=15] (500,150);
@@ -267,42 +261,35 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 <exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
         <answer><p>equation</p></answer></exercise>
 
-<p>This is the end of the Reading portion of Section 1.1.  Now try the Skills Warm-Up before the next class meeting.</p>
-</subsection>
 
-<theorem><subsection>
-<exercises>
-<exercisegroup><introduction><p>Choose the correct arithmetic operation (addition, subtraction, multiplication, or division) and explain how to answer the question.</p></introduction>
+<problem>
+<statement><p>Choose the correct arithmetic operation (addition, subtraction, multiplication, or division) and explain how to answer the question.</p>
 
-<exercise number="1"><statement><p>An air conditioner keeps the inside temperature <m>16\degree</m> cooler than the outside temperature.  If the outside temperature is <m>90\degree</m>, how can you find the inside temperature?</p></statement>
-<answer><p>Subtract 16 from the outside temperature. </p></answer></exercise>
+<p><ol marker="1.">
+    <li>An air conditioner keeps the inside temperature <m>16\degree</m> cooler than the outside temperature.  If the outside temperature is <m>90\degree</m>, how can you find the inside temperature?</li>
 
-<exercise number="2"><statement><p>Tom's recipe for punch calls for 3 times as much fruit juice as soda.  If he has half a gallon of soda, how can he find the amount of fruit juice he needs?</p></statement>
-<answer><p> Multiply the amount of soda by 3.</p></answer></exercise>
+    <li>Tom's recipe for punch calls for 3 times as much fruit juice as soda.  If he has half a gallon of soda, how can he find the amount of fruit juice he needs?</li>
 
-<exercise number="3"><statement><p>A clothesline should be 2 feet longer than the distance between the supporting poles so that it can be tied at each end.  If the poles are 20 feet apart, how can you find the length of the clothesline?</p></statement>
-<answer><p>Add 2 feet to the distance between the poles.</p></answer></exercise>
+    <li>A clothesline should be 2 feet longer than the distance between the supporting poles so that it can be tied at each end.  If the poles are 20 feet apart, how can you find the length of the clothesline?</li>
 
-<exercise number="4"><statement><p>The weight of a bridge is supported equally by 8 pillars.  If the bridge weighs one million tons, how can you find the weight each pillar must support?</p></statement>
-<answer><p>Divide the weight of the bridge by 8.</p></answer></exercise>
+    <li>The weight of a bridge is supported equally by 8 pillars.  If the bridge weighs one million tons, how can you find the weight each pillar must support?</li>
 
-<exercise number="5"><statement><p>Katrin has 4 hours to complete both her math and geography homework.  If her math assignment takes <m>2\dfrac{1}{2}</m> hours, how can she calculate how long she has for geography?</p></statement>
-<answer><p>Subtract the time for math from 4 hours.</p></answer></exercise>
+    <li>Katrin has 4 hours to complete both her math and geography homework.  If her math assignment takes <m>2\dfrac{1}{2}</m> hours, how can she calculate how long she has for geography?</li>
 
-<exercise number="6"><statement><p>The cost of leasing a compact car is 63% the cost of a luxury car.  If the lease on the luxury car is $500 per month, how can you find the cost of leasing the compact car?</p></statement>
-<answer><p>Multiply the cost of the luxury car by 0.63.</p></answer></exercise>
-</exercisegroup>
-</exercises>
+    <li>The cost of leasing a compact car is 63% the cost of a luxury car.  If the lease on the luxury car is $500 per month, how can you find the cost of leasing the compact car?</li>
+</ol></p></statement>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1.">
+<answer>
+<p><ol marker="1.">
     <li>Subtract 16 from the outside temperature.</li>
     <li>Multiply the amount of soda by 3.</li>
     <li>Add 2 feet to the distance between the poles.</li>
     <li>Divide the weight of the bridge by 8.</li>    
     <li>Subtract the time for math from 4 hours.</li>    
-    <li>Multiply the cost of the luxury car by 0.63.</li></ol></p>
-</subsubsection>
-</subsection></theorem>
+    <li>Multiply the cost of the luxury car by 0.63.</li>
+</ol></p></answer>
+</problem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
@@ -310,9 +297,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
 <p>The graph shows the U.S. unemployment rate as a precent of the labor force during the years surrounding the Great Depression.</p>
     <!--<image source="photos/act1-1-1.png"><description>graph</description></image>-->
-    <image xml:id="act1-1-1" width="95%">
-            <description>graph</description>
-            <latex-image>
+    <image xml:id="act1-1-1" width="95%"><description>graph</description><latex-image>
             <![CDATA[
             \begin{tikzpicture} [xscale=1, yscale=.3]
             \draw[gray] (0,0) grid (13,25);
@@ -327,8 +312,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
             \node[left, xshift=-1, rotate=90 ] at (-1.,18.5) {Unemployment Rate};
             \node at (6,27) {\Large U.S. Unemployment Rate};
             \end{tikzpicture}]]>
-            </latex-image>
-    </image>
+            </latex-image></image>
 <p><ol marker="a.">
     <li>What was the unemployment rate in 1930?</li>
     <li>When did the unemployment rate first reach 15%?</li>
@@ -414,7 +398,8 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell bottom="minor"><m>60.4</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
-        <li>During which year did the number of unemployed workers increase the most?</li></ol></p></activity>
+        <li>During which year did the number of unemployed workers increase the most?</li>
+    </ol></p></activity>
 
 <activity><title>Writing Mathematical Sentences</title><idx>mathematical sentence</idx>
 
@@ -457,9 +442,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
     <li>Let <m>p</m> stand for the amount of Barry's paycheck and <m>k</m> for the amount he keeps. Write an equation for <m>k</m> in terms of <m>p</m>.</li>
     <li><p>Plot the points from the table and connect them with a smooth curve.</p>
             <!--<image source="photos/act1-1-2.png"><description>graph</description></image>-->
-            <image xml:id="act1-1-2-1" width="70%">
-            <description>grid</description>
-            <latex-image>
+            <image xml:id="act1-1-2-1" width="70%"><description>grid</description><latex-image>
             <![CDATA[
             \begin{tikzpicture} [scale=.3]
             \draw[cyan] (0,0) grid (15,15);
@@ -472,8 +455,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
             \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
             }
             \end{tikzpicture}]]>
-            </latex-image>
-            </image></li>
+            </latex-image></image></li>
     </ol></p></li>
 
 <li><p>Liz makes $6 an hour as a tutor in the Math Lab. Her wages for the week depend on the number of hours she works.  Fill in the table:</p>
@@ -513,9 +495,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
     <li>Let <m>h</m> stand for the number of hours Liz worked and <m>w</m> for her wages. Write an equation for <m>w</m> in terms of <m>h</m>.</li>
     <li><p>Plot the points from the table and connect them with a smooth curve.</p>
             <!--<image source="photos/act1-1-3.png"><description>graph</description></image>-->
-            <image xml:id="act-1-1-2-2" width="80%">
-                    <description>grid</description>
-                    <latex-image>
+            <image xml:id="act-1-1-2-2" width="80%"><description>grid</description><latex-image>
                     <![CDATA[
                     \begin{tikzpicture} [xscale=.4, yscale=.5]
                     \draw[cyan] (0,0) grid (15,10);
@@ -531,8 +511,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                     \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
                     }
                     \end{tikzpicture}]]>
-                    </latex-image>
-            </image></li>
+                    </latex-image></image></li>
     </ol></p></li></ol></p>
 </activity>
 
@@ -552,14 +531,13 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
     <li>In Activity 2, is the first row of the table plotted on the horizontal axis or the vertical axis?</li></ol></p>
 </assemblage>
 </subsubsection>
-</subsection>
 
-<subsection><algorithm>
-<exercises>
-<exercisegroup cols="2"><introduction><p>Write an equation for <m>y</m> in terms of <m>x</m>.</p></introduction>
+<activity><title>Homework Preview</title>
+    <p><ol label="A.">
+   <li> <introduction><p>Write an equation for <m>y</m> in terms of <m>x</m>.</p></introduction>
 
-<exercise number="1"><statement><p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<p><ol marker="1." cols="2">
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>~1~</m></cell>
@@ -572,10 +550,9 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell><m>10</m></cell>
                         <cell><m>13</m></cell>
                         <cell><m>16</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise number="2"><statement><p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>~6~</m></cell>
@@ -588,10 +565,9 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell><m>2</m></cell>
                         <cell><m>4</m></cell>
                         <cell><m>5</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise number="3"><statement><p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>~5~</m></cell>
@@ -604,10 +580,9 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell><m>~5~</m></cell>
                         <cell><m>~6~</m></cell>
                         <cell><m>~8~</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise number="4"><statement><p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>~1~</m></cell>
@@ -620,10 +595,9 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell><m>12</m></cell>
                         <cell><m>20</m></cell>
                         <cell><m>28</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise number="5"><statement><p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>~2~</m></cell>
@@ -636,10 +610,9 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell><m>8</m></cell>
                         <cell><m>6</m></cell>
                         <cell><m>3</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise number="6"><statement><p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>~4~</m></cell>
@@ -652,14 +625,12 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                         <cell><m>6</m></cell>
                         <cell><m>8</m></cell>
                         <cell><m>15</m></cell></row>
-                    </tabular></p></statement></exercise>
-</exercisegroup>
+                    </tabular></li>
+</ol></p></li>
 
-<exercisegroup><introduction><p>Matt wants to travel 240 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours. Use the graph to answer the questions.</p>
+<li><introduction><p>Matt wants to travel 240 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours. Use the graph to answer the questions.</p>
         <!--<image source="photos/act1-1-4.png"><description>graph</description></image>-->
-        <image xml:id="prev-1-1-7" width="80%">
-        <description>curve</description>
-        <latex-image>
+        <image xml:id="prev-1-1-7" width="80%"><description>curve</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[xscale=.6,yscale=.4]
         \draw[cyan] (0,0) grid (15,15);
@@ -675,34 +646,40 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
         }
         \draw[samples=65,domain={8/5}:{15},smooth,variable=\x,magenta!70!black, very thick, <->, >=stealth'] plot (\x,{24/\x});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
+        </latex-image></image>
 </introduction>
 
-<exercise number="7"><statement><p>If Matt can ride at an average speed of 15 miles per hour, how long will the trip take?</p></statement></exercise>
+<p><ol marker="1.">
 
-<exercise number="8"><statement><p>If Matt wants to arrive in 8 hours, what average speed will he need to maintain?</p></statement></exercise>
+    <li>If Matt can ride at an average speed of 15 miles per hour, how long will the trip take?</li>
 
-<exercise number="9"><statement><p>How long will the trip take if Matt drives at 60 miles per hour?</p></statement>
-</exercise>
+    <li>If Matt wants to arrive in 8 hours, what average speed will he need to maintain?</li>
 
-<exercise number="10"><statement><p>If Matt doubles his speed, what happens to his travel time?</p></statement>
-</exercise>
-</exercisegroup>
-</exercises>
+    <li>How long will the trip take if Matt drives at 60 miles per hour?</li>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
+    <li>If Matt doubles his speed, what happens to his travel time?</li>
+</ol></p></li>
+</ol></p>
+
+<p>Answers to Homework Preview</p>
+<p><ol marker="A.">
+<li><p><ol marker= "1." cols="3">
     <li><m>y=x+8</m></li>
     <li><m>y=x \div 6</m></li>
     <li><m>y=x-2</m></li>
     <li><m>y=4 \times x</m></li>
     <li><m>y=12-x</m></li>
     <li><m>y=\dfrac{3}{4} \times x</m></li>
+</ol></p></li>
+<li><p><ol marker="1." cols="2">
     <li>16 hrs</li>
     <li>30 mph</li>
-    <li>4 hrs</li></ol></p>
-    <p>10. Travel time is cut in half</p>
-</subsubsection></algorithm>
+    <li>4 hrs</li>
+    <li>10. Travel time is cut in half</li>
+</ol></p></li>
+</ol></p>
+</activity>
+
 </subsection>
 
 <xi:include href="./hmwk-1-1.xml" />

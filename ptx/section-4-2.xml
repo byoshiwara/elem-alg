@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Systems-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations</title><idx><h>system of linear equations</h></idx>
-<idx><h>system of linear equations</h><seealso>system of equations</seealso></idx>
+<section xml:id="Systems-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Systems of Linear Equations</title>
+    <idx><h>system of linear equations</h></idx>
+    <idx><h>system of linear equations</h><seealso>system of equations</seealso></idx>
 
 <subsection><title>What is a System of Equations?</title>
 
@@ -61,9 +63,9 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 <p>In <xref ref="Example-4-2-2" text="type-global"/> we found an ordered pair, <m>(50,1300)</m>,that makes both equations true.</p>
 
 <assemblage><title>Solution to a System</title>
-<idx><h>system of linear equations</h><h>solution</h></idx>
-<idx><h>solution</h><h>to a system of equations</h></idx>
-    <p>A <term>solution</term> to a system of equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system.</p></assemblage>
+    <idx><h>system of linear equations</h><h>solution</h></idx>
+    <idx><h>solution</h><h>to a system of equations</h></idx>
+<p>A <term>solution</term> to a system of equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system.</p></assemblage>
 
 <p>To check whether <m>(50,1300)</m> is really a solution of the system, we substitute the coordinates into each equation.
       <md><mrow>S \amp = 6t+1000 \amp\amp \text{Does}~~~\alert{1300} = 6(\alert{50})+1000?~~~~~~\blert{\text{True}}</mrow>
@@ -72,6 +74,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 
 <exercise number="1"><statement><p>What is a solution to a system of equations?</p></statement>
     	<answer><p>An ordered pair that satisfies each equation in the system.</p></answer></exercise>
+
 <exercise number="2"><statement><p>Decide whether the ordered pair <m>(2,3)</m> is a solution to the system
     		<md><mrow>3x-4y=-6</mrow>
 				<mrow>x+2y=-4</mrow></md></p></statement>
@@ -79,7 +82,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 </subsection>
 
 <subsection><title>Solving a System of Equations by Graphing</title>
-<idx><h>system of equations</h><h>solve by graphing</h></idx>
+    <idx><h>system of equations</h><h>solve by graphing</h></idx>
 
 <p>The solution of a system satisfies both equations in the system, so the point that represents the solution must lie on both graphs. It is the intersection point of the two lines described by the system. Thus, we can solve a system of equations by graphing the equations and looking for the point (or points) where the graphs intersect.</p>
 
@@ -118,10 +121,10 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
-<idx><h>system of equations</h><h>inconsistent</h></idx>
-<idx><h>inconsistent system of equations</h></idx>
-<idx><h>system of equations</h><h>dependent</h></idx>
-<idx><h>dependent system of equations</h></idx>
+    <idx><h>system of equations</h><h>inconsistent</h></idx>
+    <idx><h>inconsistent system of equations</h></idx>
+    <idx><h>system of equations</h><h>dependent</h></idx>
+    <idx><h>dependent system of equations</h></idx>
 
 <example xml:id="Example-4-2-4"><statement><p>Delbert and Francine are also shopping for homeowners insurance. HomeLife offers a policy for semiannual premiums of $408, or they can join a co-op for $50 and pay just $68 per month for comparable coverage. Which option is less expensive in the long run?</p></statement>
 
@@ -151,7 +154,8 @@ because a semiannual premium covers 6 months. The solution of the system represe
         \draw[blue, thick, ->,>=stealth'] (0,0)--(12,{68*12/100}) node[below right]{$ H $};
         \end{tikzpicture}]]></latex-image></image>
 
-<p>As you can see, the two lines are parallel, so the graphs do not intersect. This system has no solution. There is no point where the two policies cost the same amount; the HomeLife policy is always less expensive.</p></solution></example>
+<p>As you can see, the two lines are parallel, so the graphs do not intersect. This system has no solution. There is no point where the two policies cost the same amount; the HomeLife policy is always less expensive.</p>
+</solution></example>
 
 <p>In <xref ref="Example-4-2-4" text="type-global"/>, the two graphs never intersect, so the system has no solution. Such a system is called <term>inconsistent</term><idx><h>system of equations</h><h>inconsistent</h></idx>
 <idx><h>inconsistent system of equations</h></idx>
@@ -188,8 +192,7 @@ Its graph is shown below.</p>
 	<md><mrow>6x-3y \amp = -6 \amp\amp \blert{\text{Add}~3y~\text{and 6 to both sides.}}</mrow>
         <mrow>6x+6 \amp = 3y \amp\amp \blert{\text{Divide both sides by 3.}}</mrow>
         <mrow>2x+2 \amp = y</mrow></md>            
-The second equation is the same as the first equation. A system in which the two equations are equivalent is called <term>dependent</term><idx><h>system of equations</h><h>dependent</h></idx><idx><h>dependent system of equations</h></idx>
-. A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
+The second equation is the same as the first equation. A system in which the two equations are equivalent is called <term>dependent</term><idx><h>system of equations</h><h>dependent</h></idx><idx><h>dependent system of equations</h></idx>. A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
 
 <p>We have now seen three types of systems. These are illustrated in the figure below. Most of the systems we will study have exactly one solution. Such systems are called <term>consistent and independent</term><idx>consistent and independent</idx>.</p>
     <sidebyside width="100%"><!--<image source="photos/fig-4-2-1.png"><description>graph</description></image>-->
@@ -240,21 +243,23 @@ The second equation is the same as the first equation. A system in which the two
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <assemblage><title>Systems of Linear Equations</title>
-<idx><h>system of equations</h><h>inconsistent</h></idx>
-<idx><h>inconsistent system of equations</h></idx>
-<idx><h>system of equations</h><h>dependent</h></idx>
-<idx><h>dependent system of equations</h></idx>
-<idx><h>system of equations</h><h>consistent and independent</h></idx>
-<idx><h>consistent system of equations</h></idx>
-<idx><h>independent system of equations</h></idx>
-  <p><ol marker="1.">
+    <idx><h>system of equations</h><h>inconsistent</h></idx>
+    <idx><h>inconsistent system of equations</h></idx>
+    <idx><h>system of equations</h><h>dependent</h></idx>
+    <idx><h>dependent system of equations</h></idx>
+    <idx><h>system of equations</h><h>consistent and independent</h></idx>
+    <idx><h>consistent system of equations</h></idx>
+    <idx><h>independent system of equations</h></idx>
+<p><ol marker="1.">
 	<li><term>Consistent and independent system.</term> The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</li>  
 	<li><term>Inconsistent system.</term> The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</li>
-	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li></ol></p></assemblage>
+	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li>
+</ol></p></assemblage>
 
 <exercise number="4"><statement><p>What does the graph of an inconsistent system look like? How many 
 	solutions does it have?</p></statement>
     	<answer><p>Parallel lines; no solutions</p></answer></exercise>   
+
 <exercise number="5"><statement><p>What does the graph of a dependent system look like? How many solutions does it have?</p></statement>
     	<answer><p>A single line; infinitely many solutions</p></answer></exercise>
 </subsection>
@@ -309,39 +314,34 @@ Their graphs are shown below. </p>
         \end{tikzpicture}]]></latex-image></image>
 
 <p>The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>x=3.5</m> and <m>y=10.5</m> are a solution to the system by checking that these values make both equations true.</p> 
-<p><term>Step 4</term> The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p></solution></example>
+<p><term>Step 4</term> The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p>
+</solution></example>
 
 <exercise number="6"><statement><p>When might you use a system of equations to solve an applied problem?</p></statement>
     	<answer><p>When the problem involves two or more unknown quantities</p></answer></exercise>
-</subsection>
 
-<subsection xml:id="Skills-Warm-Up-4-2"><theorem>
-<exercises>
-<exercisegroup><introduction><p>Write algebraic expressions to answer the questions.</p></introduction>
+<problem>
+<p>Write algebraic expressions to answer the questions.</p>
 
-<exercise number="1"><statement><p>How much interest is earned after 2 years on <m>d+50</m> dollars at 6% annual interest rate?</p></statement></exercise>
+<p><ol marker="1.">
+    <li><p>How much interest is earned after 2 years on <m>d+50</m> dollars at 6% annual interest rate?</p></li>
+    <li><p>How much manganese is there in <m>8-z</m> grams of an alloy that is 35% manganese?</p></li>
+    <li><p>How far will a boat travel in 2 hours at a speed of <m>r+3</m> miles per hour?</p></li>
+    <li><p>How far will a train moving at 40 miles per hour travel in <m>3+x</m> hours?</p></li>
+    <li><p>A small plane has a top airspeed of <m>v</m> miles per hour. How far can the plane travel in 5 hours against a headwind of 15 miles per hour?</p></li>
+    <li><p>A fishing boat has a top speed in still water of 26 miles per hour. How far can the boat travel downstream in 3 hours if the speed of the current is <m>w</m> miles per hour?</p></li>
+</ol></p>
 
-<exercise number="2"><statement><p>How much manganese is there in <m>8-z</m> grams of an alloy that is 35% manganese?</p></statement></exercise>
-
-<exercise number="3"><statement><p>How far will a boat travel in 2 hours at a speed of <m>r+3</m> miles per hour?</p></statement></exercise>
-
-<exercise number="4"><statement><p>How far will a train moving at 40 miles per hour travel in <m>3+x</m> hours?</p></statement></exercise>
-
-<exercise number="5"><statement><p>A small plane has a top airspeed of <m>v</m> miles per hour.  How far can the plane travel in 5 hours against a headwind of 15 miles per hour?</p></statement></exercise>
-
-<exercise number="6"><statement><p>A fishing boat has a top speed in still water of 26 miles per hour.  How far can the boat travel downstream in 3 hours if the speed of the current is <m>w</m> miles per hour?</p></statement></exercise>
-</exercisegroup>
-</exercises>
-
-<subsubsection><title>Answers to Skills Warm-Up</title>
+<answer>
 <p><ol marker="1." cols="2">
     <li><m>0.12(d+50)</m></li>
     <li><m>0.35(8-z)</m></li>
     <li><m>2(r+3)</m></li>
     <li><m>40(3+x)</m></li>
     <li><m>5(v-15)</m></li>
-    <li><m>3(26+w)</m></li></ol></p>
-</subsubsection></theorem>
+    <li><m>3(26+w)</m></li>
+</ol></p>
+</answer></problem>
 </subsection>
 
 <subsection><title>Lesson</title>
@@ -352,7 +352,9 @@ Their graphs are shown below. </p>
 
 <p>From her two best pictures, she obtains the following information. <ul>
     <li>The total weight of three thrushes and six robins is 48 ounces, and</li>
-    <li>The total weight of five thrushes and two robins is 32 ounces.</li></ul></p> 
+    <li>The total weight of five thrushes and two robins is 32 ounces.</li>
+</ul></p> 
+
 <p><ol marker="a.">
     <li><p>Begin by assigning variables to the two unknown quantities:
         <md><mrow>\blert{\text{Average weight of a thrush:}~~t}</mrow>
@@ -413,7 +415,8 @@ Their graphs are shown below. </p>
 <sidebyside widths="55% 40%"><p><ol marker="a.">
     <li>Write an equation about the cost of the books.</li>
     <li>Write a second equation about the number of each type of book.</li>
-    <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
+    <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li>
+</ol></p> 
     <!--<image source="photos/act-4-2-2.png"><description>graph</description></image>-->
     <image xml:id="act-4-2-2"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -437,15 +440,17 @@ Their graphs are shown below. </p>
 
 <p>Robert and Ruth are moving from Los Angeles to Baltimore. Robert is driving a rental truck at an average speed of 50 miles per hour. Ruth leaves one day later in their car, and averages 65 miles per hour. When Ruth set out, Robert had already traveled 300 miles. When will Ruth catch up with Robert?</p>
 
-<exercises>
-<exercise><statement><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.<ol marker="a.">  
+<p><ol marker="1.">
+<li><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.</p>
+<p><ol marker="a.">  
     <li>Ruth travels at 65 miles per hour, so an equation for the distance she has traveled is
         <me>\blert{\text{Ruth's distance:}}~~~d = </me></li>                              
     <li>Robert's speed is 50 miles per hour, but he has already traveled 300 miles when Ruth starts, so his distance is given by
         <me>\blert{\text{Robert's distance:}}~~~d = </me></li>                          
-    <li>Together, the two equations form a system:</li></ol></p></statement></exercise>
+    <li>Together, the two equations form a system:</li>
+</ol></p></li>
 
-<exercise><statement><p>Next, we graph both equations on the same axes.</p>
+<li><p>Next, we graph both equations on the same axes.</p>
     <sidebyside widths="50% 50%" valigns="middle middle">
     <p><ol marker="a.">
     <li><p>To graph the equation for Ruth's distance, plot a few points.</p><p></p>
@@ -482,16 +487,15 @@ Their graphs are shown below. </p>
          \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         } 
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-    </statement></exercise>
+        </latex-image></image></sidebyside></li>
 
-<exercise><statement><p>Finally, we interpret the solution.<ol marker="a.">
+<li><p>Finally, we interpret the solution.<ol marker="a.">
     <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
     <li>What does the <m>d</m>-coordinate of the point tell you?</li>
-    <li>Verify that the intersection point is a solution of both equations in the system.</li></ol></p></statement>
-</exercise>
+    <li>Verify that the intersection point is a solution of both equations in the system.</li>
+</ol></p></li>
 
-<exercise><statement><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.</p>
+<li><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.</p>
     <sidebyside  widths="50% 45%" valigns="middle middle">
     <p><ol marker="a.">  
     <li><p>Write a system of equations for this problem:</p>        
@@ -500,10 +504,9 @@ Their graphs are shown below. </p>
     <li>Graph the equations on the grid.</li>  
     <li>What is the solution of this system? What is this type of system called?</li>
     </ol></p>
-    <image source="photos/act-4-2-3"><description>graph</description></image></sidebyside>
-</statement></exercise>
+    <image source="photos/act-4-2-3"><description>graph</description></image></sidebyside></li>
 
-<exercise><statement><p><ol marker="a.">
+<li><p><ol marker="a.">
     <li><p>Graph the system of equations.
         <md><mrow>3x \amp = 2y+6</mrow>
             <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
@@ -526,9 +529,8 @@ Their graphs are shown below. </p>
             \end{tikzpicture}]]>
             </latex-image></image></li>
     <li>Is the system inconsistent or dependent?</li>
-    </ol></p>
-    </statement></exercise>
-</exercises>
+    </ol></p></li>
+</ol></p>
 </activity>
 
 <subsubsection><title>Wrap-Up</title>
@@ -549,34 +551,32 @@ Their graphs are shown below. </p>
     <li>In Activity 3, how much did the manager spend on hardback books?  How much on paperback books?</li>
 </ol></p></assemblage>
 </subsubsection>
-</subsection>
 
-<subsection><algorithm>
+<activity><title>Homework Preview</title>
 
-<exercises>
-<exercise><statement><p>Is <m>(-3,5)</m> a solution of the system?
-    <md><mrow>2x+3y \amp = 9</mrow>
-        <mrow>2x-y \amp = 1</mrow></md>
-Explain how you know.</p></statement></exercise>
+<p><ol marker="1.">
+    <li><p>Is <m>(-3,5)</m> a solution of the system?
+        <md><mrow>2x+3y \amp = 9</mrow>
+            <mrow>2x-y \amp = 1</mrow></md>
+        Explain how you know.</p></li>
 
-<exercise><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p>Solve the system by graphing.
-    <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
-        <mrow>2x-3y=12</mrow></md>
-Hint:  Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
-    <image source="photos/stangrid10"><description>grid</description></image></sidebyside>
-</statement></exercise>
+    <li><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%">
+        <p>Solve the system by graphing.
+            <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
+                <mrow>2x-3y=12</mrow></md>
+            Hint: Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
+    <image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
 
-<exercise><statement><p>Write a system of equations for the problem:</p>
-    <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p>
-</statement></exercise>
+    <li><p>Write a system of equations for the problem:</p>
+    <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p></li>
 
-<exercise><statement><p>Decide whether the system is inconsistent or dependent.
-    <md><mrow>6x-4y \amp = 8</mrow>
-        <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p>
-</statement></exercise>
-</exercises>
+    <li><p>Decide whether the system is inconsistent or dependent.
+        <md><mrow>6x-4y \amp = 8</mrow>
+            <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="2">
+<p>Answers to Homework Preview</p>
+<p> <ol marker= "1." cols="2">
     <li>No</li>
     <li><m>(3,-2)</m></li>
     <li><p><m>
@@ -585,8 +585,8 @@ Hint:  Graph the first equation by the slope-intercept method, and the second eq
         y \amp = \dfrac{1}{2}x+3
         \end{aligned}
     </m></p></li>
-    <li>Inconsistent</li></ol></p></subsubsection>
-</algorithm>
+    <li>Inconsistent</li></ol></p>
+</activity>
 </subsection>
 
 <xi:include href="./hmwk-4-2.xml" />

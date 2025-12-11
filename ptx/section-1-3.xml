@@ -2,15 +2,15 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Equations-and-Graphs"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations and Graphs</title>
-<idx><h>graph</h></idx><idx><h>graphing</h><see>graph</see></idx>
+    <idx><h>graph</h></idx><idx><h>graphing</h><see>graph</see></idx>
     
 <subsection><title>Anatomy of a Graph</title>
-<idx><h>graph</h></idx>
+    <idx><h>graph</h></idx>
 
 <p>We use equations to express the relationship between two variabes. A graph is a way of visualizing an equation.</p>
 
 <assemblage><title>Graph of an Equation</title>
-<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
+    <idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <p>A graph has two <term>axes</term><idx><h>axis</h></idx>, horizontal and vertical, and the values for the variables are displayed along the axes.</p>
 <p><ul>
     <li>The first, or <term>input</term><idx><h>input</h><h>variable</h></idx>, variable is displayed on the horizontal axis. <idx><h>horizontal axis</h><see><m>x</m>-axis</see></idx></li>
@@ -21,9 +21,7 @@
 
 <example xml:id="Example-1-3-1"><statement><p>The graph below shows the relationship between Delbert's age, <m>D</m>, and Francine's age, <m>F</m>.  Write an equation for Francine's age in terms of Delbert's age.</p>
 	<!--<image source="photos/fig-1-3-ex1.png"/>-->
-    <image xml:id="fig-1-3-ex1" width="55%">
-        <description>Relationship between Delbert's and Francine's ages</description>
-        <latex-image>
+    <image xml:id="fig-1-3-ex1" width="55%"><description>Delbert's and Francine's ages</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=0.5]
         \draw[cyan] (0,0) grid (10,15);
@@ -61,40 +59,50 @@
                         <cell><m>10</m></cell>
                         <cell><m>13</m></cell></row>
                     </tabular></sidebyside>
-<p>From the table, we see that the value of <m>F</m> is always 4 more than the value of <m>D</m>. Thus, Francine is exactly four years older than Delbert, or <m>F=D+4</m>.</p></solution></example>
+<p>From the table, we see that the value of <m>F</m> is always 4 more than the value of <m>D</m>. Thus, Francine is exactly four years older than Delbert, or <m>F=D+4</m>.</p>
+\</solution></example>
 
 
 <exercise number="1"><statement><p>A <fillin characters="6"/> is a way of visualizing an algebraic equation.</p></statement>
-		<answer><p>graph</p></answer></exercise>
+		<answer><p>graph</p></answer>
+</exercise>
+
 <exercise number="2"><statement><p>The values of the variables are displayed on the <fillin characters="6"/>.</p></statement>
-		<answer><p>axes</p></answer></exercise>
+		<answer><p>axes</p></answer>
+</exercise>
+
 <exercise number="3"><statement><p>The input variable is located on the <fillin characters="6"/> axis.</p></statement>
-		<answer><p>horizontal</p></answer></exercise>
+		<answer><p>horizontal</p></answer>
+</exercise>
 
 <p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in <xref ref="Example-1-3-1" text="type-global"/> has horizontal coordinate 3 and vertical coordinate 7.</p>
 
 <assemblage><title>Ordered pair</title>
-<idx><h>ordered pair</h></idx>
+    <idx><h>ordered pair</h></idx>
 <p>In the Example above, we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
 
 
 <exercise number="4"><statement><p>The position of a point on the graph is given by its <fillin characters="6"/>.</p></statement>
 		<answer><p>coordinates</p></answer></exercise>
+
 <exercise number="5"><statement><p>The notation <m>(x,y)</m> is called <fillin characters="6"/>.</p></statement>
-		<answer><p>an ordered pair</p></answer></exercise>
+		<answer><p>an ordered pair</p></answer>
+    </exercise>
+
 <exercise number="6"><statement><p>In an ordered pair, we always list the <fillin characters="6"/> coordinate first.</p></statement>
-		<answer><p>horizontal</p></answer></exercise>
+		<answer><p>horizontal</p></answer>
+</exercise>
 
 <assemblage><title>Look Closer</title>
-<p>How does the graph illustrate the equation <m>F=D+4</m>?</p>
-<p>The coordinates of each point on the graph are values for <m>D</m> and <m>F</m> that make the equation true.</p> 
-<p>The coordinates of the point <m>P</m>, namely <m>D=\alert{3}</m> and <m>F=\alert{7}</m>, represent the fact that when Delbert was 3 years old, Francine was 7 years old. If we substitute these values into our equation we get
-	<md><mrow>F \amp = D+4</mrow>
-        <mrow>\alert{7} \amp = \alert{3}+4</mrow></md>
+    <p>How does the graph illustrate the equation <m>F=D+4</m>?</p>
+    <p>The coordinates of each point on the graph are values for <m>D</m> and <m>F</m> that make the equation true.</p> 
+    <p>The coordinates of the point <m>P</m>, namely <m>D=\alert{3}</m> and <m>F=\alert{7}</m>, represent the fact that when Delbert was 3 years old, Francine was 7 years old. If we substitute these values into our equation we get
+	   <md><mrow>F \amp = D+4</mrow>
+            <mrow>\alert{7} \amp = \alert{3}+4</mrow></md>
 which is true.</p></assemblage>
 
 <assemblage><title>Solution of an equation</title>
-<idx><h>solution</h><h>to an equation in two variables</h></idx>
+    <idx><h>solution</h><h>to an equation in two variables</h></idx>
 <p>An ordered pair that makes an equation true is called a <term>solution</term> of the equation. Each point on the graph represents a solution of the equation.</p></assemblage>
     
 <question><p><ol marker="a.">
@@ -103,17 +111,19 @@ which is true.</p></assemblage>
 </ol></p></question> 
 
  <exercise number="7"><statement><p>An ordered pair whose coordinates make the equation true is called a <fillin characters="6"/>  of the equation.</p></statement>
-    <answer><p>solution</p></answer></exercise>
+    <answer><p>solution</p></answer>
+</exercise>
 </subsection>
 
 <subsection><title>Graphing an Equation</title>
-<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
+    <idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <p>The simplest way to draw a graph for an equation is to make a table of values and plot the points.</p>
 
 <example><statement><p>Graph the equation  <m>y=8-x</m>.</p></statement>
 
 <solution><p>In this equation, <m>x</m> is the input variable and <m>y</m> is the output variable. We choose several values for <m>x</m> and use the equation to find the corresponding values for <m>y</m>.</p>
-    <sidebyside widths="35% 45%" margins="5% 5%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <sidebyside widths="35% 45%" margins="5% 5%" valigns="middle middle">
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Calculation</cell>
@@ -163,24 +173,26 @@ which is true.</p></assemblage>
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<p>Each ordered pair <m>(x,y)</m> represents a point on the graph of the equation. We plot the points on the grid and connect them with a smooth curve, as shown above.</p></solution></example>
+<p>Each ordered pair <m>(x,y)</m> represents a point on the graph of the equation. We plot the points on the grid and connect them with a smooth curve, as shown above.</p></solution>
+</example>
 </subsection>
 
 <subsection><title>Choosing Scales for the Axes</title>
-<idx><h>axis</h><h>choosing scale for</h></idx>
+    <idx><h>axis</h><h>choosing scale for</h></idx>
 <p>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</p>
 
 <assemblage><title>To graph an equation</title>
-<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
+    <idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <p><ol marker="1.">
     <li>Make a table of values.</li>
     <li>Choose scales for the axes.</li>
-    <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
+    <li>Plot the points and connect them with a smooth curve.</li>
+</ol></p></assemblage>
 
 <example><statement><p>Graph the equation  <m>~y=250+x</m>.</p></statement>
 
 <solution><p>To graph this equation, we choose multiples of 50 for the <m>x</m>-values.</p>
-<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Calculation</cell>
@@ -228,12 +240,11 @@ which is true.</p></assemblage>
 </solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>How do we know what scales to use on the axes?
-    <ul> 
+<p>How do we know what scales to use on the axes?<ul> 
     <li>For most graphs, it is best to have between ten and twenty tick marks on each axis, or the graph will be hard to read.</li> 
     <li>We choose intervals of convenient size for the particular problem, such as 5, 10, 25, 100, or 1000.</li>
     <li>It is not necessary to use the same scale on both axes.</li>
-    </ul></p></assemblage>
+</ul></p></assemblage>
 
 <warning><p>It is important that the scales on the axes be evenly spaced. Each tick mark must represent the same interval. The scales on the graph below are incorrectly labeled.</p>
 
@@ -257,11 +268,12 @@ which is true.</p></assemblage>
         \node[below] at (5,0) {50};
         \node[left] at (0,1) {100};
         \node[left] at (0,5) {200};
-        \end{tikzpicture}]]></latex-image></image></sidebyside></warning>
+        \end{tikzpicture}]]></latex-image></image>
+</sidebyside></warning>
 </subsection>
 
 <subsection><title>Solving Equations with Graphs</title>
-<idx><h>equation</h><h>solving</h><h>with graphs</h></idx>
+    <idx><h>equation</h><h>solving</h><h>with graphs</h></idx>
 
 <p>In <xref ref="Example-1-3-1" text="type-global"/> we showed a graph of the equation 
 	<me>F=D+4</me>
@@ -288,7 +300,8 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
 	<p>To verify the answer algebraically, we <term>solve</term> the equation when <m>F=13</m>: we subtract 4 from both sides of the equation:
 		<md><mrow>13 \amp = D+4  \amp\amp \blert{\text{Subtract 4 from both sides.}}</mrow>
             <mrow>\underline{\blert{-4}} \amp	~~~~~\underline{~~~~\blert{-4}}</mrow>
-            <mrow>9 \amp = D</mrow></md></p></li></ol></p></solution></example>
+            <mrow>9 \amp = D</mrow></md></p></li>
+</ol></p></solution></example>
 
 <example><statement><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
     <me>y=1.5x</me>
@@ -306,7 +319,8 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
          \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\y};
         }
         \draw [red, very thick]  (0,0) -- (10/3,5);
-        \end{tikzpicture}]]></latex-image></image></sidebyside></statement>
+        \end{tikzpicture}]]></latex-image></image>
+</sidebyside></statement>
 
  <solution><p>By comparing the equation of the graph with the equation we want to solve, we see that <m>y</m> has been replaced by <m>\alert{3.75}</m>. 
     <md><mrow>y \amp = 1.5x</mrow>
@@ -331,22 +345,23 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
         \draw[line width=0.8mm, cyan, dashed, dash pattern=on 9pt off 4pt] (2.5,3.75) -- (0,3.75) node[left, yshift=-2pt, text=cyan, scale=0.9] {3.75};
         \draw[cyan, fill=cyan] (2.5,3.75) circle(.75mm);
         \end{tikzpicture}]]></latex-image></image>
- The <m>x</m>-coordinate of this point is 2.5, so the ordered pair <m>(2.5, 3.75)</m> is a solution of the equation <m>y=1.5x</m>, and <m>x=2.5</m> is the solution of the equation <m>1.5x=3.75</m>.</p></solution></example>
+ The <m>x</m>-coordinate of this point is 2.5, so the ordered pair <m>(2.5, 3.75)</m> is a solution of the equation <m>y=1.5x</m>, and <m>x=2.5</m> is the solution of the equation <m>1.5x=3.75</m>.</p>
+</solution></example>
   
 <exercise number="8"><statement><p>The graph of an equation is a picture of its <fillin characters="6"/>.</p></statement>
-		<answer><p>solutions</p></answer></exercise>
+		<answer><p>solutions</p></answer>
+</exercise>
+
 <exercise number="9"><statement><p>To solve an equation using a graph, we start on the <fillin characters="6"/> axis.</p></statement>
-		<answer><p>vertical</p></answer></exercise>
+		<answer><p>vertical</p></answer>
+</exercise>
 
-<p>This is the end of the Reading portion of Section 1.3.  Now try the Skills Warm-Up before the next class meeting.</p>
-</subsection>
+<problem>
+<p><ol label="1.">
+    <li><p>What value corresponds to each labeled point?</p>
+    <p><ol label="a.">
 
-<theorem>
-<exercises>
-<exercisegroup>
-    <introduction><p>In Exercises 1<ndash/>2, what value corresponds to each labeled point?</p></introduction>
-
-<exercise number="1"><statement><!--<image source="photos/sw-1-3-1.png"/>-->
+    <li><!--<image source="photos/sw-1-3-1.png"/>-->
     <image xml:id="sw-1-3-1" width="85%"><description>numberline</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}  [scale=.7]
@@ -358,9 +373,9 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
         \foreach \x in {1,2,...,13} \draw[black,thick] ({\x-1/2},.12) --++(0,-.12);
         \filldraw[blue] (3.5,0) circle (1mm) node[above, yshift=2] {A};
         \filldraw[blue] (8.25,0) circle (1mm) node[above, yshift=2] {B};
-        \end{tikzpicture}]]></latex-image></image></statement></exercise>
+        \end{tikzpicture}]]></latex-image></image></li>
 
-<exercise number="2"><statement><!--<image source="photos/sw-1-3-2.png"/>-->
+    <li><!--<image source="photos/sw-1-3-2.png"/>-->
     <image xml:id="sw-1-3-2" width="85%"> <description>number line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.5]
@@ -371,10 +386,10 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
         \foreach \x in {2,4,...,20} \draw[black,thick] (\x,.2) --++(0,-.2);
         \filldraw[blue] (7,0) circle (1mm) node[above, yshift=2] {C};
         \filldraw[blue] (14,0) circle (1mm) node[above, yshift=2] {D};
-        \end{tikzpicture}]]></latex-image></image></statement></exercise>
-</exercisegroup>
+        \end{tikzpicture}]]></latex-image></image></li>
+    </ol></p></li>
 
-<exercise number="3"><statement><p><ol marker="a.">
+<li><p><ol marker="a.">
     <li><p>Label the axis by 1000's.</p> <!--<image source="photos/sw-1-3-3.png"/>-->
     <image xml:id="sw-1-3-3" width="85%"><description>number line</description><latex-image>
         <![CDATA[
@@ -383,9 +398,10 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
          \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
          \draw[black, thick] (10,.3) --++(0,-.35)  node[below]   {10,000};
         \end{tikzpicture}]]></latex-image></image></li>
-    <li>On the axis in part (a), plot 1400 and 8350.</li></ol></p></statement></exercise>
+    <li>On the axis in part (a), plot 1400 and 8350.</li>
+</ol></p></li>
 
-<exercise number="4"><statement><p><ol marker="a.">
+<li><p><ol marker="a.">
     <li><p>Label the axis below with 16 tick marks (not counting zero), the highest being 800.</p>
         <!--<image source="photos/sw-1-3-4.png"/>-->
     <image xml:id="sw-1-3-4" width="85%"><description>number line</description><latex-image>
@@ -394,22 +410,29 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
         \draw[black,thick, ->, >=stealth'] (0,0)--(16.5,0);
         \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
         \end{tikzpicture}]]></latex-image></image></li>
-    <li>On the axis in part (a), plot 132 and 614.</li></ol></p></statement></exercise>
+    <li>On the axis in part (a), plot 132 and 614.</li>
+</ol></p></li>
 
-<exercise number="5"><statement><p><ol marker="a.">
+<li><p><ol marker="a.">
     <li><p>Label an axis in increments of 40,000 from 0 to 600,000.</p>
         <sidebyside width="85%"><image source="photos/sw-1-3-4"/></sidebyside></li>
-    <li>On your axis, plot 250,000 and 472,600.</li></ol></p></statement></exercise>
+    <li>On your axis, plot 250,000 and 472,600.</li>
+</ol></p></li>
 
-<exercise number="6"><statement><p><ol marker="a.">
+<li><p><ol marker="a.">
     <li><p>Label an axis in increments of 0.5 from 0 to 5.</p>
         <sidebyside width="85%"><image source="photos/sw-1-3-4"/></sidebyside></li>
-    <li>On the axis in part (a), plot 1.3 and 3.77.</li></ol></p></statement></exercise>
-</exercises>
+    <li>On the axis in part (a), plot 1.3 and 3.77.</li>
+</ol></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1.">
+<answer>
+<p><ol marker="1.">
+    <li><ol marker="a.">
     <li><m>A: 350;~~B: 825</m></li>
     <li><m>700;~~1400</m></li>
+    </ol></li>
+    
     <li><image xml:id="sw-1-3-3ans" width="90%"><description>number line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} 
@@ -448,20 +471,22 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
         \foreach \x [evaluate=\x as \xi using int(\x/3)]  in {1.5,4.5,...,13.5} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi.5};
         \filldraw[blue] (3.9,0) circle (1mm) node[above, yshift=4, scale=.9] {1.3};
         \filldraw[blue] (11.31,0) circle (1mm) node[above, yshift=4, scale=.9] {3.77};
-        \end{tikzpicture}]]></latex-image></image></li></ol></p>
-</subsubsection>
-</theorem>
+        \end{tikzpicture}]]></latex-image></image></li>
+    </ol></p>
+</answer></problem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
 <activity><title>Making a Graph</title>
 
 <assemblage><title>To graph an equation</title>
-<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
+    <idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <p><ol marker="1.">
     <li>Make a table of values.</li>
     <li>Choose scales for the axes.</li>
-    <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
+    <li>Plot the points and connect them with a smooth curve.</li>
+</ol></p></assemblage>
 
 <p><ol marker="1.">
 <li><p>Laura takes her daughter Stefanie berry-picking at a local strawberry farm. Laura can pick three baskets of strawberries in the same time that Stefanie picks one basket.</p>
@@ -509,8 +534,8 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
          \draw[black, thick] (.1,\y) --++(-.2,0)  node[left] {\y};
         }                
         \end{tikzpicture}]]>
-        </latex-image></image>
-    </li></ol></p></li>
+        </latex-image></image></li>
+</ol></p></li>
 
 <li><p>Emily and Megan pledged to walk a total of 12 miles for their school's fundraising walkathon. Let <m>E</m> stand for the number of miles Emily walks, and <m>M</m> for the number of miles Megan walks.<ol marker="a.">
     <li>Write an equation for <m>E</m> in terms of <m>M</m>.</li> 
@@ -545,19 +570,19 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
          \draw[black, thick] (.1,\y) --++(-.2,0)  node[left] {\y};
         }
         \end{tikzpicture}]]>
-        </latex-image></image></p>
-    </li></ol></p></li>
+        </latex-image></image></p></li>
+    </ol></p></li>
 </ol></p></activity>
 
 <activity><title>Choosing Scales for the Axes</title>
-<idx><h>axis</h><h>choosing scale for</h></idx>
+    <idx><h>axis</h><h>choosing scale for</h></idx>
 
 <p><ol marker="1.">
 <li><p>Corey's truck holds 20 gallons of gasoline and gets 18 miles to the gallon.<ol marker="a."> 
     <li>Write an equation that relates the distance, <m>d</m>, that Corey can travel to the number of gallons of gas, <m>g</m>, in his truck.</li>  
     <li><p>Graph the equation.</p>
         <p>Step 1: Make a table of values. Choose values of <m>g</m> between 0 and 20, because Corey's truck holds 20 gallons of gas. Use the equation to calculate the values of <m>d</m>.</p>
-        <sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>g</m></cell>
             <cell><m>2</m></cell>
@@ -574,7 +599,7 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <p>Step 2: Choose scales for the axes: Use 10 grid lines on the horizontal axis. The length of each interval is 
             <me>20 \div 10 = <fillin characters="6"/> \text{units}</me>            
         so we scale the horizontal axis in intervals of 2. On the vertical axis, we use increments of 25 from 0 to 400, which gives us 16 grid lines.</p>
@@ -595,14 +620,14 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
              \draw[black, thick] (.1,\y) --++(-.2,0)  node[left] {\yi};
             }
             \end{tikzpicture}]]>
-            </latex-image></image>
-    </li></ol></p></li>
+            </latex-image></image></li>
+    </ol></p></li>
 
 <li><p>The Harris Aircraft company gave all its employees a 5% raise.<ol marker="a.">
     <li>Write an equation that expresses each employee's raise, <m>R</m>, in terms of his or her present salary, <m>S</m>.</li>
     <li><p>Graph the equation.</p>
         <p>Step 1: Complete a table of values.</p>
-            <sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>S</m></cell>
                         <cell><m>18,000</m></cell>
@@ -615,7 +640,7 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
         <p>Step 2: Choose scales for the axes and label them. (What are the largest values of <m>S</m> and <m>R</m> in your table?)</p>
         <p>Step 3: Plot the points and draw the graph.</p>
             <!--<image source="photos/act-1-3-4.png"><description>grid</description></image>-->
@@ -630,8 +655,9 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
          \draw[cyan, very thick] (0,\x) --++(20,0);
         }
         \end{tikzpicture}]]>
-        </latex-image></image>
-    </li></ol></p></li></ol></p>
+        </latex-image></image></li>
+    </ol></p></li>
+</ol></p>
 </activity>  
  
 <activity><title>Using a Graph</title>
@@ -685,20 +711,20 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
     <li>In Activity 3b, did we evaluate an expression or solve an equation?</li></ol></p>
 </assemblage>
 </subsubsection>
-</subsection>
 
-<algorithm>
-<exercises>
-<exercise number="1"><statement><p>Draw axes and label both scales by 5's, from 0 to 30.</p></statement></exercise>
+<activity><title>Homework Preview</title>
 
-<exercise number="2"><statement><p>Draw axes and label the horizontal scale by 25's, fom 0 to 200, and the vertical 
-scale by 200's, from 0 to 3000.</p></statement></exercise>
+<p><ol label="1.">
+    <li>Draw axes and label both scales by 5's, from 0 to 30.</li>
 
-<exercise number="3"><statement><sidebyside widths="55% 40%">
+    <li>Draw axes and label the horizontal scale by 25's, fom 0 to 200, and the vertical scale by 200's, from 0 to 3000.</li>
+
+    <li><sidebyside widths="55% 40%">
         <p><ol marker="a.">
     <li>What interval does each grid line represent on the horizontal axis? On the vertical axis?</li>
     <li><p>Plot the followng points on the grid:
-        <me>(0,500),~(20,1750),~(40,250)</me></p></li></ol></p>
+        <me>(0,500),(20,1750),(40,250)</me></p></li>
+        </ol></p>
         <!--<image source="photos/pre-1-3-1.png"><description>grid</description></image>-->
         <image xml:id="pre-1-3-1"><description>grid</description><latex-image>
         <![CDATA[
@@ -715,11 +741,9 @@ scale by 200's, from 0 to 3000.</p></statement></exercise>
          \draw[black, thick] (.1,\y) --++(-.2,0)  node[left] {\yi};
         }
         \end{tikzpicture}]]>
-        </latex-image>
-</image></sidebyside>
-    </statement></exercise>
+        </latex-image></image></sidebyside></li>
 
-<exercise number="4"><statement><sidebyside widths="55% 40%">
+    <li><sidebyside widths="55% 40%">
     <p><ol marker="a.">
     <li>What interval does each grid line represent on the horizontal axis? On the vertical axis?</li>
     <li>Find the coordinates of each point.</li></ol></p>
@@ -742,11 +766,11 @@ scale by 200's, from 0 to 3000.</p></statement></exercise>
         \filldraw[red] (3,3) circle (0.15cm) node[above, yshift=4, fill=white, inner sep = 0, text=red] {$B$};
         \filldraw[red] (7,6) circle (0.15cm) node[above, xshift=2,yshift=4, fill=white, inner sep = 0, text=red] {$C$};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-    </statement></exercise>
-</exercises>
+        </latex-image></image></sidebyside></li>
+    </ol></p>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1.">
+<p>Answers to Homework Preview</p> 
+    <p><ol marker= "1.">
     <li><!--<image source="photos/pre-1-3-3.png"><description>grid</description></image>-->
             <image xml:id="pre-1-3-3" width="40%"><description>grid</description><latex-image>
             <![CDATA[
@@ -801,8 +825,8 @@ scale by 200's, from 0 to 3000.</p></statement></exercise>
     <li><p>a. horizontal: 0.2; vertical: 20</p>
         <p>b. <m>A(0.2,160),~B(0.6,60),~C(1.4,120)</m></p></li>
 </ol></p>
-</subsubsection>
-</algorithm>
+</activity>
+</subsection>
 
 <xi:include href="./hmwk-1-3.xml" />
 </section>

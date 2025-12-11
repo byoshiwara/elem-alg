@@ -21,7 +21,7 @@
     <li><m>y=x^2-4</m></li>
 </ol></p>
     <!--<image source="photos/hp-6-4-4.png"><description>grid</description></image>-->
-    <image width="70%" xml:id="hp-6-4-4"><description>grid</description><latex-image>
+    <image width="80%" xml:id="hp-6-4-4"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-4) grid (4,12);
@@ -44,7 +44,7 @@
     <li><m>y=1-x^2</m></li>
 </ol></p>
     <!--<image source="photos/hp-6-4-5.png"><description>grid</description></image>-->
-    <image width="70%" xml:id="hp-6-4-5"><description>grid</description><latex-image>
+    <image width="80%" xml:id="hp-6-4-5"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \draw[cyan] (-4,-10) grid (4,6);
@@ -97,7 +97,7 @@
 
 <exercise number="7"><statement><p><m>y=(x+2)^2</m></p>
 	<!--<image source="photos/hp-6-4-7.png"><description>grid</description></image>-->
-    <image width="80%" xml:id="hp-6-4-7"><description>grid</description><latex-image>
+    <image width="90%" xml:id="hp-6-4-7"><description>grid</description><latex-image>
         <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (-5,-2) grid (5,14);
@@ -136,7 +136,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>y=(x-3)^2</m></p>
-	<image width="80%" source="photos/hp-6-4-7"><description>grid</description></image></statement></exercise>
+	<image width="90%" source="photos/hp-6-4-7"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12, <ol marker="a.">
@@ -147,7 +147,7 @@
 
 <exercise number="9"><statement><p><m>y=x^2+2x</m></p>
 	<!--<image source="photos/hp-6-4-9.png"><description>grid</description></image>-->
-    <image width="90%" xml:id="alt-grid5"><description>grid</description><latex-image>
+    <image width="100%" xml:id="alt-grid5"><description>grid</description><latex-image>
         <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (-5,-5) grid (5,5);
@@ -187,11 +187,11 @@
 </ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>y=x^2-2x-3</m></p>
-	<image width="90%" source="photos/alt-grid5"><description>grid</description></image></statement></exercise>
+	<image width="100%" source="photos/alt-grid5"><description>grid</description></image></statement></exercise>
 
 <exercise number="11"><statement><p><m>y=9-x^2</m></p>
 	<!--<image source="photos/hp-6-4-11.png"><description>grid</description></image>-->
-    <image width="90%" xml:id="hp-6-4-11"><description>grid</description><latex-image>
+    <image width="100%" xml:id="hp-6-4-11"><description>grid</description><latex-image>
         <![CDATA[
 		\begin{tikzpicture}[scale=.5]
 		\draw[cyan] (-5,-1) grid (5,9);
@@ -231,7 +231,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>y=-2x^2+12x-10</m></p>
-	<image width="90%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>14, <ol marker="a.">
@@ -244,7 +244,7 @@
 	<li><m>y=x^2-x-2</m></li>
 	<li><m>y=-x^2+x+2</m></li>
 </ol></p>
-	<image width="85%" source="photos/alt-grid5"><description>grid</description></image></statement>
+	<image width="95%" source="photos/alt-grid5"><description>grid</description></image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>(-1,0)</m>, <m>(2,0)</m>; <m>(-1,0)</m>, <m>(2,0)</m></p></li>
     <li><p><m>\left(\frac{1}{2},\frac{-9}{4} \right)</m>; <m>\left(\frac{1}{2},\frac{9}{4} \right)</m></p></li>
@@ -272,7 +272,7 @@
 	<li><m>y=x^2-2x-15</m></li>
 	<li><m>y=x^2+2x-15</m></li></ol></p>
 	<!--<image source="photos/hp-6-4-14.png"><description>grid</description></image>-->
-    <image width="85%" xml:id="hp-6-4-14"><description>grid</description><latex-image>
+    <image width="95%" xml:id="hp-6-4-14"><description>grid</description><latex-image>
         <![CDATA[
 		\begin{tikzpicture}[scale=.4]
 		\draw[cyan] (-8,-16) grid (8,2);

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Some-Quadratic-Models" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Some Quadratic Models</title>
+<section xml:id="Some-Quadratic-Models" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Some Quadratic Models</title>
 
 <subsection><title>Revenue</title>
-<idx><h>revenue</h></idx>
+    <idx><h>revenue</h></idx>
 
 <p>In this section we consider some applications that lead to quadratic equations. The first application involves revenue.</p>
 <p><term>Revenue</term> is the amount of money a company takes in from selling a product. To find the total revenue from the sale of a product, we multiply the price of one item by the number of items sold.</p>
@@ -19,11 +20,12 @@
 <assemblage><title>Look Ahead</title>
 <p>Usually, the number of items that consumers will buy depends on the price of the item: the higher a company sets the price, the fewer items it is likely to sell. How does a company's revenue depend upon the price it charges? A good way to study such a problem is to consider the graph of the equation for revenue.</p></assemblage>
 
-<example xml:id="Example-6-2-1"><statement><p>Rick works as a personal trainer at his gym. By experimenting with his fee, he discovers that if he charges <m>p</m> dollars per hour, he attracts <m>40-p</m> clients.<ol marker="a.">
+<example xml:id="Example-6-2-1"><statement><p>Rick works as a personal trainer at his gym. By experimenting with his fee, he discovers that if he charges <m>p</m> dollars per hour, he attracts <m>~40-p</m> clients.<ol marker="a.">
     <li>Write a quadratic equation for Rick's revenue, <m>R</m>, in terms of his fee, <m>p</m>.</li>
     <li>Graph your equation for <m>R</m>.</li>
     <li>What should Rick charge if he wants to make $300 revenue? How many clients will he attract?</li>
-    <li>Use your graph to find the fee Rick should charge in order to earn the largest possible revenue. How many clients will he attract at that fee?</li></ol></p></statement>
+    <li>Use your graph to find the fee Rick should charge in order to earn the largest possible revenue. How many clients will he attract at that fee?</li>
+</ol></p></statement>
 
 <solution><p><ol marker="a.">
     <li><p>Rick's revenue is given by
@@ -69,8 +71,8 @@
         }
         \draw[samples=65,domain=0:8,smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{8-.5*(\x-4)^2});
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
-    <li>There are two points on the graph with <m>p</m>-coordinate 300. Those points have <m>p</m>-coordinates 10 and 30.  If Rick charges $10 per hour, he will attract <m>40-10=30</m> clients, and if he charges $30 per hour, he will attract <m>40-30=10</m> clients. In either case, his revenue will be $300.</li> 
-    <li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>40-20=20</m> clients at that price.</li>
+    <li>There are two points on the graph with <m>p</m>-coordinate 300. Those points have <m>p</m>-coordinates 10 and 30.  If Rick charges $10 per hour, he will attract <m>~40-10=30~</m> clients, and if he charges $30 per hour, he will attract <m>~40-30=10~</m> clients. In either case, his revenue will be $300.</li> 
+    <li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>~p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>~40-20=20~</m> clients at that price.</li>
 </ol></p></solution></example>
 
 <exercise number="1"><statement><p>State a formula for calculating revenue.</p></statement>
@@ -80,13 +82,15 @@
 <p>In <xref ref="Example-6-2-1" text="type-global"/> we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
 	<me>R=p(40-p)=40p-p^2</me>
 The graph of this equation is shown again below. </p>
-<sidebyside widths="55% 40%"><stack><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>p=0,~R=0</m>.</p>
+
+<sidebyside widths="55% 40%"><stack><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>~p=0,~R=0</m>.</p>
 <p>But there is another point on the graph where <m>R=0</m>;  it has <m>p</m>-coordinate <m>40</m>. If Rick charges 40 dollars an hour, he will not earn any revenue. (Why does this happen?)</p></stack>
-<image source="photos/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
+<image source="photos/fig-6-2-ex1"><description>parabola</description></image></sidebyside>
+</assemblage>
 </subsection>
 
 <subsection><title>The Zero-Factor Principle</title>
-<idx><h>zero-factor principle</h></idx>
+    <idx><h>zero-factor principle</h></idx>
 
 <p>Look again at the equation for revenue in Example 1,
 	<me>R=p(40-p)</me>
@@ -103,8 +107,8 @@ so the revenue is zero as well.</p>
 A quadratic equation has a solution when either of its factors is equal to zero. This is a consequence of the following fact about numbers.</p>
 
 <assemblage><title>Zero-Factor Principle</title>
-<idx><h>zero-factor principle</h></idx>
-<p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
+    <idx><h>zero-factor principle</h></idx>
+<p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero. Using symbols,
 	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage>
 
 <p>The zero-factor principle also applies to algebraic expressions: If the product of two factors is zero, then one of the factors must be zero.</p> 
@@ -119,8 +123,8 @@ A quadratic equation has a solution when either of its factors is equal to zero.
 </subsection>
 
 <subsection><title>Factoring</title>
-<idx><h>factor</h><seealso>factoring</seealso></idx>
-<idx><h>factoring</h></idx>
+    <idx><h>factor</h><seealso>factoring</seealso></idx>
+    <idx><h>factoring</h></idx>
 
 <p>We have discovered that a quadratic equation has two solutions, one for each of its factors. As examples we saw that the equation <m>~40p-p^2 = 0~</m> has solutions <m>~p=40~</m> and <m>~p=0~</m>, and the equation <m>~40p-p^2 = 30~</m> has solutions <m>~p=10~</m> and <m>~p=30~</m>. So we can solve a quadratic equation if we can find its factors. This is where the zero-factor principle comes in.</p>
 
@@ -151,7 +155,8 @@ We have factored out a common factor, namely 3, from <m>6x-15</m>.</p>
 You may be able to see the missing factors at a glance, but if not, you can divide each term of the original expression by the common factor, as follows:
 	<me>\dfrac{36t^2}{9t}=\alert{4t}~~~~\text{and}~~~~\dfrac{63t}{9t} = \alert{7}</me>
 We fill in these factors for the question marks to obtain the factored form,
-	<me>36t^2-63t = \blert{9t}(\alert{4t} - \alert{7})</me></p></solution></example>
+	<me>36t^2-63t = \blert{9t}(\alert{4t} - \alert{7})</me></p>
+</solution></example>
 
 <p>You can always check your factorization by computing the product; it should be the same as the original expression.</p>
 
@@ -160,8 +165,8 @@ We fill in these factors for the question marks to obtain the factored form,
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Factoring</title>
-<idx><h>factoring</h><h>solve equations by</h></idx>
-<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+    <idx><h>factoring</h><h>solve equations by</h></idx>
+    <idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 
 <p>Now let's see how to solve a quadratic equation using factoring.</p>
 
@@ -186,40 +191,36 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 <p>We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
 
 <assemblage><title>To Solve a Quadratic Equation by Factoring</title>
-<idx><h>factoring</h><h>solve equations by</h></idx>
-<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+    <idx><h>factoring</h><h>solve equations by</h></idx>
+    <idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 <p><ol marker="1.">
 	<li>Write the equation with zero isolated on the right side.</li>       
 	<li>Factor the left side of the equation.</li>
 	<li>Apply the zero-factor principle; that is, set each factor equal to zero.</li>
-	<li>Solve each equation to obtain two solutions.</li></ol></p></assemblage>
+	<li>Solve each equation to obtain two solutions.</li>
+</ol></p></assemblage>
 
-<exercise number="7"><statement><p>Why is it wrong to divide both sides of the equation <m>~2x(x-2)=0~</m> by <m>2x</m>?
-</p></statement>
+<exercise number="7"><statement><p>Why is it wrong to divide both sides of the equation <m>~2x(x-2)=0~</m> by <m>2x</m>?</p></statement>
     <answer><p>We lose one of the solutions.</p></answer></exercise>
-</subsection>
 
-<subsection><theorem>
-<exercises>
-<exercisegroup><introduction><p>Mental Exercise: Evaluate each expression for the given values of the variable. Try not to use pencil, paper, or calculator.</p></introduction>
+<problem>
+<statement><p>Mental Exercise: Evaluate each expression for the given values of the variable. Try not to use pencil, paper, or calculator.</p>
 
-<exercise number="1"><statement><m>2x(x-3),~~~~x=0,~1,~2,~3</m></statement></exercise>
+<p><ol marker="1.">
+    <li><m>2x(x-3),~~~~x=0,~1,~2,~3</m></li>
+    <li><m>(x+1)(x-6),~~~~x=-1,~3,~6,~9</m></li>
+    <li><m>2(x+2)(x+4),~~~~x=-4,~-2,~0,~2</m></li>
+    <li><m>3n(2n-1),~~~~n=-1,~0,~\dfrac{1}{2},~1</m></li>
+</ol></p></statement>
 
-<exercise number="2"><statement><m>(x+1)(x-6),~~~~x=-1,~3,~6,~9</m></statement></exercise>
-
-<exercise number="3"><statement><m>2(x+2)(x+4),~~~~x=-4,~-2,~0,~2</m></statement></exercise>
-
-<exercise number="4"><statement><m>3n(2n-1),~~~~n=-1,~0,~\dfrac{1}{2},~1</m></statement></exercise>
-</exercisegroup>
-</exercises>
-
-<subsubsection><title>Answers to Skills Warm-Up</title>
+<answer>
 <p><ol marker="1." cols="2">
-    <li><m>0</m>,<m>-4</m>, <m>-4</m>, <m>0</m></li>
-    <li><m>0</m>, <m>-12</m>, <m>0</m>, <m>30</m></li>
+    <li><m>0,~-4,~-4,~0</m></li>
+    <li><m>0,~-12,~0,~30</m></li>
     <li><m>0,~0,~16,~48</m></li>
-    <li><m>9,~0,~0,~3</m></li></ol></p>
-</subsubsection></theorem>
+    <li><m>9,~0,~0,~3</m></li>
+</ol></p>
+</answer></problem>
 </subsection>
 
 <subsection><title>Lesson</title>
@@ -228,8 +229,8 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 
 <p>Raingear manufactures and sells umbrellas. They would like to know how the price they charge for an umbrella affects their revenue. They conduct some market research, and discover that if they charge <m>p</m> dollars per umbrella, they will sell <m>150-5p</m> umbrellas per month.</p>
 
-<exercises>
-<exercise><statement><p><ol marker="a.">
+<p><ol marker="1.">
+<li><p><ol marker="a.">
     <li><p>Complete the table showing Raingear's revenue at various prices, <m>p</m>.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
         <row>
@@ -275,9 +276,9 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 
     <li>Can you use extraction of roots to solve the equation in part (c)?  Why or why not?</li>
     <li>Use the table in part (a) to look for a solution to the equation in part (c).</li>
-</ol></p></statement></exercise>
+</ol></p></li>
 
-<exercise><statement><p><ol marker="a.">
+<li><p><ol marker="a.">
     <li><p>Extend your table of values for Raingear's revenue by completing the table below.</p>
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
     <row>
@@ -339,44 +340,46 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
                 }
                 \end{tikzpicture}]]>
                 </latex-image></image></li>  
-    <li>Locate the point on your graph that corresponds to a monthly revenue of $1000.  What are its coordinates?</li>
-    <li>Find another point on the graph that corresponds to $1000 monthly revenue.  What price per umbrella produces this revenue?  How many umbrellas will be sold at this price?</li>
+    <li>Locate the point on your graph that corresponds to a monthly revenue of $1000. What are its coordinates?</li>
+    <li>Find another point on the graph that corresponds to $1000 monthly revenue. What price per umbrella produces this revenue? How many umbrellas will be sold at this price?</li>
     <li>What is the maximum monthly revenue that Raingear can earn from umbrellas?</li>
-    <li>What price per umbrella should Raingear charge in order to earn the maximum revenue?</li></ol></p>
-</statement></exercise>
-</exercises>
+    <li>What price per umbrella should Raingear charge in order to earn the maximum revenue?</li>
+</ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>Factoring Out a Common Factor</title>
 
-<exercises>
-<exercise><statement><p>Factor out the largest common factor from each expression.<ol marker="a.">
-    <li><m>2x^2+8x = <fillin characters="5"/>~(~ <fillin characters="5"/>~+~<fillin characters="5"/>~)</m></li>
-    <li><m>-3n^2+18n = <fillin characters="5"/>~(~ <fillin characters="5"/>~+~<fillin characters="5"/>~)</m></li>
-</ol></p></statement></exercise>
+<p><ol marker="1.">
+<li><p>Factor out the largest common factor from each expression.<ol marker="a.">
+    <li><m>2x^2+8x = <fillin characters="4"/>~(~ <fillin characters="4"/>~+~<fillin characters="4"/>~)</m></li>
+    <li><m>-3n^2+18n = <fillin characters="4"/>~(~ <fillin characters="4"/>~+~<fillin characters="4"/>~)</m></li>
+</ol></p></li>
 
-<exercise><statement><p>Solve each quadratic equation by factoring.<ol marker="a." cols ="2">
+<li><p>Solve each quadratic equation by factoring.<ol marker="a." cols ="2">
     <li><m>2x^2+8x = 0</m></li>
-    <li><m>-3n^2+18n=0</m></li></ol></p></statement></exercise>
-</exercises>
+    <li><m>-3n^2+18n=0</m></li>
+</ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>Zero-Factor Principle</title>
-<exercises>
-<exercise><statement><p>Find the solutions of each quadratic equation.<ol marker="a." cols ="2">
+
+<p><ol marker="1.">
+<li><p>Find the solutions of each quadratic equation.<ol marker="a." cols ="2">
     <li><m>(x-2)(x+5)=0</m></li>
     <li><m>y(y-4)=0</m></li>
-</ol></p></statement></exercise>
+</ol></p></li>
 
-<exercise><statement><p>Explain why each solution is incorrect.<ol marker="a." cols ="2">
+<li><p>Explain why each solution is incorrect.<ol marker="a." cols ="2">
     <li><md><mrow>(n-3)(n+5)\amp=3</mrow>
             <mrow>n-3=3,~n+5\amp=3</mrow>
             <mrow>n=6,~n\amp=-2</mrow></md></li>
     <li><md><mrow>x^2+4x\amp=0</mrow>
             <mrow>x^2\amp=-4x</mrow>
             <mrow>x\amp=-4</mrow></md></li>
-</ol></p></statement></exercise>
-</exercises>
+</ol></p></li>
+</ol></p>
 </activity>
 
 <subsubsection><title>Wrap-Up</title>
@@ -395,11 +398,12 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
     <li>What is the difference between solving a quadratic equation and factoring a quadratic trinomial?</li>    
 </ol></p></assemblage>
 </subsubsection>
-</subsection>
 
-<subsection><algorithm>
-<exercises>
-<exercise><statement><p><ol marker="a.">
+
+<activity><title>Homework Preview</title>
+
+<p><ol marker="1.">
+<li><p><ol marker="a.">
     <li><p>Complete the table of values and sketch a graph of 
             <me>y = \dfrac{1}{2}x^2-4x</me></p>
     <sidebyside widths="30% 50%" valigns="middle middle"><p>
@@ -434,25 +438,25 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
         <me>\dfrac{1}{2}x^2-4x = -\dfrac{7}{2}</me></li>
     <li>Use the graph to solve the equation
         <me>\dfrac{1}{2}x^2-4x = \dfrac{9}{2}</me></li>
-    </ol></p></statement></exercise>
+    </ol></p></li>
 
-<exercise><statement><p>Find the largest common factor for the monomials.<ol marker="a." cols="2">
+<li><p>Find the largest common factor for the monomials.<ol marker="a." cols="2">
     <li><m>6x,~3x^2,~9xy</m></li>
     <li><m>12ab^2,~4ab,~6a^2b</m></li>
-</ol></p></statement></exercise>
+</ol></p></li>
 
-<exercise><statement><p>Factor out the largest common factor.<ol marker="a." cols="2">
+<li><p>Factor out the largest common factor.<ol marker="a." cols="2">
     <li><m>25t^2-15t</m></li>
     <li><m>-12k^2-9k</m></li>
-</ol></p></statement></exercise>
+</ol></p></li>
 
-<exercise><statement><p>Solve the equation.<ol marker="a." cols="2">
+<li><p>Solve the equation.<ol marker="a." cols="2">
     <li><m>18w^2+24w=0</m></li>
     <li><m>21z^2=35z</m></li>
-</ol></p></statement></exercise>
-</exercises>
+</ol></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Homework Preview</title>
+<p>Answers to Homework Preview</p>
 <p> <ol marker= "1.">
     <li>b. <m>1,~7~~~~~~~~</m> c. <m>-1,~9</m></li>
     <li><p><ol marker= "a" cols="2">
@@ -466,7 +470,8 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
         <li><m>-\dfrac{3}{4},~0</m></li>
         <li><m>0,~\dfrac{5}{7}</m></li>
     </ol></p></li>
-</ol></p></subsubsection></algorithm>
+</ol></p>
+</activity>
 </subsection>
 
 <xi:include href="./hmwk-6-2.xml" />

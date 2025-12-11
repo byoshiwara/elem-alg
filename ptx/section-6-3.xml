@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Solving-Quadratic-Equations-by-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Quadratic Equations by Factoring</title>
+<section xml:id="Solving-Quadratic-Equations-by-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Solving Quadratic Equations by Factoring</title>
 
 <subsection><title>The Zero-Factor Principle</title>
-<idx><h>zero-factor principle</h></idx>
+	<idx><h>zero-factor principle</h></idx>
 
-<p>	In <xref ref="Some-Quadratic-Models">Lesson</xref> we applied the Zero-Factor Principle to solve quadratic equations of the form  <m>ax^2+bx=0</m>.  For reference, here is the statement of the Zero-Factor Principle.</p>  
+<p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we applied the Zero-Factor Principle to solve quadratic equations of the form <m>~ax^2+bx=0</m>. For reference, here is the statement of the Zero-Factor Principle.</p>  
 
 <assemblage><title>Zero-Factor Principle</title>
-<p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
+<p>If the product of two numbers is zero, then one (or both) of the numbers must be zero. Using symbols,
 	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage>
 
-<p>In order to solve more general quadratic equations, of the form <m>~ax^2+bx+c=0</m>, we will need to factor quadratic trinomials.  Here is an example of how we can use the principle to solve a quadratic equation.</p>
+<p>In order to solve more general quadratic equations, of the form <m>~ax^2+bx+c=0</m>, we will need to factor quadratic trinomials. Here is an example of how we can use the principle to solve a quadratic equation.</p>
 
 <example xml:id="Example-6-3-1"><statement><p><ol marker="a.">
 	<li>Compute the product  <m>~(x+5)(x-4).</m></li>
-	<li>Solve the equation  <m>~x^2+x-20=0.</m></li></ol></p></statement>
+	<li>Solve the equation  <m>~x^2+x-20=0.</m></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a.">
 	<li>We use the FOIL method to apply the distributive law to the product.
@@ -32,16 +34,15 @@
 </ol></p>
 </solution></example>
 
-<exercise number="1"><statement><p>Why can't we solve the equation <m>~x^2+x-20=0</m> in <xref ref="Example-6-3-1" text="type-global"/> by extraction 
-	of roots?</p></statement>
+<exercise number="1"><statement><p>Why can't we solve the equation <m>~x^2+x-20=0</m> in <xref ref="Example-6-3-1" text="type-global"/> by extraction of roots?</p></statement>
     	<answer><p>Because of the linear term, <m>x</m>.</p></answer></exercise>
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials</title>
-<idx><h>factoring</h><h>quadratic trinomials</h></idx>
-<idx><h>trinomial</h><seealso>factoring</seealso></idx>
+	<idx><h>factoring</h><h>quadratic trinomials</h></idx>
+	<idx><h>trinomial</h><seealso>factoring</seealso></idx>
 
-<p>Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
+<p>Now we consider quadratic trinomials of the form <m>~x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 <p>How can we come up with the factors of the quadratic trinomial? Let's recall how the product is obtained. We apply the distributive law and multiply each term of the first binomial by each term of the second binomial. We use the word "FOIL" to label the four terms of the product: First, Outside, Inside, and Last.</p>
 <sidebyside widths ="60% 30%" valigns="middle middle"><p>
@@ -67,13 +68,14 @@
 <exercise number="2"><statement><p>Where does the constant term of the trinomial appear in the product box?
 </p></statement>
     	<answer><p>In the lower right-hand box.</p></answer></exercise>
+
 <exercise number="3"><statement><p>Where does the linear term appear?</p></statement>
     	<answer><p>In the upper right and lower left boxes.</p></answer></exercise>
 
 <p>Study the figure to see how each term of the product is obtained.</p>
     
 <assemblage><title>Factors of a Quadratic Trinomial</title>
-<idx><h>FOIL (terms of binomial product)</h></idx>
+	<idx><h>FOIL (terms of binomial product)</h></idx>
 <p><ol marker="1.">
 	<li>The quadratic term, <m>x^2</m>, comes from the product of the First terms in each binomial.</li>  
 	<li>The constant term, <m>12</m>, is the product of the Last terms.</li>  
@@ -87,12 +89,12 @@ If the two numbers are <m>p</m> and <m>q</m>, then
 		<mrow> \amp x^2 + (\blert{p+q})x + \blert{pq}</mrow></md>
 We see that the constant term of the trinomial is the product <m>pq</m>, and the linear term of the trinomial has as coefficient the sum <m>p+q</m>.</p>  
 	
-<p>Thus, to factor <m>x^2+7x+12</m>, we look for two integers <m>p</m> and <m>q</m> whose sum is <m>7</m> and whose product is <m>12</m>.  With a little trial and error, we discover that the two integers are <m>3</m> and <m>4</m>. So the factored form is 
+<p>Thus, to factor <m>~x^2+7x+12</m>, we look for two integers <m>p</m> and <m>q</m> whose sum is <m>7</m> and whose product is <m>12</m>. With a little trial and error, we discover that the two integers are <m>3</m> and <m>4</m>. So the factored form is 
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 
 <assemblage><title>To Factor a Quadratic Trinomial</title>
-<idx><h>factoring</h><h>quadratic trinomials</h></idx>
-<p>	To factor <m>x^2+bx+c</m>, we look for two numbers <m>p</m> and <m>q</m> so that   
+	<idx><h>factoring</h><h>quadratic trinomials</h></idx>
+<p>To factor <m>x^2+bx+c</m>, we look for two numbers <m>p</m> and <m>q</m> so that   
 		<me>\blert{pq=c}~~~~\text{and}~~~~\blert{p+q=b}</me></p></assemblage>
 
 <example><statement><p>Factor  <m>~~a^2+13a+40</m></p></statement>
@@ -122,18 +124,19 @@ where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>,
         <cell><m>\blert{8}</m></cell>
         <cell><m>\blert{13}</m></cell></row>
     </tabular>
-<p>We see that <m>5 \cdot 8 = 40</m> and <m>5+8=13</m>, so the correct factorization is
+<p>We see that <m>~5 \cdot 8 = 40~</m> and <m>~5+8=13</m>, so the correct factorization is
 	<me>a^2+13a+40=(a+5)(a+8)</me>
- We can also write the factored form as <m>(a+8)(a+5)</m>;  the order of the factors does not matter. Aside from rearranging the factors, there is only one correct factorization for these quadratic trinomials.</p></solution></example>
+ We can also write the factored form as <m>(a+8)(a+5)</m>;  the order of the factors does not matter. Aside from rearranging the factors, there is only one correct factorization for these quadratic trinomials.</p>
+</solution></example>
 
-<exercise number="4"><statement><p>To factor <m>x^2+126x+3393</m>, we look for two numbers whose sum is <fillin characters="6"/> and whose product is <fillin characters="6"/>.</p></statement>
-    	<answer><p>126;  3393</p></answer></exercise>
+<exercise number="4"><statement><p>To factor <m>~x^2+126x+3393</m>, we look for two numbers whose sum is <fillin characters="4"/> and whose product is <fillin characters="4"/>.</p></statement>
+    	<answer><p><m>126;~~3393</m></p></answer></exercise>
 
 <assemblage><title>Look Ahead</title>
 <p>In the Activities we'll see how to factor trinomials with negative coefficients. Here are the results.</p></assemblage>
 
 <assemblage><title>Sign Patterns for Factoring Quadratic Trinomials</title>
-<idx><h>factoring</h><h>quadratic trinomials</h></idx>
+	<idx><h>factoring</h><h>quadratic trinomials</h></idx>
 <p>In this box,  <m>~b,~c,~p,</m> and <m>q</m> are positive integers.<ol marker="1.">  
 	<li><p><m>x^2+bx+c=(x+p)(x+q)</m></p>	
 	<p>If all the coefficients of the trinomial are positive, then both <m>p</m> and <m>q</m> are positive.</p></li>
@@ -147,28 +150,31 @@ where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>,
 	<md><mrow>\hphantom{00}x^2\hphantom{00000000}+bx\hphantom{00000000}+c</mrow>
 		<mrow>\text{quadratic term}~~~~~~\text{linear term}~~~~~~\text{constant term}</mrow></md></p>
 
-<example><statement><p>Factor  <m>~x^2+3x-18</m></p></statement>
+<example><statement><p>Factor <m>~x^2+3x-18</m></p></statement>
 
-<solution><p>We look for two integers <m>p</m> and <m>q</m> for which <m>~pq=-18~</m> and <m>~p+q=3~</m>. Because <m>pq</m> is negative, <m>p</m> and <m>q</m> must have opposite signs.  Because <m>~p+q~</m> is positive, the choices are
+<solution><p>We look for two integers <m>p</m> and <m>q</m> for which <m>~pq=-18~</m> and <m>~p+q=3~</m>. Because <m>pq</m> is negative, <m>p</m> and <m>q</m> must have opposite signs. Because <m>~p+q~</m> is positive, the choices are
 	<me>-1~\text{and}~18,~~~~-2~\text{and}~9,~~~~\text{or}~~~~-3~\text{and}~6</me>
 Because <m>-3+6=3</m>, the correct factorization is
 	<me>x^2+3x-18=(x-3)(x+6)</me>
-You can check the factorization by multiplying the two binomials to see that their product is in fact <m>~x^2+3x-18</m>.</p></solution></example>
+You can check the factorization by multiplying the two binomials to see that their product is in fact <m>~x^2+3x-18</m>.</p>
+</solution></example>
 </subsection>
 
 <subsection><title>Solving a Quadratic Equation</title>
-<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+	<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 
 <p>	Now we can use factoring to solve a quadratic equation.</p>
 
 <example xml:id="Example-6-3-4"><statement><p>Solve the equation <m>~x^2+3x=18</m></p></statement>
+
 <solution><p>We must have the right side equal to zero if we want to apply the Zero-Factor Principle, so we begin by subtracting 18 from both sides to get
 	<md><mrow>x^2+3x-18 \amp =0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
 		<mrow>(x+6)(x-3) \amp =0 \amp \amp \blert{\text{Apply the zero-factor principle:}}</mrow>
 		<mrow>  \amp \amp \amp \blert{\text{set each factor equal to zero.}}</mrow>
-		<mrow> x+6=0 ~~~~~~~ x-3 \amp =0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
-		<mrow>  x=-6 ~~~~~~~~~~~ x \amp = 3</mrow></md>
-The solutions are <m>-6</m> and <m>3</m>. You can check that each of these solutions satisfies the original equation.</p></solution></example>
+		<mrow>x+6=0 ~~~~~~~ x-3 \amp =0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
+		<mrow>x=-6 ~~~~~~~~~~~ x \amp = 3</mrow></md>
+The solutions are <m>-6</m> and <m>3</m>. You can check that each of these solutions satisfies the original equation.</p>
+</solution></example>
 
 <warning><p>Before factoring and applying the Zero-Factor Principle, we must write the equation in standard form, so that one side of the equation is zero.  Thus, it would not be useful to write
 	<me>x(x+3)=18</me>
@@ -176,18 +182,20 @@ We cannot apply the Zero-Factor principle to this equation.</p></warning>
 
 <exercise number="5"><statement><p>Why can't we solve the equation <m>x(x+3)=18</m> by setting each factor equal 
 	to 18?</p></statement>
-    <answer><p>Just because a product equals 18 does not mean that one of its factors equals 18.</p></answer></exercise>
+    <answer><p>Just because a product equals 18 does not mean that one of its factors equals 18.</p>
+</answer></exercise>
 
 <p>Here is our method for solving a quadratic equation by factoring.</p>
 
 <assemblage><title>To Solve a Quadratic Equation by Factoring</title>
-<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+	<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 <p><ol marker="1.">
 	<li>Write the equation in standard form, 
 		<me>ax^2+bx+c=0~~~~~~(a \not= 0)</me></li>       
 	<li>Factor the left side of the equation.</li>
 	<li>Apply the Zero-Factor Principle; that is, set each factor equal to zero.</li>
-	<li>Solve each equation to obtain two solutions.</li></ol></p></assemblage>
+	<li>Solve each equation to obtain two solutions.</li>
+</ol></p></assemblage>
 
 <example><statement><p>Solve the equation <m>~2x^2+6x=36</m></p></statement>
 
@@ -244,55 +252,56 @@ Now we are ready to factor the left side of the equation. You can verify that th
 Applying the Zero-Factor Principle yields
 	<md><mrow>t+3=0 ~~~~~~ t-5 \amp =0 \amp \amp \blert{\text{Solve each equation.}}</mrow>
 		<mrow>t=-3 ~~~~~~ t \amp = 5</mrow></md>
-The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make sense for this problem, we discard that solution. The book takes 5 seconds to reach the ground.</p></solution></example>
+The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make sense for this problem, we discard that solution. The book takes 5 seconds to reach the ground.</p>
+</solution></example>
 
 <exercise number="6"><statement><p>In <xref ref="Example-6-3-6" text="type-global"/>, why did we set <m>h=0</m>?</p></statement>
     <answer><p>When the book reaches the ground, its height is zero.</p></answer></exercise>
-</subsection>
 
-<subsection><theorem>
-<exercises>
-<exercisegroup cols="2"><introduction><p><ol marker="a.">
+
+<problem><statement>
+<p><ol marker="a.">
 	<li>Find the linear term of each product mentally.</li>
 	<li>Find the constant term.</li>
-</ol></p></introduction>
+</ol></p>
 
-<exercise number="1"><statement><m>(x+1)(x+3)</m></statement></exercise>
+<p><ol marker="1." cols="2">
+	<li><m>(x+1)(x+3)</m></li>
+	<li><m>(a-6)(a-3)</m></li>
+	<li><m>(p+7)(p-4)</m></li>
+	<li><m>(q-8)(q+2)</m></li>
+	<li><m>(3w+4)(w+2)</m></li>
+	<li><m>(2z-5)(3z+2)</m></li>
+</ol></p></statement>
 
-<exercise number="2"><statement><m>(a-6)(a-3)</m></statement></exercise>
-
-<exercise number="3"><statement><m>(p+7)(p-4)</m></statement></exercise>
-
-<exercise number="4"><statement><m>(q-8)(q+2)</m></statement></exercise>
-
-<exercise number="5"><statement><m>(3w+4)(w+2)</m></statement></exercise>
-
-<exercise number="6"><statement><m>(2z-5)(3z+2)</m></statement></exercise>
-</exercisegroup>
-</exercises>
-
-<subsubsection><title>Answers to Skills Warm-Up</title>
+<answer>
 <p><ol marker="1." cols="2">
     <li><p><ol marker= "a." cols="2">
         <li><m>4x</m></li>
-        <li><m>3</m></li></ol></p></li>
+        <li><m>3</m></li>
+    </ol></p></li>
     <li><p><ol marker= "a." cols="2">
         <li><m>-9a</m></li>
-        <li><m>18</m></li></ol></p></li>
+        <li><m>18</m></li>
+    </ol></p></li>
     <li><p><ol marker= "a." cols="2">
         <li><m>3p</m></li>
-        <li><m>-28</m></li></ol></p></li>
+        <li><m>-28</m></li>
+    </ol></p></li>
     <li><p><ol marker= "a." cols="2">
         <li><m>-6q</m></li>
-        <li><m>-16</m></li></ol></p></li>
+        <li><m>-16</m></li>
+    </ol></p></li>
     <li><p><ol marker= "a." cols="2">
         <li><m>10w</m></li>
-        <li><m>8</m></li></ol></p></li>
+        <li><m>8</m></li>
+    </ol></p></li>
     <li><p><ol marker= "a." cols="2">
         <li><m>-11z</m></li>
-        <li><m>-10</m></li></ol></p></li>
+        <li><m>-10</m></li>
+    </ol></p></li>
     </ol></p>
-</subsubsection></theorem>
+</answer></problem>
 </subsection>
 
 <subsection><title>Lesson</title>
@@ -375,18 +384,15 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 </activity>
 
 <activity><title>Solving Quadratic Equations</title>
-<exercises>
-<exercisegroup cols="2"><introduction><p>Solve each quadratic equation.</p></introduction>
 
-<exercise><statement><m>a^2-13a+30=0</m></statement></exercise>
+<p>Solve each quadratic equation.</p>
 
-<exercise><statement><m>u^2-6y=16</m></statement></exercise>
-
-<exercise><statement><m>3x^2+3=6x</m></statement></exercise>
-
-<exercise><statement><m>9x^2-18x=0</m></statement></exercise>
-</exercisegroup>
-</exercises>
+<p><ol marker="1." cols="2">
+	<li><m>a^2-13a+30=0</m></li>
+	<li><m>u^2-6y=16</m></li>
+	<li><m>3x^2+3=6x</m></li>
+	<li><m>9x^2-18x=0</m></li>
+</ol></p>
 </activity>
 
 <activity><title>Application</title>
@@ -418,34 +424,21 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 	<li>If <m>p</m> and <m>q</m> have opposite signs, how do we know which one is positive?</li>    
 </ol></p></assemblage>
 </subsubsection>
-</subsection>
 
-<subsection><algorithm>
-<exercises>
-<exercisegroup><introduction><p>Factor.</p></introduction>
+<activity><title>Homework Preview</title>
 
-<exercise><statement><m>x^2+15x+56</m></statement></exercise>
+<p><ol marker="1.">
+	<li>Factor <m>~x^2+15x+56</m></li>
+	<li>Factor <m>~m^2-9m-52</m></li>
+	<li>Factor <m>~t^2-24t+144</m></li>
+	<li>Solve <m>~3x^2-48=0</m></li>
+	<li>Solve <m>~3x^2-48x=0</m></li>
+	<li>Solve <m>~x^2-19x+48=0</m></li>
+	<li>Solve <m>~x^2-8x=48</m></li>
+	<li>Solve <m>~3x^2+18x=48</m></li>
+</ol></p>
 
-<exercise><statement><m>m^2-9m-52</m></statement></exercise>
-
-<exercise><statement><m>t^2-24t+144</m></statement></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>Solve.</p></introduction>
-
-<exercise><statement><m>3x^2-48=0</m></statement></exercise>
-
-<exercise><statement><m>3x^2-48x=0</m></statement></exercise>
-
-<exercise><statement><m>x^2-19x+48=0</m></statement></exercise>
-
-<exercise><statement><m>x^2-8x=48</m></statement></exercise>
-
-<exercise><statement><m>3x^2+18x=48</m></statement></exercise>
-</exercisegroup>
-</exercises>
-
-<subsubsection><title>Answers to Homework Preview</title>
+<p>Answers to Homework Preview</p>
 <p> <ol marker= "1." cols="2">
 	<li><m>(x+7)(x+8)</m></li>
 	<li><m>(m-13)(m+4)</m></li>
@@ -455,7 +448,8 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 	<li><m>3,~16</m></li>
 	<li><m>-8,~2</m></li>
 	<li><m>-4,~12</m></li>
-</ol></p></subsubsection></algorithm>
+</ol></p>
+</activity>
 </subsection>
 
 <xi:include href="./hmwk-6-3.xml" />

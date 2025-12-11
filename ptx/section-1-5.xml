@@ -2,14 +2,14 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Order-of-Operations"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Order of Operations</title>
+<title>Order of Operations</title>
     <idx><h>order of operations</h></idx>
 
 <introduction><p>So far we have looked at equations in which the variable is involved in only one operation, but soon we will consider equations that involve two or more operations. To solve such equations we need to know the correct order in which to "undo" those operations. Let's begin by reviewing the rules for simplifying expressions.</p></introduction>
 
 <subsection><title>Addition and Multiplication</title>
-<idx><h>order of operations</h><h>addition</h></idx>
-<idx><h>order of operations</h><h>multiplication</h></idx>
+	<idx><h>order of operations</h><h>addition</h></idx>
+	<idx><h>order of operations</h><h>multiplication</h></idx>
 
 <p>If you add together three or more numbers, such as 
 	<me>2+5+8</me>
@@ -31,12 +31,13 @@ it doesn't matter which addition you do first; you will get the same answer eith
 <idx><h>associative law</h><h>for multiplication</h></idx>
 <p>If <m>a, b</m> and <m>c</m> are any numbers, then
 	<md><mrow>\blert{(a+b)+c} \amp = \blert{a+(b+c)}</mrow>
-		<mrow>\blert{(a \cdot b) \cdot c} \amp = \blert{a \cdot (b \cdot c)}</mrow></md></p></assemblage>
+		<mrow>\blert{(a \cdot b) \cdot c} \amp = \blert{a \cdot (b \cdot c)}</mrow></md></p>
+</assemblage>
 </subsection>
 
 <subsection><title>Subtraction and Division</title>
-<idx><h>order of operations</h><h>subtraction</h></idx>
-<idx><h>order of operations</h><h>division</h></idx>
+	<idx><h>order of operations</h><h>subtraction</h></idx>
+	<idx><h>order of operations</h><h>division</h></idx>
 <p>What about a string of subtractions or a string of divisions, such as
 	<me>20-8-5~~~~~~~~~~\text{or}~~~~~~~~~~36 \div 6 \div 2</me>
 In these calculations, we get different answers, depending on which operations we perform first, as you can see in <xref ref="Example-1-5-2" text="type-global"/>.</p>
@@ -53,7 +54,8 @@ In these calculations, we get different answers, depending on which operations w
 	</ol></p></statement></example>
 
 <assemblage><title>Subtraction and Division</title><idx><h>subtraction</h><h>not commutative</h><idx><h>division</h><h>not commutative</h></idx></idx>
-	<p>The associative laws do not hold for subtraction or division.</p></assemblage>
+	<p>The associative laws do not hold for subtraction or division.</p>
+</assemblage>
 
 <p>So, if there are no parentheses in the expression, how do we know which operations to perform first?</p>
 
@@ -69,7 +71,8 @@ In these calculations, we get different answers, depending on which operations w
 	<li><m>36 \div 6 \div 2</m></li></ol></p></statement>
 <solution><p>Perform the operations in order from left to right.<ol marker="a." cols="2">
 	<li><m>\blert{20-8}-5=\blert{12}-5=7</m></li>
-	<li><m>\blert{36 \div 6} \div 2 =\blert{6}\div 2=3</m></li></ol></p></solution></example>
+	<li><m>\blert{36 \div 6} \div 2 =\blert{6}\div 2=3</m></li>
+</ol></p></solution></example>
 
 <exercise number="1"><statement><p>What do the associative laws tell us?</p></statement>
 		<answer><p>A sum of three or more terms, or a product of three or more factors, can be calculated in any order.</p></answer></exercise>
@@ -88,13 +91,15 @@ If we do the multiplication first, we get
 	<me>4+(\blert{6 \cdot 2}) = 4 + \blert{12} = 48</me></p>
 <p>Which one is correct? In order to avoid confusion, we make the following agreement.</p>
 
-<assemblage><title>Second Rule</title><idx><h>order of operations</h></idx>
+<assemblage><title>Second Rule</title>
+	<idx><h>order of operations</h></idx>
 <p>Always perform multiplications and divisions before additions and subtractions.</p></assemblage> 
 
 <example><statement><p>The correct way to simplify the expression <m>~~4+6 \cdot 2~~</m> is
 	<md><mrow>4 \amp + \blert{6 \cdot 2} \amp \amp \blert{\text{Multiply first.}}</mrow>
         <mrow>\amp = 4 + 12 \amp	\amp \blert{\text{Then add.}}</mrow>
-        <mrow>\amp = 16</mrow></md></p></statement></example>
+        <mrow>\amp = 16</mrow></md></p>
+</statement></example>
 
 <assemblage><title>Look Closer</title>
 <p>In longer expressions, it can be helpful to group the expression into its terms before beginning. <term>Terms</term> are expressions separated by addition or subtraction symbols. We simplify each term before combining them.</p></assemblage>
@@ -104,7 +109,8 @@ If we do the multiplication first, we get
 <solution><p>We start by underlining each term of the expression separately. Then we simplify each term.
     <md><mrow>\underline{6} \amp + \underline{2 \cdot 5} - \underline{12 \div 3 \cdot 2} \amp \amp \blert{\text{Perform multiplications and divisions.}}</mrow>
         <mrow>\amp = 6 + 10 - 8 \amp  \amp \blert{\text{Perform additions and subtractions.}}</mrow>
-        <mrow>\amp = 16 - 8 = 8</mrow></md></p></solution></example>
+        <mrow>\amp = 16 - 8 = 8</mrow></md></p>
+</solution></example>
 
 <warning><p><ol marker="1.">
 	<li>In <xref ref="Example-1-5-5" text="type-global"/>, we do not start by adding <m>6+2</m>.  We must perform multiplications before additions.</li>  
@@ -119,7 +125,8 @@ If we do the multiplication first, we get
 
 <assemblage><title>Third Rule</title>
 	<idx><h>order of operations</h><h>parentheses</h></idx>
-<p>Perform any operations inside parentheses first.</p></assemblage>
+<p>Perform any operations inside parentheses first.</p>
+</assemblage>
 
 <example><statement><p>Simplify each expression.  <ol marker="a." cols="2">
 	<li><m>2 + 5 (7 - 3)</m></li>
@@ -150,7 +157,7 @@ If we do the multiplication first, we get
 <p>Like parentheses, a fraction bar is a <term>grouping device</term>.</p>
 
 <assemblage><title>Fourth Rule</title>
-<idx><h>order of operations</h><h>fraction bars</h></idx>
+	<idx><h>order of operations</h><h>fraction bars</h></idx>
 <p>Expressions that appear above or below a fraction bar should be simplified first.</p></assemblage>
 
 <example xml:id="Example-1-5-7"><statement><p>Simplify <m>~~\dfrac{24+6}{12+6}</m></p></statement>
@@ -173,7 +180,7 @@ According to the order of operations, we must simplify the numerator and denomin
 <p>Combining all our guidelines for simplifying expressions, we state the rules for the order of operations.</p>
 
 <assemblage><title>Order of Operations</title>
-<idx><h>order of operations</h><h>summary</h></idx>
+	<idx><h>order of operations</h><h>summary</h></idx>
 <p><ol marker="1.">
 	<li>First, perform any operations that appear inside parentheses, or above or below a fraction bar.</li>
 	<li>Next, perform all multiplications and divisions in order from left to right.</li>
@@ -182,6 +189,7 @@ According to the order of operations, we must simplify the numerator and denomin
 </subsection>
 
 <subsection><title>Algebraic Expressions</title>
+
 <p>The order of operations applies to variables as well as constants.  For example, the expression
 	<me>5+2x</me>
 tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate the expression for <m>x=\alert{8}</m> for example, we write
@@ -191,7 +199,8 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
 
 <example><statement><p>Write algebraic expressions for each of the following phrases. Then evaluate each phrase for <m>x=2</m> and <m>y=6</m>.<ol marker="a.">
 	<li>Three times the sum of <m>x</m> and <m>y</m></li> 	
-	<li>The sum of <m>3x</m> and <m>y</m></li></ol></p></statement>
+	<li>The sum of <m>3x</m> and <m>y</m></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a." >
 	<li><p>We write the sum of <m>x</m> and <m>y</m> inside parentheses.
@@ -200,117 +209,125 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
     <li><p>We multiply first, then add.
     	<md><mrow>\amp 3x+y</mrow>
             <mrow> \amp 3(\alert{2})+\alert{6}=6+6=12</mrow></md></p></li>
-   </ol></p></solution></example>
-</subsection>
+</ol></p></solution></example>
 
-<theorem>
-<exercises>
-<exercisegroup><introduction><p>Perform the operations on fractions as indicated.</p></introduction>
-
-<exercise number="1"><statement><p><ol marker="a." cols="2">
+<problem>
+<p>Perform the operations on fractions as indicated.</p>
+<p><ol marker="1.">
+<li><p><ol marker="a." cols="2">
 	<li><m>\dfrac{5}{4} + \dfrac{3}{4}</m></li>
 	<li><m>\dfrac{5}{4} - \dfrac{3}{4}</m></li>
 	<li><m>\dfrac{5}{4} \cdot \dfrac{3}{4}</m></li>
-	<li><m>\dfrac{5}{4} \div \dfrac{3}{4}</m></li></ol></p></statement></exercise>
+	<li><m>\dfrac{5}{4} \div \dfrac{3}{4}</m></li>
+</ol></p></li>
 
-<exercise number="2"><statement><p><ol marker="a." cols="2">
+<li><p><ol marker="a." cols="2">
 	<li><m>\dfrac{1}{2} + \dfrac{1}{6}</m></li>
 	<li><m>\dfrac{1}{2} - \dfrac{1}{6}</m></li>
 	<li><m>\dfrac{1}{2} \cdot \dfrac{1}{6}</m></li>
-	<li><m>\dfrac{1}{2} \div \dfrac{1}{6}</m></li></ol></p></statement></exercise>
+	<li><m>\dfrac{1}{2} \div \dfrac{1}{6}</m></li>
+</ol></p></li>
 
-<exercise number="3"><statement><p><ol marker="a." cols="2">
+<li><p><ol marker="a." cols="2">
 	<li><m>\dfrac{2}{3} + \dfrac{1}{4}</m></li>
 	<li><m>\dfrac{2}{3} - \dfrac{1}{4}</m></li>
 	<li><m>\dfrac{2}{3} \cdot \dfrac{1}{4}</m></li>
-	<li><m>\dfrac{2}{3} \div \dfrac{1}{4}</m></li></ol></p></statement></exercise>
-</exercisegroup>
-</exercises>
+	<li><m>\dfrac{2}{3} \div \dfrac{1}{4}</m></li>
+</ol></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1.">
+<answer>
+<p><ol marker="1.">
     <li><p><ol marker="a." cols="4">
     	<li><m>2</m></li>
 		<li><m>\dfrac{1}{2}</m></li>
 		<li><m>\dfrac{15}{16}</m></li>
-		<li><m>\dfrac{5}{3}</m></li></ol></p></li>
+		<li><m>\dfrac{5}{3}</m></li>
+	</ol></p></li>
 	<li><p><ol marker="a." cols="4">
 		<li><m>\dfrac{2}{3}</m></li>
 		<li><m>\dfrac{1}{3}</m></li>
 		<li><m>\dfrac{1}{12}</m></li>
-		<li><m>3</m></li></ol></p></li>
+		<li><m>3</m></li>
+	</ol></p></li>
 	<li><p><ol marker="a." cols="4">
 		<li><m>\dfrac{11}{12}</m></li>
 		<li><m>\dfrac{5}{12}</m></li>
 		<li><m>\dfrac{1}{6}</m></li>
-		<li><m>\dfrac{8}{3}</m></li></ol></p></li></ol></p>
-</subsubsection>    	
-</theorem>
+		<li><m>\dfrac{8}{3}</m></li>
+	</ol></p></li>
+</ol></p>
+</answer></problem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
 <activity><title>Which Operations Come First?</title>
-<exercises>
-	
-<exercise><statement><p>In the Reading assignment, we established the following rules.</p>
 
-	<assemblage><p><ol marker="1.">
-		<li>In a string of additions and subtractions, we perform the operations in order from left to right</li>  
-		<li>Similarly, we perform multiplications and divisions in order from left to right.</li></ol></p></assemblage>   
+<p>In the Reading assignment, we established the following rules.</p>
+
+<p><ol marker="1.">
+<li><assemblage><title>Operations</title>
+<p><ol marker="a.">
+	<li>In a string of additions and subtractions, we perform the operations in order from left to right</li>  
+	<li>Similarly, we perform multiplications and divisions in order from left to right.</li>
+</ol></p></assemblage>   
 
 <p>Simplify each expression.<ol marker="a." cols="2">
 	<li><m>30-17-5+4</m></li>
-	<li><m>72 \div 4 \cdot 3 \div 6</m></li></ol></p></statement></exercise>
+	<li><m>72 \div 4 \cdot 3 \div 6</m></li>
+</ol></p></li>
 
-<exercise><statement><p>Combined operations</p>
+<li><p>Combined operations and grouping into terms</p>
 
 <assemblage><p>Always perform multiplications and divisions before additions and subtractions.</p></assemblage>
 
 <p>Simplify each expression.<ol marker="a." cols="2">
 	<li><m>12-6\left(\dfrac{1}{2}\right)</m></li>
-	<li><m>2(3.5)+10(1.4)</m></li></ol></p></statement></exercise>
-
-<exercise><statement><p>Grouping into terms</p>
-
-<p>Simplify <m>~~12+24 \div 4 \cdot 3 + 16-10-4</m></p></statement></exercise>
-
-</exercises>
+	<li><m>2(3.5)+10(1.4)</m></li>
+	<li><m>~~12+24 \div 4 \cdot 3 + 16-10-4</m></li>
+</ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>Parentheses and Fraction Bars</title>
-
-<exercises>
-<exercise><statement><p>Parentheses: Simplify each expression.<ol marker="a." cols="2">
+<p><ol marker="1.">
+<li><p>Parentheses: Simplify each expression.<ol marker="a." cols="2">
 	<li><m>28-3(12-2 \cdot 4)</m></li>
-	<li><m>12+36 \div 4(9-2 \cdot 3)</m></li></ol></p></statement></exercise>
+	<li><m>12+36 \div 4(9-2 \cdot 3)</m></li>
+</ol></p></li>
 
-<exercise><statement><p>Fraction Bars: Follow the steps to simplify <m>~~\dfrac{8-2(6-4)}{(8-2)6-4}</m>
-<ol marker="1.">
+<li><p>Fraction Bars: Follow the steps to simplify <m>~~\dfrac{8-2(6-4)}{(8-2)6-4}</m>
+<ol marker="a.">
 	<li>Perform operations inside parentheses.</li>
 	<li>Simplify above the fraction bar — multiplication first.</li>	
 	<li>Simplify below the fraction bar — multiplication first.</li>	
-	<li>Reduce the fraction.</li></ol></p></statement></exercise>
+	<li>Reduce the fraction.</li>
+</ol></p></li>
 
-<exercise><statement><p>If an expression involves more than one type of grouping symbol (say, both parentheses and brackets), we start with the innermost grouping symbols and work outward.</p>
+<li><p>If an expression involves more than one type of grouping symbol (say, both parentheses and brackets), we start with the innermost grouping symbols and work outward.</p>
 <p>Follow the steps to simplify <m>~~6+2\left[3(12-5)-4(7-3)\right]</m> 
-<ol marker="1.">
+<ol marker="a.">
 	<li><p>Subtract inside parentheses. <m>~~~~6+2\left[3(\blert{12-5})-4(\blert{7-3})\right] </m></p></li>	
 	<li>Multiply inside the brackets.</li>
 	<li>Subtract inside the brackets.</li>
-	<li>Multiply, then add.</li></ol></p></statement></exercise>
+	<li>Multiply, then add.</li>
+</ol></p></li>
 
-<exercise><statement><p>Follow the steps to simplify <m>~~19+5\left[4(22-19)-\dfrac{12}{2}\right]</m> 
-<ol marker="1.">
+<li><p>Follow the steps to simplify <m>~~19+5\left[4(22-19)-\dfrac{12}{2}\right]</m> 
+<ol marker="a.">
 	<li><p>Subtract inside parentheses. <m>~~~~19+5\left[4(\blert{22-19})-\dfrac{12}{2}\right] </m></p></li>	
 	<li>Multiply inside the brackets, divide inside the brackets.</li>
 	<li>Subtract inside the brackets.</li>
-	<li>Multiply, then add.</li></ol></p></statement></exercise>
-</exercises>
+	<li>Multiply, then add.</li>
+</ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>Algebraic Expressions</title>
 
-<exercises>
-<exercise><statement><p>Choose the correct algebraic expression for each phrase.<ol marker="a.">
+<p><ol marker="1.">
+<li><p>Choose the correct algebraic expression for each phrase.<ol marker="a.">
 	<li><p>6 times the sum of <m>x</m> and 5
 			<me>6x+5 \qquad \text{or} \qquad 6(x+5)</me></p></li>
 	<li><p><m>\dfrac{1}{2}</m> the difference of <m>p</m> and <m>q</m>
@@ -319,13 +336,13 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
 			<me>6w-4 \qquad \text{or} \qquad 4-6w</me></p></li>
 	<li><p>2 less than the product of 10 and <m>z</m>
 			<me>\dfrac{10}{z}-2 \qquad \text{or} \qquad 2-\dfrac{10}{z}</me></p></li>
-</ol></p></statement></exercise>
+</ol></p></li>
 
-<exercisegroup><introduction><p>Use the tables to evaluate each of the following expressions in two steps. (The first one is done for you.) Note especially how the order of operations differs in parts (a) and (b).</p></introduction>
+<li><introduction><p>Use the tables to evaluate each of the following expressions in two steps. (The first one is done for you.) Note especially how the order of operations differs in parts (a) and (b).</p></introduction>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
 	<li><p><m>8+3t</m></p>
-	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~t~</m></cell>
                         <cell><m>3t</m></cell>
@@ -342,9 +359,9 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                         <cell><m>7</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><p><m>3(t+8)</m></p>
-	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~t~</m></cell>
                         <cell><m>t+8</m></cell>
@@ -361,11 +378,10 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                         <cell><m>7</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement></exercise>
+                    </tabular></li>
 
-  <exercise><statement><p><ol marker="a" cols="2">
 	<li><p><m>6+\dfrac{x}{2}</m></p>
-	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>\dfrac{x}{2}</m></cell>
@@ -382,9 +398,9 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                         <cell><m>9</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><p><m>\dfrac{6+x}{2}</m></p>
-	<sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>6+x</m></cell>
@@ -401,33 +417,35 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                         <cell><m>9</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
-    </ol></p></statement></exercise>
-</exercisegroup>
-</exercises>
+                    </tabular></li>
+    </ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>Using Your Calculator</title>
-<idx><h>order of operations</h><h>with calculator</h></idx>
-<exercises>
-<exercisegroup><introduction><p>Simplify each expression two ways: by hand, and with a calculator. Follow the order of operations.</p></introduction>
+	<idx><h>order of operations</h><h>with calculator</h></idx>
 
-<exercise><statement><m>9+2 \cdot 5 - 3\cdot 4</m> <p><ol marker="a." cols="2">
+<introduction><p>Simplify each expression two ways: by hand, and with a calculator. Follow the order of operations.</p></introduction>
+
+<p><ol marker="1.">
+<li><p><m>9+2 \cdot 5 - 3\cdot 4</m> <ol marker="a." cols="2">
 	<li>By hand</li>
-	<li>With a calculator</li></ol></p></statement></exercise>
+	<li>With a calculator</li>
+</ol></p></li>
 
-<exercise><statement><m>6(10-2 \cdot 4) \div 4</m> <p><ol marker="a." cols="2">
+<li><p><m>6(10-2 \cdot 4) \div 4</m> <ol marker="a." cols="2">
 	<li>By hand</li>
-	<li>With a calculator</li></ol></p></statement></exercise>
+	<li>With a calculator</li>
+</ol></p></li>
 
-<exercise><statement><m>2.4\left[25-3(6.7)\right]+5.5</m> <p><ol marker="a." cols="2">
+<li><p><m>2.4\left[25-3(6.7)\right]+5.5</m> <ol marker="a." cols="2">
 	<li>By hand</li>
-	<li>With a calculator</li></ol></p></statement></exercise>
-</exercisegroup>
+	<li>With a calculator</li>
+</ol></p></li>
 
-<assemblage><p>Most calculators cannot use a fraction bar as a grouping symbol. Consider the expression <m>~~\dfrac{24}{6-4}~~</m>,  which simplifies to <m>~~\dfrac{24}{2}~~</m> or <m>12</m>.  If we enter the expression into a calculator as
+<li><p>Most calculators cannot use a fraction bar as a grouping symbol. Consider the expression <m>~~\dfrac{24}{6-4}~~</m>,  which simplifies to <m>~~\dfrac{24}{2}~~</m> or <m>12</m>.  If we enter the expression into a calculator as
 	<me>24 \div 6 - 4</me>
-we get 0, which is not correct. This is because the calculator follows the order of operations and calculates <m>24 \div 6</m> first.</p></assemblage>
+we get 0, which is not correct. This is because the calculator follows the order of operations and calculates <m>24 \div 6</m> first.</p>
 
 <p>If we use a calculator to compute <m>\dfrac{24}{6-4}</m>, we must tell the calculator that <m>6-4</m> should be computed first. To do this, we use parentheses and enter the expression as  
 	<me>24 \div (6-4)</me>
@@ -435,8 +453,8 @@ We call this way of writing the expression the <term>in-line form</term>.</p>
 
 <assemblage><p>When using a calculator, we must enclose in parentheses any expression that appears above or below a fraction bar.</p></assemblage>
 
-<exercise><statement><p>Use a scientific calculator to simplify the expression  <m>~~\dfrac{16.2}{(2.4)(1.5)}</m>.</p></statement></exercise>
-</exercises>
+<p>Use a scientific calculator to simplify the expression  <m>~~\dfrac{16.2}{(2.4)(1.5)}</m>.</p></li>
+</ol></p>
 </activity>
 
 <subsubsection><title>Wrap-Up</title>
@@ -456,52 +474,64 @@ We call this way of writing the expression the <term>in-line form</term>.</p>
 </assemblage>
 </subsubsection>
 
-</subsection>
+<activity><title>Homework Preview</title>
 
-<algorithm>
-<exercises>
-<exercisegroup><introduction><p>Simplify.</p></introduction>
+<introduction><p>Simplify.</p></introduction>
 
-<exercise><statement><p><ol marker="a." cols="2">
+<p><ol marker="1.">
+<li><p><ol marker="a." cols="2">
 	<li><m>20 - 3(2)</m></li>
-	<li><m>(20-3) \cdot 2</m></li></ol></p></statement></exercise>
+	<li><m>(20-3) \cdot 2</m></li>
+</ol></p></li>
 
-<exercise><statement><p><ol marker="a." cols="2">
+<li><p><ol marker="a." cols="2">
 	<li><m>20 - 8-2</m></li>
-	<li><m>20- (8 - 2)</m></li></ol></p></statement></exercise>
+	<li><m>20- (8 - 2)</m></li>
+</ol></p></li>
 
-<exercise><statement><p><ol marker="a." cols="2">
+<li><p><ol marker="a." cols="2">
 	<li><m>20 - 3(2 + 4)</m></li>
-	<li><m>20-(3 \cdot 2 + 4)</m></li></ol></p></statement></exercise>
+	<li><m>20-(3 \cdot 2 + 4)</m></li>
+</ol></p></li>
 
-<exercise><statement><p><ol marker="a." cols="2">
+<li><p><ol marker="a." cols="2">
 	<li><m>\dfrac{20+12}{4+2}</m></li>
-	<li><m>\dfrac{20}{4} + \dfrac{12}{2}</m></li></ol></p></statement></exercise>
+	<li><m>\dfrac{20}{4} + \dfrac{12}{2}</m></li>
+</ol></p></li>
 
-<exercise><statement><p><ol marker="a." cols="2">
+<li><p><ol marker="a." cols="2">
 	<li><m>\dfrac{25-8}{5}</m></li>
-	<li><m>\dfrac{40}{8} + \dfrac{18}{6}</m></li></ol></p></statement></exercise>
-</exercisegroup>
-</exercises>
+	<li><m>\dfrac{40}{8} + \dfrac{18}{6}</m></li>
+</ol></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="3">
+<p>Answers to Homework Preview</p>
+
+<p><ol marker= "1." cols="3">
     <li><p><ol marker="a." cols="2">
     	<li><m>14</m></li>
-    	<li><m>34</m></li></ol></p></li>
+    	<li><m>34</m></li>
+    </ol></p></li>
     <li><p><ol marker="a." cols="2">
     	<li><m>10</m></li>
-    	<li><m>14</m></li></ol></p></li>
+    	<li><m>14</m></li>
+    </ol></p></li>
     <li><p><ol marker="a." cols="2">
     	<li><m>2</m></li>
-    	<li><m>10</m></li></ol></p></li>
+    	<li><m>10</m></li>
+    </ol></p></li>
     <li><p><ol marker="a." cols="2">
     	<li><m>\dfrac{16}{3}</m></li>
-    	<li><m>11</m></li></ol></p></li>
+    	<li><m>11</m></li>
+    </ol></p></li>
     <li><p><ol marker="a." cols="2">
     	<li><m>3.4</m></li>
-    	<li><m>2</m></li></ol></p></li></ol></p>
- </subsubsection>
-</algorithm>
+    	<li><m>2</m></li>
+    </ol></p></li>
+</ol></p>
+
+</activity>
+</subsection>
 
 <xi:include href="./hmwk-1-5.xml" />
 </section>

@@ -364,33 +364,33 @@ Bert's average score is 15.8.</p></solution></example>
 <assemblage><title>Look Ahead</title>
 <p>You will also need to know the formulas for the area and perimeter of a rectangle. See the Skills Warm-Up to review these formulas.</p></assemblage>
 
-</subsection>
 
-<theorem><subsection>
+<problem>
+<p><ol label="A.">
+<li><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p>
 
-<introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
+    <p><ol label="1.">
+        <li><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></li>
+        <li><p>How much wood parquet tiling must he buy to cover the floor?</p></li>
+    </ol></p></li>
 
-<exercises>
+<li><p>Which of the following phrases describe a perimeter, and which describe an area?</p>
 
-<exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement></exercise>
+    <p><ol label="1.">
+        <li><p>The distance you jog around the shore of a small lake</p></li>
 
-<exercise number="2"><statement><p>How much wood parquet tiling must he buy to cover the floor?</p></statement></exercise>
+        <li><p>The amount of Astroturf needed for the new football field</p></li>
 
-<exercisegroup><introduction><p>Which of the following phrases describe a perimeter, and which describe an area?</p></introduction>
+        <li><p>The amount of grated cheese needed to cover a pizza</p></li>
 
-<exercise number="3"><statement><p>The distance you jog around the shore of a small lake</p></statement></exercise>
+        <li><p>The number of tulip bulbs needed to border a patio</p></li>
+</ol></p></li>
 
-<exercise number="4"><statement><p>The amount of Astroturf needed for the new football field</p></statement></exercise>
+<li><p>Find the perimeter and area of each figure. All angles are right angles.</p>
 
-<exercise number="5"><statement><p>The amount of grated cheese needed to cover a pizza</p></statement></exercise>
-
-<exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
-
-<exercise number="7"><statement>
+    <p><ol label="1." cols="2">
+        <li>
     <image xml:id="sw-1-2-7" width="95%"><description>stacks of squares</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=0.8]
@@ -404,9 +404,9 @@ Bert's average score is 15.8.</p></solution></example>
         \node[below,text=cyan] at (0.5,-0.4){All squares are};
         \node[below,text=cyan] at (0.5,-1){1 centimeter on a side.};
         \end{tikzpicture}]]>
-    </latex-image></image></statement></exercise>
+    </latex-image></image></li>
 
-<exercise number="8"><statement>
+        <li>
     <image xml:id="sw-1-2-8" width="95%"><description>polygonal region with right angles</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=0.4]
@@ -419,20 +419,29 @@ Bert's average score is 15.8.</p></solution></example>
         \draw[red,very thick] (3,-2)--++(9,0) node[below, midway, text=black]{9 ft};
         \draw[red, very thick](12,8)--++(0,-10);
         \end{tikzpicture}]]>
-    </latex-image></image></statement></exercise>
-</exercisegroup>
-</exercises>
+    </latex-image></image></li>
+    </ol></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Skills Warm-Up</title><p><ol marker="1." cols="3">
-    <li>64 ft</li>
-    <li>240 sq ft</li>
-    <li>perimeter</li>
-    <li>area</li>
-    <li>area</li>
-    <li>perimeter</li>
-    <li>32 cm; 23 sq cm</li>
-    <li>44 ft; 90 sq ft</li></ol></p></subsubsection>
-</subsection></theorem>
+<answer>
+<p><ol marker="A.">
+    <li><p><ol marker="1." cols="2">
+        <li>64 ft</li>
+        <li>240 sq ft</li>
+</ol></p></li>
+    <li><p><ol marker="1." cols="2">
+        <li>perimeter</li>
+        <li>area</li>
+        <li>area</li>
+        <li>perimeter</li>
+</ol></p></li>
+    <li><p><ol marker="1." cols="2">
+        <li>32 cm; 23 sq cm</li>
+        <li>44 ft; 90 sq ft</li>
+</ol></p></li>
+</ol></p>
+</answer></problem>
+</subsection>
 
 <subsection><title>Lesson</title>
 
@@ -443,13 +452,15 @@ Bert's average score is 15.8.</p></solution></example>
 <p><ol marker="1.">
     <li>Identify the unknown quantity and write a short phrase to describe it.</li>
     <li>Choose a variable to represent the unknown quantity.</li>
-    <li>Use mathematical symbols to represent the relationship described.</li></ol></p></assemblage>
+    <li>Use mathematical symbols to represent the relationship described.</li>
+</ol></p></assemblage>
 
 <p>Study the Example below, then write expressions in the Exercise.</p>
 
 <p>EXAMPLE: Write an algebraic expression for each quantity.<ol marker="a.">
     <li>3 feet more than the length of the rug</li>
-    <li>Twice the age of the building</li></ol></p>
+    <li>Twice the age of the building</li>
+</ol></p>
 
 <p>Solution:<ol marker="a.">
     <li><p>The length of the rug is unknown.
@@ -459,19 +470,22 @@ Bert's average score is 15.8.</p></solution></example>
     <li><p>The age of the building is unknown.
             <me>\blert{\text{Age of the building:}~~~a}</me>
     "Twice" means two times:
-        <me>\blert{2a}</me></p></li></ol></p>
+        <me>\blert{2a}</me></p></li>
+    </ol></p>
 
 <p>EXERCISE 1. Write an algebraic expression for each quantity.<ol marker="a.">
     <li>Ten more than the number of students</li>
     <li>Five times the height of the triangle</li>
     <li>4% of the original price</li>
-    <li>Two and a quarter inches taller than last year's height</li></ol></p>
+    <li>Two and a quarter inches taller than last year's height</li>
+</ol></p>
 
 <p>The next example involves subtraction and division.</p>
 
 <p>EXAMPLE: Write an algebraic expression for each quantity.<ol marker="a.">
     <li>5 square feet less than the area of the circle</li>
-    <li>The ratio of your quiz score to 20</li></ol></p>
+    <li>The ratio of your quiz score to 20</li>
+</ol></p>
 
 <p>Solution:<ol marker="a.">
     <li><p>The area of the circle is unknown
@@ -481,13 +495,15 @@ Bert's average score is 15.8.</p></solution></example>
     <li><p>Your quiz score is unknown.
             <me>\blert{\text{Quiz score:}~~~s}</me>
     "Twice" means two times:
-        <me>\blert{\dfrac{s}{20}}</me></p></li></ol></p>
+        <me>\blert{\dfrac{s}{20}}</me></p></li>
+    </ol></p>
 
 <p>EXERCISE 2. Write an algebraic expression for each quantity.<ol marker="a.">
     <li>$60 less than first-class airfare</li>
     <li>The quotient of the volume of the sphere and 6</li>
     <li>The ratio of the number of gallons of alcohol to 20</li>
-    <li>The current population diminished by 50</li></ol></p>
+    <li>The current population diminished by 50</li>
+</ol></p>
 
 <p>3. Each of the words listed refers to one of the four arithmetic operations.  Group them under the correct operation.
 <ul cols="3">
@@ -511,11 +527,14 @@ Bert's average score is 15.8.</p></solution></example>
     <li>split</li>
     <li>minus</li>
     <li>per</li></ul></p>
-<p><ol marker="a." cols="2">
+
+<p>Four Arithmetic Operations</p>
+    <p><ol marker="a." cols="2">
     <li>addition</li>
     <li>subtraction</li>
     <li>multiplication</li>
-    <li>division</li></ol></p>
+    <li>division</li>
+</ol></p>
 </activity>
 
 <activity><title>Evaluating Algebraic Expressions</title>
@@ -532,9 +551,8 @@ What is the sale price of a refrigerator that regularly sells for $600?</p>
         <mrow> \amp = 0.85(\alert{600}) = 510</mrow></md>
 The sale price is $510.</p> 
 
-<exercises>
 
-<exercise><statement><p>Evaluate the algebraic expression in the Example above to complete the table below showing the sale price for various appliances.</p>
+<p>EXERCISE 1: Evaluate the algebraic expression in the Example above to complete the table below showing the sale price for various appliances.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>P</m></cell>
@@ -550,11 +568,12 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></statement></exercise> 
+                    </tabular> 
 
-<exercisegroup cols="2"><introduction><p>Complete each table below by evaluating the expression.</p></introduction>
+<introduction><p>Complete each table below by evaluating the expression.</p></introduction>
 
-<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<p><ol label="1." cols="2">
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>1</m></cell>
@@ -567,9 +586,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>0.1</m></cell>
@@ -582,9 +601,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>a</m></cell>
                         <cell><m>6</m></cell>
@@ -597,9 +616,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>1</m></cell>
@@ -612,9 +631,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>w</m></cell>
                         <cell><m>0.1</m></cell>
@@ -627,9 +646,9 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></statement></exercise>
+                    </tabular></li>
 
-<exercise><statement><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>p</m></cell>
                         <cell><m>0.1</m></cell>
@@ -642,9 +661,8 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p></statement></exercise>
-</exercisegroup>
-</exercises>
+                    </tabular></li>
+</ol></p>
 </activity>
 
 <activity><title>Using Algebraic Formulas</title>
@@ -678,24 +696,28 @@ The sale price is $510.</p>
                         <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
                     </tabular>
 
-<exercises>
-<exercisegroup><introduction><p>For the Exercises below,<ol marker="a.">
+<introduction><p>For the Exercises below,<ol marker="a.">
     <li>Choose the appropriate formula and write an algebraic expression.</li>
-    <li>Evaluate the expression to answer the question.</li></ol></p></introduction>
+    <li>Evaluate the expression to answer the question.</li>
+</ol></p></introduction>
 
-<exercise> <statement><p>It cost Ariel $380 to buy supplies and advertising for her pet-sitting business.<ol marker="a.">  
-    <li>Write an expression for her profit from the business.</li>
-    <li>If Ariel earned $820 in revenue, what was her profit?</li></ol></p></statement></exercise>
+<p><ol marker="1.">
+    <li><p>It cost Ariel $380 to buy supplies and advertising for her pet-sitting business.
+    <ol marker="a.">  
+        <li>Write an expression for her profit from the business.</li>
+        <li>If Ariel earned $820 in revenue, what was her profit?</li>
+    </ol></p></li>
 
-<exercise> <statement><p>Jamie cycled for <m>2\frac{1}{2}</m> hours this morning.<ol marker="a.">  
+<li><p>Jamie cycled for <m>2\frac{1}{2}</m> hours this morning.<ol marker="a.">  
     <li>Write an expression for the distance Jamie cycled.</li>
-    <li>If Jamie's average speed was 9 miles per hour, how far did she cycle?</li></ol></p></statement></exercise>
+    <li>If Jamie's average speed was 9 miles per hour, how far did she cycle?</li>
+</ol></p></li>
 
-<exercise> <statement><p>SaveOurPark collected $2600 in donations from people in the neighborhood.<ol marker="a.">  
+<li><p>SaveOurPark collected $2600 in donations from people in the neighborhood.<ol marker="a.">  
     <li>Write an expression for the average amount that each person donated.</li>
-    <li>If 142 people made a donation, what was the average donation?</li></ol></p></statement></exercise>
-</exercisegroup>
-</exercises>
+    <li>If 142 people made a donation, what was the average donation?</li>
+</ol></p></li>
+</ol></p>
 </activity>
 
 <subsubsection><title>Wrap-Up</title>
@@ -704,78 +726,87 @@ The sale price is $510.</p>
 <p>In this Lesson we practiced the following skills:<ul>
     <li>Writing an algebraic expression</li>
     <li>Evaluating an algebraic expression</li>
-    <li>Choosing an appropriate formula</li></ul></p></assemblage>
+    <li>Choosing an appropriate formula</li>
+</ul></p></assemblage>
 
 <assemblage><title>Questions</title>
 <p><ol marker="1.">
     <li>What is the first step in evaluating an algebraic expression?</li>
     <li>What does it mean to evaluate an algebraic expression?</li>
     <li><p>Give definitions for the following terms:</p>
-        <p>revenue,  principal,  percentage rate,  average,  perimeter</p></li></ol></p>
-</assemblage>
-
+        <p>revenue,  principal,  percentage rate,  average,  perimeter</p></li>
+    </ol></p></assemblage>
 </subsubsection>
-</subsection>
 
-<subsection><algorithm>
+<activity><title>Homework Preview</title>
 
-<exercises>
-<exercisegroup cols="2"><introduction><p>Write algebraic expressions.</p></introduction>
+<p><ol marker="A.">
 
-<exercise><statement><p>The ratio of 6 to <m>x</m></p></statement></exercise>
+<li><introduction><p>Write algebraic expressions.</p></introduction>
 
-<exercise><statement><p><m>x</m> decreased by 6</p></statement></exercise>
+<p><ol marker="1." cols="2"> 
+    <li><p>The ratio of 6 to <m>x</m></p></li>
 
-<exercise><statement><p>6% of <m>x</m></p></statement></exercise>
+    <li><p><m>x</m> decreased by 6</p></li>
 
-<exercise><statement><p>One-sixth of <m>x</m></p></statement></exercise>
+    <li><p>6% of <m>x</m></p></li>
 
-<exercise><statement><p>8 less than <m>v</m></p></statement></exercise>
+    <li><p>One-sixth of <m>x</m></p></li>
 
-<exercise><statement><p><m>H</m> increased by 14</p></statement></exercise>
-</exercisegroup>
+    <li><p>8 less than <m>v</m></p></li>
 
-<exercisegroup><introduction><p>Choose a variable and write an algebraic expression.</p></introduction>
+    <li><p><m>H</m> increased by 14</p></li>
+</ol></p></li>
 
-<exercise><statement><p>The ratio of your quiz score to 20</p></statement></exercise>
+<li><introduction><p>Choose a variable and write an algebraic expression.</p></introduction>
+<p><ol marker="1.">
 
-<exercise><statement><p>3 feet more than the length of the rug</p></statement></exercise>
+    <li><p>The ratio of your quiz score to 20</p></li>
 
-<exercise><statement><p>Twice the age of the building</p></statement></exercise>
+    <li><p>3 feet more than the length of the rug</p></li>
 
-<exercise><statement><p>$6 less than the sales price</p></statement></exercise>
-</exercisegroup>
+    <li><p>Twice the age of the building</p></li>
 
-<exercisegroup><introduction><p>Use a formula to write an expression.</p></introduction>
+    <li><p>$6 less than the sales price</p></li>
+</ol></p></li>
 
-<exercise><statement><p>Marla's revenue was <m>D</m> dollars, and her costs were $100. What was her profit?</p>
-</statement></exercise>
+<li><introduction><p>Use a formula to write an expression.</p></introduction>
+<p><ol marker="1.">
 
-<exercise><statement><p>Gertrude earned a total of <m>P</m> points on 5 quizzes.  What was her average score?</p></statement></exercise>
+    <li><p>Marla's revenue was <m>D</m> dollars, and her costs were $100. What was her profit?</p></li>
 
-<exercise><statement><p>49.2% of the voters favored your candidate.  If <m>V</m> people voted, how many favored your candidate?</p></statement></exercise>
+    <li><p>Gertrude earned a total of <m>P</m> points on 5 quizzes.  What was her average score?</p></li>
 
-<exercise><statement><p>The height of a triangle is 6 inches and its base is <m>n</m> inches. What is its area?</p></statement></exercise>
-</exercisegroup>
-</exercises>
+    <li><p>49.2% of the voters favored your candidate.  If <m>V</m> people voted, how many favored your candidate?</p></li>
 
-<subsubsection><title>Answers to Homework Preview</title><p> <ol marker= "1." cols="4">
+    <li><p>The height of a triangle is 6 inches and its base is <m>n</m> inches. What is its area?</p></li>
+</ol></p></li>
+</ol></p>
+
+<p>Answers to Homework Preview</p>
+<p><ol marker="A."> 
+<li><ol marker= "1." cols="3">
     <li><m>\dfrac{6}{x}</m></li>
     <li><m>x-6</m></li>
     <li><m>0.06x</m></li>
     <li><m>\dfrac{1}{6}x</m></li>
     <li><m>v-8</m></li>
     <li><m>H+14</m></li>
+</ol></li>
+<li><ol marker= "1." cols="4">
     <li><m>\dfrac{Q}{20}</m></li>
     <li><m>L+3</m></li>
     <li><m>2a</m></li>
     <li><m>S-6</m></li>
+</ol></li>
+<li><ol marker= "1." cols="4">
     <li><m>D-100</m></li>
     <li><m>\dfrac{P}{5}</m></li>
     <li><m>0.492V</m></li>
-    <li><m>3n</m></li></ol></p></subsubsection>
-
-</algorithm></subsection>
+    <li><m>3n</m></li>
+</ol></li>
+</ol></p>
+</activity></subsection>
 
 
 <xi:include href="./hmwk-1-2.xml" />

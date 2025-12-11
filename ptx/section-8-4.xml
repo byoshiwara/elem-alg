@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Equations-with-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Fractions</title>
+<section xml:id="Equations-with-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Equations with Fractions</title>
 
 <subsection><title>"Clearing" Fractions</title>
-<idx><h>fractions</h><h>clearing</h></idx>
-<idx><h>fractions</h><h>clearing</h><seealso>equation</seealso></idx>
-<idx><h>equation</h><h>clearing fractions</h></idx>
+	<idx><h>fractions</h><h>clearing</h></idx>
+	<idx><h>fractions</h><h>clearing</h><seealso>equation</seealso></idx>
+	<idx><h>equation</h><h>clearing fractions</h></idx>
 
-<p>How can we solve an equation that involves algebraic fractions?  Recall that to solve the equation
+<p>How can we solve an equation that involves algebraic fractions? Recall that to solve the equation
 	<me>\dfrac{3x}{4} = 9</me>
  we multiply both sides by 4 (the denominator of the fraction) to "clear" the fraction.
  	<md><mrow>\cancel{\blert{4}}(\dfrac{3x}{\cancel{4}}) \amp = (9)\blert{4}</mrow>
@@ -25,16 +26,18 @@
 Then we proceed as usual to finish the solution. We subtract <m>50x</m> from both sides to find
   	<md><mrow>5000 \amp = 25x</mrow>
   		<mrow>200 \amp = x</mrow></md>
-You can check that <m>x=200</m> does satisfy the equation.</p></solution></example>
+You can check that <m>x=200</m> does satisfy the equation.</p>
+</solution></example>
 </subsection>
 
 <subsection><title>Using an LCD to Clear Fractions</title>
-<idx><h>equation</h><h>clearing fractions</h></idx>
-<idx><h>lowest common denominator</h><h>clearing fractions</h></idx>
+	<idx><h>equation</h><h>clearing fractions</h></idx>
+	<idx><h>lowest common denominator</h><h>clearing fractions</h></idx>
 
 <p>If an equation contains more than one fraction, we multiply both sides of the equation by the LCD of all the fractions. This will clear all the denominators at once.</p>
    
-<example xml:id="Example-8-4-2"><statement><p>Solve <m>~~\dfrac{x}{3} -2 = \dfrac{4}{5} + \dfrac{x}{5}</m></p></statement>
+<example xml:id="Example-8-4-2"><statement><p>Solve <m>~~\dfrac{x}{3} -2 = \dfrac{4}{5} + \dfrac{x}{5}</m></p>
+</statement>
 
 <solution><p>The LCD of <m>~\dfrac{x}{3},~ \dfrac{4}{5}</m> and <m>~\dfrac{x}{5}</m> is <m>15</m>. We multiply both sides of the equation by <m>15</m>.
 	<md><mrow>\blert{15}\left(\dfrac{x}{3} -2\right)  \amp = \left(\dfrac{4}{5} + \dfrac{x}{5}\right)\blert{15} \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
@@ -44,7 +47,8 @@ Now we can proceed as usual to complete the solution.
 	<md><mrow>5x-30 \amp = 12+3x \amp \amp  \blert{\text{Subtract}~3x~\text{from both sides;}}</mrow>
 		<mrow>\amp \amp\amp  \blert{\text{add 30 to both sides.}}</mrow>
 		<mrow>2x \amp = 42 \amp\amp   \blert{\text{Divide both sides by 2.}}</mrow>
-		<mrow>x \amp = 21</mrow></md></p></solution></example>
+		<mrow>x \amp = 21</mrow></md></p>
+</solution></example>
 
 <warning><p>In <xref ref="Example-8-4-2" text="type-global"/>, note that we multiplied each term by the LCD, <m>15</m>, including terms that are not fractions, namely <m>2</m> in this example. Be sure to multiply each term of the equation by the LCD.</p></warning>  
 
@@ -54,11 +58,12 @@ Now we can proceed as usual to complete the solution.
 </subsection>
 
 <subsection><title>Variables in the Denominator</title>
-<idx><h>fractions</h><h>solving equations with variable in denominator</h></idx>
+	<idx><h>fractions</h><h>solving equations with variable in denominator</h></idx>
 
 <p>Equations that involve algebraic fractions can also be solved using an LCD.</p>
 
 <example xml:id="Example-8-4-3"><statement><p>Solve  <m>~~\dfrac{3}{4} = 8- \dfrac{2x+11}{x-5}</m></p></statement>
+
 <solution><p>The LCD for the two fractions in the equation is <m>\blert{4(x-5)}</m>. We multiply both sides of the equation by the LCD.
 	<md><mrow>\blert{4(x-5)}\left(\dfrac{3}{4}\right)  \amp = \left(8- \dfrac{2x+11}{x-5}\right) \cdot \blert{4(x-5)}
     ~~~~\begin{array}{l}
@@ -73,21 +78,24 @@ We proceed as usual to complete the solution. First we use the distributive law 
 		<mrow>3x-15 \amp = 24x-204</mrow>
 		<mrow>-21x \amp = -189</mrow>
 		<mrow>x \amp = 9</mrow></md>
-The solution is <m>x=9</m>. You can check that <m>x=9</m> satisfies the original equation.</p></solution></example>
+The solution is <m>x=9</m>. You can check that <m>x=9</m> satisfies the original equation.</p>
+</solution></example>
 
 <exercise number="2"><statement><p>How do we "clear" the fractions from an equation?</p></statement>
     <answer><p>Multiply both sides by the LCD.</p></answer></exercise>
 
 <assemblage><title>Look Ahead</title>
-<p>	Remember that we do not obtain an equivalent equation if we multiply both sides of an equation by zero. In <xref ref="Example-8-4-3" text="type-global"/> we multiplied by <m>4(x-5)</m>. Is it possible that <m>4(x-5)</m> equals zero? After solving, we found that <m>x=9</m>, so <m>4(x-5) = 16</m>, which is not zero, and the multiplication step was valid. The next example illustrates what can go wrong if we multiply by zero.</p></assemblage>
+<p>	Remember that we do not obtain an equivalent equation if we multiply both sides of an equation by zero. In <xref ref="Example-8-4-3" text="type-global"/> we multiplied by <m>~4(x-5)</m>. Is it possible that <m>~4(x-5)~</m> equals zero? After solving, we found that <m>~x=9</m>, so <m>~4(x-5) = 16</m>, which is not zero, and the multiplication step was valid. The next example illustrates what can go wrong if we multiply by zero.</p>
+</assemblage>
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
-<idx><h>extraneous solution</h></idx>
-<idx><h>solution</h><h>extraneous</h><see>extraneous solution</see></idx>
+	<idx><h>extraneous solution</h></idx>
+	<idx><h>solution</h><h>extraneous</h><see>extraneous solution</see></idx>
 
 <example xml:id="Example-8-4-4"><statement><p>Solve  <m>~~6 +\dfrac{4}{x-3} = \dfrac{x+1}{x-3}</m></p></statement>
-<solution><p>We multiply both sides of the equation by the LCD, <m>~x-3~</m>, to clear the fractions.  Apply the distributive law to multiply each term by <m>~x-3~</m>.
+
+<solution><p>We multiply both sides of the equation by the LCD, <m>~x-3~</m>, to clear the fractions. Apply the distributive law to multiply each term by <m>~x-3~</m>.
 	<md><mrow>\blert{(x-3)}\left(6+\dfrac{4}{x-3}\right) \amp = \left(\dfrac{x+1}{x-3}\right) \cdot \blert{(x-3)} 
     </mrow>
 		<mrow>\blert{(x-3)}(6)+\blert{\cancel{(x-3)}}\left(\dfrac{4}{\cancel{x-3}}\right) \amp = \left(\dfrac{x+1}{x-3}\right)\blert{\cancel{(x-3)}}</mrow>
@@ -117,7 +125,7 @@ Because division by zero is undefined, <m>3</m> is not a solution after all. The
 </subsection>
 
 <subsection><title>Formulas</title>
-<idx><h>formula</h><h>solving formula with algebraic fractions for a variable</h></idx>
+	<idx><h>formula</h><h>solving formula with algebraic fractions for a variable</h></idx>
 
 <p>	We can also solve formulas that involve algebraic fractions.</p>
 
@@ -132,10 +140,10 @@ We now have two unlike terms that contain the desired variable. To proceed, we f
 <md><mrow>A \amp = P(1+RT)~~~~~~~~~\blert{\text{Divide both sides by}~1+RT.}</mrow>
 		<mrow>\dfrac{A}{\blert{1+RT}} \amp = \dfrac{P\cancel{(1+RT)}}{\blert{\cancel{1+RT}}}</mrow></md>
 Thus, the new version of the formula is
-	<me>P=\dfrac{A}{1+RT}</me></p></solution></example>
+	<me>P=\dfrac{A}{1+RT}</me></p>
+</solution></example>
 
-<exercise number="5"><statement><p>When solving a formula, what should we do if there are two terms that 
-	contain the variable?</p></statement>
+<exercise number="5"><statement><p>When solving a formula, what should we do if there are two terms that contain the variable?</p></statement>
     <answer><p>Factor out the variable.</p></answer></exercise>
 </subsection>
 
@@ -166,7 +174,7 @@ if either of these is more useful for the problem.</p>
         <cell><m>x-3</m></cell>
         <cell><m>\hphantom{0000}</m></cell></row>
     </tabular>
-<p>Note that the current adds to the speed of the boat when it is travelling downstream, and is subtractied from its speed travelling upstream. We use the formula <m>t = \dfrac{d}{r}</m> to fill in the last column of the table.</p>
+<p>Note that the current adds to the speed of the boat when it is travelling downstream, and is subtractied from its speed travelling upstream. We use the formula <m>~t = \dfrac{d}{r}~</m> to fill in the last column of the table.</p>
 
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
     <row bottom="minor">
@@ -202,7 +210,8 @@ The equation is quadratic, and we can solve it by factoring.
 		<mrow>9(x-9)(x+1) \amp = 0~~~~~~~~\blert{\text{Set each factor equal to zero.}}</mrow>
 		<mrow>x-9=0~~~~x+1 \amp = 0</mrow>
 		<mrow>x=9~~~~~~~~~~x \amp =-1</mrow></md>
-Finally, we check each solution by substituting into the original equation. Neither solution is extraneous. However, the speed of the boat is not a negative number, so we discard the solution <m>x=-1</m>. The boat travels at 9 miles per hour in still water.</p></solution></example>
+Finally, we check each solution by substituting into the original equation. Neither solution is extraneous. However, the speed of the boat is not a negative number, so we discard the solution <m>x=-1</m>. The boat travels at 9 miles per hour in still water.</p>
+</solution></example>
 
 <p>Problems involving other types of rates can be solved with similar techniques. Suppose it takes you 8 hours to type a term paper for your history class. If you work at a constant rate, in 1 hour you would complete <m>\dfrac{1}{8}</m> of your task. The rate at which you work, or your work rate, is one-eighth job per hour. In 3 hours you would complete  
 	<me>3 \cdot \dfrac{1}{8} = \dfrac{3}{8}</me>
@@ -213,34 +222,29 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 <assemblage><title>Work Formula</title>
 <p><md><mrow>\blert{\text{work rate} \times \text{time}} \amp \blert{= \text{work completed}}</mrow>
 		<mrow>\blert{rt} \amp \blert{= w}</mrow></md></p></assemblage>
-</subsection>
 
-<subsection><theorem>
-<exercises>
+<problem><statement>
 
-<exercisegroup cols="2"><introduction><p>Write each expression as a single fraction in simplest form.</p>
-</introduction>
+<p>Write each expression as a single fraction in simplest form.</p>
 
-<exercise number="1"><statement><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></statement></exercise>
+<p><ol marker="1." cols="2">
+	<li><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></li>
+	<li><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></li>
+	<li><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></li>
+	<li><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></li>
+</ol></p></statement>
 
-<exercise number="2"><statement><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></statement></exercise>
-
-<exercise number="3"><statement><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></statement></exercise>
-
-<exercise number="4"><statement><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></statement></exercise>
-</exercisegroup>
-</exercises>
-
-<subsubsection><title>Answers to Skills Warm-Up</title>
+<answer>
 <p><ol marker="1." cols="2">
     <li><m>\dfrac{3x-4}{x^2-2x}</m></li>
     <li><m>\dfrac{4-x}{x^2-2x}</m></li>
     <li><m>\dfrac{2}{x^2-2x}</m></li>
     <li><m>\dfrac{x}{2x-4}</m></li>
-</ol></p></subsubsection></theorem>
+</ol></p></answer></problem>
 </subsection>
 
-<subsection>
+<subsection><title>Lesson</title>
+
 <activity><title>Using a Graph</title>
 
 <p>A new health club opened up, and the manager kept track of the number of active members over its first few months of operation. The equation below gives the number <m>N</m> of active members, in hundreds, <m>t</m> months after the club opened.</p> 
@@ -248,55 +252,44 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 	<me>N=\dfrac{10t}{4+t^2}</me>
 The graph of this equation is shown at right.<ol marker="a.">
 	<li>Use the equation to find out in which months the club had 200 active members.</li>
-	<li>Verify your answers on the graph.</li></ol></p>
-<image source="photos/act-8-4-1"><description>graph</description></image></sidebyside>
+	<li>Verify your answers on the graph.</li>
+</ol></p>
+	<image source="photos/act-8-4-1"><description>graph</description></image></sidebyside>
 </activity>
 
 <activity><title>Using Algebra</title>
 
-<exercises>
-<exercise><statement><p>Solve  <m>~~\dfrac{x^2}{2} + \dfrac{5x}{4} = 3~~</m> by first clearing the fractions.</p>
-</statement></exercise>
+<p><ol marker="1.">
+<li><p>Solve  <m>~~\dfrac{x^2}{2} + \dfrac{5x}{4} = 3~~</m> by first clearing the fractions.</p></li>
 
-<exercise><statement><p>Solve  <m>~~\dfrac{1}{x-2} + \dfrac{2}{x} = 1~~</m> </p>
+<li><p>Solve  <m>~~\dfrac{1}{x-2} + \dfrac{2}{x} = 1~~</m></p>
+	<p><m>\blert{\text{Step 1  Find the LCD for all the fractions in the equation.}}</m></p>
+	<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
+	<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p></li>
 
-<p><m>\blert{\text{Step 1  Find the LCD for all the fractions in the equation.}}</m></p>
+<li><p>Solve  <m>~~\dfrac{15}{x^2-3x} + \dfrac{4}{x} = \dfrac{5}{x-3}~~</m> </p>
+	<p><m>\blert{\text{Step 1  Factor each denominator and find the LCD for all the fractions.}}</m></p>
+	<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
+	<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
+	<p><m>\blert{\text{Step 4  Check for extraneous solutions.}}</m></p></li>
 
-<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
-
-<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
-</statement></exercise>
-
-<exercise><statement><p>Solve  <m>~~\dfrac{15}{x^2-3x} + \dfrac{4}{x} = \dfrac{5}{x-3}~~</m> </p>
-
-<p><m>\blert{\text{Step 1  Factor each denominator and find the LCD for all the fractions.}}</m></p>
-
-<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
-
-<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
-
-<p><m>\blert{\text{Step 4  Check for extraneous solutions.}}</m></p>
-</statement></exercise>
-
-<exercise><statement><p>Solve the formula <m>~~\dfrac{w}{q} = 1 - \dfrac{T}{H}~~</m> for <m>q</m>. </p></statement>
-</exercise>
-</exercises>
+<li><p>Solve the formula <m>~~\dfrac{w}{q} = 1 - \dfrac{T}{H}~~</m> for <m>q</m>.</p></li>
+</ol></p>
 </activity>
 
 <activity><title>Work Problem</title>
 
-<p>	In this application, the work being done is the water flowing into (or out of) the reservoir, so the work rate is the flow rate of water through the pipes.</p>
+<p>In this application, the work being done is the water flowing into (or out of) the reservoir, so the work rate is the flow rate of water through the pipes.</p>
 
 <p>The city reservoir was completely emptied for repairs, and is now being refilled. Water flows in through the intake pipe at a steady rate that can fill the reservoir in 120 days. However, water is also being drained from the reservoir as it is used by the city, so that it actually takes 150 days to fill. After the reservoir is filled, the water supply is turned off, but the city continues to use water at the same rate. How long will it take to drain the reservoir dry?
 <ol marker="a.">
 <li><p>Let <m>d</m> stand for the number of days for the outflow pipe to drain the full reservoir.</p>
-
-		<p>Fraction of the reservoir that is drained in one day: <fillin characters="10"/></p>                                     
+		<p>Fraction of the reservoir that is drained in one day: <fillin characters="6"/></p>                                  
 		<p>This is the rate at which water leaves the reservoir.</p></li>
 
 <li><p>Now imagine that the intake pipe is open, but the outflow pipe is closed.</p>
 
-		<p>Fraction of the reservoir that is filled in one day: <fillin characters="10"/></p>                                     
+		<p>Fraction of the reservoir that is filled in one day: <fillin characters="6"/></p>                                     
 		<p>This is the rate at which water enters the reservoir.</p></li>
 
 <li><p>Consider the time period described in the problem when both pipes are open. Fill in the table.</p>  
@@ -324,7 +317,8 @@ The graph of this equation is shown at right.<ol marker="a.">
 	<p><m>\blert{\text{Fraction of reservoir filled}} - \blert{\text{Fraction drained}} = \blert{\text{One whole reservoir}}</m></p></li>
 
 <li>Solve your equation.</li>
-</ol></p></activity>
+</ol></p>
+</activity>
 
 <subsubsection>
 <assemblage><title>Objectives</title>
@@ -342,29 +336,28 @@ The graph of this equation is shown at right.<ol marker="a.">
 	<li>In Activity 2, Problem 4, what was the LCD?</li>
 </ol></p></assemblage>
 </subsubsection>
-</subsection>
 
-<subsection><algorithm>
-<exercises>
+<activity><title>Homework Preview</title>
 
-<exercise><statement><p>Solve <m>~~~\dfrac{3x}{4}-1=2x+\dfrac{9}{2}</m></p></statement></exercise>
+<p><ol marker="1.">
+<li><p>Solve <m>~~~\dfrac{3x}{4}-1=2x+\dfrac{9}{2}</m></p></li>
 
-<exercise><statement><p>Solve <m>~~~\dfrac{3}{x+4}-7=\dfrac{-4}{x+4}</m></p></statement></exercise>
+<li><p>Solve <m>~~~\dfrac{3}{x+4}-7=\dfrac{-4}{x+4}</m></p></li>
 
-<exercise><statement><p>Solve <m>~~~\dfrac{1}{a^2+a}=2+\dfrac{1}{a}</m></p></statement></exercise>
+<li><p>Solve <m>~~~\dfrac{1}{a^2+a}=2+\dfrac{1}{a}</m></p></li>
 
-<exercise><statement><p>Solve <m>~~~R=\dfrac{cd}{c+d}~~</m> for <m>c</m></p></statement></exercise>
-</exercises>
+<li><p>Solve <m>~~~R=\dfrac{cd}{c+d}~~</m> for <m>c</m></p></li>
+</ol></p>
 
-<subsubsection><title>Answers to Homework Preview</title>
+<p>Answers to Homework Preview</p>
 <p><ol marker= "1." cols="2">
     <li><m>\dfrac{-22}{5}</m></li>
     <li><m>-3</m></li>
     <li><m>\dfrac{-3}{2}</m></li>
 	<li><m>c=\dfrac{dR}{d-R}</m></li>
-</ol></p></subsubsection></algorithm>
+</ol></p>
+</activity>
 </subsection>
-
 
 <xi:include href="./hmwk-8-4.xml" />
 </section>

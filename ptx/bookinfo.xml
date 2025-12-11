@@ -19,10 +19,10 @@
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
         <rename element="question">Exercise</rename>
-        <rename element="inlineexercise">Reading Question</rename>
-        <rename element="problem">Wrap-Up</rename>
-        <rename element="algorithm">Homework Preview</rename>
-        <rename element="theorem">Skills Warm-Up</rename>
+        <rename element="inlineexercise">QuickCheck</rename>
+        <rename element="problem">Skills Warm-Up</rename>
+        
+        
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
 
 
