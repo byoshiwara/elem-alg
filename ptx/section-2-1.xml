@@ -33,8 +33,10 @@
 
 <p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
 
-<exercise number="1"><statement><p>What are integers?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What are integers?</p></statement>
     <answer><p>The natural numbers, zero, and the negatives of the natural numbers.</p></answer></exercise>
+</reading-questions>
 
 <p>As we move from left to right on a number line, the numbers increase. In the figure below, the graph of <m>-6</m> lies to the left of the graph of <m>-2</m>. Therefore, <m>-6</m> is less than <m>-2</m>, or, equivalently, <m>-2</m> is greater than <m>-6</m>.</p> 
 
@@ -202,11 +204,13 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>We subtract 5 from 9 to get 4, then make the answer negative, because <m>-9 </m> has a larger absolute value than <m>+5</m>. Thus,<m>~(+5)+(-9)=-4.</m></li>
 </ol></p></solution></example>
 
-<exercise number="2"><statement><p>What is the <term>absolute value</term><idx>absolute value</idx> of a number?</p></statement>
+<reading-questions>
+    <exercise number="2"><statement><p>What is the <term>absolute value</term><idx>absolute value</idx> of a number?</p></statement>
     	<answer><p>The unsigned part of the number.</p></answer></exercise>
 
 <exercise number="3"><statement><p>When we add two numbers with opposite signs, we <fillin characters="6"/> their absolute values.</p></statement>
     	<answer><p>subtract</p></answer></exercise>
+</reading-questions>
 
 <p>We now have two rules for adding signed numbers.</p>
 
@@ -316,11 +320,13 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<me>5-(-3)=8 ~~~~~ \text{and} ~~~~~5+(+3)=8</me>
 Subtracting a negative number has the same result as adding the positive number with the same absolute value. Thus, to subtract a negative number, we add its opposite.</p></assemblage>
 
-<exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
     	<answer><p>False.  If <m>x=-3</m>, then <m>-x=3</m>.</p></answer></exercise>
 
 <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> with the same absolute value.</p></statement>
     	<answer><p>adding a positive number</p></answer></exercise>
+</reading-questions>
 
 <p>From the examples above, we see that to subtract any number, positive or negative, we add its opposite. We can do this in steps as follows.</p>
 
@@ -461,8 +467,7 @@ We must perform additions and subtractions in order from left to right:
 	<idx><h>multiplication</h><h>of signed numbers</h></idx>
 	<idx><h>product</h><h>of signed numbers</h></idx>
 
-<subsubsection><title>The product of numbers with opposite signs</title>
-
+<subsubsection><title>Case 1: The product of numbers with opposite signs</title>
 <p>We can think of multiplication as repeated addition.  For example,
 	<me>3(2)~~~~~\text{means}~~~~~2+2+2~~~~~\text{The sum of three 2's}</me>
 Similarly,
@@ -470,7 +475,7 @@ Similarly,
 which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe three different people 2 dollars each, then you are 6 dollars in debt.</p>
 <p>Because multiplication is commutative, it is also true that <m>-2(3)=-6</m>. This example illustrates the following fact.</p>
 
-<assemblage><title>Case 1: Products</title>
+<assemblage><title>Products</title>
 	<p>The product of a positive number and a negative number is a negative number.</p></assemblage> 
 
 <example><statement><p>You can use your calculator to verify the following products.<ol marker="a." cols="2">
@@ -478,24 +483,19 @@ which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe th
 	<li><m>5(-2.6)=-13</m></li></ol></p></statement></example>
 </subsubsection>
 
-<subsubsection><title>The product of numbers with the same sign</title>
-
+<subsubsection><title>Case 2: The product of numbers with the same sign</title>
 <p>You know that the product of two positive numbers is positive. It is also true that the product of two negative numbers is positive.</p>  
-<p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, consider the pattern in the list of products of <m>-2</m> shown below.  As we move down the list, multiplying <m>-2</m> by smaller numbers, the product increases by <m>2</m> each time. We  might expect that pattern to continue as we multiply <m>-2</m> by negative numbers, resulting in positive products.
-
-    <md><mrow> ...</mrow>
-    	<mrow>3(-2) \amp =-6 </mrow>
-        <mrow>2(-2) \amp =-4 </mrow>
-        <mrow>1(-2) \amp =-2 \amp \amp \blert{\leftarrow \text{Positive times negative is negative.}}</mrow>
-        <mrow>0(-2) \amp = 0 \amp  </mrow>
-        <mrow>-1(-2) \amp =2 \amp \amp   \blert{\leftarrow \text{Negative times negative is positive.}}</mrow>
-        <mrow>-2(-2) \amp =4 \amp </mrow>
-        <mrow>-3(-2) \amp =6 \amp  </mrow>
-    	<mrow> ...</mrow></md>                 
-
+<p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, you could observe the pattern in the lists of products below.  As we move down the list, the product increases by equal amounts. 
+    <md><mrow>3(-2) \amp =-6 \amp  3(-5) \amp =-15</mrow>
+        <mrow>2(-2) \amp =-4 \amp  2(-5) \amp =-10</mrow>
+        <mrow>1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \blert{\leftarrow \text{Positive times negative is negative.}}</mrow>
+        <mrow>0(-2) \amp =-0 \amp  0(-5) \amp =0</mrow>
+        <mrow>-1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \blert{\leftarrow \text{Negative times negative is positive.}}</mrow>
+        <mrow>-2(-2) \amp =4 \amp  -2(-5) \amp =10</mrow>
+        <mrow>-3(-2) \amp =6 \amp  -3(-5) \amp =15</mrow></md>                 
 Based on the pattern in these calculations, the following rule seems reasonable.</p>
 
-<assemblage><title>Case 2: Products</title>
+<assemblage><title>More Products</title>
 	<p>The product of two negative numbers is a positive number.</p></assemblage>
 
 <example><statement><p>You can use your calculator to verify the following products.<ol marker="a." cols="2">
@@ -549,7 +549,8 @@ Note that the numerator in the division fact becomes the product in the multipli
 	<li>The quotient of two numbers with the same sign is a positive number.</li>
 </ol></p></assemblage>
 
-<exercise number="6"><statement><p>Which of these is a product?<ol marker="a." cols="4">
+<reading-questions>
+    <exercise number="6"><statement><p>Which of these is a product?<ol marker="a." cols="4">
     		<li><m>3+(-4)</m></li>
     		<li><m>-3-4</m></li>
     		<li><m>-3(-4)</m></li>
@@ -577,7 +578,7 @@ Note that the numerator in the division fact becomes the product in the multipli
 	<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
 The standard form for a positive fraction has positive numerator and denominator.
 	<me>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</me></p></assemblage>
-</subsubsection>
+</subsection>
 
 <subsubsection><title>Quotients Involving Zero</title>
 	<idx><h>quotient</h><h>involving zero</h></idx>
@@ -620,7 +621,7 @@ In general, we cannot divide any number by zero.
 	<m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p>
 <!--<image source="photos/sw-2-1-1.png"><description>number line</description></image>-->
     <image width="80%" xml:id="sw-2-1-1"><description>number line</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+       <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=0.45]
@@ -653,7 +654,6 @@ In general, we cannot divide any number by zero.
 <answer>
 <p><ol marker="1.">
 	<li><image width="90%" xml:id="sw-2-1-1ans"><description>number line</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=0.45]
@@ -673,7 +673,6 @@ In general, we cannot divide any number by zero.
         \filldraw[red] (21/4,0) circle (.15) node[above, yshift=3, scale=.9] {$5\frac{1}{4}$};
         \end{tikzpicture}]]></latex-image></image></li>
     <li><image width="90%" xml:id="sw-2-1-2ans"><description>number line</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=0.45]
@@ -819,8 +818,7 @@ In general, we cannot divide any number by zero.
 <p>In this Lesson we practiced the following skills:<ul>
     <li>Illustrating sums and differences on a number line</li>
     <li>Performing operations on signed numbers</li>
-	<li>Writing a subtraction as an equivalent addition</li>
-</ul></p></assemblage>
+	<li>Writing a subtraction as an equivalent addition</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
 <p><ol marker="1.">
@@ -831,8 +829,7 @@ In general, we cannot divide any number by zero.
 		<li><m>\dfrac{2}{0} = 0</m></li>
 		<li><m>-2-2 = 0</m></li>
 		<li><m>-2(-2) = 0</m></li></ol></p></li>	
-	<li>Does the negative sign in a fraction such as <m>~-\dfrac{5}{2}~</m> apply to the numerator, the denominator, or both?</li>
-</ol></p></assemblage>
+	<li>Does the negative sign in a fraction such as <m>~-\dfrac{5}{2}~</m> apply to the numerator, the denominator, or both?</li></ol></p></assemblage>
 </subsubsection>
 
 <activity><title>Homework Preview</title>

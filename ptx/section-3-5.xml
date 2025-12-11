@@ -9,8 +9,9 @@
 
 <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx><h>parallel lines</h></idx><idx><h>lines</h><h>parallel</h></idx> lines. It is easy to understand that parallel lines have the same slope.</p>
 
-<question number="1"><statement>
-    <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
+<reading-questions>
+    <exercise number="1"><statement>
+    <sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
     <md><mrow>m_1 \amp= \dfrac{\Delta y}{\Delta x} =\hphantom{00000} </mrow>
         <mrow>m_2 \amp= \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
     <!--<image source="photos/fig-3-5-1.png"><description>graph</description></image>-->
@@ -32,12 +33,14 @@
         \draw[red,very thick, <->, >=stealth'] (-1,-5)--(4,5) node[below right, xshift=1, text=black, fill=white, inner sep=2] {$l_2$};
         \filldraw[red!80!black] (0,-3) circle (2mm);
         \filldraw[red!80!black] (3,3) circle (2mm);
-        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></question>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
+</reading-questions>
 
 <p>Lines that intersect at right angles <idx><h>right</h><h>angle</h></idx> are called <term>perpendicular</term><idx><h>perpendicular lines</h></idx><idx><h>lines</h><h>perpendicular</h></idx> lines. It is a little harder to see the relationship between the slopes of perpendicular lines.</p>
 
-<question number="2"><statement>
-	<sidebyside widths="55% 40%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
+<reading-questions>
+    <exercise number="2"><statement>
+	<sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
     <md><mrow>m_1 \amp= \dfrac{\Delta y}{\Delta x} =\hphantom{00000} </mrow>
         <mrow>m_2 \amp= \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
 	<!--<image source="photos/fig-3-5-2.png"><description>graph</description></image>-->
@@ -56,9 +59,9 @@
 		\filldraw[red!80!black] (-2,0) circle (2mm);
 		\filldraw[red!80!black] (2,2) circle (2mm);
 		\filldraw[red!80!black] (3,0) circle (2mm);
-        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></question>
-
-<p>In the Exercise above, note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
+</reading-questions>
+<p>In the Reading Question above, note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,
 	<me>m_1 m_2 = \dfrac{1}{2} (-2) = -1</me>
 This relationship holds for any pair of perpendicular lines.</p>
 
@@ -73,11 +76,13 @@ This relationship holds for any pair of perpendicular lines.</p>
 	or if one of the lines is horizontal and one is vertical.</p></li>
 </ol></p></assemblage>
 
-<exercise number="3"><statement><p>What do we call two lines that lie in the same plane but never intersect?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What do we call two lines that lie in the same plane but never intersect?</p></statement>
     	<answer><p>Parallel lines</p></answer></exercise>
 
 <exercise number="4"><statement><p>What are perpendicular lines?</p></statement>
     	<answer><p>Lines that intersect at right angles</p></answer></exercise>
+</reading-questions>
 
 <example><statement><p>Decide whether the lines  
       <me>2x+3y=6~~~~~~~~~ \text{and} ~~~~~~~~~3x-2y=6</me>        
@@ -103,11 +108,13 @@ so the lines are perpendicular.</p></solution></example>
 	<me>m_2 = \dfrac{-1}{m_1}</me>
 Because of this relationship, we often say that the slope of one perpendicular line is the <term>negative reciprocal</term> of the other.</p></assemblage>
 
-<exercise number="5"><statement><p>What is true about the slopes of parallel lines?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>What is true about the slopes of parallel lines?</p></statement>
     	<answer><p>They are equal.</p></answer></exercise>
 
 <exercise number="6"><statement><p>What do we call the slopes of perpendicular lines?</p></statement>
     	<answer><p>Negative reciprocals</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Equations for Horizontal and Vertical Lines</title>
@@ -117,8 +124,8 @@ Because of this relationship, we often say that the slope of one perpendicular l
 
 <example xml:id="Example-3-5-2"><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
 
-<solution><sidebyside widths="45% 35%" valigns="middle middle"><p>Looking at the graph of the line shown at right, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
-	<image source="photos/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
+<solution><p>Looking at the graph of the line shown below, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
+	<sidebyside width="30%"><image source="photos/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
 <p>In particular, the <m>y</m>-intercept of the line is the point <m>(0,3)</m>, so <m>b=3</m>. As we noted above, the slope of the line is <m>m=0</m>. Substituting these values into the slope-intercept form gives us the equation 
 	<me>y= 0 \cdot x + 3</me>
  or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
@@ -127,9 +134,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
     <idx><h>undefined</h><h>slope of vertical line</h></idx>
     <idx><h>slope</h><h>vertical line</h></idx>
 <p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in <xref ref="Example-3-5-2" text="type-global"/>.</p>
-
-<sidebyside widths="50% 35%" valigns="middle middle" margins="0% 5%"> 
-
+<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 5%"> 
 <p>Look at the graph of the vertical line at right. Every point on the line has <m>x</m>-coordinate <m>-2</m>, no matter what the <m>y</m>-coordinate is. An equation for this line is <m>x=-2</m>. The value of <m>x</m> does not depend upon <m>y</m>; it is constant, so <m>y</m> does not appear in the equation.</p>
 <image source="photos/hp-3-3-24"><description>vertical line</description></image></sidebyside></assemblage>
 
@@ -152,11 +157,13 @@ Because of this relationship, we often say that the slope of one perpendicular l
  	<li>Similarly, the equation of a vertical line has the form <m>x=a</m>, but the slope of a vertical line is undefined.</li>
  </ul></p></warning>
 
-<exercise number="7"><statement><p>Give an example of an equation of a vertical line.</p></statement>
+<reading-questions>
+    <exercise number="7"><statement><p>Give an example of an equation of a vertical line.</p></statement>
     	<answer><m>x=k</m></answer></exercise>
 
 <exercise number="8"><statement><p>Give an example of an equation of a horizontal line.</p></statement>
     	<answer><m>y=k</m></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Distance Between Points</title>
@@ -164,13 +171,12 @@ Because of this relationship, we often say that the slope of one perpendicular l
 
 <p>It is easy to compute the distance between two points that lie on the same horizontal or vertical line. We subtract the smaller coordinate from the larger one.</p>
 
-<example><statement><sidebyside widths="45% 53%" valigns="middle middle" margins="0% 0%"><p>The distance between the points <m>A(6, \blert{5})</m> and <m>B(6, \blert{-7})</m> in the figure is
+<example><statement><sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><p>The distance between the points <m>A(6, \blert{5})</m> and <m>B(6, \blert{-7})</m> in the figure is
     <me>\Delta y = 5-(-7)=12</me>
 and the distance between points <m>C(\blert{-7}, -3)</m> and <m>D(\blert{-2}, -3)</m> is                
     <me>\Delta x = -2-(-7)=5</me></p>
 <!--<image source="photos/fig-3-5-ex3.png"><description>graph</description></image>-->
 <image xml:id="fig-3-5-ex3"><description>a vertical segment and a horizontal segment</description><latex-image>
-    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
     <![CDATA[\tikzset{%
     }
         \begin{tikzpicture} [scale=.3]
@@ -209,12 +215,14 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
     <idx><h>directed distance</h></idx><idx><h>distance</h><h>directed</h></idx>
 <p>To find the <term>directed distance</term> between two points on a number line, we subtract the initial coordinate from the final coordinate.</p></assemblage>
 
-<exercise number="9"><statement><p>How do we find the distance between two points that lie on the same 
+<reading-questions>
+    <exercise number="9"><statement><p>How do we find the distance between two points that lie on the same 
 		vertical line?</p></statement>
     	<answer><p>Subtract the smaller <m>y</m>-coordinate from the larger one</p></answer></exercise>
 
 <exercise number="10"><statement><p>A directed distance can be either <fillin characters="6"/> or <fillin characters="6"/>.</p></statement>
-    	<answer><p>positive, negative</p></answer></exercise>
+   	<answer><p>positive, negative</p></answer></exercise>
+</reading-questions>
 
 <assemblage><title>Look Ahead</title>
 <p>So far we have computed the slope of a line by finding <m>\Delta x</m> and <m>\Delta y</m> on the graph. Now we can use directed distance to develop a formula for slope.</p></assemblage>
@@ -225,8 +233,7 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
     <li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using coordinates.</p></li></ol></p>
 <!--<image source="photos/fig-3-5-ex4.png"><description>graph</description></image>-->
     <image xml:id="fig-3-5-ex4"><description>graph</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
+       <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.3]
         \draw[cyan] (-10,-10) grid (10,10);
@@ -311,11 +318,13 @@ Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
 
 <warning><p>The subscript 1 on <m>x_1</m>, for instance, has nothing to do with the value of the coordinate; it merely identifies this coordinate as the <m>x</m>-coordinate of the first point.</p></warning>
 
-<exercise number="11"><statement><p>What do the subscripts in <m>(x_1,y_1)</m> mean?</p></statement>
+<reading-questions>
+    <exercise number="11"><statement><p>What do the subscripts in <m>(x_1,y_1)</m> mean?</p></statement>
     	<answer><p>Coordinates of the first point</p></answer></exercise>
 
 <exercise number="12"><statement><p>Write a formula for computing <m>\Delta y</m>.</p></statement>
     	<answer><m>\Delta y= y_2-y_1</m></answer></exercise>
+</reading-questions> 
 </subsection>
 
 <subsection><title>A New Formula for Slope</title>
@@ -398,7 +407,7 @@ the same answer as before. The order of the points does not matter, but we must 
 
 <subsection><title>Lesson</title>
 
-<activity><title>Parallel and Perpendicular Lines</title>
+<subsubsection><title>Activity 1: Parallel and Perpendicular Lines</title>
 
 <p><ol marker="1.">
     <li><p>Put each equation into slope-intercept form.</p>
@@ -413,7 +422,7 @@ the same answer as before. The order of the points does not matter, but we must 
 </ol></p>
 </activity>
 
-<activity><title>Horizontal and Vertical Lines</title>
+<subsubsection><title>Activity 2: Horizontal and Vertical Lines</title>
 
 <p><ol marker="1.">
     <li><p>Sketch a graph of the vertical line passing through <m>(-4,-1)</m>, then find its equation.</p>
@@ -425,13 +434,12 @@ the same answer as before. The order of the points does not matter, but we must 
 </ol></p>
 </activity>
 
-<activity><title>Slope</title>
+<subsubsection><title>Activity 3: Slope</title>
 
 <p><ol marker="1.">
 <li><p>Compute the slope of the line segment joining <m>A</m> and <m>C</m> in two ways:</p>
     <!--<image source="photos/act-3-5-2.png"><description>line segment</description></image>-->
     <image width="60%" xml:id="act-3-5-3-1"><description>line segment on grid</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.3]
@@ -472,7 +480,6 @@ the same answer as before. The order of the points does not matter, but we must 
 <li><p>Follow the steps to compute the slope of the line segment joining <m>H</m> and <m>K</m>.</p>
     <!--<image source="photos/act-3-5-3.png"><description>line segment</description></image>-->
     <image width="60%" xml:id="act-3-5-3-2"><description>line segment on grid</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.3]
@@ -546,14 +553,14 @@ the same answer as before. The order of the points does not matter, but we must 
 <li><p>Find the slope of the line through <m>(-2,3)</m> and <m>(1,-5)</m>. Graph the line.</p>
 <p><m>m = </m></p>
 
-<sidebyside widths="45% 45%">
+sidebyside widths="45% 45%">
     <image source="photos/stangrid10"><description>grid</description>
     </image><image source="photos/stangrid10"><description>grid</description></image></sidebyside></li>
 
 <li><p>Find the slope of the line through <m>(5,-4)</m> and <m>(-2,-4)</m>. Graph the line.</p>
 <p><m>m = </m></p></li>
 </ol></p>
-    
+   
 <p>Answers to Homework Preview</p>
     <p><ol marker= "1.">
     <li>Neither</li>

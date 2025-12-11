@@ -19,8 +19,9 @@
 <p>We saw that the area of a square whose side has length <m>s</m> units is given by <m>~A=s^2</m> square units, and the volume of a cube of side <m>s</m> units is gven by <m>~V=s^3</m> cubic units.  Many other useful formulas involve exponents.</p>
 <p>The figure below shows several solid objects, along with formulas for their volumes and surface areas.</p>
 
-
-<image width="100%" source="photos/fig-5-3-1"><description>solids</description></image>	<idx><h>volume</h><h>formulas</h></idx><idx><h>surface area</h><h>formulas</h></idx>
+<sidebyside width="95%">
+	<image source="photos/fig-5-3-1"><description>solids</description></image>	<idx><h>volume</h><h>formulas</h></idx><idx><h>surface area</h><h>formulas</h></idx>
+</sidebyside>  
 
 <example><statement><p>At the Red Deer Pub and Microbrewery there is a spherical copper tank in which beer is brewed. If the tank is 4 feet in diameter, how much beer does it hold?</p></statement>
 
@@ -30,11 +31,13 @@
 		<mrow> \amp=33.51 \ldots</mrow></md>
 The tank holds approximately 33.5 cubic feet of beer, or about 251 gallons.</p></solution></example>
 
-<exercise number="1"><statement><p>What are the units of volume?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What are the units of volume?</p></statement>
     	<answer><p>Cubic units</p></answer></exercise>
 
 <exercise number="2"><statement><p>What are the units of surface area?</p></statement>
     	<answer><p>Square units</p></answer></exercise>
+ </reading-questions>
 
  <assemblage><title>Look Closer</title>
  <p>What does it mean for the volume of a round tank to be measured in "cubic" units?  If we pour all the beer in the tank into a rectangular box, that box will hold 33 and a half cubes that measure 1 foot on each side.</p>
@@ -63,8 +66,10 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 
 <p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term><idx><h>quadratic equation</h></idx>, and we shall see more about them later.</p>
 
-<exercise number="3"><statement><p>What operation is the opposite of squaring a number?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What operation is the opposite of squaring a number?</p></statement>
     	<answer><p>Taking a squre root</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Pythagorean Theorem</title>
@@ -108,19 +113,20 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
         </latex-image></image></sidebyside>
 <p>We use the Pythagorean Theorem.
 		<md><mrow>a^2 + b^2 \amp = c^2 \amp \amp \blert{\text{Substitute 20 for} ~c~ \text{and 17 for} ~b.}</mrow>
-		<mrow>a^2 + (\alert{17})^2 \amp = (\alert{20})^2 </mrow></md></p>
-<p>We compute the powers, then solve for <m>a</m>.
+		<mrow>a^2 + (\alert{17})^2 \amp = (\alert{20})^2 </mrow></md></p><p>We compute the powers, then solve for <m>a</m>.
 	<md><mrow>a^2 + 289 \amp = 400 \amp \amp \blert{\text{Subtract 289 from both sides.}}</mrow>
 		<mrow>a^2 \amp = 111 \amp \amp \blert{\text{Take square roots.}}</mrow>
 		<mrow>a \amp = \pm \sqrt{111}</mrow></md>
 We use a calculator to evaluate the square root and find that the width of the rectangle is approximately 10.536 centimeters.</p>
 </solution></example> 
 
-<exercise number="4"><statement><p>What is a right triangle, and what is the hypotenuse?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>What is a right triangle, and what is the hypotenuse?</p></statement>
     	<answer><p>A triangle in which one of the angles is a right angle; the longest side</p></answer></exercise>
 
 <exercise number="5"><statement><p>What do we use the Pythagorean theorem for?</p></statement>
     	<answer><p>To find a side of a right triangle</p></answer></exercise>
+ </reading-questions>
 </subsection>
 
 <subsection><title>Solving for One Variable</title>
@@ -150,7 +156,7 @@ it is <m>\alert{\text{not correct}}</m> to add the two 5000's and write <m>~7000
 
 <solution><p>For this problem, we treat <m>t</m> as the unknown and treat all the other variables as if they were constants. We begin by isolating the term containing <m>t</m> on one side of the equation.
 	<md><mrow>A \amp = P+Prt \amp \amp \blert{\text{Subtract} ~P~ \text{from both sides.}}</mrow>
-		<mrow>A-P \amp = Prt \amp \amp \blert{\text{Divide both sides by}~Pr.}</mrow>
+		<mrow>A-P \amp = Prt \amp \amp \blert{\text{Divide bothe sides by}~Pr.}</mrow>
 		<mrow>\dfrac{A-P}{Pr} \amp = \dfrac{Prt}{Pr}</mrow>
 		<mrow>\dfrac{A-P}{Pr} \amp = t</mrow></md>
 We now have a new formula for <m>t</m> in terms of the other variables.</p>
@@ -262,7 +268,9 @@ deep?</p></li>
 			\draw[magenta!80!black,very thick] (0,\w)--++(\d,\d)--++(\l,0)--++(0,-\w) node[right, midway, text=black]{$w$} -- (\l,0) node[right, midway, text=black, xshift=1, yshift=-2]{$w$};
 			\node at (\l/2,-.5){$l$};
 	        \end{tikzpicture}]]>
-	        </latex-image></image></sidebyside>
+	        </latex-image>
+	</image>
+	</sidebyside>
 	<p><m>\blert{\text{Top:}}</m></p>
 	<p><m>\blert{\text{Bottom:}}</m></p>
 	<p><m>\blert{\text{Front:}}</m></p>

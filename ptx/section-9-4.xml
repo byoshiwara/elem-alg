@@ -28,13 +28,15 @@ to simplify square roots. We can also use the product rule to multiply radicals 
 		<mrow> \amp = \sqrt{4x^2}\sqrt{5y} = 2x\sqrt{5y}</mrow></md></p>
 </solution></example>
 
-<exercise number="1"><statement><p>Which of these statements is correct:<ol marker="a." cols="2">
+<reading-questions>
+    <exercise number="1"><statement><p>Which of these statements is correct:<ol marker="a." cols="2">
     	<li><m>\sqrt{x^2+4} = \sqrt{x^2}+\sqrt{4}</m></li>
     	<li><m>\sqrt{4x^2} = \sqrt{4}\sqrt{x^2}</m></li>
     	<li><m>\sqrt{x^2-4} = \sqrt{x^2}-\sqrt{4}</m></li>
     	<li><m>\sqrt{\dfrac{x^2}{4}} = \dfrac{\sqrt{x^2}}{\sqrt{4}}</m></li>
 </ol></p></statement>
     <answer><p>(b) and (d)</p></answer></exercise>
+</reading-questions>
 
 <p>We use the distributive law to remove parentheses from products involving radicals. Compare the product involving radicals on the left with the more familiar use of the distributive law on the right.
 	<me>6(\sqrt{3} + \sqrt{2}) = 6\sqrt{3} + 6\sqrt{2}~~~~~~~~6(x+y)=6x+6y</me></p>
@@ -47,6 +49,7 @@ to simplify square roots. We can also use the product rule to multiply radicals 
 
 <exercise number="2"><statement><p>Explain why this statement is incorrect: <m>~5 \cdot 4\sqrt{2} = 20 \cdot 5 \sqrt{2}</m></p></statement>
     <answer><p>Because <m>4\sqrt{2}</m> is only one term.</p></answer></exercise>
+</reading-questions>
 
 <p>In the next example, we use the distributive law along with the product rule to simplify the product.</p>
 
@@ -77,8 +80,10 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
         <mrow> \amp = -4-3\sqrt{3}</mrow></md></p>
 </solution></example>
 
-<exercise number="4"><statement><p>Explain why <m>\sqrt{b}\sqrt{b}=b</m>.</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>Explain why <m>\sqrt{b}\sqrt{b}=b</m>.</p></statement>
     <answer><p>The square root of <m>b</m> is a number that, when multiplied by itself, gives <m>b</m>.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Quotients</title>
@@ -96,8 +101,10 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 		<mrow>\amp = 2\sqrt{5}</mrow></md></p>
 </solution></example>
 
-<exercise number="5"><statement><p>Is it true that we can only simplify a product or quotient of radicals if they are like radicals?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>Is it true that we can only simplify a product or quotient of radicals if they are like radicals?</p></statement>
     <answer><p>No.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Fractions</title>
@@ -108,7 +115,7 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 
 <p>	When we solve quadratic equations, the solutions are often fractions that involve square roots. Many such fractions can be simplified using properties of radicals.</p>
 
-<example xml:id="Example-9-4-6"><statement><p>One of the solutions of the equation <m>~4x^2-8x=1~</m> is <m>~\dfrac{8+\sqrt{80}}{8}</m>. Simplify this radical expression.</p></statement>
+<example xml:id="Example-9-4-6"><statement><p>One of the solutions of the equation <m>4x^2-8x=1</m> is <m>\dfrac{8+\sqrt{80}}{8}</m>. Simplify this radical expression.</p></statement>
 
 <solution><p>First, simplify the square root: <m>\sqrt{80}=\sqrt{16 \cdot 5} = 4\sqrt{5}</m>. Thus,
 	<md><mrow> \dfrac{8+\sqrt{80}}{8} \amp = \dfrac{8+4\sqrt{5}}{8} \amp \amp \blert{\text{Factor numerator and denominator.}}</mrow>
@@ -151,7 +158,8 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 	<me>\dfrac{2 \cdot \blert{\sqrt{2}}}{\sqrt{2}\cdot \blert{\sqrt{2}}} = \dfrac{2\sqrt{2}}{2} = \sqrt{2}</me>
 </p></solution></example>
 
-<exercise number="7"><statement><p>What does it mean to rationalize the denominator?</p></statement>
+<reading-questions>
+    <exercise number="7"><statement><p>What does it mean to rationalize the denominator?</p></statement>
     <answer><p>To eliminate radicals from the denominator.</p></answer></exercise>
 
 <exercise number="8"><statement><p>What should you do before trying to rationalize a denominator?</p>
@@ -208,11 +216,10 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 </ol></p>
 </activity>
 
-<activity><title>Application</title>
+<subsubsection><title>Activity 3: Application</title>
 
-<sidebyside widths="60% 30%"><stack><p>In this Activity we use a formula for the surface area of a pyramid with a square base, as shown in the figure at right.</p>  
+<sidebyside widths="70% 25%"><stack><p>In this Activity we use a formula for the surface area of a pyramid with a square base, as shown in the figure at right.</p>  
  <p>The pyramid has five faces, namely, the square base and four triangular sides. We know the height, <m>h</m>, of the pyramid, and the length, <m>s</m>, of the base.</p></stack> 
-
 <image source="photos/act-9-4-1.png"><description>pyramid</description></image></sidebyside>
 
 <p>To calculate the surface area of the pyramid, we add the area of its base and the areas of the four triangular faces.
@@ -222,10 +229,10 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 
 <p>Use the formula given above to find the surface area of the Sun Pyramid in Mexico. The pyramid is 210 feet high and has a square base 689 feet on each side.</p>
 
-<image width="70%" source="photos/act-9-4-2.png"><description>pyramid</description></image>
+<sidebyside width="70%"><image source="photos/act-9-4-2.png"><description>pyramid</description></image></sidebyside>
 
 <p>Challenge: Can you verify the expression for the area of a triangular face of the pyramid? Begin by finding the altitude of the face.</p>
-</activity>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -233,15 +240,13 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 <p>In this Lesson we practiced the following skills:<ul>
     <li>Simplifying products involving radicals</li>
     <li>Simplifying quotients of radicals</li>
-    <li>Rationalizing the denominator</li>
-</ul></p></assemblage>
+    <li>Rationalizing the denominator</li></ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
 <p><ol marker="1.">
     <li>In Activity 1 Problem 5, why don't we start by rationalizing the denominator?</li>
     <li>Explain why <m>~\dfrac{\sqrt{6x}}{3}~</m> is not equivalent to <m>~\sqrt{2x}</m>.</li>
-    <li>In Activity 3, why don't we simplify <m>~\sqrt{4h^2+s^2}~</m> to <m>~2h+s</m>?</li>
-</ol></p></assemblage>
+    <li>In Activity 3, why don't we simplify <m>~\sqrt{4h^2+s^2}~</m> to <m>~2h+s</m>?</li></ol></p></assemblage>
 </subsubsection>
 
 <activity><title>Homework Preview</title>

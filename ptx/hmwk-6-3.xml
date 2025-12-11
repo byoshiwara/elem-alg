@@ -8,26 +8,26 @@
     <li>Write the area as a product of binomials, then compute the product.</li></ol></p></introduction>
 
 <exercise number="1"><statement>
-    <tabular halign="center">
+    <sidebyside><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
         <row>
             <cell ></cell>
-            <cell bottom="minor" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="minor" ><p><m>~~~~?~~~~~</m></p></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major" ><p><m>~~~~?~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>x</m></p></cell>
-            <cell  bottom="minor" right="minor" ><p><m>x^2</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>6x</m></p></cell>
+            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell  bottom="major" right="major" ><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>6x</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>?</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>5x</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>30</m></p></cell>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
-    </tabular></statement>
+    </tabular></sidebyside></statement>
     <answer><ol marker="a."><li>
 <tabular halign="center">
         <col width="20%"/>
@@ -35,18 +35,18 @@
         <col  width="20%"/>
         <row>
             <cell ></cell>
-            <cell bottom="minor" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="minor"><p><m>\alert{6}</m></p></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"><p><m>\alert{6}</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>x</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>x^2</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>6x</m></p></cell>
+            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>6x</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>\alert{5}</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>5x</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>30</m></p></cell>
+            <cell right="major" left="none"><p><m>\alert{5}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
     </tabular></li>
     <li><p><m>(x+5)(x+6)=x^2+11x+30</m></p></li>     
@@ -60,18 +60,18 @@
         <col  width="20%"/>
         <row>
             <cell ></cell>
-            <cell bottom="minor" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="minor"><p><m>~~~~-3~~~~~</m></p></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"><p><m>~~~~-3~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>x</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>x^2</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>-3x</m></p></cell>
+            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>-3x</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>?</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>?</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>27</m></p></cell>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>27</m></p></cell>
         </row>
     </tabular></sidebyside></statement></exercise>
 
@@ -82,18 +82,18 @@
         <col  width="20%"/>
         <row>
             <cell ></cell>
-            <cell bottom="minor"><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="minor"><p><m>~~~~?~~~~~</m></p></cell>
+            <cell bottom="major"><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"><p><m>~~~~?~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>?</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>x^2</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>2x</m></p></cell>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>2x</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>?</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>?</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>16</m></p></cell>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>16</m></p></cell>
         </row>
     </tabular></sidebyside></statement>
     <answer><ol marker="a."><li>
@@ -103,18 +103,18 @@
         <col  width="20%"/>
         <row>
             <cell ></cell>
-            <cell bottom="minor" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="minor"><p><m>\alert{2}</m></p></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"><p><m>\alert{2}</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>\alert{x}</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>x^2</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>2x</m></p></cell>
+            <cell right="major" left="none"><p><m>\alert{x}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>2x</m></p></cell>
         </row>
         <row>
-            <cell right="minor" left="none"><p><m>\alert{8}</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>\alert{8x}</m></p></cell>
-            <cell  bottom="minor" right="minor"><p><m>16</m></p></cell>
+            <cell right="major" left="none"><p><m>\alert{8}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>\alert{8x}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>16</m></p></cell>
         </row>
     </tabular></sidebyside></li>
     <li><p><m>(x+8)(x+2)=x^2+10x+26</m></p></li>     
@@ -258,8 +258,10 @@
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>               
-    <!--<image source="photos/hp-6-3-33.png"><description>grid</description></image>-->
-    <image width="55%" xml:id="hp-6-3-33"><description>grid</description><latex-image>
+    <sidebyside width="45%"><!--<image source="photos/hp-6-3-33.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-3-33">
+        <description>grid</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -276,12 +278,14 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li>Each office should have an area of 28 square yards. Write an equation for this requirement.</li>
-    <li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li>
-</ol></p></statement>
+    <li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li></ol></p>
+</statement>
 <answer><p><ol marker="a.">
-    <li><tabular halign="center">
+    <li><sidebyside width="20%" margins="0% 80%"><tabular halign="center">
         <row>
             <cell ></cell>
             <cell bottom="major"><m>w+3</m></cell>
@@ -290,11 +294,11 @@
             <cell right="major" left="none"><m>w</m></cell>
             <cell bottom="major" right="major"></cell>
         </row>
-        </tabular></li>  
+    </tabular></sidebyside></li>  
     <li><p><m>A=w(w+3)</m></p></li>
-    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside width="55%" margins="0% 45%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~w~</m></cell>
+                        <cell><m>w</m></cell>
                         <cell><m>-6</m></cell>
                         <cell><m>-5</m></cell>
                         <cell><m>-3</m></cell>
@@ -304,7 +308,7 @@
                         <cell><m>1</m></cell>
                         <cell><m>2</m></cell></row>
                     <row> 
-                        <cell><m>~A~</m></cell>
+                        <cell><m>A</m></cell>
                         <cell><m>18</m></cell>
                         <cell><m>10</m></cell>
                         <cell><m>0</m></cell>
@@ -313,9 +317,11 @@
                         <cell><m>0</m></cell>
                         <cell><m>4</m></cell>
                         <cell><m>10</m></cell></row>
-                    </tabular>
-    <p></p>                
-    <image width="45%" xml:id="hp-6-3-33ans"><description>parabola</description><latex-image>
+                    </tabular></sidebyside>                
+    <sidebyside width="45%" margins="0% 55%">
+    <image xml:id="hp-6-3-33ans">
+        <description>parabola</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -333,10 +339,11 @@
         }
         \draw[samples=65,domain={-sqrt(69)/2-3/2}:{sqrt(69)/2-3/2},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{\x*(\x+3)});
         \end{tikzpicture}]]>
-    </latex-image></image></li>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li><p><m>w(w+3)=28</m></p></li>
-    <li><p>4 yds</p></li>
-</ol></p></answer></exercise>
+    <li><p>4 yds</p></li></ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>Icon Industries produces all kinds of electronic equipment. The cost, <m>C</m>, of producing a piece of equipment depends on the number of hours, <m>t</m>, it takes to build it, where
 	<me>C=8t^2-32t-16</me>

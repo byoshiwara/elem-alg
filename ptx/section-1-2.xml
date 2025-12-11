@@ -22,11 +22,11 @@ are algebraic expressions. An important part of algebra involves translating wor
 	<li><p>The amount invested is unknown, so we choose a variable to represent it.
 			<me>\blert{\text{Amount invested in stocks:}~~~s}</me>
 		Next, we identify the operation described:  "30% of"  means 0.30 times:
-			<me>\text{The expression is} ~~~~\blert{0.30 \times s}</me></p></li>
+			<me>\text{The expression is} ~~~~\blert{0.30s}</me></p></li>
 	<li><p>The cost of the dinner is unknown, so we choose a variable to represent it.
 			<me>\blert{\text{Cost of dinner:}~~~C}</me>
 		Next, we identify the operation described:  "Split" means divided:
-			<me>\text{The expression is} ~~~~\blert{C \div 3}</me></p></li>
+			<me>\text{The expression is} ~~~~\blert{\dfrac{C}{3}}</me></p></li>
 </ol></p></solution></example>
 
 <p>In the previous Example, we used three steps to write an algebraic expression.</p>
@@ -38,8 +38,9 @@ are algebraic expressions. An important part of algebra involves translating wor
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage>
 
-<exercise number="1"><statement><p>A meaningful combination of numbers, variables and operation symbols is called an <fillin characters="6"/>.</p></statement>
-		<answer><p>algebraic expression</p></answer></exercise>
+<reading-questions>
+	<exercise number="1"><statement><p>A meaningful combination of numbers, variables and operation symbols is called an <fillin characters="6"/>.</p></statement>
+		<answer><p>algebraic expression</p></answer></exercise></reading-questions>
 </subsection>
 
 <subsection><title>Sums</title>
@@ -47,7 +48,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term><idx><h>sum</h></idx> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term><idx><h>term</h><h>of the sum</h></idx> of the sum.</p>
 <!--    <sidebyside width="50%"><image source="photos/fig-1-2-1.png"/></sidebyside> -->
-        <image xml:id="fig-1-2-1" width="60%">
+        <image xml:id="fig-1-2-1" width="42%">
         <description>sums</description>
         <latex-image>
         <![CDATA[
@@ -80,8 +81,8 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></statement>
 
 <solution><p><ol marker="a." cols="2">
-    <li><p><m>6+x~~</m> or <m>~~x+6</m></p></li>
-    <li><p><m>15+r~~</m> or <m>~~r+15</m></p></li>
+    <li><p><m>6+x</m> or <m>x+6</m></p></li>
+    <li><p><m>15+r</m> or <m>r+15</m></p></li>
 </ol></p></solution></example>
 
 <p>The terms can be added in either order.  We call this fact the <term>commutative law</term> for addition.</p>
@@ -102,7 +103,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <assemblage><title>Look Closer</title>
 <p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
 <!--    <sidebyside width="70%"><image source="photos/fig-1-2-2.png"/></sidebyside>-->
-        <image xml:id="fig-1-2-2" width="90%">
+        <image xml:id="fig-1-2-2" width="60%">
         <description>products</description>
         <latex-image>
         <![CDATA[
@@ -155,9 +156,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>In the previous Example, 
-    <me>10z = 10 \cdot z = z \cdot 10</me> 
-because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
+<p>In the previous Example, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <idx><h>commutative law</h><h>of multiplication</h></idx>
@@ -168,10 +167,12 @@ because two numbers can be multiplied in either order to give the same answer. T
 
 <p>In algebra, we usually write products with the numeral first. Thus, we write <m>10z</m> for "<m>10</m> times <m>z</m>”.</p>
 
-<exercise number="2"><statement><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
+<reading-questions>
+    <exercise number="2"><statement><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
         <answer><p>sum, terms</p></answer></exercise>
-<exercise number="3"><statement><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
+    <exercise number="3"><statement><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
         <answer><p>product, factors</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Differences</title>
@@ -179,7 +180,7 @@ because two numbers can be multiplied in either order to give the same answer. T
 
 <p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term><idx><h>difference</h></idx> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term><idx><h>term</h><h></h></idx>.</p>
 <!--    <sidebyside width="70%"><image source="photos/fig-1-2-3.png"/></sidebyside>-->
-        <image xml:id="fig-1-2-3" width="85%">
+        <image xml:id="fig-1-2-3" width="60%">
         <description>differences</description>
         <latex-image>
         <![CDATA[
@@ -228,7 +229,7 @@ The operation of subtraction is not commutative.</p></warning>
 
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
 <!--    <sidebyside width="80%"><image source="photos/fig-1-2-4.png"/></sidebyside>-->
-        <image xml:id="fig-1-2-4" width="85%">
+        <image xml:id="fig-1-2-4" width="60%">
         <description>quotients</description>
         <latex-image>
         <![CDATA[
@@ -257,8 +258,7 @@ The operation of subtraction is not commutative.</p></warning>
     </latex-image></image>
 
 <assemblage><title>Look Closer</title>
-<p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, 
-    <me>12 \div 3 = 4~~~ \text{but} ~~~3 \div 12 = \dfrac{1}{4}</me>.</p></assemblage>
+<p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, <m>12 \div 3 = 4</m> but <m>3 \div 12 = \dfrac{1}{4}</m>.</p></assemblage>
 
 <example><statement><p>Write an algebraic expression for each phrase.<ol marker="a." cols="2">
     <li><m>z</m> subtracted from <m>13</m></li>
@@ -270,12 +270,14 @@ The operation of subtraction is not commutative.</p></warning>
     <li><m>\dfrac{25}{R}</m></li>
 </ol></p></solution></example>
 
-<exercise number="4"><statement><p>Which operations obey the commutative laws? What do these laws say?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>Which operations obey the commutative laws? What do these laws say?</p></statement>
         <answer><p>addition and multiplication. We can add two numbers or multiply two numbers in either order.</p></answer></exercise>
-<exercise number="5"><statement><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p></statement>
+    <exercise number="5"><statement><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p></statement>
         <answer><p>difference</p></answer></exercise>
     <exercise number="6"><statement><p>When we divide two numbers, the result is called the <fillin characters="6"/>.</p></statement>
         <answer><p>quotient</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Evaluating an Algebraic Expression</title>
@@ -356,10 +358,12 @@ You would need 12 gallons of ginger ale.</p></solution></example>
 		<mrow>\amp = \dfrac{\alert{15+16+18+18+12}} {\alert{5}} = 15.8</mrow></md>
 Bert's average score is 15.8.</p></solution></example>
 
-<exercise number="7"><statement><p>What does it mean to evaluate an expression?</p></statement>
+<reading-questions>
+	<exercise number="7"><statement><p>What does it mean to evaluate an expression?</p></statement>
 		<answer><p>To substitute a specific value into the expression and calculate the result.</p></answer></exercise>
-<exercise number="8"><statement><p>How do we change a percent to a decimal fraction?</p></statement>
+	<exercise number="8"><statement><p>How do we change a percent to a decimal fraction?</p></statement>
 		<answer><p>Move the decimal point 2 places to the left.</p></answer></exercise>
+</reading-questions>
 
 <assemblage><title>Look Ahead</title>
 <p>You will also need to know the formulas for the area and perimeter of a rectangle. See the Skills Warm-Up to review these formulas.</p></assemblage>
@@ -405,7 +409,6 @@ Bert's average score is 15.8.</p></solution></example>
         \node[below,text=cyan] at (0.5,-1){1 centimeter on a side.};
         \end{tikzpicture}]]>
     </latex-image></image></li>
-
         <li>
     <image xml:id="sw-1-2-8" width="95%"><description>polygonal region with right angles</description><latex-image>
         <![CDATA[
@@ -440,12 +443,11 @@ Bert's average score is 15.8.</p></solution></example>
         <li>44 ft; 90 sq ft</li>
 </ol></p></li>
 </ol></p>
-</answer></problem>
-</subsection>
+</answer></problem></subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Writing Algebraic Expressions</title>
+<subsubsection><title>Activity 1:  Writing Algebraic Expressions</title>
 <idx><h>algebraic expression</h><h>writing</h></idx>
 
 <assemblage><title>To write an algebraic expression</title>
@@ -537,7 +539,7 @@ Bert's average score is 15.8.</p></solution></example>
 </ol></p>
 </activity>
 
-<activity><title>Evaluating Algebraic Expressions</title>
+<subsubsection><title>Activity 2:  Evaluating Algebraic Expressions</title>
 <idx><h>algebraic expression</h><h>evaluating</h></idx>
 <idx><h>evaluating an algebraic expression</h></idx>
 <idx><h>evaluating an algebraic expression</h><seealso>algebraic expression</seealso></idx>
@@ -665,7 +667,7 @@ The sale price is $510.</p>
 </ol></p>
 </activity>
 
-<activity><title>Using Algebraic Formulas</title>
+<subsubsection><title>Activity 3:  Using Algebraic Formulas</title>
 
 <p>Write down the five algebraic formulas from the Reading, as algebraic expressions and in words.</p>
 

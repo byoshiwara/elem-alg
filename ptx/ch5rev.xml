@@ -270,51 +270,45 @@
     <li>Find the perimeter of the triangle.</li>
     <li>Find the area of the triangle.</li></ol></p></introduction>
 
-<exercise number="29"><statement><image width="35%" source="photos/cr5-29"><description>triangle</description></image></statement>
+<exercise number="29"><statement><sidebyside width="27%"><image source="photos/cr5-29"><description>triangle</description></image></sidebyside></statement>
 <answer><p><ol marker="a.">
     <li><m>17</m></li>
     <li><m>40</m></li>
-    <li><m>60</m></li>
-</ol></p></answer></exercise>
+    <li><m>60</m></li></ol></p></answer></exercise>
 
-<exercise number="30"><statement><image width="45%" source="photos/cr5-30"><description>triangle</description></image></statement></exercise>
+<exercise number="30"><statement><sidebyside width="40%"><image source="photos/cr5-30"><description>triangle</description></image></sidebyside></statement></exercise>
 
-<exercise number="31"><statement><image width="45%" source="photos/cr5-31"><description>triangle</description></image></statement>
+<exercise number="31"><statement><sidebyside width="35%"><image source="photos/cr5-31"><description>triangle</description></image></sidebyside></statement>
 <answer><p><ol marker="a.">
     <li><m>1</m></li>
     <li><m>3+\sqrt{3}</m></li>
-    <li><m>\dfrac{\sqrt{3}}{2}</m></li>
-</ol></p></answer></exercise>
+    <li><m>\dfrac{\sqrt{3}}{2}</m></li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><image width="45%" source="photos/cr5-32"><description>triangle</description></image></statement></exercise>
+<exercise number="32"><statement><sidebyside width="35%"><image source="photos/cr5-32"><description>triangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 33<ndash/>34, find the volume and surface area of the box.</p></introduction>
 
-<exercise number="33"><statement><image width="65%" source="photos/cr5-33"><description>box</description></image>
-</statement>
+<exercise number="33"><statement><sidebyside width="60%"><image source="photos/cr5-33"><description>box</description></image></sidebyside></statement>
 <answer><m>V=126;~S=30\sqrt{7}+84</m></answer></exercise>
 
-<exercise number="34"><statement><image width="70%" source="photos/cr5-34"><description>box</description></image>
-</statement></exercise>
+<exercise number="34"><statement><sidebyside width="60%"><image source="photos/cr5-34"><description>box</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 35<ndash/>36, write an algebraic expression for the volume of the figure.</p></introduction>
 
-<exercise number="35"><statement><image width="55%" source="photos/cr5-35"><description>pyramid</description></image></statement>
+<exercise number="35"><statement><sidebyside width="50%"><image source="photos/cr5-35"><description>pyramid</description></image></sidebyside></statement>
 <answer><m>16b^3</m></answer></exercise>
 
-<exercise number="36"><statement><image width="50%" source="photos/cr5-36"><description>cone</description></image>
-</statement></exercise>
+<exercise number="36"><statement><sidebyside width="40%"><image source="photos/cr5-36"><description>cone</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>38, write expressions for the volume and surface area of the figure.</p></introduction>
 
-<exercise number="37"><statement><image width="45%" source="photos/cr5-37"><description>pyramid</description></image></statement>
+<exercise number="37"><statement><sidebyside width="40%"><image source="photos/cr5-37"><description>pyramid</description></image></sidebyside></statement>
 <answer><m>V=150p^3;~S=190p^2</m></answer></exercise>
 
-<exercise number="38"><statement><image width="70%" source="photos/cr5-38"><description>cone</description></image>
-</statement></exercise>
+<exercise number="38"><statement><sidebyside width="60%"><image source="photos/cr5-38"><description>cone</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 39<ndash/>42, solve the formula for the indicated variable.</p></introduction>
@@ -418,13 +412,12 @@
 	<li>as the sum of four smaller areas,</li>
 	<li>as one large rectangle, using the formula  Area <m>=</m> length <m>\times</m> width.</li></ol></p></introduction>
 
-<exercise number="63"><statement><image width="55%" source="photos/cr5-63"><description>rectangle</description></image></statement>
+<exercise number="63"><statement><sidebyside width="45%"><image source="photos/cr5-63"><description>rectangle</description></image></sidebyside></statement>
 <answer><p><ol marker="a.">
 	<li><m>5x^2-2x+5x-2</m></li>
-	<li><m>(x+1)(5x-2)</m></li>
-</ol></p></answer></exercise>
+	<li><m>(x+1)(5x-2)</m></li></ol></p></answer></exercise>
 
-<exercise number="64"><statement><image width="55%" source="photos/cr5-64"><description>rectangle</description></image></statement></exercise>
+<exercise number="64"><statement><sidebyside width="45%"><image source="photos/cr5-64"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 65<ndash/>76, compute the product.</p></introduction>
@@ -461,11 +454,11 @@
 </exercisegroup>
 
 <exercise number="77"><statement><p>Use the given areas to find the area of the large square shown below.</p>
-	<image width="20%" source="photos/cr5-77"><description>rectangle</description></image></statement>
+	<sidebyside width="20%"><image source="photos/cr5-77"><description>rectangle</description></image></sidebyside></statement>
 <answer><m>18</m></answer></exercise>
 
 <exercise number="78"><statement><p>Use the given areas to find the area of the large semicircle shown below.</p>
-	<image width="30%" source="photos/cr5-78"><description>rectangle</description></image></statement></exercise>
+	<sidebyside width="25%"><image source="photos/cr5-78"><description>rectangle</description></image></sidebyside></statement></exercise>
 
 </exercises>
 </subsection>

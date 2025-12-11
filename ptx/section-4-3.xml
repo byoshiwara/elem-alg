@@ -7,7 +7,7 @@
 
 <subsection>
 <p>In the previous Lesson, we compared the costs of operating two different refrigerators, a standard model and an energy-efficient model. We wrote a system of equations for this problem,</p>  
-<sidebyside widths="55% 35%"><p>
+<sidebyside widths="60% 30%"><p>
 	<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md> 
 where <m>x</m> is the number of months the refrigerator has been running. We looked for a point on the graphs where the two <m>y</m>-values, which represent the costs, are equal. This point is the intersection point of the graphs, as shown in the figure. The <m>x</m>-coordinate of the intersection point shows that the costs are equal after 50 months.</p>
@@ -31,8 +31,8 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
     <idx><h>substitution method</h></idx><idx><h>substitution method</h><seealso>system of equations</seealso></idx>
 
 <p>In <xref ref="Example-4-3-1" text="type-global"/>, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
-<!--<image source="photos/fig-4-3-1.png"><description>graphic</description></image>-->
-    <image width="95%" xml:id="fig-4-3-1"><description>substitution</description><latex-image>
+<sidebyside width="83%"><!--<image source="photos/fig-4-3-1.png"><description>graphic</description></image>-->
+    <image xml:id="fig-4-3-1"><description>substitution</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -48,7 +48,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.15,.2) -- ++(2,0);
         \draw[blue,->,>=stealth'] (B)++(.22,-.21) to [out=270,in=90] ($(C)+(1.2,0.45)$);
         \node at ($(C)+(-.7,.8)$) {to get};
-        \end{tikzpicture}]]></latex-image></image>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <assemblage><title>Look Closer</title>
 <p>The method works well in this example because both equations in the system were already in the form <m>~y=mx+b</m>.  Sometimes we must solve one of the equations for <m>y</m> in terms of <m>x</m> before we can substitute.</p></assemblage>
@@ -62,7 +62,6 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 We now substitute the expression <m>~1-3x~</m> for <m>y</m> in the other equation:</p>
 <!--<image source="photos/fig-4-3-ex2.png"><description>graphic</description></image>-->
     <image width="35%" xml:id="fig-4-3-ex2"><description>substitution</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture}
@@ -77,9 +76,8 @@ We now substitute the expression <m>~1-3x~</m> for <m>y</m> in the other equatio
         \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.55,.25) -- ++(1.3,0);
         \draw[blue,->,>=stealth'] (B)++(.5,-.21) to [out=270,in=90] ($(C)+(1.2,0.47)$);
         \end{tikzpicture}]]>
-    </latex-image></image>
-
-<p>This gives us an equation in one variable, which we can solve as usual. We begin by simplifying the left side.
+    </latex-image></image></sidebyside>
+This gives us an equation in one variable, which we can solve as usual. We begin by simplifying the left side.
         <md><mrow>2(1-3x)+5x \amp = 5 \amp\amp \blert{\text{Apply the distributive law.}} </mrow>
             <mrow>2-6x+5x \amp = 5 \amp\amp \blert{\text{Combine like terms.}}</mrow>
             <mrow>2-x \amp = 5   \amp\amp \blert{\text{Subtract 2 from both sides.}}</mrow>
@@ -89,11 +87,13 @@ We have found the <m>x</m>-coordinate of the solution point. To find the <m>y</m
         <me>y=1-3(\alert{-3}) = 10 ~~~~~~~~~~~~~~~~~~~\blert{\text{Substitute}~-3~ \text{for}~x.}</me> 
 The solution to the system is <m>~x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. You can check that these values satisfy both of the original equations in the system.</p></solution></example>
 
-<exercise number="1"><statement><p>What is the first step in the substitution method?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What is the first step in the substitution method?</p></statement>
     	<answer><p>Solve one of the equations for <m>y</m> in terms of <m>x</m></p></answer></exercise>
 
 <exercise number="2"><statement><p>How can you check your answer for the solution of a system?</p></statement>
     	<answer><p>Check that the values satisfy both equations in the system.</p></answer></exercise>
+</reading-questions>
 
 <p>Here is a summary of the substitution method.</p>
 
@@ -116,12 +116,14 @@ The solution to the system is <m>~x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. 
         <mrow>2y=19-3x</mrow></md></p></statement>
 
 <solution><p>First, we rewrite each equation in the form <m>Ax+By=C</m>.</p>
-<sidebyside widths="51% 49%">
-    <p><md alignment="alignat"><mrow>
+<sidebyside widths="51% 49%"><p>
+    <md alignment="alignat"><mrow>
         5x \amp = ~~~~2y+21 \amp\amp \quad\blert{\text{Subtract}~2y.}</mrow>
         <mrow>\underline{~~~~ -2y} \amp \underline{{}= {}-2y~~~~~}</mrow>
         <mrow> 5x-2y \amp = 21</mrow></md></p>
-    <p><md alignment="alignat"><mrow>
+
+    <p>
+    <md alignment="alignat"><mrow>
         2y \amp = 19-3x \amp\amp \quad\blert{\text{Add}~3x.}</mrow>
         <mrow>\underline{~~~~ +3x} \amp \underline{ {}= \quad{}+3x~}</mrow>
         <mrow> 3x+2y \amp = 19</mrow></md></p>
@@ -182,11 +184,13 @@ We solve for <m>y</m> to find <m>~y=-1</m>. Finally, we substitute <m>~y=\alert{
             <mrow>x \amp = 4</mrow></md>      
 The solution to the system is <m>(4,-1)</m>.</p></solution></example> 
 
-<exercise number="3"><statement><p>What is a linear combination of expressions?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What is a linear combination of expressions?</p></statement>
     	<answer><p>A sum of multiples of the expressions</p></answer></exercise>
 
 <exercise number="4"><statement><p>What is the first step in the elimination method?</p></statement>
     	<answer><p>Write both equations into the general linear form, <m>Ax+By = C</m>.</p></answer></exercise>
+</reading-questions>
 
 <p>Here are the steps for solving a system by elimination.</p>
 
@@ -203,18 +207,20 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <assemblage><title>Look Ahead</title>
 <p>How do you know which method to use to solve a system, substitution or elimination? Both methods will work on any linear system. However, substitution will be easier if one of the variables in one of the equations has a coefficient of <m>1</m> or <m>-1</m>.  Otherwise, the elimination method is usually more efficient.</p></assemblage>
 
-<exercise number="5"><statement><p>How do we eliminate a variable from a system?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>How do we eliminate a variable from a system?</p></statement>
     	<answer><p>Add appropriate multiples of the equations.</p></answer></exercise>
 
 <exercise number="6"><statement><p>When is the substitution method easier than elimination?</p></statement>
     	<answer><p>When one of the variables in one of the equations has a coefficient of <m>1</m> or <m>-1</m>.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
-    <idx><h>system of equations</h><h>inconsistent</h></idx>
-    <idx><h>inconsistent system of equations</h></idx>
-    <idx><h>system of equations</h><h>dependent</h></idx>
-    <idx><h>dependent system of equations</h></idx>
+<idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+<idx><h>system of equations</h><h>dependent</h></idx>
+<idx><h>dependent system of equations</h></idx>
 
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
@@ -227,12 +233,12 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
             2x-4y=6\end{aligned}</m></p></li></ol></p></statement> 
 
 <solution><p><ol marker="a.">
-    <li><sidebyside widths="57% 35%" valigns="middle middle" margins="0% 0%">
+    <li><sidebyside widths="57% 30%" valigns="middle middle" margins="0% 0%">
          <p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:   
          <md><mrow> 6x-2y \amp = 4 </mrow>
              <mrow>\underline{-6x+2y}\amp\underline{{}= 3\vphantom{y}}</mrow>
-              <mrow>  0x+0y \amp = 7</mrow></md></p>
-              <!--<image source="photos/fig-4-3-ex6a.png"><description>graph</description></image>-->
+              <mrow>  0x+0y \amp = 7</mrow></md></p><!--
+<image source="photos/fig-4-3-ex6a.png"><description>graph</description></image>-->
     <image xml:id="fig-4-3-ex6a"><description>graph of parallel line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -253,12 +259,11 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
         \end{tikzpicture}]]></latex-image></image></sidebyside>
     <p>Both variables are eliminated, and we are left with the false statement <m>~0=7</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so the system has no solutions. The graph shows that the system is inconsistent.</p></li>
     <li><sidebyside widths="55% 35%" valigns="middle middle" margins="0% 0%"><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:
-            <md><mrow>-2x+4y \amp = -6</mrow>
+           <md><mrow>-2x+4y \amp = -6</mrow>
                <mrow>\underline{2x-4y}\amp \underline{{}= \hphantom{-}6\vphantom{y}}</mrow>
                 <mrow>0x+0y \amp = 0</mrow></md>  </p>
-    <!--<image source="photos/fig-4-3-ex6b.png"><description>graph</description></image>-->
+<!--<image source="photos/fig-4-3-ex6b.png"><description>graph</description></image>-->
     <image xml:id="fig-4-3-ex6b"><description>coincident lines</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture}[scale=.4]
@@ -278,12 +283,11 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <p><xref ref="Example-4-3-6" text="type-global"/> illustrates a rule for identifying inconsistent and dependent systems.</p>
 
-<assemblage><title>Inconsistent and Dependent Systems</title>
-    <idx><h>system of equations</h><h>inconsistent</h></idx>
-    <idx><h>inconsistent system of equations</h></idx>
-    <idx><h>system of equations</h><h>dependent</h></idx>
-    <idx><h>dependent system of equations</h></idx>
-<p>We can use the method of elimination to identify the type of linear system.</p>
+<assemblage><title>When Using Elimination to Solve a System</title>
+<idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+<idx><h>system of equations</h><h>dependent</h></idx>
+<idx><h>dependent system of equations</h></idx>
 <p><ol marker="1.">
 	<li>If combining the two equations results in an equation of the form
 		<me>0x+0y=k~~~~(k \not= 0)</me>
@@ -292,7 +296,8 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 		<me>0x+0y=0</me>
 	then the system is dependent.</li></ol></p></assemblage>
 
-<exercise number="7"><statement><p>How can you tell if a system is inconsistent?</p></statement>
+<reading-questions>
+    <exercise number="7"><statement><p>How can you tell if a system is inconsistent?</p></statement>
     	<answer><p>If elimination leads to <me>0x+0y=k~~~~(k \not= 0)</me></p></answer></exercise>
 
 <exercise number="8"><statement><p>How can you tell if a system is dependent?</p></statement>
@@ -368,8 +373,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
     <li><p>For this problem, we will eliminate the <m>y</m>-terms.</p>
 <p><ol marker="a.">
     <li><m>\blert{\text{Write each equation in the form}~Ax+By=C.}</m></li>
-    <li><p><m>\blert{\text{Find rhe LCM of the}~y~\text{-coefficients.}}</m></p>
-        <p><m>\blert{\text{Multiply each equation by an appropriate constant.}}</m></p></li>
+    <li><m>\blert{\text{Find rhe LCM of the}~y~\text{-coefficients. Multiply each equation by an appropriate constant.}}</m></li>
     <li><m>\blert{\text{Add the new equations and solve the result for}~x.}</m></li>
     <li><m>\blert{\text{Substitute your value for}~x~\text{into the second equation and solve for}~y.}</m></li>
     <li><m>\blert{\text{Verify that your solution values satisfy both equations in the system.}}</m></li>
@@ -384,14 +388,14 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </ol></p>
 </activity>
 
-<activity><title>Applications</title>
+<subsubsection><title>Activity 3: Applications</title>
 
 <p><ol marker="1.">
 <li><p>A train ticket from Camarillo to San Diego costs $31 in coach and $47 for business class. On Tuesday, there were 42 passengers on the morning train, and Amtrak took in $1494 in fares. How many coach passengers took the morning train, and how many business class passengers?</p>
 <p><ol marker="a.">
     <li><p>Choose variables:
-        <md><mrow>x = \hphantom{000000000000}</mrow>
-            <mrow>y = \hphantom{000000000000}</mrow></md></p></li>
+        <md><mrow>x = </mrow>
+            <mrow>y = </mrow></md></p></li>
     <li><p>Complete the table.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -421,8 +425,8 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <li><p>The perimeter of a rectangular playground is 197 yards, and its length is 5 yards less than twice its width. Find the dimensions of the playground.</p>
 <p><ol marker="a.">
     <li><p>Choose variables:
-        <md><mrow>x = \hphantom{000000000000}</mrow>
-            <mrow>y = \hphantom{000000000000}</mrow></md></p></li>
+        <md><mrow>x = </mrow>
+            <mrow>y = </mrow></md></p></li>
     <li><p>Write an equation about the perimeter of the playground:
             <me>\hphantom{0000}</me>
         Write an equation relating the length and the width:

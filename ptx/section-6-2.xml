@@ -31,7 +31,7 @@
     <li><p>Rick's revenue is given by
         <md><mrow>\text{Revenue} \amp = \text{(hourly fee)} \cdot \text{(number of clients)}</mrow>
             <mrow>R  \amp = p(40-p) = 40p - p^2</mrow></md></p></li>
-    <li><sidebyside widths="50% 50%" valigns="middle middle" margins="0% 0%"><stack><p>We make a table of values and plot the points to obtain the parabola shown in the figure.</p>
+    <li><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 0%"><stack><p>We make a table of values and plot the points to obtain the parabola shown in the figure.</p>
         <p></p><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
             <col halign="center"/> <col halign="center"/> <col halign="center"/>
             <row bottom="minor">
@@ -75,8 +75,10 @@
     <li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>~p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>~40-20=20~</m> clients at that price.</li>
 </ol></p></solution></example>
 
-<exercise number="1"><statement><p>State a formula for calculating revenue.</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>State a formula for calculating revenue.</p></statement>
     	<answer><p>Revenue equals price per item times number of items sold.</p></answer></exercise>
+</reading-questions>
 
 <assemblage><title>Look Closer</title>
 <p>In <xref ref="Example-6-2-1" text="type-global"/> we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
@@ -96,13 +98,10 @@ The graph of this equation is shown again below. </p>
 	<me>R=p(40-p)</me>
 The expression for revenue has two factors. The first factor is <m>p</m>, and when <m>p=\alert{0}</m> we have
 	<me>R=\alert{0}(40-\alert{0})=0</me>
-so the revenue is zero as well.</p>
-
-<p>The second factor, <m>~40-p~</m>, is zero when <m>~p=\alert{40}</m>. If Rick charges $40 an hour, his revenue is
+so the revenue is zero as well. The second factor, <m>40-p</m>, is zero when <m>p=\alert{40}</m>. If Rick charges $40 an hour, his revenue is
 	<me>R=\alert{40}(40-\alert{40})=0</me>
-(Recall that <m>~40-p~</m> represents the number of clients that Rick will attract if he charges <m>p</m> dollars an hour.  Apparently, no one will pay $40 an hour for a personal trainer.)</p>
-
-<p>Both of these values, <m>~p=0~</m> and <m>~p=40~</m> are solutions of the quadratic equation
+(Recall that <m>40-p</m> represents the number of clients that Rick will attract if he charges <m>p</m> dollars an hour.  Apparently, no one will pay $40 an hour for a personal trainer.)</p>
+<p>Both of these values, <m>p=0</m> and<m>p=40</m> are solutions of the quadratic equation
 	<me>p(40-p)=0</me>
 A quadratic equation has a solution when either of its factors is equal to zero. This is a consequence of the following fact about numbers.</p>
 
@@ -113,45 +112,46 @@ A quadratic equation has a solution when either of its factors is equal to zero.
 
 <p>The zero-factor principle also applies to algebraic expressions: If the product of two factors is zero, then one of the factors must be zero.</p> 
 
-<example><statement><p>For what values of  is the expression <m>~3x(x-5)~</m> equal to zero?</p></statement>
+<example><statement><p>For what values of  is the expression <m>3x(x-5)</m> equal to zero?</p></statement>
 
-<solution><p>The expression is equal to zero if either of its factors equals zero. The factor <m>3x</m> equals zero if <m>~x=0~</m>, and <m>~x-5~</m> equals zero if <m>~x=5</m>. So <m>~3x(x-5)~</m> equals zero if <m>~x=0~</m> or <m>~x=5</m>.</p></solution></example>
+<solution><p>The expression is equal to zero if either of its factors equals zero. The factor <m>3x</m> equals zero if <m>x=0</m>, and <m>x-5</m> equals zero if <m>x=5</m>. So <m>3x(x-5)</m> equals zero if <m>x=0</m> or <m>x=5</m>.</p></solution></example>
 
-<exercise number="2"><statement><p>If you multiply two numbers together and the product is zero, what can 
+<reading-questions>
+    <exercise number="2"><statement><p>If you multiply two numbers together and the product is zero, what can 
 	you say about the original numbers?</p></statement>
     	<answer><p>At least one of them must be zero.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Factoring</title>
     <idx><h>factor</h><seealso>factoring</seealso></idx>
     <idx><h>factoring</h></idx>
 
-<p>We have discovered that a quadratic equation has two solutions, one for each of its factors. As examples we saw that the equation <m>~40p-p^2 = 0~</m> has solutions <m>~p=40~</m> and <m>~p=0~</m>, and the equation <m>~40p-p^2 = 30~</m> has solutions <m>~p=10~</m> and <m>~p=30~</m>. So we can solve a quadratic equation if we can find its factors. This is where the zero-factor principle comes in.</p>
-
 <p>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term><idx><h>factored form</h></idx>. This process is called <term>factoring</term><idx><h>factoring</h></idx>, and it is the reverse of multiplying factors together. Here are some examples comparing multiplying and factoring.</p>
 
 <assemblage><p>
 	<md><mrow>\amp \text{Multiplying} \amp \amp \text{Factoring}</mrow>
-		<mrow>\amp ~~2 \cdot 3 = 6 \amp \amp ~~6 = 2\cdot 3</mrow>
-		<mrow>\amp ~~3(2x-5)=6x-15	\amp \amp ~~6x-15=3(2x-5)</mrow>
-		<mrow>\amp ~~(x-5)(x+2)=x^2-3x-10	\amp \amp ~~x^2-3x-10=(x-5)(x+2)</mrow></md></p></assemblage>
+		<mrow>\amp \text{1.}~~2 \cdot 3 = 6 \amp \amp \text{1.}~~6 = 2\cdot 3</mrow>
+		<mrow>\amp \text{2.}~~3(2x-5)=6x-15	\amp \amp \text{2.}~~6x-15=3(2x-5)</mrow>
+		<mrow>\amp \text{3.}~~(x-5)(x+2)=x^2-3x-10	\amp \amp \text{3.}~~x^2-3x-10=(x-5)(x+2)</mrow></md></p></assemblage>
 
-<p>The first type of factoring we'll consider is the reverse of the distributive law.</p>
-<p>Consider the expression <m>~6x-15</m>. The expression has two terms, <m>6x</m> and <m>-15</m>, and each term is divisible by 3:
-	<me>6x=3 \cdot 2x~~~~\text{and}~~~~-15=3 \cdot(-5)</me>
-We say that 3 is a <term>common factor</term> for the expression <m>~6x-15~</m> because it is a factor of each term.  Using the distributive law, we can write 
+<p>The first type of factoring we consider is the reverse of the distributive law. Consider the expression <m>6x-15</m>. The expression has two terms, <m>6x</m> and <m>-15</m>, and each term is divisible by 3:
+	<me>6x=3 \cdot 2x~~~~\text{and}~~~~-15=3 \cdot -5</me>
+We say that 3 is a <term>common factor</term> for the expression <m>6x-15</m> because it is a factor of each term.  Using the distributive law, we can write 
 	<me>6x-15=\blert{3} \cdot 2x- \blert{3} \cdot 15 = \blert{3}(2x-15)</me>
 We have factored out a common factor, namely 3, from <m>6x-15</m>.</p>
 	
-<exercise number="3"><statement><p>What does it mean to factor an expression?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What does it mean to factor an expression?</p></statement>
     	<answer><p>To write it as a product of factors.</p></answer></exercise>
-<exercise number="4"><statement><p>Factoring is the reverse process for which operation?</p></statement>
+    <exercise number="4"><statement><p>Factoring is the reverse process for which operation?</p></statement>
     	<answer><p>Multiplying</p></answer></exercise>
+</reading-questions>
 
 <example><statement><p>Factor  <m>~~36t^2-63t</m></p></statement>
 
-<solution><p>We look for the largest common factor for the two terms. Both coefficients are divisible by <m>9</m>, and <m>t</m> divides evenly into both terms. Thus, we factor out <m>\blert{9t}</m> and write the expression as
-	<me>36t^2-63t = \blert{9t}(~?~ - ~?~)</me>
+<solution><p>We look for the largest common factor for the two terms. Both coefficients are divisible by 9, and <m>t</m> divides evenly into both terms. Thus, we factor out <m>\blert{9t}</m> and write the expression as
+	<me>36t^2-63t = \blert{9t}(? - ?)</me>
 You may be able to see the missing factors at a glance, but if not, you can divide each term of the original expression by the common factor, as follows:
 	<me>\dfrac{36t^2}{9t}=\alert{4t}~~~~\text{and}~~~~\dfrac{63t}{9t} = \alert{7}</me>
 We fill in these factors for the question marks to obtain the factored form,
@@ -160,8 +160,10 @@ We fill in these factors for the question marks to obtain the factored form,
 
 <p>You can always check your factorization by computing the product; it should be the same as the original expression.</p>
 
-<exercise number="5"><statement><p>Explain the meaning of "common factor."</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>Explain the meaning of "common factor."</p></statement>
     	<answer><p>An expression that is a factor of each term of another expression</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Factoring</title>
@@ -170,8 +172,7 @@ We fill in these factors for the question marks to obtain the factored form,
 
 <p>Now let's see how to solve a quadratic equation using factoring.</p>
 
-<assemblage><title>Using the Zero-factor Principle</title>
-    <p>First, we must arrange the terms so that one side of the equation is zero; the zero-factor principle applies only to zero products. </p></assemblage>  
+<assemblage><p>First, we must arrange the terms so that one side of the equation is zero; the zero-factor principle applies only to zero products. </p></assemblage>  
 
 <example xml:id="Example-6-2-4"><statement><p>Solve  <m>~~2x^2=4x</m></p></statement>
 
@@ -184,11 +185,12 @@ Now, we apply the zero-factor principle: In order for the product to be zero, on
 		<mrow>x \amp = 0 \amp \amp  \text{or}~~~~~~~~~~~~~~x  = 2</mrow></md>
 Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that both of these values satisfy the original equation.</p></solution></example>
 
+<reading-questions>
 <exercise number="6"><statement><p>What is the first step in solving a quadratic equation by factoring?</p></statement>
     <answer><p>Arrange the terms so that one side of the equation is zero.</p></answer></exercise>
+</reading-questions>
 
-<warning><p>We cannot solve the equation in <xref ref="Example-6-2-4" text="type-global"/> by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>.</p>
-<p>We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
+<warning><p>We cannot solve the equation in <xref ref="Example-6-2-4" text="type-global"/> by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
 
 <assemblage><title>To Solve a Quadratic Equation by Factoring</title>
     <idx><h>factoring</h><h>solve equations by</h></idx>
@@ -225,7 +227,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 
 <subsection><title>Lesson</title>
 
-<activity><title>Revenue</title>
+<subsubsection><title>Activity 1: Revenue</title>
 
 <p>Raingear manufactures and sells umbrellas. They would like to know how the price they charge for an umbrella affects their revenue. They conduct some market research, and discover that if they charge <m>p</m> dollars per umbrella, they will sell <m>150-5p</m> umbrellas per month.</p>
 
@@ -323,8 +325,11 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
     </tabular></li>
     <li><p>On the grid below, plot the values of  and from your tables and draw a smooth graph of the equation for revenue, <m>R</m>, in terms of <m>p</m>.</p>
-    <!--<image source="photos/act-6-2-1.png"><description>grid</description></image>-->
-        <image width="50%" xml:id="act-6-2-1-2"><description>grid</description><latex-image>
+    <sidebyside width="50%">
+        <!--<image source="photos/act-6-2-1.png"><description>grid</description></image>-->
+        <image xml:id="act-6-2-1-2">
+                <description>grid</description>
+                <latex-image>
                 <![CDATA[
                 \begin{tikzpicture}[scale=.3]
                 \draw[cyan] (0,0) grid (15,24);
@@ -348,7 +353,10 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 </ol></p>
 </activity>
 
-<activity><title>Factoring Out a Common Factor</title>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Factoring Out a Common Factor</title>
 
 <p><ol marker="1.">
 <li><p>Factor out the largest common factor from each expression.<ol marker="a.">
@@ -405,8 +413,8 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 <p><ol marker="1.">
 <li><p><ol marker="a.">
     <li><p>Complete the table of values and sketch a graph of 
-            <me>y = \dfrac{1}{2}x^2-4x</me></p>
-    <sidebyside widths="30% 50%" valigns="middle middle"><p>
+            <me>y = \dfrac{1}{2}x^2-4x</me>
+    <sidebyside widths="30% 50%"><p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
@@ -433,7 +441,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
                         <cell bottom="minor"><m>10</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></p>
-        <image source="photos/stangrid10"><description>graph</description></image></sidebyside></li>
+        <image source="photos/stangrid10"><description>graph</description></image></sidebyside></p></li>
     <li>Use the graph to solve the equation
         <me>\dfrac{1}{2}x^2-4x = -\dfrac{7}{2}</me></li>
     <li>Use the graph to solve the equation
@@ -461,8 +469,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
     <li>b. <m>1,~7~~~~~~~~</m> c. <m>-1,~9</m></li>
     <li><p><ol marker= "a" cols="2">
         <li><m>3x</m></li>
-        <li><m>2ab</m></li>
-</ol></p></li>
+        <li><m>2ab</m></li></ol></p></li>
     <li><p><ol marker= "a" cols="2">
         <li><m>5t(5t-3)</m></li>
         <li><m>-3k(4k+3)</m> or <m>3k(-4k-3)</m></li></ol></p></li>

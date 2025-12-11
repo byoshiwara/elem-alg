@@ -28,14 +28,16 @@
 	<me>5^2 \cdot 5^6 \rightarrow 25^8~~~~~~~~\alert{\text{Incorrect!}}</me>
 The exponents tell us how many copies of the base to multiply together, but the base does not change when we apply the first law of exponents.</p></warning>
 
-<exercise number="1"><statement><p>Why do we add exponents when we multiply powers with the same base?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>Why do we add exponents when we multiply powers with the same base?</p></statement>
     <answer><p>The exponents tell us how many copies of the base to multiply together.</p></answer></exercise>
+</reading-questions> 
 
 <p>These laws are expressed in symbols below.</p>
 
-<assemblage><title>Laws of Exponents</title>
-	<idx><h>exponent</h><h>first law</h></idx>
-	<idx><h>exponent</h><h>second law</h></idx>
+<assemblage>
+<idx><h>exponent</h><h>first law</h></idx>
+<idx><h>exponent</h><h>second law</h></idx>
 <p>First Law of Exponents
 	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
 <p>Second Law of Exponents
@@ -59,10 +61,9 @@ We wrote <m>~(x^4)^3~</m> as a repeated product and applied the first law of exp
 <p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
 	<me>\blert{(a^m)^n = a^{mn}}</me></p></assemblage>
 
-<example><statement><p>Simplify each power of a power. <ol marker="a.">
+<example><statement><p> <ol marker="a.">
 	<li><p><m>(b^2)^4 = b^{2 \cdot 4} = b^8~~~~~~~~~~~~\blert{\text{Multiply exponents.}}</m></p></li>
-	<li><p><m>(y^2)^5 = y^{2 \cdot 5} = y^{10}</m></p></li>
-</ol></p></statement></example>
+	<li><p><m>(y^2)^5 = y^{2 \cdot 5} = y^{10}</m></p></li></ol></p></statement></example>
 
 <warning><p>Note carefully the difference between the two expressions <m>~(x^3)(x^4)~</m> and <m>~(x^3)^4</m>: 
   	<md><mrow> ~~~~(x^3)(x^4) = x^{\blert{3+4}} = x^7~~~~~~~~~ \amp \blert{\text{Add the exponents.}}</mrow>        
@@ -88,7 +89,7 @@ Thus, to raise a product to a power we can raise each factor to the power. This 
 <p>To raise a product to a power, raise each factor to the power. In symbols,
 	<me>\blert{(ab)^n = a^nb^n}</me></p></assemblage>
 
-<example><statement><p>Simplify each power of a product. <ol marker="a.">
+<example><statement><p><ol marker="a.">
 	<li><p><m>(5ab)^2 = 5^2a^2b^2 = 25a^2b^2~~~~~~~~\blert{\text{Square each factor.}}</m></p></li>
 	<li><p><md><mrow>(-xy^3)^4 \amp = (-x)^4(y^3)^4 \amp \amp \blert{\text{Raise each factor to the fourth power;}}</mrow>
 			<mrow> \amp = x^4y^{12} \amp \amp \blert{\text{apply the third law of exponents.}}</mrow></md></p></li>
@@ -117,14 +118,16 @@ This example suggests the following rule.</p>
 <p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
 	<me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></p></assemblage>
 
-<example><statement><p>Simplify each power of a quotient. <ol marker="a.">
+<example><statement><p><ol marker="a.">
 	<li><p><m>\left(\dfrac{x}{y}\right)^5 = \dfrac{x^5}{y^5} ~~~~~~~~~~ \blert{\text{Raise top and bottom to the fifth power.}}</m></p></li>
 	<li><p><md><mrow>\left(\dfrac{2}{y^2}\right)^3 \amp = \dfrac{2^3}{(y^2)^3} \amp \amp \blert{\text{Raise top and bottom to the third power.}}</mrow>
 			   <mrow> \amp =\dfrac{2^3}{y^{2 \cdot 3}} = \dfrac{8}{y^6} \amp \amp \blert{\text{Apply the third law of exponents.}}</mrow></md></p></li>
 </ol></p></statement></example>
 	
-<exercise number="4"><statement><p>Why does <m>\left(\dfrac{1}{x}\right)^4 = \dfrac{1}{x^4}</m>?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>Why does <m>\left(\dfrac{1}{x}\right)^4 = \dfrac{1}{x^4}</m>?</p></statement>
     <answer><p>Because <m>1^4=1</m>.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Using the Laws of Exponents</title>
@@ -154,6 +157,7 @@ Now multiply the result by <m>~2x^2y~</m> and apply the first law to obtain
 <exercise number="5"><statement><p>In <xref ref="Example-9-1-5" text="type-global"/>, why did we start by simplifying <m>~(3xy^2)^4</m>?
 </p></statement>
     <answer><p>Because we should perform powers before products.</p></answer></exercise>
+</reading-questions>
 
 <example><statement><p>Simplify  <m>~~(-x)^4(-xy)^3</m></p></statement>
 

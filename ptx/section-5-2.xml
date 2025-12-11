@@ -12,7 +12,7 @@
 
 <subsection><title>What is a Square Root?</title>
 
-<p>Suppose we would like to draw a square whose area is 36 square inches. How long should each side of the square be?</p> 
+<p>Suppose we would like to draw a square whose area is 25 square inches. How long should each side of the square be?</p> 
 
 <p>Because the formula for the area of a square is <m>~A=s^2</m>, the side <m>s</m> should satisfy the equation <m>~s^2=36</m>. We want a number whose square is <m>36</m>. As you can probably guess, the length of the square should be <m>6</m> inches, because <m>~6^2=36</m>. We say that <m>6</m> is a <term>square root</term> of <m>36</m>.</p>
 
@@ -21,8 +21,7 @@
 	<idx><h>square root</h><seealso>radical</seealso></idx>
 <p>The number <m>s</m> is called a <term>square root</term> of a number <m>b</m> if <m>s^2=b</m>.</p></assemblage>
 
-<assemblage><title>An Opposite Operation</title>
-	<idx><h>square root</h></idx>
+<assemblage><idx><h>square root</h></idx>
 <p>Finding a square root of a number is the opposite of squaring a number.</p></assemblage>
 
 <example><statement><p>Find a square root of 25, and a square root of 144.</p></statement>
@@ -33,11 +32,12 @@
 <assemblage><title>Look Closer</title>
 <p><m>5</m> is not the only square root of <m>25</m>, because <m>~(-5)^2=25</m> as well. Thus, <m>25</m> has two square roots, <m>5</m> and <m>-5</m>.</p></assemblage>
 
-<assemblage><title>Two Square Roots</title>
-	<p>Every positive number has two square roots, one positive and one negative.</p></assemblage>
+<assemblage><p>Every positive number has two square roots, one positive and one negative.</p></assemblage>
 
-<exercise number="1"><statement><p>What is the square root of a number <m>n</m>?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What is the square root of a number <m>n</m>?</p></statement>
     	<answer><p>A number whose square is <m>n</m>.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Radicals</title>
@@ -50,7 +50,7 @@ The symbol <m>\sqrt{\hphantom{00}}</m> is called a <term>radical</term><idx><h>r
 <p>What about the other square root, the negative one?</p>  
 <p>If we want to indicate the negative square root of a number, we place a negative sign outside the radical sign, like this: 
 	<me>-\sqrt{16}=-4~~~~~~\text{and}~~~~~~ {-\sqrt{49}}=-7</me>
-If we want to refer to both square roots, we use the symbol <m>\blert{\pm}</m>,  read "plus or minus."  For example,
+If we want to refer to both square roots, we use the symbol <m>\pm</m>,  read "plus or minus."  For example,
 	<me>\pm \sqrt{36}=\pm 6,~~~~\text{which means}~~~~6~~\text{or}~~ {-6}</me>	
 Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 
@@ -59,11 +59,13 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 	<li><m>\pm \sqrt{\dfrac{64}{121}} = \pm \dfrac{8}{11}</m></li>
 </ol></p></statement></example>
 
-<exercise number="2"><statement><p>What is the positive square root of a number called?</p></statement>
+<reading-questions>
+    <exercise number="2"><statement><p>What is the positive square root of a number called?</p></statement>
     	<answer><p>The principal square root</p></answer></exercise>
 
 <exercise number="3"><statement><p>What is a radicand?</p></statement>
     	<answer><p>The number inside a radical sign</p></answer></exercise>
+</reading-questions>
 
 <p>Every positive number has two square roots, and zero has exactly one square root. What about the square root of a negative number? For example, can we find <m>\sqrt{-4}</m>?</p>  
 
@@ -74,8 +76,10 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 <assemblage><title>Square Root of a Negative Number</title>
 <p>We cannot find the square root of a negative number.  We say that the square root of a negative number is <term>undefined</term><idx><h>square root</h><h>undefined</h></idx><idx><h>square root</h><h>undefined</h><seealso>complex number</seealso></idx>.</p></assemblage>
 
-<exercise number="4"><statement><p>How do we find the square root of a negative number?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>How do we find the square root of a negative number?</p></statement>
     	<answer><p>The square root of a negative number is undefined.</p></answer></exercise>
+ </reading-questions>
  </subsection>
 
  <subsection><title>Rational and Irrational Numbers</title>
@@ -88,8 +92,10 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
  	<me>\dfrac{2}{3},~~~  \dfrac{-4}{7},~~~ \text{or}~~~ \dfrac{15}{8}</me>
 is a rational number. Integers are also rational numbers, because any integer can be written as a fraction with a denominator of 1. (For example, <m>6= \dfrac{6}{1}</m>). All of the numbers we have encountered before this chapter are rational numbers.</p>
 
-<exercise number="5"><statement><p>What is a rational number?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>What is a rational number?</p></statement>
     	<answer><p>One that can be expressed as a quotient of two integers</p></answer></exercise>
+ </reading-questions>
 
  <p>Every fraction can be written in decimal form.</p>
 
@@ -110,11 +116,12 @@ is a rational number. Integers are also rational numbers, because any integer ca
 	<li>We divide 4 by 11 to find <m>~\dfrac{4}{11}=0.363636 \ldots = 0.\overline{36}</m>. The line over the digits 36 is called a repeater bar, and it indicates that those digits are repeated forever.</li>
 </ol></p></solution></example>
 
-<exercise number="6"><statement><p>How can you recognize a rational number in its decimal form?</p></statement>
+<reading-questions>
+    <exercise number="6"><statement><p>How can you recognize a rational number in its decimal form?</p></statement>
     	<answer><p>It either terminates or repeats a pattern.</p></answer></exercise>
+ </reading-questions>
 
-<p>What about the decimal form for <m>\sqrt{5}</m>?</p> 
-<p>If you use a calculator with an eight-digit display, you will find
+<p>What about the decimal form for <m>\sqrt{5}</m>? If you use a calculator with an eight-digit display, you will find
 	<me>\sqrt{5} \approx 2.236~ 068</me>
  However, this number is only an approximation, and not the exact value of <m>\sqrt{5}</m>. (Try squaring <m>2.236~ 068</m>  and you will see that     
  		<me>2.236~ 068^2 = 5.000~ 000~ 100~ 624</me>
@@ -140,14 +147,16 @@ is a rational number. Integers are also rational numbers, because any integer ca
 		\filldraw[red] ({15/4)},0) circle (1mm) node[above, yshift=3] {$\displaystyle\frac{15}{4}$};
 		\filldraw[red] ({sqrt(5)},0) circle (1mm) node[above, yshift=3] {$\sqrt{5}$};
 		\filldraw[red] ({sqrt(36)},0) circle (1mm) node[above, yshift=3] {$\sqrt{36}$};
-        \end{tikzpicture}]]></latex-image></image></assemblage> 
+        \end{tikzpicture}]]></latex-image></image></sidebyside></p></assemblage> 
 
  <assemblage><title>Real Numbers</title>
  	<idx><h>real number</h></idx>
  <p>Each point on a number line corresponds either to a rational number or an irrational number, and these numbers fill up the number line completely. The rational and irrational numbers together make up the <term>real numbers</term>, and the number line is sometimes called the <term>real line</term><idx><h>real line</h></idx><idx><h>real line</h><seealso>number line</seealso></idx>.</p></assemblage>
 
-<exercise number="7"><statement><p>What are the rational and irrational numbers together called?</p></statement>
+ <reading-questions>
+    <exercise number="7"><statement><p>What are the rational and irrational numbers together called?</p></statement>
     	<answer><p>The real numbers</p></answer></exercise>
+ </reading-questions>
 
  <p>It is important that you understand the distinction between an exact value and an approximation.</p>
 
@@ -157,8 +166,8 @@ is a rational number. Integers are also rational numbers, because any integer ca
 			<mrow>2.236068~~~~  \amp \text{ is an approximation to the square root of 5}</mrow></md></p></li>
 	<li><p>We often use a decimal approximation for a rational number.
 		<md><mrow>\dfrac{2}{3}~~~~  \amp \text{indicates the exact value of 2 divided by 3}</mrow>
-			<mrow>0.666667~~~~  \amp \text{is an approximation for}~\dfrac{2}{3}</mrow></md></p></li>
-</ol></p></statement></example>
+			<mrow>0.666667~~~~  \amp \text{is an approximation for}~\dfrac{2}{3}</mrow></md></p></li></ol></p></statement>
+</example>
 
 <assemblage><title>Look Ahead</title>
 <p>Of course, even though many radicals are irrational numbers, some radicals, such as <m>~\sqrt{16}=4</m> and <m>~\sqrt{\dfrac{9}{25}} = \dfrac{3}{5}</m>, represent integers or fractions. Integers such as <m>9</m> and <m>25</m>, whose square roots are whole numbers, are called <term>perfect squares</term><idx><h>perfect square</h></idx><idx><h>square</h><h>perfect</h></idx>.</p></assemblage>
@@ -195,8 +204,10 @@ Rounding to three decimal places gives <m>2.708</m>.</p>
 <li>Perform additions and subtractions in order from left to right.</li>
 </ol></p></assemblage>
 
-<exercise number="8"><statement><p>When do we evaluate roots in the order of operations?</p></statement>
+<reading-questions>
+    <exercise number="8"><statement><p>When do we evaluate roots in the order of operations?</p></statement>
     	<answer><p>After parentheses but before products and quotients</p></answer></exercise>
+ </reading-questions>
 </subsection>
 
 <subsection><title>Cube Roots</title>
@@ -216,13 +227,13 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 
 <p>Recall that every positive number has two square roots, and that negative numbers do not have square roots. The situation is different with cube roots.</p>
 
-<assemblage><title>Cube Root of a Negative Number</title>
-	<idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
+<assemblage><idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
 <p>Every number has exactly one cube root. The cube root of a positive number is positive, and the cube root of a negative number is negative.</p></assemblage>
 
 <p>Just as with square roots, some cube roots are irrational numbers and some are not. Cube roots are treated the same as square roots in the order of operations.</p>
 
-<exercise number="9"><statement><p>What is the cube root of a number <m>n</m>?</p></statement>
+<reading-questions>
+    <exercise number="9"><statement><p>What is the cube root of a number <m>n</m>?</p></statement>
     	<answer><p>A number whose cube is <m>n</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>How many cube roots does a negative number have?</p></statement>
@@ -343,7 +354,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 </ol></p>
 </activity>
 
-<activity><title>Order of Operations</title>
+<subsubsection><title>Activity 3: Order of Operations</title>
 
 <p><ol marker="1.">
 <li><p>A radical symbol acts like parentheses to group operations. Any operations that appear under a radical should be performed before evaluating the root.<ol marker="a." >

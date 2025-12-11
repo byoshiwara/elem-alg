@@ -6,8 +6,9 @@
 <subsection><title>What is a Variable?</title>
 <idx>variable</idx>
                    
-<assemblage><title>Variable</title><idx>variable</idx>
-<p>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</p></assemblage>
+<assemblage><title>Variable</title>
+<idx>variable</idx>
+    <p>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</p></assemblage>
 
     <p>We can show the values of a variable in a table or a graph.</p>
                  
@@ -59,7 +60,7 @@
 
 <example><statement>
     <p>The graph below shows the average annual salaries of NFL football players, starting in 1940. The average salary of NFL football players is a variable.</p>
-    <image source="photos/fig-1-1-ex2" width="60%"/>
+    <image source="photos/fig-1-1-ex2" width="45%"/>
     <p><ol marker="a.">
         <li><p>Use the graph to estimate the average annual salary of NFL football players in 1975.</p></li>
         <li><p>By how much did salaries increase from 1975 to 1980?</p></li>
@@ -71,11 +72,11 @@
             <me>\$80,000 - \$40,000 = \$40,000</me></p></li>
     </ol></p></solution></example>
 
-
+<reading-questions>
     <exercise number="1"><statement><p>A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>.</p></statement>
         <answer><p>variable</p></answer></exercise>
     <exercise number="2"><statement><p>We can show the values of a variable in a <fillin characters="6"/> or a <fillin characters="6"/>.</p></statement>
-        <answer><p>table, graph</p></answer></exercise>
+        <answer><p>table, graph</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Closer</title>
 <p>By displaying the values of a variable in a table or a graph, we sometimes see trends or patterns in those values.  For example, we see that life expectancy has been increasing slowly over time, and that salaries of NFL football players have been increasing ever more rapidly since 1940.</p></assemblage>
@@ -165,10 +166,11 @@
     <li>The plane is descending when its altitude is decreasing.  On the graph, <m>h</m> begins to decrease at <m>t=70</m> and continues decreasing until <m>t=110</m>. Thus, the plane is descending from the 70th minute until the end of the flight at 110 minutes.</li>
 </ol></p></solution></example>
 
+<reading-questions>
     <exercise number="3"><statement><p>We often use <fillin characters="6"/> as a shorthand to represent variable quantities.</p></statement>
         <answer><p>letters</p></answer></exercise>      
     <exercise number="4"><statement><p>Which variable is displayed on the vertical axis in <xref ref="Example-1-1-3" text="type-global"/>?</p></statement>
-        <answer><p>altitude</p></answer></exercise>
+        <answer><p>altitude</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Ahead</title>
 <p>It would be useful if we could discover a formula or rule to help us predict the values of an interesting variable.</p></assemblage>
@@ -226,7 +228,7 @@
         \end{tikzpicture}]]></latex-image></image></li>         
    </ol></p></statement></example>
 
-<assemblage><title>Equation</title>
+<assemblage>
     <idx>mathematical sentence</idx>
     <p>A formula <idx>formula</idx> relating two variables is a type of <term>equation</term><idx>equation</idx>, and an equation is just a statement that two quantities are equal.</p></assemblage>
 
@@ -236,12 +238,12 @@
   
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">    
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~5~</m></cell>
-                    <cell><m>~10~</m></cell>
-                    <cell><m>~15~</m></cell>
-                    <cell><m>~20~</m></cell>
-                    <cell><m>~25~</m></cell></row>
+                    <cell><m>x</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>25</m></cell></row>
                 <row> 
                     <cell><m>y</m></cell>
                     <cell><m>2</m></cell>
@@ -258,8 +260,9 @@
                 \end{aligned}</me>
 and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>.  Thus,  <m>y=x-3</m>.</p></solution></example>
 
-<exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
-        <answer><p>equation</p></answer></exercise>
+<reading-questions>
+    <exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
+        <answer><p>equation</p></answer></exercise></reading-questions>
 
 
 <problem>
@@ -293,7 +296,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
 <subsection><title>Lesson</title>
 
-<activity><title>Reading a Graph</title>
+<subsubsection><title>Activity 1: Reading a Graph</title>
 
 <p>The graph shows the U.S. unemployment rate as a precent of the labor force during the years surrounding the Great Depression.</p>
     <!--<image source="photos/act1-1-1.png"><description>graph</description></image>-->
@@ -401,7 +404,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
         <li>During which year did the number of unemployed workers increase the most?</li>
     </ol></p></activity>
 
-<activity><title>Writing Mathematical Sentences</title><idx>mathematical sentence</idx>
+<subsubsection><title>Activity 2: Writing Mathematical Sentences</title><idx>mathematical sentence</idx>
 
 <p><ol marker="1.">
     <li><p>Barry lives with his aunt while he attends college. Every week he gives her $20 from his paycheck to help pay for groceries. Fill in the table:</p>
@@ -513,7 +516,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                     \end{tikzpicture}]]>
                     </latex-image></image></li>
     </ol></p></li></ol></p>
-</activity>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -524,7 +527,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
     <li>Describing a relationship between two variables</li>
     <li>Writing an equation relating two variables</li></ul></p></assemblage>
 
-<assemblage><title>Questions</title>   
+ <assemblage><title>Questions</title>   
 <p><ol marker="1.">
     <li>In Activity 1e, how do we calculate the increase in unemployment rate?</li>
     <li>In Activity 1f, were more people unemployed in 1931 or in 1940?</li>
@@ -539,11 +542,11 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 <p><ol marker="1." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~1~</m></cell>
-                        <cell><m>~2~</m></cell>
-                        <cell><m>~5~</m></cell>
-                        <cell><m>~8~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>9</m></cell>
@@ -554,11 +557,11 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~6~</m></cell>
-                        <cell><m>~12~</m></cell>
-                        <cell><m>~24~</m></cell>
-                        <cell><m>~30~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>24</m></cell>
+                        <cell><m>30</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>1</m></cell>
@@ -569,11 +572,11 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~5~</m></cell>
-                        <cell><m>~7~</m></cell>
-                        <cell><m>~8~</m></cell>
-                        <cell><m>~10~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
                     <row> 
                         <cell><m>~y~</m></cell>
                         <cell><m>~3~</m></cell>
@@ -584,11 +587,11 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~1~</m></cell>
-                        <cell><m>~3~</m></cell>
-                        <cell><m>~5~</m></cell>
-                        <cell><m>~7~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>7</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>4</m></cell>
@@ -599,11 +602,11 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~2~</m></cell>
-                        <cell><m>~4~</m></cell>
-                        <cell><m>~6~</m></cell>
-                        <cell><m>~9~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>9</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>10</m></cell>
@@ -614,11 +617,11 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~4~</m></cell>
-                        <cell><m>~8~</m></cell>
-                        <cell><m>~12~</m></cell>
-                        <cell><m>~20~</m></cell></row>
+                        <cell><m>x</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>20</m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
                         <cell><m>3</m></cell>

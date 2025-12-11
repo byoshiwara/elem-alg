@@ -9,11 +9,11 @@
 <sidebyside widths="55% 40%" valigns="middle middle">
 <p>The graph of the equation
 	<me>y=x^2+2x-5</me>
-is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at approximately <m>1.5</m> and <m>3.5</m>. To find their exact values, we must solve the equation
+is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at approximately 1.5 and 3.5. To find their exact values, we must solve the equation
 	<me>x^2+2x-5=0</me></p>
 	<!--<image source="photos/fig-6-5-1.png"><description>parabola</description></image>-->
     <image xml:id="ig-6-5-1"><description>parabola</description><latex-image>
-        <![CDATA[
+       <![CDATA[
 	\begin{tikzpicture}[scale=.4]
 	\draw[cyan] (-6,-5) grid (6,5);
 	\draw[black, thick, ->, >=stealth'] (-6,0)--(7,0) node[right]{$x$};
@@ -29,12 +29,8 @@ is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at 
 	\draw[samples=65,domain=-5:3,smooth,variable=\x,red!80!black, very thick, <->, >=stealth'] plot ({\x},{((\x)^2 +2*\x-5)/2});
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 	
-<p>But, as you can check, the trinomial <m>~x^2+2x-5~</m> cannot be factored.</p>	
+<p>But, as you can check, the trinomial <m>x^2+2x-5</m> cannot be factored.</p>	
 <p>So far we know two methods for solving quadratic equations:  extracting roots and factoring. Neither of these methods applies to every quadratic equation. In this Lesson we consider a technique that works on all quadratic equations.</p>
-
-<exercise number="1"><statement><p>What are the two techniques we already know for solving quadratic equations?
-</p></statement>
-    <answer><p>Extracting roots and factoring</p></answer></exercise>
 </subsection>
 
 <subsection><title>Using the Quadratic Formula</title>
@@ -54,10 +50,6 @@ are given by the <term>quadratic formula</term>
 <p>The symbol <m>~\pm~</m> is used in this context to combine two similar formulas into one. It means that the quadratic equation has two solutions, namely
 	<me>\dfrac{-b + \sqrt{b^2-4ac}}{2a}~~~~\text{and}~~~~\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me></p></assemblage>
 
-<exercise number="2"><statement><p>How do we find the values of <m>a,~b,</m> and <m>c</m> in the quadratic formula?
-</p></statement>
-    <answer><p><m>a</m> is the coefficient of <m>x^2</m>; <m>~b</m> is the coefficient of <m>x</m>, and <m>c</m> is the constant term.</p></answer></exercise>
-
 <example><statement><p> Use the quadratic formula to solve the equation 
 		<me>x^2+2x-5=0</me></p></statement>
 
@@ -67,18 +59,26 @@ We substitute the values of <m>a,~b,</m> and <m>c</m> into the quadratic formula
 	<md><mrow>x \amp =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}</mrow>
 		<mrow> \amp =\dfrac{-\alert{2} \pm \sqrt{\alert{2}^2-4(\alert{1})(\alert{-5})}}{2(\alert{1})} \amp \amp \blert{\text{Simplify under the radical.}}</mrow>
 		<mrow> \amp = \dfrac{-2 \pm \sqrt{4+20}}{2} = \dfrac{-2 \pm \sqrt{24}}{2}</mrow></md></p>
-<p>The solutions of the equation are <m>~\dfrac{-2 + \sqrt{24}}{2}~</m> and <m>~\dfrac{-2 - \sqrt{24}}{2}</m>.</p> <p>These are the exact values of the solutions. We can use a calculator to approximate each solution to hundredths.
+<p>The solutions of the equation are <m>\dfrac{-2 + \sqrt{24}}{2}</m> and <m>\dfrac{-2 - \sqrt{24}}{2}</m>. These are the exact values of the solutions. We can use a calculator to approximate each solution to hundredths.
 	<md><mrow>\dfrac{-2 + \sqrt{24}}{2} \amp \approx \dfrac{-2+4.90}{2} = 1.50</mrow>
 		<mrow>\dfrac{-2 - \sqrt{24}}{2} \amp \approx \dfrac{-2-4.90}{2} = -3.50</mrow></md>
 These values are very close to our estimates from the graph.</p>
 </solution></example>
 
-<exercise number="3"><statement><p>What should you do if a quadratic equation cannot be solved by factoring?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What should you do if a quadratic equation cannot be solved by factoring?</p></statement>
     <answer><p>Use the quadratic formula.</p></answer></exercise>
+</reading-questions>
 
-<p>Before we use the quadratic formula, we must write the equation in standard form so that we can identify the coefficients <m>a,~b,</m> and <m>c</m>.</p>
+<warning><p>Before we use the quadratic formula, we must write the equation in standard form so that we can identify the coefficients <m>a,~b,</m> and <m>c</m>.</p></warning>
 
-<p>And if some of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</p>
+<reading-questions>
+    <exercise number="1"><statement><p>How do we find the values of <m>a,~b,</m> and <m>c</m> in the quadratic formula?
+</p></statement>
+    <answer><p>They are the coefficients of <m>x^2</m> and <m>x</m> and the constant term, respectively.</p></answer></exercise>
+</reading-questions>
+
+<p>If some of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</p>
 
 <example><statement><p><ol marker="a.">
 	<li>Solve  <m>~x=\dfrac{2}{3}-\dfrac{x^2}{6}</m></li>
@@ -86,26 +86,27 @@ These values are very close to our estimates from the graph.</p>
 </ol></p></statement>
 
 <solution><p><ol marker="a.">
-	<li><p>Because some of the coefficients are fractions, we multiply each term of the equation by the LCD, <m>\blert{6}</m>, to get
+	<li><p>We multiply each term of the equation by the LCD, <m>\blert{6}</m>, to get
 			<md><mrow>\blert{6}(x) \amp =\blert{6}\left(\dfrac{2}{3}-\dfrac{x^2}{6}\right) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
 				<mrow>6x \amp = 4-x^2</mrow></md>
 		Next, we write the equation in standard form and identify the coefficients. 
 			<md><mrow>x^2+6x-4=0</mrow>
 				<mrow>a=1,~ b=6,~ c=-4</mrow></md>
 	We substitute the coefficients into the quadratic formula, and simplify.
-			<md><mrow>x \amp =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}</mrow>
-				<mrow> \amp = \dfrac{-6 \pm \sqrt{6^2-4(1)(-4)}}{2(1)}  \amp \amp \blert{\text{Simplify under the radical.}}</mrow>
+			<md><mrow>x =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a} \amp = \dfrac{-6 \pm \sqrt{6^2-4(1)(-4)}}{2(1)}  \amp \amp \blert{\text{Simplify under the radical.}}</mrow>
 				<mrow> \amp = \dfrac{-6 \pm \sqrt{52}}{2}</mrow></md>
 	The exact values of the solutions are <m>x=\dfrac{-6+\sqrt{52}}{2}</m> and <m>x=\dfrac{-6-\sqrt{52}}{2}</m>.</p></li>
-	<li><p>We can use a calculator to approximate each solution.
+	<li><p>We use a calculator to approximate each solution.
 			<md><mrow>\dfrac{-6 + \sqrt{52}}{2} \amp \approx \dfrac{-6+7.21}{2} = 0.605</mrow>
 				<mrow>\dfrac{-6 - \sqrt{52}}{2} \amp \approx \dfrac{-6-7.21}{2} = -6.605</mrow></md>
 		To two decimal places the solutions are <m>0.61</m> and <m>-6.61</m>.</p></li>
 	</ol></p></solution></example>
 
-<exercise number="4"><statement><p>If the coefficients in a quadratic equation are fractions, what should you do?
+<reading-questions>
+    <exercise number="3"><statement><p>If the coefficients in a quadratic equation are fractions, what should you do?
 </p></statement>
     <answer><p>Multiply each term of the equation by their LCD.</p></answer></exercise>
+</reading-questions>
 
 <p>Of course, if a quadratic equation can be solved by factoring, then the quadratic formula will give the same solutions. You can use whichever technique seems faster for a particular equation.</p>
 </subsection>
@@ -113,8 +114,7 @@ These values are very close to our estimates from the graph.</p>
 <subsection><title>Non-Real Solutions</title>
 	<idx><h>non-real</h><h>solutions</h></idx>
 
-<sidebyside widths="60% 30%">
-<stack><p>The graph of 
+<sidebyside widths="60% 30%"><p>The graph of 
 	<me>y=x^2-4x+5</me>
 has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, we can use the quadratic formula to solve the equation
 	<me>x^2-4x+5=0</me></p>
@@ -143,7 +143,7 @@ has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, 
 <p>We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined; it is not equal to any real number.  This quadratic equation does not have any real-valued solutions, and that is why the graph of <m>~y=x^2-4x+5~</m> does not have any <m>x</m>-intercepts.</p>
 <p>The solutions to the equation above are a type of number called <term>complex numbers</term><idx><h>complex number</h></idx>. If a quadratic equation does not have real-valued solutions, then its graph will not have <m>x</m>-intercepts.</p>
 
-<p>Remember that every quadratic equation has two solutions. The nature of those solutions determines the nature of the <m>x</m>-intercepts of the graph. </p>
+<assemblage><p>Every quadratic equation has two solutions. The nature of those solutions determines the nature of the <m>x</m>-intercepts of the graph. </p></assemblage>
 
 <assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
 	<idx><h>quadratic equation</h><h>nature of solutions</h></idx>
@@ -157,12 +157,11 @@ There are three possibilities.<ol marker="1.">
 
 <exercise number="5"><statement><p>If a quadratic equation <m>~ax^2+bx+c=0~</m> has no real solutions, what does that tell you about the graph of <m>~y=ax^2+bx+c</m>?</p></statement>
     <answer><p>It has no <m>x</m>-intercepts.</p></answer></exercise>
+</reading-questions>
 
-<example><statement><p>How many <m>x</m>-intercpets does the parabola have?</p>
-	<p><ol marker="a." cols="2">
-		<li><m>y = x^2 + 5</m></li>
-		<li><m>y = x^2 - 6x + 9</m></li>
-	</ol></p></statement>
+<example><statement><p>How many <m>x</m>-intercepts does the parabola have?<ol marker="a." cols="2">
+	<li><m>y=x^2+5</m></li>
+	<li><m>y=x^2-6x+9</m></li></ol></p></statement>
 
 <solution><p><ol marker="a.">
 	<li><sidebyside widths = "55% 40%" margins="0% 0%" valigns="middle middle">
@@ -277,8 +276,8 @@ There are three possibilities.<ol marker="1.">
 		<ol marker="i.">
 		<li><m>y=x^2-4x+3</m></li>
 		<li><m>y=x^2-4x+4</m></li>
-		<li><m>y=x^2-4x+5</m></li>
-	</ol></p></stack>
+		<li><m>y=x^2-4x+5</m></li></ol></p></li>
+	<li><sidebyside widths="50% 30%"><p>Match each equation from part (a) with one of the graphs shown.  Explain your reasoning.</p>
 	<!--<image source="photos/act-6-5-1.png"><description>grid</description></image>-->
     <image xml:id="act-6-5-2"><description>parabola with no x-intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

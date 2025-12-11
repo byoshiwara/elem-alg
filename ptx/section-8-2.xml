@@ -39,7 +39,7 @@
 		\draw [black,decorate,decoration={brace,amplitude=5pt}] ($ (A)+(0,1)+(-.1,0)$) -- ++(0,2) node [black, left,midway,xshift=-4pt] {$\displaystyle\frac{2}{3}$};
 		\node[right] at (0,-1.4) {(a)};
 		\node[right] at ($(A)+(0,-1.4)$) {(b)};
-        \end{tikzpicture}]]></latex-image></image>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>You decide to take <m>\dfrac{2}{3}</m> of the remaining cake home, and give the rest to your math teacher. You cut the remaining cake into thirds, as shown in figure (b). How much of the original cake are you taking home?  Your share is 
 	<me> \dfrac{2}{3}~~\text{of}~~\dfrac{4}{5}~~~~~\text{or}~~~~~ \dfrac{2}{3} \times \dfrac{4}{5}</me>
@@ -64,6 +64,7 @@ Finally, we multiply together the remaining factors in the numerator, and multip
 
 <exercise number="1"><statement><p>Use the fundamental principle of fractions to explain why the shortcut strategy is valid.</p></statement>
     <answer><p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.</p></answer></exercise>
+</reading-questions>
 
 <p>The shortcut strategy also works on algebraic fractions.</p>
 
@@ -101,10 +102,11 @@ We get the same answer with either method.</p>
 </solution></example>
 
 <warning><idx><h>canceling to reduce a fraction</h></idx>
-<p>In <xref ref="Example-8-2-2" text="type-global"/>, it would be incorrect to try to cancel any <term>terms</term> of numerators and denominators before factoring each binomial. (Recall that terms are expressions that are added or subtracted.) For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warning>
+<p>In <xref ref="Example-8-2-2" text="type-global"/>, it would be incorrect to try to cancel any terms of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warning>
 
 <exercise number="2"><statement><p>What was the first step in multiplying the two fractions in <xref ref="Example-8-2-2" text="type-global"/>?</p></statement>
     <answer><p>Factor each numerator and denominator.</p></answer></exercise>
+</reading-questions>
 
 <p>If we want to multiply a fraction by a whole number, we can write the whole number with a denominator of 1. For example,
 	<me>\dfrac{2x}{3} \cdot \blert{4} = \dfrac{2x}{3} \cdot \blert{\dfrac{4}{1}} = \dfrac{8x}{3}</me></p>
@@ -195,7 +197,7 @@ Now, we follow the rules for multiplication. We begin by factoring each numerato
 <subsection><title>Adding Like Fractions</title>
 	<idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
 
-<assemblage><title>Like Fractions</title>
+<assemblage>
 	<idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
 <p>Recall that fractions with the same denominator are called <term>like fractions</term>.</p>
 </assemblage>
@@ -206,8 +208,10 @@ because they have the same denominators. The following pairs are unlike fraction
 	<me>\dfrac{2}{3a} ~~\text{and}~~\dfrac{2}{3a^2},~~~~~~~\dfrac{5}{x+1} ~~\text{and}~~\dfrac{2x}{x-1}</me>
 because they have different denominators.</p>
 
-<exercise number="4"><statement><p>What are like fractions?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>What are like fractions?</p></statement>
     <answer><p>Fractions with the same denominator</p></answer></exercise>
+</reading-questions>
 
 <p>We can add or subtract two fractions only if they are like fractions, for the same reason that we can add only like terms. For example, 
 	<me>3x+4x=7x</me>
@@ -217,8 +221,7 @@ becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the s
 <assemblage><title>Look Closer</title>
 <p>In the example above, the denominators of the fractions tell us what kind of quantity we are adding (namely, fifths). We can add only quantities of the same kind. Note that we added the numerators, <m>3+4</m>, but kept the same denominator, <m>5</m>.</p></assemblage>
 
-<assemblage><title>Look Closer</title>
-<p>When we add like fractions, we add their numerators and keep the denominator the same.</p></assemblage>
+<assemblage><p>When we add like fractions, we add their numerators and keep the denominator the same.</p></assemblage>
 
 <assemblage><title>Sum or Difference of Like Fractions</title>
 	<idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
@@ -245,8 +248,10 @@ becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the s
 		<mrow>\amp = \dfrac{3x-1}{x+2}</mrow></md></p>
 </solution></example>
     
-<exercise number="5"><statement><p>How do we add like fractions?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>How do we add like fractions?</p></statement>
     <answer><p>Combine the numerators over a single denominator.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Subtracting Like Fractions</title>
@@ -279,8 +284,10 @@ We must change the sign of each term of the second numerator, to get <m>-3x+5</m
 	<li>Reduce the sum or difference if necessary.</li>
 </ol></p></assemblage>
 
-<exercise number="6"><statement><p>When we subtract like fractions, how do we apply the subtraction sign?</p></statement>
+<reading-questions>
+    <exercise number="6"><statement><p>When we subtract like fractions, how do we apply the subtraction sign?</p></statement>
     <answer><p>To each term of the numerator of the subtracted fraction.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Polynomial Division</title>

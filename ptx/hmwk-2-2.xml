@@ -142,8 +142,8 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, write an algebraic expression for area or perimeter.</p></introduction>
 
-<exercise number="25"><statement><!--<image source="photos/hp-2-2-25.png"><description rectangle</description></image>-->
-    <image width="65%" xml:id="hp-2-2-25">
+<exercise number="25"><statement><sidebyside width="55%"><!--<image source="photos/hp-2-2-25.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-2-2-25">
         <description>rectngle</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -160,12 +160,15 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 		\node[below, scale=.8] at (1.,-.4) {$\textbf{Perimeter}=$};
 		\node[left] at (0,.95) {$x$};
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><m>2x+10</m></answer></exercise>
 
-<exercise number="26"><statement><!--<image source="photos/hp-2-2-26.png"><description>rectangle</description></image>-->
-    <image width="85%" xml:id="hp-2-2-26"><description>rectangles</description><latex-image>
+<exercise number="26"><statement><sidebyside width="75%"><!--<image source="photos/hp-2-2-26.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-2-2-26">
+        <description>rectangles</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -184,15 +187,16 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 		\node[above] at (1.15,2.5) {$x$};
 		\node[above] at (3.35,2.5) {$6$};
         \end{tikzpicture}]]>
-    </latex-image></image>
-</statement></exercise>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="27"><statement><p>Salewa saved $5000 to live on while going to school full time. She spends $200 per week on living expenses.<ol marker="a.">
 	<li>How much of Salewa's savings will be left after 3 weeks?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
-	<li><p>Fill in the table below.</p>
-		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<li>Fill in the table below.
+		<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Number of weeks</cell>
                         <cell><m>2</m></cell>
@@ -208,7 +212,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></li>
+                    </tabular></sidebyside></li>
 	<li>Write an equation that gives Salewa's savings, <m>S</m>, after <m>w</m> weeks.</li></ol></p></statement>
 <answer><p><ol marker="a.">
 	<li>$4400;~ $2600</li>
@@ -230,8 +234,8 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="28"><statement><p>To calculate how much state income tax she owes, Francine subtracts $2000 from her income, and then takes 12% of the result.<ol marker="a.">
 	<li>What is Francine's state income tax if her income is $8000?</li>
 	<li>Describe in words how you calculated your answer to part (a).</li>
-	<li><p>Fill in the table below.</p>
-		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<li>Fill in the table below.
+		<sidebyside width="50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Income</cell>
                         <cell>$5000</cell>
@@ -247,7 +251,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></li>
+                    </tabular></sidebyside></li>
 	<li>Write an equation that gives Francine's state income tax <m>T</m>, if her income is <m>I</m>.</li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 29<ndash/>32, <ol marker="a.">

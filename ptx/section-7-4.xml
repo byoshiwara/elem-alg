@@ -20,8 +20,10 @@
 <p>In <xref ref="Example-7-4-1" text="type-global"/>a, we doubled the exponent and kept the same base. In <xref ref="Example-7-4-1" text="type-global"/>b, we squared the numerical coefficient and doubled the exponent.</p>
 </assemblage>
 
-<exercise number="1"><statement><p>Why do we double the exponent when we square a power?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>Why do we double the exponent when we square a power?</p></statement>
     <answer><p>Because when we multiply powers with the same base, we add the exponents.</p></answer></exercise>
+</reading-questions>
 
 <example><statement><p>Find a monomial whose square is <m>36t^8</m>.</p></statement>
 
@@ -46,6 +48,7 @@
 
 <exercise number="2"><statement><p>Explain why it is NOT true that <m>~(a+b)^2=a^2+b^2</m>.</p></statement>
     <answer><p>Because we must square <m>(a+b)</m> using FOIL.</p></answer></exercise>
+</reading-questions>
 
 <p>We can use these results as formulas to compute the square of any binomial.</p>  
 
@@ -124,6 +127,7 @@ This is the correct middle term, so our trinomial has the form (1), with <m>a=x<
 
 <exercise number="6"><statement><p>How can we factor <m>~a^2- b^2</m>?</p></statement>
     <answer><p><m>(a+b)(a-b)</m></p></answer></exercise>
+</reading-questions>
 
 <warning><p>The sum of two squares, <m>~a^2+b^2</m>, cannot be factored!  For example, 
 	<me>x^2+16,~~~~~~9x^2+4y^2,~~~~~~\text{and}~~~~~~25y^4+w^4</me>

@@ -11,7 +11,7 @@
 
 <p>Suppose we would like to multiply two powers together. For instance, consider the product <m>(x^3)(x^4)</m>,  which can be written as
 	<me>(x^3)(x^4)=xxx \cdot xxxx = x^7</me>
-because <m>x</m> occurs as a factor <m>7</m> times. We see that the number of <m>x</m>'s in the product is the sum of the number of <m>x</m>'s in each factor.</p>
+because <m>x</m> occurs as a factor 7 times. We see that the number of <m>x</m>'s in the product is the sum of the number of <m>x</m>'s in each factor.</p>
 <p>On the other hand, if we'd like to multiply <m>x^3</m> times <m>y^4</m>, we cannot simplify the product because the two powers do not have the same base.
 	<me>(x^3)(y^4)=xxx \cdot yyyy = x^3y^4</me>
 These observations illustrate the following rule.</p>
@@ -31,14 +31,14 @@ These observations illustrate the following rule.</p>
 	<md><mrow> 3^4 \cdot 3^3 \amp \rightarrow 9^7  \amp \amp \blert{\text{The base does not change.The correct product is}~3^7.}</mrow> 
 		<mrow> t^3 \cdot t^5 \amp \rightarrow t^{15}  \amp \amp \blert{\text{We add the exponents.The correct product is}~t^8.}</mrow></md></p></warning>
 
-<exercise number="1"><statement><p><ol marker="a.">
+<reading-questions>
+    <exercise number="1"><statement><p><ol marker="a.">
     	<li>How do we simplify the product of two powers with the same base?</li>
-		<li>How do we simplify the product of two powers with different bases?</li>
-</ol></p></statement>
+		<li>How do we simplify the product of two powers with different bases?</li></ol></p></statement>
     <answer><p><ol marker="a.">
     	<li>We add the exponents and leave the base unchanged.</li>
-    	<li>We cannot simplify the product.</li>
-</ol></p></answer></exercise>
+    	<li>We cannot simplify the product.</li></ol></p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Products of Monomials</title>
@@ -54,13 +54,15 @@ These observations illustrate the following rule.</p>
  	<me>(2)(5)~x^2x^4~yy^3 = 10x^6y^4</me></p>
  </solution></example>
 
-<exercise number="2"><statement><p>Which law of algebra allows us to rearrange the factors in a product?
+ <reading-questions>
+    <exercise number="2"><statement><p>Which law of algebra allows us to rearrange the factors in a product?
 </p></statement>
     <answer><p>The associative law</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Multiplying by a Monomial</title>
-	<idx><h>multiplying</h><h>by a monomial</h></idx>
+<idx><h>multiplying</h><h>by a monomial</h></idx>
 <p>To multiply a polynomial by a monomial, we use the distributive law.</p>
 
 <example><statement><p>Multiply  <m>~~-3xy^2(4x^2-2xy+2)</m></p></statement>
@@ -73,9 +75,11 @@ These observations illustrate the following rule.</p>
 To simplify each term, we group together the coefficients and powers with the same base.</p>
 </solution></example>
 
-<exercise number="3"><statement><p>Which algebraic law do we use when we multiply a polynomial by a monomial?
+<reading-questions>
+    <exercise number="3"><statement><p>Which algebraic law do we use when we multiply a polynomial by a monomial?
 </p></statement>
     <answer><p>The distributive law</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Products of Polynomials</title>
@@ -88,14 +92,14 @@ To simplify each term, we group together the coefficients and powers with the sa
 <example xml:id="Example-7-2-4"><statement><p>Multiply  <m>~~(2x-1)(3x^2-x+2)</m></p></statement>
 
 <solution><p>We multiply each term of the first polynomial by each term of the second polynomial. This involves six multiplications:  We first multiply each term of the trinomial by <m>2x</m>, then multiply each term by <m>-1</m>.
-	<md alignment="alignat"><mrow>(\blert{2x}\alert{-1})\amp (3x^2-x+2)~~~~~~~~~~~~~~~~~~~~~~</mrow> 
-		<mrow>\amp = \blert{2x}(3x^2)+\blert{2x}(-x)+\blert{2x}(2)\alert{-1}(3x^2)\alert{-1}(-x)\alert{-1}(2)</mrow>
+	<md><mrow>(\blert{2x}\alert{-1})(3x^2-x+2) \amp = \blert{2x}(3x^2)+\blert{2x}(-x)+\blert{2x}(2)\alert{-1}(3x^2)\alert{-1}(-x)\alert{-1}(2)</mrow>
 		<mrow> \amp = 6x^3-2x^2+4x-3x^2+x-2 ~~~~~~ \blert{\text{Combine like terms.}}</mrow>
-		<mrow> \amp = 6x^3-5x^2+5x-2</mrow></md>
-</p></solution></example>
+		<mrow> \amp = 6x^3-5x^2+5x-2</mrow></md></p></solution></example>
 
-<exercise number="4"><statement><p>How many terms are there in the product of two trinomials?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>How many terms are there in the product of two trinomials?</p></statement>
     <answer><p>Nine</p></answer></exercise>
+</reading-questions>
 
 <assemblage><title>Look Closer</title>
 <p>If a product contains both polynomial and monomial factors, it is a good idea to multiply the polynomial factors together first, and save the monomial factor for last.</p></assemblage>
@@ -111,6 +115,7 @@ Next we use the distributive law to multiply the result by <m>2x</m>.
 
 <exercise number="5"><statement><p>To compute the product <m>3a(a+6)(4a-1)</m>, which factors should we multiply first?</p></statement>
     <answer><p>The binomial factors</p></answer></exercise>
+</reading-questions>
 
 <p>In a product of three or more polynomials, we start by multiplying together any two of the three factors.</p>
 
@@ -120,7 +125,7 @@ Next we use the distributive law to multiply the result by <m>2x</m>.
 	<md><mrow>(3a-1)[\blert{(a+2)(2a-3)}] \amp = (3a-1)[\blert{2a^2-3a+4a-6}]</mrow>
 		<mrow> \amp = (3a-1)(2a^2+a-6)</mrow></md> 
 Now we use the distributive law to multiply each term of the trinomial by each term of the binomial, as shown in <xref ref="Example-7-2-4" text="type-global"/>. 
-	<md><mrow>(3a-1)(2a^2+a-6) \amp = 6a^3+3a^2-18a-2a^2-a+6</mrow>
+	<md><mrow>(3a-1)(2a^2+a-6) \amp = 6a^3+3a^2-18a-2a^2-a+6~~~~ \blert{\text{Combine like terms.}}</mrow>
 		<mrow> \amp = 6a^3+a^2-19a+6</mrow></md></p></solution></example>
 
 <problem><statement>

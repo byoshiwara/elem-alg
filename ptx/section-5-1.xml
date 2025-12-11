@@ -19,8 +19,10 @@
 	<me>V=s \cdot s \cdot s</me></p>  
 <image source="photos/fig-5-1-2"><description>cube</description></image></sidebyside>
 
-<exercise number="1"><statement><p>What is the formula for the volume of a box?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What is the formula for the volume of a box?</p></statement>
     	<answer><p><m>V=lwh</m></p></answer></exercise>
+</reading-questions>
 
 <p>Finding the area of a square or the volume of a cube involves repeated multiplication by the same number. We indicate repeated multiplication with a symbol called an <term>exponent</term>.</p>
 
@@ -33,7 +35,8 @@
 <p> The factor <idx><h>factor</h></idx> to which the exponent applies is called the <term>base</term>, and the product is called a <term>power</term> of the base.</p></assemblage> 
 
 <p>For example, </p>
-    <image width="50%" xml:id="fig-5-1-3"><description>meaning of exponent</description><latex-image>
+<sidebyside width="40%">
+    <image xml:id="fig-5-1-3"><description>meaning of exponent</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -51,8 +54,8 @@
         \coordinate (G) at (0.2,-.25);
         \coordinate (H) at (-.2,-.7);
         \draw[blue,<-,>=stealth'] (G) to [out=270,in=0] (H) node[left]{base};
-        \end{tikzpicture}]]></latex-image></image>
-    <p>We read the expression <m>2^5</m> as the "fifth power of 2," or as "2 raised to the fifth power," or simply as "2 to the fifth."</p>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+<p>We read the expression <m>2^5</m> as the "fifth power of 2," or as "2 raised to the fifth power," or simply as "2 to the fifth."</p>
 
 <assemblage><title>Exponents</title>
 	<idx><h>exponent</h></idx>
@@ -60,8 +63,10 @@
 	<me>a^n = a \cdot a \cdot a \cdot \cdots \cdot a ~~~~~~~~ (n ~ \text{factors of}~ a)</me>  
 where <m>n</m> is a positive integer.</p></assemblage>
 
-<exercise number="2"><statement><p>What does an exponent tell us?</p></statement>
+<reading-questions>
+    <exercise number="2"><statement><p>What does an exponent tell us?</p></statement>
     	<answer><p>How many times a particular factor occurs in an expression</p></answer></exercise>
+</reading-questions>
 
 <example><statement><p>Compute the following powers. <ol marker="a.">
 	<li><m>6^2 = 6 \cdot 6 = 36</m></li>
@@ -83,8 +88,7 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 <subsection><title>Powers of Negative Numbers</title>
 	<idx><h>power</h><h>of negative number</h></idx>
 
-<assemblage><title>Power of a Negative Number</title>
-	<idx><h>power</h><h>of negative number</h></idx>
+<assemblage><idx><h>power</h><h>of negative number</h></idx>
 <p>To show that a negative number is raised to a power, we enclose the negative number in parentheses.</p></assemblage>
 
 <p>For example, to indicate the square of <m>-5</m>, we write 
@@ -110,8 +114,10 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 		<me>(-4^2) = (-4 \cdot 4 )=-16</me></p></li>
 </ol></p></solution></example>
 
-<exercise number="3"><statement><p>How do we indicate that a negative number should be raised to a power?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>How do we indicate that a negative number should be raised to a power?</p></statement>
     	<answer><p>We enclose the negative number in parentheses.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Using a Calculator</title>
@@ -151,8 +157,7 @@ The first sequence tells the calculator to square 3, then make the result negati
 
 <p>We can also use exponents with variables. We must be careful to distinguish between a product of a variable and a power of a variable.</p>
 
-<assemblage><title>Exponents versus Coefficients</title>
-	<idx><h>power</h><h>of a variable</h></idx>
+<assemblage><idx><h>power</h><h>of a variable</h></idx>
 <p>An exponent on a variable indicates repeated multiplication, while a coefficient in front of a variable indicates repeated addition.</p></assemblage>
 
 <example><statement><p>Compare the expressions <m>x^4</m> and <m>4x</m>.</p></statement>
@@ -164,8 +169,10 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 (Can you think of one value of <m>x</m> for which they are equal?)</p>
 </solution></example>
 
-<exercise number="4"><statement><p>What is the difference between an exponent and a coefficient?</p></statement>
+<reading-questions>
+    <exercise number="4"><statement><p>What is the difference between an exponent and a coefficient?</p></statement>
     	<answer><p>An exponent indicates repeated multiplication, while a coefficient indicates repeated addition.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Order of Operations</title>
@@ -182,10 +189,9 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
             <mrow>(2x)^3\amp =(2 \cdot \alert{5})^3 = 10^3 = 1000</mrow></md></p>
 </solution></example>
 
-<assemblage><title>Using Parentheses</title>
-	<idx><h>exponent</h></idx>
-	<idx><h>base</h><h>exponent and</h></idx>
-	<idx><h>power</h></idx>
+<assemblage><idx><h>exponent</h></idx>
+<idx><h>base</h><h>exponent and</h></idx>
+<idx><h>power</h></idx>
 <p>An exponent applies only to its base, and not to any other factors in the product. If we want an exponent to apply to more than one factor, we must enclose those factors in parentheses.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
@@ -214,14 +220,14 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
         <mrow>\amp = -2(16)=-32</mrow></md></p>
 </solution></example>
 
-<exercise number="5"><statement><p>In the order of operations, when do we evaluate powers?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>In the order of operations, when do we evaluate powers?</p></statement>
     	<answer><p>After operations inside parentheses</p></answer></exercise>
+</reading-questions>
 
 <p>It is especially important to follow the order of operations when evaluating an expression.</p>
 
-<assemblage><title>Evaluating Powers</title>
-	<p>When we substitute a negative number for the variable, we enclose the negative number in parentheses.</p>
-</assemblage>
+<assemblage><p>When we substitute a negative number for the variable, we enclose the negative number in parentheses.</p></assemblage>
 
 <example><statement><p>Evaluate each expression for <m>x=-6</m>.<ol marker="a." cols ="4">
 	<li><m>x^2</m></li>
@@ -273,8 +279,10 @@ We can also combine like powers of the same variable. For instance,
 <warning><p>When adding like terms, we do not add the exponents. For example,
 	<me>4x^2 + 3x^2 = 7x^4 ~~~~~~~~~~\alert{\text{is incorrect!}}</me></p></warning>
 
-<exercise number="6"><statement><p>How do we combine like terms?</p></statement>
+<reading-questions>
+    <exercise number="6"><statement><p>How do we combine like terms?</p></statement>
     	<answer><p>We add the coefficients and leave the powers unchanged.</p></answer></exercise>
+</reading-questions>
 
 <p>In the next Example we compare adding expressions and multiplying expressions.</p>
 
@@ -441,9 +449,10 @@ We can also combine like powers of the same variable. For instance,
 <p><ol marker="1.">
 <li><sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p><ol marker="a.">
     <li>Find the area of a square whose side is <m>2\frac{1}{2}</m> centimeters long.</li>
-    <li>Find the volume of a cube whose base is the square in part (a).</li>
-</ol></p>
-		<image xml:id="cube-side-2-and-half"><description>cube of side 2.5</description><latex-image>
+    <li>Find the volume of a cube whose base is the square in part (a).</li></ol></p>
+<image xml:id="cube-side-2-and-half">
+        <description>cube of side 2.5</description>
+        <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -482,7 +491,7 @@ We can also combine like powers of the same variable. For instance,
 </ol></p>
 </activity>
 
-<activity><title>Order of Operations</title>
+<subsubsection><title>Activity 3: Order of Operations</title>
 
 <p><ol marker="1.">
 <li><p><ol marker="a.">
@@ -508,7 +517,7 @@ We can also combine like powers of the same variable. For instance,
 </ol></p>
 </activity>
 
-<activity><title>Like Terms</title>
+<subsubsection><title>Activity 4: Like Terms</title>
 
 <p><ol marker="1.">
 <li><p>Combine like terms if possible.<ol marker="a.">
@@ -545,9 +554,7 @@ We can also combine like powers of the same variable. For instance,
 	<li>In Activity 2, what are the units of area?  What are the units of volume?</li>
 	<li>Why is it incorrect to evaluate <m>t^2</m> for <m>~t=-3~</m> by entering <m>-3^2</m> into your calculator?</li> 
 	<li>In Activity 4, what is wrong with this statement?
-		<md><mrow>(4x^2+2x-5)\amp -(2x^2-3x-2)</mrow> 
-			<mrow> \amp = 4x^2+2x-5-2x^3-3x-2</mrow></md></li>
-	</ol></p></assemblage>
+		<me>(4x^2+2x-5)-(2x^2-3x-2) = 4x^2+2x-5 -2x^3-3x-2</me></li></ol></p></assemblage>
 </subsubsection>
 
 <activity><title>Homework Preview</title>

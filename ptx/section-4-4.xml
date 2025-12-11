@@ -17,20 +17,20 @@
 
  <p>If we make two or more investments at the same time, then the total interest we earn is the sum of the interests earned on each investment separately.</p>
 
-<question>
+<activity>
 <statement><p>Harvey deposited $1200 in two accounts. He put $700 in a savings account that pays 6% annual interest rate, and the rest in his credit union, which pays 7% annual interest rate. How much will Harvey's investments earn in two years?</p>
 
 <p>Step 1 Calculate the interest earned by each account.
         <md><mrow>\amp\blert{\text{Savings}}\amp\amp \blert{I=Prt=}</mrow>
             <mrow>\amp\blert{\text{Credit Union}}\amp\amp \blert{I=Prt=}</mrow></md></p>
 <p>Step 2 Add the earnings from the two investments.
-    <me>\blert{\binom{\text{Total}}{\text{Earnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} </me>
+    <me>\blert{\binom{\text{Total}}{\text{<E></E>arnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} </me>
     </p></statement>
-<answer><p>$154</p></answer></question>
+<answer><p>$154</p></answer></activity>
 
 <p>Here is a similar example with variables.</p>
 
-<question>
+<activity>
 <statement><p>You have $5000 to invest for one year. You want to put part of the money into bonds that pay 7% interest rate and the rest of the money into stocks, which involve some risk but will pay 12% if the investment is successful.</p>
 <ol marker="a.">
     <li><p>Fill in the table.</p>
@@ -111,13 +111,15 @@
                         <cell>$400</cell></row>
                     </tabular></li>
     <li>$5000; <m>0.07x;~0.12y</m></li>
-    <li><m>0.07x+0.12y = 345</m></li></ol></p></answer></question>
+    <li><m>0.07x+0.12y = 345</m></li></ol></p></answer></activity>
 
-<exercise number="1"><statement><p>What formula do we need for interest problems?</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>What formula do we need for interest problems?</p></statement>
     	<answer><m>I=Prt</m></answer></exercise>
 
 <exercise number="2"><statement><p>What is the difference between principal and interest?</p></statement>
     	<answer><p>Principal is the amount invested; interest is the amount earned.</p></answer></exercise>
+</reading-questions>
 
 <example xml:id="Example-4-4-1"><statement><p>Mort invested money in two accounts, a savings plan that pays 8% interest and a mutual fund that pays 7% interest. He put twice as much money in the savings plan as in the mutual fund. At the end of the year Mort's total interest income was $345. How much did he invest in each account?</p></statement>
 
@@ -164,11 +166,13 @@ Finally, we substitute <m>y=\alert{1500}</m> into the first equation to find
 Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
 </solution></example>
 
-<exercise number="3"><statement><p>What were the two equations in <xref ref="Example-4-4-1" text="type-global"/> about?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What were the two equations in <xref ref="Example-4-4-1" text="type-global"/> about?</p></statement>
     	<answer><p>Principal and interest</p></answer></exercise>
 
 <exercise number="4"><statement><p>Which method did we use to solve the system in <xref ref="Example-4-4-1" text="type-global"/>?</p></statement>
     	<answer><p>Substitution</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Mixtures</title><idx><h>percent</h></idx>
@@ -180,12 +184,10 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
 	<me>\blert{P=rW}</me>
 <m>P</m> stands for the part obtained when we take <m>r</m> percent of a whole amount, <m>W</m>.</p>
 
-<question>
+<activity>
 <statement><p>You have two jars of marbles. The first contains 40 marbles, of which 10 are red, and the second contains 60 marbles, of which 30 are red.<ol marker="a.">
-<li><p>What percent of the marbles in the first jar are red?</p>
-        <p><m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
-	<p>What percent of the marbles in the second jar are red?</p>
-        <p><m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
+<li><p>What percent of the marbles in the first jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
+	<p>What percent of the marbles in the second jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
 	<p>You pour both jars of marbles into a larger jar and mix them together.</p>
     <image width="60%" source="photos/fig-4-4-1"><description>picture</description></image></li>
 <li><p>How many marbles total are in the larger jar?</p>
@@ -201,20 +203,20 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
     <li>No</li>
 </ol></p></answer></question>
 	 	
-<warning><p>In the Exercise above, you should find that adding the percent of red marbles in the first two jars does not give the percent of red marbles in the mixture. That is,
+<warning><p>In Warm-Up 3, you should find that adding the percent of red marbles in the first two jars does not give the percent of red marbles in the mixture. That is,
 	<me>25\% + 50\% \not= 40\%</me></p></warning>
 
-<assemblage><title>Percents Don't Add!</title>
-<p>In general, we cannot add percents unless they are percents of the same whole amount.</p>
-</assemblage>
+<assemblage><p>In general, we cannot add percents unless they are percents of the same whole amount.</p></assemblage>
 
-<exercise number="5"><statement><p>What formula do we need for mixture problems?</p></statement>
+<reading-questions>
+    <exercise number="5"><statement><p>What formula do we need for mixture problems?</p></statement>
     	<answer><m>P=rW</m></answer></exercise>
 
 <exercise number="6"><statement><p>When can we add percents?</p></statement>
     	<answer><p>Only if they are percents of the same whole amount</p></answer></exercise>
+</reading-questions>
 
-<question>
+<activity>
 <statement><p>In a local city council election, your favored candidate, Justine Honest, ran in a small district with two precincts. Ms. Honest won 30% of the 500 votes cast in Precinct 1 and 70% of the 300 votes cast in Precinct 2. Did Candidate Honest win a majority (more than 50%) of the votes in her district?</p>
 
 <p>Step 1 Fill in the first two rows of the table, using information from the problem and the formula <m>P=rW</m>.
@@ -305,12 +307,10 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
                 </tabular>
 
 <p>Now we can write two equations about the mixture problem. The first equation is about the total number of milliliters mixed together. The chemist must mix <m>x</m> milliliters of one solution with <m>y</m> milliliters of the other solution and end up with 45 milliliters of the mixture, so
-	<me>\blert{\text{Total amount of mixture:}}~~~~~~x+y=45</me></p>
-
-<p>The second equation uses the fact that the acid in the mixture can only come from the acid in each of the two original solutions. We used the last column of the table to calculate how much acid was in each component, and we add these quantities to get the amount of acid in the mixture.
-	<me>\blert{\text{Amount of acid:}}~~~~~~0.20x+0.50y=0.40(45)</me></p>
-
-<p>These two equation make up a system:
+	<me>\blert{\text{Total amount of mixture:}}~~~~~~x+y=45</me>
+The second equation uses the fact that the acid in the mixture can only come from the acid in each of the two original solutions. We used the last column of the table to calculate how much acid was in each component, and we add these quantities to get the amount of acid in the mixture.
+	<me>\blert{\text{Amount of acid:}}~~~~~~0.20x+0.50y=0.40(45)</me>
+These two equation make up a system:
 	<md><mrow>x+y=45</mrow>
 		<mrow>0.20x+0.50y=18</mrow></md>
 To simplify the system we first multiply the second equation by 100 to clear the decimals. 
@@ -327,18 +327,20 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 <assemblage><title>Look Closer</title>
 <p> Notice that, in <xref ref="Example-4-4-2" text="type-global"/>, once we have completed the table, it is easy to write a system of equations;  we simply add down the first and third columns of the table. (Remember that we cannot add down the middle column, because percents don't add!)</p></assemblage>
 
-<exercise number="7"><statement><p>What were the two equations in <xref ref="Example-4-4-2" text="type-global"/> about?</p></statement>
+<reading-questions>
+    <exercise number="7"><statement><p>What were the two equations in <xref ref="Example-4-4-2" text="type-global"/> about?</p></statement>
     	<answer><p>Total amount of mixture and amount of acid</p></answer></exercise>
 
 <exercise number="8"><statement><p>Which method did we use to solve the system in <xref ref="Example-4-4-2" text="type-global"/>?</p></statement>
     	<answer><p>Elimination</p></answer></exercise>
+</reading-questions>
 
 <p>Mixture problems are easy to solve if you complete a table first. The rows of the table represent the two components and the final mixture, and the columns are used to calculate the amount of the important ingredient in each. Here is a sample table that you can customize for the specifics of a particular problem.</p>
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
 	<col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="20%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
-                        <cell><p>Total Amount <m>(W)</m></p></cell>
+                        <cell><p>Total Amount (<m>W</m>)</p></cell>
                         <cell><p>Percent of Important Ingredient (<m>r</m>)</p></cell>
                         <cell><p>Amount of Important Ingredient (<m>P</m>)</p></cell></row>
                     <row> 
@@ -396,7 +398,8 @@ Thus, it took the P waves 225 seconds to arrive at the seismograph. To solve for
 The epicenter is located 1215 miles from the seismograph.</p>
 </solution></example>
 
-<exercise number="9"><statement><p>What formula do we need for motion problems?</p></statement>
+<reading-questions>
+    <exercise number="9"><statement><p>What formula do we need for motion problems?</p></statement>
     	<answer><m>D=RT</m></answer></exercise>
 
 <exercise number="10"><statement><p>What did <m>x</m> and <m>y</m> represent in in <xref ref="Example-4-4-3" text="type-global"/>?</p></statement>
@@ -451,7 +454,7 @@ The epicenter is located 1215 miles from the seismograph.</p>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Interest</title>
+<subsubsection><title>Activity 1: Interest</title>
 
 <p>Jerry invested $2000, part at 4% interest and the remainder at 9%. His yearly income from the 9% investment is $37 more than his income from the 4% investment. How much did he invest at each rate?
     <ol marker="a.">
@@ -478,10 +481,9 @@ The epicenter is located 1215 miles from the seismograph.</p>
         <p><m>\blert{\text{Principal:}}</m></p>
         <p><m>\blert{\text{Interest:}}</m></p></li>
     <li>Solve the system. (Which method seems easiest?)</li>
-    <li>Write your answer to the question in the problem in a sentence.</li>
-</ol></p></activity>
+    <li>Write your answer to the question in the problem in a sentence.</li></ol></p></subsubsection>
 
-<activity><title>Mixtures</title>
+<subsubsection><title>Activity 2: Mixtures</title>
 
 <p>Polls conducted by Senator Quagmire's campaign manager show that he can win 60% of the rural vote in his state but only 45% of the urban vote. If 1,200,000 citizens vote, how many voters from rural areas and how many from urban areas must vote in order for the Senator to win 50% of the votes?<ol marker="a.">
 
@@ -490,9 +492,9 @@ The epicenter is located 1215 miles from the seismograph.</p>
     <col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="20%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
-                        <cell><p>Number of Voters <m>(W)</m></p></cell>
-                        <cell><p>Percent for Quagmire <m>(r)</m></p></cell>
-                        <cell><p>Number for Quagmire <m>(P)</m></p></cell></row>
+                        <cell>Number of Voters <m>(W)</m></cell>
+                        <cell>Percent for Quagmire <m>(r)</m></cell>
+                        <cell>Number for Quagmire <m>(P)</m></cell></row>
                     <row> 
                         <cell>Rural</cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -514,10 +516,9 @@ The epicenter is located 1215 miles from the seismograph.</p>
         <p><m>\blert{\text{Number of voters:}}</m></p>
         <p><m>\blert{\text{Number for Quagmire:}}</m></p></li>
     <li>Solve the system.</li>
-    <li>Write your answer to the question in the problem in a sentence.</li>
-</ol></p></activity>
+    <li>Write your answer to the question in the problem in a sentence.</li></ol></p></subsubsection>
 
-<activity><title>Motion</title>
+<subsubsection><title>Activity 2: Motion</title>
 
 <p>A river steamer requires 3 hours to travel 24 miles upstream and 2 hours for the return trip downstream. Find the speed of the current and the speed of the steamer in still water.<ol marker="a.">
 
@@ -544,8 +545,7 @@ The epicenter is located 1215 miles from the seismograph.</p>
                     </tabular></li>
     <li><p>Write two equations about the steamer.</p></li>
     <li>Solve the system. </li>
-    <li>Write your answer to the question in the problem in a sentence.</li>
-</ol></p></activity>
+    <li>Write your answer to the question in the problem in a sentence.</li></ol></p></subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 

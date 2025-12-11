@@ -62,13 +62,14 @@ How much of the pollution can be removed for $25,000?</p></statement>
 <exercise number="22"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol marker="a.">
 	<li>What is Pete's batting average so far? (Batting average is the fraction of at-bats that resulted in hits.)</li>
 	<li>If Pete gets hits on every one of his next <m>x</m> at-bats, write an expression for his new batting average.</li>
-	<li>How many consecutive hits does Pete need to raise his batting average to <m>0.350</m>?</li>
-</ol>
+	<li>How many consecutive hits does Pete need to raise his batting average to <m>0.350</m>?</li></ol>
 </p></statement></exercise>
 
 <exercise number="23"><statement><p>The rectangle <m>ABCD</m> in the figure is divided into a square and a smaller rectangle, <m>CDEF</m>. The two rectangles <m>ABCD</m> and <m>CDEF</m> are <term>similar</term>, which means that their corresponding sides are proportional. </p>
-<!--<image source="photos/hp-8-4-23.png"><description>rectangle</description></image>-->
-    <image width="30%" xml:id="hp-8-4-23"><description>golden rectangle</description><latex-image>
+<sidebyside width="25%"><!--<image source="photos/hp-8-4-23.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-8-4-23">
+        <description>golden rectangle</description>
+        <latex-image>
         <![CDATA[
 		\begin{tikzpicture} [scale=2.5]
 		\def\r{(1+sqrt(5))/2};
@@ -81,7 +82,9 @@ How much of the pollution can be removed for $25,000?</p></statement>
 		\node [above, yshift=1] at (1,1) {F};
 		\node [above, yshift=1] at ({\r},1) {C};
         \end{tikzpicture}]]>
-    </latex-image></image>
+    </latex-image>
+    </image>
+</sidebyside>
 <p>A rectangle with this property is called a golden rectangle, and the ratio of its length to its width is called the golden ratio. The golden ratio appears frequently in art and nature, and is considered to give the most pleasing proportions to many figures. We'll compute the golden ratio as follows.<ol marker="a.">
 	<li>Let <m>AB=1</m> and <m>AD=x</m>. What are the lengths of <m>AE,~ ED,</m> and <m>CD</m>?</li>
 	<li>Write a proportion in terms of <m>x</m> for the similarity of rectangles <m>ABCD</m> and <m>CDEF</m>. Be careful to match up the corresponding sides.</li>
@@ -96,13 +99,11 @@ How much of the pollution can be removed for $25,000?</p></statement>
 <exercise number="24"><statement><p>Compare the procedures for adding fractions and for solving fractional equations in the problems below. Explain how the LCD is used differently for adding and for solving equations.
 <ol marker="a." cols="2">
 	<li>Add:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}</m></li>
-	<li>Solve:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}=1</m></li>
-</ol></p></statement></exercise>
+	<li>Solve:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}=1</m></li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 25<ndash/>28, <ol marker="a."> 
 	<li>Write an equation to model the problem.</li>
-	<li>Solve your equation and answer the question posed in the problem.</li>
-</ol></p></introduction>
+	<li>Solve your equation and answer the question posed in the problem.</li></ol></p></introduction>
 
 <exercise number="25"><statement><p>An express train travels 180 miles in the same time that a freight train travels 120 miles. If the express train travels 20 miles per hour faster than the freight train, find the speed of each.</p></statement>
 <answer><p><ol marker="a.">

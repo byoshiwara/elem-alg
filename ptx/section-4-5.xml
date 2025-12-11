@@ -33,7 +33,7 @@ This is, in fact, an equation for the line.</p>
         \draw[red, very thick, <->, >=stealth'] (-3/2,8)--(13/2,-8);
         \filldraw[blue] (1,3) circle (2.3mm);
         \filldraw[blue] (2,1) circle (2.3mm);
-        \end{tikzpicture}]]></latex-image></image></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
 	<li><p>We use the formula 
 		<me>\dfrac{y-y_1}{x-x_1} = m</me>	
 	with <m>\dfrac{\Delta y}{\Delta x}=\dfrac{-2}{1}</m> and <m>(x_1,y_1)=(\alert{1},\alert{3})</m> to get
@@ -42,8 +42,7 @@ This is, in fact, an equation for the line.</p>
 	 	<md><mrow>1(y-3) \amp = -2(x-1) \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
             <mrow>y-3\amp = -2x+2 \amp\amp \blert{\text{Add 3 to both sides.}}</mrow>
             <mrow>y \amp = -2x+5</mrow></md>               
-    You can verify on the graph that <m>y=-2x+5</m> is an equation for the line.</p></li>
-</ol></p></solution></example>
+    You can verify on the graph that <m>y=-2x+5</m> is an equation for the line.</p></li></ol></p></solution></example>
 
 <p>In <xref ref="Example-4-5-1" text="type-global"/> we used the slope formula in a new way: to find the equation of a line. We can simplify the formula by clearing the denominator.
 	<me>\blert{(x-x_1)}\dfrac{y-y_1}{x-x_1} = m\blert{(x-x_1)}</me>
@@ -68,11 +67,13 @@ or
 	<li>We use the point-slope formula to find the equation of a line. That is, we know <m>(x_1,y_1)</m> and <m>m</m>, and we are looking for <m>y=mx+b</m>.</li>
 </ul></p></assemblage>
 
-<exercise number="1"><statement><p>Give two versions of the point-slope formula</p></statement>
+<reading-questions>
+    <exercise number="1"><statement><p>Give two versions of the point-slope formula</p></statement>
     	<answer><p><m>\dfrac{y-y_1}{x-x_1} = m~~</m> and <m>~~y-y_1 = m(x-x_1)</m> </p></answer></exercise>
 
 <exercise number="2"><statement><p>What is the point-slope formula used for?</p></statement>
     	<answer><p>To find the equation of a line</p></answer></exercise>
+</reading-questions>
 
 <example><statement><p>Find an equation for the line that passes through the point <m>(1,4)</m> and is perpendicular to the line <m>4x-2y=6</m>.</p></statement>
 
@@ -99,8 +100,7 @@ The given line and the perpendicular line are shown in the figure below.</p>
          \draw[black] (5,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$5$};
         \draw[blue, very thick, <->, >=stealth'] (-1,-5)--(4,5) node[above, xshift=5, yshift=-1] {$4x-2y=6$};
         \draw[red, very thick, <->, >=stealth'] (-1,5)--(7,1) node[above right, xshift=-8, yshift=6, fill=white, inner sep=1] {$y=\frac{-1}{2}x+\frac{9}2{•}$};
-        \end{tikzpicture}]]></latex-image></image>
-</solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></p></solution></example>
 
 <warning><p>If we happen to know the <m>y</m>-intercept of a line, we can write its equation using the slope-intercept formula, <m>y=mx+b</m>. But if we don't know the <m>y</m>-intercept and instead know a different point, it is easier to use the point-slope formula.</p></warning>
 </subsection>
@@ -126,7 +126,7 @@ We cross-multiply to find
 The graph of the line is shown in the figure below.</p>
     <!--<image source="photos/fig-4-5-ex3.png"><description>graph</description></image>-->
     <image width="45%" xml:id="fig-4-5-ex3"><description>line through two points</description><latex-image>
-        <![CDATA[
+       <![CDATA[
         \begin{tikzpicture}[scale=.5]
         \def\delx{0};
         \draw[cyan] (-5,-5) grid (5,5);
@@ -141,15 +141,16 @@ The graph of the line is shown in the figure below.</p>
         \draw[red, very thick,<->, >=stealth'] (-5/2,5)--(5,-5);
         \filldraw[blue] (2,-1) circle (2.mm);
         \filldraw[blue] (-1,3) circle (2.mm);
-        \end{tikzpicture}]]></latex-image></image>
-</solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></solution></example>
 
-<exercise number="3"><statement><p>How many different lines pass through two given points?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>How many different lines pass through two given points?</p></statement>
     	<answer><p>One </p></answer></exercise>
 
 <exercise number="4"><statement><p>What formula do we use to find the equation of a line through two points?
 </p></statement>
     	<answer><p>Point-slope formula</p></answer></exercise>
+</reading-questions>
 
 <assemblage><title>To Fit a Line through Two Points</title>
     <idx><h>linear equation</h><h>finding</h></idx>
@@ -178,12 +179,11 @@ The graph of the line is shown in the figure below.</p>
             <mrow>W \amp = 167.69+6.97t</mrow></md>
     Thus, <m>W = 167.69+6.97t</m>.</p></li>
     <li><p>The slope gives us the rate of change of <m>W</m> with respect to <m>t</m>. The units of the variables can help us interpret the slope in context.  
-    	<md><mrow>\dfrac{\Delta W}{\Delta t} \amp = \dfrac{258.3-188.6~\text{millions of cases}}{13-3~\text{years}}</mrow>
-        <mrow> \amp = 6.97~ \text{millions of cases/years}</mrow></md>
-     Over the ten years between 1993 and 2003, wine consumption in the US increased at a rate of 6.97 million cases per year.</p></li>
- </ol></p></solution></example>
+    	<me>\dfrac{\Delta W}{\Delta t}=\dfrac{258.3-188.6~\text{millions of cases}}{13-3~\text{years}} = 6.97~ \text{millions of cases/years}</me>
+     Over the ten years between 1993 and 2003, wine consumption in the US increased at a rate of 6.97 million cases per year.</p></li></ol></p></solution></example>
 
-<exercise number="3"><statement><p>What are the two steps to fit a line through two points?</p></statement>
+<reading-questions>
+    <exercise number="3"><statement><p>What are the two steps to fit a line through two points?</p></statement>
     	<answer><p>Find the slope, then use the point-slope formula</p></answer></exercise>
 
 <problem>
@@ -211,7 +211,7 @@ The graph of the line is shown in the figure below.</p>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Point-Slope Formula</title>
+<subsubsection><title>Activity 1: Point-Slope Formula</title>
 
 <p><ol marker="1.">
 <li><p>Graph the line of slope <m>\dfrac{-1}{2}</m> that passes through the point <m>(-3,2)</m>. 
@@ -244,7 +244,7 @@ The graph of the line is shown in the figure below.</p>
 </ol></p>
 </activity>
 
-<activity><title>Using the Point-Slope Formula</title>
+<subsubsection><title>Activity 2: Using the Point-Slope Formula</title>
 
 <p><ol marker="1.">
 <li><p>Find an equation for the line that passes through <m>-1,4)</m> and <m>(3,-2)</m>.
@@ -285,7 +285,7 @@ The graph of the line is shown in the figure below.</p>
 
 <assemblage><title>Questions</title>   
 <p><ol marker="1.">
-    <li>In graphing the line in Activity 1, explain how the 2 in the point <m>(-3,2)</m> and the 2 in the slope <m>\dfrac{-1}{2}</m> are used differently.</li>
+    <li>In graphing the line in Activity 1, explain how the 2 in the point <m>-3,2)</m> and the 2 in the slope <m>\dfrac{-1}{2}</m> are used differently.</li>
     <li>In Problem 2 of Activity 2, what were the two data points?</li>
     <li>What was different in the solutions of Problems 2 and 3 of Activity 2? </li></ol></p></assemblage>
 </subsubsection>

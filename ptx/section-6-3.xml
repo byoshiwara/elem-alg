@@ -22,20 +22,20 @@
 
 <solution><p><ol marker="a.">
 	<li>We use the FOIL method to apply the distributive law to the product.
-		<image width="50%" source="photos/fig-6-3-ex1"><description>graphic</description></image></li>
-	<li><p>From part (a) we see that <m>~x^2+x-20</m> can also be written in factored form as <m>~(x+5)(x-4)</m>. Thus, the equation <m>~x^2+x-20</m> is equivalent to
-		<me>(x+5)(x-4)=0</me></p>
-	<p>We can apply the Zero-Factor Principle to this equation: If the product is zero, then one of the factors must be zero. Thus, either
+		<sidebyside width="50%"><image source="photos/fig-6-3-ex1"><description>graphic</description></image></sidebyside></li>
+	<li>From part (a) we see that <m>~x^2+x-20</m> can also be written in factored form as <m>~(x+5)(x-4)</m>. Thus, the equation <m>~x^2+x-20</m> is equivalent to
+		<me>(x+5)(x-4)=0</me>
+	We can apply the Zero-Factor Principle to this equation: If the product is zero, then one of the factors must be zero. Thus, either
 		<me>x+5=0~~~~\text{or}~~~~x-4=0</me>
-	This means that either <m>~x=-5~</m> or <m>~x=4</m>. These are the solutions of the equation, as we verify below.
+	This means that either <m>x=-5</m> or <m>x=4</m>. These are the solutions of the equation, as we verify below.
 		<md><mrow>\blert{\text{Check:}}~~\amp \text{Substitute each value into the original equation.}</mrow>
 			<mrow> \amp x=\alert{-5}:~~~~~~ (\alert{-5})^2+(\alert{-5})-20=25-5-20=0</mrow>
-			<mrow> \amp x=\alert{4}: ~~~~~~~~~~ (\alert{4})^2+(\alert{4})-20=25-5-20=0</mrow></md></p></li>
-</ol></p>
+			<mrow> \amp x=\alert{4}: ~~~~~~~~~~ (\alert{4})^2+(\alert{4})-20=25-5-20=0</mrow></md></li></ol></p>
 </solution></example>
 
 <exercise number="1"><statement><p>Why can't we solve the equation <m>~x^2+x-20=0</m> in <xref ref="Example-6-3-1" text="type-global"/> by extraction of roots?</p></statement>
-    	<answer><p>Because of the linear term, <m>x</m>.</p></answer></exercise>
+   	<answer><p>Because of the linear term, <m>x</m>.</p></answer></exercise>
+</reading-questions>
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials</title>
@@ -45,7 +45,7 @@
 <p>Now we consider quadratic trinomials of the form <m>~x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 <p>How can we come up with the factors of the quadratic trinomial? Let's recall how the product is obtained. We apply the distributive law and multiply each term of the first binomial by each term of the second binomial. We use the word "FOIL" to label the four terms of the product: First, Outside, Inside, and Last.</p>
-<sidebyside widths ="60% 30%" valigns="middle middle"><p>
+<sidebyside widths ="60% 23%" valigns="middle middle"><p>
 	<md><mrow>(x+3)(x+4) = \amp x^2+4x+3x+12</mrow>
 		<mrow> \amp \blert{\text{F}}~~~~~~~~~~~~\blert{\text{O + I}}~~~~~~~~~~\blert{\text{L}}</mrow></md></p>
 	<!--<image source="photos/fig-6-3-1.png"><description>graphic</description></image>-->
@@ -65,25 +65,26 @@
 		\node[above] at (1.9,.3) {$12$};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<exercise number="2"><statement><p>Where does the constant term of the trinomial appear in the product box?
+<reading-questions>
+    <exercise number="2"><statement><p>Where does the constant term of the trinomial appear in the product box?
 </p></statement>
     	<answer><p>In the lower right-hand box.</p></answer></exercise>
 
 <exercise number="3"><statement><p>Where does the linear term appear?</p></statement>
     	<answer><p>In the upper right and lower left boxes.</p></answer></exercise>
+</reading-questions>
 
-<p>Study the figure to see how each term of the product is obtained.</p>
+<p>We make several observations about this product.</p>
     
 <assemblage><title>Factors of a Quadratic Trinomial</title>
 	<idx><h>FOIL (terms of binomial product)</h></idx>
 <p><ol marker="1.">
 	<li>The quadratic term, <m>x^2</m>, comes from the product of the First terms in each binomial.</li>  
 	<li>The constant term, <m>12</m>, is the product of the Last terms.</li>  
-	<li>The middle term, <m>7x</m>, is the sum of two terms, the product of the Inside terms and the product of the Outside terms.</li>
-</ol></p></assemblage>
+	<li>The middle term, <m>7x</m>, is the sum of two terms, the product of the Inside terms and the product of the Outside terms.</li></ol></p></assemblage>
 
 <p>We can see that the first term of each factor must be <m>x</m>, so we only need to fill in the blanks below with the correct numbers:                    
-	<me>x^2+7x+12=(x+<fillin characters="3"/>)(x+<fillin characters="3"/>)</me>
+	<me>x^2+7x+12=(x+<fillin characters="6"/>)(x+<fillin characters="6"/>)</me>
 If the two numbers are <m>p</m> and <m>q</m>, then
 	<md><mrow>(x+p)(x+q)\amp =x^2+qx+px+pq</mrow>
 		<mrow> \amp x^2 + (\blert{p+q})x + \blert{pq}</mrow></md>
@@ -180,7 +181,8 @@ The solutions are <m>-6</m> and <m>3</m>. You can check that each of these solut
 	<me>x(x+3)=18</me>
 We cannot apply the Zero-Factor principle to this equation.</p></warning>
 
-<exercise number="5"><statement><p>Why can't we solve the equation <m>x(x+3)=18</m> by setting each factor equal 
+<reading-questions>
+    <exercise number="5"><statement><p>Why can't we solve the equation <m>x(x+3)=18</m> by setting each factor equal 
 	to 18?</p></statement>
     <answer><p>Just because a product equals 18 does not mean that one of its factors equals 18.</p>
 </answer></exercise>
@@ -255,7 +257,8 @@ Applying the Zero-Factor Principle yields
 The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make sense for this problem, we discard that solution. The book takes 5 seconds to reach the ground.</p>
 </solution></example>
 
-<exercise number="6"><statement><p>In <xref ref="Example-6-3-6" text="type-global"/>, why did we set <m>h=0</m>?</p></statement>
+<reading-questions>
+    <exercise number="6"><statement><p>In <xref ref="Example-6-3-6" text="type-global"/>, why did we set <m>h=0</m>?</p></statement>
     <answer><p>When the book reaches the ground, its height is zero.</p></answer></exercise>
 
 
@@ -276,7 +279,7 @@ The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make 
 
 <answer>
 <p><ol marker="1." cols="2">
-    <li><p><ol marker= "a." cols="2">
+    <li><p><ol marker= "a" cols="2">
         <li><m>4x</m></li>
         <li><m>3</m></li>
     </ol></p></li>
@@ -306,16 +309,16 @@ The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make 
 
 <subsection><title>Lesson</title>
 
-<activity><title>Factoring a Quadratic Trinomial</title>
+<subsubsection><title>Activity 1: Factoring a Quadratic Trinomial</title>
 
 <p><m>\blert{\text{CASE 1}}~~~</m>  Positive coefficients: <m>~x^2+bx+c</m></p>
 <p>If all the coefficients in the quadratic trinomial are positive, then <m>p</m> and <m>q</m> are also positive.</p>
 
  <p><m>\blert{\text{Example 1}}~~~</m>Factor <m>~t^2+9t+18~</m>  as a product of two binomials
-	<me>t^2+9t+18 = (~<fillin characters="3"/>~+~<fillin characters="3"/>~)~(~<fillin characters="3"/>~+~<fillin characters="3"/>~)</me></p>
+	<me>t^2+9t+18 = (~<fillin characters="5"/>~+~<fillin characters="5"/>~)~(~<fillin characters="5"/>~+~<fillin characters="5"/>~)</me></p>
 
 <p><m>\blert{\text{Step 1}}~~~</m>The product of the First terms must be <m>t^2</m>, so we place <m>t</m>'s in the First spots.
-	<me>t^2+9t+18 = (~t~+~<fillin characters="3"/>~)~(~t~+~<fillin characters="3"/>~)</me></p>
+	<me>t^2+9t+18 = (~t~+~<fillin characters="5"/>~)~(~t~+~<fillin characters="5"/>~)</me></p>
 
 <p><m>\blert{\text{Step 2}}~~~</m>The product of the Last terms is 18, so <m>pq=18</m>. There are three possibilities for  <m>p</m> and <m>q</m>:
 	<me>1 ~\text{and}~18,~~~ 2 ~\text{and}~9,~~~ \text{or}~~~ 3 ~\text{and}~6</me>
@@ -330,8 +333,7 @@ The last choice is correct, so the factorization is
 
 <p><m>\blert{\text{Exercise 1 }}~~~</m>Factor each trinomial. <ol marker="a." cols="2">
 	<li><m>x^2+8x+15</m></li>
-	<li><m>y+2+14y+49</m></li>
-</ol></p>
+	<li><m>y+2+14y+49</m></li></ol></p>
 
 <p><m>\blert{\text{CASE 2}}~~~</m>  Negative linear coefficient: <m>~x^2-bx+c</m></p>
 <p>If the coefficient of the linear term is negative and the constant term is positive, what are the signs of <m>p</m> and <m>q</m>?</p>
@@ -342,8 +344,7 @@ The last choice is correct, so the factorization is
 	<me>x^2-12x+20 = (x+p)(x+q)</me>
 The numbers <m>p</m> and <m>q</m> must satisfy two conditions:<ol marker="1.">
 	<li>Their product, <m>pq</m>, is the Last term, and so must equal 20.</li>
-	<li>Their sum, <m>p+q</m>, equals  <m>-12</m>  (because  <m>O+I = px+qx = -12x</m>).</li>
-</ol>
+	<li>Their sum, <m>p+q</m>, equals  <m>-12</m>  (because  <m>O+I = px+qx = -12x</m>).</li></ol>
 These two conditions tell us that <m>p</m> and <m>q</m> must both be negative.</p>
 
 <p><m>\blert{\text{Step 2}}~~~</m>We list all the ways to factor 20 with negative factors:
@@ -358,8 +359,7 @@ The second possibility is correct, so the factorization is
 
 <p><m>\blert{\text{Exercise 2}}~~~</m>Factor each trinomial. <ol marker="a." cols="2">
 	<li><m>m^2-10m+24</m></li>
-	<li><m>m^2-11m+24</m></li>
-</ol></p>
+	<li><m>m^2-11m+24</m></li></ol></p>
 
 <p><m>\blert{\text{CASE 3}}~~~</m>  Negative constant term: <m>~x^2+bx-c~</m> or <m>~x^2-bx-c~</m></p>
 <p>The linear term can be either positive or negative.</p>
@@ -379,9 +379,7 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 
 <p><m>\blert{\text{Exercise 3}}~~~</m>Factor each trinomial. <ol marker="a." cols="2">
 	<li><m>t^2+8t-48</m></li>
-	<li><m>t^2-8t-48</m></li>
-</ol></p>
-</activity>
+	<li><m>t^2-8t-48</m></li></ol></p>
 
 <activity><title>Solving Quadratic Equations</title>
 
@@ -395,16 +393,15 @@ The product <m>pq</m> of the two unknown numbers must be negative, <m>-15</m>. T
 </ol></p>
 </activity>
 
-<activity><title>Application</title>
+<subsubsection><title>Activity 3: Application</title>
 
 <p>The town of Amory lies due north of Chester, and Bristol lies due east of Chester. If you drive from Amory to Bristol by way of Chester, the distance is 17 miles, but if you take the back road directly from Amory to Bristol, you save 4 miles. You would like to know the distance from Bristol to Chester.<ol marker="a.">
 	<li>What is the unknown quantity?  Call it <m>x</m>.</li>
 	<li>Make a sketch and label it with distances.</li>
 	<li>Write an equation about the variable.</li>
 	<li>Solve your equation.</li>
-	<li>How far is it from Bristol to Chester?</li>
-</ol></p>
-</activity>
+	<li>How far is it from Bristol to Chester?</li></ol></p>
+</subsubsection>
 
 <subsubsection><title>Wrap-Up</title>
 
