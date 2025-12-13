@@ -34,10 +34,11 @@ we set <m>y=0</m> and solve the equation
 				<mrow>x=0~~~~4-x \amp = 0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
 				<mrow>x = 0~~~~x \amp = 4</mrow></md>
 	The <m>x</m>-intercepts are the points <m>(0,0)</m> and <m>(4,0)</m>.</li>
-	<li><sidebyside widths="60% 35%"><stack><p>We make a table of values that includes the <m>x</m>-intercepts.</p><p></p>
+	<li><sidebyside widths="60% 35%">
+		<stack><p>We make a table of values that includes the <m>x</m>-intercepts.</p><p></p>
 		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
             <row bottom="minor">
-                <cell><m>x</m></cell>
+                <cell><m>~x~</m></cell>
                 <cell><m>-1</m></cell>
                 <cell><m>0</m></cell>
                 <cell><m>1</m></cell>
@@ -46,7 +47,7 @@ we set <m>y=0</m> and solve the equation
                 <cell><m>4</m></cell>
                 <cell><m>5</m></cell></row>
             <row> 
-                <cell><m>y</m></cell>
+                <cell><m>~y~</m></cell>
                 <cell><m>-5</m></cell>
                 <cell><m>0</m></cell>
                 <cell><m>3</m></cell>
@@ -78,7 +79,6 @@ we set <m>y=0</m> and solve the equation
 <exercise number="1"><statement><p>How do we find the <m>x</m>-intercepts of the graph of <m>~y=ax^2+bx+c</m>?
 </p></statement>
     <answer><p>Set <m>y=0</m> and solve for <m>x</m>.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>The Vertex</title>
@@ -120,10 +120,8 @@ we set <m>y=0</m> and solve the equation
 	<p>We can locate the vertex of a parabola by taking the average of its <m>x</m>-intercepts.</p>
 </assemblage>
 
-<reading-questions>
-    <exercise number="2"><statement><p>What is the vertex of a parabola?</p></statement>
+<exercise number="2"><statement><p>What is the vertex of a parabola?</p></statement>
     <answer><p>The high or low point</p></answer></exercise>
-</reading-questions>
 
 <example><statement><p>Find the vertex of the graph of <m>~y=4x-x^2.</m></p></statement>
 
@@ -142,13 +140,11 @@ The coordinates of the vertex are <m>(2,4)</m>, as you can see in the graph abov
 	<li>To find the <m>y</m>-coordinate of the vertex, substitute its <m>x</m>-coordinate into the equation of the parabola.</li>
 </ol></p></assemblage>
 
-<reading-questions>
-    <exercise number="3"><statement><p>How can we find the <m>x</m>-coordinate of the vertex of a parabola?</p></statement>
+<exercise number="3"><statement><p>How can we find the <m>x</m>-coordinate of the vertex of a parabola?</p></statement>
     <answer><p>Take the average of its <m>x</m>-intercepts.</p></answer></exercise>
 
 <exercise number="4"><statement><p>How can we find the <m>y</m>-coordinate of the vertex of a parabola?</p></statement>
     <answer><p>Substitute its <m>x</m>-coordinate into the equation of the parabola.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Graphing Parabolas</title>
@@ -174,9 +170,8 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <exercise number="3"><statement><p>How can we find the <m>y</m>-intercept of the graph of <m>~y=ax^2+bx+c</m>?</p>
 </statement>
     <answer><p>Substitute <m>x=\alert{0}</m> into the equation.</p></answer></exercise>
-</reading-questions>
 
-<p>By combining the techniques we studied in this Lesson, we write the following guidelines for sketching an accurate graph of a quadratic equation.</p>
+<p>By combining the techniques illustrated above, we write the following guidelines for sketching an accurate graph of a quadratic equation.</p>
 
 <assemblage><title>To Graph a Quadratic Equation</title>
 	<idx><h>quadratic equation</h><h>graphing</h></idx>
@@ -297,7 +292,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li><m>y=x^2+4</m>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-2</m></cell>
             <cell><m>-1</m></cell>
@@ -306,7 +301,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
             <cell><m>-2</m></cell>
             <cell><m>3</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
@@ -320,7 +315,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
   	<li><m>y=x^2-4</m>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-2</m></cell>
             <cell><m>-1</m></cell>
@@ -329,7 +324,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
             <cell><m>-2</m></cell>
             <cell><m>3</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
@@ -343,7 +338,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li><m>y=4x-x^2</m>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>-1</m></cell>
             <cell><m>0</m></cell>
             <cell><m>1</m></cell>
@@ -352,7 +347,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
             <cell><m>4</m></cell>
             <cell><m>5</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
@@ -361,7 +356,6 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>
-    <sidebyside width="35%">
     	<!--<image source="photos/act-6-4-3.png"><description>grid</description></image>-->
 		<image width="50%" xml:id="act-6-4-1-3"><description>grid</description><latex-image>
 	        <![CDATA[
@@ -383,7 +377,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 	<li><m>y=(x-4)^2</m>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
         <row bottom="minor">
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>1</m></cell>
             <cell><m>2</m></cell>
             <cell><m>3</m></cell>
@@ -392,7 +386,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
             <cell><m>6</m></cell>
             <cell><m>7</m></cell></row>
         <row> 
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
@@ -401,7 +395,6 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular>
-    <sidebyside width="35%">
     	<!--<image source="photos/act-6-4-4.png"><description>grid</description></image>-->
 		<image width="50%" xml:id="act-6-4-1-4"><description>grid</description><latex-image>
         <![CDATA[
@@ -432,11 +425,10 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 		<me>y=2x^2+8x</me></p></li>
 	<li>Find the vertex of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>
-	<li>Sketch the graph.</li></ol></p>
+	<li>Sketch the graph.</li>
+</ol></p>
 	<!--<image source="photos/act-6-4-5.png"><description>grid</description></image>-->
-	<image xml:id="act-6-4-2-1">
-    <description>grid</description>
-    <latex-image>
+	<image xml:id="act-6-4-2-1"><description>grid</description><latex-image>
     <![CDATA[
     \begin{tikzpicture}[xscale=.6, yscale=.7]
 	\draw[cyan] (-6,-5) grid (2,5);
@@ -460,11 +452,10 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 		Hint: Factor out <m>-1</m> from the quadratic trinomial first.</p></li>
 	<li>Find the vertex of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>
-	<li>Sketch the graph.</li></ol></p>
+	<li>Sketch the graph.</li>
+</ol></p>
 	<!--<image source="photos/act-6-4-6.png"><description>grid</description></image>-->
-	<image xml:id="act-6-4-2-2">
-    <description>grid</description>
-    <latex-image>
+	<image xml:id="act-6-4-2-2"><description>grid</description><latex-image>
     <![CDATA[
     \begin{tikzpicture}[xscale=.6, yscale=.5]
     \draw[cyan] (-6,-6) grid (4,10);

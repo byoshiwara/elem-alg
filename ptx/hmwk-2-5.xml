@@ -37,7 +37,7 @@
 <exercise number="10"><statement><m>(-2-3b)-(2b-4)</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>In Problems 11<ndash/>16, solve the equation or inequality.</p></introduction>
+<exercisegroup cols="2"><introduction><p>In Problems 11<ndash/>14, solve the equation or inequality.</p></introduction>
 
 <exercise number="11"><statement><m>4m-3=2m+5</m></statement>
 <answer><p>4</p></answer></exercise>
@@ -48,6 +48,9 @@
 <answer><p>0</p></answer></exercise>
 
 <exercise number="14"><statement><m>3x+5 \gt 2x+3</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>In Problems 15<ndash/>18, solve the equation or inequality.</p></introduction>
 
 <exercise number="15"><statement><m>-8g+35=9g-13+g</m></statement>
 <answer><p><m>\dfrac{8}{3} </m></p></answer></exercise>
@@ -87,10 +90,8 @@
 
 <exercisegroup cols="2"><introduction><p>Write and simplify an algebraic expression for the perimeter of the figure in Problems 23<ndash/>24.</p></introduction>
 
-<exercise number="23"><statement><sidebyside width="60%"><!--<image source="photos/hp-2-5-23.png"><description>rectangle</description></image>-->
-    <image xml:id="hp-2-5-23">
-        <description>rectangle</description>
-        <latex-image>
+<exercise number="23"><statement><!--<image source="photos/hp-2-5-23.png"><description>rectangle</description></image>-->
+    <image width="75%" xml:id="hp-2-5-23"><description>rectangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -104,15 +105,11 @@
         \node[below] at (1.5,0) {$4y$};
         \node[left] at (0,0.7) {$3x$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
+    </latex-image></image></statement>
 <answer><p><m>6x+8y</m></p></answer></exercise>
 
-<exercise number="24"><statement><sidebyside width="80%"><!--<image source="photos/hp-2-5-24.png"><description>trapezoid</description></image>-->
-    <image xml:id="hp-2-5-24">
-        <description>trapezoid</description>
-        <latex-image>
+<exercise number="24"><statement><!--<image source="photos/hp-2-5-24.png"><description>trapezoid</description></image>-->
+    <image width="100%" xml:id="hp-2-5-24"><description>trapezoid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -127,9 +124,8 @@
         \node[above, yshift=1] at (2.1,1.4) {$5a$};
         \node[below, yshift=-2] at (2.5,0) {$5a+4$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement></exercise>
+    </latex-image></image>
+</statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 25<ndash/>29, write an algebraic expression or an equation to answer each question.</p></introduction>

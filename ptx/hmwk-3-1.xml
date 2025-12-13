@@ -351,11 +351,9 @@
 	<li><m>9+kx=-1</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="19"><statement><p>During spring break, Francine took the train to San Francisco and then bicycled home.  The graph below left shows Francine's distance <m>d</m> from home, in miles, after cycling for <m>h</m> hours. Use the graph to answer the questions.
-	<sidebyside width="40%"><!--<image source="photos/hp-3-1-19.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-1-19">
-        <description>graph of line</description>
-        <latex-image>
+<exercise number="19"><statement><p>During spring break, Francine took the train to San Francisco and then bicycled home.  The graph below left shows Francine's distance <m>d</m> from home, in miles, after cycling for <m>h</m> hours. Use the graph to answer the questions.</p>
+	<!--<image source="photos/hp-3-1-19.png"><description>graph</description></image>-->
+    <image width="50%" xml:id="hp-3-1-19"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -374,14 +372,14 @@
 	}
 	\draw[red,very thick] (0,18)--(12,0);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside>
-<ol marker="a.">
+    </latex-image></image>
+	
+<p><ol marker="a.">
 	<li>How far is it from San Francisco to Francine's home?</li>
 	<li>How many hours did Francine cycle to get home?</li>
 	<li>After cycling for 12 hours, how far is Francine from home?</li>
-	<li>How far did Francine cycle in the first four hours?</li></ol></p></statement>
+	<li>How far did Francine cycle in the first four hours?</li>
+</ol></p></statement>
 <answer><p><ol marker="a." cols="2">
     <li><p>360 miles</p></li>
     <li><p>24 hours</p></li>
@@ -395,10 +393,9 @@
     <li>Explain what the intercepts mean in terms of the problem situation.</li></ol></p></introduction>
 
 <exercise number="20"><statement><p>The amount of home heating oil (in gallons) in the Olsons' tank is given by the equation <m>G=200-15w</m>, where <m>w</m> is the number of weeks since they turned on the furnace.</p>
-    <sidebyside width="45%"><!--<image source="photos/hp-3-1-20.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-1-20">
-        <description>grid</description>
-        <latex-image>
+    <!--<image source="photos/hp-3-1-20.png"><description>graph</description></image>-->
+    <!--<image source="photos/hp-3-1-20.png"><description>graph</description></image>-->
+    <image width="60%"  xml:id="hp-3-1-20"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -416,16 +413,12 @@
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image>
 </statement></exercise>
 
 <exercise number="21"><statement><p>Dana joined a savings plan some weeks ago. Her bank balance is growing each week according to the formula <m>B=225+25w</m>, where <m>w=0</m> represents this week.</p>
-    <sidebyside width="40%"><!--<image source="photos/hp-3-1-21.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-1-21">
-        <description>grid</description>
-        <latex-image>
+    <!--<image source="photos/hp-3-1-21.png"><description>graph</description></image>-->
+    <image width="60%" xml:id="hp-3-1-21"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -443,14 +436,12 @@
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image>
 </statement>
+
 <answer><p><ol marker="a.">
     <li><p><m>(-9,0)</m>, <m>~(0,225) </m></p></li>
-    <li><sidebyside width="45%" margins="0% 55%">
-    <image xml:id="hp-3-1-21ans">
+    <li><image width="45%" xml:id="hp-3-1-21ans">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -471,17 +462,13 @@
         }
         \draw[red,thick] (-4.5,0)--(3.5,8);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
     <li><p><m>(0,225) </m>: She has $225 this week.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>Delbert bought some equipment and went into the dog-grooming business. His profit is increasing according to the equation <m>P=-600+40d</m>, where <m>d</m> is the number of dogs he has groomed.</p>
-    <sidebyside width="50%"><!--<image source="photos/hp-3-1-22.png"><description>graph</description></image>-->
-    <image xml:id="hp-3-1-22">
-        <description>grid</description>
-        <latex-image>
+    <!--<image source="photos/hp-3-1-22.png"><description>graph</description></image>-->
+    <image width="60%" xml:id="hp-3-1-22"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -498,9 +485,7 @@
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image>
 </statement></exercise>
 </exercisegroup>
 
@@ -512,6 +497,7 @@
     <li><p><m>(0,-5) </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p>The <m>x</m>-intercept of a line is positive and its <m>y</m>-intercept is negative.  Is the line increasing or decreasing? Sketch a possible example of such a line.</p></statement></exercise>
+<exercise number="24"><statement><p>The <m>x</m>-intercept of a line is positive and its <m>y</m>-intercept is negative.  Is the line increasing or decreasing? Sketch a possible example of such a line.</p>
+</statement></exercise>
 
 </exercises>

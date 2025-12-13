@@ -33,13 +33,11 @@
 
 <solution><p>The ratio of length to width is <m>\dfrac{4.2~ \text{cm}}{2.4~ \text{cm}}</m>, or 1.75, as you can verify with your calculator.  (Can you express this ratio as a common fraction?)</p></solution></example>
 
-<reading-questions>
-    <exercise number="1"><statement><p>What is a ratio?</p></statement>
+<exercise number="1"><statement><p>What is a ratio?</p></statement>
     	<answer><p>A type of quotient comparing two quantities</p></answer></exercise>
 
 <exercise number="2"><statement><p>When do we express a ratio as a decimal fraction?</p></statement>
     	<answer><p>When the numbers being compared are decimal numbers</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Rates</title>
@@ -48,10 +46,10 @@
     <p>A <term>rate</term><idx><h>rate</h></idx> is a ratio that compares two quantities with different units.</p>
 </assemblage>
 
-<p>You are already familiar with many rates. If you say that your average speed was 50 miles per hour, or that apples cost 89 cents per pound, you are using rates. Because per usually indicates division,
-	<md>
-		<mrow>\text{50 miles per hour}~~~~~~\text{means}~~~~~~\dfrac{50~ \text{miles}}{1~ \text{hour}}</mrow>
-		<mrow>\text{89 cents per pound}~~~~~~\text{means}~~~~~~\dfrac{89~ \text{cents}}{1~ \text{pound}}</mrow></md></p>
+<p>You are already familiar with many rates. If you say that your average speed was 50 miles per hour, or that apples cost 89 cents per pound, you are using rates. Because "per" usually indicates division,
+	<md><mrow>\text{50 miles per hour}~~~~~~\text{means}~~~~~~\dfrac{50~ \text{miles}}{1~ \text{hour}}</mrow>
+		<mrow>\text{89 cents per pound}~~~~~~\text{means}~~~~~~\dfrac{89~ \text{cents}}{1~ \text{pound}}</mrow></md>
+</p>
 
 <example><statement><p>Sarah traveled 390 miles on 15 gallons of gas. Express her rate of fuel consumption as a ratio, and then as a rate.</p></statement>
 
@@ -78,9 +76,9 @@ Now we can divide both sides by 5 to get the answer,
 	<me>x=\dfrac{42}{5}=8.4</me></p>
 
 <assemblage><title>Look Ahead</title>
-<p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:
-    <sidebyside width="15%"><!--<image source="photos/fig-3-2-1.png"><description>graphic</description></image>-->
-    <image xml:id="fig-3-2-1"><description>cross-multiplying</description><latex-image>
+<p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:</p>
+    <!--<image source="photos/fig-3-2-1.png"><description>graphic</description></image>-->
+    <image width="20%" xml:id="fig-3-2-1"><description>cross-multiplying</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -98,8 +96,8 @@ Now we can divide both sides by 5 to get the answer,
         \draw[red,thick,->,>=stealth'] (0.15,0.2)++(-\dx,-\dy)--++(B);
         \node[left] at (0,-.8) {$42\quad={}$};
         \node[right] at (0,-.8) {$5x$};
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
-Then we complete the solution as before.</p></assemblage>
+        \end{tikzpicture}]]></latex-image></image>
+<p>Then we complete the solution as before.</p></assemblage>
 
 <assemblage><title>Property of Proportions</title>
     <idx><h>proportion</h><h>property of</h></idx><idx><h>proportion</h><h>cross-multiply</h></idx><idx><h>cross-multiply</h><see>proportion</see></idx>
@@ -116,8 +114,7 @@ We can check the solution by substituting <m>x=5.25</m> into the original propor
 
 <warning><p>Cross-mutiplying works only for solving proportions! Do not try to use cross-multiplying on other types of equations, or for other operations on fractions. In particular, do not use cross-multiplying when multiplying fractions or adding fractions.</p></warning>
 
-<reading-questions>
-    <exercise number="3"><statement><p>What is a rate?</p></statement>
+<exercise number="3"><statement><p>What is a rate?</p></statement>
     	<answer><p>A ratio that compares quantities with different units</p></answer></exercise>
 
 <exercise number="4"><statement><p>What is a proportion?</p></statement>
@@ -125,7 +122,6 @@ We can check the solution by substituting <m>x=5.25</m> into the original propor
 
 <exercise number="5"><statement><p>What is the short-cut for solving a proportion called?</p></statement>
     	<answer><p>Cross-multiplying</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Proportional Variables</title>
@@ -178,13 +174,15 @@ You can buy 12.5 quarts of grape juice for $10.00. (Or, if you can only buy quar
 <p>For the grape juice example, the ratio <m>\dfrac{\text{total price}}{\text{number of quarts}}</m> was always equal to 80. The number 80 is called the <term>constant of proportionality</term>.</p>
 
 <assemblage><title>Look Closer</title>
-<p>If we let <m>P</m> stand for the price of the grape juice and <m>q</m> stand for the number of quarts purchased, we have the equation
-		<me>\begin{aligned}
+
+<sidebyside widths="50% 45%">
+<stack><p>If we let <m>P</m> stand for the price of the grape juice and <m>q</m> stand for the number of quarts purchased, we have the equation</p>		
+    <p><me>\begin{aligned}
                 \dfrac{P}{q} \amp = 80\\
                 \text{or}~~~~P \amp = 80q    
                 \end{aligned}</me>                        	
-The graph of this equation is a straight line that passes through the origin, as shown below.</p>  
-	<sidebyside width="35%"><!--<image source="photos/fig-3-2-2.png"><description>graph</description></image>-->
+The graph of this equation is a straight line that passes through the origin, as shown at right.</p></stack>  
+	<!--<image source="photos/fig-3-2-2.png"><description>graph</description></image>-->
     <image xml:id="fig-3-2-2"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -214,8 +212,7 @@ The graph of this equation is a straight line that passes through the origin, as
 where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant of proportionality</h></idx>.</p>
 </assemblage>
 
-<reading-questions>
-    <exercise number="6"><statement><p>What are proportional variables?</p></statement>
+<exercise number="6"><statement><p>What are proportional variables?</p></statement>
     	<answer><p>Variables whose ratio is always the same</p></answer></exercise>
 
 <exercise number="7"><statement><p>If <m>x</m> and <m>y</m> are proportional, what equation do they satisfy?</p></statement>
@@ -306,9 +303,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></stack>
         <!--<image source="photos/act-3-2-1.png"><description>grid</description></image>-->
-        <image xml:id="act-3-2-3-1">
-        <description>triangle</description>
-        <latex-image>
+        <image xml:id="act-3-2-3-1"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -327,14 +322,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
          \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\y$};
         }
         \end{tikzpicture}]]>
-<<<<<<< HEAD
         </latex-image></image></sidebyside></li>
-=======
-        </latex-image>
-    </image>
-    </sidebyside>
-</statement></exercise>
->>>>>>> 7356acbb64114882c2fbba528a2a04c8f8d3065d
 
     <li><sidebyside widths = "55% 40%"><stack><p>The table below shows the population, <m>P</m>, of a new suburb <m>t</m> years after it was built. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{People}}{\text{Year}}</m> for each data point.</p><p></p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -364,9 +352,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></stack>
         <!--<image source="photos/act-3-2-2.png"><description>grid</description></image>-->
-        <image xml:id="act-3-2-3-2">
-        <description>triangle</description>
-        <latex-image>
+        <image xml:id="act-3-2-3-2"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -385,19 +371,11 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
          \draw[black] (.15,\y) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
         }
         \end{tikzpicture}]]>
-<<<<<<< HEAD
         </latex-image></image></sidebyside></li>
-=======
-        </latex-image>
-    </image>
-    </sidebyside>
-</statement></exercise>
->>>>>>> 7356acbb64114882c2fbba528a2a04c8f8d3065d
 
     <li><p>At this point, can you make a conjecture (educated guess) about the graphs of proportional variables? To help you decide if your conjecture is true, continue with the graphs in parts 4 and 5.</p>
         <p><m>\blert{\text{Conjecture:}}</m></p></li>
 
-<<<<<<< HEAD
     <li><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
     <sidebyside widths = "50% 45%" valigns="middle middle">
     <p><ol marker="a.">
@@ -405,14 +383,6 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
             <me>T=\hphantom{0000}</me></p></li>
         <li><p>Use your equation to fill in the second column of the table.</p><p></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-=======
-<exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><p><ol marker="a.">
-    <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
-        <me>T=\hphantom{0000}</me></p></li>
-    <li><p>Use your equation to fill in the second column of the table.</p><p></p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
->>>>>>> 7356acbb64114882c2fbba528a2a04c8f8d3065d
                     <row bottom="minor">
                         <cell>Units</cell>
                         <cell>Tuition</cell>
@@ -442,9 +412,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
         <li>Are the variables proportional? Compute their ratios to decide.</li>
     </ol></p>
     <!--<image source="photos/act-3-2-3"><description>grid</description></image>-->
-        <image xml:id="act-3-2-3-4">
-        <description>grid</description>
-        <latex-image>
+        <image xml:id="act-3-2-3-4"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -461,7 +429,6 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
          \draw[cyan, very thick] (0,\x) --++(15,0);
          \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
         }        \end{tikzpicture}]]>
-<<<<<<< HEAD
         </latex-image></image></sidebyside></li>
 
     <li><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
@@ -471,19 +438,6 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
                 <me>D=\hphantom{0000}</me></p></li>
             <li><p>Use your equation to fill in the second column of the table.</p><p></p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-=======
-        </latex-image>
-    </image>
-</sidebyside>
-</statement></exercise>
-
-<exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
-<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol marker="a.">
-    <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
-        <me>D=\hphantom{0000}</me></p></li>
-    <li><p>Use your equation to fill in the second column of the table.</p><p></p>
-    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
->>>>>>> 7356acbb64114882c2fbba528a2a04c8f8d3065d
                     <row bottom="minor">
                         <cell>Hours</cell>
                         <cell>Distance</cell>
@@ -513,9 +467,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
             <li>Are the variables proportional? Compute their ratios to decide.</li>
     </ol></p></stack>
     <!--<image source="photos/act-3-2-4.png"><description>grid</description></image>-->
-    <image xml:id="act-3-2-3-5">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="act-3-2-3-5"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -533,7 +485,6 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
          \draw[cyan, very thick] (0,\x) --++(15,0);
          \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\yi$};
         }        \end{tikzpicture}]]>
-<<<<<<< HEAD
         </latex-image></image></sidebyside></li>
 
     <li><p>Revise your conjecture about the graphs of proportional variables so that it applies to the graphs on this page as well.</p>
@@ -541,19 +492,6 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
         <p><m>\blert{\text{Revised Conjecture:}}</m></p></li>
 </ol></p>
 </activity>
-=======
-        </latex-image>
-</image>
-</sidebyside>
-</statement></exercise>
-
-<exercise><statement><p>Revise your conjecture about the graphs of proportional variables so that it applies to the graphs on this page as well.</p>
-<p> Hint: Look at the two graphs of proportional variables. What is the <m>y</m>-intercept of both graphs?</p>
-<p><m>\blert{\text{Revised Conjecture:}}</m></p></statement></exercise>
-
-</exercises>
-</subsubsection>
->>>>>>> 7356acbb64114882c2fbba528a2a04c8f8d3065d
 
 <subsubsection><title>Wrap-Up</title>
 
@@ -571,26 +509,20 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
     <li>In Activity 3, what did you learn about the graphs of proportional variables?</li></ol></p></assemblage>
 </subsubsection>
 
-<<<<<<< HEAD
 <activity><title>Homework Preview</title>
 <p><ol marker="1.">
     <li><p>A cake recipe asks for <m>2\frac{1}{2}</m> cups of flour and <m>\frac{3}{4}</m> cup of brown sugar. What is the ratio of flour to brown sugar?</p></li>
-=======
-
-<subsection><title>Homework Preview</title>
-<exercises>
->>>>>>> 7356acbb64114882c2fbba528a2a04c8f8d3065d
 
     <li><p>Decide whether the two variables are proportional: </p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
+                        <cell><m>~x~</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>5</m></cell>
                         <cell><m>10</m></cell>
                         <cell><m>16</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
+                        <cell><m>~y~</m></cell>
                         <cell><m>3.2</m></cell>
                         <cell><m>8</m></cell>
                         <cell><m>16</m></cell>
@@ -611,6 +543,5 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
 </activity>
 </subsection>
 
-</subsection>
 <xi:include href="./hmwk-3-2.xml" />
 </section>

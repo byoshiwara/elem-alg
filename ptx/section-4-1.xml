@@ -18,11 +18,9 @@ This calculation is an application of the associative law for multiplication. We
 	<li><m>-2(-4h)=8h</m></li>
 </ol></p></statement></example>
 
-<reading-questions>
-    <exercise number="1"><statement><p>Explain the difference between the expressions <m>2b+3b</m> and <m>2(3b)</m>.
+<exercise number="1"><statement><p>Explain the difference between the expressions <m>2b+3b</m> and <m>2(3b)</m>.
 </p></statement>
     	<answer><p>The first expression is a sum and the second one is a product.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>The Distributive Law</title><idx><h>distributive law</h></idx>
@@ -91,10 +89,8 @@ To simplify these expressions, we must first recognize the operations involved.<
 			<me>-3(-5-x) = 15+3x</me></p></li>
 </ul></p></warning>
 
-<reading-questions>
-    <exercise number="2"><statement><p>When do we need the distributive law to simplify an expression?</p></statement>
+<exercise number="2"><statement><p>When do we need the distributive law to simplify an expression?</p></statement>
     	<answer><p>If the terms inside parentheses are not like terms</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
@@ -131,11 +127,9 @@ Remember that we think of all terms as added together, so the minus sign in fron
 We can check the solution by substituting <m>x=0.8</m> into the original proportion.</p>
 </solution></example>
 
-<reading-questions>
-    <exercise number="3"><statement><p>In <xref ref="Example-4-1-4" text="type-global"/>, why did we put parentheses around <m>2x-1</m> and <m>x+3</m>?
+<exercise number="3"><statement><p>In <xref ref="Example-4-1-4" text="type-global"/>, why did we put parentheses around <m>2x-1</m> and <m>x+3</m>?
 </p></statement>
     	<answer><p>To replace the fraction bars as grouping symbols</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Algebraic Expressions</title>
@@ -155,11 +149,9 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 			<me>23x+47x=70x</me></p></li>
 </ol></p></solution></example>
 
-<reading-questions>
-    <exercise number="4"><statement><p>In <xref ref="Example-4-1-5" text="type-global"/>, what does <m>x</m> stand for? What does <m>23x</m> stand for?
+<exercise number="4"><statement><p>In <xref ref="Example-4-1-5" text="type-global"/>, what does <m>x</m> stand for? What does <m>23x</m> stand for?
 </p></statement>
     	<answer><p>The fee for a pound of recycled cans; the amount of money Delbert made</p></answer></exercise>
-</reading-questions>
 
 <p>The distributive law is also helpful for writing algebraic expressions.</p>
 
@@ -182,8 +174,7 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\alert{7})-3=11</m> feet.</p></li>
 </ol></p></solution></example>
 
-<reading-questions>
-    <exercise number="5"><statement><p>In <xref ref="Example-4-1-6" text="type-global"/>, why did we multiply <m>2w-3</m> by 2?</p></statement>
+<exercise number="5"><statement><p>In <xref ref="Example-4-1-6" text="type-global"/>, why did we multiply <m>2w-3</m> by 2?</p></statement>
     	<answer><p>We substituted into the formula for perimeter.</p></answer></exercise>
 
 <problem>
@@ -231,7 +222,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </ol></p>
 </activity>
 
-<subsubsection><title>Activity 2: Solving Equations</title>
+<activity><title>Solving Equations</title>
 
 <assemblage><title>Steps for Solving Linear Equations</title>
     <idx><h>equation</h><h>solving</h></idx>
@@ -248,7 +239,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </ol></p>
 </activity>
 
-<subsubsection><title>Activity 3: Problem Solving</title>
+<activity><title>Problem Solving</title>
 
 <p><ol marker="1.">
     <li><p>Shalia runs a landscaping business. She has a budget of $385 to buy 20 rose bushes for one of her clients.  Hybrid tea roses cost $21 each, and shrub roses cost $16.<ol marker="a.">       

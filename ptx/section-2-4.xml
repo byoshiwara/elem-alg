@@ -60,14 +60,12 @@ The solutions is 6.
 
 <warning><p>In the second step of <xref ref="Example-2-4-2" text="type-global"/>, the term <m>-3x</m> means "<m>-3</m> times <m>x</m>," so we divide both sides by <m>-3</m>. Do not try to add 3 to both sides.</p></warning>
 
-<reading-questions>
-    <exercise number="1"><statement><p>If an equation involves more than one operation, how must we undo those 
+<exercise number="1"><statement><p>If an equation involves more than one operation, how must we undo those 
 operations? </p></statement>
     	<answer><p>In reverse order</p></answer></exercise>
 
 <exercise number="2"><statement><p>Delbert says he solved the equation <m>-5x=15</m> by adding <m>5</m> to both sides. What is wrong with his method?</p></statement>
     	<answer><p>He should divide by <m>-5</m>.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Applied Problems</title>
@@ -98,6 +96,7 @@ operations? </p></statement>
          we locate the point on the graph with <m>P=100</m>, and read its <m>x</m>-coordinate, at about 5.5.</p>
          <!--<image source="photos/fig-2-4-ex3.png"><description>graph</description></image>-->
     <image width="55%" xml:id="fig-2-4-ex3"><description>graph</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [xscale=.5, yscale=.018]
@@ -125,14 +124,15 @@ operations? </p></statement>
         \foreach \x in {89, 66, 43, 20}{
          \draw[black, very thick, ->,>=stealth'] (5.5, \x)--++(0, -20);
          }
-        \end{tikzpicture}]]></latex-image></image></sidebyside></li></ol></p></solution></example>
+        \end{tikzpicture}]]></latex-image></image></li>
+    </ol></p></solution></example>
 </subsection>
 
 <subsection><title>Solving Inequalities</title>
     <idx><h>solving an inequality</h></idx><idx><h>inequality</h><h>solving</h></idx>
 
 <assemblage><title>Inequality</title><idx><h>inequality</h></idx>
-    <p>A statement that uses one of the symbols <m>\gt</m> or <m>\lt</m> is called an <term>inequality</term>.</p></assemblage>
+    <p>A statement that uses one of the symbols <m>~\gt~</m> or <m>~\lt~</m> is called an <term>inequality</term>.</p></assemblage>
 
 <p>Examples of inequalities are 
 	<me> -1 \gt -3 ~~~~~~ \text{and}~~~~~~ x \lt 2</me> 	
@@ -144,6 +144,7 @@ Unlike the equations we have studied, which have at most one solution, an inequa
 <p> In fact, all the numbers to the left of 2 on the number line are solutions of <m>~x \lt 2</m>. Because we cannot list all these solutions, we often graph them on a number line as shown below.</p>
 	<!--<image source="photos/fig-2-4-ex4.png"><description>graph</description></image>-->
     <image width="80%" xml:id="fig-2-4-ex4"><description>number line</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.4]
@@ -157,9 +158,10 @@ Unlike the equations we have studied, which have at most one solution, an inequa
         \draw[red, ultra thick, ->, >=stealth'] (2,0)--(-11.8,0);
         \draw[red, fill=white] (2,0) circle (3mm);
         \node[below, yshift=-2, text=red, scale=.9] at (2,0) {$2$};
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
+        \end{tikzpicture}]]></latex-image></image>
 
-The open circle at 2 shows that 2 itself is not a solution (because 2 is not less than 2.)</p></solution></example>
+<p>The open circle at 2 shows that 2 itself is not a solution (because 2 is not less than 2.)</p>
+</solution></example>
 
 <assemblage><title>Look Closer</title><idx><h>order symbol</h></idx>
 <p>An inequality that uses the symbol for less than, <m>\lt</m>, or greater than, <m>\gt</m>, is called a <term>strict inequality</term>. A nonstrict inequality uses one of the following symbols.
@@ -168,9 +170,9 @@ The open circle at 2 shows that 2 itself is not a solution (because 2 is not les
 
 For example, the graph of all solutions to the inequality
     <me>x \ge -2</me>
-is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is included in the solutions.
-    <sidebyside width="70%"><!--<image source="photos/fig-2-4-1.png"><description>graph</description></image>-->
-    <image xml:id="fig-2-4-1"><description>number line</description><latex-image>
+is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is included in the solutions.</p>
+    <!--<image source="photos/fig-2-4-1.png"><description>graph</description></image>-->
+    <image width="80%" xml:id="fig-2-4-1"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -185,17 +187,15 @@ is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is includ
         \draw[red, ultra thick, ->, >=stealth'] (-2,0)--(11.8,0);
         \draw[red, fill=red] (-2,0) circle (2.5mm);
         \node[below, yshift=-2, text=red, scale=.9] at (-2,0) {$-2$};
-        \end{tikzpicture}]]></latex-image></image></sidebyside></p>
+        \end{tikzpicture}]]></latex-image></image>
  </assemblage>
 
- <reading-questions>
-    <exercise number="3"><statement><p>A solution of an inequality is said to <fillin characters="6"/> the inequality.
+<exercise number="3"><statement><p>A solution of an inequality is said to <fillin characters="6"/> the inequality.
 </p></statement>
     	<answer><p>satisfy</p></answer></exercise>
 
 <exercise number="4"><statement><p>What is the difference between a strict and a nonstrict inequality?</p></statement>
     	<answer><p>A nonstrict inequality includes "equal to."</p></answer></exercise>
-</reading-questions>
 
 <p>	The rules for solving inequalities are very similar to the rules for solving equations, with one important difference. In the Activities we will develop the following strategies for solving inequalities.</p>
 
@@ -214,9 +214,9 @@ is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is includ
         <mrow>-3x \amp \gt 6 \amp\amp\blert{\text{Divide both sides by}~-3;}</mrow>
         <mrow>\dfrac{-3x}{\blert{-3}} \amp \lt \dfrac{6}{\blert{-3}} \amp \amp  \blert{\text{reverse the direction of the inequality.}}</mrow>
         <mrow>x \amp \lt -2</mrow></md>   
-The graph of the solutions is shown below.
-    <sidebyside width="70%"><!--<image source="photos/fig-2-4-ex5.png"><description>graph</description></image>-->
-    <image xml:id="fig-2-4-ex5"><description>number line</description><latex-image>
+The graph of the solutions is shown below.</p>
+    <!--<image source="photos/fig-2-4-ex5.png"><description>graph</description></image>-->
+    <image width="80%" xml:id="fig-2-4-ex5"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -231,8 +231,8 @@ The graph of the solutions is shown below.
         \draw[red, ultra thick, ->, >=stealth'] (-2,0)--(-11.8,0);
         \draw[red, fill=white] (-2,0) circle (3mm);
         \node[below, yshift=-2, text=red, scale=.9] at (-2,0) {$-2$};
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
-</p></solution></example>
+        \end{tikzpicture}]]></latex-image></image>
+</solution></example>
 </subsection>
 
 <subsection><title>Compound Inequalities</title>
@@ -251,9 +251,9 @@ is a compound inequality. To solve a compound inequality, we must perform the st
 Next, to solve <m>2 \lt 2x \le 11</m>, we divide each side by 2.
     <md><mrow>\dfrac{2}{\blert{2}} \amp \lt \dfrac{2x}{\blert{2}}  \le \dfrac{11}{\blert{2}}</mrow>
         <mrow>1 \amp \lt x  \le \dfrac{11}{2}</mrow></md>  
-The solution consists of all numbers greater than 1 but less than or equal to <m>\dfrac{11}{2}</m>. The graph of the solutions is shown below.
-    <sidebyside width="75%"><!--<image source="photos/fig-2-4-ex6.png"><description>graph</description></image>-->
-    <image xml:id="fig-2-4-ex6"><description>number line</description><latex-image>
+The solution consists of all numbers greater than 1 but less than or equal to <m>\dfrac{11}{2}</m>. The graph of the solutions is shown below.</p>
+    <!--<image source="photos/fig-2-4-ex6.png"><description>graph</description></image>-->
+    <image width="85%" xml:id="fig-2-4-ex6"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -271,10 +271,9 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
         \draw[red, fill=red] (11/2,0) circle (1.5mm);
         \node[above, yshift=3, text=red] at (11/2,0) {$\frac{11}{2}$};
         \end{tikzpicture}]]></latex-image></image>
-    </sidebyside></p></solution></example>
+    </solution></example>
 
-<reading-questions>
-    <exercise number="5"><statement><p>When do we need to reverse the direction of an inequality?</p></statement>
+<exercise number="5"><statement><p>When do we need to reverse the direction of an inequality?</p></statement>
     	<answer><p>When we multiply or divide by a negative number.</p></answer></exercise>
 
 <exercise number="6"><statement><p>What is a compound inequality?</p></statement>
@@ -356,16 +355,8 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>2</m></cell></row>
-                    </tabular></sidebyside></p></introduction>
-
-<exercise number="7"><statement><p>Consider the equation <m>3n-5=p</m>. Look at Table 1 to help you answer the questions:
-<ol marker="a.">
-    <li>Let <m>n=2</m>. Explain how to find <m>p</m> in two steps.</li>
-    <li>Let <m>p=7</m>. Explain how to find <m>n</m> in two steps.</li>
-</ol></p></statement></exercise>
-
-<exercise number="8"><statement><p>Consider the equation <m>\dfrac{m}{4}+1=h</m>. Look at Table 2 to help you answer the questions:
-<ol marker="a.">
+                    </tabular>
+<p><ol marker="a.">
     <li>Let <m>m=8</m>. Explain how to find <m>h</m> in two steps.</li>
     <li>Let <m>h=6</m>. Explain how to find <m>m</m> in two steps.</li>
 </ol></p></li>
@@ -392,7 +383,7 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Order of Operations</title>
+<activity><title>Order of Operations</title>
 
 <introduction><p>Study each Example, then try the corresponding Exercise.<ol marker="a.">
     <li>Use the order of operations to analyze the expression containing the variable and plan your approach.</li>  
@@ -404,7 +395,8 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
     <assemblage><p>
         <md><mrow>\amp \blert{\text{Operations performed on}~x} \amp \amp \blert{\text{Steps for solution}}</mrow>
         <mrow>\amp 1.~~~ \text{Multiply by 4} \amp \amp 1.~~~ \text{Add 5}</mrow>
-        <mrow>\amp 2.~~~ \text{Subtract 5} \amp \amp 2.~~~\text{Divide by 4}</mrow></md></p></li>
+        <mrow>\amp 2.~~~ \text{Subtract 5} \amp \amp 2.~~~\text{Divide by 4}</mrow></md></p></assemblage>
+    </li>
     <li><p>Carry out the solution.
         <md><mrow>4x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}</mrow>
                 <mrow>4x-5 \alert{+ 5} \amp = 7 \alert{+ 5}</mrow>
@@ -421,7 +413,8 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
         <assemblage><p>
         <md><mrow>\amp \blert{\text{Operations performed on}~x} \amp \amp \blert{\text{Steps for solution}}</mrow>
         <mrow>\amp 1.~~~ \text{Multiply by}~-3 \amp \amp 1.~~~ \text{Multiply by 4}</mrow>
-        <mrow>\amp 2.~~~ \text{Divide by 4} \amp \amp 2.~~~\text{Divide by} ~-3</mrow></md></p></li>
+        <mrow>\amp 2.~~~ \text{Divide by 4} \amp \amp 2.~~~\text{Divide by} ~-3</mrow></md></p></assemblage>
+    </li>
     <li><p>Carry out the solution.
         <md><mrow>\dfrac{-3t}{4} \amp = 6 \amp \amp \blert{\text{Multiply both sides by 4.}}</mrow>
                 <mrow>\alert{4}\left(\dfrac{-3t}{4}\right) \amp = (6) \alert{4}</mrow>
@@ -430,7 +423,7 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
                 <mrow> x \amp = 3</mrow></md></p>
     <p>The solutions is <m>-8</m>. <m>~~~~~~~~\blert{\text{Check:}}~~~~\dfrac{-3(\alert{-8})}{4} = 6</m></p></li></ol></p>
 
-p>Now try EXERCISE 2:  Solve  <m>~~\dfrac{-4a}{5} = -12</m></p>
+<p>Now try EXERCISE 2:  Solve  <m>~~\dfrac{-4a}{5} = -12</m></p>
 
 <p>EXAMPLE 3:  Solve <m>~~5(z-6) = 65</m> <ol marker="a.">
     <li><p>Analyze the expression <m>~4x-5</m>.</p>
@@ -457,7 +450,7 @@ p>Now try EXERCISE 2:  Solve  <m>~~\dfrac{-4a}{5} = -12</m></p>
     <p><m>\blert{\text{Check your solution.}}</m></p>
 </activity>
 
-<subsubsection><title>Activity 2: Problem Solving</title>
+<activity><title>Problem Solving</title>
 
 <p><ol marker="1.">
 <li><p>Mitch bought a Blu-Ray player for $269 and a number of discs at $14 each.
@@ -476,7 +469,7 @@ p>Now try EXERCISE 2:  Solve  <m>~~\dfrac{-4a}{5} = -12</m></p>
 </ol></p>
 </activity>
 
-<subsubsection><title>Activity 3: Inequalities</title>
+<activity><title>Inequalities</title>
 
 <p><ol marker="1.">
 <li><p>Properties of Inequalities</p>
@@ -553,7 +546,8 @@ p>Now try EXERCISE 2:  Solve  <m>~~\dfrac{-4a}{5} = -12</m></p>
 <p>In this Lesson we practiced the following skills:<ul>
     <li>Solving equations with two or more operations</li>
     <li>Writing equations to model applied problems</li>
-    <li>Solving inequalities</li></ul></p></assemblage>
+    <li>Solving inequalities</li>
+</ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
 <p><ol marker="1.">

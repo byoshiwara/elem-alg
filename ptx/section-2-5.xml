@@ -16,11 +16,10 @@ we find a value for the variable that makes the equation true.  The solution to 
          <mrow>\text{and}~~~~~~5x \amp = 5(\alert{3})=15</mrow></md>
 Both expressions equal 15 when <m>x=3</m>.</p>
 
-<reading-questions>
-    <exercise number="1"><statement><p>Verify that <m>2x+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
+<question><statement><p>Verify that <m>2x+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
         <md><mrow>2x+3x \amp =\underline{\qquad\qquad\qquad}</mrow>
             <mrow>\text{and}\qquad 5x \amp =\underline{\qquad\qquad\qquad}</mrow></md>
-</p></statement></exercise></reading-questions>
+</p></statement></question>
 
 <assemblage><title>Equivalent Expressions</title>
     <idx><h>equivalent</h><h>expressions</h></idx><idx><h>expression</h><h>equivalent</h></idx>
@@ -34,10 +33,8 @@ Both expressions equal 15 when <m>x=3</m>.</p>
 Because they are not equal for <m>x=6</m>, the expressions <m>2+3x</m> and <m>5x</m> are not equivalent.</p>
 </warning>
 
-<reading-questions>
-    <exercise number="2"><statement><p>When are two expressions equivalent?</p></statement>
+<exercise number="2"><statement><p>When are two expressions equivalent?</p></statement>
     	<answer><p>When they name the same number for all values of the variable.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Like Terms</title>
@@ -108,13 +105,11 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 
 <example><statement><m>6a-(-8a)=[6-(-8)a]=14a~~~~~~~~~~\blert{\text{Subtract the coefficients.}}</m></statement></example>
 
-<reading-questions>
-    <exercise number="3"><statement><p>What are like terms?</p></statement>
+<exercise number="3"><statement><p>What are like terms?</p></statement>
     	<answer><p>Any terms that are exactly alike in their variable factors.</p></answer></exercise>
 
 <exercise number="4"><statement><p>How do we add or subtract like terms?</p></statement>
     	<answer><p>Add or subtract the numerical coefficients of the terms.</p></answer></exercise>
-</reading-questions>
 
 <warning><p>We cannot add or subtract unlike terms. Thus,
 		<md><mrow>2x+3y~~~~~~~~ \amp \text{cannot be simplified}</mrow>
@@ -188,13 +183,11 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
         \node[right] at (O3) {$=b-9$};
         \end{tikzpicture}]]></latex-image></image></p></solution></example>
 
-<reading-questions>
-    <exercise number="5"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>
+<exercise number="5"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>
     	<answer><p>a plus sign</p></answer></exercise>
 
 <exercise number="6"><statement><p>What must you do if you remove parentheses that follow a minus sign?</p></statement>
     	<answer><p>Change the sign of each term within parentheses.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
@@ -239,10 +232,8 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
         <mrow>\amp x=2:~~2(\alert{2})-4(\alert{2})+14 \lt 5(\alert{2})-10?~~~~\blert{\text{False:}~~10 \not\lt 3}</mrow></md></p>
 </solution></example>
 
-<reading-questions>
-    <exercise number="7"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>
+<exercise number="7"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>
     	<answer><p>Combine them.</p></answer></exercise>
-</reading-questions>
 
 <p>Here are our guidelines for solving linear equations.</p>
 
@@ -288,7 +279,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 
 <subsection><title>Lesson</title>
 
-<subsubsection><title>Activity 1: Equivalent Expressions</title>
+<activity><title>Equivalent Expressions</title>
 
 <p><ol marker="1.">
     <li><p><ol marker="a.">
@@ -322,7 +313,8 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
     </ol></p></li>
 </ol></p>
 </activity>
-<subsubsection><title>Activity 2: Solving Equations and Inequalities</title>
+
+<activity><title>Solving Equations and Inequalities</title>
 
 <assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1.">
     <li>Combine like terms on each side of the equation.</li>

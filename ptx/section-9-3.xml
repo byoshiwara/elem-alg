@@ -56,7 +56,7 @@ Because the square of <m>3\sqrt{5}</m> is equal to <m>45</m>, it is the case tha
 
 <p>We can use the product rule for radicals to write <m>~\sqrt{12} = \sqrt{4}\sqrt{3}</m>. Now, <m>\sqrt{4}=2</m>,  so we can simplify <m>\sqrt{12}</m> as
 	<me>\sqrt{12} = \sqrt{4}\sqrt{3} = 2\sqrt{3}</me></p>
-<p>The expression <m>2\sqrt{3}</m> is a simplified form for <m>\sqrt{12}</m>. The factor of 4, which is a perfect square, has been removed from the radical. This example illustrates a strategy for simplifying radicals.</p>
+<p>The expression <m>2\sqrt{3}</m> is a simplified form for <m>\sqrt{12}</m>. The factor of <m>4</m>, which is a perfect square, has been removed from the radical. This example illustrates a strategy for simplifying radicals.</p>
 
 <assemblage><title>To Simplify a Square Root</title>
 	<idx><h>square root</h><h>simplifying</h></idx>
@@ -81,7 +81,6 @@ but <m>6.708</m> is not the exact value for <m>\sqrt{45}</m>. For long calculati
 
 <exercise number="1"><statement><p>What is the difference between simplifying a square root and approximating a square root?</p></statement>
     <answer><p>Simplifying a square root gives an equivalent expression.</p></answer></exercise>
-</reading-questions>
 </subsection>
 
 <subsection><title>Square Root of a Variable Expression</title>
@@ -99,7 +98,6 @@ Similarly, if <m>a</m> is not negative,
 
 <exercise number="2"><statement><p>How do we simplify the square root of a variable raised to an even exponent?</p></statement>
     <answer><p>Divide the exponent by 2.</p></answer></exercise>
-</reading-questions>
 
 <p>For the rest of this section we'll assume that all variables are nonnegative.</p>
 
@@ -137,7 +135,6 @@ Finally, we simplify the square root of <m>x^6</m> to get
 <exercise number="4"><statement><p>In <xref ref="Example-9-3-6" text="type-global"/>, what will we get if we square <m>~2xy\sqrt{5y}</m>?
 </p></statement>
     <answer><p><m>20x^2y^3</m></p></answer></exercise>
-</reading-questions>                                                                       
 </subsection>
 
 <subsection><title>Sums and Differences</title>
@@ -177,10 +174,8 @@ where <m>r</m> is a variable that can stand for any real number. In particular, 
 Thus, we may add like radicals by adding their coefficients. The same idea applies to subtraction.</p>
 </assemblage>
 
-<reading-questions>
-    <exercise number="5"><statement><p>What are like radicals?</p></statement>
+<exercise number="5"><statement><p>What are like radicals?</p></statement>
     <answer><p>Square roots with identical radicands</p></answer></exercise>
-</reading-questions>   
 
 <example><statement><p>Simplify if possible.<ol marker="a." cols="2">
   	<li><m>7\sqrt{3}-2\sqrt{3}</m></li>
@@ -193,13 +188,11 @@ Thus, we may add like radicals by adding their coefficients. The same idea appli
 	<li>However, <m>~3\sqrt{2}~</m> and <m>~4\sqrt{3}~</m> are not like radicals. We cannot simplify sums or differences of unlike radicals. Thus, <m>~3\sqrt{2}+4\sqrt{3}~</m> cannot be combined into a single term.</li>
 </ol></p></solution></example>
 
-<reading-questions>
-    <exercise number="6"><statement><p>How do we add or subtract like radicals?</p></statement>
+<exercise number="6"><statement><p>How do we add or subtract like radicals?</p></statement>
     <answer><p>By adding or subtracting their coefficients</p></answer></exercise>
 
 <exercise number="7"><statement><p>How do we add or subtract unlike radicals?</p></statement>
     <answer><p>Unlike radicals cannot be combined.</p></answer></exercise>
-</reading-questions>
 
 <p>Sometimes we must simplify the square roots in a sum or difference before we can recognize like radicals.</p>
 
@@ -223,6 +216,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 	<li><m>\dfrac{5k^5}{9n}=\dfrac{k^4}{9} \cdot ?</m></li>
 	<li><m>\dfrac{a^2+4a^4}{8}=\dfrac{a^2}{4} \cdot ?</m></li>
 </ol></p></statement>
+
 <answer>
 <p><ol marker="1." cols="3">
     <li><m>20x^6</m></li>
@@ -310,14 +304,16 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 <p>In this Lesson we practiced the following skills:<ul>
     <li>Applying the product and quotient rules for radicals</li>
 	<li>Simplifying square roots</li>
-	<li>Adding and subtracting like radicals</li></ul></p></assemblage>
+	<li>Adding and subtracting like radicals</li>
+</ul></p></assemblage>
 
 <assemblage><title>Questions</title>   
 <p><ol marker="1.">
     <li>Does <m>~\sqrt{x^2-4} = x-2~</m>?  Does <m>~\sqrt{x^2+4} = x+2~</m>?</li>
 	<li>Explain how simplifying a radical is different from evaluating a radical.</li>
 	<li>Explain why <m>~\sqrt{16} = 4~</m> but <m>~\sqrt{a^{16}} = a^8~</m>.</li>
-	<li>What is wrong with the statement <m>~3\sqrt{6}+2\sqrt{6} = 5\sqrt{12}~</m>? </li></ol></p></assemblage>
+	<li>What is wrong with the statement <m>~3\sqrt{6}+2\sqrt{6} = 5\sqrt{12}~</m>? </li>
+</ol></p></assemblage>
 </subsubsection>
 
 <activity><title>Homework Preview</title>
