@@ -92,7 +92,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 
 <example xml:id="Example-3-4-2"><statement><p>Graph the equation <m>~y=\dfrac{3}{4}x-2</m></p></statement>
 
-<solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. 
+<solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. </p>
 	<!--<image source="photos/fig-3-4-ex2.png"><description>graph</description></image>-->
     <image width="50%" xml:id="ig-3-4-ex2"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -124,7 +124,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
         \filldraw[red] (4,1) circle (1.5mm);
         \filldraw[red] (-4,-5) circle (1.5mm);
         \end{tikzpicture}]]></latex-image></image>
-The slope,
+<p>The slope,
 	<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</me>
 gives the ratio of the change in <m>y</m>-coordinate to the change in <m>x</m>-coordinate as we move from any point on the line to another. Thus, starting at the point <m>(0,-2)</m>, we move: <ul>
 	<li>3 units up (the positive <m>y</m>-direction),then</li>
@@ -515,4 +515,4 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
 </subsection>
 
 <xi:include href="./hmwk-3-4.xml" />
-</section>  
+</section>

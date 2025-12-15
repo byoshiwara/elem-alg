@@ -464,7 +464,7 @@
     <li>Add <m>15\degree</m> to Ridgecrest's temperature to find Sunnyvale's temperature.</li>
     <li>Temperature in Sunnyvale <m>=</m> Temperature in Ridgecrest <m>+15</m></li>
     <li><m>S=R+15</m></li>
-    <li><p><!--<image source="photos/hp-1-1-9ans.png"/>-->
+    <li><p><!--<image source="photos/hp-1-1-9ans.png"/>--></p>
     <image xml:id="hp-1-1-9ans" width="50%">
         <description>line</description>
         <latex-image>
@@ -486,7 +486,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </p></li>
+    </li>
 </ol></p></answer></exercise>
 
 <exercise number="10"><statement><p>Jerome is driving from his home in White Falls to his parents' home in Castle Heights, 200 miles away. Fill in the table.</p>
@@ -620,7 +620,7 @@
         <li>Divide the total bill by 3 to get Milton's share.</li>
         <li>Milton's share <m>= \dfrac{\text{total bill}}{3}</m></li>
         <li><m>s=\dfrac{b}{3}</m></li>
-        <li><p><!--<image source="photos/hp-1-1-11ans.png"/>-->
+        <li><p><!--<image source="photos/hp-1-1-11ans.png"/>--></p>
     <image xml:id="hp-1-1-11ans" width="50%"><description>line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.04, yscale=0.1]
@@ -639,7 +639,7 @@
          }
         \end{tikzpicture}]]>
     </latex-image>
-    </image></p></li>
+    </image></li>
     </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>Nutrition experts tell us that no more than 30% of the calories we consume should come from fat. Fill in the table with the fat calories allowed daily for various calorie levels.</p>
