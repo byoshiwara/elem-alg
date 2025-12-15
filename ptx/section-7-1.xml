@@ -173,7 +173,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 
 <example><statement><p>Subtract <m>~2n^2-3n-2~</m> from <m>~4n^2+2n-5</m></p></statement>
 
-<solution><p><sidebyside><tabular>         
+<solution><sidebyside><tabular>
                     <row>
                         <cell><m>~~~~~~~~4n^2+2n-5</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -186,7 +186,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
                     	<cell><m>\hphantom{0000}</m></cell>
                     	<cell><m>\hphantom{0000}</m></cell>
                         <cell><m>~~~~~~~~~~2n^2+5n-3</m></cell></row>
-                    </tabular></sidebyside></p></solution></example>
+                    </tabular></sidebyside></solution></example>
 
 <exercise number="5"><statement><p>When subtracting two polynomials, what must we do before combining like terms?</p></statement>
     <answer><p>Change the sign of each term in the subtracted polynomial.</p></answer></exercise>

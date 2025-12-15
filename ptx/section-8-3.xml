@@ -204,7 +204,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 <exercise number="6"><statement><p>State the four steps for adding or subtracting fractions.</p></statement>
     <answer><p>Find the LCD, build, combine, reduce.</p></answer></exercise>
 
-<problem><sttement>
+<problem><statement>
 
 <p>Simplify.</p>
 <p><ol marker="1.">
@@ -214,7 +214,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 <li><m>(x-3)2x+(x+2)4</m></li>
 <li><m>x^2(x-1)-2x(x+2)</m></li>
 <li><m>3x(x-4)-2(x^2-16)-4x</m></li>
-</ol></p></sttement>
+</ol></p></statement>
 
 <answer><p><ol marker="1." cols="2">
     <li><m>-x+3</m></li>
