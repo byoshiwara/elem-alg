@@ -21,7 +21,7 @@
 	<li><p>To divide two powers with the same base, we subtract the smaller exponent from the larger.  If the larger exponent occurs in the numerator, we put the power in the numerator.
 		<md>\dfrac{3^7}{3^2} = 3^5~~~~~~~~\blert{\text{Larger exponentis in the numerator.}}</md></p></li>
 	<li><p>If the larger exponent occurs in the denominator, we put the power in the denominator.                          		
-		<md>\dfrac{2^3}{2^5} = \dfrac{1}{2^2}~~~~~~~~\blert{\text{Larger exponent is in the denominator.}}</md</p></li>
+		<md>\dfrac{2^3}{2^5} = \dfrac{1}{2^2}~~~~~~~~\blert{\text{Larger exponent is in the denominator.}}</md></p></li>
 </ol></p></solution></example>
 
 <warning><p>In <xref ref="Example-9-1-1" text="type-global"/>a, it is not correct to multiply the bases: 

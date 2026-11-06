@@ -124,8 +124,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
         \filldraw[red] (4,1) circle (1.5mm);
         \filldraw[red] (-4,-5) circle (1.5mm);
         \end{tikzpicture}]]></latex-image></image>
-The slope,
-	<md>m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</md>
+<p>The slope,
+	<md><mrow>m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</mrow></md>
 gives the ratio of the change in <m>y</m>-coordinate to the change in <m>x</m>-coordinate as we move from any point on the line to another. Thus, starting at the point <m>(0,-2)</m>, we move: <ul>
 	<li>3 units up (the positive <m>y</m>-direction),then</li>
 	<li>4 units right (the positive <m>x</m>-direction )</li>
