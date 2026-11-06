@@ -73,7 +73,7 @@
     <li><p><m>-21</m></p></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>Evaluate the expression for the given values of the variables.
-	<me>4-3a+6ab-(-8a)-10+9ab+2a~~~~\text{for}~~a=-2,~b=5</me></p></statement></exercise>
+	<md>4-3a+6ab-(-8a)-10+9ab+2a~~~~\text{for}~~a=-2,~b=5</md></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>In Problems 21<ndash/>22, choose a value for the variable and show that the following pairs of expressions are not equivalent.</p></introduction>
 

@@ -10,9 +10,7 @@
     <li><m>(0,3.5)</m></li>
     <li><m>(8,2)</m></li>
     <li><m>(4.5,1)</m></li></ol></p>
-    <image xml:id="fig-h-eq-t-plus-7halves" width="90%">
-        <description>h=t+7/2</description>
-        <latex-image>
+    <image xml:id="fig-h-eq-t-plus-7halves" width="90%"><description>h=t+7/2</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.55]
         \draw[cyan!60!white] (0,0) grid[step=1/2] (7,10);
@@ -29,8 +27,7 @@
         }
         \draw[magenta!90!black,very thick, ->, >=stealth'] (0,3.5) -- (6.5,10);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
+        </latex-image></image>
     </statement>
     <answer><p><ol marker="a." cols="2">
     <li>no</li>
@@ -43,9 +40,7 @@
     <li><m>(4,2)</m></li>
     <li><m>(10,0)</m></li>
     <li><m>(11,7)</m></li></ol></p>
-    <image xml:id="fig-m-eq-2-plus-sq-of-p-minus4" width="90%">
-        <description>m=2+ square of p-4</description>
-        <latex-image>
+    <image xml:id="fig-m-eq-2-plus-sq-of-p-minus4" width="90%"><description>m=2+ square of p-4</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.33]
         \draw[cyan!60!white] (0,0) grid (10,15);
@@ -62,8 +57,7 @@
         }
         \draw[samples=65,domain={4-sqrt(13):4+sqrt(13)},smooth,variable=\x,magenta!90!black,very thick, <->, >=stealth'] plot ({\x},{2+(\x-4)^2});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
+        </latex-image></image>
     </statement></exercise>
 </exercisegroup>
 
@@ -113,9 +107,7 @@
     <introduction><p>For Problems 7<ndash/>8, state the interval that each grid line represents on the horizontal and vertical axes.</p></introduction>
 
 <exercise number="7"><statement><!--<image source="photos/hp-1-3-7.png"/>-->
-    <image xml:id="hp-1-3-7" width="90%">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-7" width="90%"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=2]
         \draw[cyan] (0,0) grid[xstep=1/4, ystep=1/5] (2,2);
@@ -130,15 +122,12 @@
          \draw[black, thick] (.05,\y) --++(-.1,0)  node[left]   {\yi};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </statement>
 <answer><p>horizontal: 0.25; vertical: 4</p></answer></exercise>
 
 <exercise number="8"><statement><!--<image source="photos/hp-1-3-8.png"/>-->
-    <image xml:id="hp-1-3-8" width="90%">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-8" width="90%"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=2]
         \draw[cyan] (0,0) grid[xstep=1/5, ystep=1/4] (2,3/2);
@@ -153,8 +142,7 @@
          \draw[black, thick] (.05,\y) --++(-.1,0)  node[left]   {\yi};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </statement></exercise>
 </exercisegroup>
 
@@ -184,9 +172,7 @@
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular>
 	<!--<image source="photos/hp-1-3-9.png"/>-->
-    <image xml:id="hp-1-3-9" width="100%">
-        <description>line on grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-9" width="100%"><description>line on grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.25]
         \draw[cyan] (0,0) grid (17,17);
@@ -202,8 +188,7 @@
         }
         \draw[red,very thick](0,16)--(16,0);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
     </statement>
 <answer><p><ol marker="a.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -249,9 +234,7 @@
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular>
 	<!--<image source="photos/hp-1-3-10.png"/>-->
-    <image xml:id="hp-1-3-10" width="100%">
-        <description>line on grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-10" width="100%"><description>line on grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.4]5
         \draw[cyan] (0,0) grid (10,10);
@@ -267,8 +250,7 @@
         }
         \draw[red,very thick, ->, >=stealth'](0,0)--(10,10);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
     </statement></exercise>
 </exercisegroup>
 
@@ -283,9 +265,7 @@
 	<li><m>y=5x</m></li></ol></p></introduction>
 
 <exercise number="11"><statement><!--<image source="photos/hp-1-3-11.png"/>-->
-    <image xml:id="hp-1-3-11" width="90%">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="hp-1-3-11" width="90%"><description>line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.16, yscale=.10]
         \draw[cyan] (0,0) grid[step=5] (20,40);
@@ -301,15 +281,12 @@
         }
         \draw[red,very thick, ->, >=stealth'](0,15)--(20,35);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </statement>
 <answer><p>f</p> </answer></exercise>
 
 <exercise number="12"><statement><!--<image source="photos/hp-1-3-12.png"/>-->
-    <image xml:id="hp-1-3-12" width="100%">
-        <description>curve</description>
-        <latex-image>
+    <image xml:id="hp-1-3-12" width="100%"><description>curve</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [yscale=.03]
         \draw[cyan] (0,0) grid[ystep=10] (5,150);
@@ -325,14 +302,11 @@
         }
         \draw[samples=65,domain=2/5:5,smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{60/\x)});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </statement></exercise>
 
 <exercise number="13"><statement><!--<image source="photos/hp-1-3-13.png"/>-->
-    <image xml:id="hp-1-3-13" width="100%">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="hp-1-3-13" width="100%"><description>line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.45,yscale=1.6]
         \draw[cyan] (0,0) grid[ystep=1/5] (10,2.4);
@@ -348,15 +322,12 @@
         }
         \draw[red,very thick, ->, >=stealth'] (0,0)--(10,2);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </statement>
 <answer><p>c, e</p></answer></exercise>
 
 <exercise number="14"><statement><!--<image source="photos/hp-1-3-14.png"/>-->
-    <image xml:id="hp-1-3-14" width="100%">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="hp-1-3-14" width="100%"><description>line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.3]
         \draw[cyan] (0,0) grid (15,15);
@@ -372,15 +343,14 @@
         }
         \draw[red,very thick](0,15)--(15,0);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Use the three steps in the Lesson to make the graphs in Problems 15<ndash/>17.</p></introduction>
 
 <exercise number="15"><statement><p>The college Bookstore charges a 25% markup over wholesale prices. If the wholesale price of a book is <m>w</m> dollars, the bookstore's price <m>p</m> is given by
-	<me>p=1.25w</me>
+	<md>p=1.25w</md>
 <ol marker="a.">
 	<li>How much does the bookstore charge for a book whose wholesale price is $28?</li>
 	<li>Evaluate the formula to find the bookstore's price for various books. 
@@ -404,9 +374,7 @@
                     </tabular></li>
 	<li><p>Plot the values from the table and graph the equation.</p>
 			<!--<image source="photos/hp-1-3-15.png"/>-->
-    <image xml:id="hp-1-3-15" width="60%">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-15" width="60%"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.125, yscale=.1]
         \draw[cyan] (0,0) grid[xstep=4, ystep=5] (40,50);
@@ -419,8 +387,7 @@
          \draw[black, thick] (.8,\y) --++(-1.6,0)  node[left]   {\y};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></li>
+    </latex-image></image></li>
 </ol></p></statement>
 <answer><p><ol marker="a.">
     <li>$35</li> 
@@ -443,9 +410,7 @@
                         <cell><m>50</m></cell></row>
                     </tabular></li>
     <li><!--<image source="photos/hp-1-3-15ans.png"/>-->
-    <image xml:id="hp-1-3-15ans" width="40%">
-        <description>line on grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-15ans" width="40%"><description>line on grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.125, yscale=.1]
         \draw[cyan] (0,0) grid[xstep=4, ystep=5] (40,50);
@@ -465,8 +430,7 @@
         \filldraw[blue] (36,45) ellipse (8mm and 10mm);
         \filldraw[blue] (40,50) ellipse (8mm and 10mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
     </li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>Uncle Ray's diet allows him to eat a total of 1000 calories for lunch and dinner. Let <m>L</m> stand for the number of calories in Uncle Ray's lunch, and <m>D</m> for the number of calories in his dinner.
@@ -489,9 +453,7 @@
                     </tabular></li>
 	<li><p>Label the scales on the axes and graph the equation. Use intervals of 100 on both axes.</p>
 			<!--<image source="photos/hp-1-3-16.png"/>-->
-    <image xml:id="hp-1-3-16" width="50%">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-16" width="50%"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.5]
         \draw[cyan] (0,0) grid (10,10);
@@ -504,8 +466,7 @@
          \draw[black, thick] (.09,\y) --++(-.18,0);
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></li>
+    </latex-image></image></li>
 </ol></p></statement></exercise>
 
 <exercise number="17"><statement><p>The Green Co-op plans to divide its profit of $3600 from the sale of environmentally safe products among its members. Let <m>m</m> stand for the number of members, and <m>S</m> for the share of the profits each member will receive.
@@ -528,9 +489,7 @@
                     </tabular></li>
 	<li><p>Label the scales on the axes and graph the equation. Use intervals of 20 on the vertical axis.</p>
 			<!--<image source="photos/hp-1-3-17.png"/>-->
-    <image xml:id="hp-1-3-17" width="60%">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-17" width="60%"><description>grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.5]
         \draw[cyan] (0,0) grid (10,10);
@@ -543,8 +502,7 @@
          \draw[black, thick] (.09,\y) --++(-.18,0);
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></li>
+    </latex-image></image></li>
 </ol></p></statement>
 <answer><p><ol marker="a.">
     <li><m>S=\dfrac{3600}{m}</m></li>
@@ -563,9 +521,7 @@
                         <cell><m>36</m></cell></row>
                     </tabular></li> 
     <li><!--<image source="photos/hp-1-3-17ans.png"/>-->
-    <image xml:id="hp-1-3-17ans" width="40%">
-        <description>curve on grid</description>
-        <latex-image>
+    <image xml:id="hp-1-3-17ans" width="40%"><description>curve on grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.5]
         \draw[cyan] (0,0) grid (10,10);
@@ -583,8 +539,8 @@
         \filldraw[blue](6,1.5) circle (.15cm);
         \filldraw[blue](10,0.9) circle (.15cm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></li></ol></p></answer></exercise>
+    </latex-image></image></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 18<ndash/>19, solve the equation graphically by drawing on the graph. (You may have to estimate some of your solutions.) Then verify your answer by solving algebraically.</p></introduction>
@@ -594,9 +550,7 @@
 	<li><m>90=p-20</m></li>
 	<li><m>p-20=40</m></li></ol></p> 
 	<!--<image source="photos/hp-1-3-18.png"/>-->
-    <image xml:id="hp-1-3-18" width="55%">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="hp-1-3-18" width="55%"><description>line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.04]
         \draw[cyan] (0,0) grid[step=10] (150,150);
@@ -621,9 +575,7 @@
 	<li><m>250=18g</m></li>
 	<li><m>18g=210</m></li></ol></p> 
 	<!--<image source="photos/hp-1-3-19.png"/>-->
-    <image xml:id="hp-1-3-19" width="50%">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="hp-1-3-19" width="50%"><description>line</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.2, yscale=.015]
         \draw[cyan] (0,0) grid[xstep=2, ystep=20] (20,400);
@@ -640,8 +592,7 @@
         \draw[red,very thick, ->,>=stealth'](0,0)--(20,360);
         \node[fill=white, inner sep=1, text=red] at (14,340) {$d=18g$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></statement>
+    </latex-image></image></statement>
 <answer><p><ol marker="a." cols="2">
     <li><m>g \approx 13.9</m></li>
     <li><m>g \approx 11.7</m></li></ol></p></answer></exercise>
@@ -654,9 +605,7 @@
 
 <exercise number="20"><statement><p>The graph gives the sales tax, <m>T</m>, in terms of the price <m>p</m> of an item, where the amounts are in dollars.</p> 
 	<!--<image source="photos/hp-1-3-20.png"/>-->
-    <image xml:id="hp-1-3-20" width="45%">
-        <description>line and point</description>
-        <latex-image>
+    <image xml:id="hp-1-3-20" width="45%"><description>line and point</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.032, yscale=.32]
         \draw[cyan] (0,0) grid[xstep=10, ystep=1] (100,10);
@@ -678,9 +627,7 @@
 
 <exercise number="21"><statement><p>The graph gives the weight, <m>W</m>, in ounces of a chocolate bunny that is <m>h</m> inches tall. </p> 
 	<!--<image source="photos/hp-1-3-21.png"/>-->
-    <image xml:id="hp-1-3-21" width="45%">
-        <description>curve and point</description>
-        <latex-image>
+    <image xml:id="hp-1-3-21" width="45%"><description>curve and point</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.8, yscale=.2]
         \draw[cyan] (0,0) grid[xstep=1, ystep=2] (5,20);
@@ -697,8 +644,7 @@
         \draw[samples=65,domain=0:{2*10^(1/3)},smooth,variable=\x,red,very thick, ->, >=stealth'] plot ({\x},{(\x^3)/4});
         \filldraw[red] (4,16) ellipse(1mm and 4mm) node[above left, xshift=-3, fill=white, inner sep=1, text=black] {$B$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image></statement>
+    </latex-image></image></statement>
 <answer><p><ol marker="a.">
     <li><m>(4,16)</m></li>
     <li>A 4-inch tall bunny weighs 16 ounces.</li></ol></p></answer></exercise>
@@ -731,11 +677,8 @@
                         <cell>$5000</cell>
                         <cell>$3500</cell></row>
                     </tabular></li>
-    <li>
-        <!--<image source="photos/hp-1-3-23ans.png"/>-->
-        <image xml:id="hp-1-3-23ans" width="35%">
-        <description>line on grid</description>
-        <latex-image>
+    <li><!--<image source="photos/hp-1-3-23ans.png"/>-->
+        <image xml:id="hp-1-3-23ans" width="35%"><description>line on grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.8, yscale=.4]
         \draw[cyan] (0,0) grid[xstep=1, ystep=1] (6,12);
@@ -754,8 +697,8 @@
         \filldraw[blue] (1,10) circle(1mm and 2mm);
         \filldraw[blue] (2.5,7) circle(1mm and 2mm);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image></li></ol></p></answer></exercise>
+        </latex-image></image></li>
+    </ol></p></answer></exercise>
 
 <exercise number="24"><statement><p><ol marker="a.">
 	<li>Edgar's great-aunt plans to put $5000 in a trust for Edgar until he turns 21, three years from now. She has a choice of several different accounts. Write an equation for the amount of interest the money will earn in 3 years if the account pays interest rate <m>r</m>.</li>
@@ -784,9 +727,7 @@
                     </tabular></li>
     <li>
         <!--<image source="photos/hp-1-3-25ans.png"/>-->
-        <image xml:id="hp-1-3-25ans" width="30%">
-        <description>line on grid</description>
-        <latex-image>
+        <image xml:id="hp-1-3-25ans" width="30%"><description>line on grid</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [scale=.6]
         \draw[cyan] (0,0) grid[xstep=1, ystep=1] (5,5);
@@ -805,8 +746,8 @@
         \filldraw[blue] (2.5,2.16) circle(1.5mm);
         \filldraw[blue] (3,1.8) circle(1.5mm);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image></li></ol></p></answer></exercise>
+        </latex-image></image></li>
+    </ol></p></answer></exercise>
 </exercisegroup>
 
 </exercises>

@@ -8,7 +8,7 @@
 <idx><h>radical</h><h>equation</h></idx>
 
 <p>When an object falls from a height of <m>h</m> meters, the time it takes to reach the ground is given in seconds by
-	<me>t=\sqrt{\dfrac{h}{4.9}}</me>
+	<md>t=\sqrt{\dfrac{h}{4.9}}</md>
 This equation is called a <term>radical equation</term>, because an unknown value, <m>h</m>, appears under a radical sign.</p> 
 
 <assemblage><title>Radical Equation</title>
@@ -17,7 +17,7 @@ This equation is called a <term>radical equation</term>, because an unknown valu
 <p>A <term>radical equation</term> is one in which the variable appears under a radical.</p></assemblage>
 
 <example><statement><p>If you drop a penny from the top of the Sears Tower in Chicago, it will take <m>9.5</m> seconds to reach the ground. Find the height  of the Sears Tower in meters by solving the equation
- 	<me>9.5=\sqrt{\dfrac{h}{4.9}}</me></p></statement>
+ 	<md>9.5=\sqrt{\dfrac{h}{4.9}}</md></p></statement>
 
 <solution><p>To solve the equation, we undo the operations performed on <m>h</m>. To undo the operation of taking a square root, we can square both sides of the equation. Remember that we undo the operations in the opposite order, as follows.</p>
 
@@ -70,13 +70,13 @@ You can check that <m>x=19</m> satisfies the original equation.</p>
 	<idx><h>extraneous solution</h></idx>
 
 <p>The technique of squaring both sides may introduce <term>extraneous solutions</term>. (Recall that an extraneous solution is a value that is not a solution to the original equation.) For example, consider the equation
-	<me>\sqrt{x+2}=-3</me>
+	<md>\sqrt{x+2}=-3</md>
 Squaring both sides gives us
 	<md><mrow>(\sqrt{x+2})^2 \amp =(-3)^2</mrow>
 		<mrow>x+2 \amp = 9</mrow>
 		<mrow> x \amp = 7</mrow></md>
 However, if we substitute  into the original equation, we see that it is not a solution.
-	<me>\sqrt{\blert{7}+2} = \sqrt{9} = 3 \not= -3</me>
+	<md>\sqrt{\blert{7}+2} = \sqrt{9} = 3 \not= -3</md>
 The value <m>x=7</m> is a solution to the squared equation, but not to the original equation. In this case, the original equation has no solution.</p>  
 
 <exercise number="2"><statement><p>When we solve a radical equation, what can cause extraneous solutions to be 
@@ -93,7 +93,7 @@ The value <m>x=7</m> is a solution to the squared equation, but not to the origi
 <example xml:id="Example-9-5-3"><statement><p>Solve  <m>~~4+\sqrt{8-2x} = x</m></p></statement>
 
 <solution><p>We first isolate the radical by subtracting  from both sides to get
-	<me>\sqrt{8-2x} = x-4</me>
+	<md>\sqrt{8-2x} = x-4</md>
 Now we square both sides to obtain
 	<md><mrow>(\sqrt{8-2x})^2 \amp = (x-4)^2</mrow>
 		<mrow>8-2x \amp =x^2-8x+16 \amp \amp \blert{\text{Write in standard form.}}</mrow>
@@ -113,7 +113,7 @@ Thus, <m>x=2</m> is an extraneous solution. The only solution to the original eq
 </solution></example>
  
 <warning><p>When squaring both sides of an equation, we must be careful to square the entire expression on either side of the equal sign. It is incorrect to square each term separately. Thus, in <xref ref="Example-9-5-3" text="type-global"/>, it would not be correct to write
-	<me> ( \sqrt{8-2x})^2 = x^2-4^2 ~~~~~~~~~~~~\alert{\text{Incorrect!}}</me></p>
+	<md> ( \sqrt{8-2x})^2 = x^2-4^2 ~~~~~~~~~~~~\alert{\text{Incorrect!}}</md></p>
 </warning>
 
 <exercise number="3"><statement><p>True or false: to solve a radical equation, we should square each term of the equation. Explain your answer.</p></statement>
@@ -251,7 +251,7 @@ We write the solutions as <m>~\dfrac{1 \pm 3\sqrt{2}}{2}</m>.</p>
 <activity><title>Roller Coasters</title>
 
 <p>You have been commissioned to design a new roller coaster for an amusement park. The roller coaster should be more spectacular than all existing roller coasters, and in particular it should include a vertical loop. In order to stay on the track through the loop, the cars must travel at a speed given (in miles per hour) by
-	<me>v=\sqrt{89.3r}</me>
+	<md>v=\sqrt{89.3r}</md>
 where <m>r</m> is the radius of the loop in feet.</p>
 	<p>Here are three roller coasters with ver tall vertical loops:</p>
 

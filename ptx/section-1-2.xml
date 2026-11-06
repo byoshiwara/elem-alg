@@ -11,7 +11,7 @@
     <p>An <term>algebraic expression</term>, or simply an <term>expression</term>, is any meaningful combination of numbers, variables, and operation symbols.</p></assemblage>
 
 <p>For example,
-	<me>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</me>
+	<md>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</md>
 are algebraic expressions. An important part of algebra involves translating word phrases into algebraic expressions.</p> 
 
 <example xml:id="Example-1-2-1"><statement><p>Write an algebraic expression for each quantity.<ol marker="a.">
@@ -20,11 +20,11 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <solution><p><ol marker="a.">
 	<li><p>The amount invested is unknown, so we choose a variable to represent it.
-			<me>\blert{\text{Amount invested in stocks:}~~~s}</me>
+			<md>\blert{\text{Amount invested in stocks:}~~~s}</md>
 		Next, we identify the operation described:  "30% of"  means 0.30 times:
-			<me>\text{The expression is} ~~~~\blert{0.30 \times s}</me></p></li>
+			<md>\text{The expression is} ~~~~\blert{0.30 \times s}</md></p></li>
 	<li><p>The cost of the dinner is unknown, so we choose a variable to represent it.
-			<me>\blert{\text{Cost of dinner:}~~~C}</me>
+			<md>\blert{\text{Cost of dinner:}~~~C}</md>
 		Next, we identify the operation described:  "Split" means divided:
 			<me>\text{The expression is} ~~~~\blert{C \div 3}</me></p></li>
 </ol></p></solution></example>
@@ -47,9 +47,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term><idx><h>sum</h></idx> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term><idx><h>term</h><h>of the sum</h></idx> of the sum.</p>
 <!--    <sidebyside width="50%"><image source="photos/fig-1-2-1.png"/></sidebyside> -->
-        <image xml:id="fig-1-2-1" width="60%">
-        <description>sums</description>
-        <latex-image>
+        <image xml:id="fig-1-2-1" width="60%"><description>sums</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
@@ -71,8 +69,7 @@ are algebraic expressions. An important part of algebra involves translating wor
         \draw[blue, <-, >=stealth'] (Ca)--(C);
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (3.5,-0.2)--(D)  node [below,midway,yshift=-4pt] {sum};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 
 <example><statement><p>Write sums to represent the following phrases.<ol marker="a." cols="2">
     <li><p>Six more than <m>x</m></p></li>
@@ -102,9 +99,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <assemblage><title>Look Closer</title>
 <p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
 <!--    <sidebyside width="70%"><image source="photos/fig-1-2-2.png"/></sidebyside>-->
-        <image xml:id="fig-1-2-2" width="90%">
-        <description>products</description>
-        <latex-image>
+        <image xml:id="fig-1-2-2" width="90%"><description>products</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
@@ -156,7 +151,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <assemblage><title>Look Closer</title>
 <p>In the previous Example, 
-    <me>10z = 10 \cdot z = z \cdot 10</me> 
+    <md>10z = 10 \cdot z = z \cdot 10</md> 
 because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
 
 <assemblage><title>Commutative Law for Multiplication</title>
@@ -179,9 +174,7 @@ because two numbers can be multiplied in either order to give the same answer. T
 
 <p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term><idx><h>difference</h></idx> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term><idx><h>term</h><h></h></idx>.</p>
 <!--    <sidebyside width="70%"><image source="photos/fig-1-2-3.png"/></sidebyside>-->
-        <image xml:id="fig-1-2-3" width="85%">
-        <description>differences</description>
-        <latex-image>
+        <image xml:id="fig-1-2-3" width="85%"><description>differences</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
@@ -216,10 +209,10 @@ because two numbers can be multiplied in either order to give the same answer. T
 
 <warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
 "<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
-    <me>\begin{aligned}
+    <md>\begin{aligned}
             b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b\\ 
             x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x\\
-    \end{aligned}</me>
+    \end{aligned}</md>
 The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
@@ -228,9 +221,7 @@ The operation of subtraction is not commutative.</p></warning>
 
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
 <!--    <sidebyside width="80%"><image source="photos/fig-1-2-4.png"/></sidebyside>-->
-        <image xml:id="fig-1-2-4" width="85%">
-        <description>quotients</description>
-        <latex-image>
+        <image xml:id="fig-1-2-4" width="85%"><description>quotients</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} 
         \coordinate (O) at (0,0);
@@ -258,7 +249,7 @@ The operation of subtraction is not commutative.</p></warning>
 
 <assemblage><title>Look Closer</title>
 <p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, 
-    <me>12 \div 3 = 4~~~ \text{but} ~~~3 \div 12 = \dfrac{1}{4}</me>.</p></assemblage>
+    <md>12 \div 3 = 4~~~ \text{but} ~~~3 \div 12 = \dfrac{1}{4}</md>.</p></assemblage>
 
 <example><statement><p>Write an algebraic expression for each phrase.<ol marker="a." cols="2">
     <li><m>z</m> subtracted from <m>13</m></li>
@@ -288,7 +279,7 @@ The operation of subtraction is not commutative.</p></warning>
 <p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
 
 <example xml:id="Example-1-2-5"><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
-	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
+	<md>\dfrac{R}{4} = \alert{540} \div 4 = 135</md>
 Fernando's share of the rent is $135.</p></statement></example>
 
 <p>In the previous Example, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
@@ -300,7 +291,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 <assemblage><title>Distance</title>
 <idx><h>distance</h><h>formula for</h></idx>
     <p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
-	<me>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</me></p></assemblage>
+	<md>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</md></p></assemblage>
 
 <example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
 
@@ -312,7 +303,7 @@ The train will travel 240 miles.</p></solution></example>
 <assemblage><title>Profit</title>
 <idx><h>profit</h><h>formula for</h></idx>
     <p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
-	<me>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</me></p></assemblage>
+	<md>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</md></p></assemblage>
 
 <example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
 
@@ -336,7 +327,7 @@ The account will earn $132 in interest.</p></solution></example>
 <assemblage><title>Percent</title>
 <idx><h>percent</h><h>formula for</h></idx>
     <p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
-	<me>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</me></p></assemblage>
+	<md>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</md></p></assemblage>
 
 <example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
 
@@ -348,7 +339,7 @@ You would need 12 gallons of ginger ale.</p></solution></example>
 <assemblage><title>Average</title>
 <idx><h>average</h><h>formula for</h></idx>
     <p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
-	<me>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</me></p></assemblage>
+	<md>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</md></p></assemblage>
 
 <example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
 <solution><p>We evaluate the formula with <m>S=\alert{15+16+18+18+12}</m> and <m>n=\alert{5}</m> to find
@@ -368,7 +359,7 @@ Bert's average score is 15.8.</p></solution></example>
 <problem>
 <p><ol label="A.">
 <li><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p>
+	<md>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</md></p>
 
     <p><ol label="1.">
         <li><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></li>

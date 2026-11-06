@@ -11,7 +11,7 @@
 <p>The <term>intercepts</term> of a line are the points where the graph crosses the axes.</p></assemblage>
 
 <p>It is easy to recognize the intercepts of a line on a good graph. Here is a graph of the line  
-        <me>y=\dfrac{1}{2}x+4</me></p>
+        <md>y=\dfrac{1}{2}x+4</md></p>
 <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%">
     <stack><p>We can see that its <m>x</m>-intercept is the point <m>(-8,0)</m>, and its <m>y</m>-intercept is <m>(0,4)</m>.</p> 
     <p>If we have an equation for a line we can find the intercepts of its graph algebraically. In Example 1 we'll use algebra to find the intercepts of this line.</p></stack>
@@ -43,7 +43,7 @@
 <example><statement><p>Use algebra to find the intercepts of the graph of <m>~y=\dfrac{1}{2}x+4</m>.</p></statement>
 
 <solution><p>To find the <m>y</m>-intercept, we substitute <m>\alert{0}</m> for <m>x</m> in the equation and solve for <m>y</m>.  
-	<me>y=\dfrac{1}{2}(\alert{0})+4 = 4</me>  
+	<md>y=\dfrac{1}{2}(\alert{0})+4 = 4</md>  
 The <m>y</m>-intercept is <m>(0,4)</m>, as we saw above. To find the <m>x</m>-intercept, we substitute <m>\alert{0}</m> for <m>y</m> in the equation and solve for <m>x</m>.
 	<md><mrow>\alert{0} \amp = \dfrac{1}{2}x+4 \amp \amp  \blert{\text{Subtract 4 from both sides.}}</mrow>
         <mrow>-4  \amp = \dfrac{1}{2}x  \amp \amp  \blert{\text{Multiply both sides by 2.}}</mrow>
@@ -180,7 +180,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 
 <solution><p><ol marker="a.">
 	<li><p>An equation for the temperature is
-		<me>T=-12+2h</me>
+		<md>T=-12+2h</md>
 		A graph of the equation is shown below. </p>
 		<!--<image source="photos/fig-3-1-ex3.png"><description>graph</description></image>-->
     <image width="55%" xml:id="fig-3-1-ex3"><description>graph: line and intercepts</description><latex-image>
@@ -205,7 +205,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
         \filldraw[red!80!black] (0,-6) circle (2mm);
         \end{tikzpicture}]]></latex-image></image></li>
 	<li><p>To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for<m>T</m>.
-			<me>T=-12 + 2(\alert{0})=-12</me>
+			<md>T=-12 + 2(\alert{0})=-12</md>
 		The <m>T</m>-intercept is <m>(0,-12)</m>. This point tells us that when <m>h=0,~ T=-12</m>, or the temperature at noon was <m>-12 \degree</m>.</p>
 		<p>To find the <m>h</m>-intercept, we set <m>T=0</m> and solve for <m>h</m>. 
 			<md><mrow>\alert{0} \amp = -12+2h \amp \amp  \blert{\text{Add 12 to both sides.}}</mrow>
@@ -253,7 +253,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
     <li><sidebyside widths="55% 45%" valigns="middle middle">
         <p><ol marker="a.">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of 
-            <me>3x-2y=12</me></li>
+            <md>3x-2y=12</md></li>
     <li><p>Graph by the intercept method.</p><p></p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -272,7 +272,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
     <li><sidebyside widths="55% 45%" valigns="middle middle">
         <p><ol marker="a.">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of 
-            <me>2x=5y-10</me></li>
+            <md>2x=5y-10</md></li>
     <li><p>Graph by the intercept method.</p><p></p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -311,7 +311,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 
 <li><sidebyside widths="55% 40%" valigns="middle middle">
     <p>Sheri bought a bottle of multivitamins for her family. The number of vitamins left in the bottle after <m>d</m> days is given by
-        <me>N=300-5d</me>
+        <md>N=300-5d</md>
     <ol label="a.">
     <li><p>Find the intercepts and use them to make a graph of the equation.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              

@@ -339,7 +339,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>Icon Industries produces all kinds of electronic equipment. The cost, <m>C</m>, of producing a piece of equipment depends on the number of hours, <m>t</m>, it takes to build it, where
-	<me>C=8t^2-32t-16</me>
+	<md>C=8t^2-32t-16</md>
 How many hours does it take to build a transformer if it costs $80 to produce?</p></statement>
 </exercise>
 

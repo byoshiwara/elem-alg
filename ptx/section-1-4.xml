@@ -11,14 +11,14 @@
 <p>An <term>equation</term> is a statement that two expressions are equal. It may involve one or more variables.</p></assemblage>
 
 <example xml:id="Example-1-4-1"><statement><p>Liz makes $6 an hour as a tutor in the Math Lab. Her weekly earnings, <m>w</m>, depend on the number of hours she works, <m>h</m>. The equation relating these two variables is
-	<me>w=6h</me>
+	<md>w=6h</md>
 If we know the value of <m>h</m>, we can evaluate the expression <m>6h</m> to find Liz's earnings. For example, if <m>h=\alert{7}</m>, then
-	<me>w=6(\alert{7})=42</me>
+	<md>w=6(\alert{7})=42</md>
 Liz makes $42 for 7 hours of work. </p></statement></example>
 
 <p>In the previous Example we used <term>evaluation</term> to find the value of <m>w</m> when we knew the value of <m>h</m>. What if we know the value of <m>w</m> and want to find <m>h</m>?</p>
 <p> Suppose Liz earned $54 last week. How many hours did she work? To answer this question we substitute <m>\alert{54}</m> for <m>w</m>, so that the equation becomes
-	<me>\alert{54} = 6h</me> 
+	<md>\alert{54} = 6h</md> 
 Now we have an equation in just one variable. We would like to find the value of <m>h</m> that makes this equation true. You can probably see that the solution of the equation <m>~54=6h~</m> is 9, that is, <m>h=9</m>. </p>
 
 <assemblage><title>Solution of Equation</title>
@@ -165,10 +165,10 @@ The solution to this equation is 15. You can check that substituting <m>\alert{1
 <assemblage><title>Properties of Equality</title>
     <idx><h>properties of equality</h><h>addition and subtraction</h></idx>
 <p>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
-    <me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></p>
+    <md>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</md></p>
 <idx><h>properties of equality</h><h>multiplication and division</h></idx>
 <p>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
-    <me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></p>
+    <md>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</md></p>
 </assemblage>
 
 <p>Applying any one of these properties to an equation produces an <term>equivalent equation</term>: one with the same solutions as the original equation.</p>       
@@ -182,12 +182,12 @@ The solution to this equation is 15. You can check that substituting <m>\alert{1
 <example><statement><p>A saving's account at Al's Bank earns 5% annual interest. Jan's account earned $42.50 in interest last year. What was her balance at the beginning of the year?</p></statement>
 
 <solution><p>First, we choose the appropriate formula. This is a problem about interest, so we use the interest formula:
-    <me>\blert{I=Prt}</me> 
+    <md>\blert{I=Prt}</md> 
 Next, we list the values of the variables. (Which variable is unknown?)
 	<md><mrow>I \amp = \alert{42.50} \amp  r \amp = \alert{0.05}</mrow>
 		<mrow>P \amp = \text{unknown}	\amp  t \amp = \alert{1}</mrow></md> 
 We substitute the values into the formula:
-<me>\alert{42.50}=P(\alert{0.05})(\alert{1})</me>
+    <md>\alert{42.50}=P(\alert{0.05})(\alert{1})</md>
 Then we solve the equation:
 	<md><mrow>\dfrac{42.50}{0.05} \amp =\dfrac{P(0.05)}{0.05} \amp \amp \blert{\text{Divide both sides by}~0.05.}</mrow>
 		<mrow>850 \amp = P </mrow></md>
@@ -425,7 +425,7 @@ Finally, we answer the question in a sentence:
 <li><p>A two-bedroom house costs $20,000 more than a condo in the same neighborhood. The two-bedroom house costs $405,000. How much does the condo cost?</p>
 
     <p>Step 1: Choose a variable for the unknown quantity.
-        <me>\blert{\text{Cost of the condo:}}~<fillin characters="4"/></me></p>
+        <md>\blert{\text{Cost of the condo:}}~<fillin characters="4"/></md></p>
     <p>Step 2: Write an equation in terms of your variable.                       
         <md><mrow>\blert{\text{Cost of condo}} \amp + <fillin characters="4"/> = \blert{\text{Cost of two-bedroom house}}</mrow>
         <mrow><fillin characters="4"/> \amp + <fillin characters="4"/> = <fillin characters="4"/></mrow></md></p>

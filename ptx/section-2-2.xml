@@ -11,9 +11,9 @@
 <example xml:id="Example-2-2-1"><statement><p>Alida keeps $100 in cash from her weekly paycheck, and deposits 40% of the remainder in her savings account. If Alida's paycheck is <m>p</m>, write an expression for the amount she deposits in savings.</p></statement>
 
 <solution><p>How would we calculate Alida's deposit if we knew her paycheck? Suppose Alida's paycheck is $500. First she subtracts $100 from that amount to get <m>500-100</m>, and then she takes 40% of the remainder for savings:
-	<me>0.40(\alert{500}-100)~~~~~\blert{\text{Perform operations inside parentheses first.}}</me>
+	<md>0.40(\alert{500}-100)~~~~~\blert{\text{Perform operations inside parentheses first.}}</md>
 If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> instead of on 500. The expression is thus
-	<me>0.40(\alert{p}-100)</me></p></solution></example>
+	<md>0.40(\alert{p}-100)</md></p></solution></example>
 
 <exercise number="1"><statement><p>We write an expression with variables using the same operations we would use to calculate with a <fillin characters="6"/>.</p></statement>
     	<answer><p>specific number</p></answer></exercise>
@@ -194,7 +194,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 
 <p><ol marker="1.">
 <li><p>When a company purchases a piece of equipment such as a computer or a copy machine, the value of the equipment depreciates over time. One way to calculate the value of the equipment uses the formula
-    <me>V=C\left(1-\dfrac{t}{n}\right)</me>
+    <md>V=C\left(1-\dfrac{t}{n}\right)</md>
 where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of years since it was purchased, and <m>n</m> stands for the useful lifetime of the equipment in years. Find the value of a 4-year-old copy machine if it has a useful lifetime of 6 years and cost $3000 when new. 
 <ol marker="a.">
     <li>List the values of the variables:

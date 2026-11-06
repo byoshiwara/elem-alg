@@ -62,7 +62,7 @@
 <p>Of course, you can verify that you will get the same answer for <xref ref="Example-7-4-3" text="type-global"/> if you compute the square by multiplying <m>~(2x+3)(2x+3)</m>.</p>
 
 <warning><p>We cannot square a binomial by squaring each term separately! For example, it is NOT true that
-	<me>(2x+3)^2 = 4x^2+9~~~~~~\alert{\text{Incorrect!}}</me> 
+	<md>(2x+3)^2 = 4x^2+9~~~~~~\alert{\text{Incorrect!}}</md> 
 We must use the distributive law to multiply the binomial times itself.</p></warning>
 
 <exercise number="3"><statement><p>How do we compute <m>~(a+b)^2</m>?</p></statement>
@@ -72,7 +72,7 @@ We must use the distributive law to multiply the binomial times itself.</p></war
 <subsection><title>Difference of Two Squares</title>
 
 <p>Now consider the product
-	<me>(a+b)(a-b) = a^2 - ab + ab - b^2</me>
+	<md>(a+b)(a-b) = a^2 - ab + ab - b^2</md>
 In this product, the two middle terms cancel each other, and we are left with a difference of two squares.</p>
 
 <assemblage><title>Difference of Two Squares</title>
@@ -113,7 +113,7 @@ In this product, the two middle terms cancel each other, and we are left with a 
 <example><statement><p>Factor <m>~x^2+24x+144</m></p></statement>
 
 <solution><p>This trinomial has two squared terms, <m>x^2</m> and <m>144</m>. These terms are <m>a^2</m> and <m>b^2</m>, so <m>a=x</m> and <m>b=12</m>. We check whether the middle term is equal to <m>2ab</m>.
-	<me>2ab=2(x)(12) = 24x</me>
+	<md>2ab=2(x)(12) = 24x</md>
 This is the correct middle term, so our trinomial has the form (1), with <m>a=x</m> and <m>b=12</m>. Thus,
 	<md><mrow>a^2+2ab+b^2 \amp = (a+b)^2 \amp \amp \blert{\text{Replace}~a~\text{by}~x~\text{and}~b~ \text{by}~12.}</mrow>
 		<mrow>x^2+24x+144 \amp = (x+12)^2</mrow></md></p>
@@ -126,7 +126,7 @@ This is the correct middle term, so our trinomial has the form (1), with <m>a=x<
     <answer><p><m>(a+b)(a-b)</m></p></answer></exercise>
 
 <warning><p>The sum of two squares, <m>~a^2+b^2</m>, cannot be factored!  For example, 
-	<me>x^2+16,~~~~~~9x^2+4y^2,~~~~~~\text{and}~~~~~~25y^4+w^4</me>
+	<md>x^2+16,~~~~~~9x^2+4y^2,~~~~~~\text{and}~~~~~~25y^4+w^4</md>
 cannot be factored. You can check, for instance, that <m>~x^2+16 \not= (x+4)(x+4)</m>.</p></warning>
 
 <assemblage><title>Sum of Two Squares</title>
@@ -139,14 +139,14 @@ cannot be factored. You can check, for instance, that <m>~x^2+16 \not= (x+4)(x+4
 <example><statement><p>Factor completely <m>~98-28x^4+2x^8</m></p></statement>
 
 <solution><p>Each term has a factor of 2, so we begin by factoring out 2.
-	<me>98-28x^4+2x^8 = 2(49-14x^4+x^8)</me>
+	<md>98-28x^4+2x^8 = 2(49-14x^4+x^8)</md>
 The polynomial in parentheses has the form <m>(a-b)^2</m>, with <m>a=7</m> and <m>b=x^4</m>. The middle term is 
-	<me>-2ab=-2(7)(x^4)</me>
+	<md>-2ab=-2(7)(x^4)</md>
  We use equation (2) to write
   	<md><mrow>a^2+2ab+b^2 \amp = (a-b)^2 \amp \amp \blert{\text{Replace}~a~\text{by}~7~\text{and}~b~ \text{by}~x^4.}</mrow>
 		<mrow>49-14x^4+x^8 \amp = (7-x^4)^2</mrow></md>
 Thus,
-	<me>98-28x^4+2x^8 = 2(7-x^4)^2</me></p>
+	<md>98-28x^4+2x^8 = 2(7-x^4)^2</md></p>
 </solution></example>
 
 <exercise number="7"><statement><p>What expression involving squares cannot be factored?</p></statement>

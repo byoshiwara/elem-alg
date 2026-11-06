@@ -58,7 +58,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         <mrow>2y+5x=5</mrow></md></p></statement>
 
 <solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting <m>3x</m> from both sides to get: 
-        <me>y=1-3x</me>
+        <md>y=1-3x</md>
 We now substitute the expression <m>~1-3x~</m> for <m>y</m> in the other equation:</p>
 <!--<image source="photos/fig-4-3-ex2.png"><description>graphic</description></image>-->
     <image width="35%" xml:id="fig-4-3-ex2"><description>substitution</description><latex-image>
@@ -148,7 +148,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 		<mrow>3x+y=-1</mrow></md></p></statement>
 
 <solution><p>We can choose to eliminate either the <m>x</m>-terms or the <m>y</m>-terms in a system. For this example, it will be faster to eliminate the <m>y</m>-terms. If we multiply each term of the second equation by <m>-3</m>, then the coefficients of <m>y</m> will be opposites:
-		<me>\blert{-3}(3x+y=-1)~~\rightarrow ~~ -9x-3y=3</me>
+		<md>\blert{-3}(3x+y=-1)~~\rightarrow ~~ -9x-3y=3</md>
 Note carefully that we must multiply each term by <m>-3</m>, not just the <m>y</m>-term. We can then replace the second equation by its new version to obtain a new system, and we add the equations together:
 		<md><mrow>4x+3y \amp = 7</mrow>
             <mrow>\underline{-9x-3y }\amp \underline{ {}= 3\vphantom{y}}</mrow>
@@ -411,9 +411,9 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
     <li><p>Write an equation about the number of passengers:
-            <me>\hphantom{0000}</me>
+            <md>\hphantom{0000}</md>
         Write an equation about revenue:
-            <me>\hphantom{0000}</me></p></li>
+            <md>\hphantom{0000}</md></p></li>
     <li><p>Solve your system.</p>
         <p>Write your answer in a sentence.</p></li>
     </ol></p></li>
@@ -424,9 +424,9 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
         <md><mrow>x = \hphantom{000000000000}</mrow>
             <mrow>y = \hphantom{000000000000}</mrow></md></p></li>
     <li><p>Write an equation about the perimeter of the playground:
-            <me>\hphantom{0000}</me>
+            <md>\hphantom{0000}</md>
         Write an equation relating the length and the width:
-            <me>\hphantom{0000}</me></p></li>
+            <md>\hphantom{0000}</md></p></li>
     <li><p>Solve your system.</p>
         <p>Write your answer in a sentence.</p></li>
     </ol></p></li>

@@ -10,17 +10,17 @@
 	<idx><h>product</h><h>of polynomials</h></idx>
 
 <p>Suppose we would like to multiply two powers together. For instance, consider the product <m>(x^3)(x^4)</m>,  which can be written as
-	<me>(x^3)(x^4)=xxx \cdot xxxx = x^7</me>
+	<md>(x^3)(x^4)=xxx \cdot xxxx = x^7</md>
 because <m>x</m> occurs as a factor <m>7</m> times. We see that the number of <m>x</m>'s in the product is the sum of the number of <m>x</m>'s in each factor.</p>
 <p>On the other hand, if we'd like to multiply <m>x^3</m> times <m>y^4</m>, we cannot simplify the product because the two powers do not have the same base.
-	<me>(x^3)(y^4)=xxx \cdot yyyy = x^3y^4</me>
+	<md>(x^3)(y^4)=xxx \cdot yyyy = x^3y^4</md>
 These observations illustrate the following rule.</p>
 
 <assemblage><title>First Law of Exponents</title>
 	<idx><h>product</h><h>of polynomials</h></idx>
 	<idx><h>exponent</h><h>first law</h></idx>
 <p>To multiply two powers with the same base, we add the exponents and leave the base unchanged. In symbols,
-	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p></assemblage>
+	<md>\blert{a^m \cdot a^n = a^{m+n}}</md></p></assemblage>
 
 <example><statement><p>In each product below, we keep the same base and add the exponents.<ol marker="a." cols="2">
 	<li><m>x^2 \cdot x^6 = x^8</m></li>
@@ -49,9 +49,9 @@ These observations illustrate the following rule.</p>
 <example><statement><p>Multiply  <m>~~(2x^2y)(5x^4y^3)</m></p></statement>
 
 <solution><p>We rearrange the factors to group together the numerical coefficients and the powers of each base.
-	<me>(2x^2y)(5x^4y^3) = (2)(5)~x^2x^4~yy^3</me>
+	<md>(2x^2y)(5x^4y^3) = (2)(5)~x^2x^4~yy^3</md>
  We multiply the coefficients together, and use the first law of exponents to find the products of the variable factors.                               
- 	<me>(2)(5)~x^2x^4~yy^3 = 10x^6y^4</me></p>
+ 	<md>(2)(5)~x^2x^4~yy^3 = 10x^6y^4</md></p>
  </solution></example>
 
 <exercise number="2"><statement><p>Which law of algebra allows us to rearrange the factors in a product?
@@ -106,7 +106,7 @@ To simplify each term, we group together the coefficients and powers with the sa
 	<md><mrow>2x[\blert{(x+2)(3x-5)}] \amp = 2x[\blert{3x^2-5x+6x-10}]</mrow>
 		<mrow> \amp = 2x(3x^2+x-10)</mrow></md> 
 Next we use the distributive law to multiply the result by <m>2x</m>.
-	<me>2x(3x^2+x-10) = 6x^3+2x^2-20x</me></p>
+	<md>2x(3x^2+x-10) = 6x^3+2x^2-20x</md></p>
 </solution></example>
 
 <exercise number="5"><statement><p>To compute the product <m>3a(a+6)(4a-1)</m>, which factors should we multiply first?</p></statement>
