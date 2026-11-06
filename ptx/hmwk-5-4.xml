@@ -184,8 +184,8 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 31<ndash/>32, find the product without a calculator by using rectangles.  </p></introduction>
 
-<exercise number="31"><statement><p><m>36 \times 42</m>
-	<image width="60%" source="photos/hp-5-4-31"><description>rectangle</description></image></p></statement>
+<exercise number="31"><statement><p><m>36 \times 42</m></p>
+	<image width="60%" source="photos/hp-5-4-31"><description>rectangle</description></image></statement>
  <answer><m>1512</m></answer></exercise>
 
 <exercise number="32"><statement><p><m>82 \times 16</m></p>

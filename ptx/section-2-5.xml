@@ -159,7 +159,7 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
 
 <example><statement><p>Simplify <m>~-5b-(3-2b)+(4b-6)</m></p></statement>
 
-<solution><p>Before combining like terms, we must remove the parentheses. We change the signs of any terms inside parentheses preceded by a minus sign; we do not change the signs of terms inside parentheses preceded by a plus sign.
+<solution><p>Before combining like terms, we must remove the parentheses. We change the signs of any terms inside parentheses preceded by a minus sign; we do not change the signs of terms inside parentheses preceded by a plus sign.</p>
     <!--<image source="photos/fig-2-5-ex7.png"><description>graphic</description></image>-->
     <image width="100%" xml:id="fig-2-5-ex7"><description>equations</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -181,7 +181,7 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
         \node[right] at (O2) {$=-5b+2b +4b-3-6$};
         \coordinate (O3) at (0,-1.4);
         \node[right] at (O3) {$=b-9$};
-        \end{tikzpicture}]]></latex-image></image></p></solution></example>
+        \end{tikzpicture}]]></latex-image></image></solution></example>
 
 <exercise number="5"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>
     	<answer><p>a plus sign</p></answer></exercise>

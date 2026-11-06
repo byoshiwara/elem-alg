@@ -23,6 +23,7 @@
     <!-- HTML-Specific Options -->
     <html>
         <calculator model="geogebra-graphing"/>
+        <mathjax version="4"/>
         <index-page ref="preface"/>
         <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/> 
 <!--    <css style="oscarlevin"/>-->
