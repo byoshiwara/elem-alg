@@ -3,8 +3,13 @@
     <chapter xml:id="chap1"  xmlns:xi="http://www.w3.org/2001/XInclude">
         <title>Variables</title>
 
+<introduction>
+In Chapter 1 we meet the basic tools of algebra: variables and expressions, equations and graphs.
 
-    <xi:include href="./section-1-1.xml" />             
+</introduction>
+
+
+    <xi:include href="./section-1-1.xml" /> 
     <xi:include href="./section-1-2.xml" />            
     <xi:include href="./section-1-3.xml" />            
     <xi:include href="./section-1-4.xml" />            

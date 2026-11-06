@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--********************************************************************
-Copyright 2019 Katherine Yoshiwara
+Copyright 2024 Katherine Yoshiwara
 
 
 
@@ -20,9 +20,6 @@ Elementary Algebra
        
        <xi:include href="./frontmatter.xml" />            <!--  Title Page, Preface, etc.  -->
 
-        <!-- Parts are not full implemented yet                     -->
-        <!-- Once ready, make a new main-file like this, with parts -->
-        <!-- <part> <title>Chapter 1</title> -->
 
         <xi:include href="./chap1.xml" />
         <xi:include href="./chap2.xml" />

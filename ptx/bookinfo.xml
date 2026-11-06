@@ -12,34 +12,37 @@
 <!-- Copyright (C) Katherine Yoshiwara      -->
 
 <docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+<document-id>elemalg</document-id>
+<blurb shelf="Mathematics">
+      Elementary Algebra: Equations and Graphs was written with two goals in mind: to present the skills of algebra in the context of modeling and problem solving, and to engage students in an activity-based course.
+    </blurb>
 
-<brandlogo url="https://yoshiwarabooks.org/" source="images/cover.png" />
+<brandlogo url="https://yoshiwarabooks.org/" source="photos/cover.png" />
 
 
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
-        <rename element="inlineexercise">Reading Question</rename>
-        <rename element="problem">Wrap-Up</rename>
-        <rename element="activity">Warm-Up</rename>
+        <rename element="question">Exercise</rename>
+        <rename element="inlineexercise">QuickCheck</rename>
+        <rename element="problem">Skills Warm-Up</rename>
+        
+        
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
 
 
     <initialism>Elementary Algebra</initialism>
 
-      <latex-preamble>
-        <package>cancel</package>
-      </latex-preamble>
+<!--<docinfo>-->
+<math-package latex-name="cancel" mathjax-name="cancel"/>
 
-    <!-- tikz package and libraries for images -->
-    <latex-image-preamble>
-        \usepackage{tikz}
-        \usetikzlibrary{arrows}
-        \usetikzlibrary{decorations.pathreplacing}
-        \usetikzlibrary{calc,intersections,through,backgrounds}
-        <!-- end new -->
+<latex-image-preamble>
+  \usepackage{tikz}
+  \usetikzlibrary{arrows}
+  \usetikzlibrary{decorations.pathreplacing}
+  \usetikzlibrary{calc,intersections,through,backgrounds}
+</latex-image-preamble>
 
 
-    </latex-image-preamble>
 
    <macros>
         \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}

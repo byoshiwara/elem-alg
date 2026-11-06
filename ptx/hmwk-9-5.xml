@@ -3,7 +3,7 @@
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 9.5</title>
 
-<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>5, solve and check.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>5, solve and check.</p></introduction>
 
 <exercise number="1"><statement><p><m>\sqrt{x+4}=5</m></p></statement>
 <answer><p>21</p></answer></exercise>
@@ -20,13 +20,11 @@
 </exercisegroup>
 
 <exercise number="6"><statement><p>Use the graph of <m>y=\sqrt{x}</m> shown below to solve the equations. (You may have to estimate some of the solutions.) Check your answers algebraically.</p>
-<sidebyside width="45%"><!--<image source="images/hp-9-5-6.png"><description>graph</description></image>-->
+<sidebyside width="45%"><!--<image source="photos/hp-9-5-6.png"><description>graph</description></image>-->
     <image xml:id="hp-9-5-6">
         <description>square root graph</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.4]
         \draw[cyan] (0,0) grid (15,12);
         \draw[black, very thick, ->, >=stealth'] (0,0)--(16,0) node[right]{$x$};
@@ -44,7 +42,7 @@
     </latex-image>
     </image>
 </sidebyside>
-<p><ol label ="a" cols="2">
+<p><ol marker="a." cols="2">
 	<li><m>\sqrt{x} = 4</m></li>
 	<li><m>\sqrt{x} = 2.5</m></li>
 	<li><m>\sqrt{x} = -2</m></li>
@@ -53,13 +51,11 @@
 <exercise number="7"><statement><p>The equation for the semicircle shown is  
 	<me>y=\sqrt{9-x^2}</me>
 Find the <m>x</m>-coordinates of two different points on the semicircle that have <m>y</m>-coordinate 2.</p>
-<sidebyside width="40%"><!--<image source="images/hp-9-5-7.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="photos/hp-9-5-7.png"><description>graph</description></image>-->
     <image xml:id="hp-9-5-7">
         <description>semicircle</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (-5,0) grid (5,5);
         \draw[black, very thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
@@ -95,7 +91,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 <exercise number="12"><statement><p><m>6+\sqrt{5x-4}-x=4</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>15, solve.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>15, solve.</p></introduction>
 
 <exercise number="13"><statement><p><m>2\sqrt[3]{x}+15=5</m></p></statement>
 <answer><p><m>-125</m></p></answer></exercise>
@@ -126,41 +122,39 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 <exercise number="20"><statement><p><m>\dfrac{x^2}{4}-y^2=1~~~~</m> for <m>x</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="21"><statement><p><ol label="a">
+<exercise number="21"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p><sidebyside widths="45% 55%" valigns="middle middle">
-        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>y</m></cell></row>
-                    <row> 
-                        <cell><m>4</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>5</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>6</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>10</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>  
-                    <row>
-                        <cell><m>16</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row> 
-                    <row>
-                        <cell><m>19</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>24</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular>
-    <!-- <image source="images/hp-9-5-21.png"><description>grid</description></image>-->
+<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <row bottom="minor">
+        <cell><m>x</m></cell>
+        <cell><m>y</m></cell></row>
+    <row> 
+        <cell><m>4</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell><m>5</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row> 
+        <cell><m>6</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row>
+        <cell><m>10</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>  
+    <row>
+        <cell><m>16</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row> 
+    <row>
+        <cell><m>19</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>
+    <row>
+        <cell><m>24</m></cell>
+        <cell><m>\hphantom{0000}</m></cell></row>                      
+</tabular>
+    <!-- <image source="photos/hp-9-5-21.png"><description>grid</description></image>-->
     <image xml:id="hp-9-5-21">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (0,0) grid (12,6);
         \draw[black, very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$x$};
@@ -183,9 +177,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     <image xml:id="hp-9-5-21ans">
         <description>square root graph</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (0,0) grid (12,6);
         \draw[black, very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$x$};
@@ -208,7 +200,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
     </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol label="a">
+<exercise number="22"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p><sidebyside widths="45% 50%" valigns="middle middle">
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -220,29 +212,21 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
                     <row> 
                         <cell><m>-2</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>0</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
                     <row>
                         <cell><m>1</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>  
                     <row>
-                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row> 
-                    <row>
-                        <cell><m>8</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell><m>16</m></cell>
+                   <row>
+                        <cell><m>13</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
-    <!-- <image source="images/hp-9-5-22.png"><description>grid</description></image>-->
+    <!-- <image source="photos/hp-9-5-22.png"><description>grid</description></image>-->
     <image xml:id="hp-9-5-22">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture}[scale=.6]
         \draw[cyan] (-2,-4) grid (10,6);
         \draw[black, very thick, ->, >=stealth'] (-2,0)--(11,0) node[right]{$x$};
@@ -263,10 +247,10 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 
 <exercise number="23"><statement><p>The higher your altitude, the farther you can see to the horizon, if nothing blocks your line of sight. From a height of <m>h</m> meters, the distance <m>d</m> to the horizon in kilometers is given by
 	<me>d=\sqrt{12h}</me>
-<ol label="a">
+<ol marker="a.">
 	<li>Mt. Wilson is part of the San Gabriel mountains north of Los Angeles, and it has an elevation of 1740 meters. How far can you see from Mt. Wilson?</li>
 	<li>The new Getty Center is built on the hills above Sunset Boulevard in Los Angeles, and from the patio on a clear day you can see the city of Long Beach, 44 kilometers away. What does this tell you about the elevation at the Getty Center?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p>144.5 km</p></li>
     <li><p>It is at least <m>161\frac{1}{3} </m> m</p></li>
 </ol></p></answer></exercise>
@@ -277,10 +261,10 @@ where <m>d</m> is the depth of the ocean beneath the wave, in feet. A tsunami tr
 
 <exercise number="25"><statement><p>The height of a cylindrical storage tank is four times its radius. If the tank holds <m>V</m> cubic inches of liquid, its radius in inches is
 	<me>r=\sqrt[3]{\dfrac{V}{12.57}}</me>
-<ol label="a">
+<ol marker="a.">
 	<li>If the tank should hold 340 cubic inches, what must its radius be?</li>
 	<li>If the radius of the tank is 5.5 inches, how much liquid can it hold?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
     <li><p>3 in</p></li>
     <li><p>2091 <m>\text{in}^3</m></p></li>
 </ol></p></answer></exercise>

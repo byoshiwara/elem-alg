@@ -14,7 +14,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
 <frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <titlepage>
+    <bibinfo>
         <author>
             <personname>Katherine Yoshiwara</personname>
             <department>Department of Mathematics</department>
@@ -23,28 +23,32 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         </author>
 
         <date><today /></date>
-
-    </titlepage>
-
-    <colophon>
         <copyright>
-            <year>2019</year>
+            <year>2024</year>
             <holder>Katherine Yoshiwara</holder>
             <minilicense>GFDL License</minilicense>
             <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
         </copyright>
+    </bibinfo>
+
+    <titlepage>
+        <titlepage-items/>
+    </titlepage>
+
+    <colophon>
+        <colophon-items/>
     </colophon>
 
 
 
-<preface>
+<preface xml:id="preface">
 <p><term>Elementary Algebra: Equations and Graphs</term> was written with two goals in mind: to present the skills of algebra in the context of modeling and problem solving, and to engage students in an activity-based course.</p> 
 
 <p>Throughout the book, we use applications to motivate algebraic skills.  We present ideas using verbal, numerical, and graphical tools. We use graphs extensively to illustrate algebraic techniques and to help students visualize relationships between variables. In the Homework Problems we break up skills practice into smaller sets of exercises and combine them with conceptual questions, graphing, and applications of various types.</p>
 
 <p>We have included a number of features to encourage student participation.<ul>
 <li>The reading is broken into small segments by using boxes around Examples, definitions, and rules, and flags including Caution, Look Closer, and Look Ahead.</li> 
-<li>We want students to learn how to read a math book, so we have included Reading Questions that mirror the content of the lesson.  For example, the first Reading Question is "A numerical quantity that changes over time or in different situations is called a <m><fillin characters="6"/></m>." Ideally, students would answer these questions before class, perhaps through an on-line homework system.</li>  
+<li>We want students to learn how to read a math book, so we have included Reading Questions that mirror the content of the lesson.  For example, the first Reading Question is "A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>." Ideally, students would answer these questions before class, perhaps through an on-line homework system.</li>  
 <li>Each section ends with a Skills Warm-Up (with answers) for students to complete on their own. The Skills Warm-Up problems review an arithmetic or algebraic technique needed for the Lesson that follows.</li>
 <li>Because choosing appropriate scales for the axes is a time-consuming task for beginning students, the text includes labeled grids for most of the graphing exercises. Ready-made grids allow students to consider a wider range of examples (with "harder" numbers) and to focus on the properties of the graphs, such as intercepts and slope, and on interpreting the information given by the graph. If students are using technology to create graphs, the grids can help them choose an appropriate window.</li></ul></p>
 

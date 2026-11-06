@@ -59,20 +59,17 @@
 How much of the pollution can be removed for $25,000?</p></statement>
 <answer>50%</answer></exercise>
 
-<exercise number="22"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol label="a">
+<exercise number="22"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol marker="a.">
 	<li>What is Pete's batting average so far? (Batting average is the fraction of at-bats that resulted in hits.)</li>
 	<li>If Pete gets hits on every one of his next <m>x</m> at-bats, write an expression for his new batting average.</li>
-	<li>How many consecutive hits does Pete need to raise his batting average to <m>0.350</m>?</li></ol>
+	<li>How many consecutive hits does Pete need to raise his batting average to <m>0.350</m>?</li>
+</ol>
 </p></statement></exercise>
 
 <exercise number="23"><statement><p>The rectangle <m>ABCD</m> in the figure is divided into a square and a smaller rectangle, <m>CDEF</m>. The two rectangles <m>ABCD</m> and <m>CDEF</m> are <term>similar</term>, which means that their corresponding sides are proportional. </p>
-<sidebyside width="25%"><!--<image source="images/hp-8-4-23.png"><description>rectangle</description></image>-->
-    <image xml:id="hp-8-4-23">
-        <description>golden rectangle</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+<!--<image source="photos/hp-8-4-23.png"><description>rectangle</description></image>-->
+    <image width="30%" xml:id="hp-8-4-23"><description>golden rectangle</description><latex-image>
+        <![CDATA[
 		\begin{tikzpicture} [scale=2.5]
 		\def\r{(1+sqrt(5))/2};
 		\draw[magenta!80!black,  line width=1mm] (0,0) rectangle ++({\r},1);
@@ -84,31 +81,31 @@ How much of the pollution can be removed for $25,000?</p></statement>
 		\node [above, yshift=1] at (1,1) {F};
 		\node [above, yshift=1] at ({\r},1) {C};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-<p>A rectangle with this property is called a golden rectangle, and the ratio of its length to its width is called the golden ratio. The golden ratio appears frequently in art and nature, and is considered to give the most pleasing proportions to many figures. We'll compute the golden ratio as follows.<ol label="a">
+    </latex-image></image>
+<p>A rectangle with this property is called a golden rectangle, and the ratio of its length to its width is called the golden ratio. The golden ratio appears frequently in art and nature, and is considered to give the most pleasing proportions to many figures. We'll compute the golden ratio as follows.<ol marker="a.">
 	<li>Let <m>AB=1</m> and <m>AD=x</m>. What are the lengths of <m>AE,~ ED,</m> and <m>CD</m>?</li>
 	<li>Write a proportion in terms of <m>x</m> for the similarity of rectangles <m>ABCD</m> and <m>CDEF</m>. Be careful to match up the corresponding sides.</li>
 	<li>Solve your proportion for <m>x</m>. Find the golden ratio, <m>\dfrac{AD}{AB} = \dfrac{x}{1}.</m></li></ol>
 </p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p><m>AE=1</m>, <m>ED=x-1</m>, <m>CD=1</m></p></li>
 	<li><p><m>\dfrac{x}{1}=\dfrac{1}{x-1} </m></p></li>
 	<li><p><m>\dfrac{1+\sqrt{5}}{2} </m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Compare the procedures for adding fractions and for solving fractional equations in the problems below. Explain how the LCD is used differently for adding and for solving equations.
-<ol label="a" cols="2">
+<ol marker="a." cols="2">
 	<li>Add:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}</m></li>
-	<li>Solve:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}=1</m></li></ol></p></statement></exercise>
+	<li>Solve:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}=1</m></li>
+</ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 25<ndash/>28, <ol label="a"> 
+<exercisegroup><introduction><p>For Problems 25<ndash/>28, <ol marker="a."> 
 	<li>Write an equation to model the problem.</li>
-	<li>Solve your equation and answer the question posed in the problem.</li></ol></p></introduction>
+	<li>Solve your equation and answer the question posed in the problem.</li>
+</ol></p></introduction>
 
 <exercise number="25"><statement><p>An express train travels 180 miles in the same time that a freight train travels 120 miles. If the express train travels 20 miles per hour faster than the freight train, find the speed of each.</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p><m>\dfrac{180}{x+20}=\dfrac{120}{x} </m></p></li>
 	<li><p>freight train: 40 mph; express train: 60 mph</p></li>
 </ol></p></answer></exercise>
@@ -117,12 +114,12 @@ How much of the pollution can be removed for $25,000?</p></statement>
 </p></statement></exercise>
 
 <exercise number="27"><statement><p>Periwinkle Publishing can print the first run of a volume of poems in 10 hours on their new press; the same job takes 18 hours on their old machine. The new press is finishing another job, so the press manager starts the old machine 4 hours ahead of the new one. How many hours are needed with both presses running to finish the printing?</p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p><m>\dfrac{x}{10}+\dfrac{x+4}{18}=1 </m></p></li>
 	<li><p>5 hr</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>It takes 30 minutes to fill a large water tank. However, the tank has a small leak that would completely drain it in 4 hours. How long will it take to fill the tank if the leak is not plugged?
+<exercise number="28"><statement><p>It takes 30 minutes to fill a large water tank. However, the tank has a small leak that would completely drain it in 3 hours. How long will it take to fill the tank if the leak is not plugged?
 </p></statement></exercise>
 </exercisegroup>
 
@@ -142,7 +139,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
 
 <exercise number="30"><statement><p>
     <md><mrow>\dfrac{a}{2} - \dfrac{a}{3} \amp = 1  </mrow>
-        <mrow>6(\dfrac{a}{2} - \dfrac{a}{3}) \amp = 1 </mrow>
+        <mrow>6\left(\dfrac{a}{2} - \dfrac{a}{3}\right) \amp = 1 </mrow>
         <mrow>3a-2a \amp = 1</mrow>
         <mrow>a \amp = 1  </mrow></md></p></statement></exercise>
 
@@ -151,7 +148,7 @@ How much of the pollution can be removed for $25,000?</p></statement>
         <mrow>m^2 \amp = 6m</mrow>
         <mrow>\dfrac{m^2}{m} \amp = \dfrac{6m}{m}</mrow>
         <mrow>a \amp = 6  </mrow></md></p></statement>
-<answer><p>In the third equation, dividiing by <m>m</m> is dividing by <m>0</m> because <m>m=0</m> is one of the solutions. <m>m=6, ~0</m></p></answer></exercise>
+<answer><p>In the third equation, dividing by <m>m</m> is dividing by <m>0</m> because <m>m=0</m> is one of the solutions. <m>m=6, ~0</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="32"><statement><p>If two hens lay two eggs in 2 days, how long will it take six hens to lay six eggs?</p></statement></exercise>

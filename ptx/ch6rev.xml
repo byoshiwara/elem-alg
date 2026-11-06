@@ -15,7 +15,7 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 
 <li><assemblage><title>Extraction of Roots</title>
 	<p>To solve a quadratic equation of the form
-		<me>ax^2+c=0</me><ol label="1">
+		<me>ax^2+c=0</me><ol marker="1.">
 	<li>Isolate <m>x^2</m> on one side of the equation.</li> 
 	<li>Take the square root of each side.</li></ol></p></assemblage>  </li></ul></p>
 </subsection>
@@ -36,7 +36,7 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 <p>	To factor <m>x^2+bx+c</m>, we look for two numbers <m>p</m> and <m>q</m> so that   
 		<me>\blert{pq=c}~~~~\text{and}~~~~\blert{p+q=b}</me></p></assemblage></li>
 
-<li><assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol label="1">
+<li><assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol marker="1.">
 	<li>Write the equation in standard form, 
 		<me>ax^2+bx+c=0~~~~~~(a \not= 0)</me></li>       
 	<li>Factor the left side of the equation.</li>
@@ -48,12 +48,12 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 <li>To find the <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m>, we set <m>y=0</m> and solve the equation <m>ax^2+bx+c=0</m>.</li>
 <li>The high or low point of a parabola is called the <term>vertex</term> of the graph. The parabola has an <term>axis of symmetry</term> that runs through the vertex.</li>
 
-<li><assemblage><title>The Vertex of a Parabola</title><p><ol label="1">
+<li><assemblage><title>The Vertex of a Parabola</title><p><ol marker="1.">
 	<li>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts.</li>
 	<li>To find the <m>y</m>-coordinate of the vertex, substitute its <m>x</m>-coordinate into 
 	the equation of the parabola.</li></ol></p></assemblage></li>
 
-<li><assemblage><title>To Graph a Quadratic Equation</title><p><ol label="1">  
+<li><assemblage><title>To Graph a Quadratic Equation</title><p><ol marker="1.">  
 	<li>Find the <m>x</m>-intercepts:  set <m>y=0</m> and solve for <m>x</m>.</li>
 	<li>Find the vertex:  the <m>x</m>-coordinate is the average of the <m>x</m>-intercepts.  
 	Find the <m>y</m>-coordinate by substituting the <m>x</m>-coordinate into the 
@@ -75,13 +75,13 @@ are given by the formula
 
 <li><assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
 <p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of
-<me> ax^2+bx+c=0</me>There are three possibilities.<ol label="1"> 
+<me> ax^2+bx+c=0</me>There are three possibilities.<ol marker="1."> 
 	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
 	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
 	<li>If both solutions are non-real complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage></li></ul></p></subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol label = "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1.">
 
 <li>What is the standard form for a quadratic equation?</li>
 <li>What are parameters?  What is a parabola?</li>
@@ -121,15 +121,15 @@ are given by the formula
 </exercisegroup>
 
 <exercise number="7"><statement><p>The distance, <m>d</m>, that a penny will fall in <m>t</m> seconds is given in feet by
-	<me>d=16t^2</me><ol label="a">
+	<me>d=16t^2</me><ol marker="a.">
 	<li>If you drop a penny from a height of 144 feet, how long will it take to reach the ground?</li>
 	<li>How far will the penny fall in <m>1 \dfrac{1}{2}</m> seconds?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><p>3 sec</p></li>
 	<li><p>36 ft</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol label="a">
+<exercise number="8"><statement><p><ol marker="a.">
 	<li>How much water would you need to fill a spherical tank of radius 3 feet?</li>
 	<li>A biosphere must contain 7000 cubic inches of space. What is the radius of the biosphere?</li></ol>
 </p></statement></exercise>
@@ -220,26 +220,25 @@ How long is the test flight before the rocket hits the ground?</p></statement>
 gives the sum of the first <m>n</m> counting numbers. How many counting numbers must you add to get a sum of 325?
 </p></statement></exercise>
 
-<exercise number="37"><statement><p>The Corner Market sells <m>160-2p</m> pounds of bananas per week if they charge <m>p</m> cents per pound. <ol label="a">
+<exercise number="37"><statement><p>The Corner Market sells <m>~160-2p~</m> pounds of bananas per week if they charge <m>p</m> cents per pound. <ol marker="a.">
 	<li>Write an expression for the market's weekly revenue, <m>R</m>, from bananas.</li>
-	<li>It costs the market <m>80+24p</m> cents to buy and display the bananas. Write an expression for the market's profit, <m>P</m>, from selling the bananas.</li>
+	<li>It costs the market <m>~80+24p~</m> cents to buy and display the bananas. Write an expression for the market's profit, <m>P</m>, from selling the bananas.</li>
 	<li>If the market made a profit of $22 (or 2200 cents) on bananas last week, how much did they charge per pound?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p><m>R=160p-2p^2</m></p></li>
 	<li><p><m>M=136p-2p^2-80</m></p></li>
 	<li><p>30 cents or 38 cents</p></li></ol></p></answer></exercise>
 
 <exercise number="38"><statement><p>The city park used 136 meters of fence to enclose its rectangular rock garden. The diagonal path across the middle of the garden is 52 meters long.  What are the dimensions of the garden? (Hint:  make a sketch.)</p></statement></exercise>
 
-<exercise number="39"><statement><p><ol label="a">
+<exercise number="39"><statement><p><ol marker="a.">
 <li>Sketch three rectangles of different sizes but such that the length of the rectangle is always twice its width.</li>  
 <li>If the width of a particular such rectangle is <m>w</m> inches, write an equation for its area, <m>A</m>, in terms of <m>w</m>.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>w</m>, and graph your equation.</li>  
-<li>If the area of one of these rectangles is 48 square inches, find its width. Locate the point corresponding to this rectangle on your graph.</li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr6-39.png"><description>grid</description></image>-->
-    <image xml:id="cr6-39">
-        <description>grid</description>
-        <latex-image>
+<li>If the area of one of these rectangles is 48 square inches, find its width. Locate the point corresponding to this rectangle on your graph.</li>
+</ol></p>
+<!--<image source="photos/cr6-39.png"><description>grid</description></image>-->
+    <image width="50%" xml:id="cr6-39"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -256,15 +255,10 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
 		}
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image>
 </statement>
 <answer><p>b. <m>2w^2</m></p><p>c. </p>
-<sidebyside width="40%" margins="0% 60%">
-    <image xml:id="cr6-39ans">
-        <description>parabola</description>
-        <latex-image>
+    <image width="40%" xml:id="cr6-39ans"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -283,21 +277,19 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 		\draw[samples=65,domain=0:{5},smooth,variable=\x,red, ultra thick, ->, >=stealth'] plot ({\x},{0.4*(\x)^2});
 		\filldraw[blue] ({sqrt(24)}, 48/5) ellipse (1mm and 2mm) node[above left, xshift=-6, fill=white, inner sep=1] {(d)};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside><p>d. 4.9 in</p></answer></exercise>
+    </latex-image></image>
+<p>d. 4.9 in</p></answer></exercise>
 
-<exercise number="40"><statement><p><ol label="a">
+<exercise number="40"><statement><p><ol marker="a.">
 <li>Sketch three equilateral triangles of different sizes.</li>
 <li>The area, <m>A</m>, of an equilateral triangle is given by 
 	<me>A=\dfrac{\sqrt{3}}{4}s^2</me>
 where <m>s</m> is the length of one side of the triangle. Rewrite the formula for the area using an approximation to three decimal places.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>s</m>, and graph your equation.</li>  
-<li>If the area of a particular equilateral triangle is 15.6 square inches, find the length of its side. Locate the point corresponding to this triangle on your graph.</li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr6-40.png"><description>grid</description></image>-->
-    <image xml:id="cr6-40">
-        <description>grid</description>
-        <latex-image>
+<li>If the area of a particular equilateral triangle is 15.6 square inches, find the length of its side. Locate the point corresponding to this triangle on your graph.</li>
+</ol></p>
+<!--<image source="photos/cr6-40.png"><description>grid</description></image>-->
+    <image width="50%" xml:id="cr6-40"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -314,21 +306,18 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
 		}
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image>
 </statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>46, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>46, <ol marker="a.">
     <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</li>
     <li>Find the vertex of the graph.</li>
-    <li>Sketch the graph.</li></ol></p></introduction>
+    <li>Sketch the graph.</li>
+</ol></p></introduction>
 
 <exercise number="41"><statement><p><m>y=\dfrac{1}{2}x^2</m></p>
-<sidebyside width="80%"><!--<image source="images/cr6-41.png"><description>grid</description></image>-->
-    <image xml:id="cr6-41">
-        <description>grid</description>
-        <latex-image>
+<!--<image source="photos/cr6-41.png"><description>grid</description></image>-->
+    <image width="90%" xml:id="cr6-41"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -345,16 +334,12 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
-<answer><p><ol label="a">
+    </latex-image></image>
+</statement>
+<answer><p><ol marker="a.">
     <li><p><m>(0,0)</m>; <m>(0,0)</m></p></li>
     <li><p><m>(0,0)</m></p></li>
-    <li><sidebyside width="80%" margins="0% 20%">
-    <image xml:id="cr6-41ans">
-        <description>parabola</description>
-        <latex-image>
+    <li><image width="80%" xml:id="cr6-41ans"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -372,19 +357,14 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         }
         \draw[samples=65,domain={-sqrt(20)}:{sqrt(20)},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{0.5*(\x)^2});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
     </ol></p></answer></exercise>
 
 <exercise number="42"><statement><p><m>y=x^2-4</m></p>
-<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
+<image width="90%" source="photos/cr6-41"><description>grid</description></image></statement></exercise>
 
 <exercise number="43"><statement><p><m>y=x^2-9x</m></p>
-<sidebyside width="80%">
-    <image xml:id="cr6-43">
-        <description>grid</description>
-        <latex-image>
+    <image width="90%" xml:id="cr6-43"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -401,16 +381,12 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
-<answer><p><ol label="a">
+    </latex-image></image>
+</statement>
+<answer><p><ol marker="a.">
     <li><p><m>(0,0), (9,0)</m>; <m>(0,0)</m></p></li>
     <li><p><m>\left(\dfrac{9}{2}, \dfrac{-81}{4}\right) </m></p></li>
-    <li><sidebyside width="80%" margins="0% 20%">
-    <image xml:id="cr6-43ans">
-        <description>parabola</description>
-        <latex-image>
+    <li><image width="80%" xml:id="cr6-43ans"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -428,23 +404,18 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         }
         \draw[samples=65,domain={-sqrt(113)/2+4.5}:{sqrt(113)/2+4.5},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2-9*\x});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
     </ol></p></answer></exercise>
 
 <exercise number="44"><statement><p><m>y=-2x^2-4x</m></p>
-<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
+<image width="90%" source="photos/cr6-41"><description>grid</description></image></statement></exercise>
 
 <exercise number="45"><statement><p><m>y=x^2+6x</m></p>
-<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+<image width="90%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><p><ol marker="a.">
     <li><p><m>(-6,0), (0,0)</m>; <m>(0,0)</m></p></li>
     <li><p><m>(-3,-9)</m></p></li>
-    <li><sidebyside width="80%" margins="0% 20%">
-    <image xml:id="cr6-45ans">
-        <description>parabola</description>
-        <latex-image>
+    <li><image width="80%" xml:id="cr6-45ans"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -461,21 +432,17 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         }
         \draw[samples=65,domain={-sqrt(19)-3}:{sqrt(19)-3},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2+6*\x});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
     </ol></p></answer></exercise>
 
 <exercise number="46"><statement><p><m>y=x^2+3x-4</m></p>
-<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+<image width="90%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, find the unknown sides of the right triangle.</p></introduction>
 
-<exercise number="47"><statement><sidebyside width="40%"><!--<image source="images/cr6-47.png"><description>triangle</description></image>-->
-    <image xml:id="cr6-47">
-        <description>triangle</description>
-        <latex-image>
+<exercise number="47"><statement><!--<image source="photos/cr6-47.png"><description>triangle</description></image>-->
+    <image width="50%" xml:id="cr6-47"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -485,17 +452,13 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 		\node[left] at (-1.1,-1.5) {$m+5$};
 		\node[right] at (0,-1.5) {$m$};
 		\node[above] at (-1,0) {$8$};
-		\end{tikzpicture}
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
+    </latex-image></image>
+</statement>
 <answer><p><m>m=3.9</m>, <m>m+5=8.9</m></p></answer></exercise>
 
-<exercise number="48"><statement><sidebyside width="60%"><!--<image source="images/cr6-48.png"><description>triangle</description></image>-->
-    <image xml:id="cr6-48">
-        <description>triangle</description>
-        <latex-image>
+<exercise number="48"><statement><!--<image source="photos/cr6-48.png"><description>triangle</description></image>-->
+    <image width="75%" xml:id="cr6-48"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -506,9 +469,8 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 		\node[below] at (-1.6,-0.1) {$k$};
 		\node[above left] at (-1.7,1) {$k+1$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement></exercise>
+    </latex-image></image>
+</statement></exercise>
 </exercisegroup>
 
 </exercises>

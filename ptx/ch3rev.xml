@@ -15,7 +15,7 @@
 	<li><p>To find the <m>y</m>-intercept of a graph:</p>
 	<p>Substitute <m>0</m> for <m>x</m> in the equation and solve for <m>y</m>.</p></li></ul></p></assemblage></li>
 
-<li><assemblage><title>To Graph a Linear Equation Using the Intercept Method</title><p><ol label="1">
+<li><assemblage><title>To Graph a Linear Equation Using the Intercept Method</title><p><ol marker="1.">
 	<li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</p></li>   
 	<li>Draw the line through the two intercepts.</li>
 	<li>Find a third point on the graph as a check. (Choose any convenient value for <m>x</m> and solve for <m>y</m>.)</li>
@@ -59,7 +59,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <li>The constant term in the slope-intercept form tells us the initial value of <m>y</m>, and the coefficient of <m>x</m> tells us the rate of change of <m>y</m> with respect to <m>x</m>.</li>
 
 <li><assemblage><title>To Graph a Line Using the Slope-Intercept Method</title>
-<p><ol label="1">
+<p><ol marker="1.">
 	<li>Write the equation in the form <m>y=mx+b</m>.</li> 
 	<li>Plot the  <m>y</m>-intercept, <m>(0,b)</m>.</li> 
 	<li>Write the slope as a fraction, <m>m = \dfrac{\Delta y}{\Delta x}</m>.</li> 
@@ -71,7 +71,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <subsection><title>Lesson 3.5 Properties of Lines</title><p><ul>
 
 <li><assemblage><title>Parallel and Perpendicular Lines</title>
-<p><ol label="1">
+<p><ol marker="1.">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
 		<me>\blert{m_1 = m_2}</me>		
 	or if both lines are vertical.</p></li>
@@ -80,7 +80,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	or if one of the lines is horizontal and one is vertical.</p></li></ol></p></assemblage></li>
 
 <li><assemblage><title>Horizontal and Vertical Lines</title>
-<p><ol label="1">
+<p><ol marker="1.">
 	<li><p>The equation of the horizontal line passing through <m>(0,b)</m> is
 			<me>\blert{y=b}</me></p></li>
 	<li><p>The equation of the vertical line passing through <m>(a,0)</m> is
@@ -91,7 +91,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	<me>\blert{m=\dfrac{y_2-y_1}{x_2-x_1}}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p></assemblage></li></ul></p></subsection>
 
 <subsection><title>Review Questions</title>
-<p>Use complete sentences to answer the questions.<ol label = "1">
+<p>Use complete sentences to answer the questions.<ol marker= "1.">
 <li>Explain how to find the intercepts of a graph.</li>
 <li>What is the difference between a ratio and a proportion?</li>
 <li>State the fundamental property of proportions.</li>
@@ -110,11 +110,9 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, find the <m>x</m>-and <m>y</m>-intercepts of the line, then graph the line.</p></introduction>
 
 <exercise number="1"><statement><p><m>6x-4y=12</m></p>
-    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><p><m>(2,0) </m>, <m>(0,-3)</m></p><sidebyside width="90%">
-    <image xml:id="cr3-1ans">
-        <description>triangle</description>
-        <latex-image>
+    <image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><p><m>(2,0) </m>, <m>(0,-3)</m></p>
+    <image width="100%" xml:id="cr3-1ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -134,25 +132,24 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
         \filldraw[red!80!black] (F) circle (2.5mm);
         \filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+    </latex-image></image>
+</answer></exercise>
 
 <exercise number="2"><statement><p><m>y=-2x+8</m></p>
-    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+    <image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
-<exercise number="3"><statement><p>Monica has saved $7800 to live on while she attends college. She spends $600 a month.<ol label="a">
+<exercise number="3"><statement><p>Monica has saved $7800 to live on while she attends college. She spends $600 a month.<ol marker="a.">
 	<li>Write an equation for the amount, <m>S</m>, in Monica's savings account after <m>m</m> months.</li>
 	<li>Write and solve an equation to answer the question: How long will it be before her savings are reduced to $2400?</li>
 	<li>Explain what the intercepts of your equation mean in terms of the problem.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p><m>S=7800-600m</m></p></li>
 	<li><p><m>2400=7800-600m</m>; <m>~m=9</m> months</p></li>
 	<li><p>The <m>S</m>-intercept at <m>S=7800</m> shows that she started with $7800. The <m>m</m>-intercept at <m>m=13</m> shows that she will use all the money in 13 months.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p>Ronen is on a rock-climbing expedition. He is climbing out of a deep gorge at a rate of 4 feet per minute, and right now his elevation is <m>-156</m> feet.  <ol label="a">
+<exercise number="4"><statement><p>Ronen is on a rock-climbing expedition. He is climbing out of a deep gorge at a rate of 4 feet per minute, and right now his elevation is <m>-156</m> feet.  <ol marker="a.">
 	<li>Write an equation for Ronen's elevation, <m>h</m>, after <m>m</m> minutes.</li>
 	<li>Write and solve an equation to answer the question:  When will his elevation be <m>-20</m> feet?</li>
 	<li>Explain what the intercepts of your equation mean in terms of the problem.</li></ol></p></statement></exercise>
@@ -185,13 +182,13 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 
 <exercise number="12"><statement><p>A small orchard that is 150 yards on each side contains 100 apple trees. The number of trees in an orchard is proportional to the area of the orchard. How many trees are in a larger orchard that is 600 yards on each side? </p></statement></exercise>
 
-<exercise number="13"><statement><p>On a map of Arenac County, 3 centimeters represents 5 miles.<ol label="a">
+<exercise number="13"><statement><p>On a map of Arenac County, 3 centimeters represents 5 miles.<ol marker="a.">
 	<li>What are the true dimensions of a rectangular township whose dimensions on the map are 6 centimeters by 9 centimeters?</li>
 	<li>What is the perimeter of the township? What is the perimeter of the corresponding region on the map?</li>
 	<li>What is the ratio of the perimeter of the actual township to the perimeter of the corresponding region on the map?</li>
 	<li>What is the area of the township? What is the area of the corresponding region on the map?</li>
 	<li>What is the ratio of the area of the actual township to the area of the corresponding region on the map?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p>10 mi by 15 mi</p></li>
 	<li><p>50 mi; 30 cm</p></li>
 	<li><p><m>\dfrac{5}{3} </m></p></li>
@@ -199,7 +196,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 	<li><m>\dfrac{25}{9} </m></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p>On a map of Euclid County, <m>\dfrac{1}{3}</m> inch represents 2 miles. Lake Pythagoras is represented on the map by a right triangle with sides 1 inch, <m>\dfrac{4}{3}</m> inches, and <m>\dfrac{5}{3}</m> inches.<ol label="a">
+<exercise number="14"><statement><p>On a map of Euclid County, <m>\dfrac{1}{3}</m> inch represents 2 miles. Lake Pythagoras is represented on the map by a right triangle with sides 1 inch, <m>\dfrac{4}{3}</m> inches, and <m>\dfrac{5}{3}</m> inches.<ol marker="a.">
 	<li>What are the true dimensions of Lake Pythagoras?</li>
 	<li>What is the perimeter of Lake Pythagoras? What is the perimeter of the corresponding region on the map?</li>
 	<li>What is the ratio of the perimeter of the actual lake to the perimeter of the corresponding region on the map?</li>
@@ -209,16 +206,16 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 
 <exercisegroup><introduction><p>For Problems 15<ndash/>16, decide whether the two variables are proportional.</p></introduction>
 
-<exercise number="15"><statement><p><ol label="a" cols="2">
+<exercise number="15"><statement><p><ol marker="a." cols="2">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>D</m></cell>
+                        <cell><m>~D~</m></cell>
                         <cell><m>0.5</m></cell>
                         <cell><m>1</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>4</m></cell></row>
                     <row> 
-                        <cell><m>V</m></cell>
+                        <cell><m>~V~</m></cell>
                         <cell><m>0.25</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>16</m></cell>
@@ -226,24 +223,24 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
                     </tabular></sidebyside></li>
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>s</m></cell>
+                        <cell><m>~s~</m></cell>
                         <cell><m>0.2</m></cell>
                         <cell><m>0.8</m></cell>
                         <cell><m>1.6</m></cell>
                         <cell><m>2.5</m></cell></row>
                     <row> 
-                        <cell><m>M</m></cell>
+                        <cell><m>~M~</m></cell>
                         <cell><m>0.08</m></cell>
                         <cell><m>0.32</m></cell>
                         <cell><m>0.64</m></cell>
                         <cell><m>1</m></cell></row>
                     </tabular></sidebyside></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p>No</p></li>
     <li><p>Yes</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol label="a" cols="2">
+<exercise number="16"><statement><p><ol marker="a." cols="2">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Time</cell>
@@ -277,10 +274,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, use the graph to find the slope of each line, and illustrate <m>\Delta x</m> and <m>\Delta y</m> on the graph.</p></introduction>
 
 <exercise number="17"><statement><m>3x+2y=-7</m>
-	<sidebyside width="90%"><!--<image source="images/cr3-17.png"><description>graph</description></image>-->
-    <image xml:id="cr3-17">
-        <description>graph of line</description>
-        <latex-image>
+	<!--<image source="photos/cr3-17.png"><description>graph</description></image>-->
+    <image width="100%" xml:id="cr3-17"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -300,16 +295,13 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 		\filldraw[red!80!black] (F) circle (2.5mm);
 		\filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside></statement>
+    </latex-image></image>
+</statement>
 <answer><p><m>\dfrac{-3}{2} </m></p></answer></exercise>
 
 <exercise number="18"><statement><m>3y=5x</m>
-	<sidebyside width="90%"><!--<image source="images/cr3-18.png"><description>graph</description></image>-->
-    <image xml:id="cr3-18">
-        <description>graph of ine</description>
-        <latex-image>
+	<!--<image source="photos/cr3-18.png"><description>graph</description></image>-->
+    <image width="100%" xml:id="cr3-18"><description>graph of ine</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -329,9 +321,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 		\filldraw[red!80!black] (F) circle (2.5mm);
 		\filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside></statement></exercise>
+    </latex-image></image>
+</statement></exercise>
 </exercisegroup>
 
 <exercise number="19"><statement><p>The Palm Springs aerial tramway ascends Mt. San Jacinto at a slope of approximately  0.516. It traverses a horizontal distance of about 11,380 feet. The elevation at the bottom of the tramway is 2643 feet.  What is the elevation at the top?</p></statement>
@@ -340,19 +331,16 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <exercise number="20"><statement><p>The ruins of the Pyramid of Cholula in Guatemala have a square base 1132 feet on each side. The sides of the pyramid rise at a slope of about 0.32. How tall was the pyramid originally?</p></statement>
 </exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, <ol label="a">	
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, <ol marker="a.">	
 	<li>Find the intercepts of the line.</li>
 	<li>Use the intercepts to graph the line.</li>
 	<li>Use the intercepts to find the slope of the line.</li></ol></p></introduction>
 
 <exercise number="21"><statement><m>6x-3y=18</m>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><p><ol marker="a.">
 	<li><p><m>(0,-6) </m>, <m>~(3,0) </m></p></li>
-	<li><sidebyside>
-    <image xml:id="cr3-21ans">
-        <description>line</description>
-        <latex-image>
+	<li><image xml:id="cr3-21ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -372,23 +360,18 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 		\filldraw[red!80!black] (F) circle (2.5mm);
 		\filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside></li>
+    </latex-image></image></li>
 	<li><p><m>m=2</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="22"><statement><m>4y+9x=36</m>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 
 <exercise number="23"><statement><m>\dfrac{x}{2}-\dfrac{y}{3}=1</m>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><p><ol marker="a.">
 	<li><p><m>(2,0) </m>, <m>~(0,-3) </m></p></li>
-	<li><sidebyside>
-    <image xml:id="cr3-23ans">
-        <description>line</description>
-        <latex-image>
+	<li><image xml:id="cr3-23ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -408,25 +391,21 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 		\filldraw[red!80!black] (F) circle (2.5mm);
 		\filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside></li>
+    </latex-image></image></li>
 	<li><p><m>m=\dfrac{3}{2} </m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="24"><statement><m>y=3x-8</m>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, <ol label="a">	
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, <ol marker="a.">	
 	<li>Find the slope and <m>y</m>-intercept of the line.</li>
 	<li>Write an equation for the line.</li></ol></p></introduction>
 
 <exercise number="25"><statement>
-	<sidebyside width="90%"><!--<image source="images/cr3-25.png"><description>graph</description></image>-->
-    <image xml:id="cr3-25">
-        <description>graph of line</description>
-        <latex-image>
+	<!--<image source="photos/cr3-25.png"><description>graph</description></image>-->
+    <image width="100%" xml:id="cr3-25"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -446,19 +425,16 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 		\filldraw[red!80!black] (F) circle (2.5mm);
 		\filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside></statement>
-<answer><p><ol label="a">
+    </latex-image></image>
+</statement>
+<answer><p><ol marker="a.">
 	<li><p><m>m=\dfrac{-3}{5} </m>, <m>~b=3</m></p></li>
 	<li><p><m>y=\dfrac{-3}{5}x+3 </m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="26"><statement>
-	<sidebyside width="90%"><!--<image source="images/cr3-26.png"><description>graph</description></image>-->
-    <image xml:id="cr3-26">
-        <description>graph of line</description>
-        <latex-image>
+	<!--<image source="photos/cr3-26.png"><description>graph</description></image>-->
+    <image width="100%" xml:id="cr3-26"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -478,23 +454,20 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 		\filldraw[red!80!black] (F) circle (2.5mm);
 		\filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-	</sidebyside></statement></exercise>
+    </latex-image></image>
+</statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, <ol label="a">  
+<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, <ol marker="a.">  
     <li>Find the slope and <m>y</m>-intercept of the line.</li>
-    <li>Graph the line using the slope-intercept method.</li></ol></p></introduction>
+    <li>Graph the line using the slope-intercept method.</li>
+</ol></p></introduction>
 
 <exercise number="27"><statement><m>2y+5x=-10</m>
-    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+    <image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><p><ol marker="a.">
     <li><p><m>\dfrac{-5}{2} </m>, <m>~b=-5</m></p></li>
-    <li><sidebyside>
-    <image xml:id="cr3-27ans">
-        <description>line</description>
-        <latex-image>
+    <li><image xml:id="cr3-27ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -514,22 +487,17 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
         \filldraw[red!80!black] (F) circle (2.5mm);
         \filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
 </ol></p></answer></exercise>
 
 <exercise number="28"><statement><m>y+3x=0</m>
-    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+    <image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 
 <exercise number="29"><statement><m>3x=4y-8</m>
-    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><p><ol label="a">
+    <image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><p><ol marker="a.">
     <li><p><m>\dfrac{3}{4} </m>, <m>~b=2</m></p></li>
-    <li><sidebyside>
-    <image xml:id="cr3-29ans">
-        <description>line</description>
-        <latex-image>
+    <li><image xml:id="cr3-29ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -549,13 +517,11 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
         \filldraw[red!80!black] (F) circle (2.5mm);
         \filldraw[red!80!black] (D) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></li>
 </ol></p></answer></exercise>
 
 <exercise number="30"><statement><m>\dfrac{x}{4}-\dfrac{y}{5}=1</m>
-    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+    <image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
 <exercise number="31"><statement><p>This year Francine bought a 3-foot tall blue spruce sapling for her front yard, and it is supposed to grow about 6 inches per year. Write an equation for the height, <m>h</m>, of the tree <m>t</m> years from now.</p></statement>
@@ -579,11 +545,8 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercisegroup cols="2"><introduction><p>For Problems 35<ndash/>36, graph the line with the given slope and passing through the given point.</p></introduction>
 
 <exercise number="35"><statement><m>m=-\dfrac{3}{4},~~(2,-1)</m>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside>
-    <image xml:id="cr3-35ans">
-        <description>line</description>
-        <latex-image>
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement>
+<answer><image xml:id="cr3-35ans"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -601,12 +564,11 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 		\draw[red,very thick, <->, >=stealth'] (-10,8)--(10,-7);
 		\filldraw[red!80!black] (F) circle (2.5mm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+    </latex-image></image>
+</answer></exercise>
 
 <exercise number="36"><statement><m>m=\dfrac{1}{3},~~(0,-3)</m>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
+	<image width="100%" source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>40, find the slope of the line segment joining the points.
@@ -631,10 +593,10 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="42"><statement><p>Perpendicular to the line <m>~y=\dfrac{1}{3}x-2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="43"><statement><p>It costs Delbert $50.40 to fill up the 12-gallon gas tank in his sports car, and $105 to fill the 25-gallon tank in his recreational vehicle.<ol label="a">
+<exercise number="43"><statement><p>It costs Delbert $50.40 to fill up the 12-gallon gas tank in his sports car, and $105 to fill the 25-gallon tank in his recreational vehicle.<ol marker="a.">
 	<li>If you plot price, <m>p</m>, on the vertical axis, and gallons, <m>g</m>, on the horizontal axis, compute the slope of the line segment joining the two points.</li>
 	<li>What does the slope tell you about the problem?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
 	<li><p>4.2</p></li>
 	<li><p>Gas costs $4.20 per gallon.</p></li>
 </ol></p></answer></exercise>
@@ -656,15 +618,15 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 
 <exercisegroup><introduction><p>For Problems 49<ndash/>50, decide whether the lines are parallel, perpendicular, or neither.</p></introduction>
 
-<exercise number="49"><statement><p><ol label="a">
+<exercise number="49"><statement><p><ol marker="a.">
 	<li><m>y=\dfrac{1}{2}x+3;~~x-2y=8</m></li>
 	<li><m>4x-y=6;~~x+4y=-2</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li>parallel</li>
 	<li>perpendicular</li>
 </ol></p></answer></exercise>
 
-<exercise number="50"><statement><p><ol label="a">
+<exercise number="50"><statement><p><ol marker="a.">
 	<li><m>5x+3y=1;~~5y-3x=6</m></li>
 	<li><m>4y-5x=1;~~2y-\dfrac{5}{2}=2</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -697,7 +659,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="52"><statement><m>\dfrac{x}{6}-\dfrac{y}{12}=1</m></statement></exercise>
 
 <exercise number="53"><statement><m>50x=40y-20,000</m></statement>
-<answer><sidebyside width="60%" margins="0% 40%">>
+<answer><sidebyside width="60%" margins="0% 40%">
     <image xml:id="cr3-53ans">
         <description>line</description>
         <latex-image>
@@ -721,7 +683,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="54"><statement><m>1.4x+2.1y=8.4</m></statement></exercise>
 
 <exercise number="55"><statement><m>3x-4y=0</m></statement>
-<answer><sidebyside width="80%" margins="0% 20%">>
+<answer><sidebyside width="80%" margins="0% 20%">
     <image xml:id="cr3-55ans">
         <description>line</description>
         <latex-image>
@@ -745,7 +707,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 <exercise number="56"><statement><m>x=-4y</m></statement></exercise>
 
 <exercise number="57"><statement><m>4x=-12</m></statement>
-<answer><sidebyside width="70%" margins="0% 30%">>
+<answer><sidebyside width="70%" margins="0% 30%">
     <image xml:id="cr3-57ans">
         <description>line</description>
         <latex-image>
