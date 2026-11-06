@@ -15,21 +15,21 @@
 <p>Let's begin with a quick review of the steps for adding fractions in arithmetic. Recall that we can only simplify a sum of like fractions. To add or subtract fractions with unlike denominators, we must convert the fractions to equivalent forms with the same denominator.</p> 
 
 <p>As an example, we'll compute the sum
-	<me>\dfrac{2}{3} + \dfrac{3}{4}</me>
+	<md>\dfrac{2}{3} + \dfrac{3}{4}</md>
 <ol marker="1.">
 	<li><p>We first find the <term>lowest common denominator</term><idx><h>lowest common denominator</h></idx> for the two fractions. The LCD is the smallest number that is a multiple of both 3 and 4, so in this example the LCD is 12.</p></li>  
 	<li><p>	Next, we <term>build</term><idx><h>build (a fraction)</h><see>fractions</see></idx> each fraction to an equivalent fraction with denominator 12. First, we multiply <m>\dfrac{2}{3}</m> by <m>\dfrac{4}{4}</m>. Because <m>\dfrac{4}{4}</m> is equal to 1, we have not changed the value of the fraction.  4 is called the <term>building factor</term><idx><h>building factor</h></idx> for <m>\dfrac{2}{3}</m>. Similarly, we multiply <m>\dfrac{3}{4}</m> by <m>\dfrac{3}{3}</m>.
 		<md><mrow>\dfrac{2}{3} \amp = \dfrac{2 \cdot \blert{4}}{3 \cdot \blert{4}} = \dfrac{8}{12} \amp \amp \blert{\text{The building factor is 4.}}</mrow>
 			<mrow>\dfrac{3}{4} \amp = \dfrac{3 \cdot \blert{3}}{4 \cdot \blert{3}} = \dfrac{9}{12} \amp \amp \blert{\text{The building factor is 3.}}</mrow></md></p></li>
 	<li><p>The new fractions, <m>\dfrac{8}{12}</m> and <m>\dfrac{9}{12}</m>, are like fractions, so we add them by combining their numerators.
-		<me>\dfrac{2}{3} + \dfrac{3}{4} = \dfrac{8}{12} + \dfrac{9}{12} = \dfrac{8+9}{12} = \dfrac{17}{12}</me></p>
+		<md>\dfrac{2}{3} + \dfrac{3}{4} = \dfrac{8}{12} + \dfrac{9}{12} = \dfrac{8+9}{12} = \dfrac{17}{12}</md></p>
 	</li></ol></p>
 
 <assemblage><title>Look Closer</title>
 	<idx><h>building fractions</h></idx>
 	<idx><h>fundamental principle of fractions</h></idx>
 <p>Building is an application of the fundamental principle of fractions,    
-	<me>\blert{ \dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c}},~~~~~\text{if}  ~~~c \not= 0</me>   
+	<md>\blert{ \dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c}},~~~~~\text{if}  ~~~c \not= 0</md>   
 In words, this says that we can multiply the numerator and denominator of a fraction by the same (nonzero) quantity without changing the value of the fraction.</p></assemblage>
 
 <exercise number="1"><statement><p>What does it mean to build a fraction?</p></statement>
@@ -116,7 +116,7 @@ Step 4  We reduce the fraction.
 </solution></example>
 
 <warning><p>In <xref ref="Example-8-3-1" text="type-global"/>, be careful to subtract each term of the numerator in the second fraction.
-	<me>\dfrac{5x+10}{30} - \dfrac{2x-2}{30} = \dfrac{3x \alert{{} + 12}}{30}</me>
+	<md>\dfrac{5x+10}{30} - \dfrac{2x-2}{30} = \dfrac{3x \alert{{} + 12}}{30}</md>
 because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{{ } + 2} = 3x+12</m></p></warning>
 
 <exercise number="2"><statement><p>What is the first step in adding or subtracting unlike fractions?</p></statement>
@@ -163,7 +163,7 @@ because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{{ } + 2} = 3x+12</m></p></warn
 	<md><mrow>12a^3 = \alert{2} \cdot \alert{2} \cdot 3 \cdot \alert{a} \cdot \alert{a} \cdot \alert{a}</mrow>
 		<mrow>18a = 2 \cdot \alert{3} \cdot \alert{3} \cdot a</mrow></md>
 To find an expression that both <m>12a^3</m> and <m>18a</m> divide into evenly, we need only enough factors to "cover" each of them separately. In this case two 2's, two 3's, and three <m>a</m>'s are sufficient, so the LCD is
-<me>\text{LCD} = \alert{2 \cdot 2 \cdot 3 \cdot 3 \cdot a \cdot a \cdot a} = 36a^3</me>
+		<md>\text{LCD} = \alert{2 \cdot 2 \cdot 3 \cdot 3 \cdot a \cdot a \cdot a} = 36a^3</md>
 You can check that <m>36a^3</m> is a multiple of both <m>12a^3</m> and <m>18a</m>.</p>
 </solution></example>
 
@@ -198,13 +198,13 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 	<md><mrow>\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4} \amp = \dfrac{x^2-2x-8}{x(x-2)(x+2)} + \dfrac{4x}{x(x-2)(x+2)}</mrow>
 		<mrow> \amp = \dfrac{x^2+2x-8}{x(x-2)(x+2)}</mrow></md></p>
 <p>Step 4 We reduce the fraction by first factoring numerator and denominator, then dividing out any common factors.
-	<me>\dfrac{x^2+2x-8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{\blert{(x-2)}}}{x\cancel{\blert{(x-2)}}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p>
+	<md>\dfrac{x^2+2x-8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{\blert{(x-2)}}}{x\cancel{\blert{(x-2)}}(x+2)} = \dfrac{x+4}{x(x+2)}</md></p>
 </solution></example>
 
 <exercise number="6"><statement><p>State the four steps for adding or subtracting fractions.</p></statement>
     <answer><p>Find the LCD, build, combine, reduce.</p></answer></exercise>
 
-<problem><sttement>
+<problem><statement>
 
 <p>Simplify.</p>
 <p><ol marker="1.">
@@ -214,7 +214,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 <li><m>(x-3)2x+(x+2)4</m></li>
 <li><m>x^2(x-1)-2x(x+2)</m></li>
 <li><m>3x(x-4)-2(x^2-16)-4x</m></li>
-</ol></p></sttement>
+</ol></p></statement>
 
 <answer><p><ol marker="1." cols="2">
     <li><m>-x+3</m></li>

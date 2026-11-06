@@ -371,10 +371,10 @@ Fill in the middle column first. Then use the table to help you answer the quest
 </exercisegroup>
 
 <exercisegroup><introduction><p>Use one of the formulas below to solve Problems 39<ndash/>40. 
-	<me>\begin{aligned}
+	<md>\begin{aligned}
                 \text{Perimeter of a rectangle}~~~~P \amp  = 2l+2w\\
                 \text{Area of a triangle}~~~~A \amp = \dfrac{bh}{2}               
-                \end{aligned}</me></p></introduction>
+                \end{aligned}</md></p></introduction>
 
 <exercise number="39"><statement><p>A farmer has 500 yards of fencing material to enclose a rectangular pasture. He would like the pasture to be 75 yards wide. How long will it be?</p></statement>
 <answer><p>175 yards</p></answer></exercise>

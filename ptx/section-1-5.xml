@@ -12,7 +12,7 @@
 	<idx><h>order of operations</h><h>multiplication</h></idx>
 
 <p>If you add together three or more numbers, such as 
-	<me>2+5+8</me>
+	<md>2+5+8</md>
 it doesn't matter which addition you do first; you will get the same answer either way.</p>
 
 <example><statement><p><ol marker="a.">
@@ -44,13 +44,13 @@ In these calculations, we get different answers, depending on which operations w
 
 <example xml:id="Example-1-5-2"><statement><p><ol marker="a.">
 	<li>Subtraction:
-		<me>(\blert{20-8})-5=\blert{12}-5=7</me>
+		<md>(\blert{20-8})-5=\blert{12}-5=7</md>
 		but 
-		<me>20-(\blert{8-5})=20-\blert(3)=17</me></li>
+		<md>20-(\blert{8-5})=20-\blert(3)=17</md></li>
 	<li>Division:
-		<me>(\blert{36 \div 6}) \div 2 =\blert{6}\div 2=3</me>
+		<md>(\blert{36 \div 6}) \div 2 =\blert{6}\div 2=3</md>
 		but
-		<me>36 \div(\blert{6 \div 2})=36-\blert(3)=12</me></li>
+		<md>36 \div(\blert{6 \div 2})=36-\blert(3)=12</md></li>
 	</ol></p></statement></example>
 
 <assemblage><title>Subtraction and Division</title><idx><h>subtraction</h><h>not commutative</h><idx><h>division</h><h>not commutative</h></idx></idx>
@@ -86,9 +86,9 @@ In these calculations, we get different answers, depending on which operations w
 <p>How should we simplify the expression  <m>~~4+6 \cdot 2</m> ?</p>
 
 <p>If we do the addition first, we get
-	<me>(\blert{4+6}) \cdot 2 = \blert{10} \cdot 2 = 20</me>
+	<md>(\blert{4+6}) \cdot 2 = \blert{10} \cdot 2 = 20</md>
 If we do the multiplication first, we get
-	<me>4+(\blert{6 \cdot 2}) = 4 + \blert{12} = 48</me></p>
+	<md>4+(\blert{6 \cdot 2}) = 4 + \blert{12} = 48</md></p>
 <p>Which one is correct? In order to avoid confusion, we make the following agreement.</p>
 
 <assemblage><title>Second Rule</title>
@@ -115,13 +115,13 @@ If we do the multiplication first, we get
 <warning><p><ol marker="1.">
 	<li>In <xref ref="Example-1-5-5" text="type-global"/>, we do not start by adding <m>6+2</m>.  We must perform multiplications before additions.</li>  
 	<li><p>We simplify  <m>12 \div 3 \cdot 2</m> by performing the operations from left to right:</p>
-		<me>\blert{12 \div 3} \cdot 2 = \blert{4} \cdot 2 = 8</me></li>
+		<md>\blert{12 \div 3} \cdot 2 = \blert{4} \cdot 2 = 8</md></li>
 	</ol></p></warning> 
 </subsection>
 
 <subsection><title>Parentheses</title>
 <p>What if the addition should come first in a particular calculation? In that case, we use parentheses to enclose the sum, like this:
-		<me>(4+6) \cdot 2</me></p>
+		<md>(4+6) \cdot 2</md></p>
 
 <assemblage><title>Third Rule</title>
 	<idx><h>order of operations</h><h>parentheses</h></idx>
@@ -163,10 +163,10 @@ If we do the multiplication first, we get
 <example xml:id="Example-1-5-7"><statement><p>Simplify <m>~~\dfrac{24+6}{12+6}</m></p></statement>
 
 <solution><p>We begin by computing the sums above and below the fraction bar. Then we can reduce the fraction. Thus,
-	<me>\dfrac{24+6}{12+6} = \dfrac{30}{18}=\dfrac{5}{3}</me></p></solution></example>
+	<md>\dfrac{24+6}{12+6} = \dfrac{30}{18}=\dfrac{5}{3}</md></p></solution></example>
 
 <warning><p>Do not be tempted to "cancel" the terms in <xref ref="Example-1-5-7" text="type-global"/>. For example, it would be incorrect to write 
-    <me>\dfrac{24+6}{12+6} = \dfrac{\Ccancel[blue]{24} +6}{\Ccancel[blue]{12} +6} = \dfrac{2+6}{1+6}~~~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
+    <md>\dfrac{24+6}{12+6} = \dfrac{\Ccancel[blue]{24} +6}{\Ccancel[blue]{12} +6} = \dfrac{2+6}{1+6}~~~~~~~~\alert {\leftarrow \text{Incorrect!}}</md>
 According to the order of operations, we must simplify the numerator and denominator first, before dividing.
 </p></warning>
 
@@ -191,7 +191,7 @@ According to the order of operations, we must simplify the numerator and denomin
 <subsection><title>Algebraic Expressions</title>
 
 <p>The order of operations applies to variables as well as constants.  For example, the expression
-	<me>5+2x</me>
+	<md>5+2x</md>
 tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate the expression for <m>x=\alert{8}</m> for example, we write
 	<md><mrow>\text{For }x=\alert{8},~~~~~~~~~~5+2x \amp = 5+2(\alert{8}) \amp \amp \blert{\text{Multiply first.}}</mrow>
         <mrow>\amp = 5+16=21</mrow></md></p>

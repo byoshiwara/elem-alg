@@ -10,7 +10,7 @@
 	<idx><h>equation</h><h>clearing fractions</h></idx>
 
 <p>How can we solve an equation that involves algebraic fractions? Recall that to solve the equation
-	<me>\dfrac{3x}{4} = 9</me>
+	<md>\dfrac{3x}{4} = 9</md>
  we multiply both sides by 4 (the denominator of the fraction) to "clear" the fraction.
  	<md><mrow>\cancel{\blert{4}}(\dfrac{3x}{\cancel{4}}) \amp = (9)\blert{4}</mrow>
  		<mrow>3x \amp = 36</mrow></md>
@@ -135,12 +135,12 @@ Because division by zero is undefined, <m>3</m> is not a solution after all. The
 	<md><mrow>\blert{\cancel{T}(A-P)} \dfrac{1}{\cancel{T}} \amp = \dfrac{PR}{\cancel{A-P}}\blert{T\cancel{(A-P)}}</mrow>
 		<mrow>A-P \amp = PRT</mrow></md>
 Next, we get all the terms containing the desired variable, <m>P</m>, on one side of the equation. We add <m>P</m> to both sides to get
-	<me>A=P+PRT</me>
+	<md>A=P+PRT</md>
 We now have two unlike terms that contain the desired variable. To proceed, we factor out this variable, and then divide both sides by the remaining factor.
 <md><mrow>A \amp = P(1+RT)~~~~~~~~~\blert{\text{Divide both sides by}~1+RT.}</mrow>
 		<mrow>\dfrac{A}{\blert{1+RT}} \amp = \dfrac{P\cancel{(1+RT)}}{\blert{\cancel{1+RT}}}</mrow></md>
 Thus, the new version of the formula is
-	<me>P=\dfrac{A}{1+RT}</me></p>
+	<md>P=\dfrac{A}{1+RT}</md></p>
 </solution></example>
 
 <exercise number="5"><statement><p>When solving a formula, what should we do if there are two terms that contain the variable?</p></statement>
@@ -150,7 +150,7 @@ Thus, the new version of the formula is
 <subsection><title>Applications</title>
 
 <p>	Recall the formula <m>~d=rt~</m>, which is useful in solving problems about motion. By solving for <m>r</m> or <m>t</m>, we can write the equation in the forms
-	<me>r = \dfrac{d}{t}~~~~~~\text{or}~~~~~~t = \dfrac{d}{r}</me>
+	<md>r = \dfrac{d}{t}~~~~~~\text{or}~~~~~~t = \dfrac{d}{r}</md>
 if either of these is more useful for the problem.</p>
 
 <example><statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water?</p></statement>
@@ -195,9 +195,9 @@ if either of these is more useful for the problem.</p>
     </tabular>
 
 <p>Notice that we did not use the <m>4\dfrac{1}{2}</m> hours in the table, because it was not the trip upstream or the trip downstream that took <m>4\dfrac{1}{2}</m> hours, but the total trip. We use the <m>4\dfrac{1}{2}</m> to write an equation. The sum of the times for the upstream and downstream trips was <m>4\dfrac{1}{2}</m> or <m>\dfrac{9}{2}</m> hours.
-	<me> \dfrac{18}{x+3}+\dfrac{18}{x-3} = \dfrac{9}{2}</me>
+	<md> \dfrac{18}{x+3}+\dfrac{18}{x-3} = \dfrac{9}{2}</md>
 To solve the equation, we multiply both sides by the LCD, <m>2(x-3)(x+3)</m>. 
-	<me> \blert{2(x-3)(x+3)}\left(\dfrac{18}{x+3}+\dfrac{18}{x-3}\right) = \left(\dfrac{9}{2}\right)\blert{2(x-3)(x+3)}</me>
+	<md> \blert{2(x-3)(x+3)}\left(\dfrac{18}{x+3}+\dfrac{18}{x-3}\right) = \left(\dfrac{9}{2}\right)\blert{2(x-3)(x+3)}</md>
 Next, we apply the distributive law to multiply each term of the equation by the LCD.
 	<md><mrow> \blert{2(x-3)\cancel{(x+3)}}\left(\dfrac{18}{\cancel{x+3}}\right)\amp+\blert{2\cancel{(x-3)}(x+3)}\left(\dfrac{18}{\cancel{x-3}}\right)  </mrow>
     <mrow>\amp=\left(\dfrac{9}{\cancel{2}}\right)\blert{\cancel{2}(x-3)(x+3)}</mrow>
@@ -214,9 +214,9 @@ Finally, we check each solution by substituting into the original equation. Neit
 </solution></example>
 
 <p>Problems involving other types of rates can be solved with similar techniques. Suppose it takes you 8 hours to type a term paper for your history class. If you work at a constant rate, in 1 hour you would complete <m>\dfrac{1}{8}</m> of your task. The rate at which you work, or your work rate, is one-eighth job per hour. In 3 hours you would complete  
-	<me>3 \cdot \dfrac{1}{8} = \dfrac{3}{8}</me>
+	<md>3 \cdot \dfrac{1}{8} = \dfrac{3}{8}</md>
 of the job. In <m>t</m> hours you would complete    
-	<me>t \cdot \dfrac{1}{8} = \dfrac{t}{8}</me>
+	<md>t \cdot \dfrac{1}{8} = \dfrac{t}{8}</md>
 of the job. In general, the amount of work done, expressed as a fraction of 1 whole job, is given by the following  formula.</p>
 
 <assemblage><title>Work Formula</title>

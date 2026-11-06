@@ -100,7 +100,7 @@
 
 <sidebyside widths="47% 50%" valigns="middle middle" margins="0% 0%"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term><idx><h>quadrant</h></idx>, or regions, as shown at right. We often use <m>x</m> for the input variable <idx><h>input</h><h>variable</h></idx> and  <m>y</m> for the output variable<idx><h>output</h><h>variable</h></idx>, so the horizontal axis <idx><h>axis</h>horizontal</idx> is called the <term><m>x</m>-axis</term><idx><em>x</em>-axis</idx> and the vertical axis <idx><h>axis</h>vertical</idx> is the <term><m>y</m>-axis</term><idx><em>y</em>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
  <!--<image source="photos/fig-2-3-1.png"><description>grid</description></image>-->
-    <image xml:id="fig-2-3-1"><description>grud: 5 by 5</description><latex-image>
+    <image xml:id="fig-2-3-1"><description>grid: 5 by 5</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -316,7 +316,7 @@
         \filldraw[blue]  (P) circle (2mm) node[below left, xshift=-2, yshift=-2, text=black, fill=white, inner sep=2] {$P$};
         \end{tikzpicture}]]></latex-image></image>
     <p>Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>. To check our solution algebraically, we substitute <m>x=\blert{-3}</m> and <m>y=\alert{-2}</m> into the equation, we get a true statement: 
-        <me>\alert{-2}=\dfrac{-2}{3}(\blert{-3})-4</me>
+        <md>\alert{-2}=\dfrac{-2}{3}(\blert{-3})-4</md>
     This statement also tells us that <m>-3</m> is a solution of the equation <m>~\dfrac{-2}{3}x-4=-2</m>.</p></li>
 </ol></p></solution></example> 
 

@@ -44,14 +44,14 @@
 <idx><h>radical</h></idx>
 
 <p>The positive square root of a number is called the <term>principal square root</term><idx><h>principal square root</h></idx><idx><h>square root</h><h>principal</h></idx>. The symbol <m>\sqrt{\hphantom{00}}</m> denotes the positive or principal square root. Thus, we may write
-	<me>\sqrt{25} = 5~~~~~~\text{and}~~~~~~\sqrt{144}=12</me>
+	<md>\sqrt{25} = 5~~~~~~\text{and}~~~~~~\sqrt{144}=12</md>
 The symbol <m>\sqrt{\hphantom{00}}</m> is called a <term>radical</term><idx><h>radical sign (<m>\sqrt{\hphantom{1} \vphantom{1}} \thinspace </m>)</h></idx> sign, and the number inside is called the <term>radicand</term><idx><h>radicand</h></idx>.  Square roots are often called <term>radicals</term><idx><h>radical</h></idx>.</p>
 
 <p>What about the other square root, the negative one?</p>  
 <p>If we want to indicate the negative square root of a number, we place a negative sign outside the radical sign, like this: 
-	<me>-\sqrt{16}=-4~~~~~~\text{and}~~~~~~ {-\sqrt{49}}=-7</me>
+	<md>-\sqrt{16}=-4~~~~~~\text{and}~~~~~~ {-\sqrt{49}}=-7</md>
 If we want to refer to both square roots, we use the symbol <m>\blert{\pm}</m>,  read "plus or minus."  For example,
-	<me>\pm \sqrt{36}=\pm 6,~~~~\text{which means}~~~~6~~\text{or}~~ {-6}</me>	
+	<md>\pm \sqrt{36}=\pm 6,~~~~\text{which means}~~~~6~~\text{or}~~ {-6}</md>	
 Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 
 <example><statement><p> Find each square root.<ol marker="a." cols="2">
@@ -85,7 +85,7 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
  <p>A <term>rational number</term> is one that can be expressed as a quotient (or ratio) of two integers, where the denominator is not zero.</p></assemblage>
 
  <p>The term "rational" has nothing to do with being reasonable or logical; it comes from the word ratio.  Thus, any fraction such as
- 	<me>\dfrac{2}{3},~~~  \dfrac{-4}{7},~~~ \text{or}~~~ \dfrac{15}{8}</me>
+ 	<md>\dfrac{2}{3},~~~  \dfrac{-4}{7},~~~ \text{or}~~~ \dfrac{15}{8}</md>
 is a rational number. Integers are also rational numbers, because any integer can be written as a fraction with a denominator of 1. (For example, <m>6= \dfrac{6}{1}</m>). All of the numbers we have encountered before this chapter are rational numbers.</p>
 
 <exercise number="5"><statement><p>What is a rational number?</p></statement>
@@ -115,9 +115,9 @@ is a rational number. Integers are also rational numbers, because any integer ca
 
 <p>What about the decimal form for <m>\sqrt{5}</m>?</p> 
 <p>If you use a calculator with an eight-digit display, you will find
-	<me>\sqrt{5} \approx 2.236~ 068</me>
+	<md>\sqrt{5} \approx 2.236~ 068</md>
  However, this number is only an approximation, and not the exact value of <m>\sqrt{5}</m>. (Try squaring <m>2.236~ 068</m>  and you will see that     
- 		<me>2.236~ 068^2 = 5.000~ 000~ 100~ 624</me>
+ 		<md>2.236~ 068^2 = 5.000~ 000~ 100~ 624</md>
  which is not exactly 5, although it is close.) In fact, no matter how many digits your calculator or computer can display, you can never find an exact decimal equivalent for <m>\sqrt{5}</m>. <m>\sqrt{5}</m> is an example of an <term>irrational</term> number.</p>
 
 <assemblage><title>Irrational Number</title>
@@ -173,12 +173,12 @@ is a rational number. Integers are also rational numbers, because any integer ca
 <solution><p>You may be able to enter this expression into your calculator just as it is written. If not, you must enter the operations in the proper order. The expression has two terms, <m>8</m> and <m>~-2\sqrt{7}</m>, and the second term is the product of <m>\sqrt{7}</m> with <m>-2</m>.</p>  
 
 <p>We should not begin by subtracting <m>2</m> from <m>8</m>, because multiplication precedes subtraction. First, we find an approximation for <m>\sqrt{7}</m>:
-	<me>\sqrt{7} \approx 2.6457513</me>
+	<md>\sqrt{7} \approx 2.6457513</md>
 Do not round off your approximations at any intermediate step in the problem or you will lose accuracy at each step! You should be able to work directly with the value on your calculator's display.</p>
 <p>	Next, we multiply our approximation by <m>-2</m> to find
-	<me> -2\sqrt{7} \approx -5.2905026</me>
+	<md> -2\sqrt{7} \approx -5.2905026</md>
 Finally,we add 8 to get
-	<me>8-2\sqrt{7} \approx 2.7084974</me>
+	<md>8-2\sqrt{7} \approx 2.7084974</md>
 Rounding to three decimal places gives <m>2.708</m>.</p>
 </solution></example>
 
@@ -202,7 +202,7 @@ Rounding to three decimal places gives <m>2.708</m>.</p>
 <subsection><title>Cube Roots</title>
 <idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
 <p>Imagine a cube whose volume is 64 cubic inches. What is the length, <m>c</m>, of one side of this cube? Because the volume of a cube is given by the formula <m>~V=c^3</m>, we must find a number that satisfies
-	<me>c^3=64</me>
+	<md>c^3=64</md>
 We are looking for a number <m>c</m> whose cube is 64. With a little trial and error we can soon discover that <m>c=4</m>. The number <m>c</m> is called the <term>cube root</term> of 64, and is denoted by <m>\sqrt[3]{64}</m>.</p>    
 
 <assemblage><title>Cube Root</title>

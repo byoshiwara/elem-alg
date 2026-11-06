@@ -49,7 +49,7 @@
 	<li><m>\sqrt{x} = 5.3</m></li></ol></p></statement></exercise>
 
 <exercise number="7"><statement><p>The equation for the semicircle shown is  
-	<me>y=\sqrt{9-x^2}</me>
+	<md>y=\sqrt{9-x^2}</md>
 Find the <m>x</m>-coordinates of two different points on the semicircle that have <m>y</m>-coordinate 2.</p>
 <sidebyside width="40%"><!--<image source="photos/hp-9-5-7.png"><description>graph</description></image>-->
     <image xml:id="hp-9-5-7">
@@ -246,7 +246,7 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
      <li>Solve <m>~4-\sqrt{x+3}=1~</m> graphically and algebraically. Do your answers agree?</li></ol></p></statement></exercise>
 
 <exercise number="23"><statement><p>The higher your altitude, the farther you can see to the horizon, if nothing blocks your line of sight. From a height of <m>h</m> meters, the distance <m>d</m> to the horizon in kilometers is given by
-	<me>d=\sqrt{12h}</me>
+	<md>d=\sqrt{12h}</md>
 <ol marker="a.">
 	<li>Mt. Wilson is part of the San Gabriel mountains north of Los Angeles, and it has an elevation of 1740 meters. How far can you see from Mt. Wilson?</li>
 	<li>The new Getty Center is built on the hills above Sunset Boulevard in Los Angeles, and from the patio on a clear day you can see the city of Long Beach, 44 kilometers away. What does this tell you about the elevation at the Getty Center?</li></ol></p></statement>
@@ -256,11 +256,11 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 </ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>The speed of a tsunami is given, in miles per hour, by
-	<me>s=3.9\sqrt{d}</me>
+	<md>s=3.9\sqrt{d}</md>
 where <m>d</m> is the depth of the ocean beneath the wave, in feet. A tsunami traveling along the Aleutian Trench off the coast of Alaska is moving at a speed of over 615 miles per hour. Find the depth of Aleutian Trench.</p></statement></exercise>
 
 <exercise number="25"><statement><p>The height of a cylindrical storage tank is four times its radius. If the tank holds <m>V</m> cubic inches of liquid, its radius in inches is
-	<me>r=\sqrt[3]{\dfrac{V}{12.57}}</me>
+	<md>r=\sqrt[3]{\dfrac{V}{12.57}}</md>
 <ol marker="a.">
 	<li>If the tank should hold 340 cubic inches, what must its radius be?</li>
 	<li>If the radius of the tank is 5.5 inches, how much liquid can it hold?</li></ol></p></statement>

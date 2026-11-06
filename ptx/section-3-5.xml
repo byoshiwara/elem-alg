@@ -59,17 +59,17 @@
         \end{tikzpicture}]]></latex-image></image></sidebyside></statement></question>
 
 <p>In the Exercise above, note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,
-	<me>m_1 m_2 = \dfrac{1}{2} (-2) = -1</me>
+	<md>m_1 m_2 = \dfrac{1}{2} (-2) = -1</md>
 This relationship holds for any pair of perpendicular lines.</p>
 
 <assemblage><title>Parallel and Perpendicular Lines</title>
     <idx><h>lines</h><h>parallel</h></idx><idx><h>lines</h><h>parallel</h></idx>
 <p><ol marker="1.">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
-		<me>\blert{m_1 = m_2}</me>		
+		<md>\blert{m_1 = m_2}</md>		
 	or if both lines are vertical.</p></li>
 	<li><p>Two lines are perpendicular if the product of their slopes is <m>-1</m>, that is, if 
-		<me>\blert{m_1 m_2 = -1}</me>
+		<md>\blert{m_1 m_2 = -1}</md>
 	or if one of the lines is horizontal and one is vertical.</p></li>
 </ol></p></assemblage>
 
@@ -80,7 +80,7 @@ This relationship holds for any pair of perpendicular lines.</p>
     	<answer><p>Lines that intersect at right angles</p></answer></exercise>
 
 <example><statement><p>Decide whether the lines  
-      <me>2x+3y=6~~~~~~~~~ \text{and} ~~~~~~~~~3x-2y=6</me>        
+      <md>2x+3y=6~~~~~~~~~ \text{and} ~~~~~~~~~3x-2y=6</md>        
 are parallel, perpendicular, or neither.</p></statement>
 
 <solution><p>We could graph the lines, but we can't be sure from a graph if the lines are exactly parallel or exactly perpendicular. A more accurate way to answer the question is to find the slope of each line. To do this we write each equation in slope-intercept form, that is, we solve for <m>y</m>.</p>
@@ -100,7 +100,7 @@ so the lines are perpendicular.</p></solution></example>
 <assemblage><title>Look Closer</title>
     <idx><h>perpendicular lines</h></idx><idx><h>lines</h><h>perpendicular</h></idx><idx><h>negative reciprocal</h></idx>
 <p>Another way to state the condition for perpendicular lines is 
-	<me>m_2 = \dfrac{-1}{m_1}</me>
+	<md>m_2 = \dfrac{-1}{m_1}</md>
 Because of this relationship, we often say that the slope of one perpendicular line is the <term>negative reciprocal</term> of the other.</p></assemblage>
 
 <exercise number="5"><statement><p>What is true about the slopes of parallel lines?</p></statement>
@@ -120,7 +120,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 <solution><sidebyside widths="45% 35%" valigns="middle middle"><p>Looking at the graph of the line shown at right, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
 	<image source="photos/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
 <p>In particular, the <m>y</m>-intercept of the line is the point <m>(0,3)</m>, so <m>b=3</m>. As we noted above, the slope of the line is <m>m=0</m>. Substituting these values into the slope-intercept form gives us the equation 
-	<me>y= 0 \cdot x + 3</me>
+	<md>y= 0 \cdot x + 3</md>
  or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
 
 <assemblage><title>Look Closer</title>
@@ -142,9 +142,9 @@ Because of this relationship, we often say that the slope of one perpendicular l
     <idx><h>lines</h><h>horizontal</h></idx><idx><h>horizontal line</h><h>equation of</h></idx><idx><h>lines</h><h>vertical</h></idx><idx><h>vertical line</h><h>equation of</h></idx>
 <p><ol marker="1.">
 	<li><p>The equation of the horizontal line passing through <m>(0,b)</m> is
-			<me>\blert{y=b}</me></p></li>
+			<md>\blert{y=b}</md></p></li>
 	<li><p>The equation of the vertical line passing through <m>(a,0)</m> is
-			<me>\blert{x=a}</me></p></li>
+			<md>\blert{x=a}</md></p></li>
 </ol></p></assemblage>
 
 <warning><p>The equation for a line is not the same thing as the slope of the line!<ul>
@@ -165,9 +165,9 @@ Because of this relationship, we often say that the slope of one perpendicular l
 <p>It is easy to compute the distance between two points that lie on the same horizontal or vertical line. We subtract the smaller coordinate from the larger one.</p>
 
 <example><statement><sidebyside widths="45% 53%" valigns="middle middle" margins="0% 0%"><p>The distance between the points <m>A(6, \blert{5})</m> and <m>B(6, \blert{-7})</m> in the figure is
-    <me>\Delta y = 5-(-7)=12</me>
+    <md>\Delta y = 5-(-7)=12</md>
 and the distance between points <m>C(\blert{-7}, -3)</m> and <m>D(\blert{-2}, -3)</m> is                
-    <me>\Delta x = -2-(-7)=5</me></p>
+    <md>\Delta x = -2-(-7)=5</md></p>
 <!--<image source="photos/fig-3-5-ex3.png"><description>graph</description></image>-->
 <image xml:id="fig-3-5-ex3"><description>a vertical segment and a horizontal segment</description><latex-image>
     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -201,9 +201,9 @@ and the distance between points <m>C(\blert{-7}, -3)</m> and <m>D(\blert{-2}, -3
 <assemblage><title>Look Closer</title>
 <p>When we compute slope, the direction in which we move on the line makes a difference. We will call this the <term>directed distance</term><idx><h>directed distance</h></idx><idx><h>distance</h><h>directed</h></idx>, and it can be either positive or negative.</p>
 <p>If we move from <m>C</m> to <m>D</m>, we have moved in the positive <m>x</m>-direction, so the directed distance is positive: 
-	<me>\Delta x = -2-(-7)=5</me>
+	<md>\Delta x = -2-(-7)=5</md>
 If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-direction, so the directed distance is negative:                                        
-	<me>\Delta x = -7-(-2)=-5</me></p></assemblage>
+	<md>\Delta x = -7-(-2)=-5</md></p></assemblage>
 
 <assemblage><title>Directed Distance</title>
     <idx><h>directed distance</h></idx><idx><h>distance</h><h>directed</h></idx>
@@ -250,17 +250,17 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 <solution><p><ol marker="a.">
     <li><p>As we move from <m>P</m> to <m>Q</m>, we move up 2 squares on the graph, so <m>\Delta y = 2</m>. As 
     we move from <m>Q</m> to <m>R</m>, we move 8 squares to the right, so <m>\Delta x = 8</m>. Thus, the slope of the line is 
-        <me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</me></p></li>
+        <md>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</md></p></li>
     <li><p>First we write down the coordinates of <m>P</m> and <m>Q</m>:       
-        <me>P(-3,\blert{-4})~~~~~~\text{and}~~~~~~Q(-3,\blert{-2})</me>
+        <md>P(-3,\blert{-4})~~~~~~\text{and}~~~~~~Q(-3,\blert{-2})</md>
     and compute the directed distance from <m>P</m> to <m>Q</m>:
-        <me>\Delta y = -2-(-4) = 2~~~~~~~~~~~~~~~~~~\blert{\text{final} - \text{initial}}</me>
+        <md>\Delta y = -2-(-4) = 2~~~~~~~~~~~~~~~~~~\blert{\text{final} - \text{initial}}</md>
     Then we write down the coordinates of <m>Q</m> and <m>R</m>: 
-        <me>Q(\blert{-3},-2)~~~~~~\text{and}~~~~~~R(\blert{5},-2)</me>
+        <md>Q(\blert{-3},-2)~~~~~~\text{and}~~~~~~R(\blert{5},-2)</md>
      and compute the directed distance from <m>Q</m> to <m>R</m>:
-          <me>\Delta x = 5-(-3) = 8~~~~~~~~~~~~~~~~~~\blert{\text{final} - \text{initial}}</me>
+          <md>\Delta x = 5-(-3) = 8~~~~~~~~~~~~~~~~~~\blert{\text{final} - \text{initial}}</md>
     We get the same value for the slope as in part (a),   
-            <me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</me></p></li>
+            <md>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</md></p></li>
 </ol></p></solution></example>
 </subsection>
 
@@ -303,11 +303,11 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
     <md><mrow>D:~~~x_1 \amp =-6 \amp\amp \text{and}\amp y_1 \amp =-2</mrow>
         <mrow>F:~~~x_2 \amp = 9 \amp\amp \text{and}\amp y_2 \amp =4</mrow></md>
 Now we can describe the formula for slope in an organized way. We compute <m>\Delta y</m> and <m>\Delta x</m> as directed distances. First, we observe that the coordinates of point <m>E</m> are <m>(-6,4)</m> or <m>(x_1,y_2)</m>. From the figure, we can see that  
-        <me>\Delta y = y_2-y_1 = 4-(-2)=6</me>
+        <md>\Delta y = y_2-y_1 = 4-(-2)=6</md>
 and
-        <me>\Delta x = x_2-x_1 = 9-(-6)=15</me>
+        <md>\Delta x = x_2-x_1 = 9-(-6)=15</md>
 Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
-        <me>m=\dfrac{y_2-y_1}{x_2-x_1} = \dfrac{6}{15} = \dfrac{2}{5}</me></p></solution></example>
+        <md>m=\dfrac{y_2-y_1}{x_2-x_1} = \dfrac{6}{15} = \dfrac{2}{5}</md></p></solution></example>
 
 <warning><p>The subscript 1 on <m>x_1</m>, for instance, has nothing to do with the value of the coordinate; it merely identifies this coordinate as the <m>x</m>-coordinate of the first point.</p></warning>
 
@@ -533,7 +533,7 @@ the same answer as before. The order of the points does not matter, but we must 
 
 <p><ol marker="1.">
 <li><p>Are the lines parallel, perpendicular, or neither?
-    <me>3x-4y=6~~~~~~~~\text{and}~~~~~~~~4x-3y=2</me></p></li>
+    <md>3x-4y=6~~~~~~~~\text{and}~~~~~~~~4x-3y=2</md></p></li>
 
 <li><p>Sketch a graph of each equation, label the coordinates of its intercept, and state the slope of the line.</p>
     <p><ol marker="a." cols="2">

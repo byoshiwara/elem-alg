@@ -10,17 +10,17 @@
 
 <p>So far we have graphed quadratic equations by plotting points. But we can use some algebraic techniques to make the process easier.</p>
 <p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we saw that the solutions of the equation
-	<me>40p-p^2=0</me>
+	<md>40p-p^2=0</md>
 namely, <m>p=0</m> and <m>p=40</m>, are also the horizontal intercepts of the graph of  
-	<me>R=40p-p^2</me>
+	<md>R=40p-p^2</md>
 This is the same connection we saw between the <m>x</m>-intercepts of a line and the solutions of its equation. Recall that the <m>x</m>-intercept of the line <m>y=mx+b</m> is the point where the graph crosses the <m>x</m>-axis. To find the <m>x</m>-intercepts of a line, we set <m>y=0</m> and solve for <m>x</m>. The same strategy applies to quadratic equations.</p>
 
 <assemblage><title><m>x</m>-Intercepts of a Parabola</title>
 	<idx><h><em>x</em>-intercept</h><h>of a parabola</h></idx>
 <p>	To find the <m>x</m>-intercepts of the graph of
-	<me>y=ax^2+bx+c</me> 
+	<md>y=ax^2+bx+c</md> 
 we set <m>y=0</m> and solve the equation
-	<me>ax^2+bx+c=0</me></p></assemblage>
+	<md>ax^2+bx+c=0</md></p></assemblage>
 
 <example xml:id="Example-6-4-1"><statement><p><ol marker="a.">
 	<li>Find the  intercepts of the graph of <m>~y=4x-x^2</m>.</li>
@@ -126,9 +126,9 @@ we set <m>y=0</m> and solve the equation
 <example><statement><p>Find the vertex of the graph of <m>~y=4x-x^2.</m></p></statement>
 
 <solution><p>In Example 1 we found that the <m>x</m>-intercepts of the graph are <m>x=0</m> and <m>x=4</m>. The <m>x</m>-coordinate of the vertex is the average of these two numbers.
-	<me>x=\dfrac{0+4}{2}</me>
+	<md>x=\dfrac{0+4}{2}</md>
 The <m>x</m>-coordinate of the vertex is <m>x=2</m>. To find the <m>y</m>-coordinate of the vertex, we substitute <m>x=\alert{2}</m> into the equation of the parabola.
-	<me>y=4(\alert{2})-\alert{2}^2=8-4=4</me>
+	<md>y=4(\alert{2})-\alert{2}^2=8-4=4</md>
 The coordinates of the vertex are <m>(2,4)</m>, as you can see in the graph above.</p>
 </solution></example>
 
@@ -159,7 +159,7 @@ The coordinates of the vertex are <m>(2,4)</m>, as you can see in the graph abov
 				<mrow>x-7=0~~~~x-1 \amp = 0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
 				<mrow>x = 7~~~~x \amp = 1</mrow></md></p>
 <p>The <m>x</m>-intercepts are the points <m>(7,0)</m> and <m>(1,0)</m>. Next, we locate the vertex of the graph. The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts, so
-	<me>x=\dfrac{1+7}{2}=4</me>
+	<md>x=\dfrac{1+7}{2}=4</md>
 You can check that <m>x=4</m> is halfway between the two <m>x</m>-intercepts of the graph shown in the figure. To find the <m>y</m>-coordinate of the vertex, we evaluate the formula for the parabola at<m>x=\alert{4}</m>.
 		<md><mrow>y \amp = \alert{4}^2-8(\alert{4})+7</mrow>
 			<mrow> \amp = 16-32+7=-9</mrow></md></p>
@@ -422,7 +422,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <li><sidebyside widths="50% 40%" valigns="middle middle">
 <p><ol marker="a.">
 	<li><p>Find the <m>x</m>-intercepts of the graph of
-		<me>y=2x^2+8x</me></p></li>
+		<md>y=2x^2+8x</md></p></li>
 	<li>Find the vertex of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>
 	<li>Sketch the graph.</li>
@@ -448,7 +448,7 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 <li><sidebyside widths="50% 45%" valigns="middle middle">
 <p><ol marker="a.">
 	<li><p>Find the <m>x</m>-intercepts of the graph of
-		<me>y=2x^2+8x</me>
+		<md>y=2x^2+8x</md>
 		Hint: Factor out <m>-1</m> from the quadratic trinomial first.</p></li>
 	<li>Find the vertex of the graph.</li>
 	<li>Find the <m>y</m>-intercept of the graph.</li>

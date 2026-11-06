@@ -35,7 +35,7 @@
 <solution><sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%">
 <stack><p>A graph of the data is shown at right. </p>
 <p>Sonia calculates the rate at which the temperature is rising by finding the following ratio:
-    <me>\dfrac{\text{change in temperature}}{\text{change in time}}</me>
+    <md>\dfrac{\text{change in temperature}}{\text{change in time}}</md>
 </p></stack>
     <!--<image source="photos/fig-3-3-ex1.png"><description>graph</description></image>-->
     <image xml:id="fig-3-3-ex1"><description>oven temperature vs time</description><latex-image>
@@ -58,7 +58,7 @@
         \draw[red, ultra thick, ->,>=stealth] (0,20)--++(60,24);
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 <p>For example, over the first 10 minutes, the temperature rises from 70 degrees to 74 degrees, so
-    <me>\dfrac{\text{change in temperature}}{\text{change in time}} = \dfrac{\text{4 degrees}}{\text{10 minutes}}</me>
+    <md>\dfrac{\text{change in temperature}}{\text{change in time}} = \dfrac{\text{4 degrees}}{\text{10 minutes}}</md>
 or 0.4 degree per minute. This is less than the maximum rate recommended for curing the pottery.</p></solution></example>
 
 <p>You can check that over each ten-minute interval the temperature again rises by four degrees, so it appears that the oven is heating up at an acceptable rate.</p>
@@ -81,7 +81,7 @@ or 0.4 degree per minute. This is less than the maximum rate recommended for cur
 <p>In <xref ref="example-pottery-oven" text="type-global"/>,  we used the variable <m>x</m> to represent time and <m>y</m> to represent the temperature, so we denote the ratio <m>~\dfrac{\text{change in temperature}}{\text{change in time}}~</m> by <m>~\dfrac{\Delta y}{\Delta x}</m>.</p>  
 
 <p>With this notation, we calculate the rate of change of temperature between the data points <m>(20, 78)</m> and <m>(50, 90)</m> as follows:
-	<me>\dfrac{\Delta y}{\Delta x}=\dfrac{\text{12 degrees}}{\text{30 minutes}} = 0.4 \text{ degree per minute}</me></p>
+	<md>\dfrac{\Delta y}{\Delta x}=\dfrac{\text{12 degrees}}{\text{30 minutes}} = 0.4 \text{ degree per minute}</md></p>
 
 <p>We can illustrate the rate of change on a graph of the data, as shown below.  We move from the point <m>(20, 78)</m> to the point <m>(50, 90)</m> by moving horizontally a distance of <m>\Delta x = 30</m> and then vertically a distance of <m>\Delta y = 12</m>. </p>
 <!--<image source="photos/fig-3-3-1.png"><description>graph</description></image>-->
@@ -119,9 +119,9 @@ or 0.4 degree per minute. This is less than the maximum rate recommended for cur
 <assemblage><title>Slope</title>
     <idx><h>slope</h></idx><idx><h>slope</h><h>formula for</h></idx>
 <p>The <term>slope</term> of a line is defined by the ratio
-	<me>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</me>
+	<md>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</md>
 as we move from one point to another on the line. In symbols,
-	<me>\blert{m=\dfrac{\Delta y}{\Delta x}}</me></p></assemblage>
+	<md>\blert{m=\dfrac{\Delta y}{\Delta x}}</md></p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>The slope of a line measures how fast the <m>y</m>-coordinate changes as we increase the <m>x</m>-coordinate of points on the line.  More specifically, when we move one unit in the <m>x</m>-direction, how many units should we move in the <m>y</m>-direction to get back to the line?</p></assemblage>
@@ -154,7 +154,7 @@ as we move from one point to another on the line. In symbols,
         \end{tikzpicture}]]></latex-image></image></statement>
 
 <solution><p>The point <m>A</m> has coordinates <m>(1,3)</m>, and <m>B</m> has coordinates <m>(5,6)</m>.  As we move along the line from <m>A(1,3)</m> to <m>B(5,6)</m>, the <m>y</m>-coordinate changes by 3 units, and the <m>x</m>-coordinate changes by 4 units. The slope of the line is thus
-	<me>\dfrac{\Delta y}{\Delta x}=\dfrac{3}{4}</me>
+	<md>\dfrac{\Delta y}{\Delta x}=\dfrac{3}{4}</md>
 The slope tells us that if we start at any point on the line and move 1 unit in the <m>x</m>-direction, we must move <m>\dfrac{3}{4}</m> unit in the <m>y</m>-direction to return to the line.</p>
 </solution></example>
 
@@ -176,7 +176,7 @@ The slope tells us that if we start at any point on the line and move 1 unit in 
 <subsection><title>Meaning of Slope</title><idx><h>slope</h><h>meaning</h></idx>
 
 <p>In <xref ref="example-pottery-oven" text="type-global"/>, we graphed the temperature of a pottery oven over time. We calculated the slope of the graph as
-	<me>\dfrac{\Delta y}{\Delta x} = 0.4~~ \text{degrees per minute}</me>
+	<md>\dfrac{\Delta y}{\Delta x} = 0.4~~ \text{degrees per minute}</md>
 The slope gives us the rate of change of the temperature with respect to time:  the temperature is increasing at a rate of 0.4 degrees per minute.</p>
 
 <assemblage><title>Meaning of Slope</title>
@@ -218,12 +218,12 @@ The slope gives us the rate of change of the temperature with respect to time:  
 
 <solution><p><ol marker="a.">
     <li><p>Choose any two points on the line, say <m>G(2,100)</m> and <m>H(4,200)</m> shown in the figure. As we move from <m>G</m> to <m>H</m> we find 
-        <me>m = \dfrac{\Delta D}{\Delta t} = \dfrac{100}{2} = 50</me>
+        <md>m = \dfrac{\Delta D}{\Delta t} = \dfrac{100}{2} = 50</md>
     The slope of the line is 50.</p></li>
     <li><p>The best way to understand the slope is to include units in the calculation.
-        <me>\dfrac{\Delta D}{\Delta t}~~ \text{means}~~\dfrac{\text{change in distance}}{\text{change in time}}</me>
+        <md>\dfrac{\Delta D}{\Delta t}~~ \text{means}~~\dfrac{\text{change in distance}}{\text{change in time}}</md>
     or 
-        <me>\dfrac{\Delta D}{\Delta t} = \dfrac{100 \text{ miles}}{2~ \text{hours}} =50~ \text{miles per hour}</me>
+        <md>\dfrac{\Delta D}{\Delta t} = \dfrac{100 \text{ miles}}{2~ \text{hours}} =50~ \text{miles per hour}</md>
     The slope represents the trucker's average speed or velocity.</p></li>
 </ol></p></solution></example>
 
@@ -650,7 +650,7 @@ Be sure to include units with your ratios!</p>
 <li><p><ol marker="a.">
     <li><sidebyside widths="45% 50%" valigns="middle middle">
         <stack><p>Graph the line 
-            <me>4x-2y=8</me>    
+            <md>4x-2y=8</md>    
         by finding the <m>x</m>- and <m>y</m>-intercepts.</p><p></p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
@@ -665,9 +665,9 @@ Be sure to include units with your ratios!</p>
         </tabular></stack>
         <image source="photos/fig-2-3-1"><description>grid</description></image></sidebyside></li>
     <li><p>Compute the slope of the line using the <m>x</m>- and <m>y</m>-intercepts.
-        <me>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</me></p></li>
+        <md>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</md></p></li>
     <li><p>Compute the slope of the line using the points <m>(4,4)</m> and <m>(1,-2)</m>
-        <me>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</me></p></li>
+        <md>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</md></p></li>
     </ol></p></li>
 </ol></p>
 

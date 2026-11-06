@@ -114,9 +114,9 @@
 
 <exercise number="18"><statement><p><ol marker="a.">
     <li><p>Which of these expressions says "one-sixth of <m>x</m>" ?</p>
-        <me> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</me></li>
+        <md> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</md></li>
     <li><p>Which of these expressions says "6% of <m>x</m>" ?</p>
-        <me> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</me></li>
+        <md> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</md></li>
 </ol></p></statement></exercise>
 
 <exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol marker="a.">    
