@@ -9,9 +9,9 @@
     <idx><h>product</h><h>of algebraic expressions</h></idx>
 
 <p>So far we have considered sums and differences of algebraic expressions. Now we take a look at simple products. To simplify a product such as <m>3(2a)</m>, we multiply the numerical factors to find
-	<md>3(2a)=(3 \cdot 2)a = 6a</md>
+	<md><mrow>3(2a)=(3 \cdot 2)a = 6a</mrow></md>
 This calculation is an application of the associative law for multiplication. We can see why the product is reasonable by recalling that multiplication is repeated addition, so that
-	<md>3(2a) = 2a + 2a + 2a = 6a~~~~~~~~~~~~~\blert{\text{Three terms}}</md></p>
+	<md><mrow>3(2a) = 2a + 2a + 2a = 6a~~~~~~~~~~~~~\blert{\text{Three terms}}</mrow></md></p>
 
 <example><statement><p><ol marker="a." cols="2">
 	<li><m>5(3x)=15x</m></li>
@@ -49,16 +49,16 @@ This calculation is an application of the associative law for multiplication. We
 		<md><mrow>\text{Area} \amp = \text{width} \times \text{length}</mrow>
 			<mrow>\amp = \blert{10(12+8)} = 10(20) = 200~\text{square feet}</mrow></md></p></li>
 <li><p>Method 2: Find the area of each room separately and add the two areas together. This gives us
-    	<me>\blert{10(12) + 10(8)} = 120+80 = 200~\text{square feet}</me></p></li>
+    	<md><mrow>\blert{10(12) + 10(8)} = 120+80 = 200~\text{square feet}</mrow></md></p></li>
 </ul></p>
 
 <p>	Of course, we get the same answer with either method. However, looking at the first step in each calculation, we see that
-		<me>10(12+8)= 10(12) + 10(8)</me>
+		<md><mrow>10(12+8)= 10(12) + 10(8)</mrow></md>
 We see that there are two ways to compute the expression <m>10(12+8)</m>.</p>
 <p><ul> 
 	<li>The first way follows the order of operations, adding <m>12+8</m> first.</li>
 	<li><p>  The second way <term>distributes</term> the multiplication to each term inside parentheses; that is, we multiply each term inside the parentheses by 10.
-			<me>\blert{10}(12+8)= \blert{10}(12) + \blert{10}(8)</me></p></li>
+			<md><mrow>\blert{10}(12+8)= \blert{10}(12) + \blert{10}(8)</mrow></md></p></li>
 </ul></p>
 
 <p>This last equation is an example of the distributive law.</p>
@@ -66,7 +66,7 @@ We see that there are two ways to compute the expression <m>10(12+8)</m>.</p>
 <assemblage><title>Distributive Law</title>
     <idx><h>distributive law</h></idx>
 <p>If <m>a,~ b,</m> and <m>c</m> are any numbers, then
-		<md>\blert{a(b+c) = ab + ac}</md></p></assemblage>
+		<md><mrow>\blert{a(b+c) = ab + ac}</mrow></md></p></assemblage>
 
 <assemblage><title>Look Ahead</title>
 <p>If the terms inside parentheses are not like terms, we have no choice but to use the distributive law to simplify the expression.</p></assemblage>
@@ -79,14 +79,14 @@ We see that there are two ways to compute the expression <m>10(12+8)</m>.</p>
 </solution></example>
 
 <warning><p>Compare the three similar expressions:
-	<md>-3x-5x,~~~~~~-3(-5x),~~~~~~-3(-5-x)</md>
+	<md><mrow>-3x-5x,~~~~~~-3(-5x),~~~~~~-3(-5-x)</mrow></md>
 To simplify these expressions, we must first recognize the operations involved.<ul>
 	<li><p>The first is a sum of terms.
-			<md>-3x-5x = -8x</md></p></li> 
+			<md><mrow>-3x-5x = -8x</mrow></md></p></li> 
 	<li><p>The second is a product.
-			<md>-3(-5x) = 15x</md></p></li> 
+			<md><mrow>-3(-5x) = 15x</mrow></md></p></li> 
 	<li><p>The third is an application of the distributive law.
-			<md>-3(-5-x) = 15+3x</md></p></li>
+			<md><mrow>-3(-5-x) = 15+3x</mrow></md></p></li>
 </ul></p></warning>
 
 <exercise number="2"><statement><p>When do we need the distributive law to simplify an expression?</p></statement>
@@ -111,7 +111,7 @@ You should verify each step of the solution, and check the answer.</p>
 </solution></example>
 
 <warning><p>The expression on the right side of the equation in <xref ref="Example-4-1-3" text="type-global"/> is made up of two terms:
-		<md>3x~~~~~~\text{and}~~~~~~{-2}(4-x)</md>
+		<md><mrow>3x~~~~~~\text{and}~~~~~~{-2}(4-x)</mrow></md>
 Remember that we think of all terms as added together, so the minus sign in front of the 2 tells us that 2 is negative.  When we apply the distributive law, we multiply each term inside parentheses by <m>-2</m> to get <m>-8+2x</m>.</p></warning>
 
 <p>We know that a fraction bar often serves as a grouping device, like parentheses.</p>  
@@ -146,7 +146,7 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 <solution><p><ol marker="a.">
 	<li>We multiply the number of pounds collected by the price per pound. Delbert made <m>23x</m> dollars, and Francine made <m>47x</m> dollars.</li>
 	<li><p>We add the amount of money Delbert made to the amount Francine made.
-			<me>23x+47x=70x</me></p></li>
+			<md><mrow>23x+47x=70x</mrow></md></p></li>
 </ol></p></solution></example>
 
 <exercise number="4"><statement><p>In <xref ref="Example-4-1-5" text="type-global"/>, what does <m>x</m> stand for? What does <m>23x</m> stand for?

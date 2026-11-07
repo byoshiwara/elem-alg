@@ -13,9 +13,9 @@
 <example xml:id="Example-4-2-1"><statement><p>Delbert and Francine are buying appliances for their new home. They have a choice of two different refrigerators:  a standard model that sells for $1000, or an energy-efficient model at a price of $1200. The standard model costs $6 per month to run, and the energy-efficient model costs $2 per month. Write linear equations for the total cost of each refrigerator after <m>t</m> months.</p></statement>
 
 <solution><p>Let <m>S</m> stand for the total cost of running the standard refrigerator for <m>t</m> months, so <m>S=mt+b</m>.  The initial cost of the standard model is $1000, so <m>b=1000</m>. The cost increases at a rate of $6 per month, so <m>m=6</m>. Thus,
-	<md>S=6t+1000</md>   
+	<md><mrow>S=6t+1000</mrow></md>   
 Let <m>E</m> stand for the total cost of running the energy-efficient refrigerator. For this model, the initial cost is <m>b=1200</m>, and the total cost increases at a rate of <m>2</m> dollars per month. Thus,
-	<md>E=2t+1200</md></p></solution></example>
+	<md><mrow>E=2t+1200</mrow></md></p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>When we consider two equations together, as in the example above, we often use the same variables for both equations, like this:
@@ -129,9 +129,9 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 <example xml:id="Example-4-2-4"><statement><p>Delbert and Francine are also shopping for homeowners insurance. HomeLife offers a policy for semiannual premiums of $408, or they can join a co-op for $50 and pay just $68 per month for comparable coverage. Which option is less expensive in the long run?</p></statement>
 
 <solution><p>We'll write a system of equations and graph them, as we did in <xref ref="Example-4-2-3" text="type-global"/>. If <m>t</m> stands for the number of months, then the total cost of the co-op insurance is
-        <md>C=50+68t</md>
+        <md><mrow>C=50+68t</mrow></md>
 and the HomeLife policy costs
-        <md>H=\dfrac{408}{6}t=68t</md>
+        <md><mrow>H=\dfrac{408}{6}t=68t</mrow></md>
 because a semiannual premium covers 6 months. The solution of the system represents the time when the costs of the two policies are equal. The graphs of the two equations are shown below.</p> 
     <!--<image source="photos/fig-4-2-ex4.png"><description>graph</description></image>-->
     <image width="55%" xml:id="fig-4-2-ex4"><description>parallel lines</description><latex-image>
@@ -165,7 +165,7 @@ because a semiannual premium covers 6 months. The solution of the system represe
 				<mrow>6x-3y=-6</mrow></md></p></statement>
 
 <solution><p>We graph the first equation by the slope-intercept method: 
-	<me>b=2~~~~~~\text{and}~~~~~~m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{1}</me>
+	<md><mrow>b=2~~~~~~\text{and}~~~~~~m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{1}</mrow></md>
 Its graph is shown below.</p> 
 	<!--<image source="photos/fig-4-2-ex5.png"><description>graph</description></image>-->
     <image width="40%" xml:id="fig-4-2-ex5"><description>graph of line</description><latex-image>
@@ -195,7 +195,7 @@ Its graph is shown below.</p>
 The second equation is the same as the first equation. A system in which the two equations are equivalent is called <term>dependent</term><idx><h>system of equations</h><h>dependent</h></idx><idx><h>dependent system of equations</h></idx>. A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
 
 <p>We have now seen three types of systems. These are illustrated in the figure below. Most of the systems we will study have exactly one solution. Such systems are called <term>consistent and independent</term><idx>consistent and independent</idx>.</p>
-    <sidebyside width="100%"><!--<image source="photos/fig-4-2-1.png"><description>graph</description></image>-->
+    <!--<image source="photos/fig-4-2-1.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-1"><description>three types of systems</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -240,7 +240,7 @@ The second equation is the same as the first equation. A system in which the two
         }
         \draw[red, very thick,<->, >=stealth'] ({\delx-4},5)--({\delx+5},-1);
         \node[text=blue, align=center] at (\delx,-6.75) {Dependent;\\infinitely many solutions};
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
+        \end{tikzpicture}]]></latex-image></image>
 
 <assemblage><title>Systems of Linear Equations</title>
     <idx><h>system of equations</h><h>inconsistent</h></idx>
@@ -272,7 +272,7 @@ The second equation is the same as the first equation. A system in which the two
 
 <solution><p><term>Step 1</term> The dimensions of a rectangle are its length and width, so we let <m>x</m> represent the width of the plate and <m>y</m> represent its length.</p>  
 <p><term>Step 2</term> We must write two equations about the length and width of the plate. We know a formula for the perimeter of a rectangle, <m>P=2l+2w</m>, so the first equation is
-    <md>2x+2y=28</md>
+    <md><mrow>2x+2y=28</mrow></md>
 We also know that the length is three times the width, or <m>y=3x</m>. These two equations make a system.
             <md><mrow>2x+2y=28</mrow>
                 <mrow>y=3x</mrow></md></p>
@@ -292,7 +292,7 @@ We also know that the length is three times the width, or <m>y=3x</m>. These two
                         <cell><m>\blert{2x + 2(0) = 28}</m></cell></row>
                     </tabular>
 <p>We use the slope-intercept method to graph <m>y=3x</m>:
-        <me>b=0 ~~~~~~~~ m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}</me>
+        <md><mrow>b=0 ~~~~~~~~ m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}</mrow></md>
 Their graphs are shown below. </p>
     <!--<image source="photos/fig-4-2-ex6.png"><description>graph</description></image>-->
     <image width="60%" xml:id="fig-4-2-ex6"><description>graph of system</description><latex-image>
@@ -444,9 +444,9 @@ Their graphs are shown below. </p>
 <li><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.</p>
 <p><ol marker="a.">  
     <li>Ruth travels at 65 miles per hour, so an equation for the distance she has traveled is
-        <me>\blert{\text{Ruth's distance:}}~~~d = </me></li>                              
+        <md><mrow>\blert{\text{Ruth's distance:}}~~~d = </mrow></md></li>                              
     <li>Robert's speed is 50 miles per hour, but he has already traveled 300 miles when Ruth starts, so his distance is given by
-        <me>\blert{\text{Robert's distance:}}~~~d = </me></li>                          
+        <md><mrow>\blert{\text{Robert's distance:}}~~~d = </mrow></md></li>                          
     <li>Together, the two equations form a system:</li>
 </ol></p></li>
 

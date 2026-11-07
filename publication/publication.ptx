@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <publication>
-	<common>
-		<tableofcontents level="2"/>
+<common>
+<tableofcontents level="2"/>
         <fillin textstyle="underline" mathstyle="box"/>
         <exercise-divisional answer="no" solution="no"/>
-	</common>
+</common>
     <numbering>
         <divisions level="2"/>
         <projects level="1"/>
         <blocks level="1"/>
     </numbering>
     <source>
-        <directories external="../ext" generated="../gen"/>
+<!--        <directories external="../ext" generated="../gen"/> -->
     </source>
-        
+
     <epub>
         <cover front="../ext/photos/cover.png"/>
     </epub>
@@ -22,10 +22,11 @@
 
     <!-- HTML-Specific Options -->
     <html>
+    <brandlogo url="https://yoshiwarabooks.org/" source="photos/cover.png" />
         <calculator model="geogebra-graphing"/>
         <mathjax version="4"/>
         <index-page ref="preface"/>
-        <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/> 
+        <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/>
 <!--    <css style="oscarlevin"/>-->
     <knowl remark="no" example="no" example-solution="no" proof="no" exercise-inline="no"/>
          <video privacy="yes"/>

@@ -205,8 +205,8 @@
     <li>How much space is enclosed within the dome?</li>
     <li>What is the surface area of the dome?</li></ol></p></statement>
 <answer><p><ol marker="a.">  
-    <li><sidebyside width="35%" margins="0% 65%"><!--<image source="photos/hp-3-5-35ans.png"><description>dome</description></image>-->
-    <image xml:id="hp-5-3-35ans">
+    <li><!--<image source="photos/hp-3-5-35ans.png"><description>dome</description></image>-->
+    <image xml:id="hp-5-3-35ans" width="35%" margins="0% 65%">
         <description>hemisphere dome</description>
         <latex-image>
         <![CDATA[
@@ -219,8 +219,7 @@
 
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-    </sidebyside></li>
+    </image></li>
     <li><p><m>\dfrac{128,000 \pi}{3}</m> cubic feet</p></li>
     <li><p><m>3200 \pi</m> square feet</p></li></ol></p></answer></exercise>
 

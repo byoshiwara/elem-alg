@@ -242,7 +242,7 @@
 	<li><m>x=-6</m></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Find and correct the error in the following calculation:
-	<md>18-6+2-5 = 18-8+5 = 15~~~~~~\alert{\text{(Incorrect!)}}</md></p>
+	<md><mrow>18-6+2-5 = 18-8+5 = 15~~~~~~\alert{\text{(Incorrect!)}}</mrow></md></p>
 </statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 33<ndash/>40, write and simplify an expression using negative numbers to answer the question.</p></introduction>
@@ -270,10 +270,10 @@
 
 <exercisegroup><introduction><p>Choose the correct equation to model Problems 41<ndash/>44.</p>
 <assemblage><p>
-	<md>\begin{aligned}
-                -12+n \amp = -5 \amp           -12+n \amp =5\\
-                n+12 \amp = -5 \amp           n+12 \amp =5                
-                \end{aligned}</md></p></assemblage></introduction>
+	<md>
+        <mrow> -12+n \amp = -5 \amp   -12+n \amp =5</mrow>
+        <mrow>  n+12 \amp = -5 \amp    n+12 \amp =5</mrow>
+    </md></p></assemblage></introduction>
 
 <exercise number="41"><statement><p>Last night the temperature rose <m>12 \degree</m> and this morning the temperature is <m>5 \degree</m>. What was the temperature yesterday?</p></statement>
 <answer><m>n+12=5</m></answer></exercise>

@@ -271,7 +271,7 @@
     </latex-image></image></li>
     <li><p>Complete the tables, and use them to answer the question below.</p>
 
-    <sidebyside margins="25% 25%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~t~</m></cell>
                         <cell><m>d</m></cell></row>
@@ -299,7 +299,7 @@
                     <row> 
                         <cell><m>10</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
 
     <p>What happens to the distance Everett travels when he doubles the time he bicycles?</p></li>
 </ol></p></statement>
@@ -390,7 +390,7 @@
 
 <exercise number="28"><statement><p>The cost of tuition at Walden College is given by the formula <m>T=500+40u</m>,  where <m>u</m> is the number of units you take.  <ol marker="a.">
 	<li><p>Fill in the tables.</p> 
-		<sidebyside margins="25% 25%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Units</cell>
                         <cell>Tuition</cell></row>
@@ -418,7 +418,7 @@
                     <row> 
                         <cell><m>16</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
 
     <li>Does doubling the number of units you take double your tuition?</li>
 	<li>Is <m>T</m> proportional to <m>u</m>?</li></ol></p></statement></exercise> 

@@ -10,8 +10,8 @@
 	<li><m>(3,2)</m></li>
 	<li><m>(-1,-2)</m></li>
 	<li><m>(-3,-6)</m></li></ol></p>
-	<sidebyside width="75%"><!--<image source="photos/hp-2-3-1.png"><description>graph</description></image>-->
-    <image xml:id="hp-2-3-1">
+	<!--<image source="photos/hp-2-3-1.png"><description>graph</description></image>-->
+    <image xml:id="hp-2-3-1" width="75%">
         <description>graph</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -32,7 +32,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></statement>
+    </statement>
 <answer><p><ol marker="a." cols="2">
     <li>No</li>
     <li>Yes</li>
@@ -45,8 +45,8 @@
 	<li><m>(4,4)</m></li>
 	<li><m>(0,4)</m></li>
 	<li><m>(-1,-4)</m></li></ol></p>
-	<sidebyside width="75%"><!--<image source="photos/hp-2-3-2.png"><description>graph</description></image>-->
-    <image xml:id="hp-2-3-2">
+	<!--<image source="photos/hp-2-3-2.png"><description>graph</description></image>-->
+    <image xml:id="hp-2-3-2" width="75%">
         <description>graph</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -67,12 +67,12 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></statement></exercise>
+    </statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>5, give the coordinates of the labeled points.</p></introduction>
 
-<exercise number="3"><statement><sidebyside width="100%"><!--<image source="photos/hp-2-3-3.png"><description>graph</description></image>-->
+<exercise number="3"><statement><!--<image source="photos/hp-2-3-3.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-3">
         <description>points on grid</description>
         <latex-image>
@@ -99,7 +99,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></statement>
+</statement>
 <answer><p><ol marker="a." cols="2">
     <li><p><m>(-6,2)</m></p></li>
     <li><p><m>(-5,-7)</m></p></li>
@@ -109,7 +109,7 @@
     <li><p><m>(-2,0)</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><sidebyside width="100%"><!--<image source="photos/hp-2-3-4.png"><description>graph</description></image>-->
+<exercise number="4"><statement><!--<image source="photos/hp-2-3-4.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-4">
         <description>graph</description>
         <latex-image>
@@ -136,9 +136,9 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></statement></exercise>
+</statement></exercise>
 
-<exercise number="5"><statement><sidebyside width="100%"><!--<image source="photos/hp-2-3-5.png"><description>graph</description></image>-->
+<exercise number="5"><statement><!--<image source="photos/hp-2-3-5.png"><description>graph</description></image>-->
     <image xml:id="hp-2-3-5">
         <description>graph</description>
         <latex-image>
@@ -166,7 +166,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></statement>
+</statement>
 <answer><p><ol marker="a." cols="2">
     <li><p><m>(0,-600)</m></p></li>
     <li><p><m>(10,-200)</m></p></li>
@@ -197,8 +197,8 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></table>
-    <sidebyside width="50%"><!--<image source="photos/hp-2-3-6.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-6">
+    <!--<image source="photos/hp-2-3-6.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-6" width="50%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -219,10 +219,10 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></statement></exercise>
+    </statement></exercise>
 
 <exercise number="7"><statement><p>Delbert shares a house with four roommates. He pays $200 rent per month, plus his share of the utilities. If the utilities cost <m>U</m> dollars, how much money, <m>M</m>, does Delbert owe?</p>
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>U</m></cell>
                         <cell><m>20</m></cell>
@@ -237,9 +237,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
-    <sidebyside width="50%"><!--<image source="photos/hp-2-3-7.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-7">
+                    </tabular>
+    <!--<image source="photos/hp-2-3-7.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-7" width="50%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -262,10 +262,10 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></statement><answer><p>
+    </statement><answer><p>
     <ol marker="a.">
         <li><p><m>M=200+\frac{1}{5}U </m></p></li>
-        <li><sidebyside width="50%" margins="0% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>U</m></cell>
                         <cell><m>20</m></cell>
@@ -280,9 +280,9 @@
                         <cell><m>216</m></cell>
                         <cell><m>220</m></cell>
                         <cell><m>240</m></cell></row>
-                    </tabular></sidebyside></li>
-        <li><sidebyside width="50%" margins="0% 50%">
-    <image xml:id="hp-2-3-7ans">
+                    </tabular></li>
+        <li>
+    <image xml:id="hp-2-3-7ans" width="50%" margins="0% 50%">
         <description>graph</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -307,13 +307,13 @@
         %\filldraw[blue] (\x, {200+\x/5}) circle (2.5cm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image></sidebyside></li></ol></p></answer></exercise>
+    </image></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="8"><statement><p>Darren inherited some money and has been spending it at the rate of $100 per day. Right now he has $2000 left.<ol marker="a.">
 	<li>Write an equation for Darren's balance, <m>B</m>, after <m>d</m> days.</li>
 	<li><p>Fill in the table. Negative values of <m>d</m> represent days in the past.</p>
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>d</m></cell>
                         <cell><m>-15</m></cell>
@@ -332,10 +332,10 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
 	<li>Graph your equation, using the values in the table.
-		<sidebyside width="40%"><!--<image source="photos/hp-2-3-8.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-8">
+		<!--<image source="photos/hp-2-3-8.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-8" width="40%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -356,14 +356,13 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-        </sidebyside>
 		Use your graph to answer the following questions:</li>
 	<li>What was Darren's balance 15 days ago?</li>
 	<li>When will Darren's balance reach $500?</li></ol></p></statement></exercise>
 
 <exercise number="9"><statement><p>Gregory purchased stereo equipment on a monthly installment plan. After <m>m</m> months, Gregory still owes a balance of <m>B</m> dollars.</p>
-	<sidebyside width="40%"><!--<image source="photos/hp-2-3-9.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-9">
+	<!--<image source="photos/hp-2-3-9.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-9" width="40%">
         <description>line on grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -387,13 +386,12 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
-<ol marker="a.">
+<p><ol marker="a.">
 	<li>What was the price of the stereo equipment?</li>
 	<li>How much does Gregory pay each month?</li>
 	<li>How much does Gregory owe after 6 months?</li>
 	<li>How many monthly payments will Gregory make?</li>
-	<li>Write an algebraic equation for <m>B</m> in terms of <m>m</m>.</li></ol></statement>
+	<li>Write an algebraic equation for <m>B</m> in terms of <m>m</m>.</li></ol></p></statement>
 <answer><p><ol>
     <li><p>$5400</p></li>
     <li><p>$30</p></li>
@@ -407,7 +405,7 @@
 <exercise number="10"><statement><p>On a 100-point test, Lori loses 5 points for each wrong answer.<ol marker="a.">
     <li>Write an equation for Lori's score, <m>s</m>, if she gives <m>x</m> wrong answers.</li>
     <li><p>Complete the table of values and graph your equation.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>2</m></cell>
@@ -420,9 +418,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
-        <sidebyside width="50%"><!--<image source="photos/hp-2-3-10.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-10">
+                    </tabular>
+        <!--<image source="photos/hp-2-3-10.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-10" width="50%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -445,13 +443,13 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-        </sidebyside></li>
+        </li>
     <li>If Lori's score is 65, how many wrong answers did she give?</li></ol></p></statement></exercise>
 
 <exercise number="11"><statement><p>The water in Silver Pond is 10 feet deep, but the water level is dropping at a rate of <m>\dfrac{1}{2}</m> inch per week.<ol marker="a.">
     <li>Write an equation for the depth, <m>d</m>, of the pond after <m>w</m> weeks.</li>
     <li><p>Complete the table of values and graph your equation.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>w</m></cell>
                         <cell><m>24</m></cell>
@@ -464,9 +462,9 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside>
-        <sidebyside width="50%"><!--<image source="photos/hp-2-3-11.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-11">
+                    </tabular>
+        <!--<image source="photos/hp-2-3-11.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-11" width="50%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -489,7 +487,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-        </sidebyside></li>
+        </li>
     <li>How long will it take until the depth of the pond is 8 feet? (Hint: Convert all the units to inches.)
 </li></ol></p></statement>
 <answer><p><ol marker="a.">
@@ -540,7 +538,7 @@
 <exercisegroup cols = "2"><introduction><p>For Problems 12<ndash/>15, choose four <m>x</m>-values and make a table of values, then graph the equation. Extend your line far enough that it crosses both axes.</p></introduction>
 
 <exercise number="12"><statement><m>y=x+3</m>
-    <sidebyside width="100%"><!--<image source="photos/hp-2-3-12.png"><description>grid</description></image>-->
+    <!--<image source="photos/hp-2-3-12.png"><description>grid</description></image>-->
     <image xml:id="stangrid10">
         <description>grid</description>
         <latex-image>
@@ -561,11 +559,11 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></statement></exercise>
+    </statement></exercise>
 
 <exercise number="13"><statement><m>y=2x+1</m>
-    <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside>
+    <image source="photos/stangrid10"><description>grid</description></image></statement>
+<answer>
     <image xml:id="hp-2-3-13ans">
         <description>line on grid</description>
         <latex-image>
@@ -587,14 +585,14 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="14"><statement><m>y=-\dfrac{1}{2}x-5</m>
-    <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
+    <image source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 
 <exercise number="15"><statement><m>y=\dfrac{5}{4}x-4</m>
-    <sidebyside width="100%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement>
-<answer><sidebyside>
+    <image source="photos/stangrid10"><description>grid</description></image></statement>
+<answer>
     <image xml:id="hp-2-3-15ans">
         <description>line on grid</description>
         <latex-image>
@@ -616,12 +614,12 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 </exercisegroup>
 
 <exercise number="16"><statement><p>The graph of <m>y=2x+6</m> is shown below.</p>
-	<sidebyside width="45%"><!--<image source="photos/hp-2-3-16.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-16">
+	<!--<image source="photos/hp-2-3-16.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-16" width="45%">
         <description>line on grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -642,7 +640,6 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-        </sidebyside>
         <p>
 <ol marker="a.">	
 	<li>Use the graph to evaluate the expression <m>2x+6</m> for <m>x=-5</m>.</li>
@@ -655,7 +652,7 @@
 <exercisegroup cols = "2"><introduction><p>For Problems 17<ndash/>18, use the graph to solve the equations. Show your solutions on the graph. Then check your solutions algebraically.</p></introduction>
  
 <exercise number="17"><statement>
-	<sidebyside width="100%"><!--<image source="photos/hp-2-3-17.png"><description>grid</description></image>-->
+	<!--<image source="photos/hp-2-3-17.png"><description>grid</description></image>-->
     <image xml:id="hp-2-3-17">
         <description>grid</description>
         <latex-image>
@@ -680,7 +677,6 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 <p><ol marker="a.">
 	<li><m>-9-\dfrac{x}{4}=-5</m></li>
 	<li><m>-9-\dfrac{x}{4}=1</m></li></ol></p></statement>
@@ -690,8 +686,8 @@
 </ol></p></answer></exercise>
 
 <exercise number="18"><statement>
-	<sidebyside width="90%"><!--<image source="photos/hp-2-3-18.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-18">
+	<!--<image source="photos/hp-2-3-18.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-18" width="90%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -714,7 +710,6 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 <p><ol marker="a.">
 	<li><m>7-\dfrac{2x}{3}=3</m></li>
 	<li><m>7-\dfrac{2x}{3}=-1</m></li></ol></p></statement></exercise>
@@ -723,8 +718,8 @@
 <exercisegroup cols = "2"><introduction><p>For Problems 19<ndash/>20, use the graph to estimate the solution of the equation. Then use a calculator to help you verify the solution algebraically. Do you think your estimate was too big or too small?</p></introduction>
 
 <exercise number="19"><statement><m>37.21-8.4t=24.61</m>
-	<sidebyside width="95%"><!--<image source="photos/hp-2-3-19.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-19">
+	<!--<image source="photos/hp-2-3-19.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-19" width="95%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -747,13 +742,12 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 </statement>
 <answer><p><m>t\approx 1.5</m></p></answer></exercise>
 
 <exercise number="20"><statement><m>-26.4=-3.65+9.1x</m>
-	<sidebyside width="90%"><!--<image source="photos/hp-2-3-20.png"><description>grid</description></image>-->
-    <image xml:id="hp-2-3-20">
+	<!--<image source="photos/hp-2-3-20.png"><description>grid</description></image>-->
+    <image xml:id="hp-2-3-20" width="90%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -776,7 +770,6 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 </statement></exercise>
 </exercisegroup>
 

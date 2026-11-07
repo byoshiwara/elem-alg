@@ -10,7 +10,7 @@
             <li><p>Write an equation for the second variable in terms of the first variable.</p></li>
     </ol></p></introduction>
 
-<exercise number="1"><statement><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<exercise number="1"><statement><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>m</m></cell>
                     <cell><m>g</m></cell></row>
@@ -38,9 +38,9 @@
                 <row> 
                     <cell><m>m</m></cell>
                     <cell></cell></row>
-            </tabular></sidebyside></statement>
+            </tabular></statement>
     <answer><p><ol marker= "a.">
-            <li><sidebyside width="60%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>m</m></cell>
                     <cell><m>g</m></cell></row>
@@ -68,11 +68,11 @@
                 <row> 
                     <cell><m>m</m></cell>
                     <cell><m>m+3</m></cell></row>
-            </tabular></sidebyside></li>
+            </tabular></li>
         <li><m>g=m+3</m></li>
     </ol></p></answer></exercise>
 
-<exercise number="2"><statement><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<exercise number="2"><statement><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>t</m></cell>
                     <cell><m>w</m></cell></row>
@@ -100,9 +100,9 @@
                 <row> 
                     <cell><m>t</m></cell>
                     <cell></cell></row>
-            </tabular></sidebyside></statement></exercise>
+            </tabular></statement></exercise>
 
-<exercise number="3"><statement><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<exercise number="3"><statement><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>b</m></cell>
                     <cell><m>x</m></cell></row>
@@ -130,9 +130,9 @@
                 <row> 
                     <cell><m>b</m></cell>
                     <cell></cell></row>
-            </tabular></sidebyside></statement>
+            </tabular></statement>
     <answer><p><ol marker="a.">
-        <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">              
                     <cell><m>b</m></cell>
                     <cell><m>x</m></cell></row>
@@ -160,12 +160,12 @@
                 <row> 
                     <cell><m>b</m></cell>
                     <cell><m>\dfrac{b}{2}</m></cell></row>
-            </tabular></sidebyside></li>
+            </tabular></li>
     <li><m>x=\dfrac{b}{2}</m></li>
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="4"><statement><sidebyside  widths="50% 43%" margins="0% 0%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<exercise number="4"><statement><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
                         <cell><m>z</m></cell>
                         <cell><m>3</m></cell>
@@ -188,7 +188,7 @@
                         <cell></cell></row>
                     </tabular>
 
-    <p>Hint:  What fraction can you multiply by <m>z</m> to get <m>r</m>?</p></sidebyside></statement></exercise>
+    <p>Hint:  What fraction can you multiply by <m>z</m> to get <m>r</m>?</p></statement></exercise>
 
 <exercisegroup cols="2">
     <introduction><p>For Problems 5<ndash/>6, make your own table. Choose values for the first variable, and use the rule to find the values of the second variable.</p></introduction>

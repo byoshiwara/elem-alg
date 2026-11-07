@@ -17,13 +17,16 @@
       Elementary Algebra: Equations and Graphs was written with two goals in mind: to present the skills of algebra in the context of modeling and problem solving, and to engage students in an activity-based course.
     </blurb>
 
-<brandlogo url="https://yoshiwarabooks.org/" source="photos/cover.png" />
+<!--<brandlogo url="https://yoshiwarabooks.org/" source="photos/cover.png" />-->
+<directories
+  external="../ext" generated="../gen"
+/>
 
 
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
         <rename element="question">Exercise</rename>
-        <rename element="inlineexercise">QuickCheck</rename>
+        <rename element="exercise-inline">QuickCheck</rename>
         <rename element="problem">Skills Warm-Up</rename>
         
         

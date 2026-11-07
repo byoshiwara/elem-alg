@@ -13,15 +13,15 @@
 <p>In Section 5.1, we learned to simplify the sum of two algebraic expressions by combining like terms. In this section we see how to multiply algebraic expressions.</p>
 
 <p>Recall that we can simplify a product such as <m>~3(2x)~</m> because
-	<md>3(2x) = 2x+2x+2x = 6x~~~~~~~~~~~~\blert{\text{Three terms}}</md>
+	<md><mrow>3(2x) = 2x+2x+2x = 6x~~~~~~~~~~~~\blert{\text{Three terms}}</mrow></md>
 This calculation is actually an application of the associative property:
-	<md>3(2x) = (3 \cdot 2)x = 6x</md>
+	<md><mrow>3(2x) = (3 \cdot 2)x = 6x</mrow></md>
 In a similar way, we can simplify the product <m>~(3b)(4b)~</m> by applying the commutative and associative properties:
-	<md>(3b)(4b) = 3 \cdot b \cdot 4 \cdot b = 3 \cdot 4 \cdot b \cdot b = (3 \cdot 4) \cdot (b \cdot b) = 12b^2</md></p>
+	<md><mrow>(3b)(4b) = 3 \cdot b \cdot 4 \cdot b = 3 \cdot 4 \cdot b \cdot b = (3 \cdot 4) \cdot (b \cdot b) = 12b^2</mrow></md></p>
 
 <assemblage><title>Look Closer</title>
 <p>You can convince yourself that <m>~(3b)(4b)~</m> is equivalent to <m>12b^2</m> by substituting some values for <m>b</m>; for example, if <m>b=\alert{2}</m>, then
-	<md>(3 \cdot \alert{2})(4 \cdot \alert{2})=(6)(8) = 48~~~~\text{and}~~~~12(\alert{2})^2=12 \cdot 4 = 48</md></p>
+	<md><mrow>(3 \cdot \alert{2})(4 \cdot \alert{2})=(6)(8) = 48~~~~\text{and}~~~~12(\alert{2})^2=12 \cdot 4 = 48</mrow></md></p>
 </assemblage>
 
 <assemblage><title>Multiplying Factors</title><p>The commutative and associative properties tell us that we can multiply the factors of a product in any order.</p></assemblage>
@@ -34,17 +34,17 @@ In a similar way, we can simplify the product <m>~(3b)(4b)~</m> by applying the 
 
 <solution><p><ol marker="a.">
 	<li><p>We apply the commutative property:
-			<md>(5a)(-3a) = 5(-3) \cdot a \cdot a = -15a^2</md></p></li>
+			<md><mrow>(5a)(-3a) = 5(-3) \cdot a \cdot a = -15a^2</mrow></md></p></li>
 	<li><p>To cube an expression means to multiply three copies of the expression together:
-			<md>(2x)^3 = (2x)(2x)(2x) = 2 \cdot 2 \cdot 2 \cdot x \cdot x \cdot x = 8x^3</md></p></li>
+			<md><mrow>(2x)^3 = (2x)(2x)(2x) = 2 \cdot 2 \cdot 2 \cdot x \cdot x \cdot x = 8x^3</mrow></md></p></li>
 	<li><p>We rearrange the factors to group each variable together:
-			<md>(xy^2)(4x^2) = x \cdot y \cdot y \cdot 4 \cdot x \cdot x  = 4 \cdot x \cdot x \cdot x \cdot y \cdot y = 4x^3y^2</md></p></li>
+			<md><mrow>(xy^2)(4x^2) = x \cdot y \cdot y \cdot 4 \cdot x \cdot x  = 4 \cdot x \cdot x \cdot x \cdot y \cdot y = 4x^3y^2</mrow></md></p></li>
 </ol></p></solution></example>
 
 <warning><p>When we add like terms, we do not change the variable in the terms; we combine the coefficients. For example,
-		<md>3a+2a=5a</md>
+		<md><mrow>3a+2a=5a</mrow></md>
 When we multiply expressions, we multiply the coefficients and we multiply the variables:
-		<md>3a(2a) = 3(2) \cdot a \cdot a = 6a^2</md></p></warning> 
+		<md><mrow>3a(2a) = 3(2) \cdot a \cdot a = 6a^2</mrow></md></p></warning> 
 
 <exercise number="1"><statement><p>Explain the difference between <m>~5x-2x~</m> and <m>~5x(-2x)~</m>. </p></statement>
     	<answer><p>The first expression is a sum and the second is a product.</p></answer></exercise>
@@ -87,9 +87,9 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 
 <warning><p>Notice the difference between <m>~(3a)(2a)~</m> and <m>~3a(2+a)</m>:<ul>
 	<li><p><m>~(3a)(2a)~</m> is the product of two monomials, and we use the commutative property to simplify it:
-		<md>(3a)(2a)= 3 \cdot a \cdot 2 \cdot a =3 \cdot 2 \cdot a \cdot a = 6a^2</md></p></li>
+		<md><mrow>(3a)(2a)= 3 \cdot a \cdot 2 \cdot a =3 \cdot 2 \cdot a \cdot a = 6a^2</mrow></md></p></li>
 	<li><p><m>~3a(2+a)~</m> is the product of a monomial and a binomial, and we use the distributive law to simplify it:
-		<md>3a(2+a)=3a(2)+3a(a)=6a+3a^2</md></p></li>
+		<md><mrow>3a(2+a)=3a(2)+3a(a)=6a+3a^2</mrow></md></p></li>
 </ul></p></warning>
 
 <exercise number="3"><statement><p>Explain the terms monomial, binomial, and trinomial.</p></statement>
@@ -146,12 +146,12 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 	<idx><h>FOIL (terms of binomial product)</h></idx>
 <sidebyside widths="50% 35%" valigns="middle middle">
 	<p>In <xref ref="Example-5-4-3" text="type-global"/> we computed the product <m>(x-4)(x+6)</m>. The top row of the rectangle corresponds to
-    	<md>x(x+6)=x^2+6x</md>
+    	<md><mrow>x(x+6)=x^2+6x</mrow></md>
 	and the bottom row corresponds to
-    	<md>-4(x+6)=-4x-24</md></p>
+    	<md><mrow>-4(x+6)=-4x-24</mrow></md></p>
 	<image source="photos/fig-5-4-ex3"><description>rectangle</description></image></sidebyside>
 <p>Thus, we multiply each term of the first binomial by each term of the second binomial, resulting in four multiplications in all:
-    <md>(x-4)(x+6)=x^2+6x-4x-24</md>
+    <md><mrow>(x-4)(x+6)=x^2+6x-4x-24</mrow></md>
 Each term of the product corresponds to the area of one of the four sub-rectangles, as shown below.</p>
 <image width="85%" source="photos/fig-5-4-2"><description>product of binomials and rectangle</description></image>
 </assemblage>
@@ -249,7 +249,7 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 </ol></p></li>
 
 <li><p>Write the area of each rectangle in two different ways: as the sum of four small areas, and then as one large rectangle, using the formula 
-	<me>\text{Area} = \text{length} \times \text{width}</me>
+	<md><mrow>\text{Area} = \text{length} \times \text{width}</mrow></md>
 <ol marker="a.">
 	<li><p>sum of four small areas <m>=</m> one large area</p>
 	<!--<image source="photos/act-5-4-5.png"><description>rectangles</description></image>-->
@@ -318,7 +318,7 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 
 <li><p><ol marker="a.">
 	<li><sidebyside widths="50% 35%"><p>Find the linear term in the product
-		<md>(x-6)(2x+3)</md>    	
+		<md><mrow>(x-6)(2x+3)</mrow></md>    	
 		Use the diagram to help you.</p>
 		<!--<image source="photos/act-5-4-8.png"><description>rectangles</description></image>-->
 	<image xml:id="act-5-4-2-2"><description>rectangles</description><latex-image>

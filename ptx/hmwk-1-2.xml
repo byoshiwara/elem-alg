@@ -114,9 +114,9 @@
 
 <exercise number="18"><statement><p><ol marker="a.">
     <li><p>Which of these expressions says "one-sixth of <m>x</m>" ?</p>
-        <md> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</md></li>
+        <md><mrow> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</mrow></md></li>
     <li><p>Which of these expressions says "6% of <m>x</m>" ?</p>
-        <md> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</md></li>
+        <md><mrow> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</mrow></md></li>
 </ol></p></statement></exercise>
 
 <exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol marker="a.">    
@@ -186,7 +186,7 @@
         </ol></p></statement>
 <answer><p><ol marker="a.">
     <li><m>\dfrac{2}{3}p</m></li>
-    <li><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Members present</cell>
                         <cell><m>90</m></cell>
@@ -197,7 +197,7 @@
                         <cell><m>60</m></cell>
                         <cell><m>64</m></cell>
                         <cell><m>80</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     </ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>Marla's investment club buys some stock. She will get <m>\dfrac{3}{5}</m> of the dividends.<ol marker="a.">  

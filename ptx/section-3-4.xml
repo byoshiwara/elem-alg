@@ -44,7 +44,7 @@
 <example xml:id="Example-3-4-1"><statement><p>Write an equation for the temperature, <m>H</m>, inside the pottery drying oven <m>t</m> minutes after the oven is turned on.</p></statement>
 
 <solution><p>The initial temperature in the oven was 70 degrees, so <m>H=70</m> when <m>t=0</m>. The temperature rose at a rate of 0.4 degrees per minute, so we add 0.4 degrees to <m>H</m> for each minute that passes. After <m>t</m> minutes, we have added <m>0.4t</m> degrees, giving us a temperature of
-	<md>H = 70 + 0.4t</md>
+	<md><mrow>H = 70 + 0.4t</mrow></md>
 We can also write the equation as  <m>~H=0.4t+70</m>.</p></solution></example>
 
 <exercise number="1"><statement><p>What does the constant term in an equation tell us about the graph?</p></statement>
@@ -68,7 +68,7 @@ We can also write the equation as  <m>~H=0.4t+70</m>.</p></solution></example>
     <idx><h><em>m</em> as slope</h></idx>
     <idx><h><em>b</em> as <m>y</m>-intercept</h></idx>
 <p>A linear equation written in the form
-		<me>\blert{y=mx+b}</me>
+		<md><mrow>\blert{y=mx+b}</mrow></md>
 is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and <m>b</m> is the <m>y</m>-intercept.</p></assemblage>
 
 <exercise number="3"><statement><p>What does the <m>y</m>-intercept tell us in <xref ref="Example-3-4-1" text="type-global"/>?</p></statement>
@@ -134,7 +134,7 @@ to locate another point on the line. The coordinates of this new point are <m>(4
 
 <assemblage><title>Look Closer</title>
 <p>To improve the accuracy of the graph in <xref ref="Example-3-4-2" text="type-global"/>, we can find a third point on the line by writing the slope in an equivalent form. We change the sign of both numerator and denominator of the slope to get  
-	<md>m = \dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-4}</md>
+	<md><mrow>m = \dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-4}</mrow></md>
 Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units down and 4 units left, and find the point <m>(-4,-5)</m> on the graph.</p></assemblage>
 
 <exercise number="5"><statement><p>Name two methods of graphing that we have already studied.</p></statement>
@@ -216,11 +216,11 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 <p><ol marker="1.">
 <li><p><ol marker="a.">
     <li>Tuition at Woodrow University is $400 plus $30 per unit. Write an equation for tuition, <m>W</m>, in terms of the number of units, <m>u</m>, and fill in the table below.
-        <md>W=\hphantom{0000}</md></li>
+        <md><mrow>W=\hphantom{0000}</mrow></md></li>
     <li>At Xavier College, the tuition, <m>X</m>, is $200 plus $30 per unit. Write an equation <m>X</m> and fill in the table.
-        <md>X=\hphantom{0000}</md></li>
+        <md><mrow>X=\hphantom{0000}</mrow></md></li>
     <li><p>At the Yardley Institute, the tuition, <m>Y</m>, is $30 per unit. Write an equation <m>Y</m> and fill in the table.
-        <md>Y=\hphantom{0000}</md></p>
+        <md><mrow>Y=\hphantom{0000}</mrow></md></p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>u</m></cell>
@@ -284,11 +284,11 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 
 <li><p><ol marker="a.">
     <li><p>Anouk is traveling by train across Alaska at 60 miles per hour. Write an equation for the distance, <m>A</m>, Anouk has traveled in terms of hours, <m>h</m>, and fill in the table below.
-        <md>A=\hphantom{0000}</md></p></li>
+        <md><mrow>A=\hphantom{0000}</mrow></md></p></li>
     <li><p>Boris is traveling by snowmobile at 30 miles per hour. Write an equation for Boris' distance, <m>B</m>,  and fill in the table.
-        <md>B=\hphantom{0000}</md></p></li>
+        <md><mrow>B=\hphantom{0000}</mrow></md></p></li>
     <li><p>Chaka is traveling in a small plane at 100 miles per hour. Write an equation for Chaka's distance, <m>C</m>,  and fill in the table.
-        <md>C=\hphantom{0000}</md></p>
+        <md><mrow>C=\hphantom{0000}</mrow></md></p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
@@ -389,7 +389,7 @@ All of these equations pass through the origin, so their <m>y</m>-intercepts are
     <li>State the slope and <m>y</m>-intercept of the equation <m>y=-3x+4</m></li>
     <li><p>Graph the equation by the slope-intercept method.</p>  
         <p>Hint:  Write the slope as a fraction,
-            <me>m= \dfrac{\Delta y}{\Delta x}=\dfrac{-3}{1} =\dfrac{3}{-1}</me></p></li>
+            <md><mrow>m= \dfrac{\Delta y}{\Delta x}=\dfrac{-3}{1} =\dfrac{3}{-1}</mrow></md></p></li>
     </ol></p> 
     <image source="photos/stangrid10"><description>10 by 10 grid</description></image></sidebyside></li>
 

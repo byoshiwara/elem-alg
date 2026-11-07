@@ -6,7 +6,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, Use the given areas to find the length and width of each rectangle.</p></introduction>
 
 <exercise number="1"><statement>
-    <sidebyside width="60%" margins="0% 40%"><tabular halign="center">
+    <tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -25,11 +25,11 @@
             <cell  bottom="major" right="major" ><m>\hphantom{00}10x\hphantom{00}</m></cell>
             <cell  bottom="major" right="major" ><m>\hphantom{00}15\hphantom{00}</m></cell>
         </row>
-    </tabular></sidebyside></statement>
+    </tabular></statement>
  <answer><p><m>(2x+3)</m> by <m>(3x+5)</m></p></answer></exercise>
 
 <exercise number="2"><statement>
-    <sidebyside width="60%" margins="0% 40%"><tabular halign="center">
+    <tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -48,10 +48,10 @@
             <cell  bottom="major" right="major" ><m>\hphantom{00}-12t\hphantom{00}</m></cell>
             <cell  bottom="major" right="major" ><m>\hphantom{00}21\hphantom{00}</m></cell>
         </row>
-    </tabular></sidebyside></statement></exercise>
+    </tabular></statement></exercise>
 
 <exercise number="3"><statement>
-    <sidebyside width="75%" margins="0% 25%"><tabular halign="center">
+    <tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -70,11 +70,11 @@
             <cell  bottom="major" right="major" ><m>\hphantom{00}30m\hphantom{00}</m></cell>
             <cell  bottom="major" right="major" ><m>\hphantom{00}-25\hphantom{00}</m></cell>
         </row>
-    </tabular></sidebyside></statement>
+    </tabular></statement>
  <answer><p><m>(6m-5)</m> by <m>(2m+5)</m></p></answer></exercise>
 
  <exercise number="4"><statement>
-    <sidebyside width="60%" margins="0% 40%"><tabular halign="center">
+    <tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -93,7 +93,7 @@
             <cell  bottom="major" right="major" ><m>\hphantom{00}-21a\hphantom{00}</m></cell>
             <cell  bottom="major" right="major" ><m>\hphantom{00}-49\hphantom{00}</m></cell>
         </row>
-    </tabular></sidebyside></statement></exercise>
+    </tabular></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>10, use the box method to factor the quadratic trinomials.</p></introduction>

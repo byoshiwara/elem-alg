@@ -266,7 +266,7 @@
 </statement></exercise>
 
 <exercise number="47"><statement><sidebyside widths="50% 35%" valigns="middle middle"><p>The crew team can row at a steady pace of 10 miles per hour in still water.  Every afternoon, their training includes a five-mile row upstream on the river. If the current in the river on a given day is <m>v</m> miles per hour, then the time required for this exercise, in minutes, is given by
-	<md>t=\dfrac{300}{10-v}</md>
+	<md><mrow>t=\dfrac{300}{10-v}</mrow></md>
 Use the graph of this equation shown in the figure to answer questions (a) and (b).</p>
 <!--<image source="photos/hp-8-1-47.png"><description>graph</description></image>-->
     <image xml:id="hp-8-1-47">

@@ -55,7 +55,7 @@
 </exercisegroup>
 
 <exercise number="21"><statement><p>A small lake in a state park has become polluted by runoff from a factory upstream. The cost for removing <m>p</m> percent of the pollution from the lake is given, in thousands of dollars, by
-    <md>C=\dfrac{25p}{100-p}</md>
+    <md><mrow>C=\dfrac{25p}{100-p}</mrow></md>
 How much of the pollution can be removed for $25,000?</p></statement>
 <answer>50%</answer></exercise>
 

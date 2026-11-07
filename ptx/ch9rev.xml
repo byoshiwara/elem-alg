@@ -8,35 +8,35 @@
 
 <li><assemblage><title>Laws of Exponents</title>
 <p>First Law of Exponents
-	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
+	<md><mrow>\blert{a^m \cdot a^n = a^{m+n}}</mrow></md></p>	
 <p>Second Law of Exponents
 	<md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
 		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>Third Law of Exponents</title>
 <p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
-	<me>\blert{(a^m)^n = a^{mn}}</me></p></assemblage></li>
+	<md><mrow>\blert{(a^m)^n = a^{mn}}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>Fourth Law of Exponents</title>
 <p>To raise a product to a power, raise each factor to the power. In symbols,
-	<me>\blert{(ab)^n = a^nb^n}</me></p></assemblage></li>
+	<md><mrow>\blert{(ab)^n = a^nb^n}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>Fifth Law of Exponents</title>
 <p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
-	<me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></p></assemblage></li></ul></p>
+	<md><mrow>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</mrow></md></p></assemblage></li></ul></p>
 </subsection>
 
 <subsection><title>Lesson 9.2 Negative Exponents and Scientific Notation</title><p><ul>
 
 <li><assemblage><title>Zero as an Exponent</title>
-<p><me>\blert{a^0=1,~~~~\text{if}~~~~a \not= 0}</me></p></assemblage></li>
+<p><md><mrow>\blert{a^0=1,~~~~\text{if}~~~~a \not= 0}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>Negative Exponents</title>
-<p><me>\blert{a^{-n} = \dfrac{1}{a^n}~~~~\text{if}~~~~a \not= 0}</me></p></assemblage></li>
+<p><md><mrow>\blert{a^{-n} = \dfrac{1}{a^n}~~~~\text{if}~~~~a \not= 0}</mrow></md></p></assemblage></li>
 
 <li>A negative power is the reciprocal of the corresponding positive power. A negative exponent does not mean that the power is negative.</li>
 <li><p>The laws of exponents apply to negative exponents. In particular, if we allow negative exponents, we can write the second law as a single rule.
-	<me>\dfrac{a^m}{a^n} = a^{m-n},~~~~a \not=0</me></p></li>
+	<md><mrow>\dfrac{a^m}{a^n} = a^{m-n},~~~~a \not=0</mrow></md></p></li>
 <li>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
 between 1 and 10 and a power of 10.</li>
 <li>To write a number in scientific notation, we first position the decimal point and then determine the correct power of 10.</li>
@@ -47,9 +47,9 @@ between 1 and 10 and a power of 10.</li>
 
 <li><assemblage><title>Properties of Radicals</title>
 	<p>Product Rule for Radicals
-		<me>  \text{If}~~a,~b \ge 0,~~~\text{then}~~~~\blert{\sqrt{ab}=\sqrt{a}\sqrt{b}}</me></p>
+		<md><mrow>  \text{If}~~a,~b \ge 0,~~~\text{then}~~~~\blert{\sqrt{ab}=\sqrt{a}\sqrt{b}}</mrow></md></p>
 	<p>Quotient Rule for Radicals
-		<me>  \text{If}~~a \ge 0,~b \gt 0~~~\text{then}~~~~\blert{\sqrt{\dfrac{a}{b}}=\dfrac{\sqrt{a}}{\sqrt{b}}}</me></p></assemblage></li>
+		<md><mrow>  \text{If}~~a \ge 0,~b \gt 0~~~\text{then}~~~~\blert{\sqrt{\dfrac{a}{b}}=\dfrac{\sqrt{a}}{\sqrt{b}}}</mrow></md></p></assemblage></li>
 
 <li><p>It is just as important to remember that we do not have a sum or difference rule for radicals. That is, in general,
 	<md><mrow>\sqrt{a+b} \not= \sqrt{a}+\sqrt{b}</mrow>
@@ -400,12 +400,12 @@ between 1 and 10 and a power of 10.</li>
 </exercisegroup>
 
 <exercise number="73"><statement><p>The time it takes for a pendulum to complete one full swing, from right to left and back again, is given in seconds by the formula
-	<me>T= 2\pi \sqrt{\dfrac{L}{32}}</me>
+	<md><mrow>T= 2\pi \sqrt{\dfrac{L}{32}}</mrow></md>
 where <m>L</m> is the length of the pendulum in feet. The longest pendulum in the world is a reconstruction of Foucault's pendulum in the Convention Center in Portland, Oregon. The pendulum weighs 900 pounds and takes 10.54 seconds to complete one full swing. To the nearest foot, how long is the pendulum?</p></statement>
 <answer><p>90 ft</p></answer></exercise>
 
 <exercise number="74"><statement><p>The velocity, <m>v</m>, of a satellite orbitting the earth is given in miles per hour by
-	<me>v=\sqrt{\dfrac{1.24 \times 10^{12}}{R+h}}</me>
+	<md><mrow>v=\sqrt{\dfrac{1.24 \times 10^{12}}{R+h}}</mrow></md>
 where <m>h</m> is the altitude of the satellite in miles, and <m>R</m> is the radius of the earth, about 3960 miles. The Russian space station Mir has an orbital velocity of 17,187 miles per hour. What is its altitude?
 </p></statement></exercise>
 

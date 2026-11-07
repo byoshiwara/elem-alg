@@ -214,14 +214,14 @@
 </exercisegroup>
 
 <exercise number="39"><statement><p>Find and correct the error in the calculation:
-	<md>\begin{aligned}
-            (5+4)\amp -3(8-3 \cdot 2)\\
-                \amp = 9-3(8-6)\\
-                \amp = 6(2)=12
-        \end{aligned}</md>
+	<md>
+        <mrow>(5+4)\amp -3(8-3 \cdot 2)</mrow>
+        <mrow>       \amp = 9-3(8-6)</mrow>
+        <mrow>\amp = 6(2)=12</mrow>
+    </md>
 </p></statement>
 <answer><p>Subtracting <m>9-3</m> is incorrect. It should be
-    <md>9-3(2)=9-6=3</md></p></answer></exercise>
+    <md><mrow>9-3(2)=9-6=3</mrow></md></p></answer></exercise>
 
 <exercise number="38"><statement><p>Think of the region shown below as a rectangle with a smaller rectangle removed, and write an expression for its area. Then simplify your expression to find the area. (The measurements given are in centimeters.)</p>
 

@@ -49,13 +49,13 @@
 <subsection><title>Lesson 5.3  Using Formulas</title><p><ul>
 <li><term>Volume</term> is the amount of space contained within a three-dimensional object, and is measured in cubic units, such as cubic feet or cubic centimeters. <term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid, and is measured in square units.</li>
 
-<li><sidebyside width="100%"><image source="photos/fig-5-3-1"><description>solids</description></image></sidebyside></li>
+<li><image source="photos/fig-5-3-1"><description>solids</description></image></li>
 
 <li>Taking a square root is the opposite of squaring a number. We can undo the squaring operation by taking square roots.</li>
 
 <li><assemblage><title>Pythagorean Theorem</title>
 <sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
-<me>a^2 + b^2 = c^2</me></p>                  
+<md><mrow>a^2 + b^2 = c^2</mrow></md></p>                  
 <image source="photos/fig-5-3-2"><description>triangle</description></image></sidebyside></assemblage></li>
 
 <li>If we plan to use a formula more than once with different values for the variables, it may be faster in the long run to solve for one of the variables in terms of the others.</li></ul></p>

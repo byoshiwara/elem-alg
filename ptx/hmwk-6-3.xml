@@ -54,7 +54,7 @@
  </answer></exercise>
 
  <exercise number="2"><statement>
-    <sidebyside><tabular halign="center">
+    <tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -73,10 +73,10 @@
             <cell  bottom="minor" right="minor"><p><m>?</m></p></cell>
             <cell  bottom="minor" right="minor"><p><m>27</m></p></cell>
         </row>
-    </tabular></sidebyside></statement></exercise>
+    </tabular></statement></exercise>
 
  <exercise number="3"><statement>
-    <sidebyside><tabular halign="center">
+    <tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -95,9 +95,9 @@
             <cell  bottom="minor" right="minor"><p><m>?</m></p></cell>
             <cell  bottom="minor" right="minor"><p><m>16</m></p></cell>
         </row>
-    </tabular></sidebyside></statement>
+    </tabular></statement>
     <answer><ol marker="a."><li>
-    <sidebyside><tabular halign="center">
+    <tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -116,7 +116,7 @@
             <cell  bottom="minor" right="minor"><p><m>\alert{8x}</m></p></cell>
             <cell  bottom="minor" right="minor"><p><m>16</m></p></cell>
         </row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p><m>(x+8)(x+2)=x^2+10x+26</m></p></li>     
 </ol>
  </answer></exercise>
@@ -339,7 +339,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>Icon Industries produces all kinds of electronic equipment. The cost, <m>C</m>, of producing a piece of equipment depends on the number of hours, <m>t</m>, it takes to build it, where
-	<md>C=8t^2-32t-16</md>
+	<md><mrow>C=8t^2-32t-16</mrow></md>
 How many hours does it take to build a transformer if it costs $80 to produce?</p></statement>
 </exercise>
 
@@ -350,7 +350,7 @@ How many hours does it take to build a transformer if it costs $80 to produce?</
 
 <exercise number="35"><statement><p>The area of a computer circuit board must be 60 square centimeters. The length of the circuit board should be 2 centimeters shorter than twice its width. Find the dimensions of the circuit board.</p></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside width="20%" margins="0% 80%"><tabular halign="center">
+    <li><tabular halign="center">
         <row>
             <cell ></cell>
             <cell bottom="major"><m>2w+3</m></cell>
@@ -359,7 +359,7 @@ How many hours does it take to build a transformer if it costs $80 to produce?</
             <cell right="major" left="none"><m>w</m></cell>
             <cell bottom="major" right="major"></cell>
         </row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p><m>w(2w-2)=60</m></p></li>
     <li><p><m>w=-5</m>, <m>w=6</m>; The circuit board should be 6 cm by 10 cm</p></li></ol></p></answer></exercise>
 

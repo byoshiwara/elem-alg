@@ -8,15 +8,15 @@
 	<idx><h>exponent</h></idx>
 
 <p>The area of a rectangle <idx><h>area</h><h>of rectangle</h></idx> is given by the formula <m>~A=lw</m>. The variable <m>l</m> stands for the length of the rectangle, and <m>w</m> stands for for its width. The area tells us how many square tiles, one unit on a side, will fit inside the rectangle, as shown below.</p>
-<sidebyside width="90%"><image source="photos/fig-5-1-1"><description>box</description></image></sidebyside> 
+<image source="photos/fig-5-1-1" width="90%"><description>box</description></image>
 
 <p>Similarly, the volume of a box <idx><h>volume</h><h>of box</h></idx> (measured in cubic units) is given by the formula <m>~V=lwh</m>, where <m>l,~w</m>, and <m>h</m> stand for the length, width, and height of the box. The volume tells us how many blocks, one unit on a side, will fit inside the box. The volume of the box shown above is
-	<md>V=lwh = 6 \cdot 4 \cdot 3 =72~\text{cubic units}</md></p>
+	<md><mrow>V=lwh = 6 \cdot 4 \cdot 3 =72~\text{cubic units}</mrow></md></p>
 
 <p>A <term>square</term><idx><h>square</h></idx> is a rectangle whose length and width are equal. If we use <m>s</m>, for side, to stand for both the length and width of the square, its area is given by
-	<md>A=s \cdot s</md></p>     
+	<md><mrow>A=s \cdot s</mrow></md></p>     
 <sidebyside widths="70% 20%"><p>A <term>cube</term><idx><h>cube</h></idx> is a box whose length, width, and height are all equal, so its volume is given by
-	<md>V=s \cdot s \cdot s</md></p>  
+	<md><mrow>V=s \cdot s \cdot s</mrow></md></p>  
 <image source="photos/fig-5-1-2"><description>cube</description></image></sidebyside>
 
 <exercise number="1"><statement><p>What is the formula for the volume of a box?</p></statement>
@@ -57,7 +57,7 @@
 <assemblage><title>Exponents</title>
 	<idx><h>exponent</h></idx>
 <p>An <term>exponent</term> indicates repeated multiplication.  
-	<md>a^n = a \cdot a \cdot a \cdot \cdots \cdot a ~~~~~~~~ (n ~ \text{factors of}~ a)</md>  
+	<md><mrow>a^n = a \cdot a \cdot a \cdot \cdots \cdot a ~~~~~~~~ (n ~ \text{factors of}~ a)</mrow></md>  
 where <m>n</m> is a positive integer.</p></assemblage>
 
 <exercise number="2"><statement><p>What does an exponent tell us?</p></statement>
@@ -77,7 +77,7 @@ where <m>n</m> is a positive integer.</p></assemblage>
 	<md><mrow>5^2~~\text{means}~~5 \cdot 5,~~\text{and is read  "5 squared"  or  "the square of 5"}</mrow>
 		<mrow>5^3~~\text{means}~~5 \cdot 5 \cdot 5,~~\text{and is read  "5 cubed"  or  "the cube of 5"}</mrow></md>
 These names come from the formulas for the area, <m>A</m>, of a square with side <m>s</m> and the volume, <m>V</m>, of a cube with edge <m>s</m>:
-	<md>A=s^2~~~~~~\text{and}~~~~~~V=s^3</md></p></assemblage>
+	<md><mrow>A=s^2~~~~~~\text{and}~~~~~~V=s^3</mrow></md></p></assemblage>
 </subsection>
 
 <subsection><title>Powers of Negative Numbers</title>
@@ -88,9 +88,9 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 <p>To show that a negative number is raised to a power, we enclose the negative number in parentheses.</p></assemblage>
 
 <p>For example, to indicate the square of <m>-5</m>, we write 
-	<md>(-5)^2 = (-5)(-5) = 25~~~~~~\blert{\text{Exponent applies to}~(-5).}</md> 
+	<md><mrow>(-5)^2 = (-5)(-5) = 25~~~~~~\blert{\text{Exponent applies to}~(-5).}</mrow></md> 
  If the negative number is not enclosed in parentheses, then the exponent applies only to the positive number, and the negative sign tells us that the power is negative.  For example,  
-	<md>-5^2 = -(5 \cdot 5) = -25~~~~~~\blert{\text{Exponent applies only to 5.}}</md></p>
+	<md><mrow>-5^2 = -(5 \cdot 5) = -25~~~~~~\blert{\text{Exponent applies only to 5.}}</mrow></md></p>
 
 <assemblage><title>Look Closer</title>
 <p>Note how the placement of parentheses changes the meaning of the expressions in <xref ref="Example-5-1-2" text="type-global"/>. </p></assemblage>
@@ -107,7 +107,7 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 	<li>The negatvie number is squared:  <m>~~(-4)^2 = (-4)(-4) = 16</m></li>
 	<li>Only 4 is squared:  <m>~~-(4)^2 = -(4)(4) = -16</m></li>
 	<li><p>Only 4 is squared, and the entire expression appears within parentheses:  
-		<me>(-4^2) = (-4 \cdot 4 )=-16</me></p></li>
+		<md><mrow>(-4^2) = (-4 \cdot 4 )=-16</mrow></md></p></li>
 </ol></p></solution></example>
 
 <exercise number="3"><statement><p>How do we indicate that a negative number should be raised to a power?</p></statement>
@@ -117,7 +117,7 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 <subsection><title>Using a Calculator</title>
 
 <p>Scientific calculators usually have a key labeled <m>\boxed{~x^y~}</m> or <m>\boxed{~y^x~}</m>, called the power key, for computing powers. To compute <m>7^4</m> using the power key, we enter
-	<md>7~~\boxed{~y^x~}~~4~~\boxed{~=~}</md>
+	<md><mrow>7~~\boxed{~y^x~}~~4~~\boxed{~=~}</mrow></md>
 Graphing calculators have a caret key, <kbd name="circumflex"/>, for entering powers. On a graphing calculator, we enter <m>7^4</m> as</p>
 
 	<p> 7 <kbd name="circumflex"/> 4 <kbd>ENTER</kbd></p>
@@ -134,7 +134,7 @@ Graphing calculators have a caret key, <kbd name="circumflex"/>, for entering po
 		<p><m>1.2~~\boxed{~y^x~}~~3~~\boxed{~=~}~~~~</m> or <m>~~~~ 1.2 </m> <kbd name="circumflex"/> <m>~3~</m> <kbd>ENTER</kbd></p>
 	<p>to find that <m>(1.2)^3=1.728</m>.</p></li>
 	<li><p>If your calculator has a <m>\boxed{~+/-~}</m> key, you can enter
-		<md>12~~\boxed{~+/-~}~~\boxed{~y^x~}~~4~~\boxed{~=~}</md>
+		<md><mrow>12~~\boxed{~+/-~}~~\boxed{~y^x~}~~4~~\boxed{~=~}</mrow></md>
 	to find that <m>(-12)^4=20,736</m>.  On a graphing calculator, we enter</p>
 	
 	<p><kbd name="left-paren"/><kbd name="minus"/> 12 <kbd name="right-paren"/> <kbd name="circumflex"/> 4 </p></li>
@@ -232,10 +232,10 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 
 <solution><p><ol marker="a.">
 	<li><p>We replace <m>x</m> by <m>\alert{-6}</m>, and then square. This means that <m>-6</m> gets squared, not just 6.  Thus,
-		<md>x^2 = (\alert{-6})^2 = (-6)(-6) = 36</md>
+		<md><mrow>x^2 = (\alert{-6})^2 = (-6)(-6) = 36</mrow></md>
 	The parentheses are essential for this calculation. It would be incorrect to write <m>x^2=-6^2=-36</m>.</p></li>
 	<li><p>In this expression, only <m>x</m> is squared. The negative sign is applied to the result.
-		<md>-x^2=-(\alert{-6})^2 = -36</md></p></li>
+		<md><mrow>-x^2=-(\alert{-6})^2 = -36</mrow></md></p></li>
 	<li><p>We replace <m>x</m> by <m>\alert{-6}</m> to get
 		<md><mrow> 2-x^2 \amp =2-(\alert{-6})^2 \amp \amp \blert{\text{Compute the power first.}}</mrow>
             <mrow>\amp = 2-36=-34</mrow></md></p></li>
@@ -252,11 +252,11 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 	<md><mrow>8x-3x \amp = 5x</mrow>
         <mrow>\text{but}~~~~~~8x-3y\amp ~~~~~~~~~~\text{cannot be simplified}</mrow></md>     
 We can also combine like powers of the same variable. For instance,
-	<me>8x^2-3x^2=5x^2</me></p>
+	<md><mrow>8x^2-3x^2=5x^2</mrow></md></p>
 
 <assemblage><title>Look Closer</title>
 <p>Notice that when we add like terms, we do not alter the exponent; only the coefficient of the power changes.  Can we add different powers of the same variable?  The answer to this question is No.  For example, 
-	<md>8x^2-3x~~~~~~~~\text{cannot be simplified}</md>
+	<md><mrow>8x^2-3x~~~~~~~~\text{cannot be simplified}</mrow></md>
  For most values of <m>x</m>, the numbers <m>x</m> and <m>x^2</m> are different. Thus, <m>8x^2</m> and <m>3x</m> are not like terms, and they cannot be combined.</p></assemblage>
 
 <example><statement><p>Combine like terms where possible.<ol marker="a." cols="2">
@@ -266,12 +266,12 @@ We can also combine like powers of the same variable. For instance,
 
 <solution><p><ol marker="a.">
 	<li><p>The exponents on the two terms are the same, so they can be combined. We add the coefficients, <m>-6+10=4</m>, and leave the powers unchanged:
-		<md>-6a^3+10a^3=4a^3</md></p></li>
+		<md><mrow>-6a^3+10a^3=4a^3</mrow></md></p></li>
 	<li>The exponents on the terms are different, so they are not like terms. They cannot be combined.</li>
 </ol></p></solution></example>
 
 <warning><p>When adding like terms, we do not add the exponents. For example,
-	<me>4x^2 + 3x^2 = 7x^4 ~~~~~~~~~~\alert{\text{is incorrect!}}</me></p></warning>
+	<md><mrow>4x^2 + 3x^2 = 7x^4 ~~~~~~~~~~\alert{\text{is incorrect!}}</mrow></md></p></warning>
 
 <exercise number="6"><statement><p>How do we combine like terms?</p></statement>
     	<answer><p>We add the coefficients and leave the powers unchanged.</p></answer></exercise>
@@ -285,11 +285,11 @@ We can also combine like powers of the same variable. For instance,
 
 <solution><p><ol marker="a.">
 	<li><p>These are like terms, so they can be combined. We add the coefficients, <m>3+5=8</m>, and leave the variable unchanged:
-		<md>3a+5a=8a</md></p></li>
+		<md><mrow>3a+5a=8a</mrow></md></p></li>
 	<li><p>This product can be written as
-			<md>3 \cdot a \cdot 5 \cdot a</md>
+			<md><mrow>3 \cdot a \cdot 5 \cdot a</mrow></md>
 		We use the commutative law to rearrange the factors and multiply to find
-			<md>3 \cdot 5 \cdot a \cdot a = 15a^2</md></p></li>
+			<md><mrow>3 \cdot 5 \cdot a \cdot a = 15a^2</mrow></md></p></li>
 </ol></p></solution></example>
 
 <problem>

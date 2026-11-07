@@ -58,7 +58,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         <mrow>2y+5x=5</mrow></md></p></statement>
 
 <solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting <m>3x</m> from both sides to get: 
-        <md>y=1-3x</md>
+        <md><mrow>y=1-3x</mrow></md>
 We now substitute the expression <m>~1-3x~</m> for <m>y</m> in the other equation:</p>
 <!--<image source="photos/fig-4-3-ex2.png"><description>graphic</description></image>-->
     <image width="35%" xml:id="fig-4-3-ex2"><description>substitution</description><latex-image>
@@ -86,7 +86,7 @@ We now substitute the expression <m>~1-3x~</m> for <m>y</m> in the other equatio
             <mrow>-x \amp = 3     \amp\amp \blert{\text{Divide both sides by}~-1.}</mrow>
             <mrow>x \amp = -3</mrow></md>    
 We have found the <m>x</m>-coordinate of the solution point. To find the <m>y</m>-coordinate, we substitute <m>x=\alert{-3}</m> into either of the original equations. It is easiest to use the equation we solved for <m>y</m>, namely <m>~y=1-3x</m>.
-        <me>y=1-3(\alert{-3}) = 10 ~~~~~~~~~~~~~~~~~~~\blert{\text{Substitute}~-3~ \text{for}~x.}</me> 
+        <md><mrow>y=1-3(\alert{-3}) = 10 ~~~~~~~~~~~~~~~~~~~\blert{\text{Substitute}~-3~ \text{for}~x.}</mrow></md> 
 The solution to the system is <m>~x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. You can check that these values satisfy both of the original equations in the system.</p></solution></example>
 
 <exercise number="1"><statement><p>What is the first step in the substitution method?</p></statement>
@@ -148,7 +148,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 		<mrow>3x+y=-1</mrow></md></p></statement>
 
 <solution><p>We can choose to eliminate either the <m>x</m>-terms or the <m>y</m>-terms in a system. For this example, it will be faster to eliminate the <m>y</m>-terms. If we multiply each term of the second equation by <m>-3</m>, then the coefficients of <m>y</m> will be opposites:
-		<md>\blert{-3}(3x+y=-1)~~\rightarrow ~~ -9x-3y=3</md>
+		<md><mrow>\blert{-3}(3x+y=-1)~~\rightarrow ~~ -9x-3y=3</mrow></md>
 Note carefully that we must multiply each term by <m>-3</m>, not just the <m>y</m>-term. We can then replace the second equation by its new version to obtain a new system, and we add the equations together:
 		<md><mrow>4x+3y \amp = 7</mrow>
             <mrow>\underline{-9x-3y }\amp \underline{ {}= 3\vphantom{y}}</mrow>
@@ -286,17 +286,17 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <p>We can use the method of elimination to identify the type of linear system.</p>
 <p><ol marker="1.">
 	<li>If combining the two equations results in an equation of the form
-		<me>0x+0y=k~~~~(k \not= 0)</me>
+		<md><mrow>0x+0y=k~~~~(k \not= 0)</mrow></md>
 	then the system is inconsistent.</li>
 	<li>If combining the two equations results in an equation of the form
-		<me>0x+0y=0</me>
+		<md><mrow>0x+0y=0</mrow></md>
 	then the system is dependent.</li></ol></p></assemblage>
 
 <exercise number="7"><statement><p>How can you tell if a system is inconsistent?</p></statement>
-    	<answer><p>If elimination leads to <me>0x+0y=k~~~~(k \not= 0)</me></p></answer></exercise>
+    	<answer><p>If elimination leads to <md><mrow>0x+0y=k~~~~(k \not= 0)</mrow></md></p></answer></exercise>
 
 <exercise number="8"><statement><p>How can you tell if a system is dependent?</p></statement>
-    	<answer><p>If elimination leads to <me>0x+0y=0</me></p></answer></exercise>
+    	<answer><p>If elimination leads to <md><mrow>0x+0y=0</mrow></md></p></answer></exercise>
 
 <problem>
 <p>Simplify each expression. Write your answers in the form <m>~ax+b</m>.</p>
@@ -411,9 +411,9 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
     <li><p>Write an equation about the number of passengers:
-            <md>\hphantom{0000}</md>
+            <md><mrow>\hphantom{0000}</mrow></md>
         Write an equation about revenue:
-            <md>\hphantom{0000}</md></p></li>
+            <md><mrow>\hphantom{0000}</mrow></md></p></li>
     <li><p>Solve your system.</p>
         <p>Write your answer in a sentence.</p></li>
     </ol></p></li>
@@ -424,9 +424,9 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
         <md><mrow>x = \hphantom{000000000000}</mrow>
             <mrow>y = \hphantom{000000000000}</mrow></md></p></li>
     <li><p>Write an equation about the perimeter of the playground:
-            <md>\hphantom{0000}</md>
+            <md><mrow>\hphantom{0000}</mrow></md>
         Write an equation relating the length and the width:
-            <md>\hphantom{0000}</md></p></li>
+            <md><mrow>\hphantom{0000}</mrow></md></p></li>
     <li><p>Solve your system.</p>
         <p>Write your answer in a sentence.</p></li>
     </ol></p></li>

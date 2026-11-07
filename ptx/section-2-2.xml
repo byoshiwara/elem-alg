@@ -11,9 +11,9 @@
 <example xml:id="Example-2-2-1"><statement><p>Alida keeps $100 in cash from her weekly paycheck, and deposits 40% of the remainder in her savings account. If Alida's paycheck is <m>p</m>, write an expression for the amount she deposits in savings.</p></statement>
 
 <solution><p>How would we calculate Alida's deposit if we knew her paycheck? Suppose Alida's paycheck is $500. First she subtracts $100 from that amount to get <m>500-100</m>, and then she takes 40% of the remainder for savings:
-	<md>0.40(\alert{500}-100)~~~~~\blert{\text{Perform operations inside parentheses first.}}</md>
+	<md><mrow>0.40(\alert{500}-100)~~~~~\blert{\text{Perform operations inside parentheses first.}}</mrow></md>
 If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> instead of on 500. The expression is thus
-	<md>0.40(\alert{p}-100)</md></p></solution></example>
+	<md><mrow>0.40(\alert{p}-100)</mrow></md></p></solution></example>
 
 <exercise number="1"><statement><p>We write an expression with variables using the same operations we would use to calculate with a <fillin characters="6"/>.</p></statement>
     	<answer><p>specific number</p></answer></exercise>
@@ -32,7 +32,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </ol></p></statement>
 <solution><p><ol marker="a.">
 	<li><p>The discount price of one ticket is <m>~t-20~</m> dollars. So four tickets cost 
-		<me>4(t-20)~~\text{dollars}</me></p></li>
+		<md><mrow>4(t-20)~~\text{dollars}</mrow></md></p></li>
 	<li><p>We evaluate the expression in part (a) for <m>t=\alert{38}</m>.        
 		<md><mrow>4(t-20) \amp = 4(\alert{38}-20) \amp  \blert{\text{Simplify inside parentheses first.}}</mrow>
             <mrow>\amp = 4(18)=72</mrow></md>                
@@ -168,9 +168,9 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
     <li><p><m>\blert{\text{Consider some specific values for the variable:}}</m></p>  
         <p>What is Neda's bill if she orders 3 albums?  If she orders 5 albums?</p>
         <p>For <m>\alert{3}</m> albums, the bill is:
-            <me>12 \cdot  \alert{3} + 4 = </me></p>      
+            <md><mrow>12 \cdot  \alert{3} + 4 = </mrow></md></p>      
         <p>For <m>\alert{5}</m> albums, the bill is:
-            <me>\hphantom{0000}</me></p></li>
+            <md><mrow>\hphantom{0000}</mrow></md></p></li>
     <li>Describe in words how you calculated your answers for specific values.</li>
     <li><p><m>\blert{\text{Replace the specific values in your calculations by a variable.}}</m></p>
         <p>If Neda orders <m>\alert{a}</m> albums, an expression for the bill is:</p>
@@ -194,11 +194,11 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 
 <p><ol marker="1.">
 <li><p>When a company purchases a piece of equipment such as a computer or a copy machine, the value of the equipment depreciates over time. One way to calculate the value of the equipment uses the formula
-    <md>V=C\left(1-\dfrac{t}{n}\right)</md>
+    <md><mrow>V=C\left(1-\dfrac{t}{n}\right)</mrow></md>
 where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of years since it was purchased, and <m>n</m> stands for the useful lifetime of the equipment in years. Find the value of a 4-year-old copy machine if it has a useful lifetime of 6 years and cost $3000 when new. 
 <ol marker="a.">
     <li>List the values of the variables:
-        <me>C=<fillin characters="4"/>,~~~t=<fillin characters="4"/>,~~~n=<fillin characters="4"/></me></li>      
+        <md><mrow>C=<fillin characters="4"/>,~~~t=<fillin characters="4"/>,~~~n=<fillin characters="4"/></mrow></md></li>      
     <li>Substitute the values into the formula.</li>
     <li><p>Simplify the expression. Follow the order of operations.</p>
         <p><m>\blert{\text{Simplify inside the parentheses.}}</m></p>
@@ -227,7 +227,7 @@ where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of 
 <assemblage><title>Questions</title>   
 <p><ol marker="1.">
     <li><p>Explain what is wrong with this calculation:
-        <me>9-4(-6) = 5 (-6) = -30</me></p></li>  
+        <md><mrow>9-4(-6) = 5 (-6) = -30</mrow></md></p></li>  
     <li>For "5 dollars less than the price of 3 shirts," Delbert writes <m>5-3s</m>. What is wrong with his expression?</li>
     <li>In problems 2 and 3 of Activity 2, which expression required parentheses?  Why?</li>
     <li>When we evaluate <m>ab</m> for <m>a=6,~b=-3</m>, why should we enclose <m>-3</m> in parentheses?</li>

@@ -115,7 +115,7 @@
  
  <exercise number="4"><statement>
     <sidebyside widths="45% 40%" valigns="top top"><stack><p>Graph the line and compute its slope.
- 	      <md>y=-12x+32</md></p>
+ 	      <md><mrow>y=-12x+32</mrow></md></p>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
@@ -207,7 +207,7 @@
 	<li>Calculate the slope again using the suggested points on the line.</li></ol></p></introduction>
 
 <exercise number="7"><statement><p><m>2x+3y=12</m>
-	<md>(-3,6)~~\text{and}~~(3,2)</md></p>
+	<md><mrow>(-3,6)~~\text{and}~~(3,2)</mrow></md></p>
 <image source="photos/stangrid10"><description>grid</description></image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>(0,4) </m>, <m>~(6,0) </m></p></li>
@@ -237,11 +237,11 @@
 </ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>5x-2y=10</m>
-	<md>(-2,-10)~~\text{and}~~(4,5)</md></p>
+	<md><mrow>(-2,-10)~~\text{and}~~(4,5)</mrow></md></p>
 <image source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 
 <exercise number="9"><statement><p><m>x+y=5</m>
-	<md>(-3,8)~~\text{and}~~(8,-3)</md></p>
+	<md><mrow>(-3,8)~~\text{and}~~(8,-3)</mrow></md></p>
 <image source="photos/stangrid10"><description>grid</description></image></statement>
 <answer><p><ol marker="a.">
     <li><p><m>(0,5) </m>, <m>~(5,0) </m></p></li>
@@ -271,7 +271,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>x-2y=4</m>
-	<md>(6,1)~~\text{and}~~(-4,-4)</md></p>
+	<md><mrow>(6,1)~~\text{and}~~(-4,-4)</mrow></md></p>
 <image source="photos/stangrid10"><description>grid</description></image></statement></exercise>
 </exercisegroup>
 

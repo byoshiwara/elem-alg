@@ -15,7 +15,7 @@
 <p>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</p></assemblage>
 
 <p>For example, if a snack bar sells 30 sandwiches at $4.25 each, their revenue from sandwiches is 
-	<md>\text{Revenue} = (\$4.25~ \text{per sandwich}) \cdot (30~ \text{sandwiches}) = \$127.50</md></p>
+	<md><mrow>\text{Revenue} = (\$4.25~ \text{per sandwich}) \cdot (30~ \text{sandwiches}) = \$127.50</mrow></md></p>
 
 <assemblage><title>Look Ahead</title>
 <p>Usually, the number of items that consumers will buy depends on the price of the item: the higher a company sets the price, the fewer items it is likely to sell. How does a company's revenue depend upon the price it charges? A good way to study such a problem is to consider the graph of the equation for revenue.</p></assemblage>
@@ -80,7 +80,7 @@
 
 <assemblage><title>Look Closer</title>
 <p>In <xref ref="Example-6-2-1" text="type-global"/> we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
-	<md>R=p(40-p)=40p-p^2</md>
+	<md><mrow>R=p(40-p)=40p-p^2</mrow></md>
 The graph of this equation is shown again below. </p>
 
 <sidebyside widths="55% 40%"><stack><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>~p=0,~R=0</m>.</p>
@@ -93,23 +93,23 @@ The graph of this equation is shown again below. </p>
     <idx><h>zero-factor principle</h></idx>
 
 <p>Look again at the equation for revenue in Example 1,
-	<md>R=p(40-p)</md>
+	<md><mrow>R=p(40-p)</mrow></md>
 The expression for revenue has two factors. The first factor is <m>p</m>, and when <m>p=\alert{0}</m> we have
-	<md>R=\alert{0}(40-\alert{0})=0</md>
+	<md><mrow>R=\alert{0}(40-\alert{0})=0</mrow></md>
 so the revenue is zero as well.</p>
 
 <p>The second factor, <m>~40-p~</m>, is zero when <m>~p=\alert{40}</m>. If Rick charges $40 an hour, his revenue is
-	<md>R=\alert{40}(40-\alert{40})=0</md>
+	<md><mrow>R=\alert{40}(40-\alert{40})=0</mrow></md>
 (Recall that <m>~40-p~</m> represents the number of clients that Rick will attract if he charges <m>p</m> dollars an hour.  Apparently, no one will pay $40 an hour for a personal trainer.)</p>
 
 <p>Both of these values, <m>~p=0~</m> and <m>~p=40~</m> are solutions of the quadratic equation
-	<md>p(40-p)=0</md>
+	<md><mrow>p(40-p)=0</mrow></md>
 A quadratic equation has a solution when either of its factors is equal to zero. This is a consequence of the following fact about numbers.</p>
 
 <assemblage><title>Zero-Factor Principle</title>
     <idx><h>zero-factor principle</h></idx>
 <p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero. Using symbols,
-	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage>
+	<md><mrow>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</mrow></md></p></assemblage>
 
 <p>The zero-factor principle also applies to algebraic expressions: If the product of two factors is zero, then one of the factors must be zero.</p> 
 
@@ -138,9 +138,9 @@ A quadratic equation has a solution when either of its factors is equal to zero.
 
 <p>The first type of factoring we'll consider is the reverse of the distributive law.</p>
 <p>Consider the expression <m>~6x-15</m>. The expression has two terms, <m>6x</m> and <m>-15</m>, and each term is divisible by 3:
-	<md>6x=3 \cdot 2x~~~~\text{and}~~~~-15=3 \cdot(-5)</md>
+	<md><mrow>6x=3 \cdot 2x~~~~\text{and}~~~~-15=3 \cdot(-5)</mrow></md>
 We say that 3 is a <term>common factor</term> for the expression <m>~6x-15~</m> because it is a factor of each term.  Using the distributive law, we can write 
-	<md>6x-15=\blert{3} \cdot 2x- \blert{3} \cdot 15 = \blert{3}(2x-15)</md>
+	<md><mrow>6x-15=\blert{3} \cdot 2x- \blert{3} \cdot 15 = \blert{3}(2x-15)</mrow></md>
 We have factored out a common factor, namely 3, from <m>6x-15</m>.</p>
 	
 <exercise number="3"><statement><p>What does it mean to factor an expression?</p></statement>
@@ -151,11 +151,11 @@ We have factored out a common factor, namely 3, from <m>6x-15</m>.</p>
 <example><statement><p>Factor  <m>~~36t^2-63t</m></p></statement>
 
 <solution><p>We look for the largest common factor for the two terms. Both coefficients are divisible by <m>9</m>, and <m>t</m> divides evenly into both terms. Thus, we factor out <m>\blert{9t}</m> and write the expression as
-	<md>36t^2-63t = \blert{9t}(~?~ - ~?~)</md>
+	<md><mrow>36t^2-63t = \blert{9t}(~?~ - ~?~)</mrow></md>
 You may be able to see the missing factors at a glance, but if not, you can divide each term of the original expression by the common factor, as follows:
-	<md>\dfrac{36t^2}{9t}=\alert{4t}~~~~\text{and}~~~~\dfrac{63t}{9t} = \alert{7}</md>
+	<md><mrow>\dfrac{36t^2}{9t}=\alert{4t}~~~~\text{and}~~~~\dfrac{63t}{9t} = \alert{7}</mrow></md>
 We fill in these factors for the question marks to obtain the factored form,
-	<md>36t^2-63t = \blert{9t}(\alert{4t} - \alert{7})</md></p>
+	<md><mrow>36t^2-63t = \blert{9t}(\alert{4t} - \alert{7})</mrow></md></p>
 </solution></example>
 
 <p>You can always check your factorization by computing the product; it should be the same as the original expression.</p>
@@ -176,9 +176,9 @@ We fill in these factors for the question marks to obtain the factored form,
 <example xml:id="Example-6-2-4"><statement><p>Solve  <m>~~2x^2=4x</m></p></statement>
 
 <solution><p>First, we write the equation in standard form by subtracting <m>4x</m> from both sides.
-	<md>2x^2-4x=0</md>
+	<md><mrow>2x^2-4x=0</mrow></md>
 Next, we factor the left side of the equation. We can take out a common factor of <m>2x</m>.
-	<md>2x(x-2)=0</md>
+	<md><mrow>2x(x-2)=0</mrow></md>
 Now, we apply the zero-factor principle: In order for the product to be zero, one of the two factors must be zero. We set each factor equal to zero, and solve for <m>x</m>.
 	<md><mrow>2x \amp = 0  \amp \amp \text{or}~~~~~ x-2 =0</mrow>
 		<mrow>x \amp = 0 \amp \amp  \text{or}~~~~~~~~~~~~~~x  = 2</mrow></md>
@@ -267,10 +267,10 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
             <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
         </tabular></li>
     <li><p>Use the formula for revenue to write an equation that gives Raingear's monthly revenue from umbrellas, <m>R</m>, in terms of <m>p</m>.
-            <md>R=\hphantom{00000000000000000000000}</md></p>
+            <md><mrow>R=\hphantom{00000000000000000000000}</mrow></md></p>
 
         <p>Simplify your equation by applying the distributive law:
-            <md>R=\hphantom{00000000000000000000000}</md></p></li>
+            <md><mrow>R=\hphantom{00000000000000000000000}</mrow></md></p></li>
 
     <li>Write an equation to answer the question: How much should Raingear charge for each umbrella if they would like to make $1000 monthly revenue?</li>
 
@@ -405,7 +405,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 <p><ol marker="1.">
 <li><p><ol marker="a.">
     <li><p>Complete the table of values and sketch a graph of 
-            <md>y = \dfrac{1}{2}x^2-4x</md></p>
+            <md><mrow>y = \dfrac{1}{2}x^2-4x</mrow></md></p>
     <sidebyside widths="30% 50%" valigns="middle middle"><p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
@@ -435,9 +435,9 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
                     </tabular></p>
         <image source="photos/stangrid10"><description>graph</description></image></sidebyside></li>
     <li>Use the graph to solve the equation
-        <md>\dfrac{1}{2}x^2-4x = -\dfrac{7}{2}</md></li>
+        <md><mrow>\dfrac{1}{2}x^2-4x = -\dfrac{7}{2}</mrow></md></li>
     <li>Use the graph to solve the equation
-        <md>\dfrac{1}{2}x^2-4x = \dfrac{9}{2}</md></li>
+        <md><mrow>\dfrac{1}{2}x^2-4x = \dfrac{9}{2}</mrow></md></li>
     </ol></p></li>
 
 <li><p>Find the largest common factor for the monomials.<ol marker="a." cols="2">

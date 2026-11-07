@@ -58,7 +58,7 @@
 </exercisegroup>
 
 <exercise number="12"><statement><p>Delbert throws a penny from the top of the Texas Building in Fort Worth. After <m>t</m>  seconds, the height of the penny is given in feet by
-	<md>h=-16t^2+8t+380</md><ol marker="a.">
+	<md><mrow>h=-16t^2+8t+380</mrow></md><ol marker="a.">
 	<li>When does the penny pass a window 300 feet above the ground?</li>
 	<li>How long does it take the penny to reach the ground?</li>
 </ol></p></statement></exercise>

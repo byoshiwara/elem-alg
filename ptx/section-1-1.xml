@@ -68,7 +68,7 @@
 <solution><p><ol marker="a.">
         <li><p>In 1975, the average NFL player's salary was $40,000.</p></li>
         <li><p>In 1980, the average salary was $80,000, so salaries had increased from $40,000 to $80,000, or by 
-            <md>\$80,000 - \$40,000 = \$40,000</md></p></li>
+            <md><mrow>\$80,000 - \$40,000 = \$40,000</mrow></md></p></li>
     </ol></p></solution></example>
 
 
@@ -118,8 +118,8 @@
             </tabular>
 
 <p>We often use a letter as a kind of short-hand to represent a variable. For this example, we use the following letters:  
-    <md>t~~~  \text{stands for the time elapsed after take-off}</md>
-    <md>h~~~  \text{stands for the plane's altitude at that time}</md></p>
+    <md><mrow>t~~~  \text{stands for the time elapsed after take-off}</mrow></md>
+    <md><mrow>h~~~  \text{stands for the plane's altitude at that time}</mrow></md></p>
 
 <p>We can get a better feel for the variables by plotting them on a graph. In the figure below, the values of <m>t</m> are displayed on the horizontal scale, or axis, and the values of <m>h</m> are shown on the vertical axis. The graph shows how the values of <m>h</m> are related to the values of <m>t</m>.</p>            
     
@@ -203,11 +203,11 @@
 
 <p><ol marker="a.">
     <li>Fill in the blanks in the table.  Describe in words how you found the unknown values.   
-        <md>\blert{\text{Divide the rent by 4}}</md></li>
+        <md><mrow>\blert{\text{Divide the rent by 4}}</mrow></md></li>
     <li>Write a mathematical sentence <idx>mathematical sentence</idx> that gives Fernando's share of the total rent.
-        <md>\blert{\text{Fernando's share}=\text{Rent}\div 4}</md></li>
+        <md><mrow>\blert{\text{Fernando's share}=\text{Rent}\div 4}</mrow></md></li>
     <li>The total rent and Fernando's share are variables. Let <m>R</m> stand for the total rent, and let <m>F</m> stand for Fernando's share. Using these letters, write a formula for Fernando's share of the rent.
-        <md>\blert{F=R \div 4}</md></li>
+        <md><mrow>\blert{F=R \div 4}</mrow></md></li>
     <li><p>Plot the points from the table and connect them with a smooth curve. Extend your line so that it reaches across the entire grid, not just the points that you plotted.</p>
     <!--<image source="photos/fig-1-1-ex4.png"/>-->
     <image xml:id="fig-1-1-ex4" width="75%"><description>Fernando's share of rent</description><latex-image>
@@ -252,10 +252,9 @@
             </tabular></statement>
 
 <solution><p>The two variables are <m>x</m> and <m>y</m>. Each column of the table shows a related pair of values. Notice that 2 is 3 less than 5, 7 is 3 less than 10, and so on.  That is:
-    <md>\begin{aligned}
-               2 \amp = 5-3, \amp\amp 7 = 10-3\\
-                12\amp = 15-3, \amp\amp 17 = 20-3                
-                \end{aligned}</md>
+    <md><mrow>
+          2 \amp = 5-3, \amp\amp 7 = 10-3</mrow>
+        <mrow>  12\amp = 15-3, \amp\amp 17 = 20-3 </mrow> </md>
 and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>.  Thus,  <m>y=x-3</m>.</p></solution></example>
 
 <exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
@@ -533,7 +532,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 </subsubsection>
 
 <activity><title>Homework Preview</title>
-    <p><ol label="A.">
+    <p><ol marker="A.">
    <li> <introduction><p>Write an equation for <m>y</m> in terms of <m>x</m>.</p></introduction>
 
 <p><ol marker="1." cols="2">

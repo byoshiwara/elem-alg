@@ -10,16 +10,16 @@
     <idx><h>multiplying</h><h>radicals</h></idx>
 
 <p>We have used the product rule for radicals,
-	<md>\sqrt{ab} = \sqrt{a} \sqrt{b}</md>
+	<md><mrow>\sqrt{ab} = \sqrt{a} \sqrt{b}</mrow></md>
 to simplify square roots. We can also use the product rule to multiply radicals together.</p>
 
 <assemblage><title>Product Rule</title>
     <idx><h>radical</h><h>product rule</h></idx>
-<p><md>\text{If}~~a, ~b \ge 0,~~\text{then}~~~~\blert{\sqrt{a} \sqrt{b}=\sqrt{ab}}</md></p>
+<p><md><mrow>\text{If}~~a, ~b \ge 0,~~\text{then}~~~~\blert{\sqrt{a} \sqrt{b}=\sqrt{ab}}</mrow></md></p>
 </assemblage>
 
 <p>For example,
-	<md>\sqrt{2} \cdot \sqrt{3}=\sqrt{6}~~~~~~\text{and}~~~~~ \sqrt{5} \cdot \sqrt{x}=\sqrt{5x}</md></p>
+	<md><mrow>\sqrt{2} \cdot \sqrt{3}=\sqrt{6}~~~~~~\text{and}~~~~~ \sqrt{5} \cdot \sqrt{x}=\sqrt{5x}</mrow></md></p>
 
 <example><statement><p>Find the product and simplify <m>\sqrt{2x}\sqrt{10xy}</m></p></statement>
 
@@ -37,12 +37,12 @@ to simplify square roots. We can also use the product rule to multiply radicals 
     <answer><p>(b) and (d)</p></answer></exercise>
 
 <p>We use the distributive law to remove parentheses from products involving radicals. Compare the product involving radicals on the left with the more familiar use of the distributive law on the right.
-	<md>6(\sqrt{3} + \sqrt{2}) = 6\sqrt{3} + 6\sqrt{2}~~~~~~~~6(x+y)=6x+6y</md></p>
+	<md><mrow>6(\sqrt{3} + \sqrt{2}) = 6\sqrt{3} + 6\sqrt{2}~~~~~~~~6(x+y)=6x+6y</mrow></md></p>
 
 <example><statement><p>Multiply  <m>~~5(3x+4\sqrt{2})</m></p></statement>
 
 <solution><p>Apply the distributive law to find
-	<md>\blert{5}(3x+4\sqrt{2}) = \blert{5} \cdot 3x + \blert{5} \cdot 4\sqrt{2} = 15x + 20\sqrt{2}</md></p>
+	<md><mrow>\blert{5}(3x+4\sqrt{2}) = \blert{5} \cdot 3x + \blert{5} \cdot 4\sqrt{2} = 15x + 20\sqrt{2}</mrow></md></p>
 </solution></example>
 
 <exercise number="2"><statement><p>Explain why this statement is incorrect: <m>~5 \cdot 4\sqrt{2} = 20 \cdot 5 \sqrt{2}</m></p></statement>
@@ -58,7 +58,7 @@ to simplify square roots. We can also use the product rule to multiply radicals 
 	 	<mrow>\amp =  6\sqrt{5} + 2\sqrt{15}</mrow></md></p></solution></example>
 
 <warning><p>Note the difference between the products
-	<md>\sqrt{5} \cdot 3 = 3\sqrt{5} ~~~~~\text{and}~~~~~ \sqrt{5} \cdot \sqrt{3} = \sqrt{15}</md>
+	<md><mrow>\sqrt{5} \cdot 3 = 3\sqrt{5} ~~~~~\text{and}~~~~~ \sqrt{5} \cdot \sqrt{3} = \sqrt{15}</mrow></md>
 The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but not the first.</p>
 </warning>
 
@@ -87,7 +87,7 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 
 <assemblage><title>Quotient Rule</title>
     <idx><h>radical</h><h>quotient rule</h></idx>
-<p><md>\text{If}~~a \ge 0~~\text{and}~~b \gt 0,~~\text{then}~~~~\blert{ \dfrac{\sqrt{a}}{\sqrt{b}}=\sqrt{\dfrac{a}{b}} }</md></p></assemblage>
+<p><md><mrow>\text{If}~~a \ge 0~~\text{and}~~b \gt 0,~~\text{then}~~~~\blert{ \dfrac{\sqrt{a}}{\sqrt{b}}=\sqrt{\dfrac{a}{b}} }</mrow></md></p></assemblage>
 
 <example><statement><p>Simplify <m>~~\dfrac{2\sqrt{30a}}{\sqrt{6a}}</m></p></statement>
 
@@ -117,9 +117,9 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 </solution></example>
 
 <warning><p>In <xref ref="Example-9-4-6" text="type-global"/>, note that
-	<md>8+4\sqrt{5} \not= 12\sqrt{5}</md>
+	<md><mrow>8+4\sqrt{5} \not= 12\sqrt{5}</mrow></md>
 because <m>8</m> and <m>4\sqrt{5}</m> are not like terms. Also note that
-	<md>\dfrac{8+\sqrt{80}}{8} \not= \sqrt{80}</md>
+	<md><mrow>\dfrac{8+\sqrt{80}}{8} \not= \sqrt{80}</mrow></md>
 Because 8 is a term of the numerator, not a factor, we cannot cancel the 8's.</p>
 </warning>
 
@@ -140,15 +140,15 @@ Because 8 is a term of the numerator, not a factor, we cannot cancel the 8's.</p
     <idx><h>rationalizing the denominator</h></idx>
 
 <p>For some applications, it is easier to work with expressions that do not have radicals in the denominators of fractions. For example, the fraction <m>~\dfrac{\sqrt{2}}{\sqrt{3}}~</m> is equivalent to
-	<md>\dfrac{\sqrt{2}\cdot \blert{\sqrt{3}}}{\sqrt{3}\cdot \blert{\sqrt{3}}} = \dfrac{\sqrt{6}}{3}</md>
+	<md><mrow>\dfrac{\sqrt{2}\cdot \blert{\sqrt{3}}}{\sqrt{3}\cdot \blert{\sqrt{3}}} = \dfrac{\sqrt{6}}{3}</mrow></md>
 We multiplied the numerator and denominator by <m>\sqrt{3}</m>, the same root that appeared in the denominator originally, and thus eliminated the radical from the denominator. This process is called <term>rationalizing the denominator</term>.</p>
 
 <example><statement><p>Rationalize the denominator of <m>~~\dfrac{10}{\sqrt{50}}</m></p></statement>
 
 <solution><p>We simplify the radical before attempting to rationalize the denominator.
-	<md>\dfrac{10}{\sqrt{50}} = \dfrac{10}{5\sqrt{2}}=\dfrac{2}{\sqrt{2}}</md>
+	<md><mrow>\dfrac{10}{\sqrt{50}} = \dfrac{10}{5\sqrt{2}}=\dfrac{2}{\sqrt{2}}</mrow></md>
 Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
-	<md>\dfrac{2 \cdot \blert{\sqrt{2}}}{\sqrt{2}\cdot \blert{\sqrt{2}}} = \dfrac{2\sqrt{2}}{2} = \sqrt{2}</md>
+	<md><mrow>\dfrac{2 \cdot \blert{\sqrt{2}}}{\sqrt{2}\cdot \blert{\sqrt{2}}} = \dfrac{2\sqrt{2}}{2} = \sqrt{2}</mrow></md>
 </p></solution></example>
 
 <exercise number="7"><statement><p>What does it mean to rationalize the denominator?</p></statement>

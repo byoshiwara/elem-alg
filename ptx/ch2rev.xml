@@ -7,10 +7,11 @@
 <subsection><title>Lesson 2.1 Signed Numbers</title><p><ul>
 <li>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>.</li>
 <li><p>We use special symbols to indicate order: 
-	<me>\begin{aligned}
-                \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}\\
-                \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}               
-                \end{aligned}</me></p></li>
+	<md><mrow>
+                \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}</mrow>
+        <mrow>
+                \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}</mrow>             
+        </md></p></li>
 <li>The <term>absolute value</term> of a number is the unsigned part of the number. It is never negative.</li>
 
 <li><assemblage><title>Rules for Adding Integers</title><p><ol marker="1.">
@@ -29,7 +30,7 @@
 
 <li><assemblage><title>Quotients Involving Zero</title>
 <p>If <m>a</m> is any nonzero number, then
-<me>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</me></p></assemblage></li></ul></p>
+<md><mrow>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</mrow></md></p></assemblage></li></ul></p>
 </subsection>
 
 <subsection><title>Section 2.2 Expressions and Equations</title><p><ul>
@@ -134,8 +135,8 @@
 <exercisegroup><introduction><p>For Problems 11<ndash/>12, write an equation relating the variables, make a table of values, and graph your equation on the grid provided.</p></introduction>
 
 <exercise number="11"><statement><p>A new computer station for a graphics design firm costs $2000 and depreciates in value $200 every year. Write and graph an equation that gives the value, <m>V</m>, of the station after <m>t</m> years. Use the grid below.</p>
-    <sidebyside width="50%"><!--<image source="photos/cr2-11.png"><description>grid</description></image>-->
-    <image xml:id="cr2-11">
+    <!--<image source="photos/cr2-11.png"><description>grid</description></image>-->
+    <image xml:id="cr2-11" width="50%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -158,11 +159,9 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 </statement>
 <answer><p><m>V=2000-200t</m></p>
-<sidebyside width="50%">
-    <image xml:id="cr2-11ans">
+    <image xml:id="cr2-11ans" width="50%">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -186,11 +185,11 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="12"><statement><p>Ranwa teaches aerobic dance. Her gym pays her $5 for an hour-long class, plus $2 for each paying student in the class. Write and graph an equation that gives Ranwa's pay, <m>P</m>, if there are <m>s</m> students in the class. Use the grid below.</p>
-    <sidebyside width="50%"><!--<image source="photos/cr2-12.png"><description>grid</description></image>-->
-    <image xml:id="cr2-12">
+    <!--<image source="photos/cr2-12.png"><description>grid</description></image>-->
+    <image xml:id="cr2-12" width="50%">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -213,7 +212,6 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside>
 </statement></exercise>
 </exercisegroup>
 
@@ -418,7 +416,7 @@
 <exercise number="44"><statement><p>Graph each pair of points on the grid, then find the distance between them.<ol marker= "a" cols="2">
 	<li><m>A(-2,-4)</m> and <m>B(-7,-4)</m></li>
 	<li><m>P(6,-2)</m> and <m>Q(6,8)</m></li></ol></p>
-	<sidebyside width="45%"><image source="photos/stangrid10"><description>grid</description></image></sidebyside></statement></exercise>
+	<image source="photos/stangrid10" width="45%"><description>grid</description></image></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, make a table of values and graph each equation.
 </p></introduction>
@@ -556,7 +554,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 59<ndash/>64, For Problems 59-64, solve the inequality algebraically, and graph the solutions on a number line.</p></introduction>
 
 <exercise number="59"><statement><m>2-3x \le -7</m></statement>
-<answer><sidebyside>
+<answer>
     <image xml:id="cr2-59ans">
         <description>number line</description>
         <latex-image>
@@ -577,12 +575,12 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="60"><statement><m>\dfrac{t}{-3}-1.7 \gt 2.8</m></statement></exercise>
 
 <exercise number="61"><statement><m>3k-13 \lt 5+6k</m></statement>
-<answer><sidebyside>
+<answer>
     <image xml:id="cr2-61ans">
         <description>number line</description>
         <latex-image>
@@ -603,12 +601,12 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="62"><statement><m>12a-28 \lt -18+2a</m></statement></exercise>
 
 <exercise number="63"><statement><m>-9 \lt 5-2n \le -1</m></statement>
-<answer><sidebyside>
+<answer>
     <image xml:id="cr2-63ans">
         <description>numberline</description>
         <latex-image>
@@ -630,7 +628,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="64"><statement><m>15 \ge -6+3m \ge -6</m></statement></exercise>
 </exercisegroup>
