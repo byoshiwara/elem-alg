@@ -9,10 +9,10 @@
 <p>A <term>ratio</term><idx><h>ratio</h></idx> is a type of quotient used to compare two numerical quantities.</p>
 
 <p>For example, suppose the ratio of pupils to computers at a local elementary school is 10 to 3. This means that for every 10 pupils in the school there are 3 computers. We often display a ratio as a fraction, like this: 
-	<md>\dfrac{\text{Number of pupils}}{\text{Number of computers}}=\dfrac{10}{3}</md></p>
+	<md><mrow>\dfrac{\text{Number of pupils}}{\text{Number of computers}}=\dfrac{10}{3}</mrow></md></p>
 
 <warning><p>This ratio does not mean that there are exactly 10 pupils and 3 computers at the school. There could be 40 pupils and 12 computers or 200 pupils and 60 computers (or many other combinations) because
-	<md>\dfrac{40}{12}=\dfrac{200}{60}=\dfrac{10}{3}</md></p></warning>
+	<md><mrow>\dfrac{40}{12}=\dfrac{200}{60}=\dfrac{10}{3}</mrow></md></p></warning>
 
 <example xml:id="Example-3-2-1"><statement><p>In a survey of 100 of his classmates, Greg found that 68 students supported a strict gun control law, while 32 students did not. What is the ratio of survey respondents who support gun control to those opposed?</p></statement>
 
@@ -65,15 +65,15 @@
 <p>A <term>proportion</term><idx><h>proportion</h></idx> is a statement that two ratios are equal.</p></assemblage>
 
 <p>Thus, a proportion is an equation in which both sides are ratios. Here are some proportions: 
-	<me>\dfrac{6}{9}=\dfrac{8}{12}~~~~~~\text{and}~~~~~~\dfrac{3.2}{8}=\dfrac{1}{2.5}</me>
+	<md><mrow>\dfrac{6}{9}=\dfrac{8}{12}~~~~~~\text{and}~~~~~~\dfrac{3.2}{8}=\dfrac{1}{2.5}</mrow></md>
  A proportion may involve variables. How can we solve a proportion such as this one?
- 	<me>\dfrac{7}{5}=\dfrac{x}{6}</me> 	
+ 	<md><mrow>\dfrac{7}{5}=\dfrac{x}{6}</mrow></md> 	
 	
 Because <m>x</m> is divided by 6, we could multiply both sides of the equation by 6 to clear the fraction. But we can clear both fractions at the same time if we multiply by the LCD (Lowest Common Denominator) of the two fractions. In this case, the LCD is <m>5 \cdot 6 = 30</m>. Multiplying both sides by 30 gives us
 	<md><mrow>\blert{30}\left(\dfrac{7}{5}\right) \amp =\left(\dfrac{x}{6}\right)\blert{30}</mrow>
 		<mrow>42 \amp = 5x</mrow></md>
 Now we can divide both sides by 5 to get the answer,
-	<md>x=\dfrac{42}{5}=8.4</md></p>
+	<md><mrow>x=\dfrac{42}{5}=8.4</mrow></md></p>
 
 <assemblage><title>Look Ahead</title>
 <p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:</p>
@@ -102,7 +102,7 @@ Now we can divide both sides by 5 to get the answer,
 <assemblage><title>Property of Proportions</title>
     <idx><h>proportion</h><h>property of</h></idx><idx><h>proportion</h><h>cross-multiply</h></idx><idx><h>cross-multiply</h><see>proportion</see></idx>
 <p>We can clear the fractions from a proportion by cross-multiplying.
-	<md>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</md></p></assemblage>
+	<md><mrow>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</mrow></md></p></assemblage>
 
 <example><statement><p>Solve <m>~~\dfrac{2.4}{1.5}=\dfrac{8.4}{x}</m></p></statement>
 
@@ -177,10 +177,10 @@ You can buy 12.5 quarts of grape juice for $10.00. (Or, if you can only buy quar
 
 <sidebyside widths="50% 45%">
 <stack><p>If we let <m>P</m> stand for the price of the grape juice and <m>q</m> stand for the number of quarts purchased, we have the equation</p>		
-    <p><md>\begin{aligned}
-                \dfrac{P}{q} \amp = 80\\
-                \text{or}~~~~P \amp = 80q    
-                \end{aligned}</md>                        	
+    <p><md><mrow>
+                \dfrac{P}{q} \amp = 80</mrow>
+            <mrow>\text{or}~~~~P \amp = 80q </mrow>   
+        </md>                        	
 The graph of this equation is a straight line that passes through the origin, as shown at right.</p></stack>  
 	<!--<image source="photos/fig-3-2-2.png"><description>graph</description></image>-->
     <image xml:id="fig-3-2-2"><description>graph of line</description><latex-image>
@@ -208,7 +208,7 @@ The graph of this equation is a straight line that passes through the origin, as
 <assemblage><title>Equation for Proportional Variables</title>
     <idx><h>proportional variables</h><h>equation for</h></idx><idx><h>proportional variables</h><h>constant of proportionality</h></idx>
 <p>If two variables are proportional, they are related by the equation
-	<md>y=kx</md>
+	<md><mrow>y=kx</mrow></md>
 where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant of proportionality</h></idx>.</p>
 </assemblage>
 
@@ -380,7 +380,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
     <sidebyside widths = "50% 45%" valigns="middle middle">
     <p><ol marker="a.">
         <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
-            <me>T=\hphantom{0000}</me></p></li>
+            <md><mrow>T=\hphantom{0000}</mrow></md></p></li>
         <li><p>Use your equation to fill in the second column of the table.</p><p></p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -435,7 +435,7 @@ where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant o
         <sidebyside widths = "50% 45%" valigns="middle middle"><stack>
         <p><ol marker="a.">
             <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
-                <me>D=\hphantom{0000}</me></p></li>
+                <md><mrow>D=\hphantom{0000}</mrow></md></p></li>
             <li><p>Use your equation to fill in the second column of the table.</p><p></p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">

@@ -110,7 +110,7 @@
 
 <exercise number="21"><statement><m>(a-5)(a-3)</m></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside><tabular halign="center">
+    <li><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -129,14 +129,14 @@
             <cell  bottom="major" right="major"><p><m>-5a</m></p></cell>
             <cell  bottom="major" right="major"><p><m>15</m></p></cell>
         </row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><m>(a-5)(a-3)=a^2-8a+15</m></li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><m>(y+1)(3y-2)</m></statement></exercise>
 
 <exercise number="23"><statement><m>(5x-2)(4x+3)</m></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside><tabular halign="center">
+    <li><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -155,7 +155,7 @@
             <cell  bottom="major" right="major"><p><m>-8x</m></p></cell>
             <cell  bottom="major" right="major"><p><m>-6</m></p></cell>
         </row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><m>(5x-2)(4x+3)=20x^2+7x-6</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
@@ -201,7 +201,7 @@
 </statement>
  <answer><p><ol marker="a.">
     <li><m>-3x</m></li>
-    <li><sidebyside><tabular halign="center">
+    <li><tabular halign="center">
         <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
@@ -220,7 +220,7 @@
             <cell  bottom="major" right="major"><p><m>\alert{6x}</m></p></cell>
             <cell  bottom="major" right="major"><p><m>-54</m></p></cell>
         </row>
-    </tabular></sidebyside></li>
+    </tabular></li>
 </ol></p></answer></exercise>
 
 <exercise number="34"><statement><p><m>(2x-5)(x+4)</m></p>

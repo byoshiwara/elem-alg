@@ -11,7 +11,7 @@
     <p>An <term>algebraic expression</term>, or simply an <term>expression</term>, is any meaningful combination of numbers, variables, and operation symbols.</p></assemblage>
 
 <p>For example,
-	<md>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</md>
+	<md><mrow>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</mrow></md>
 are algebraic expressions. An important part of algebra involves translating word phrases into algebraic expressions.</p> 
 
 <example xml:id="Example-1-2-1"><statement><p>Write an algebraic expression for each quantity.<ol marker="a.">
@@ -20,13 +20,13 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <solution><p><ol marker="a.">
 	<li><p>The amount invested is unknown, so we choose a variable to represent it.
-			<md>\blert{\text{Amount invested in stocks:}~~~s}</md>
+			<md><mrow>\blert{\text{Amount invested in stocks:}~~~s}</mrow></md>
 		Next, we identify the operation described:  "30% of"  means 0.30 times:
-			<md>\text{The expression is} ~~~~\blert{0.30 \times s}</md></p></li>
+			<md><mrow>\text{The expression is} ~~~~\blert{0.30 \times s}</mrow></md></p></li>
 	<li><p>The cost of the dinner is unknown, so we choose a variable to represent it.
-			<md>\blert{\text{Cost of dinner:}~~~C}</md>
+			<md><mrow>\blert{\text{Cost of dinner:}~~~C}</mrow></md>
 		Next, we identify the operation described:  "Split" means divided:
-			<me>\text{The expression is} ~~~~\blert{C \div 3}</me></p></li>
+			<md><mrow>\text{The expression is} ~~~~\blert{C \div 3}</mrow></md></p></li>
 </ol></p></solution></example>
 
 <p>In the previous Example, we used three steps to write an algebraic expression.</p>
@@ -87,7 +87,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <idx><h>commutative law</h><h>of addition</h></idx>
 <idx><h>addition</h><h>commutative law of</h></idx>
     <p>If <m>a</m> and <m>b</m> are numbers, then
-        <me>\blert{a+b = b+a}</me></p>
+        <md><mrow>\blert{a+b = b+a}</mrow></md></p>
 </assemblage>
 </subsection>
 
@@ -151,14 +151,14 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <assemblage><title>Look Closer</title>
 <p>In the previous Example, 
-    <md>10z = 10 \cdot z = z \cdot 10</md> 
+    <md><mrow>10z = 10 \cdot z = z \cdot 10</mrow></md> 
 because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <idx><h>commutative law</h><h>of multiplication</h></idx>
 <idx><h>multiplication</h><h>commutative law of</h></idx>
 <p>If <m>a</m> and <m>b</m> are numbers, then
-        <me>\blert{a \cdot b = b \cdot a}</me></p>
+        <md><mrow>\blert{a \cdot b = b \cdot a}</mrow></md></p>
 </assemblage>
 
 <p>In algebra, we usually write products with the numeral first. Thus, we write <m>10z</m> for "<m>10</m> times <m>z</m>”.</p>
@@ -209,10 +209,10 @@ because two numbers can be multiplied in either order to give the same answer. T
 
 <warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
 "<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
-    <md>\begin{aligned}
-            b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b\\ 
-            x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x\\
-    \end{aligned}</md>
+    <md><mrow>
+            b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b</mrow>
+         <mrow>x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x</mrow>
+    </md>
 The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
@@ -249,7 +249,7 @@ The operation of subtraction is not commutative.</p></warning>
 
 <assemblage><title>Look Closer</title>
 <p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, 
-    <md>12 \div 3 = 4~~~ \text{but} ~~~3 \div 12 = \dfrac{1}{4}</md>.</p></assemblage>
+    <md><mrow>12 \div 3 = 4~~~ \text{but} ~~~3 \div 12 = \dfrac{1}{4}</mrow></md>.</p></assemblage>
 
 <example><statement><p>Write an algebraic expression for each phrase.<ol marker="a." cols="2">
     <li><m>z</m> subtracted from <m>13</m></li>
@@ -279,7 +279,7 @@ The operation of subtraction is not commutative.</p></warning>
 <p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
 
 <example xml:id="Example-1-2-5"><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
-	<md>\dfrac{R}{4} = \alert{540} \div 4 = 135</md>
+	<md><mrow>\frac{R}{4} = \alert{540} \div 4 = 135</mrow></md>
 Fernando's share of the rent is $135.</p></statement></example>
 
 <p>In the previous Example, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
@@ -291,7 +291,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 <assemblage><title>Distance</title>
 <idx><h>distance</h><h>formula for</h></idx>
     <p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
-	<md>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</md></p></assemblage>
+	<md><mrow>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</mrow></md></p></assemblage>
 
 <example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
 
@@ -303,7 +303,7 @@ The train will travel 240 miles.</p></solution></example>
 <assemblage><title>Profit</title>
 <idx><h>profit</h><h>formula for</h></idx>
     <p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
-	<md>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</md></p></assemblage>
+	<md><mrow>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</mrow></md></p></assemblage>
 
 <example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
 
@@ -315,7 +315,7 @@ The owner's profit was $350.</p></solution></example>
 <assemblage><title>Interest</title>
 <idx><h>interest</h><h>formula for</h></idx>
     <p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
-	<me>\blert{\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt}</me></p></assemblage>
+	<md><mrow>\blert{\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt}</mrow></md></p></assemblage>
 
 <example><statement><p>How much interest will be earned on $800 invested for 3 years in a savings account that pays <m>5\dfrac{1}{2}</m>% interest?</p></statement>
 
@@ -327,7 +327,7 @@ The account will earn $132 in interest.</p></solution></example>
 <assemblage><title>Percent</title>
 <idx><h>percent</h><h>formula for</h></idx>
     <p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
-	<md>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</md></p></assemblage>
+	<md><mrow>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</mrow></md></p></assemblage>
 
 <example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
 
@@ -339,7 +339,7 @@ You would need 12 gallons of ginger ale.</p></solution></example>
 <assemblage><title>Average</title>
 <idx><h>average</h><h>formula for</h></idx>
     <p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
-	<md>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</md></p></assemblage>
+	<md><mrow>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</mrow></md></p></assemblage>
 
 <example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
 <solution><p>We evaluate the formula with <m>S=\alert{15+16+18+18+12}</m> and <m>n=\alert{5}</m> to find
@@ -357,18 +357,18 @@ Bert's average score is 15.8.</p></solution></example>
 
 
 <problem>
-<p><ol label="A.">
+<p><ol marker="A.">
 <li><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<md>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</md></p>
+	<md><mrow>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</mrow></md></p>
 
-    <p><ol label="1.">
+    <p><ol marker="1.">
         <li><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></li>
         <li><p>How much wood parquet tiling must he buy to cover the floor?</p></li>
     </ol></p></li>
 
 <li><p>Which of the following phrases describe a perimeter, and which describe an area?</p>
 
-    <p><ol label="1.">
+    <p><ol marker="1.">
         <li><p>The distance you jog around the shore of a small lake</p></li>
 
         <li><p>The amount of Astroturf needed for the new football field</p></li>
@@ -380,7 +380,7 @@ Bert's average score is 15.8.</p></solution></example>
 
 <li><p>Find the perimeter and area of each figure. All angles are right angles.</p>
 
-    <p><ol label="1." cols="2">
+    <p><ol marker="1." cols="2">
         <li>
     <image xml:id="sw-1-2-7" width="95%"><description>stacks of squares</description><latex-image>
         <![CDATA[
@@ -455,13 +455,13 @@ Bert's average score is 15.8.</p></solution></example>
 
 <p>Solution:<ol marker="a.">
     <li><p>The length of the rug is unknown.
-        <me>\blert{\text{Length of the rug:}~~~l}</me>
+        <md><mrow>\blert{\text{Length of the rug:}~~~l}</mrow></md>
     The words "more than" indicate addition:  
-        <me>\blert{l+3}</me></p></li>
+        <md><mrow>\blert{l+3}</mrow></md></p></li>
     <li><p>The age of the building is unknown.
-            <me>\blert{\text{Age of the building:}~~~a}</me>
+            <md><mrow>\blert{\text{Age of the building:}~~~a}</mrow></md>
     "Twice" means two times:
-        <me>\blert{2a}</me></p></li>
+        <md><mrow>\blert{2a}</mrow></md></p></li>
     </ol></p>
 
 <p>EXERCISE 1. Write an algebraic expression for each quantity.<ol marker="a.">
@@ -480,13 +480,13 @@ Bert's average score is 15.8.</p></solution></example>
 
 <p>Solution:<ol marker="a.">
     <li><p>The area of the circle is unknown
-        <me>\blert{\text{Area of circle:}~~~a}</me>
+        <md><mrow>\blert{\text{Area of circle:}~~~a}</mrow></md>
     The words "less than" indicate subtraction:  
-        <me>\blert{A-5}</me></p></li>
+        <md><mrow>\blert{A-5}</mrow></md></p></li>
     <li><p>Your quiz score is unknown.
-            <me>\blert{\text{Quiz score:}~~~s}</me>
+            <md><mrow>\blert{\text{Quiz score:}~~~s}</mrow></md>
     "Twice" means two times:
-        <me>\blert{\dfrac{s}{20}}</me></p></li>
+        <md><mrow>\blert{\dfrac{s}{20}}</mrow></md></p></li>
     </ol></p>
 
 <p>EXERCISE 2. Write an algebraic expression for each quantity.<ol marker="a.">
@@ -534,7 +534,7 @@ Bert's average score is 15.8.</p></solution></example>
 <idx><h>evaluating an algebraic expression</h><seealso>algebraic expression</seealso></idx>
 
 <p>EXAMPLE: The Appliance Mart is having a store wide 15%-off sale. If the regular price of an appliance is <m>P</m> dollars, then the sale price <m>S</m> is given by the expression
-    <me>S=0.85P</me>
+    <md><mrow>S=0.85P</mrow></md>
 What is the sale price of a refrigerator that regularly sells for $600?</p>
 
 <p>Solution: We substitute <m>\alert{600}</m> for the regular price, <m>P</m>, in the expression.
@@ -563,7 +563,7 @@ The sale price is $510.</p>
 
 <introduction><p>Complete each table below by evaluating the expression.</p></introduction>
 
-<p><ol label="1." cols="2">
+<p><ol marker="1." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>

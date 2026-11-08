@@ -10,11 +10,11 @@
 <p>We solve an equation by isolating the variable on one side of the equation. If an equation involves two or more operations, we must undo those operations in reverse order.</p>
 
 <example xml:id="Example-2-4-1"><statement><p>The equation 
-    <md>T=50+15u</md> 
+    <md><mrow>T=50+15u</mrow></md> 
 describes college tuition consisting of a $50 registration fee plus $15 per unit. How many units can you take if you have $290 saved for tuition?</p></statement>
 
 <solution><p>We can answer the question by solving the equation
-	<md>\alert{290}=50+15u</md>
+	<md><mrow>\alert{290}=50+15u</mrow></md>
 where we have substituted $290 for the tuition, <m>T</m>. Think about the expression <m>50+15u</m>. How would you evaluate this expression if you were given a value for <m>u</m>? Following the order of operations, you would
 	<md><mrow>\amp 1.~~~\text{First multiply by 15}</mrow>
         <mrow>\amp 2.~~~\text{Then add 50}</mrow></md>   
@@ -25,10 +25,10 @@ In order to solve the equation, we must reverse these two steps to undo the oper
             <mrow>240  ~\amp = ~~~~~~~~~~~~~15u</mrow></md>   
                                             
 This isolates the term that contains the variable, <m>15u</m>. Then we divide both sides of the equation by 15. 
- 		<md>\begin{aligned}
-                \dfrac{240}{\blert{15}} \amp = \dfrac{15u}{\blert{15}} \amp \amp \blert{\text{Divide both sides by 15.}}\\
-                16  \amp = u   
-                \end{aligned}</md>                            
+ 		<md><mrow>
+            \dfrac{240}{\blert{15}} \amp = \dfrac{15u}{\blert{15}} \amp \amp \blert{\text{Divide both sides by 15.}}</mrow>
+        <mrow>16  \amp = u  </mrow> 
+     </md>                            
 
 You can enroll in 16 units. We can check the solution by substituting 16 for <m>u</m> in the original equation.
 		<md><mrow>\blert{\text{Check:}}~~~~~~~~~~~~    50+15u =\amp 290</mrow>
@@ -55,7 +55,7 @@ Next, we divide both sides by <m>-3</m> to get
 		<md><mrow>\dfrac{-3x}{\blert{-3}} \amp = \dfrac{-18}{\blert{-3}} \amp \amp \blert{\text{Divide both sides by}~-3.}</mrow>
             <mrow>x \amp = 6</mrow></md>   
 The solutions is 6.
-	<md>\blert{\text{Check:}}~~~~~~~~8-3(\alert{6})=8-18=-10</md></p>
+	<md><mrow>\blert{\text{Check:}}~~~~~~~~8-3(\alert{6})=8-18=-10</mrow></md></p>
 </solution></example>   
 
 <warning><p>In the second step of <xref ref="Example-2-4-2" text="type-global"/>, the term <m>-3x</m> means "<m>-3</m> times <m>x</m>," so we divide both sides by <m>-3</m>. Do not try to add 3 to both sides.</p></warning>
@@ -92,7 +92,7 @@ operations? </p></statement>
 
         <p>The Park Service will have to restock the lake in five and a half years, if the population continues to decline at the current rate.</p></li>       
     <li><p>The figure shows the graph of the equation <m>P=430-60x</m>. To solve
-            <me>100=430-60x</me>
+            <md><mrow>100=430-60x</mrow></md>
          we locate the point on the graph with <m>P=100</m>, and read its <m>x</m>-coordinate, at about 5.5.</p>
          <!--<image source="photos/fig-2-4-ex3.png"><description>graph</description></image>-->
     <image width="55%" xml:id="fig-2-4-ex3"><description>graph</description><latex-image>
@@ -135,7 +135,7 @@ operations? </p></statement>
     <p>A statement that uses one of the symbols <m>~\gt~</m> or <m>~\lt~</m> is called an <term>inequality</term>.</p></assemblage>
 
 <p>Examples of inequalities are 
-	<md> -1 \gt -3 ~~~~~~ \text{and}~~~~~~ x \lt 2</md> 	
+	<md><mrow> -1 \gt -3 ~~~~~~ \text{and}~~~~~~ x \lt 2</mrow></md> 	
 Unlike the equations we have studied, which have at most one solution, an inequality can have infinitely many solutions.  A solution of an equation or inequality is said to <term>satisfy</term><idx><h>satisfy an equation or inequality</h></idx> the equation or inequality.</p>
 
 <example><statement><p>Solve the inequality  <m>~x \lt 2</m></p></statement>
@@ -169,7 +169,7 @@ Unlike the equations we have studied, which have at most one solution, an inequa
         <mrow>\amp \blert{\le}    \amp \amp \text{means  "less than or equal to"}</mrow></md>
 
 For example, the graph of all solutions to the inequality
-    <md>x \ge -2</md>
+    <md><mrow>x \ge -2</mrow></md>
 is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is included in the solutions.</p>
     <!--<image source="photos/fig-2-4-1.png"><description>graph</description></image>-->
     <image width="80%" xml:id="fig-2-4-1"><description>number line</description><latex-image>
@@ -239,7 +239,7 @@ The graph of the solutions is shown below.</p>
     <idx><h>inequality</h><h>compouind</h></idx><idx><h>compound inequality</h></idx>
 
 <p>An inequality in which the variable expression is bounded from above and from below is called a <term>compound inequality</term>  For example,
-	<md>-3 \lt 2x-5 \le 6</md>
+	<md><mrow>-3 \lt 2x-5 \le 6</mrow></md>
 is a compound inequality. To solve a compound inequality, we must perform the steps needed to isolate <m>x</m> on all three sides of the inequality.</p>
 
 <example><statement><p>Solve <m>~-3 \lt 2x-5 \le 6</m></p></statement>

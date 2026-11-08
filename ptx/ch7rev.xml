@@ -12,12 +12,12 @@
 <li>To subtract polynomials, we change the sign of each term within parentheses, remove the parentheses, and combine like terms.</li>
 
 <li><assemblage><title>Profit</title>
-    <p><me>\blert{\text{Profit = Revenue - Cost}}</me></p></assemblage></li></ul></p></subsection>
+    <p><md><mrow>\blert{\text{Profit = Revenue - Cost}}</mrow></md></p></assemblage></li></ul></p></subsection>
 
 <subsection><title>Lesson 7.2 Products of Polynomials</title><p><ul>
 <li><assemblage><title>First Law of Exponents</title>
 <p>To multiply two powers with the same base, we add the exponents and leave the base unchanged. In symbols,
-	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p></assemblage></li>
+	<md><mrow>\blert{a^m \cdot a^n = a^{m+n}}</mrow></md></p></assemblage></li>
 <li>We use the distributive law to compute products of two or more polynomials.</li></ul></p></subsection>
 
 <subsection><title>Lesson 7.3 More About Factoring</title><p><ul>
@@ -53,7 +53,7 @@
 	<li><m>\blert{(a-b)^2=a^2-2ab+b^2}</m></li></ol></p></assemblage></li>
 
 <li><assemblage><title>Difference of Two Squares</title>
-<p><me>\blert{(a+b)(a-b)=a^2-b^2}</me></p></assemblage>  </li>
+<p><md><mrow>\blert{(a+b)(a-b)=a^2-b^2}</mrow></md></p></assemblage>  </li>
 
 <li><assemblage><title>Special Factorizations</title>
 <p><ol marker="1.">
@@ -123,11 +123,11 @@
 <answer><p><m>6x^4-12x^3+3x^2-4x</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>Write as a polynomial:
-	<me>a^2(a-3)-2a(a^2+2a^3)+(a-2)(a-3)</me>
+	<md><mrow>a^2(a-3)-2a(a^2+2a^3)+(a-2)(a-3)</mrow></md>
 </p></statement></exercise>
 
 <exercise number="11"><statement><p>Suppose you want to choose four items from a list of  possible items. The number of different ways you can make your choice is given by the polynomial
-	<me>\dfrac{1}{24}n^4-\dfrac{1}{4}n^3+\dfrac{11}{24}n^2-\dfrac{1}{4}n</me>
+	<md><mrow>\dfrac{1}{24}n^4-\dfrac{1}{4}n^3+\dfrac{11}{24}n^2-\dfrac{1}{4}n</mrow></md>
 <ol marker="a.">
 	<li>How many different sets of four compact disks can be chosen from a collection with 20 compact disks?</li>
 	<li>Of course you cannot choose four different items from a list of only 3 possible items.  What do you get when you evaluate the polynomial for <m>~n=3</m>?  <m>~n=2</m>?  <m>~n=1</m>?</li>
@@ -140,7 +140,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>The sum of the cubes of the first  counting numbers is given by
-	<me>\dfrac{n^4}{4}+\dfrac{n^3}{2}+\dfrac{n^2}{4}</me>
+	<md><mrow>\dfrac{n^4}{4}+\dfrac{n^3}{2}+\dfrac{n^2}{4}</mrow></md>
    Find the sum of the cubes of the first five counting numbers.</p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 13<ndash/>14,  simplify by combining like terms.</p></introduction>
@@ -336,7 +336,7 @@
 </exercisegroup>
 
 <exercise number="49"><statement><p>Evaluate the expression below for <m>~~a=-6.3,~b=-4.8,~c=5.2</m>
-	<me>(4a-3b-2c)-(a+6b-5c)+(3a+9b-2c)</me></p></statement>
+	<md><mrow>(4a-3b-2c)-(a+6b-5c)+(3a+9b-2c)</mrow></md></p></statement>
 <answer><p><m>-32.6</m></p></answer></exercise>
 
 <exercise number="50"><statement><p>Write a polynomial for the volume of a box whose width is 10 centimeters less than its length, and 2 centimeters more than its height. Let <m>w</m> represent the width of the box.</p></statement></exercise>

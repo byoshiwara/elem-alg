@@ -233,7 +233,7 @@
     <md><mrow>\text{Cost}~~~C =</mrow>
         <mrow>\text{Revenue}~~~R =</mrow></md></p></li>
     <li><p>Fill in the tables, where cost and revenue are given in thousands of dollars.</p>
-        <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell>Cost</cell></row>
@@ -297,7 +297,7 @@
                     <row>
                         <cell><m>400</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
-                </tabular></sidebyside></li>
+                </tabular></li>
     <li><p>Graph both of your equations on the grid. (The vertical axis is scaled in thousands of dollars.)</p>
         <!--<image source="photos/hp-4-2-13.png"><description>grid</description></image>-->
     <image width="50%"> xml:id="hp-4-2-14"><description>grid</description><latex-image>

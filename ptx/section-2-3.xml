@@ -316,7 +316,7 @@
         \filldraw[blue]  (P) circle (2mm) node[below left, xshift=-2, yshift=-2, text=black, fill=white, inner sep=2] {$P$};
         \end{tikzpicture}]]></latex-image></image>
     <p>Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>. To check our solution algebraically, we substitute <m>x=\blert{-3}</m> and <m>y=\alert{-2}</m> into the equation, we get a true statement: 
-        <md>\alert{-2}=\dfrac{-2}{3}(\blert{-3})-4</md>
+        <md><mrow>\alert{-2}=\dfrac{-2}{3}(\blert{-3})-4</mrow></md>
     This statement also tells us that <m>-3</m> is a solution of the equation <m>~\dfrac{-2}{3}x-4=-2</m>.</p></li>
 </ol></p></solution></example> 
 

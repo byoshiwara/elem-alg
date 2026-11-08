@@ -315,7 +315,7 @@
 </exercisegroup>
 
 <exercise number="25"><statement><p>At the Custom Pizza shop you can buy their special smoked chicken pizza in any size you like.The cost, <m>C</m>, of the pizza in dollars is given by the equation 
-    <md>C=\dfrac{1}{4}r^2</md>      
+    <md><mrow>C=\dfrac{1}{4}r^2</mrow></md>      
 where <m>r</m> is the radius of the pizza.</p>
 
 <sidebyside widths="50% 50%" valigns="middle middle">

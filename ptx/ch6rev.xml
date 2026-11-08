@@ -7,7 +7,7 @@
 <subsection><title>Lesson 6.1 Extracting Roots</title><p><ul>
 <li><assemblage><title>Quadratic Equations</title>
 <p>A <term>quadratic equation</term> can be written in the standard form 
-	<me>ax^2+bx+c=0</me>
+	<md><mrow>ax^2+bx+c=0</mrow></md>
 where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></assemblage> </li>
 
 <li>The numbers <m>a,~b,</m> and <m>c</m> are called <term>parameters</term>. They are the coefficients of, respectively, the quadratic term (the <m>x^2</m>-term), the linear term (the <m>x</m>-term), and the constant term.</li> 
@@ -15,7 +15,7 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 
 <li><assemblage><title>Extraction of Roots</title>
 	<p>To solve a quadratic equation of the form
-		<me>ax^2+c=0</me><ol marker="1.">
+		<md><mrow>ax^2+c=0</mrow></md><ol marker="1.">
 	<li>Isolate <m>x^2</m> on one side of the equation.</li> 
 	<li>Take the square root of each side.</li></ol></p></assemblage>  </li></ul></p>
 </subsection>
@@ -25,7 +25,7 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 
 <li><assemblage><title>Zero-Factor Principle</title>
 <p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
-	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage></li>
+	<md><mrow>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</mrow></md></p></assemblage></li>
 
 <li>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term>. This process is called <term>factoring</term>, and it is the reverse of multiplying factors together.</li>  
 <li>To solve a quadratic equation using factoring, we must arrange the terms so that one side of the equation is zero.  Then we set each factor equal to zero, and solve for <m>x</m>.</li></ul></p>
@@ -34,11 +34,11 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 <subsection><title>Lesson 6.3 Solving Quadratic Equations by Factoring</title><p><ul>
 <li><assemblage><title>To Factor a Quadratic Trinomial</title>
 <p>	To factor <m>x^2+bx+c</m>, we look for two numbers <m>p</m> and <m>q</m> so that   
-		<me>\blert{pq=c}~~~~\text{and}~~~~\blert{p+q=b}</me></p></assemblage></li>
+		<md><mrow>\blert{pq=c}~~~~\text{and}~~~~\blert{p+q=b}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol marker="1.">
 	<li>Write the equation in standard form, 
-		<me>ax^2+bx+c=0~~~~~~(a \not= 0)</me></li>       
+		<md><mrow>ax^2+bx+c=0~~~~~~(a \not= 0)</mrow></md></li>       
 	<li>Factor the left side of the equation.</li>
 	<li>Apply the Zero-Factor Principle; that is, set each factor equal to zero.</li>
 	<li>Solve each equation to obtain two solutions.</li></ol></p></assemblage></li></ul></p>
@@ -66,16 +66,16 @@ where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></as
 <subsection><title>Lesson 6.5 The Quadratic Formula</title><p><ul>
 <li><assemblage><title>The Quadratic Formula</title>
 <p>The solutions of the equation
-	<me>ax^2+bx+c=0,~~~~a \not= 0</me>
+	<md><mrow>ax^2+bx+c=0,~~~~a \not= 0</mrow></md>
 are given by the formula
-	<me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage></li>
+	<md><mrow>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</mrow></md></p></assemblage></li>
 
 <li>If some or all of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</li>
 <li>Every quadratic equation has two solutions. The nature of those solutions determines the nature of the -intercepts of the graph.</li>
 
 <li><assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
 <p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of
-<me> ax^2+bx+c=0</me>There are three possibilities.<ol marker="1."> 
+<md><mrow> ax^2+bx+c=0</mrow></md>There are three possibilities.<ol marker="1."> 
 	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
 	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
 	<li>If both solutions are non-real complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage></li></ul></p></subsection>
@@ -121,7 +121,7 @@ are given by the formula
 </exercisegroup>
 
 <exercise number="7"><statement><p>The distance, <m>d</m>, that a penny will fall in <m>t</m> seconds is given in feet by
-	<me>d=16t^2</me><ol marker="a.">
+	<md><mrow>d=16t^2</mrow></md><ol marker="a.">
 	<li>If you drop a penny from a height of 144 feet, how long will it take to reach the ground?</li>
 	<li>How far will the penny fall in <m>1 \dfrac{1}{2}</m> seconds?</li></ol></p></statement>
 <answer><p><ol marker="a." cols="2">
@@ -211,12 +211,12 @@ are given by the formula
 </exercisegroup>
 
 <exercise number="35"><statement><p>Audrey launches her experimental hydraulic rocket from the top of her apartment building. The height of the rocket after <m>t</m> seconds is given in feet by
-	<me>h=-16t^2+40t+80</me>
+	<md><mrow>h=-16t^2+40t+80</mrow></md>
 How long is the test flight before the rocket hits the ground?</p></statement>
 <answer><p>3.81 sec</p></answer></exercise>
 
 <exercise number="36"><statement><p>The formula 
-	<me>S=\dfrac{1}{2}n^2 + \dfrac{1}{2}n</me>
+	<md><mrow>S=\dfrac{1}{2}n^2 + \dfrac{1}{2}n</mrow></md>
 gives the sum of the first <m>n</m> counting numbers. How many counting numbers must you add to get a sum of 325?
 </p></statement></exercise>
 
@@ -283,7 +283,7 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 <exercise number="40"><statement><p><ol marker="a.">
 <li>Sketch three equilateral triangles of different sizes.</li>
 <li>The area, <m>A</m>, of an equilateral triangle is given by 
-	<me>A=\dfrac{\sqrt{3}}{4}s^2</me>
+	<md><mrow>A=\dfrac{\sqrt{3}}{4}s^2</mrow></md>
 where <m>s</m> is the length of one side of the triangle. Rewrite the formula for the area using an approximation to three decimal places.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>s</m>, and graph your equation.</li>  
 <li>If the area of a particular equilateral triangle is 15.6 square inches, find the length of its side. Locate the point corresponding to this triangle on your graph.</li>

@@ -4,21 +4,21 @@
     <title>Homework 2.2</title>
 
 <exercise number="1"><statement><p>The perimeter of a rectangle of length <m>l</m> and width <m>w</m> is given by 
-	<md>P=2l+2w</md> 
+	<md><mrow>P=2l+2w</mrow></md> 
 Find the perimeter of a rectangular meeting hall with dimensions 8.5 meters by 6.4 meters.</p></statement>
 <answer>29.8 meters</answer></exercise>
 
 <exercise number="2"><statement><p>The area of a trapezoid with bases <m>B</m> and <m>b</m> and height <m>h</m> is given by 
-	<md>A=\dfrac{1}{2}(B+b)h</md> 
+	<md><mrow>A=\dfrac{1}{2}(B+b)h</mrow></md> 
 Find the area of a trapezoid whose bases are 9 centimeters and 7 centimeters and whose height is 3 centimeters.</p></statement></exercise>
 
 <exercise number="3"><statement><p>If a company sells <m>n</m> items at a cost of <m>c</m> dollars each and sells them at a price of <m>p</m> dollars each, the company's profit is given by 
-	<md>P=n(p-c)</md> 
+	<md><mrow>P=n(p-c)</mrow></md> 
 Find the profit earned by a manufacturer of bicycle equipment by selling 300 bicycle helmets that cost $32 each to produce and sell for $50 apiece.</p></statement>
 <answer>$5400</answer></exercise>
 
 <exercise number="4"><statement><p>The temperature in degrees Celsius (<m>\degree</m>C) is given by 
-	<md>C=\dfrac{5}{9}(F-32)</md>,  
+	<md><mrow>C=\dfrac{5}{9}(F-32)</mrow></md>,  
 where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F). Find normal body temperature in degrees Celsius if normal temperature is <m>98.6 \degree</m> Fahrenheit.</p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, simplify by following the order of operations.</p></introduction>
@@ -213,7 +213,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <answer><p><ol marker="a.">
 	<li>$4400;~ $2600</li>
 	<li>Multiply the number of weeks by $200, then subtract from $5000.</li>
-	<li><sidebyside width="50%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Number of weeks</cell>
                         <cell><m>2</m></cell>
@@ -224,7 +224,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                         <cell><m>4600</m></cell>
                         <cell><m>4200</m></cell>
                         <cell><m>4000</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li><m>S=5000-200w</m></li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>To calculate how much state income tax she owes, Francine subtracts $2000 from her income, and then takes 12% of the result.<ol marker="a.">

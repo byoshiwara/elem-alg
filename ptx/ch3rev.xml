@@ -33,7 +33,7 @@
 <li>We use cross-multiplying to solve proportions.</li>
 
 <li><assemblage><title>Property of Proportions</title>
-<p><me>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</me></p></assemblage></li>
+<p><md><mrow>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</mrow></md></p></assemblage></li>
 
 <li>Two variables are said to be <term>proportional</term> if their ratios are always the same.</li></ul></p></subsection>
 
@@ -42,9 +42,9 @@
 
 <li><assemblage><title>Slope</title>
 <p>The <term>slope</term> of a line is defined by the ratio
-	<me>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</me>
+	<md><mrow>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</mrow></md>
 as we move from one point to another on the line. In symbols,
-	<me>\blert{m=\dfrac{\Delta y}{\Delta x}}</me></p></assemblage></li>
+	<md><mrow>\blert{m=\dfrac{\Delta y}{\Delta x}}</mrow></md></p></assemblage></li>
 
 <li>Lines have constant slope. No matter what two points on a line we use to calculate its slope, we always get the same result.</li> 
 <li>The slope of a horizontal line is zero, and the slope of a vertical line is undefined.</li></ul></p></subsection>
@@ -53,7 +53,7 @@ as we move from one point to another on the line. In symbols,
 
 <li><assemblage><title>Slope-Intercept Form</title>
 <p>A linear equation written in the form
-		<me>\blert{y=mx+b}</me>
+		<md><mrow>\blert{y=mx+b}</mrow></md>
 is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage></li>
 
 <li>The constant term in the slope-intercept form tells us the initial value of <m>y</m>, and the coefficient of <m>x</m> tells us the rate of change of <m>y</m> with respect to <m>x</m>.</li>
@@ -73,22 +73,22 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <li><assemblage><title>Parallel and Perpendicular Lines</title>
 <p><ol marker="1.">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
-		<me>\blert{m_1 = m_2}</me>		
+		<md><mrow>\blert{m_1 = m_2}</mrow></md>		
 	or if both lines are vertical.</p></li>
 	<li><p>Two lines are perpendicular if the product of their slopes is <m>-1</m>, that is, if 
-		<me>\blert{m_1 m_2 = -1}</me>
+		<md><mrow>\blert{m_1 m_2 = -1}</mrow></md>
 	or if one of the lines is horizontal and one is vertical.</p></li></ol></p></assemblage></li>
 
 <li><assemblage><title>Horizontal and Vertical Lines</title>
 <p><ol marker="1.">
 	<li><p>The equation of the horizontal line passing through <m>(0,b)</m> is
-			<me>\blert{y=b}</me></p></li>
+			<md><mrow>\blert{y=b}</mrow></md></p></li>
 	<li><p>The equation of the vertical line passing through <m>(a,0)</m> is
-			<me>\blert{x=a}</me></p></li></ol></p></assemblage></li>
+			<md><mrow>\blert{x=a}</mrow></md></p></li></ol></p></assemblage></li>
 
 <li><assemblage><title>Two-Point Formula for Slope</title>
 <p>The slope of the line joining points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
-	<me>\blert{m=\dfrac{y_2-y_1}{x_2-x_1}}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p></assemblage></li></ul></p></subsection>
+	<md><mrow>\blert{m=\dfrac{y_2-y_1}{x_2-x_1}}~~~~~~\text{if}~~~~x_2 \not= x_1</mrow></md></p></assemblage></li></ul></p></subsection>
 
 <subsection><title>Review Questions</title>
 <p>Use complete sentences to answer the questions.<ol marker= "1.">
@@ -207,7 +207,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <exercisegroup><introduction><p>For Problems 15<ndash/>16, decide whether the two variables are proportional.</p></introduction>
 
 <exercise number="15"><statement><p><ol marker="a." cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~D~</m></cell>
                         <cell><m>0.5</m></cell>
@@ -220,8 +220,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
                         <cell><m>2</m></cell>
                         <cell><m>16</m></cell>
                         <cell><m>64</m></cell></row>
-                    </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></li>
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~s~</m></cell>
                         <cell><m>0.2</m></cell>
@@ -234,14 +234,14 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
                         <cell><m>0.32</m></cell>
                         <cell><m>0.64</m></cell>
                         <cell><m>1</m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement>
+                    </tabular></li></ol></p></statement>
 <answer><p><ol marker="a." cols="2">
     <li><p>No</p></li>
     <li><p>Yes</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol marker="a." cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Time</cell>
                         <cell><m>5</m></cell>
@@ -254,8 +254,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
                         <cell><m>2.50</m></cell>
                         <cell><m>3.50</m></cell>
                         <cell><m>4.50</m></cell></row>
-                    </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></li>
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Speed</cell>
                         <cell><m>30</m></cell>
@@ -268,7 +268,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
                         <cell><m>56</m></cell>
                         <cell><m>70</m></cell>
                         <cell><m>84</m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement></exercise>
+                    </tabular></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, use the graph to find the slope of each line, and illustrate <m>\Delta x</m> and <m>\Delta y</m> on the graph.</p></introduction>
@@ -528,17 +528,17 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <answer><p><m>h=36+6t</m></p></answer></exercise>
 
 <exercise number="32"><statement><p>The price of a medium bowl of frozen yogurt is given by the equation 
-    <me>y=1.35+0.85t</me>
+    <md><mrow>y=1.35+0.85t</mrow></md>
 where <m>t</m> is the number of toppings you select. Find the slope and the <m>y</m>-intercept of the graph, and explain what each means in terms of the problem.</p></statement>
 </exercise>
 
 <exercise number="33"><statement><p>Beryl is sailing in a hot air balloon.  Her altitude at <m>t</m> minutes after 2 pm is given in feet by
-    <me>h=500-15t</me>
+    <md><mrow>h=500-15t</mrow></md>
 Find the slope and the <m>h</m>-intercept of the graph, and explain what each means in terms of the problem.</p></statement>
 <answer><p><m>m=-15</m>: Beryl is descending at a rate of 15 ft/sec.</p><p><m>b=500</m>: At 2 pm, Beryl's altitude was 500 ft. </p></answer></exercise>
 
 <exercise number="34"><statement><p>The amount of water in the municipal swimming pool is given in gallons by
-	<me>y=500,000-5000h</me>
+	<md><mrow>y=500,000-5000h</mrow></md>
 where <m>h</m> is the number of hours since they started draining the pool for the winter. State the slope and <m>y</m>-intercept of the equation, and explain their meaning in terms of the problem.</p></statement>
 </exercise>
 
@@ -635,8 +635,8 @@ where <m>h</m> is the number of hours since they started draining the pool for t
 </introduction>
 
 <exercise number="51"><statement><m>4x-3y=12</m></statement>
-<answer><sidebyside width="55%" margins="0% 45%">
-    <image xml:id="cr3-51ans">
+<answer>
+    <image xml:id="cr3-51ans" width="55%" margins="0% 45%">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -654,13 +654,13 @@ where <m>h</m> is the number of hours since they started draining the pool for t
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="52"><statement><m>\dfrac{x}{6}-\dfrac{y}{12}=1</m></statement></exercise>
 
 <exercise number="53"><statement><m>50x=40y-20,000</m></statement>
-<answer><sidebyside width="60%" margins="0% 40%">
-    <image xml:id="cr3-53ans">
+<answer>
+    <image xml:id="cr3-53ans" width="60%" margins="0% 40%">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -678,13 +678,13 @@ where <m>h</m> is the number of hours since they started draining the pool for t
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="54"><statement><m>1.4x+2.1y=8.4</m></statement></exercise>
 
 <exercise number="55"><statement><m>3x-4y=0</m></statement>
-<answer><sidebyside width="80%" margins="0% 20%">
-    <image xml:id="cr3-55ans">
+<answer>
+    <image xml:id="cr3-55ans" width="80%" margins="0% 20%">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -702,13 +702,13 @@ where <m>h</m> is the number of hours since they started draining the pool for t
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="56"><statement><m>x=-4y</m></statement></exercise>
 
 <exercise number="57"><statement><m>4x=-12</m></statement>
-<answer><sidebyside width="70%" margins="0% 30%">
-    <image xml:id="cr3-57ans">
+<answer>
+    <image xml:id="cr3-57ans" width="70%" margins="0% 30%">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -726,7 +726,7 @@ where <m>h</m> is the number of hours since they started draining the pool for t
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></answer></exercise>
+</answer></exercise>
 
 <exercise number="58"><statement><m>2y-x=0</m></statement></exercise>
 </exercisegroup>

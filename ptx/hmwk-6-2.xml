@@ -211,7 +211,7 @@
 </exercise>
 
 <exercise number="27"><statement><p>The revenue you can earn by making and selling <m>n</m> jade bracelets is given in dollars by 
-        <md>R=-2n^2+80n</md><ol marker="a.">
+        <md><mrow>R=-2n^2+80n</mrow></md><ol marker="a.">
     <li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
     <li><p>Complete the table and sketch a graph.</p>
     <sidebyside widths="40% 40%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -288,7 +288,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>The height in feet of a football <m>t</m> seconds after being kicked from the ground is given by
-	   <md>h=-16t^2+80t</md><ol marker="a.">
+	   <md><mrow>h=-16t^2+80t</mrow></md><ol marker="a.">
 	<li>Factor the expression for <m>h</m>.</li>
 	<li><p>Complete the table and sketch a graph.</p>
 	<sidebyside widths="40% 50%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">

@@ -8,11 +8,11 @@
 	<idx><h>polynomial</h></idx>
 
 <p>In previous Lessons we have studied linear (first-degree) expressions, such as the formula for tuition if you take <m>u</m> units,
-	<md>T= 50 + 15u</md>
+	<md><mrow>T= 50 + 15u</mrow></md>
 and quadratic (second-degree) expressions, such as the height of an algebra book thrown off a cliff,
-	<md>h=-16t^2 + 32t + 240</md>
+	<md><mrow>h=-16t^2 + 32t + 240</mrow></md>
 We have even encountered some cubic or third-degree expressions, such as the formula for the volume of a sphere,
-	<md>V=\dfrac{4}{3}\pi r^3</md></p>
+	<md><mrow>V=\dfrac{4}{3}\pi r^3</mrow></md></p>
 
 <p>All of these expressions are part of a larger class of mathematical objects called <term>polynomials</term>. In this section we introduce some terminology used to discuss polynomials and review the algebraic skills used to study them.</p> 
 
@@ -72,7 +72,7 @@ The degree of a polynomial in one variable is the largest exponent that appears 
 <example><statement><p>Write the polynomial <m>~x+3x^4-5-2x^2~</m> in descending powers.</p></statement>
 
 <solution><p>We start with the highest power. We must be careful to keep the correct sign of each term.</p>
-<sidebyside width="80%"><image source="photos/fig-7-1-ex4"><description>graphic</description></image></sidebyside>
+<image source="photos/fig-7-1-ex4" width="80%"><description>graphic</description></image>
 </solution></example>
 
 <exercise number="3"><statement><p>What does it mean to write a polynomial in descending powers?</p></statement>
@@ -114,17 +114,17 @@ are like terms, because <m>x^2y</m> and <m>yx^2</m> are equivalent expressions.<
 
 <assemblage><title>Look Closer</title>
 <p>Which of the following two expressions can be simplified? 
-	<md>3x^2+5x^3~~~~~~\text{and}~~~~~~3x^2+5x^2</md>       	
+	<md><mrow>3x^2+5x^3~~~~~~\text{and}~~~~~~3x^2+5x^2</mrow></md>       	
 In the first expression, the two terms have different exponents, even though the base, <m>x</m>, is the same. Powers of the same variable with different exponents are not like terms. The first expression, <m>3x^2+5x^3</m>, cannot be simplified.</p>
 <p>In the second expression, <m>3x^2</m> and <m>5x^2</m> are like terms.Thus, 
-	<md>3x^2+5x^2=8x^2</md>
+	<md><mrow>3x^2+5x^2=8x^2</mrow></md>
 Note that we do not change the exponent on <m>x</m> in the sum; it is still 2.</p></assemblage>
 
 <example><statement><p>Simplify by combining any like terms:
-	<md>x^3+2x^2-2x^3-(-4x^2)+4x</md></p></statement>
+	<md><mrow>x^3+2x^2-2x^3-(-4x^2)+4x</mrow></md></p></statement>
 
 <solution><p>The terms <m>x^3</m> and <m>-2x^3</m> are like terms; so are <m>2x^2</m> and <m>-4x^2</m>. We group the like terms together and combine them.
-	<md>\blert{x^3-2x^3} + \alert{2x^2-(-4x^2)} + 4x = \blert{-x^3} + \alert{6x^2} + 4x</md>
+	<md><mrow>\blert{x^3-2x^3} + \alert{2x^2-(-4x^2)} + 4x = \blert{-x^3} + \alert{6x^2} + 4x</mrow></md>
 The last term, <m>4x</m>, is not combined with any other terms.</p></solution></example>
 </subsection>
 
@@ -166,14 +166,14 @@ The last term, <m>4x</m>, is not combined with any other terms.</p></solution></
 </solution></example>
 
 <warning><p>In <xref ref="Example-7-1-9" text="type-global"/>, the following second step is <m>\alert{\text{incorrect}}</m>:	
-	<md>4x^2+2x-5-2x^2-3x-2</md>
+	<md><mrow>4x^2+2x-5-2x^2-3x-2</mrow></md>
 because we have not changed the sign of <m>\alert{\text{each}}</m> term inside parentheses.</p></warning>
 
 <p>We can also use a vertical format for subtraction. In this technique, we change the sign of each term in the bottom, or subtracted, polynomial, as shown below.</p>
 
 <example><statement><p>Subtract <m>~2n^2-3n-2~</m> from <m>~4n^2+2n-5</m></p></statement>
 
-<solution><sidebyside><tabular>
+<solution><tabular>
                     <row>
                         <cell><m>~~~~~~~~4n^2+2n-5</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -186,7 +186,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
                     	<cell><m>\hphantom{0000}</m></cell>
                     	<cell><m>\hphantom{0000}</m></cell>
                         <cell><m>~~~~~~~~~~2n^2+5n-3</m></cell></row>
-                    </tabular></sidebyside></solution></example>
+                    </tabular></solution></example>
 
 <exercise number="5"><statement><p>When subtracting two polynomials, what must we do before combining like terms?</p></statement>
     <answer><p>Change the sign of each term in the subtracted polynomial.</p></answer></exercise>
@@ -198,7 +198,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 <p>Applied problems may involve addition or subtraction of polynomials. In particular, to calculate the profit it earns by selling its product, a company must subtract the cost of producing the goods from the revenue it earns by selling them. We can state this as a formula.</p>
 
 <assemblage><title>Profit</title>
-	<p><md>\blert{\text{Profit = Revenue - Cost}}</md></p></assemblage>
+	<p><md><mrow>\blert{\text{Profit = Revenue - Cost}}</mrow></md></p></assemblage>
 
 <example><statement><p>It costs The Cookie Company <m>~200+2x~</m> dollars to produce <m>x</m> bags of cookies per week, and they earn <m>~8x-0.01x^2~</m> dollars from the sale of <m>x</m> bags of cookies.<ol marker="a.">
 	<li>Write a polynomial for the profit earned by The Cookie Company on <m>x</m> bags of cookies.</li>
@@ -211,9 +211,9 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 		<mrow> \amp = 8x-0.01x^2-200-2x\amp \amp \blert{\text{Combine like terms.}}</mrow>
 		<mrow> \amp = -0.01x^2+6x-200</mrow></md></p></li>
 	<li><p>Evaluate the profit polynomial for <m>x=\alert{300}</m> and for <m>x=\blert{600}</m>. For 300 bags of cookies, the profit is
-		<md>-0.01(\alert{300})^2+6(\alert{300})-200 = -900+1800-200=700</md>
+		<md><mrow>-0.01(\alert{300})^2+6(\alert{300})-200 = -900+1800-200=700</mrow></md>
 	or $700. For 600 bags of cookies, the profit is
-		<md>-0.01(\blert{600})^2+6(\blert{600})-200 = -3600+3600-200=-200</md>
+		<md><mrow>-0.01(\blert{600})^2+6(\blert{600})-200 = -3600+3600-200=-200</mrow></md>
 	The company loses $200 if they produce 600 bags of cookies.</p></li>
 </ol></p></solution></example>
 
@@ -270,15 +270,15 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 
 <p><ol marker="1.">
 <li><p>Simplify by combining any like terms.
-	 <md>2a^2b-5ba+4ba^29(-3ab)</md></p></li>
+	 <md><mrow>2a^2b-5ba+4ba^29(-3ab)</mrow></md></p></li>
 
 <li><p>Add the polynomials.
-	 <md>(2m^4-4m^3+3m-1)+(m^3+4m^2-6m+2)</md></p></li>
+	 <md><mrow>(2m^4-4m^3+3m-1)+(m^3+4m^2-6m+2)</mrow></md></p></li>
 
 <li><p>Use a vertical format to add <m>~5y^2-3y+1~</m> to <m>~-3y^2+6y-7</m></p></li>
 
 <li><p>Subtract the polynomials.
-	 <md>(2m^4-4m^3+3m-1)-(m^3+4m^2-6m+2)</md></p></li>
+	 <md><mrow>(2m^4-4m^3+3m-1)-(m^3+4m^2-6m+2)</mrow></md></p></li>
 
 <li><p>Use a vertical format to subtract <m>~2x^2+5-2x~</m> from <m>~7-3x-4x^2</m></p></li>
 
@@ -323,7 +323,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
     <li>Name two places that a variable cannot appear in a polynomial.</li>
 	<li>What do you suppose "ascending powers" means?</li>
 	<li>What is wrong with this statement:
-		<me>5x-(2x+3x^2) = 5x=2x+3x^2</me></li>
+		<md><mrow>5x-(2x+3x^2) = 5x=2x+3x^2</mrow></md></li>
 </ol></p></assemblage>
 </subsubsection>
 

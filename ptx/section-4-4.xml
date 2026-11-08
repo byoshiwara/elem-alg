@@ -10,7 +10,7 @@
 <subsection><title>Interest</title><idx><h>interest</h></idx>
 
 <p>Recall the formula for calculating interest,
-    <md>\blert{I=Prt}</md>
+    <md><mrow>\blert{I=Prt}</mrow></md>
  where <m>I</m> is the interest you will earn after <m>t</m> years if you invest a principal of <m>P</m> dollars in an account that earns simple interest at an annual rate <m>r</m>. </p>
 
  <warning><p>Notice the difference between interest, <m>I</m>, and interest rate, <m>r</m>. The interest rate is a percentage, such as 5%. The interest is the amount of money you earn, usually in dollars.</p></warning>
@@ -24,7 +24,7 @@
         <md><mrow>\amp\blert{\text{Savings}}\amp\amp \blert{I=Prt=}</mrow>
             <mrow>\amp\blert{\text{Credit Union}}\amp\amp \blert{I=Prt=}</mrow></md></p>
 <p>Step 2 Add the earnings from the two investments.
-    <md>\blert{\binom{\text{Total}}{\text{Earnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} </md>
+    <md><mrow>\blert{\binom{\text{Total}}{\text{Earnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} </mrow></md>
     </p></statement>
 <answer><p>$154</p></answer></question>
 
@@ -74,7 +74,7 @@
                 <mrow>\blert{\text{Interest earned on the bonds:}~~~~~~I=Prt=}</mrow></md></p></li>
     <li><p>Finally, suppose that you earned a total of $345 in interest from your two investments.  
     Write an equation about this, using your expressions from part (b).   
-        <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} </me>
+        <md><mrow>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} </mrow></md>
     </p></li></ol></statement>
 <answer><p><ol marker="a.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -160,7 +160,7 @@ Because the first equation is already solved for <m>x</m> in terms of <m>y</m>, 
         <mrow>0.23y \amp = 345   \amp\amp \blert{\text{Divide both sides by 0.23.}}</mrow>
         <mrow>y \amp = 1500</mrow></md>         
 Finally, we substitute <m>y=\alert{1500}</m> into the first equation to find 
-    <me>x=2y=2(\alert{1500})=3000</me>
+    <md><mrow>x=2y=2(\alert{1500})=3000</mrow></md>
 Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
 </solution></example>
 
@@ -177,7 +177,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
 <p>A pharmacist has on hand 20 ounces of a certain drug at 40% strength, but she needs a small quantity of the drug at 75% strength for a prescription. She decides to add a pure form of the drug to the 40% solution. How much should she add to make a mixture of 75% strength?</p>
 
 <p>To solve such problems, we review some properties of percent. We will need the percent formula,
-	<md>\blert{P=rW}</md>
+	<md><mrow>\blert{P=rW}</mrow></md>
 <m>P</m> stands for the part obtained when we take <m>r</m> percent of a whole amount, <m>W</m>.</p>
 
 <question>
@@ -202,7 +202,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
 </ol></p></answer></question>
 	 	
 <warning><p>In the Exercise above, you should find that adding the percent of red marbles in the first two jars does not give the percent of red marbles in the mixture. That is,
-	<md>25\% + 50\% \not= 40\%</md></p></warning>
+	<md><mrow>25\% + 50\% \not= 40\%</mrow></md></p></warning>
 
 <assemblage><title>Percents Don't Add!</title>
 <p>In general, we cannot add percents unless they are percents of the same whole amount.</p>
@@ -305,10 +305,10 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p>
                 </tabular>
 
 <p>Now we can write two equations about the mixture problem. The first equation is about the total number of milliliters mixed together. The chemist must mix <m>x</m> milliliters of one solution with <m>y</m> milliliters of the other solution and end up with 45 milliliters of the mixture, so
-	<md>\blert{\text{Total amount of mixture:}}~~~~~~x+y=45</md></p>
+	<md><mrow>\blert{\text{Total amount of mixture:}}~~~~~~x+y=45</mrow></md></p>
 
 <p>The second equation uses the fact that the acid in the mixture can only come from the acid in each of the two original solutions. We used the last column of the table to calculate how much acid was in each component, and we add these quantities to get the amount of acid in the mixture.
-	<md>\blert{\text{Amount of acid:}}~~~~~~0.20x+0.50y=0.40(45)</md></p>
+	<md><mrow>\blert{\text{Amount of acid:}}~~~~~~0.20x+0.50y=0.40(45)</mrow></md></p>
 
 <p>These two equation make up a system:
 	<md><mrow>x+y=45</mrow>
@@ -321,7 +321,7 @@ We solve the system by elimination. Multiply the first equation by <m>-20</m>, a
         <mrow>\underline{20x+50y} \amp \underline{ {}= 1800\vphantom{y}}</mrow>
         <mrow>30y \amp = 900</mrow></md> 
 Solving for <m>y</m>, we find <m>y=30</m>. We substitute <m>y=\alert{30}</m> into the first equation to find
-	<md>x+\alert{30}=45</md>
+	<md><mrow>x+\alert{30}=45</mrow></md>
 or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 milliliters of the 50% solution for the mixture.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
@@ -392,7 +392,7 @@ We solve the system by substitution. We substitute <m>\alert{5.4y}</m> for <m>x<
         <mrow>540\amp = 2.4y  \amp\amp \blert{\text{Divide both sides by 2.4.}}</mrow>
         <mrow>225 \amp = y</mrow></md>    
 Thus, it took the P waves 225 seconds to arrive at the seismograph. To solve for the distance <m>x</m>, we substitute <m>y=\alert{225}</m> into the first equation to find
-	<md>x=5.4(\alert{225})=1215</md>
+	<md><mrow>x=5.4(\alert{225})=1215</mrow></md>
 The epicenter is located 1215 miles from the seismograph.</p>
 </solution></example>
 

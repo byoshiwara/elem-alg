@@ -292,7 +292,7 @@
 </exercisegroup>
 
 <exercise number="15"><statement><p>The bridge over the Rushing River at Marionville is 48 feet high. Francine stands on the bridge and tosses a rock into the air off the edge of the bridge. The height of the rock above the water <m>t</m> seconds later is given in feet by
-    <md>h=48+32t-16t^2</md><ol marker="a.">
+    <md><mrow>h=48+32t-16t^2</mrow></md><ol marker="a.">
     <li><p>Complete the table of values.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">

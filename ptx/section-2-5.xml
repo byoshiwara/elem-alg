@@ -7,7 +7,7 @@
     <idx><h>equivalent</h><h>expressions</h></idx><idx><h>expression</h><h>equivalent</h></idx>
 
 <p>When we solve an equation such as  
-	<md> 2+3x=17</md>
+	<md><mrow> 2+3x=17</mrow></md>
 we find a value for the variable that makes the equation true.  The solution to this equation is 5, because the two expressions <m>2+3x</m> and 17 are equal if <m>x=5</m>. If we use any other value for <m>x</m>, say <m>x=9</m> or <m>x=-1</m>, then <m>2+3x</m> does not equal 17.</p>
 
 <p>It is possible for two algebraic expressions to be equal for all values of the variable. For instance, the expressions <m>2x+3x</m> and <m>5x</m> will always give the same value when the same number is substituted for <m>x</m> in each expression. For example,
@@ -41,7 +41,7 @@ Because they are not equal for <m>x=6</m>, the expressions <m>2+3x</m> and <m>5x
     <idx><h>term</h><h>like</h></idx><idx><h>like terms</h></idx>
 
 <p>We saw above that <m>2x+3x</m> and <m>5x</m> are equivalent expressions. This makes sense when we consider what these expressions mean: <m>2x</m> means two <m>x</m>'s added together, and <m>3x</m> means three <m>x</m>'s added together. Then
-	<md>2x+3x=(x+x)+(x+x+x)=5x</md>	
+	<md><mrow>2x+3x=(x+x)+(x+x+x)=5x</mrow></md>	
 We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as we can add two pencils to three pencils, or two dollars to three dollars. In algebra this is called <term>combining like terms</term><idx><h>combining like terms</h></idx><idx><h>combining like terms</h><seealso>like terms</seealso></idx>.</p>
 
 <assemblage><title>Like Terms</title>
@@ -120,9 +120,9 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 
 <example xml:id="example-2-5-5"><statement><p>Simplify <m>~-4a+2-5+8a+5a</m></p></statement>
 <solution><p>We combine all the <m>a</m>-terms, and all the constant terms, like this:
-    <md>-4a+8a+5a=9a ~~~~~~~~\text{and}~~~~~~~~2-5=-3</md>
+    <md><mrow>-4a+8a+5a=9a ~~~~~~~~\text{and}~~~~~~~~2-5=-3</mrow></md>
 so
-    <md>-4a+2-5+8a+5a=9a-3</md></p></solution></example>
+    <md><mrow>-4a+2-5+8a+5a=9a-3</mrow></md></p></solution></example>
 
 <warning><p>In <xref ref="example-2-5-5" text="type-global"/>, <m>9a-3 \not= 6a,</m> because <m>9a</m> and <m>-3</m> are not like terms.</p></warning>
 </subsection>
@@ -131,9 +131,9 @@ so
     <idx><h>parentheses</h><h>removing</h></idx>
 
 <p>When we add signed numbers, we can remove parentheses that follow an addition symbol. For instance,
-	<md>5+(-3)=5-3=2</md>
+	<md><mrow>5+(-3)=5-3=2</mrow></md>
 We can also remove parentheses when we add like terms. Thus,
-	<md>5x+(-3x)=5x-3x=2x</md></p>
+	<md><mrow>5x+(-3x)=5x-3x=2x</mrow></md></p>
 
 <assemblage><title>Removing parentheses that follow a plus sign</title><idx><h>parentheses</h><h>removing</h></idx>
 <p>Parentheses preceded by a plus sign may be omitted, and each term within parentheses keeps its original sign.</p></assemblage>
@@ -146,7 +146,7 @@ We can also remove parentheses when we add like terms. Thus,
 </p></solution></example>
 
 <warning><p>We must be careful when removing parentheses preceded by a minus sign. In the expression
-	<md>(5x-2)-(7x-4)</md>
+	<md><mrow>(5x-2)-(7x-4)</mrow></md>
 the minus sign preceding <m>(7x-4)</m> applies to each term inside the parentheses. Therefore, when we remove the parentheses we must change the sign of <m>7x</m> from <m>+</m> to <m>-</m> and we must change the sign of <m>-4</m> from <m>-</m> to <m>+</m>. Thus,
 	<md><mrow>
         (5x-2)-(7x-4)\amp = 5x-2\alert{-}7x\alert{+}4 \amp \amp \blert{\text{Change signs.}}</mrow>
@@ -208,7 +208,7 @@ Now the equation looks like ones we already know how to solve, and we proceed as
         <mrow>\dfrac{10}{\blert{2}} \amp = \dfrac{2x}{\blert{2}}</mrow>
         <mrow>5 \amp = x</mrow></md>
 The solution is 5.
-    <me>\blert{\text{Check:}}~~~~~~~~~~\text{Does}~~2(\alert{5})+7=4(\alert{5})-3?~~~~~~~\blert{\text{True}}</me>
+    <md><mrow>\blert{\text{Check:}}~~~~~~~~~~\text{Does}~~2(\alert{5})+7=4(\alert{5})-3?~~~~~~~\blert{\text{True}}</mrow></md>
 </p></solution></example>
 
 <p>If one side of an equation or inequality contains like terms, we should combine them before beginning to solve.</p>

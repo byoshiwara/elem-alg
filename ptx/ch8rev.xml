@@ -12,7 +12,7 @@
 
 <li><assemblage><title>Fundamental Principle of Fractions</title>
 <p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.
-	<me>\blert{\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}~~~\text{if}~~~b,~c \not= 0}</me></p></assemblage></li>
+	<md><mrow>\blert{\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}~~~\text{if}~~~b,~c \not= 0}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>To Reduce an Algebraic Fraction</title><p><ol marker="1.">
 	<li>Factor numerator and denominator completely.</li>
@@ -23,14 +23,14 @@
 
 <li><assemblage><title>Negative of a Binomial</title>
 <p>	The opposite of  <m>a-b</m>  is 
-	<me>\blert{-(a-b) = -a+b = b-a}</me></p></assemblage> </li></ul></p>
+	<md><mrow>\blert{-(a-b) = -a+b = b-a}</mrow></md></p></assemblage> </li></ul></p>
 </subsection> 
 
 <subsection><title>Lesson 8.2 Operations on Algebraic Fractions</title><p><ul>
 
 <li><assemblage><title>Product of Fractions</title>
 	<p>If <m>~b \not= 0~</m> and <m>~d \not= 0~</m>, then
-		<me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage></li>
+		<md><mrow>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>To Multiply Algebraic Fractions</title><p><ol marker="1.">
 	<li>Factor each numerator and denominator completely.</li>
@@ -40,7 +40,7 @@
 
 <li><assemblage><title>Quotient of Fractions</title>
 <p>	If <m>b,~c,~,d \not= 0</m>,  then
-	<me>\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}</me></p></assemblage></li>
+	<md><mrow>\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>To Divide One Fraction by Another</title><p><ol marker="1.">
 	<li>Take the reciprocal of the second fraction and change the division to multiplication.</li>
@@ -50,7 +50,7 @@
 
 <li><assemblage><title>Sum or Difference of Like Fractions</title>
 <p>If <m>c \not= 0</m>,  then    
-	<me>\blert{\dfrac{a}{c}+\dfrac{b}{c}= \dfrac{a+b}{c}}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{c}-\dfrac{b}{c}= \dfrac{a-b}{c}}</me></p></assemblage></li>
+	<md><mrow>\blert{\dfrac{a}{c}+\dfrac{b}{c}= \dfrac{a+b}{c}}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{c}-\dfrac{b}{c}= \dfrac{a-b}{c}}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>To Add or Subtract Like Fractions</title><p><ol marker="1.">
 	<li>Add or subtract the numerators.</li>

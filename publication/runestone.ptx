@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <publication>
-    <common>
-    <tableofcontents level="2"/>
+<common>
+<tableofcontents level="2"/>
         <fillin textstyle="underline" mathstyle="box"/>
         <exercise-divisional answer="no" solution="no"/>
-    </common>
+</common>
     <numbering>
         <divisions level="2"/>
         <projects level="1"/>
         <blocks level="1"/>
     </numbering>
     <source>
-        <directories external="../ext" generated="../gen"/>
+<!--        <directories external="../ext" generated="../gen"/> -->
     </source>
 
     <epub>
@@ -23,6 +23,7 @@
     <!-- HTML-Specific Options -->
     <html>
         <platform host="runestone"/>
+        <brandlogo url="https://yoshiwarabooks.org/" source="photos/cover.png" />
         <calculator model="geogebra-graphing"/>
         <mathjax version="4"/>
         <index-page ref="preface"/>

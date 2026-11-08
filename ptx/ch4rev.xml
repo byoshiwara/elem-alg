@@ -8,7 +8,7 @@
 
 <li><assemblage><title>Distributive Law</title>
 <p>If <m>a,~ b,</m> and <m>c</m> are any numbers, then
-		<me>\blert{a(b+c) = ab + ac}</me></p></assemblage></li>
+		<md><mrow>\blert{a(b+c) = ab + ac}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>Steps for Solving Linear Equations</title><p><ol marker="1.">
 	<li>Use the distributive law to remove any parentheses.</li>
@@ -53,24 +53,24 @@
 <li><assemblage><title>When Using Elimination to Solve a System</title>
 <p><ol marker="1.">
 	<li>If combining the two equations results in an equation of the form
-		<me>0x+0y=k~~~~(k \not= 0)</me>
+		<md><mrow>0x+0y=k~~~~(k \not= 0)</mrow></md>
 	then the system is inconsistent.</li>
 	<li>If combining the two equations results in an equation of the form
-		<me>0x+0y=0</me>
+		<md><mrow>0x+0y=0</mrow></md>
 	then the system is dependent.</li></ol></p></assemblage></li></ul></p>
 </subsection>
 
 <subsection><title>Lesson 4.4 Applications of Systems</title><p><ul>
 <li>We can use tables to organize the information in applications involving interest, mixtures, or motion.</li>
 <li>The formula for calculating interest is
-		<me>\blert{I=Prt}</me>
+		<md><mrow>\blert{I=Prt}</mrow></md>
     <m>I</m> is the interest you will earn after <m>t</m> years if you invest a principal of <m>P</m> dollars in an account that earns simple interest at an annual rate <m>r</m>.</li>  
 <li>The formula for calculating percents is 
-		<me>\blert{P-rW}</me>
+		<md><mrow>\blert{P-rW}</mrow></md>
 	<m>P</m> stands for the part obtained when we take <m>r</m> percent of a whole amount, <m>W</m>.</li>
 <li>In general, we cannot add percents unless they are percents of the same whole amount.</li>
 <li>To solve problems involving motion at a constant speed we use the formula
-		<Me>\blert{D=RT}</Me>
+		<md><mrow>\blert{D=RT}</mrow></md>
 <m>D</m> stands for the distance you travel at speed <m>R</m> in time <m>T</m>.</li></ul></p>
 </subsection>
 
@@ -78,9 +78,9 @@
 
 <li><assemblage><title>Point-Slope Formula</title>
 <p>To find an equation for the line of slope <m>m</m> passing through the point <m>(x_1,y_1)</m>, we use the <term>point-slope formula</term>
-<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>  
+<md><mrow>\blert{\dfrac{y-y_1}{x-x_1} = m}</mrow></md>  
 or
-<me>\blert{y-y_1 = m(x-x_1)}</me></p></assemblage></li>
+<md><mrow>\blert{y-y_1 = m(x-x_1)}</mrow></md></p></assemblage></li>
 
 <li><assemblage><title>To Fit a Line through Two Points</title><p><ol marker="1.">
 	<li>Compute the slope between the two points.</li>

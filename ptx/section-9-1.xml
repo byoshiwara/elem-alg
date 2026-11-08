@@ -17,15 +17,15 @@
 
 <solution><p><ol marker="a.">
 	<li><p>To multiply two powers with the same base, we add the exponents and leave the base unchanged.
-		<md>5^2 \cdot 5^6 = 5^8</md></p></li>
+		<md><mrow>5^2 \cdot 5^6 = 5^8</mrow></md></p></li>
 	<li><p>To divide two powers with the same base, we subtract the smaller exponent from the larger.  If the larger exponent occurs in the numerator, we put the power in the numerator.
-		<md>\dfrac{3^7}{3^2} = 3^5~~~~~~~~\blert{\text{Larger exponentis in the numerator.}}</md></p></li>
+		<md><mrow>\dfrac{3^7}{3^2} = 3^5~~~~~~~~\blert{\text{Larger exponentis in the numerator.}}</mrow></md></p></li>
 	<li><p>If the larger exponent occurs in the denominator, we put the power in the denominator.                          		
-		<md>\dfrac{2^3}{2^5} = \dfrac{1}{2^2}~~~~~~~~\blert{\text{Larger exponent is in the denominator.}}</md</p></li>
+		<md><mrow>\dfrac{2^3}{2^5} = \dfrac{1}{2^2}~~~~~~~~\blert{\text{Larger exponent is in the denominator.}}</mrow></md></p></li>
 </ol></p></solution></example>
 
 <warning><p>In <xref ref="Example-9-1-1" text="type-global"/>a, it is not correct to multiply the bases: 
-	<md>5^2 \cdot 5^6 \rightarrow 25^8~~~~~~~~\alert{\text{Incorrect!}}</md>
+	<md><mrow>5^2 \cdot 5^6 \rightarrow 25^8~~~~~~~~\alert{\text{Incorrect!}}</mrow></md>
 The exponents tell us how many copies of the base to multiply together, but the base does not change when we apply the first law of exponents.</p></warning>
 
 <exercise number="1"><statement><p>Why do we add exponents when we multiply powers with the same base?</p></statement>
@@ -37,7 +37,7 @@ The exponents tell us how many copies of the base to multiply together, but the 
 	<idx><h>exponent</h><h>first law</h></idx>
 	<idx><h>exponent</h><h>second law</h></idx>
 <p>First Law of Exponents
-	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
+	<md><mrow>\blert{a^m \cdot a^n = a^{m+n}}</mrow></md></p>	
 <p>Second Law of Exponents
 	<md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
 		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></p>
@@ -51,13 +51,13 @@ The exponents tell us how many copies of the base to multiply together, but the 
 	<idx><h>power</h><h>of a power</h><seealso>exponent</seealso></idx>
 
 <p>Consider the expression <m>~(x^4)^3</m>, or the cube of <m>x^4</m>. We can simplify this expression as follows.     
-	<md>(x^4)^3 = (x^4)(x^4)(x^4) = x^{4+4+4} = x^{12}~~~~~~\blert{\text{Add exponents.}}</md>
+	<md><mrow>(x^4)^3 = (x^4)(x^4)(x^4) = x^{4+4+4} = x^{12}~~~~~~\blert{\text{Add exponents.}}</mrow></md>
 We wrote <m>~(x^4)^3~</m> as a repeated product and applied the first law of exponents to add the exponents. Of course, because repeated addition is actually multiplication, we can just multiply the exponents together: <m>~3(4)=12</m>. This gives us another rule.</p>
 
 <assemblage><title>Third Law of Exponents</title>
 	<idx><h>exponent</h><h>third law</h></idx>
 <p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
-	<md>\blert{(a^m)^n = a^{mn}}</md></p></assemblage>
+	<md><mrow>\blert{(a^m)^n = a^{mn}}</mrow></md></p></assemblage>
 
 <example><statement><p>Simplify each power of a power. <ol marker="a.">
 	<li><p><m>(b^2)^4 = b^{2 \cdot 4} = b^8~~~~~~~~~~~~\blert{\text{Multiply exponents.}}</m></p></li>
@@ -86,7 +86,7 @@ Thus, to raise a product to a power we can raise each factor to the power. This 
 <assemblage><title>Fourth Law of Exponents</title>
 	<idx><h>exponent</h><h>fourth law</h></idx>
 <p>To raise a product to a power, raise each factor to the power. In symbols,
-	<md>\blert{(ab)^n = a^nb^n}</md></p></assemblage>
+	<md><mrow>\blert{(ab)^n = a^nb^n}</mrow></md></p></assemblage>
 
 <example><statement><p>Simplify each power of a product. <ol marker="a.">
 	<li><p><m>(5ab)^2 = 5^2a^2b^2 = 25a^2b^2~~~~~~~~\blert{\text{Square each factor.}}</m></p></li>
@@ -115,7 +115,7 @@ This example suggests the following rule.</p>
 <assemblage><title>Fifth Law of Exponents</title>
 	<idx><h>exponent</h><h>fifth law</h></idx>
 <p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
-	<md>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</md></p></assemblage>
+	<md><mrow>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</mrow></md></p></assemblage>
 
 <example><statement><p>Simplify each power of a quotient. <ol marker="a.">
 	<li><p><m>\left(\dfrac{x}{y}\right)^5 = \dfrac{x^5}{y^5} ~~~~~~~~~~ \blert{\text{Raise top and bottom to the fifth power.}}</m></p></li>
@@ -158,7 +158,7 @@ Now multiply the result by <m>~2x^2y~</m> and apply the first law to obtain
 <example><statement><p>Simplify  <m>~~(-x)^4(-xy)^3</m></p></statement>
 
 <solution><p>Each power should be simplified before we compute their product. Because <m>4</m> is an even exponent, <m>~(-x)^4~</m> is positive, so
-	<md>(-x)^4 = x^4</md>
+	<md><mrow>(-x)^4 = x^4</mrow></md>
 To simplify <m>(-xy)^3</m>,  we apply the fourth law of exponents:
 	<md><mrow>(-xy)^3 \amp = (-x)^3y^3 ~~~~\blert{\text{3 is an odd power, so} ~(-x)^3 = -x^3.}</mrow>
           <mrow>\amp = -x^3y^3</mrow></md>

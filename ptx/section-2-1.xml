@@ -29,7 +29,7 @@
 <assemblage><title>Integers</title>
 	<idx><h>integer</h></idx>
 <p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
-    <md> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</md></p></assemblage> 
+    <md><mrow> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</mrow></md></p></assemblage> 
 
 <p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
 
@@ -161,7 +161,7 @@ Thus, the sign of the sum is the same as the sign of the two terms. To find the 
 	<idx><h>number line</h><h>adding numbers with the opposite signs</h></idx>
 
 <p>Suppose you have debts of $9, and assets of $6. (Your "assets" are your possessions.) What is your net worth?  We can model this situation by the sum
-	<md>-9+(+6)</md>
+	<md><mrow>-9+(+6)</mrow></md>
 where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-\$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
 
 <assemblage><title>The sum of two numbers with opposite signs</title>
@@ -224,7 +224,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 <subsection><title>Subtracting a Positive Number</title>
 	<idx><h>number line</h><h>subtracting a positive number</h></idx>
 <p>Let's compare the two problems:
-	<md>9+(-5)~~~~\text{and}~~~~9-(+5)</md></p>
+	<md><mrow>9+(-5)~~~~\text{and}~~~~9-(+5)</mrow></md></p>
 
 <assemblage><title>Subtracting a positive number</title>
 <p>Illustrate the sum <m>~9+(-5)</m> on a number line.<ol marker="1.">
@@ -313,7 +313,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 
 <assemblage><title>Look Closer</title>
 <p>Notice that
-	<md>5-(-3)=8 ~~~~~ \text{and} ~~~~~5+(+3)=8</md>
+	<md><mrow>5-(-3)=8 ~~~~~ \text{and} ~~~~~5+(+3)=8</mrow></md>
 Subtracting a negative number has the same result as adding the positive number with the same absolute value. Thus, to subtract a negative number, we add its opposite.</p></assemblage>
 
 <exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
@@ -427,18 +427,18 @@ Subtracting a negative number has the same result as adding the positive number 
 
 <assemblage><title>Look Closer</title>
 <p>At first it may be difficult to understand why subtracting a negative number is the same as adding a positive number. Try thinking in terms of debts and assets. For example, suppose you have $25 in your wallet, and you have $5 in your hand to pay off a debt you owe a friend. If your friend now cancels (or subtracts) the debt, you are actually $5 richer: 
-	<md>25-(-5)=30</md></p></assemblage>
+	<md><mrow>25-(-5)=30</mrow></md></p></assemblage>
 
 <warning><p>For simple subtractions we don't really need the subtraction rule. For example, we can subtract <m>11-5</m>  just as we did in arithmetic:
-	<md>11-5=6</md>
+	<md><mrow>11-5=6</mrow></md>
 However, if the subtraction involves negative numbers, it is usually easier to use the subtraction rule.  Thus,
-	<md>11-(-5)=11+(+5)=16</md></p></warning>
+	<md><mrow>11-(-5)=11+(+5)=16</mrow></md></p></warning>
 
 <assemblage><title>Look Ahead</title>
 <p>We can interpret the expression <m>7-9</m> either as a subtraction or as an addition: 
-	<md>7-(+9) ~~~~~ \text{or} ~~~~~ 7+(-9)</md>
+	<md><mrow>7-(+9) ~~~~~ \text{or} ~~~~~ 7+(-9)</mrow></md>
  Both give the same result, <m>-2</m>.  Because addition is easier than subtraction, it is better to think of a long expression such as	
- 	<md>7-9+12-6</md>
+ 	<md><mrow>7-9+12-6</mrow></md>
  as a sum of signed numbers. To do this, we add all the numbers together, and the <m>+</m> or <m>-</m> sign in front of each number tells us whether that number is positive or negative. </p></assemblage>
 
  <p>Remember that additions should be performed in order from left to right.</p>
@@ -451,9 +451,9 @@ However, if the subtraction involves negative numbers, it is usually easier to u
 </p></solution></example>
 
 <warning><p>The following calculation is incorrect:
-	<md>16-\blert{9-4}+3~=~16-\blert{5}+3~=~11+3~=~14~~~~~~\alert {\leftarrow \text{Incorrect!}}</md>
+	<md><mrow>16-\blert{9-4}+3~=~16-\blert{5}+3~=~11+3~=~14~~~~~~\alert {\leftarrow \text{Incorrect!}}</mrow></md>
 We must perform additions and subtractions in order from left to right:
-	<md>\blert{16-9}-4+3~=~\blert{7}-4+3~=~3+3~=~6</md></p></warning>
+	<md><mrow>\blert{16-9}-4+3~=~\blert{7}-4+3~=~3+3~=~6</mrow></md></p></warning>
 </subsection>
 
 <subsection><title>Multiplying Signed Numbers</title>
@@ -464,9 +464,9 @@ We must perform additions and subtractions in order from left to right:
 <subsubsection><title>The product of numbers with opposite signs</title>
 
 <p>We can think of multiplication as repeated addition.  For example,
-	<md>3(2)~~~~~\text{means}~~~~~2+2+2~~~~~\text{The sum of three 2's}</md>
+	<md><mrow>3(2)~~~~~\text{means}~~~~~2+2+2~~~~~\text{The sum of three 2's}</mrow></md>
 Similarly,
-	<md>3(-2)~~~~~\text{means}~~~~~-2+(-2)+(-2)~~~~~\text{The sum of three}~ -2\text{'s}</md>
+	<md><mrow>3(-2)~~~~~\text{means}~~~~~-2+(-2)+(-2)~~~~~\text{The sum of three}~ -2\text{'s}</mrow></md>
 which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe three different people 2 dollars each, then you are 6 dollars in debt.</p>
 <p>Because multiplication is commutative, it is also true that <m>-2(3)=-6</m>. This example illustrates the following fact.</p>
 
@@ -523,9 +523,9 @@ Based on the pattern in these calculations, the following rule seems reasonable.
 
 <subsubsection>
 <p>Division is the inverse operation for multiplication. For example, we know that
-	<md>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</md>
+	<md><mrow>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</mrow></md>
 Thus, every division fact can be converted into an equivalent multiplication fact. For example,
-	<md>\text{The division fact}~~\dfrac{\blert{400}}{16}=25~~~~\text{is equivalent to}~~~~16 \cdot 25 = \blert{400}</md>
+	<md><mrow>\text{The division fact}~~\dfrac{\blert{400}}{16}=25~~~~\text{is equivalent to}~~~~16 \cdot 25 = \blert{400}</mrow></md>
 Note that the numerator in the division fact becomes the product in the multiplication fact. The same relationship between multiplication and division holds for negative numbers as well.</p>
 
 <example><statement><p>Rewrite each division fact as a multiplication fact.<ol marker="a." cols="2">
@@ -574,9 +574,9 @@ Note that the numerator in the division fact becomes the product in the multipli
 <assemblage><title>Standard Form for Fractions</title>
 	<idx><h>standard form</h><h>of writing negative fractions</h></idx><idx><h>fractions</h><h>standard form for writing negative fraction</h></idx>
 <p>A negative fraction is written in <term>standard form</term> when the minus sign is in the numerator:  <m>\dfrac{-a}{b}</m>.
-	<md>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</md>
+	<md><mrow>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</mrow></md>
 The standard form for a positive fraction has positive numerator and denominator.
-	<md>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</md></p></assemblage>
+	<md><mrow>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</mrow></md></p></assemblage>
 </subsubsection>
 
 <subsubsection><title>Quotients Involving Zero</title>
@@ -584,13 +584,13 @@ The standard form for a positive fraction has positive numerator and denominator
 	<idx><h>division</h><h>involving zero</h></idx>
 
 <p>	What is the meaning of an expression such as <m>~\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
-	<md>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</md> 
+	<md><mrow>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</mrow></md> 
 What number can we substitute for the question mark to make <m>~2 \cdot \alert{?} = 0~</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
-	<md>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</md>
+	<md><mrow>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</mrow></md>
 In general, 0 divided by any (non-zero) number is 0.</p>
 
 <p>Now consider a quotient with zero in the denominator, such as <m>\dfrac{2}{0}</m>.
-	<md>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</md>
+	<md><mrow>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</mrow></md>
 What number can we substitute for the question mark to make <m>~0 \cdot \alert{?} = 2~</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term>
 	<idx><h>undefined</h><h>quotient</h></idx>. 
 In general, we cannot divide any number by zero.
@@ -602,7 +602,7 @@ In general, we cannot divide any number by zero.
 	<idx><h>undefined</h><h>quotient</h></idx>
 	<idx><h>undefined</h><h>division by zero</h></idx>
 <p>If <m>a</m> is any nonzero number, then
-	<me>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</me></p>
+	<md><mrow>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</mrow></md></p>
 </assemblage>
 
 <example><statement><p><ol marker="a." cols="2">

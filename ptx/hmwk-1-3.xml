@@ -350,7 +350,7 @@
 <exercisegroup><introduction><p>Use the three steps in the Lesson to make the graphs in Problems 15<ndash/>17.</p></introduction>
 
 <exercise number="15"><statement><p>The college Bookstore charges a 25% markup over wholesale prices. If the wholesale price of a book is <m>w</m> dollars, the bookstore's price <m>p</m> is given by
-	<md>p=1.25w</md>
+	<md><mrow>p=1.25w</mrow></md>
 <ol marker="a.">
 	<li>How much does the bookstore charge for a book whose wholesale price is $28?</li>
 	<li>Evaluate the formula to find the bookstore's price for various books. 
